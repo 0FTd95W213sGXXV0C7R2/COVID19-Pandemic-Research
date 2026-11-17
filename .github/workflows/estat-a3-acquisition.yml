@@ -1,0 +1,33 @@
+name: e-Stat A3 mortality acquisition and audit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  acquire-a3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check requests==2.32.5
+      - name: Acquire e-Stat A3 monthly mortality data
+        env:
+          ESTAT_APP_ID: \${{ secrets.ESTAT_APP_ID }}
+        run: python scripts/acquire_estat_a3.py
+      - name: Upload raw source and audit outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: estat-a3-mortality-\${{ github.run_id }}
+          path: artifacts/a3/
+          if-no-files-found: warn
+          retention-days: 14
