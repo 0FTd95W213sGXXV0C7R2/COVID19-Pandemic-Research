@@ -119,6 +119,8 @@ def inspect_csv(path: Path) -> dict:
     dates = []
     duplicate_dates = 0
     seen_dates = set()
+    unparsed_dates = []
+    date_formats = ("%Y/%m/%d", "%Y-%m-%d", "%Y%m%d")
     for row in reader:
         rows += 1
         for name in headers:
@@ -128,10 +130,20 @@ def inspect_csv(path: Path) -> dict:
         if date_column:
             value = (row.get(date_column) or "").strip()
             if value:
-                if value in seen_dates:
-                    duplicate_dates += 1
-                seen_dates.add(value)
-                dates.append(value)
+                parsed_date = None
+                for date_format in date_formats:
+                    try:
+                        parsed_date = datetime.strptime(value, date_format).date()
+                        break
+                    except ValueError:
+                        continue
+                if parsed_date is None:
+                    unparsed_dates.append(value)
+                else:
+                    if parsed_date in seen_dates:
+                        duplicate_dates += 1
+                    seen_dates.add(parsed_date)
+                    dates.append(parsed_date)
 
     return {
         "encoding": encoding_used,
@@ -141,11 +153,12 @@ def inspect_csv(path: Path) -> dict:
         "missing_values_by_column": missing,
         "date_column_candidates": date_candidates,
         "date_column_used_for_audit": date_column,
-        "date_min": min(dates) if dates else None,
-        "date_max": max(dates) if dates else None,
+        "date_min": min(dates).isoformat() if dates else None,
+        "date_max": max(dates).isoformat() if dates else None,
         "duplicate_date_values": duplicate_dates if date_column else None,
+        "unparsed_date_values": unparsed_dates[:20],
         "date_audit_note": (
-            "Heuristic only; confirm the official date definition before analysis."
+            "Parsed supported date formats chronologically; confirm the official date definition before analysis."
             if date_column else
             "No unique date column was inferred; inspect the columns manually."
         ),
