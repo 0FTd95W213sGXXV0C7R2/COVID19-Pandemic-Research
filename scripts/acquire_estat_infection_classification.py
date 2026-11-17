@@ -13,7 +13,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 YEARS = {"2020000000": 2020, "2021000000": 2021, "2022000000": 2022,
          "2023000000": 2023, "2024000000": 2024}
 MONTHS = {f"{m:02d}": m for m in range(1, 13)}
-MONTH_CODES = {f"{m+10:05d}": m for m in range(1, 13)}  # e-Stat monthly codes 00110..00220
+MONTH_CODES = {f"{100 + 10*m:05d}": m for m in range(1, 13)}  # e-Stat monthly codes 00110..00220
 
 def fail(msg):
     raise RuntimeError(msg)
