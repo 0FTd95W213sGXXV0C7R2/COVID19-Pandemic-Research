@@ -77,26 +77,34 @@ def main():
     raw_files = [meta_path.name]
     request_diagnostics = []
 
-    # e-Stat API cdTime is a single-code filter. Query each year separately;
-    # a comma-separated list was silently reduced to the final year in the
-    # first run, despite being echoed in PARAMETER.
+    # cdCat01 is a single-code filter in e-Stat API v3.0.
+    # Request each month separately; do not pass a comma-separated code list.
     for time_code, year in YEARS.items():
         common = {"cdTab":"10100","cdCat02":SEX,"cdCat03":CAUSE,"cdTime":time_code}
-        month_obj = get_api("getStatsData", {**base,**common,"cdCat01":",".join(MONTHS)})
-        month_path = save_json(f"estat_a3_monthly_raw_{year}.json", month_obj)
-        raw_files.append(month_path.name)
-        month_rows = get_values(month_obj)
-        request_diagnostics.append({
-            "year":year,"time_code":time_code,"request_type":"monthly",
-            "returned_rows":len(month_rows),
-            "returned_time_codes":sorted({str(x.get("@time","")) for x in month_rows})
-        })
-        for row in month_rows:
-            yc, mc = str(row.get("@time","")), str(row.get("@cat01",""))
-            if yc == time_code and mc in MONTHS and str(row.get("@cat02")) == SEX and str(row.get("@cat03")) == CAUSE:
-                key = (year, MONTHS[mc])
-                if key in monthly: die(f"Duplicate monthly row: {key}")
-                monthly[key] = parse_count(row.get("$",""), str(key))
+        for month_code, month_number in MONTHS.items():
+            month_obj = get_api("getStatsData", {**base,**common,"cdCat01":month_code})
+            month_path = save_json(f"estat_a3_monthly_raw_{year}_{month_number:02d}.json", month_obj)
+            raw_files.append(month_path.name)
+            month_rows = get_values(month_obj)
+            request_diagnostics.append({
+                "year":year,"month":month_number,"time_code":time_code,
+                "month_code":month_code,"request_type":"monthly",
+                "returned_rows":len(month_rows),
+                "returned_time_codes":sorted({str(x.get("@time","")) for x in month_rows})
+            })
+            matched = [
+                row for row in month_rows
+                if str(row.get("@time")) == time_code
+                and str(row.get("@cat01")) == month_code
+                and str(row.get("@cat02")) == SEX
+                and str(row.get("@cat03")) == CAUSE
+            ]
+            if len(matched) != 1:
+                die(f"Expected exactly one row for {(year, month_number)}; got {len(matched)}")
+            key = (year, month_number)
+            if key in monthly:
+                die(f"Duplicate monthly row: {key}")
+            monthly[key] = parse_count(matched[0].get("$",""), str(key))
 
         total_obj = get_api("getStatsData", {**base,**common,"cdCat01":MONTH_TOTAL})
         total_path = save_json(f"estat_a3_annual_total_raw_{year}.json", total_obj)
