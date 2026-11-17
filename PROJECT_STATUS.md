@@ -192,3 +192,14 @@ The new research plan supersedes the previous "Immediate Priorities" and any ins
 - Bulk acquisition and statistical analysis are paused until Phase 1 is approved. No old-MASTER audit, value matching or repair is the next task.
 - Notion research-plan page contains the full redesigned analysis policy: https://app.notion.com/p/41bffd9b97358133a48de75d8b2215e9
 - GitHub `RESEARCH_PLAN.md` was rewritten to match this policy. Commit: `cca9a3728c860ae2aaa0d20c8d53270cc71f8d5f`.
+
+
+## A3 e-Stat monthly mortality acquisition — 2026-11-17 16:10 JST
+
+- Official e-Stat table 0003411700 exposes the required dimensions: month, sex, simplified cause-of-death classification and annual time axis; years 2020–2023 are present. COVID-19 cause code: 22201.
+- The e-Stat API requires a registered application ID (appId). API documentation: https://www.e-stat.go.jp/api/api-info/e-stat-manual3-0
+- Added `scripts/acquire_estat_a3.py` and manual workflow `.github/workflows/estat-a3-acquisition.yml`.
+- The script requests 48 month cells plus four annual total cells, preserves raw API JSON, writes a normalized CSV and SHA-256 manifest, and stops on any missing/duplicate/non-numeric cell or annual mismatch.
+- The workflow expects the GitHub Actions repository secret `ESTAT_APP_ID`; raw data are uploaded as a 14-day artifact and are not committed to Git.
+- **Pending:** the secret has not been configured and the workflow has not been executed. Therefore, no monthly values have been acquired or validated yet.
+- Do not treat A3 as data-complete until all 48 values are present and annual reconciliation passes.
