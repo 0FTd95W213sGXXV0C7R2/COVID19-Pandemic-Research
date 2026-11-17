@@ -37,3 +37,14 @@
 - 保護対象MASTERを変更・削除しない。
 - 原データを無断でGitHubにアップロードしない。
 - 未検証の分析結果を確定結果として扱わない。
+
+## GitHub Actions: MHLW M1 Acquisition
+
+記録日時：2026-11-17 14:45:29 JST
+
+- `scripts/acquire_mhlw_m1.py` を追加。登録済みの厚労省CSV 4系列を取得し、ファイルサイズ・SHA-256・文字コード・列名・行数・欠損数・日付候補・重複日を監査する。
+- `.github/workflows/mhlw-m1-acquisition-audit.yml` を追加。GitHub Actionsの `workflow_dispatch` による手動実行のみ。自動定期実行は設定していない。
+- 成果物は14日間のActions Artifactとして保存し、Gitへの原データコミットは行わない。既存の `data/raw/*` のgitignoreも維持。
+- 読み込み時の定義確認や分析採用可否は別工程。特に入院関連CSVは既知の乖離が解消するまで監査専用とし、主分析へ投入しない。
+- 2ファイルはGitHub上で作成済み・再取得確認済み。
+- **未実施**：GitHub Actionsの初回実行。GitHubコネクタからworkflow_dispatchを呼び出す機能がないため、GitHubのActions画面から初回の手動実行が必要。実行成功・取得成功とはまだ判定しない。
