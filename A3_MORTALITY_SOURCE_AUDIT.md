@@ -60,3 +60,15 @@ MHLW's comparison document for deaths by death-certificate information vs. vital
 - Monthly 2020–2023 raw data: **not yet acquired; validation incomplete**.
 - Analysis: **not started**.
 - No legacy MASTER values or derived data were used.
+
+
+## Reproducible acquisition pipeline prepared — 2026-11-17 16:10 JST
+
+- e-Stat API documentation confirms that data acquisition through the API requires an application ID (appId), obtained by registering an e-Stat user account: https://www.e-stat.go.jp/api/api-info/e-stat-manual3-0
+- The official table page confirms that table 0003411700 exposes monthly, sex, cause and annual dimensions, including years 2020–2023 and cause code 22201.
+- Added `scripts/acquire_estat_a3.py` to request the 48 monthly observations (total sex, COVID-19 cause, month-of-death basis), plus the four annual-total cells. It preserves raw metadata and raw API responses, produces a CSV and SHA-256 manifest, and fails closed on missing/duplicate/non-numeric observations or annual reconciliation differences.
+- Added `.github/workflows/estat-a3-acquisition.yml`, manually triggered only. It expects the repository Actions secret `ESTAT_APP_ID`, uploads the raw source responses and audit outputs as a 14-day artifact, and does not commit raw data.
+- Workflow expression interpolation was corrected and the saved workflow was re-fetched to verify the expressions.
+- **Not yet executed:** the repository secret `ESTAT_APP_ID` has not been provided/configured through this workflow, and the current execution environment cannot directly download the e-Stat API response. No monthly values are claimed as acquired.
+- Next action: configure the e-Stat application ID as a repository Actions secret named `ESTAT_APP_ID`, then run the workflow manually from GitHub Actions. Review the artifact and annual reconciliation before accepting the 48 monthly cells.
+- No legacy MASTER or legacy derived data was read or used.
