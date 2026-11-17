@@ -122,3 +122,17 @@
 2. 既存MASTERの対応系列と項目単位で照合し、差異・欠測・期間差を記録。
 3. 3つのM1系列について利用可否を判定する。入院関連CSVは既知の不一致解消まで分析投入禁止。
 4. 監査完了前に統計分析へ進まない。
+
+
+### 再実行Artifact内CSVの個別SHA-256
+
+記録日時：2026-11-17 14:54:11 JST
+
+| ファイル | サイズ(bytes) | SHA-256 |
+|---|---:|---|
+| newly_confirmed_cases_daily.csv | 202,245 | 6493df56c3b46ee15bae36e69de1c176562e8535efd95b0aa15452d61e6ad9d7 |
+| severe_cases_daily.csv | 130,329 | 9a3947cf629c12461978b1d847e668ef33500c354dc1892bf7727d3d0a9d5a61 |
+| deaths_cumulative_daily.csv | 200,118 | 4dc69ea34da6bc6ba7874568b7f95560d06d63a4e012d8261f84bdaff00dc7f0 |
+| requiring_inpatient_care_etc_daily.csv | 676,410 | 702f451366d76d18a3435e0e794ae90e534e658793fbef301759db05c8d832a4 |
+
+各SHA-256はArtifactから展開した実ファイルを独立に計算し、監査JSONの値と一致することを確認。
