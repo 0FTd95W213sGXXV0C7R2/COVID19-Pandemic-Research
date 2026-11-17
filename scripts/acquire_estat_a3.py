@@ -19,17 +19,19 @@ OUT.mkdir(parents=True, exist_ok=True)
 def die(message):
     raise RuntimeError(message)
 
-def get_api(name, params):
+def get_api(name, params, raw_name=None):
     r = requests.get(f"{API}/{name}", params=params, timeout=(20,120))
     r.raise_for_status()
     try:
         obj = r.json()
     except ValueError:
         die(f"{name}: response is not JSON")
+    if raw_name:
+        save_json(raw_name, obj)
     root = "GET_META_INFO" if name == "getMetaInfo" else "GET_STATS_DATA"
     result = obj.get(root, {}).get("RESULT", {})
     if str(result.get("STATUS")) != "0":
-        die(f"{name}: e-Stat error {result}")
+        die(f"{name}: e-Stat error {result}; request_params={{{', '.join(f'{k}={v}' for k,v in params.items() if k!='appId')}}}")
     return obj
 
 def get_values(obj):
@@ -69,62 +71,46 @@ def main():
         die("ESTAT_APP_ID secret is missing. Add repository Actions secret ESTAT_APP_ID.")
     retrieved = datetime.now(timezone.utc)
     retrieved_jst = retrieved.astimezone(ZoneInfo("Asia/Tokyo")).isoformat()
-    meta = get_api("getMetaInfo", {"appId":app_id,"lang":"J","statsDataId":TABLE_ID,"explanationGetFlg":"Y"})
-    meta_path = save_json("estat_a3_metadata_raw.json", meta)
 
-    base = {"appId":app_id,"lang":"J","statsDataId":TABLE_ID,"metaGetFlg":"N","cntGetFlg":"N","limit":"100000"}
+    meta = get_api("getMetaInfo", {"appId":app_id,"lang":"J","statsDataId":TABLE_ID,
+                                   "explanationGetFlg":"Y"}, "estat_a3_metadata_raw.json")
+    base = {"appId":app_id,"lang":"J","statsDataId":TABLE_ID,"metaGetFlg":"N",
+            "cntGetFlg":"N","limit":"100000"}
+
+    # The table metadata reports 53,352 observations, below the API's 100,000-row
+    # response limit. Retrieve the table once without category/time filters, then
+    # select the required dimensions locally. This avoids undocumented/fragile
+    # interactions between cdTime and cdCat01 filters.
+    all_obj = get_api("getStatsData", base, "estat_a3_full_table_raw.json")
+    rows = get_values(all_obj)
+    if not rows:
+        die("Unfiltered e-Stat response contains no rows.")
     monthly, annual = {}, {}
-    raw_files = [meta_path.name]
-    request_diagnostics = []
-
-    # cdCat01 is a single-code filter in e-Stat API v3.0.
-    # Request each month separately; do not pass a comma-separated code list.
-    for time_code, year in YEARS.items():
-        common = {"cdTab":"10100","cdCat02":SEX,"cdCat03":CAUSE,"cdTime":time_code}
-        for month_code, month_number in MONTHS.items():
-            month_obj = get_api("getStatsData", {**base,**common,"cdCat01":month_code})
-            month_path = save_json(f"estat_a3_monthly_raw_{year}_{month_number:02d}.json", month_obj)
-            raw_files.append(month_path.name)
-            month_rows = get_values(month_obj)
-            request_diagnostics.append({
-                "year":year,"month":month_number,"time_code":time_code,
-                "month_code":month_code,"request_type":"monthly",
-                "returned_rows":len(month_rows),
-                "returned_time_codes":sorted({str(x.get("@time","")) for x in month_rows})
-            })
-            matched = [
-                row for row in month_rows
-                if str(row.get("@time")) == time_code
-                and str(row.get("@cat01")) == month_code
-                and str(row.get("@cat02")) == SEX
-                and str(row.get("@cat03")) == CAUSE
-            ]
-            if len(matched) != 1:
-                die(f"Expected exactly one row for {(year, month_number)}; got {len(matched)}")
-            key = (year, month_number)
+    diagnostics = {"returned_rows":len(rows),"target_rows_by_year":{}}
+    for row in rows:
+        time_code = str(row.get("@time",""))
+        cat01 = str(row.get("@cat01",""))
+        cat02 = str(row.get("@cat02",""))
+        cat03 = str(row.get("@cat03",""))
+        year = YEARS.get(time_code)
+        if year is None or cat02 != SEX or cat03 != CAUSE:
+            continue
+        if cat01 in MONTHS:
+            key = (year, MONTHS[cat01])
             if key in monthly:
                 die(f"Duplicate monthly row: {key}")
-            monthly[key] = parse_count(matched[0].get("$",""), str(key))
-
-        total_obj = get_api("getStatsData", {**base,**common,"cdCat01":MONTH_TOTAL})
-        total_path = save_json(f"estat_a3_annual_total_raw_{year}.json", total_obj)
-        raw_files.append(total_path.name)
-        total_rows = get_values(total_obj)
-        request_diagnostics.append({
-            "year":year,"time_code":time_code,"request_type":"annual_total",
-            "returned_rows":len(total_rows),
-            "returned_time_codes":sorted({str(x.get("@time","")) for x in total_rows})
-        })
-        for row in total_rows:
-            if str(row.get("@time")) == time_code and str(row.get("@cat01")) == MONTH_TOTAL and str(row.get("@cat02")) == SEX and str(row.get("@cat03")) == CAUSE:
-                if year in annual: die(f"Duplicate annual total: {year}")
-                annual[year] = parse_count(row.get("$",""), f"annual total {year}")
+            monthly[key] = parse_count(row.get("$",""), str(key))
+            diagnostics["target_rows_by_year"][str(year)] = diagnostics["target_rows_by_year"].get(str(year),0)+1
+        elif cat01 == MONTH_TOTAL:
+            if year in annual:
+                die(f"Duplicate annual total: {year}")
+            annual[year] = parse_count(row.get("$",""), f"annual total {year}")
 
     expected = {(y,m) for y in YEARS.values() for m in range(1,13)}
     if set(monthly) != expected:
-        die(f"Expected 48 monthly values; missing={sorted(expected-set(monthly))}; extra={sorted(set(monthly)-expected)}; request_diagnostics={request_diagnostics}")
+        die(f"Expected 48 monthly values; missing={sorted(expected-set(monthly))}; extra={sorted(set(monthly)-expected)}; diagnostics={diagnostics}")
     if set(annual) != set(YEARS.values()):
-        die(f"Expected annual table totals for 2020-2023; received {sorted(annual)}; request_diagnostics={request_diagnostics}")
+        die(f"Expected annual totals for 2020-2023; received {sorted(annual)}; diagnostics={diagnostics}")
 
     checks = []
     for y in sorted(YEARS.values()):
@@ -134,7 +120,7 @@ def main():
                        "mhlw_annual_report_total":MHLW_TOTALS[y],
                        "e_stat_matches_mhlw_annual_report":annual[y]==MHLW_TOTALS[y]})
     if not all(x["monthly_sum_matches_e_stat"] and x["e_stat_matches_mhlw_annual_report"] for x in checks):
-        die("Annual reconciliation failed. Raw API responses are preserved; no values were altered.")
+        die("Annual reconciliation failed. Raw API response is preserved; no values were altered.")
 
     csv_path = OUT / "a3_covid19_deaths_by_month_2020_2023.csv"
     with csv_path.open("w",encoding="utf-8-sig",newline="") as f:
@@ -147,23 +133,26 @@ def main():
              "cause_code":CAUSE,"cause_label":"22201_新型コロナウイルス感染症","sex_code":SEX,
              "years":sorted(YEARS.values()),"observation_count":len(monthly),"unit":"persons",
              "time_basis":"month_of_death","retrieved_at_utc":retrieved.isoformat(),
-             "retrieved_at_jst":retrieved_jst,"request_diagnostics":request_diagnostics,
-             "annual_reconciliation":checks,"status":"PASS","raw_source_files":raw_files,
-             "notes":["Raw API JSON preserved unchanged.","Each cdTime year is requested separately.",
-                      "Missing values are not converted to zero.","No legacy MASTER or derived data is read."]}
-    audit_path=OUT/"a3_acquisition_audit.json"
-    audit_path.write_text(json.dumps(audit,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+             "retrieved_at_jst":retrieved_jst,"response_diagnostics":diagnostics,
+             "annual_reconciliation":checks,"status":"PASS","raw_source_files":[
+                 "estat_a3_metadata_raw.json","estat_a3_full_table_raw.json"],
+             "notes":["Raw API JSON preserved unchanged.",
+                      "The complete table was requested without category/time filters.",
+                      "Required rows were selected locally using metadata codes.",
+                      "Missing values are not converted to zero.",
+                      "No legacy MASTER or derived data is read."]}
+    (OUT/"a3_acquisition_audit.json").write_text(json.dumps(audit,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     report=["# A3 Monthly COVID-19 Deaths — Acquisition Report","",
             f"- Retrieved (JST): {retrieved_jst}",f"- e-Stat table ID: {TABLE_ID}",
             "- Time basis: month of death","- Cause: 22201_新型コロナウイルス感染症",
-            "- Sex: total","- Expected observations: 48",f"- Acquired observations: {len(monthly)}","",
+            "- Sex: total","- Expected observations: 48",f"- Acquired observations: {len(monthly)}",
+            f"- Full table rows returned: {len(rows)}","",
             "| Year | Monthly sum | e-Stat annual total | MHLW annual report | Result |",
             "|---:|---:|---:|---:|---|"]
     for x in checks:
         report.append(f"| {x['year']} | {x['monthly_sum']} | {x['e_stat_annual_total']} | {x['mhlw_annual_report_total']} | PASS |")
     report += ["","Raw API JSON is preserved unchanged. No legacy MASTER is used.",""]
-    report_path=OUT/"A3_ACQUISITION_REPORT.md"
-    report_path.write_text("\n".join(report),encoding="utf-8")
+    (OUT/"A3_ACQUISITION_REPORT.md").write_text("\n".join(report),encoding="utf-8")
     files=[p for p in sorted(OUT.iterdir()) if p.is_file() and p.name!="SHA256SUMS.txt"]
     (OUT/"SHA256SUMS.txt").write_text("".join(f"{sha(p)}  {p.name}\n" for p in files),encoding="utf-8")
     print(f"PASS: {len(monthly)} monthly observations; all annual checks passed.")
