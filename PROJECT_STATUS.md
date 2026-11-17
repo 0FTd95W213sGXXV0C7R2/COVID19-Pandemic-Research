@@ -179,3 +179,16 @@
 2. 特に New_deaths と今回の Deaths_cumulative の関係を特定する。number_of_deaths_daily.csv の現行配布状態を確認するまでは追加取得・差分化しない。
 3. New_cases は定義変更前後、Severe_cases は自治体基準差・欠損、Deaths_cumulative は累積値の訂正履歴を個別に監査する。
 4. 入院等系列は乖離原因が解明されるまで統計分析に戻さない。
+
+
+## Research policy reset — 2026-11-17 15:53 JST
+
+The new research plan supersedes the previous "Immediate Priorities" and any instruction to compare or repair the legacy MASTER.
+
+- The legacy MASTER, its values, source inventory and derived analyses are historical records only; they are not inputs, baselines, target values or acceptance criteria for the new study.
+- Existing data assets and prior acquisition results are not presumed valid or adopted. Each candidate source must be independently reselected from the research questions and re-acquired/verified as needed.
+- The previous MHLW acquisition workflow is retained as an engineering prototype only. Its four downloaded files are not automatically designated as the new study's canonical variables or analysis dataset.
+- New work starts with Phase 1: prioritize the research questions/domains and define indicator specifications (population, unit, date basis, definition, coverage, source and limitations).
+- Bulk acquisition and statistical analysis are paused until Phase 1 is approved. No old-MASTER audit, value matching or repair is the next task.
+- Notion research-plan page contains the full redesigned analysis policy: https://app.notion.com/p/41bffd9b97358133a48de75d8b2215e9
+- GitHub `RESEARCH_PLAN.md` was rewritten to match this policy. Commit: `cca9a3728c860ae2aaa0d20c8d53270cc71f8d5f`.
