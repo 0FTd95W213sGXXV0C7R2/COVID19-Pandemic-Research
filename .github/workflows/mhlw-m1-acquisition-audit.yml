@@ -1,0 +1,38 @@
+name: MHLW M1 acquisition and audit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mhlw-m1-acquisition-audit
+  cancel-in-progress: false
+
+jobs:
+  acquire-and-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out research code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Acquire and audit registered MHLW CSVs
+        run: python scripts/acquire_mhlw_m1.py
+
+      - name: Upload raw files and audit report (temporary artifact only)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mhlw-m1-acquisition-audit-${{ github.run_id }}
+          path: |
+            data/raw/mhlw/
+            audit/mhlw/
+          if-no-files-found: warn
+          retention-days: 14
