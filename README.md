@@ -31,3 +31,7 @@
 - 管理方法は `docs/references/README.md` を参照する。
 - 新規出典・書誌情報・URL・参照日（JST）は以後GitHubに記録する。旧Notion出典DBは移行元の履歴として保持し、今後の更新先にはしない。
 - 研究計画・進捗・分析判断の記録はNotionを継続利用する。
+
+## Daily indicator analysis files
+
+GitHub is the canonical basis for subsequent analysis. Daily indicator companion CSVs with trailing 7-day moving averages are documented in [`data/derived/DAILY_7D_MOVING_AVERAGES.md`](data/derived/DAILY_7D_MOVING_AVERAGES.md). Original source datasets are retained unchanged; the companion CSVs are derived analysis-ready files.
