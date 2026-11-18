@@ -64,3 +64,8 @@ The following CSV files are the metadata records of this repository:
 - Dates use ISO 8601 where possible.
 - Do not silently overwrite historical acquisition records; add a new record for a new acquisition/version.
 - The Notion research records remain the detailed source of truth for acquisition history and decisions.
+
+
+## 7. MASTER 01 Epidemiology
+
+Japanese COVID-19 epidemiology data for the five indicators and epidemic-wave information are consolidated in the repository-root directory `MASTER_01_Epidemiology/`. Refer to its README, local data dictionary, and file manifest. The shared `data/metadata/` ledgers remain repository-wide and are not moved because they also describe non-epidemiology research assets.
