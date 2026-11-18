@@ -41,4 +41,4 @@ The original source CSV previously listed in the MASTER inventory (`STEP_R5_R7_J
 
 ## Repository classification
 
-`data/derived/rt/EpiForecasts_Japan_Rt_20200830_20220331.csv` is a derived reconstruction, not an untouched upstream source snapshot. It is stored under `data/derived/rt/`, not `data/raw/`.
+`MASTER_01_Epidemiology/data/05_Rt/EpiForecasts_Japan_Rt_20200830_20220331.csv` is a derived reconstruction, not an untouched upstream source snapshot. It is stored under `MASTER_01_Epidemiology/data/05_Rt/`, not `data/raw/`.

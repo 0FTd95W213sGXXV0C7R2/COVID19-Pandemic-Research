@@ -16,16 +16,16 @@ A value is emitted only when all seven observations in that window are present a
 
 | Indicator | Source value column | Added column | Companion CSV |
 |---|---|---|---|
-| National new cases | New_cases | New_cases_7dMA | national_new_cases_daily_20200116_20230508_with_7dMA.csv |
-| National severe cases | Severe_cases | Severe_cases_7dMA | national_severe_cases_daily_20200509_20230508_with_7dMA.csv |
-| National reported daily deaths | Deaths_reported_increment | Deaths_reported_increment_7dMA | national_deaths_daily_20200509_20230508_with_7dMA.csv |
-| EpiForecasts Japan Rt reconstruction | Rt_median | Rt_median_7dMA | rt/EpiForecasts_Japan_Rt_20200830_20220331_with_7dMA.csv |
+| National new cases | New_cases | New_cases_7dMA | ../data/01_New_cases/national_new_cases_daily_20200116_20230508_with_7dMA.csv |
+| National severe cases | Severe_cases | Severe_cases_7dMA | ../data/03_Severe_cases/national_severe_cases_daily_20200509_20230508_with_7dMA.csv |
+| National reported daily deaths | Deaths_reported_increment | Deaths_reported_increment_7dMA | ../data/04_Deaths/national_deaths_daily_20200509_20230508_with_7dMA.csv |
+| EpiForecasts Japan Rt reconstruction | Rt_median | Rt_median_7dMA | ../data/05_Rt/EpiForecasts_Japan_Rt_20200830_20220331_with_7dMA.csv |
 
 The deaths moving average is calculated from Deaths_reported_increment, not from the cumulative-deaths column. The first date in that source has no reported daily increment, so the 7-day mean remains blank until seven consecutive daily increments are available.
 
 ## Non-daily indicator
 
-The national bed-occupancy series national_bed_occupancy_sapmed_202005_202305.csv is weekly (with a documented early observation and source/definition transitions). It is therefore not assigned a daily 7-day moving average in this operation.
+The national bed-occupancy series ../data/02_Bed_occupancy/national_bed_occupancy_sapmed_202005_202305.csv is weekly (with a documented early observation and source/definition transitions). It is therefore not assigned a daily 7-day moving average in this operation.
 
 ## Scope and provenance
 

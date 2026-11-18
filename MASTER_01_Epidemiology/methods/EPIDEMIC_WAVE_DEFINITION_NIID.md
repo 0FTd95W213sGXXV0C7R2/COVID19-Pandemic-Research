@@ -11,7 +11,7 @@ NIID論文の操作的定義を基礎として採用する。ただし、原論�
 
 ## 2. 使用データと集計
 
-- GitHubの `data/derived/national_new_cases_daily_20200116_20230508_with_7dMA.csv` を直接使用する。波判定に使う列は原値 `New_cases` のみ。`New_cases_7dMA` は使用しない。
+- GitHubの `MASTER_01_Epidemiology/data/01_New_cases/national_new_cases_daily_20200116_20230508_with_7dMA.csv` を直接使用する。波判定に使う列は原値 `New_cases` のみ。`New_cases_7dMA` は使用しない。
 - 週次集計は月曜日〜日曜日。これは国内の感染症発生動向調査で用いる疫学週に合わせる。
 - 7日間すべて観測された週だけを採用する。初週の2020-01-13〜2020-01-19（4日分）と最終週の2023-05-08〜2023-05-14（1日分）は不完全週として除外する。
 - 欠損補間、ゼロ置換、平滑化は行わない。対象の172完全週に日次欠損はない。
@@ -66,9 +66,9 @@ W01〜W08は終了週を判定できた。W09は2023-04-03開始、2023-04-24ピ
 
 ## 8. 再現用出力
 
-- 週次集計：`data/derived/national_new_cases_weekly_20200120_20230507_for_wave_audit.csv`
-- 波区分：`data/derived/national_epidemic_waves_NIID_amended_20261118.csv`
-- 元の日次系列：`data/derived/national_new_cases_daily_20200116_20230508_with_7dMA.csv`（原列New_casesを使用）
+- 週次集計：`MASTER_01_Epidemiology/data/06_Waves/national_new_cases_weekly_20200120_20230507_for_wave_audit.csv`
+- 波区分：`MASTER_01_Epidemiology/data/06_Waves/national_epidemic_waves_NIID_amended_20261118.csv`
+- 元の日次系列：`MASTER_01_Epidemiology/data/01_New_cases/national_new_cases_daily_20200116_20230508_with_7dMA.csv`（原列New_casesを使用）
 
 ## 9. 出典
 

@@ -1,0 +1,9 @@
+section,indicator,contents
+"01_New_cases","New_cases","README + daily raw CSV + 7dMA companion"
+"02_Bed_occupancy","Bed occupancy","README + weekly national series"
+"03_Severe_cases","Severe_cases","README + compressed source + 7dMA + pre-May supplement"
+"04_Deaths","Deaths_reported_increment","README + compressed source + 7dMA + pre-May supplement"
+"05_Rt","Rt_median","README + EpiForecasts reconstruction + 7dMA"
+"06_Waves","Wave classification","weekly aggregation + provisional wave boundaries"
+"methods","Methodology","7d moving-average method + amended NIID wave method"
+"audits","Audit","2026-11-18 wave-boundary audit"
