@@ -1,24 +1,26 @@
-# MASTER01 figures — Epidemiology (Japan)
+# MASTER01 疫学グラフ
 
-Generated: 2026-11-18 JST  
-Source: the CSV files currently stored under `MASTER_01_Epidemiology/data/`. The source CSVs were not modified.
+流行波区分を背景色で示した時系列グラフ。流行波の開始・ピーク・終了日は、[NIID基準改正版の波データ](../data/06_Waves/national_epidemic_waves_NIID_amended_20261118.csv)に基づく。
 
-## Charts
+## グラフ
 
-| Indicator | Figure | Frequency / smoothing |
+| 指標 | 図 | 表示方法 |
 |---|---|---|
-| New cases | [new_cases.svg](./new_cases.svg) | Daily original values + trailing 7-day moving average |
-| Bed occupancy | [bed_occupancy.svg](./bed_occupancy.svg) | Weekly original values; no daily 7-day moving average |
-| Severe cases | [severe_cases.svg](./severe_cases.svg) | Daily original values + trailing 7-day moving average |
-| Reported-death increment | [deaths.svg](./deaths.svg) | Daily reported cumulative-count increment + trailing 7-day moving average |
-| Rt | [rt.svg](./rt.svg) | EpiForecasts Japan reconstruction + trailing 7-day moving average |
+| 新規感染者数 | [new_cases.svg](./new_cases.svg) | 日次7日移動平均のみ・棒グラフ |
+| 病床使用率 | [bed_occupancy.svg](./bed_occupancy.svg) | 週次観測値・折れ線グラフ |
+| 重症者数 | [severe_cases.svg](./severe_cases.svg) | 日次7日移動平均のみ・棒グラフ |
+| 死亡者数（報告計上増分） | [deaths.svg](./deaths.svg) | 日次7日移動平均のみ・棒グラフ |
+| 実効再生産数（Rt） | [rt.svg](./rt.svg) | 7日移動平均のみ・折れ線グラフ |
 
-## Reading notes
+## 表示上のルール・注意
 
-- Daily 7-day moving averages use the companion CSV columns already documented in [DAILY_7D_MOVING_AVERAGES.md](../methods/DAILY_7D_MOVING_AVERAGES.md). The source value is retained and shown as a separate line.
-- A moving-average value is blank where the source method does not provide a complete seven-observation window. No interpolation, imputation, or zero-filling was added.
-- Bed occupancy is weekly and is plotted at its published observation dates. It is not resampled to daily frequency and has no forced 7-day moving average.
-- The deaths chart plots `Deaths_reported_increment`, which is the day-to-day change in cumulative reported deaths. It is not necessarily the number of deaths that occurred on that date.
-- The Rt chart is limited to the EpiForecasts reconstruction from 2020-08-30 through 2022-03-31. It is not asserted to be identical or equivalent to the legacy MASTER Rt series.
-- The bed-occupancy and severe-case charts retain the definition/source caveats recorded in their indicator README files.
+- 新規感染者数・重症者数・死亡者数は原値を併記せず、既存CSVの7日移動平均列のみを表示する。
+- 病床使用率は週次系列であるため、7日移動平均を作成せず、週次観測値を折れ線で表示する。
+- Rtは既存CSVの7日移動平均列のみを表示する。図のタイトルは「実効再生産数（Rt）の推移」とする。
+- 全図の背景色は流行波区分を表す。各波の期間は月曜始まりの週境界を用い、終了週の次の月曜日を背景帯の終端とする。進行中のW09はデータ終端まで表示する。
+- 縦軸は0始まりとし、データ範囲に応じて1・2・2.5・5・10系列の切りのよい目盛間隔に設定する。
+- 欠測は補間・代入・0埋めしない。
+- 死亡者数は累積報告値の日次計上増分であり、死亡日別の死亡数とは限らない。
+- 病床使用率には、2020-04-28の先行観測が含まれる。この観測は後続の週次公表値と定義・時点が異なる旨が元CSVに記録されている。
+- Rtの表示対象期間は2020-08-30〜2022-03-31。
 
