@@ -1,6 +1,6 @@
 # Project Status
 
-最終更新：2026-11-17 JST
+最終更新：2026-11-18 JST
 
 ## Current Status
 
@@ -16,8 +16,8 @@
 
 ## Existing Data Assets
 
-- 日本版疫学MASTER
-- 流行波MASTER
+- 日本版疫学5指標・流行波データ：GitHub `MASTER_01_Epidemiology/` に集約（2026-11-18）
+- 正式Excel `MASTER_01_Epidemiology.xlsx`：Google Drive上の保護対象ファイル。GitHubには複製せず、変更・移動していない
 - OxCGRT
 - 消防庁救急搬送関連資料
 - NCC院内がん登録
@@ -203,3 +203,13 @@ The new research plan supersedes the previous "Immediate Priorities" and any ins
 - The workflow expects the GitHub Actions repository secret `ESTAT_APP_ID`; raw data are uploaded as a 14-day artifact and are not committed to Git.
 - **Pending:** the secret has not been configured and the workflow has not been executed. Therefore, no monthly values have been acquired or validated yet.
 - Do not treat A3 as data-complete until all 48 values are present and annual reconciliation passes.
+
+
+## MASTER 01 Epidemiology — GitHub organization (2026-11-18)
+
+- Japanese epidemiology five-indicator data and epidemic-wave information previously scattered under `data/derived/`, `data/derived/rt/`, `docs/methods/`, and `docs/audits/` have been consolidated under `MASTER_01_Epidemiology/`.
+- Subdirectories: `data/01_New_cases/`, `02_Bed_occupancy/`, `03_Severe_cases/`, `04_Deaths/`, `05_Rt/`, `06_Waves/`, `methods/`, `audits/`, and `metadata/`.
+- A dedicated README, file manifest, and data dictionary were added.
+- Existing data blobs were moved without changing their contents. Only path references in methodology documents were updated.
+- The protected Excel workbook remains in Google Drive and was not copied, modified, or moved.
+- The Rt reconstruction remains separate from the legacy MASTER Rt series; the wave boundaries remain provisional and W09 remains ongoing/unconfirmed.
