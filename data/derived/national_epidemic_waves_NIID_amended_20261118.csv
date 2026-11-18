@@ -1,0 +1,10 @@
+wave_id,start_week_monday,peak_week_monday,end_week_monday,start_weekly_new_cases,peak_weekly_new_cases,end_weekly_new_cases,end_as_percent_of_peak,start_rule_trigger,end_rule_trigger,status
+W01,2020-03-23,2020-04-06,2020-05-18,776,3528,224,6.35,10% of peak reached; sustained increase,10% threshold reached after at least 3 consecutive weekly decreases,closed
+W02,2020-06-29,2020-08-03,2020-09-21,1274,9617,3002,31.22,10% of peak reached; sustained increase,Fallback local trough: 10% threshold not reached before next qualifying wave; at least 3 consecutive decreases,closed
+W03,2020-10-26,2021-01-04,2021-02-22,4817,43834,7068,16.12,10% of peak reached; sustained increase,Fallback local trough: 10% threshold not reached before next qualifying wave; at least 3 consecutive decreases,closed
+W04,2021-03-01,2021-05-10,2021-06-14,7231,43008,10011,23.28,10% of peak reached; sustained increase,Fallback local trough: 10% threshold not reached before next qualifying wave; at least 3 consecutive decreases,closed
+W05,2021-07-12,2021-08-16,2021-09-27,20841,158509,10063,6.35,10% of peak reached; sustained increase,10% threshold reached after at least 3 consecutive weekly decreases,closed
+W06,2021-12-20,2022-01-31,2022-06-13,1535,628784,97869,15.56,First of two consecutive >=1.5 week-on-week increases; sustained increase,Fallback local trough: 10% threshold not reached before next qualifying wave; at least 3 consecutive decreases,closed
+W07,2022-07-04,2022-08-15,2022-10-03,306130,1537135,208499,13.56,10% of peak reached; sustained increase (also two consecutive >=1.5 increases),Fallback local trough: 10% threshold not reached before next qualifying wave; at least 3 consecutive decreases,closed
+W08,2022-10-10,2023-01-02,2023-02-20,218643,1170952,93608,7.99,10% of peak reached; sustained increase,10% threshold reached after at least 3 consecutive weekly decreases,closed
+W09,2023-04-03,2023-04-24,,54630,72925,,,10% of peak reached; sustained increase,Not yet observed: only one complete declining week after peak at data cutoff,ongoing
