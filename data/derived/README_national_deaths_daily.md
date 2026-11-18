@@ -41,3 +41,16 @@
 - artifact ZIP SHA-256：`6814d5e6b3170b9349e4c912a459b41ec675c794a3814f95ebf47a27b02b8643`
 
 分析上の推奨ラベル：「累積報告死亡者数」と「累積報告死亡者数の計上増分（日次差分）」を区別する。
+
+## Pre-May 2020 supplement
+
+Supplemental file: `national_deaths_cumulative_pre20200509_supplement.csv`
+
+- Report date 2020-04-30: cumulative domestic deaths **432**.
+- The MHLW report was published 2020-05-01 and states that the 432 total includes persons still undergoing reconciliation.
+- The MHLW notes that the source for deaths changed from MHLW-held individual records to counts accumulated from municipal websites/reports from the 2020-04-21 publication. Thus the 2020-04-30 report is already within the municipal-report source regime, but the reconciliation caveat remains.
+- Per the research decision dated 2026-11-18 (JST), this observation is retained in the same conceptual cumulative reported-deaths series with the source regime and publication date explicitly recorded.
+- No values are supplied for 2020-05-01 through 2020-05-08 because a reconciled, consistently dated daily sequence has not been confirmed. Do not interpolate.
+- This is a cumulative reported count, not a count of deaths occurring on 2020-04-30.
+
+Source: https://www.mhlw.go.jp/stf/newpage_11127.html
