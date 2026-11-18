@@ -27,4 +27,7 @@
 
 ## Research Records
 
-研究計画・進捗・データ取得状況はNotionを参照する。
+- 参照文献・参考文献・データ取得元の正本は `docs/references/references_master.csv` とする。
+- 管理方法は `docs/references/README.md` を参照する。
+- 新規出典・書誌情報・URL・参照日（JST）は以後GitHubに記録する。旧Notion出典DBは移行元の履歴として保持し、今後の更新先にはしない。
+- 研究計画・進捗・分析判断の記録はNotionを継続利用する。
