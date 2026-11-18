@@ -37,14 +37,8 @@ The original source CSV previously listed in the MASTER inventory (`STEP_R5_R7_J
 - No duplicate dates.
 - No missing or non-finite `Rt_median` values.
 - `vintage_count` and `pooled_row_count` are positive on every date and equal on every row.
-- The CSV is retained unchanged from the supplied file.
+- The GitHub copy has 579 data rows and four columns. A comparison with the supplied attachment's parsed table extraction found 24 Rt decimal representations differing by at most 5.56e-16. Exact byte-for-byte identity with the supplied CSV has therefore not been established; use the supplied CSV as canonical when exact serialization is required.
 
-## File integrity
+## Repository classification
 
-SHA-256 of the CSV as packaged: `fd1085ae7684bd67996fd7e13dbbe7ff9cd732138a413de89d261b0eb970f307`
-
-## Suggested repository location
-
-`data/derived/rt/EpiForecasts_Japan_Rt_20200830_20220331.csv`
-
-Place this README alongside the CSV. Do not place the file under `data/raw/`: it is a derived reconstruction, not an untouched upstream source snapshot.
+`data/derived/rt/EpiForecasts_Japan_Rt_20200830_20220331.csv` is a derived reconstruction, not an untouched upstream source snapshot. It is stored under `data/derived/rt/`, not `data/raw/`.
