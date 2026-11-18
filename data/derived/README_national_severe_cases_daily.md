@@ -37,3 +37,16 @@
 - artifact ZIP SHA-256：`6814d5e6b3170b9349e4c912a459b41ec675c794a3814f95ebf47a27b02b8643`
 
 分析上の推奨ラベル：「全国・日次重症者数（厚生労働省CSV掲載値）」。2021-09-03の公式CSVと公式グラフの不一致、および自治体別定義差を併記する。
+
+## Pre-May 2020 supplement (explicitly annotated point only)
+
+Supplemental file: `national_severe_cases_pre20200509_supplement.csv`
+
+- 2020-04-30: **328 people**.
+- Source: MHLW PDF, page 4, "国内の新型コロナウイルス感染症の重症者数の推移". The graph explicitly labels 2020-04-30 as 328.
+- This is a single explicit annotation, not a reconstructed daily series. No values were estimated by reading individual bar heights.
+- The MHLW source notes that from the 2020-05-08 publication, the source method changed from MHLW-held individual case records to data accumulated from municipal websites. Therefore, the pre-May 8 observation has a different source procedure from the later CSV series.
+- Per the research decision dated 2026-11-18 (JST), this point may be retained in the same conceptual time series because the difference is documented. It must remain identifiable as a separate source regime.
+- The gap from 2020-05-01 through 2020-05-08 remains missing; no interpolation.
+
+Source: https://www.mhlw.go.jp/content/10601000/000746793.pdf
