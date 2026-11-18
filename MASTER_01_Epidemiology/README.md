@@ -40,6 +40,15 @@
 - [改正感染研基準 v1.0](methods/EPIDEMIC_WAVE_DEFINITION_NIID.md)
 - [流行波境界再監査（2026-11-18）](audits/EPIDEMIC_WAVE_BOUNDARY_AUDIT_20261118.md)
 
+## グラフ
+
+- [疫学5指標のグラフ一覧](figures/README.md)
+- [新規陽性者数](figures/new_cases.svg)
+- [病床使用率](figures/bed_occupancy.svg)
+- [重症者数](figures/severe_cases.svg)
+- [死亡者数の計上増分](figures/deaths.svg)
+- [Rt（EpiForecasts再構成）](figures/rt.svg)
+
 ## 更新履歴
 
 - 2026-11-18: 疫学5指標および流行波関連の既存GitHubファイルを本ディレクトリへ集約。データ内容は変更せず、方法文書の参照パスを更新。
