@@ -1,0 +1,47 @@
+name: Sapporo indicator data-source discovery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/inspect_sapmed_indicator.py"
+      - ".github/workflows/sapmed-data-discovery.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sapmed-indicator-discovery
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out research code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install browser automation
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Inspect page and capture data requests
+        run: python scripts/inspect_sapmed_indicator.py
+
+      - name: Upload discovery artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sapmed-indicator-discovery-${{ github.run_id }}
+          path: artifacts/sapmed_discovery/
+          if-no-files-found: warn
+          retention-days: 7
