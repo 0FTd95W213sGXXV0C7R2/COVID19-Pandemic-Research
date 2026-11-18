@@ -42,15 +42,34 @@
 
 分析上の推奨ラベル：「累積報告死亡者数」と「累積報告死亡者数の計上増分（日次差分）」を区別する。
 
-## Pre-May 2020 supplement
+
+## Pre-May 2020 supplement (expanded with daily MHLW reports)
 
 Supplemental file: `national_deaths_cumulative_pre20200509_supplement.csv`
 
-- Report date 2020-04-30: cumulative domestic deaths **432**.
-- The MHLW report was published 2020-05-01 and states that the 432 total includes persons still undergoing reconciliation.
-- The MHLW notes that the source for deaths changed from MHLW-held individual records to counts accumulated from municipal websites/reports from the 2020-04-21 publication. Thus the 2020-04-30 report is already within the municipal-report source regime, but the reconciliation caveat remains.
-- Per the research decision dated 2026-11-18 (JST), this observation is retained in the same conceptual cumulative reported-deaths series with the source regime and publication date explicitly recorded.
-- No values are supplied for 2020-05-01 through 2020-05-08 because a reconciled, consistently dated daily sequence has not been confirmed. Do not interpolate.
-- This is a cumulative reported count, not a count of deaths occurring on 2020-04-30.
+- Primary report-date series: **2020-04-20 to 2020-05-08**, daily observations.
+- 2020-04-20 anchor: 186.
+- 2020-04-21: 277; daily cumulative difference +91. The 4/21 report states 17 deaths were reported that day and 74 cases under reconciliation were added to the previous total. Therefore +91 is a reporting/accounting increment, not 91 deaths occurring that day.
+- 2020-04-30: primary municipal-report cumulative value 432. A separate MHLW status report at 4/30 12:00 gave 415; both are preserved as separate rows with different source regimes and roles.
+- 2020-04-21 also has a separate 12:00 legacy-source snapshot of 186, preserved as an alternate row.
+- 2020-04-26: the MHLW index's serial range (339–351) overlaps the prior day's range (335–348). The published endpoint 351 is retained, and the difference from the previous primary cumulative value is +3. Do not infer the daily increment from the serial-number range.
+- 2020-05-08 release was published on 2020-05-09. The supplementary file uses **report date** as its date key and separately records publication date. Alignment with the existing open-data CSV's `Date` field must be checked before physically concatenating files.
+- Primary rows calculate `deaths_reported_increment` as current cumulative report value minus the previous calendar day's primary cumulative value. Alternate snapshots have a blank increment.
+- The difference remains a reporting/accounting increment, not necessarily deaths occurring on that calendar day.
+- Source regime changes on the 2020-04-21 release from MHLW-held individual records to municipal website/report aggregation. This is documented per row.
+- All primary cumulative values are retained as published; no interpolation or correction has been applied.
 
-Source: https://www.mhlw.go.jp/stf/newpage_11127.html
+Sources:
+- MHLW April 2020 press-release index: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00191.html
+- MHLW May 2020 press-release index: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00192.html
+- 2020-04-21 release: https://www.mhlw.go.jp/stf/newpage_10971.html
+- 2020-04-25 release: https://www.mhlw.go.jp/stf/newpage_11047.html
+- 2020-04-30 release: https://www.mhlw.go.jp/stf/newpage_11127.html
+- 2020-05-02 release: https://www.mhlw.go.jp/stf/newpage_11163.html
+- 2020-05-03 release: https://www.mhlw.go.jp/stf/newpage_11165.html
+- 2020-05-07 release: https://www.mhlw.go.jp/stf/newpage_11198.html
+- 2020-05-08 release: https://www.mhlw.go.jp/stf/newpage_11228.html
+- MHLW 2020-04-21 status PDF: https://www.mhlw.go.jp/content/000623854.pdf
+- MHLW 2020-04-30 status PDF: https://www.mhlw.go.jp/content/000626590.pdf
+
+Research update recorded: 2026-11-18T15:33:52 JST
