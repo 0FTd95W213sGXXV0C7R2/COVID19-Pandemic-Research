@@ -32,7 +32,7 @@ Accessed: 2026-11-18 (JST).
 
 A pre-May observation has been appended to the same nationwide overall bed-occupancy series, with its distinct source and denominator reference date explicitly recorded in the CSV metadata columns.
 
-- 2020-04-28: 5,514 inpatients / 31,099 secured beds = **17.7310%** (calculated from the source counts; the source table displays 18% rounded).
+- 2020-04-28: 5,514 inpatients / 31,099 secured beds = **17.730474%** (calculated from the source counts; the source table displays 18% rounded).
 - Numerator reference: 2020-04-28 00:00.
 - Denominator reference: 2020-05-01 bed count.
 - Source: MHLW official materials, including the table titled "入院者数、受入確保病床数に占める入院者数の割合" (2020-04-28 to 2020-07-29).
