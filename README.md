@@ -12,7 +12,8 @@
 
 ## Repository Structure
 
-- `data/`: データ管理とメタデータ
+- `MASTER_01_Epidemiology/`: 日本版・疫学5指標と流行波情報のGitHub集約先
+- `data/`: 全研究共通のデータ管理とメタデータ
 - `src/`: 再利用可能な分析コード
 - `analysis/`: 研究課題ごとの分析
 - `notebooks/`: 探索・説明用ノートブック
@@ -34,4 +35,4 @@
 
 ## Daily indicator analysis files
 
-GitHub is the canonical basis for subsequent analysis. Daily indicator companion CSVs with trailing 7-day moving averages are documented in [`data/derived/DAILY_7D_MOVING_AVERAGES.md`](data/derived/DAILY_7D_MOVING_AVERAGES.md). Original source datasets are retained unchanged; the companion CSVs are derived analysis-ready files.
+GitHub is the canonical basis for subsequent analysis. Japanese epidemiology indicators and wave information are organized under [`MASTER_01_Epidemiology/`](MASTER_01_Epidemiology/README.md). The folder contains the five indicators, weekly wave aggregation, provisional wave boundaries, methods, audits, and a dedicated file manifest/data dictionary. Original data values were retained during reorganization.
