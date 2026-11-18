@@ -1,0 +1,2 @@
+report_date,deaths_cumulative,publication_date,source,definition_note
+2020-04-30,432,2020-05-01,https://www.mhlw.go.jp/stf/newpage_11127.html,"MHLW 2020-04-30 report states 432 domestic deaths; includes persons still under reconciliation. From 2020-04-21 report onward, death data source had changed from MHLW-held individual records to counts based on municipal websites/reports. Date is the report date; publication occurred 2020-05-01."
