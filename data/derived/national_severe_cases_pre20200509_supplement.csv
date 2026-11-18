@@ -1,2 +1,3 @@
-date,severe_cases,publication_date,source,definition_note
-2020-04-30,328,2021-02-10,https://www.mhlw.go.jp/content/10601000/000746793.pdf,"Explicitly labeled value in MHLW daily trend chart; pre-2020-05-08 source method based on MHLW-held individual records. No daily values were digitized from chart bars; this file contains only the explicitly annotated observation."
+date,value,indicator_label,publication_date,source,definition_note
+2020-04-21,232,人工呼吸器又は集中治療室に入院している者,2020-04-21,https://www.mhlw.go.jp/content/000623854.pdf,"MHLW 4/21 status report, 4/21 12:00, domestic cases. This indicator counts persons on ventilators OR admitted to an ICU; it is not definition-identical to the later national 'severe cases' series."
+2020-04-30,328,重症者数,2021-02-10,https://www.mhlw.go.jp/content/10601000/000746793.pdf,"Explicitly annotated value in the MHLW daily severe-cases trend graph. Pre-2020-05-08 source method was based on MHLW-held individual records. No daily values were digitized from chart bars."
