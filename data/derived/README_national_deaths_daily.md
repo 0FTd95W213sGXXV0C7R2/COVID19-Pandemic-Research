@@ -36,8 +36,8 @@
 - 取得artifact：`mhlw-m1-acquisition-audit-44047413844`
 - 取得日時：2026-11-17 17:31:19 JST
 - 原CSV SHA-256：`4dc69ea34da6bc6ba7874568b7f95560d06d63a4e012d8261f84bdaff00dc7f0`
-- 採用CSV SHA-256（復元後）：`f3d924535229b31e7f9e9261c7b23cbce2f8139a53fd9f4530a108ee31632f28`
-- gzip SHA-256：`7ba8dc7166be3ee595935960524e1f85e17b955d72d2e0eac642e73ec84d10d5`
+- 採用CSV SHA-256（復元後）：`2f35538e867fe94de180c7579fbe5a95d0e78d89ad753093f93c78bc013a57e0`
+- gzip SHA-256：`113b309f02e6c540deaf9cc9c0e51bf9655cd1fb95ee484581657a835cb281b2`
 - artifact ZIP SHA-256：`6814d5e6b3170b9349e4c912a459b41ec675c794a3814f95ebf47a27b02b8643`
 
 分析上の推奨ラベル：「累積報告死亡者数」と「累積報告死亡者数の計上増分（日次差分）」を区別する。
