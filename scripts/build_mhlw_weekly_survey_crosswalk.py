@@ -129,7 +129,8 @@ def main():
                 dash = sum(isinstance(v, str) and norm(v) in ("－", "ー", "-", "―") for v in vals)
                 for rr, value in zip(pref_rows, vals):
                     if isinstance(value, str) and norm(value) in ("－", "ー", "-", "―"):
-                        pref_value = norm(ws.cell(rr, 1).value)
+                        pref_value = next((norm(ws.cell(rr, cc).value) for cc in range(1, min(ws.max_column, 4) + 1)
+                                           if isinstance(ws.cell(rr, cc).value, str) and PREF_RE.match(norm(ws.cell(rr, cc).value))), "unresolved_prefecture_label")
                         dash_rec = {"snapshot_date": date, "prefecture_row": rr,
                                     "prefecture_label": pref_value, "column_1based": col,
                                     "header_label": label, "raw_value": norm(value),
@@ -195,6 +196,10 @@ def main():
         "scope": "Date-specific header-path extraction and conservative label classification. No data normalization, imputation, aggregation or analytical concatenation.",
         "summary": summary,
         "schema_groups": [{"schema_id": k, "count": len(v), "first_date": min(v), "last_date": max(v), "dates": v} for k,v in sorted(schema_groups.items())],
+        "dash_cell_counts_by_header": [
+            {"header_label": k, "count": v}
+            for k, v in sorted(__import__("collections").Counter(x["header_label"] for x in dash_cells_all).items(), key=lambda z: (-z[1], z[0]))
+        ],
         "dash_cells": dash_cells_all,
         "candidate_variables": [
             {"candidate_concept": k[0], "exact_header_label": k[1], "date_count": len(v["dates"]),
@@ -213,7 +218,9 @@ def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"created_at_jst": output["created_at_jst"], "summary": summary,
-                      "schema_groups": output["schema_groups"]}, ensure_ascii=False, indent=2))
+                      "schema_groups": output["schema_groups"],
+                      "dash_cell_counts_by_header": output["dash_cell_counts_by_header"],
+                      "prefecture_label_examples": dash_cells_all[:5]}, ensure_ascii=False, indent=2))
 
 if __name__ == "__main__":
     main()
