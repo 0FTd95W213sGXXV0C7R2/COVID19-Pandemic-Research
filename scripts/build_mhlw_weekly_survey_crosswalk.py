@@ -27,7 +27,7 @@ RULES = [
     ("inpatient_rate", r"入院率"),
     ("room_occupancy_rate", r"確保居室\s*使用率|確保居室数に対する使用率"),
     ("immediately_available_beds", r"即応病床数"),
-    ("secured_beds", r"確保病床数"),
+    ("secured_beds", r"確保病床数(?!に対する使用率)"),
     ("hotel_accommodation_patients", r"宿泊療養者数"),
     ("home_care_patients", r"自宅療養者"),
     ("social_welfare_facility_patients", r"社会福祉施設等療養者数"),
@@ -35,7 +35,8 @@ RULES = [
     ("patients_under_hospital_coordination", r"入院先調整中の人数"),
     ("temporary_facility_patients", r"臨時の医療施設.*療養者数"),
     ("total_inpatients_or_inpatients_present", r"入院者数|在院者数"),
-    ("total_patients_in_care", r"療養者数"),
+    ("total_patients_in_care", r"^(?:（\d+）)?療養者数(?:\s*\（注\d+\）)?$"),
+    ("room_occupancy_rate", r"確保居室使用率|確保居室数に対する使用率"),
     ("immediately_available_rooms", r"即応居室数"),
     ("secured_rooms", r"確保居室数"),
 ]
@@ -58,6 +59,7 @@ def main():
     audit = json.loads(AUDIT.read_text(encoding="utf-8"))
     audit_by_date = {x["snapshot_date"]: x for x in audit.get("snapshots", [])}
     per_snapshot = []
+    dash_cells_all = []
     aggregate = defaultdict(lambda: {"dates": [], "columns": [], "examples": []})
     schema_groups = defaultdict(list)
     for item in manifest.get("results", []):
@@ -109,6 +111,7 @@ def main():
                         for cc in range(min_col, max_col + 1):
                             values[(rr, cc)] = anchor
             columns = []
+            dash_cells = []
             for col in range(1, ws.max_column + 1):
                 labels = []
                 for row in range(1, first_data):
@@ -124,6 +127,15 @@ def main():
                 vals = [ws.cell(r, col).value for r in pref_rows]
                 numeric = sum(isinstance(v, (int, float)) and not isinstance(v, bool) for v in vals)
                 dash = sum(isinstance(v, str) and norm(v) in ("－", "ー", "-", "―") for v in vals)
+                for rr, value in zip(pref_rows, vals):
+                    if isinstance(value, str) and norm(value) in ("－", "ー", "-", "―"):
+                        pref_value = norm(ws.cell(rr, 1).value)
+                        dash_rec = {"snapshot_date": date, "prefecture_row": rr,
+                                    "prefecture_label": pref_value, "column_1based": col,
+                                    "header_label": label, "raw_value": norm(value),
+                                    "semantic_status": "unresolved_pending_note_cell_mapping"}
+                        dash_cells.append(dash_rec)
+                        dash_cells_all.append(dash_rec)
                 blank = sum(v is None or norm(v) == "" for v in vals)
                 other = len(vals) - numeric - dash - blank
                 colrec = {"column_1based": col, "header_path": labels, "header_label": label,
@@ -155,6 +167,8 @@ def main():
             rec["first_prefecture_row"] = first_data
             rec["prefecture_rows_detected"] = len(pref_rows)
             rec["column_count"] = len(columns)
+            rec["dash_cell_count"] = len(dash_cells)
+            rec["dash_cells"] = dash_cells
             rec["status"] = "audited" if rec["sha256_match"] else "sha256_mismatch"
             wb.close()
         except Exception as exc:
@@ -170,7 +184,8 @@ def main():
         "prefecture_row_detection_errors": sum(x["status"] == "prefecture_row_detection_error" for x in per_snapshot),
         "workbook_errors": sum(x["status"] == "workbook_error" for x in per_snapshot),
         "schema_count": len(schema_groups),
-        "candidate_header_signatures": len(aggregate)
+        "candidate_header_signatures": len(aggregate),
+        "dash_cell_count": len(dash_cells_all)
     }
     now = datetime.now(timezone.utc)
     output = {
@@ -180,6 +195,7 @@ def main():
         "scope": "Date-specific header-path extraction and conservative label classification. No data normalization, imputation, aggregation or analytical concatenation.",
         "summary": summary,
         "schema_groups": [{"schema_id": k, "count": len(v), "first_date": min(v), "last_date": max(v), "dates": v} for k,v in sorted(schema_groups.items())],
+        "dash_cells": dash_cells_all,
         "candidate_variables": [
             {"candidate_concept": k[0], "exact_header_label": k[1], "date_count": len(v["dates"]),
              "first_date": min(v["dates"]), "last_date": max(v["dates"]), "dates": v["dates"],
