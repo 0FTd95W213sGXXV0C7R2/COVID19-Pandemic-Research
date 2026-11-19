@@ -100,7 +100,7 @@ def inspect_csv(data):
         header = None
         for i, row in enumerate(rows[:100]):
             cells = {str(x).strip() for x in row}
-            if {"医療機関コード", "実績日", "確保病床数", "即応病床数"}.issubset(cells):
+            if {"医療機関コード", "実績日", "確保病床数"}.issubset(cells) and any(x in cells for x in ("即応病床数", "即応病床")) and any(x in cells for x in ("入院中患者数", "入院中")):
                 header_idx, header = i, [str(x).strip() for x in row]
                 break
         if header_idx is None:
@@ -126,6 +126,8 @@ def inspect_csv(data):
                                              for k in sorted({r.get(date_col, "").strip() for r in records})}
                                             if date_col else {}),
             "schema_status": "recognized_gmis_bed_csv",
+            "immediate_bed_column": next((x for x in header if x in ("即応病床数", "即応病床")), None),
+            "inpatient_column": next((x for x in header if x in ("入院中患者数", "入院中")), None),
         }
     return {"schema_status": "unrecognized_or_non_csv"}
 
