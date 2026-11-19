@@ -12,7 +12,8 @@ MANIFEST = ROOT / "data/metadata/mhlw/weekly_inpatient_survey_manifest.json"
 AUDIT = ROOT / "data/audits/mhlw/weekly_inpatient_survey_audit.json"
 OUT = ROOT / "data/audits/mhlw/weekly_inpatient_survey_variable_crosswalk_candidates.json"
 PREF_RE = re.compile(r"^\s*(?:0?[1-9]|[1-3][0-9]|4[0-7])\s*[　 ]*(?:北海道|青森県|岩手県|宮城県|秋田県|山形県|福島県|茨城県|栃木県|群馬県|埼玉県|千葉県|東京都|神奈川県|新潟県|富山県|石川県|福井県|山梨県|長野県|岐阜県|静岡県|愛知県|三重県|滋賀県|京都府|大阪府|兵庫県|奈良県|和歌山県|鳥取県|島根県|岡山県|広島県|山口県|徳島県|香川県|愛媛県|高知県|福岡県|佐賀県|長崎県|熊本県|大分県|宮崎県|鹿児島県|沖縄県)")
-SPACE_RE = re.compile(r"\s+")
+SPACE_RE = re.compile(r"\\s+")
+PREF_NAMES = ["北海道","青森県","岩手県","宮城県","秋田県","山形県","福島県","茨城県","栃木県","群馬県","埼玉県","千葉県","東京都","神奈川県","新潟県","富山県","石川県","福井県","山梨県","長野県","岐阜県","静岡県","愛知県","三重県","滋賀県","京都府","大阪府","兵庫県","奈良県","和歌山県","鳥取県","島根県","岡山県","広島県","山口県","徳島県","香川県","愛媛県","高知県","福岡県","佐賀県","長崎県","熊本県","大分県","宮崎県","鹿児島県","沖縄県"]
 RULES = [
     ("positive_cases_excluding_recovered", r"PCR.*陽性者数"),
     ("inpatients_in_secured_beds", r"確保病床に入院している者数"),
@@ -129,8 +130,10 @@ def main():
                 dash = sum(isinstance(v, str) and norm(v) in ("－", "ー", "-", "―") for v in vals)
                 for rr, value in zip(pref_rows, vals):
                     if isinstance(value, str) and norm(value) in ("－", "ー", "-", "―"):
-                        pref_value = next((norm(ws.cell(rr, cc).value) for cc in range(1, min(ws.max_column, 4) + 1)
-                                           if isinstance(ws.cell(rr, cc).value, str) and PREF_RE.match(norm(ws.cell(rr, cc).value))), "unresolved_prefecture_label")
+                        pref_value = next((name for cc in range(1, min(ws.max_column, 6) + 1)
+                                           for cell_value in [ws.cell(rr, cc).value]
+                                           if isinstance(cell_value, str)
+                                           for name in PREF_NAMES if name in norm(cell_value)), "unresolved_prefecture_label")
                         dash_rec = {"snapshot_date": date, "prefecture_row": rr,
                                     "prefecture_label": pref_value, "column_1based": col,
                                     "header_label": label, "raw_value": norm(value),
