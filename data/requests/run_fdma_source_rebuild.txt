@@ -17,3 +17,5 @@ Rerun after optional start-weekday parenthesis and blank-preserving total checks
 Build normalized weekly long-format dataset from official workbook. 2026-11-19T04:58:56.805Z
 
 Rerun normalized build with explicit merged-prefecture cell handling. 2026-11-19T04:59:45.839Z
+
+Rerun after adding prefecture provenance to CSV schema. 2026-11-19T05:00:18.913Z
