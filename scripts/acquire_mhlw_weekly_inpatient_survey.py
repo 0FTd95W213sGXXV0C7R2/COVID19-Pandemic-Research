@@ -24,22 +24,31 @@ class LinkParser(HTMLParser):
         self.links = []
         self.href = None
         self.text = []
+        self.preceding_text = ""
+        self.anchor_context = ""
     def handle_starttag(self, tag, attrs):
         if tag.lower() == "a":
             self.href = dict(attrs).get("href")
             self.text = []
+            self.anchor_context = self.preceding_text[-6000:]
     def handle_data(self, data):
         if self.href is not None:
             self.text.append(data)
+        else:
+            self.preceding_text = (self.preceding_text + " " + data)[-6000:]
     def handle_endtag(self, tag):
         if tag.lower() == "a" and self.href is not None:
-            self.links.append((self.href, "".join(self.text).strip()))
-            self.href, self.text = None, []
+            self.links.append((self.href, "".join(self.text).strip(), self.anchor_context))
+            self.preceding_text = (self.preceding_text + " " + "".join(self.text))[-6000:]
+            self.href, self.text, self.anchor_context = None, [], ""
 
 def parse_date(context):
     s = context.translate(DIGITS).replace(" ", "").replace("　", "")
-    m = re.search(r"(20\d{2})年(\d{1,2})月(\d{1,2})日", s)
-    return f"{int(m.group(1)):04d}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+    matches = re.findall(r"(20\d{2})年(\d{1,2})月(\d{1,2})日", s)
+    if not matches:
+        return None
+    y, mo, d = matches[-1]
+    return f"{int(y):04d}-{int(mo):02d}-{int(d):02d}"
 
 def discover():
     r = requests.get(PAGE, headers={"User-Agent": UA}, timeout=(20, 60))
@@ -48,18 +57,14 @@ def discover():
     parser.feed(r.text)
     # Parse the source page with stdlib HTMLParser and preserve the full anchor list.
     # Date labels are extracted from the immediately preceding title text in page source.
-    raw = r.text
     items = {}
-    for href, label in parser.links:
+    for href, label, preceding_context in parser.links:
         url = urljoin(PAGE, href)
         path = urlparse(url).path.lower()
         if urlparse(url).netloc.lower() != "www.mhlw.go.jp" or not path.endswith((".xlsx", ".xls")):
             continue
-        # The surrounding list item contains the report title and date.
-        pos = raw.find(href)
-        context = raw[max(0, pos - 1800):pos + 500] if pos >= 0 else label
-        plain = re.sub(r"<[^>]+>", " ", context)
-        plain = re.sub(r"\s+", " ", plain)
+        # The parser retains text immediately preceding the link; the report title/date appears there.
+        plain = re.sub(r"\s+", " ", preceding_context).strip()
         date = parse_date(plain)
         if not date:
             # Fallback: use the nearest report-title text preceding this link.
@@ -69,7 +74,7 @@ def discover():
         if not date:
             date = "unknown"
         if url not in items:
-            filename = Path(path).name
+            filename = "unknown_" + Path(path).name
             items[url] = {
                 "source_url": url,
                 "source_page": PAGE,
@@ -86,13 +91,13 @@ def inspect_xlsx(data):
         sheets = []
         for ws in wb.worksheets:
             preview = []
-            for row in ws.iter_rows(min_row=1, max_row=min(ws.max_row or 1, 15), values_only=True):
-                preview.append([None if v is None else str(v)[:250] for v in row[:30]])
+            for row in ws.iter_rows(min_row=1, max_row=min(ws.max_row or 1, 5), values_only=True):
+                preview.append([None if v is None else str(v)[:120] for v in row[:20]])
             sheets.append({
                 "sheet_name": ws.title,
                 "max_row": ws.max_row,
                 "max_column": ws.max_column,
-                "first_15_rows": preview,
+                "first_5_rows": preview,
             })
         wb.close()
         return {"workbook_status": "xlsx_opened", "sheet_count": len(sheets), "sheets": sheets}
