@@ -1,6 +1,6 @@
 {
-  "created_at_utc": "2026-11-19T06:12:58.854427+00:00",
-  "created_at_jst": "2026-11-19T15:12:58.854427+09:00",
+  "created_at_utc": "2026-11-19T06:13:33.206736+00:00",
+  "created_at_jst": "2026-11-19T15:13:33.206736+09:00",
   "source_manifest": "data/metadata/mhlw/weekly_inpatient_survey_manifest.json",
   "discovered_workbooks": 171,
   "downloaded_workbooks": 171,

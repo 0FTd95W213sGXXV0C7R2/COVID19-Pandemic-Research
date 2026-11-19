@@ -1,10 +1,10 @@
 {
-  "created_at_utc": "2026-11-19T06:09:42.026011+00:00",
-  "created_at_jst": "2026-11-19T15:09:42.026011+09:00",
+  "created_at_utc": "2026-11-19T06:13:29.718445+00:00",
+  "created_at_jst": "2026-11-19T15:13:29.718445+09:00",
   "official_page": {
     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00023.html",
     "http_status": 200,
-    "page_bytes": 129882
+    "page_bytes": 129632
   },
   "discovered_unique_excel_count": 171,
   "downloaded_count": 171,
