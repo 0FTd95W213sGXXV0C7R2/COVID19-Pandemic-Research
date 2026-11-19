@@ -1,1 +1,1 @@
-Run audit again and include the first data rows after each sample workbook header for column mapping validation.
+Re-run full audit after normalizing prefecture row labels that include two-digit prefecture codes.
