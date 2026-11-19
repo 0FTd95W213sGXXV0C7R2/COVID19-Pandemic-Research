@@ -25,9 +25,9 @@ MANIFEST = ROOT / "data/audits/fdma/emergency_transport/source_manifest.json"
 OUT = ROOT / "data/audits/fdma/emergency_transport"
 WEEKDAY_JA = {"月": 0, "火": 1, "水": 2, "木": 3, "金": 4, "土": 5, "日": 6}
 DATE_RE = re.compile(
-    r"(?P<sm>\d{1,2})\s*/\s*(?P<sd>\d{1,2})\s*\(\s*(?P<sw>[月火水木金土日])\s*\)"
+    r"(?P<sm>\d{1,2})\s*/\s*(?P<sd>\d{1,2})\s*[\(（]\s*(?P<sw>[月火水木金土日])\s*[\)）]"
     r"\s*[～〜~]\s*"
-    r"(?P<em>\d{1,2})\s*/\s*(?P<ed>\d{1,2})\s*\(\s*(?P<ew>[月火水木金土日])\s*\)"
+    r"(?P<em>\d{1,2})\s*/\s*(?P<ed>\d{1,2})\s*[\(（]\s*(?P<ew>[月火水木金土日])\s*[\)）]
 )
 SHEET_NAMES = [
     "搬送困難事案（今回）",
@@ -175,7 +175,7 @@ def main():
             }
             header_rows.append(record)
             parsed_weeks.append(record)
-            if not issue:
+            if parts is not None and start_match:
                 header_maps.setdefault(sheet_name, {})[expected_start.isoformat()] = col
             previous_expected = expected_start
 
