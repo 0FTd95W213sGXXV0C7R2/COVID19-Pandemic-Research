@@ -25,7 +25,7 @@ MANIFEST = ROOT / "data/audits/fdma/emergency_transport/source_manifest.json"
 OUT = ROOT / "data/audits/fdma/emergency_transport"
 WEEKDAY_JA = {"月": 0, "火": 1, "水": 2, "木": 3, "金": 4, "土": 5, "日": 6}
 DATE_RE = re.compile(
-    r"(?P<sm>\d{1,2})\s*/\s*(?P<sd>\d{1,2})\s*[\(（]\s*(?P<sw>[月火水木金土日])\s*[\)）]"
+    r"(?P<sm>\d{1,2})\s*/\s*(?P<sd>\d{1,2})\s*[\(（]?\s*(?P<sw>[月火水木金土日])\s*[\)）]"
     r"\s*[～〜~]\s*"
     r"(?P<em>\d{1,2})\s*/\s*(?P<ed>\d{1,2})\s*[\(（]\s*(?P<ew>[月火水木金土日])\s*[\)）]"
 )
@@ -232,6 +232,9 @@ def main():
         cached_total_count = 0
         cached_total_mismatches = 0
         cached_total_unavailable = 0
+        cached_total_checks = 0
+        cached_total_checks_with_blank_details = 0
+        cached_total_checks_skipped_non_numeric_detail = 0
         total_formula_count = 0
         for col in header_cols:
             formula = ws.cell(total_row, col).value
@@ -241,9 +244,17 @@ def main():
             if is_number(cached_total):
                 cached_total_count += 1
                 detail_values = [ws.cell(row, col).value for row in range(6, 58)]
-                if all(is_number(v) for v in detail_values):
-                    if sum(detail_values) != cached_total:
+                if all(v is None or is_number(v) for v in detail_values):
+                    cached_total_checks += 1
+                    if any(v is None for v in detail_values):
+                        cached_total_checks_with_blank_details += 1
+                    # Excel SUM ignores blank cells. This checks the stored
+                    # formula result without assigning a value to any blank.
+                    numeric_detail_sum = sum(v for v in detail_values if is_number(v))
+                    if numeric_detail_sum != cached_total:
                         cached_total_mismatches += 1
+                else:
+                    cached_total_checks_skipped_non_numeric_detail += 1
             else:
                 cached_total_unavailable += 1
 
@@ -253,7 +264,10 @@ def main():
             "total_row_formula_cells": total_formula_count,
             "cached_total_numeric_cells": cached_total_count,
             "cached_total_non_numeric_or_missing": cached_total_unavailable,
-            "cached_total_mismatches_vs_52_facility_sum": cached_total_mismatches,
+            "cached_total_formula_checks": cached_total_checks,
+            "cached_total_formula_checks_with_blank_detail_cells": cached_total_checks_with_blank_details,
+            "cached_total_formula_checks_skipped_non_numeric_detail": cached_total_checks_skipped_non_numeric_detail,
+            "cached_total_formula_mismatches_using_excel_sum_blank_ignored_semantics": cached_total_mismatches,
         }
 
     # Compare reporting-unit identity across all four sheets.
@@ -323,6 +337,11 @@ def main():
     write_csv(
         OUT / "week_header_inventory.csv",
         header_rows,
+        list(header_rows[0].keys()) if header_rows else ["sheet_name"],
+    )
+    write_csv(
+        OUT / "week_header_issues.csv",
+        [r for r in header_rows if r["issue"]],
         list(header_rows[0].keys()) if header_rows else ["sheet_name"],
     )
     write_csv(
