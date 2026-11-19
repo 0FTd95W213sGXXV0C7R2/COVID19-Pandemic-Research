@@ -58,9 +58,15 @@ def inspect(item):
             if val not in parts:
                 parts.append(val)
         labels.append(" / ".join(parts))
+    def norm_pref(v):
+        return clean(v).replace(" ", "").replace("　", "")
     data_rows = [row for row in rows[header_row+1:]
-                 if pref_col < len(row) and clean(row[pref_col]) in PREFECTURES]
-    prefecture_values = [clean(row[pref_col]) for row in data_rows]
+                 if pref_col < len(row) and norm_pref(row[pref_col]) in PREFECTURES]
+    prefecture_values = [norm_pref(row[pref_col]) for row in data_rows]
+    debug_rows = []
+    if item["snapshot_date"] in ("2020-12-23", "2021-04-07", "2023-05-03", "2023-10-04", "2024-03-27"):
+        for idx, row in enumerate(rows[header_row+1:header_row+16], start=header_row+2):
+            debug_rows.append({"row_1based": idx, "cells": [clean(v) for v in row[:10]]})
     field_checks = {}
     keywords = ("PCR検査陽性者数","療養者数","入院者数","在院者数","確保病床","病床数","重症者数","中等症Ⅱ","宿泊療養者数","自宅療養者数")
     for col, label in enumerate(labels):
@@ -91,6 +97,8 @@ def inspect(item):
         "unique_prefecture_names": len(set(prefecture_values)),
         "missing_prefecture_names": sorted(PREFECTURES - set(prefecture_values) - {"全国"}),
         "contains_national_total": "全国" in set(prefecture_values),
+        "prefecture_column_1based": pref_col + 1,
+        "debug_rows_after_header": debug_rows,
         "title_month_day": title_month_day,
         "header_labels_by_column": labels,
         "schema_signature": "||".join(labels),
