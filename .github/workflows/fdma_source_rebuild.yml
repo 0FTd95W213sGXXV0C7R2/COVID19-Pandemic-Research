@@ -36,6 +36,9 @@ jobs:
       - name: Audit weekly headers, facility rows, blanks, zeros and subgroup reconciliation
         run: python scripts/audit_fdma_weekly_headers.py
 
+      - name: Build normalized long-format weekly dataset from official workbook
+        run: python scripts/build_fdma_weekly_long.py
+
       - name: Commit original source and structural audit
         run: |
           git config user.name "github-actions[bot]"
@@ -43,6 +46,9 @@ jobs:
           git add -f data/raw/fdma/emergency_transport/coronavirus_data.xlsx
           git add data/interim/fdma/emergency_transport/sheet_cell_dumps
           git add data/audits/fdma/emergency_transport
+          git add -f data/processed/fdma/emergency_transport
+          git add data/metadata/fdma/emergency_transport
+          git add docs/data_dictionary/FDMA_EMERGENCY_TRANSPORT_WEEKLY.md
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
