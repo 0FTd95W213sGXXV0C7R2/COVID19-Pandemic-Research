@@ -99,3 +99,33 @@ Code for FUKUIの `make.js` はExcelの先頭シートのみを読み込み、�
 - 2024-04-08の新様式でCOVID疑い内数の調査が中止された点は、既存Notionに登録済みの消防庁通知（消防救第105号）に基づく。旧・新様式の系列は定義監査なしに接続しない。
 
 **更新後の判定：条件付き採用（総数系列）。COVID疑い／非COVID疑いの分離系列は、公式原本の既存記録を再利用し、元ファイルと監査CSVの再照合が完了するまで採用保留。**
+
+
+## 9. 原資料からの再構築・自動取得パイプライン（2026/11/19 13:51:34 JST）
+
+本節は、従来のミラーCSV監査と区別した新規再構築の進捗である。
+
+### 実装したもの
+- 公式出典ページ：https://www.fdma.go.jp/disaster/coronavirus/post-1.html
+- 公式Excelリンク：https://www.fdma.go.jp/disaster/coronavirus/items/coronavirus_data.xlsx
+- 取得・構造監査コード：`scripts/rebuild_fdma_source.py`
+- GitHub Actions：`.github/workflows/fdma_source_rebuild.yml`
+- 実行トリガー：`data/requests/run_fdma_source_rebuild.txt`
+- 取得コードは公式ページからExcelリンクを検出し、FDMAドメインであることとXLSX ZIP署名を確認して原本を保存する設計。
+- 原本のSHA-256・バイト数・取得日時（UTC/JST）・HTTP情報をmanifestへ記録し、全ワークシートの名称・寸法・非空セル数・数式セル数・セル値ダンプを作る設計。
+- 取得後の出力先：`data/raw/fdma/emergency_transport/`、`data/interim/fdma/emergency_transport/sheet_cell_dumps/`、`data/audits/fdma/emergency_transport/`
+
+### 実行状況と制約
+- GitHubに取得コード・ワークフロー・実行トリガーを登録済み。トリガー更新コミット：`036fffbc3421e67817f83efab1c4effc049f8431`。
+- ZIP署名判定コードのエスケープ誤りを検出し、修正コミット：`4c1a45998edfb9dcf36a7847e8597a1a3bc68720`。修正後のコードをGitHubから再取得して、`b"PK\\x03\\x04"` のPythonバイトリテラルであることを確認。
+- この実行環境からFDMAのXLSX本体を直接ダウンロードできず、GitHub Actionsの実行履歴・実行ログを利用可能な接続経由で確認することもできていない。したがって、**公式原本の取得成功・ワークフロー完了・4シート読込成功は未確認**。
+- 取得済み原本、manifest、sheet inventory、cell dumpsはまだ確認できていない。これらがGitHubに現れるまでは「再構築完了」としない。
+- この新規処理は旧ミラーCSVを入力に使わない。旧ミラーCSV監査結果は過去の参考記録としてのみ保持する。
+
+### 次の検証ゲート
+1. GitHub Actionsが実行されたか確認する。
+2. 公式原本のHTTP応答・XLSX署名・ファイルサイズ・SHA-256を確認する。
+3. 全シート名・行列数・データ配置・見出し構造を原本と照合する。
+4. 4シートの週次見出しを原資料から新規抽出し、期間・年度境界・重複・欠測・明示的ゼロを別々に監査する。
+5. COVID疑い／非COVID疑い系列と全体系列の対応関係を日付単位で検証する。
+6. 上記の独立検証後に限り、正規化した週次CSVとデータ辞書を作成する。
