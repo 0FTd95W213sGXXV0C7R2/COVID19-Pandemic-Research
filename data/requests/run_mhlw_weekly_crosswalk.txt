@@ -15,3 +15,5 @@ Rebuild with dash-cell coordinates and refined concepts.
 Generate compact review summary after numeric profile audit.
 
 Rebuild after prefecture-label extraction correction.
+
+Rebuild prefecture-name mapping using explicit prefecture-name list.
