@@ -19,3 +19,5 @@ Build normalized weekly long-format dataset from official workbook. 2026-11-19T0
 Rerun normalized build with explicit merged-prefecture cell handling. 2026-11-19T04:59:45.839Z
 
 Rerun after adding prefecture provenance to CSV schema. 2026-11-19T05:00:18.913Z
+
+Rebuild normalized dataset with formal survey start and 2024 new-form phase flags. 2026-11-19T14:12:00+09:00
