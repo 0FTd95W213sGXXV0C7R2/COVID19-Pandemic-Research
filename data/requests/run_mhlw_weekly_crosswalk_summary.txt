@@ -1,0 +1,1 @@
+Create compact review summary from latest crosswalk candidate JSON.
