@@ -9,3 +9,5 @@ Rerun with numeric profiles and severity-specific capacity groups.
 Rerun after crosswalk classifier correction.
 
 Rerun with per-snapshot numeric profiles.
+
+Rebuild with dash-cell coordinates and refined concepts.
