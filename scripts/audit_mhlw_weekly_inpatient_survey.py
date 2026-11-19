@@ -133,6 +133,8 @@ def main():
             "unique_prefecture_names": item.get("unique_prefecture_names"),
             "missing_prefecture_names": item.get("missing_prefecture_names"),
             "contains_national_total": item.get("contains_national_total"),
+            "prefecture_column_1based": item.get("prefecture_column_1based"),
+            "debug_rows_after_header": item.get("debug_rows_after_header", []),
             "title_month_day": item.get("title_month_day"),
             "schema_id": sid,
             "field_checks": item.get("field_checks", {}),
