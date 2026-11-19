@@ -1,0 +1,171 @@
+{
+  "created_at_utc": "2026-11-19T05:55:23.828669+00:00",
+  "created_at_jst": "2026-11-19T14:55:23.828669+09:00",
+  "status": "PRELIMINARY_SNAPSHOT_STRUCTURE_AUDIT",
+  "interpretation": "Two separate cross-sectional publication snapshots; not a continuous time series by themselves.",
+  "facility_code_overlap": {
+    "intersection_count": 1623,
+    "union_count": 2892,
+    "jaccard": 0.5612033195020747,
+    "only_in_first_snapshot": 678,
+    "only_in_second_snapshot": 591
+  },
+  "snapshots": [
+    {
+      "label": "2022-01-05_candidate",
+      "filename": "mhlw_gmis_historical_link_000893241.csv",
+      "bytes": 227552,
+      "sha256": "31aa4539f667487da377482a3008a31b982c73a357f98f3a3bc540b0a7012958",
+      "encoding": "cp932",
+      "row_count_including_blanks": 2322,
+      "header_line_1based": 21,
+      "header": [
+        "都道府県番号",
+        "都道府県",
+        "二次医療圏番号",
+        "二次医療圏名",
+        "医療機関コード",
+        "医療機関名",
+        "報告状況",
+        "実績日",
+        "確保病床数",
+        "即応病床数",
+        "入院中患者数",
+        "備考(入院中患者数)"
+      ],
+      "data_record_count": 2301,
+      "unique_nonblank_medical_institution_codes": 2301,
+      "blank_medical_institution_codes": 0,
+      "duplicate_medical_institution_code_rows": 0,
+      "observation_dates": [
+        "2022/1/5",
+        "44566"
+      ],
+      "report_status_counts": {
+        "報告済み": 2285,
+        "未報告": 16
+      },
+      "missing_values_by_column": {
+        "都道府県番号": 0,
+        "都道府県": 0,
+        "二次医療圏番号": 0,
+        "二次医療圏名": 0,
+        "医療機関コード": 0,
+        "医療機関名": 0,
+        "報告状況": 0,
+        "実績日": 0,
+        "確保病床数": 1,
+        "即応病床数": 16,
+        "入院中患者数": 16,
+        "備考(入院中患者数)": 845
+      },
+      "numeric_field_checks": {
+        "確保病床数": {
+          "numeric": 2300,
+          "blank": 1,
+          "non_numeric_nonblank": 0,
+          "zero": 16
+        },
+        "即応病床数": {
+          "numeric": 2285,
+          "blank": 16,
+          "non_numeric_nonblank": 0,
+          "zero": 358
+        },
+        "入院中患者数": {
+          "numeric": 2285,
+          "blank": 16,
+          "non_numeric_nonblank": 0,
+          "zero": 1392
+        },
+        "備考(入院中患者数)": {
+          "numeric": 462,
+          "blank": 845,
+          "non_numeric_nonblank": 994,
+          "zero": 424
+        }
+      }
+    },
+    {
+      "label": "2024-03-06_candidate",
+      "filename": "mhlw_gmis_snapshot_link_001234488.csv",
+      "bytes": 255866,
+      "sha256": "25d66056467db06fbedc0eecfc8a443ac82e99ce6adcf2fc3109d1b07f985465",
+      "encoding": "utf-8-sig",
+      "row_count_including_blanks": 3171,
+      "header_line_1based": 21,
+      "header": [
+        "都道府県番号",
+        "都道府県",
+        "二次医療圏番号",
+        "二次医療圏名",
+        "医療機関コード",
+        "医療機関名",
+        "報告状況",
+        "実績日",
+        "確保病床数",
+        "即応病床数",
+        "入院中",
+        "備考（入院中患者数）"
+      ],
+      "data_record_count": 2214,
+      "unique_nonblank_medical_institution_codes": 2214,
+      "blank_medical_institution_codes": 0,
+      "duplicate_medical_institution_code_rows": 0,
+      "observation_dates": [
+        "2024/3/6"
+      ],
+      "report_status_counts": {
+        "報告済み": 2171,
+        "未報告": 43
+      },
+      "missing_values_by_column": {
+        "都道府県番号": 0,
+        "都道府県": 0,
+        "二次医療圏番号": 0,
+        "二次医療圏名": 0,
+        "医療機関コード": 0,
+        "医療機関名": 0,
+        "報告状況": 0,
+        "実績日": 0,
+        "確保病床数": 0,
+        "即応病床数": 43,
+        "入院中": 43,
+        "備考（入院中患者数）": 1938
+      },
+      "numeric_field_checks": {
+        "確保病床数": {
+          "numeric": 2214,
+          "blank": 0,
+          "non_numeric_nonblank": 0,
+          "zero": 346
+        },
+        "即応病床数": {
+          "numeric": 2171,
+          "blank": 43,
+          "non_numeric_nonblank": 0,
+          "zero": 1403
+        },
+        "入院中": {
+          "numeric": 2171,
+          "blank": 43,
+          "non_numeric_nonblank": 0,
+          "zero": 587
+        },
+        "備考（入院中患者数）": {
+          "numeric": 243,
+          "blank": 1938,
+          "non_numeric_nonblank": 33,
+          "zero": 199
+        }
+      }
+    }
+  ],
+  "not_done": [
+    "No normalization or longitudinal join",
+    "No imputation of blanks or nonresponses",
+    "No interpretation of facility-level missingness as zero",
+    "No inference that facility-code overlap proves constant reporting coverage",
+    "No calculation of occupancy rate until denominator and reporting status are audited"
+  ]
+}
