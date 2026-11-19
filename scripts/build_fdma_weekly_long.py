@@ -48,7 +48,7 @@ SHEETS = [
 FIELDS = [
     "dataset_id", "metric_code", "metric_label", "series_role", "comparison_basis",
     "week_index", "period_start_date", "period_end_date", "period_end_date_expected",
-    "period_end_date_printed", "date_header_status", "raw_week_header", "prefecture",
+    "period_end_date_printed", "date_header_status", "raw_week_header", "prefecture", "prefecture_value_source",
     "fire_department", "aggregation_level", "value", "unit", "observation_status",
     "paired_current_week_start_date", "source_sheet", "source_cell", "source_formula",
     "source_file_sha256",
