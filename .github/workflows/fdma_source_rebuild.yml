@@ -33,6 +33,9 @@ jobs:
       - name: Download official FDMA workbook and inventory all sheets
         run: python scripts/rebuild_fdma_source.py
 
+      - name: Audit weekly headers, facility rows, blanks, zeros and subgroup reconciliation
+        run: python scripts/audit_fdma_weekly_headers.py
+
       - name: Commit original source and structural audit
         run: |
           git config user.name "github-actions[bot]"
