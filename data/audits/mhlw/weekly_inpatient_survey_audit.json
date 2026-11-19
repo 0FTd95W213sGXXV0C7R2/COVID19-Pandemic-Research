@@ -1,6 +1,6 @@
 {
-  "created_at_utc": "2026-11-19T06:11:41.070914+00:00",
-  "created_at_jst": "2026-11-19T15:11:41.070914+09:00",
+  "created_at_utc": "2026-11-19T06:12:17.585568+00:00",
+  "created_at_jst": "2026-11-19T15:12:17.585568+09:00",
   "source_manifest": "data/metadata/mhlw/weekly_inpatient_survey_manifest.json",
   "discovered_workbooks": 171,
   "downloaded_workbooks": 171,
@@ -401,6 +401,234 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [
+        {
+          "row_1based": 6,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "現フェーズ／最終フェーズ（注３）",
+            "確保病床数 (注４)",
+            "確保病床数に対する使用率",
+            "（参考）",
+            ""
+          ]
+        },
+        {
+          "row_1based": 7,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "最終フェーズにおける即応病床（計画）数（注５）",
+            ""
+          ]
+        },
+        {
+          "row_1based": 8,
+          "cells": [
+            "1",
+            "",
+            "01 北海道",
+            "1750",
+            "926",
+            "２／３",
+            "1811",
+            "0.51131971286582",
+            "1811",
+            "31"
+          ]
+        },
+        {
+          "row_1based": 9,
+          "cells": [
+            "2",
+            "",
+            "02 青森県",
+            "25",
+            "18",
+            "１／４",
+            "210",
+            "0.08571428571428572",
+            "225",
+            "2"
+          ]
+        },
+        {
+          "row_1based": 10,
+          "cells": [
+            "3",
+            "",
+            "03 岩手県",
+            "101",
+            "85",
+            "２／３",
+            "374",
+            "0.22727272727272727",
+            "350",
+            "3"
+          ]
+        },
+        {
+          "row_1based": 11,
+          "cells": [
+            "4",
+            "",
+            "04 宮城県",
+            "348",
+            "100",
+            "３／５",
+            "345",
+            "0.2898550724637681",
+            "450",
+            "6"
+          ]
+        },
+        {
+          "row_1based": 12,
+          "cells": [
+            "5",
+            "",
+            "05 秋田県",
+            "5",
+            "4",
+            "２／４",
+            "222",
+            "0.018018018018018018",
+            "235",
+            "0"
+          ]
+        },
+        {
+          "row_1based": 13,
+          "cells": [
+            "6",
+            "",
+            "06 山形県",
+            "95",
+            "81",
+            "３／４",
+            "216",
+            "0.375",
+            "215",
+            "6"
+          ]
+        },
+        {
+          "row_1based": 14,
+          "cells": [
+            "7",
+            "",
+            "07 福島県",
+            "171",
+            "163",
+            "３／４",
+            "469",
+            "0.34754797441364604",
+            "350",
+            "5"
+          ]
+        },
+        {
+          "row_1based": 15,
+          "cells": [
+            "8",
+            "",
+            "08 茨城県",
+            "226",
+            "118",
+            "３／３",
+            "550",
+            "0.21454545454545454",
+            "500",
+            "10"
+          ]
+        },
+        {
+          "row_1based": 16,
+          "cells": [
+            "9",
+            "",
+            "09 栃木県",
+            "240",
+            "139",
+            "３／４",
+            "313",
+            "0.4440894568690096",
+            "313",
+            "12"
+          ]
+        },
+        {
+          "row_1based": 17,
+          "cells": [
+            "10",
+            "",
+            "10 群馬県",
+            "341",
+            "207",
+            "３／３",
+            "335",
+            "0.6179104477611941",
+            "330",
+            "10"
+          ]
+        },
+        {
+          "row_1based": 18,
+          "cells": [
+            "11",
+            "",
+            "11 埼玉県",
+            "2193",
+            "659",
+            "４／４",
+            "1229",
+            "0.5362082994304312",
+            "1400",
+            "32"
+          ]
+        },
+        {
+          "row_1based": 19,
+          "cells": [
+            "12",
+            "",
+            "12 千葉県",
+            "1340",
+            "384",
+            "３／４",
+            "1147",
+            "0.33478639930252835",
+            "1200",
+            "18"
+          ]
+        },
+        {
+          "row_1based": 20,
+          "cells": [
+            "13",
+            "",
+            "13 東京都",
+            "6007",
+            "2148",
+            "４／４",
+            "4000",
+            "0.537",
+            "4000",
+            "343"
+          ]
+        }
+      ],
       "title_month_day": "12-23",
       "schema_id": "6745ac0f25",
       "field_checks": {
@@ -526,6 +754,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "12-30",
       "schema_id": "6745ac0f25",
       "field_checks": {
@@ -651,6 +881,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "01-06",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -756,6 +988,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "01-13",
       "schema_id": "f3472b74b1",
       "field_checks": {
@@ -861,6 +1095,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "01-20",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -966,6 +1202,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "01-27",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -1071,6 +1309,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "02-03",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -1176,6 +1416,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "02-10",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -1281,6 +1523,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "02-17",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -1386,6 +1630,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "02-24",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -1491,6 +1737,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "03-03",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -1596,6 +1844,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "03-10",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -1701,6 +1951,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "03-17",
       "schema_id": "5ff08f9bbd",
       "field_checks": {
@@ -1806,6 +2058,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "03-24",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -1911,6 +2165,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "03-31",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -2016,6 +2272,234 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [
+        {
+          "row_1based": 4,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 5,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "病床数",
+            "",
+            "",
+            "",
+            "うち重症者数"
+          ]
+        },
+        {
+          "row_1based": 6,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "現フェーズ／ 最終フェーズ （注３）",
+            "確保病床数 (注４)",
+            "確保病床数に対する使用率",
+            "（参考）",
+            ""
+          ]
+        },
+        {
+          "row_1based": 7,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "最終フェーズにおける即応病床（計画）数 （注５）",
+            ""
+          ]
+        },
+        {
+          "row_1based": 8,
+          "cells": [
+            "1",
+            "",
+            "01 北海道",
+            "854",
+            "431",
+            "２／３",
+            "1826",
+            "24",
+            "1826",
+            "22"
+          ]
+        },
+        {
+          "row_1based": 9,
+          "cells": [
+            "2",
+            "",
+            "02 青森県",
+            "179",
+            "31",
+            "１／４",
+            "193",
+            "16",
+            "225",
+            "0"
+          ]
+        },
+        {
+          "row_1based": 10,
+          "cells": [
+            "3",
+            "",
+            "03 岩手県",
+            "121",
+            "84",
+            "２／３",
+            "385",
+            "22",
+            "350",
+            "0"
+          ]
+        },
+        {
+          "row_1based": 11,
+          "cells": [
+            "4",
+            "",
+            "04 宮城県",
+            "1340",
+            "197",
+            "５／５",
+            "345",
+            "57",
+            "450",
+            "12"
+          ]
+        },
+        {
+          "row_1based": 12,
+          "cells": [
+            "5",
+            "",
+            "05 秋田県",
+            "37",
+            "18",
+            "２／４",
+            "229",
+            "8",
+            "235",
+            "2"
+          ]
+        },
+        {
+          "row_1based": 13,
+          "cells": [
+            "6",
+            "",
+            "06 山形県",
+            "239",
+            "86",
+            "４／４",
+            "222",
+            "39",
+            "215",
+            "2"
+          ]
+        },
+        {
+          "row_1based": 14,
+          "cells": [
+            "7",
+            "",
+            "07 福島県",
+            "299",
+            "262",
+            "４／４",
+            "469",
+            "56",
+            "350",
+            "10"
+          ]
+        },
+        {
+          "row_1based": 15,
+          "cells": [
+            "8",
+            "",
+            "08 茨城県",
+            "276",
+            "126",
+            "３／３",
+            "619",
+            "20",
+            "600",
+            "2"
+          ]
+        },
+        {
+          "row_1based": 16,
+          "cells": [
+            "9",
+            "",
+            "09 栃木県",
+            "265",
+            "107",
+            "３／４",
+            "409",
+            "26",
+            "409",
+            "2"
+          ]
+        },
+        {
+          "row_1based": 17,
+          "cells": [
+            "10",
+            "",
+            "10 群馬県",
+            "212",
+            "94",
+            "２／３",
+            "422",
+            "22",
+            "330",
+            "4"
+          ]
+        },
+        {
+          "row_1based": 18,
+          "cells": [
+            "11",
+            "",
+            "11 埼玉県",
+            "1506",
+            "517",
+            "４／４",
+            "1504",
+            "34",
+            "1504",
+            "35"
+          ]
+        }
+      ],
       "title_month_day": "04-07",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -2121,6 +2605,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "04-14",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -2226,6 +2712,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "04-21",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -2331,6 +2819,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "04-28",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -2436,6 +2926,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "05-05",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -2541,6 +3033,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "05-12",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -2646,6 +3140,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "05-19",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -2751,6 +3247,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "05-26",
       "schema_id": "9bf2552d51",
       "field_checks": {
@@ -2856,6 +3354,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "06-02",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -2931,6 +3431,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "06-09",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3006,6 +3508,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "06-16",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3081,6 +3585,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "06-23",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3156,6 +3662,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "06-30",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3231,6 +3739,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "07-07",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3306,6 +3816,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "07-14",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3381,6 +3893,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "07-21",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3456,6 +3970,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "07-28",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3531,6 +4047,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "08-04",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3606,6 +4124,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "08-11",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3681,6 +4201,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "08-18",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3756,6 +4278,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "08-25",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3831,6 +4355,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "09-01",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3906,6 +4432,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "09-08",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -3981,6 +4509,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "09-15",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4056,6 +4586,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "09-22",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4131,6 +4663,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "09-29",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4206,6 +4740,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "10-06",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4281,6 +4817,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "10-13",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4356,6 +4894,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "10-20",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4431,6 +4971,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "10-27",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4506,6 +5048,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "11-03",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4581,6 +5125,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "11-10",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4656,6 +5202,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "11-17",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4731,6 +5279,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "11-24",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4806,6 +5356,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "12-01",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4881,6 +5433,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "12-08",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -4956,6 +5510,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 3,
+      "debug_rows_after_header": [],
       "title_month_day": "12-15",
       "schema_id": "72624e14af",
       "field_checks": {
@@ -5031,6 +5587,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-22",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -5131,6 +5689,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-29",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -5231,6 +5791,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-05",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -5331,6 +5893,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-12",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -5431,6 +5995,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-19",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -5531,6 +6097,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-26",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -5631,6 +6199,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-02",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -5731,6 +6301,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-09",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -5831,6 +6403,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-16",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -5931,6 +6505,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-23",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6031,6 +6607,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-02",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6131,6 +6709,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-09",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6231,6 +6811,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-16",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6331,6 +6913,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-23",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6431,6 +7015,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-30",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6531,6 +7117,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "04-06",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6631,6 +7219,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "04-13",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6731,6 +7321,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "04-20",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6831,6 +7423,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "04-27",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -6931,6 +7525,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "05-04",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7031,6 +7627,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "05-11",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7131,6 +7729,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "05-18",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7231,6 +7831,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "05-25",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7331,6 +7933,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "06-01",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7431,6 +8035,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "06-08",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7531,6 +8137,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "06-15",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7631,6 +8239,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "06-22",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7731,6 +8341,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "06-29",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7831,6 +8443,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "07-06",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -7931,6 +8545,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "07-13",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8031,6 +8647,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "07-20",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8131,6 +8749,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "07-27",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8231,6 +8851,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-03",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8331,6 +8953,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-10",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8431,6 +9055,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-17",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8531,6 +9157,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-24",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8631,6 +9259,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-31",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8731,6 +9361,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "09-07",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8831,6 +9463,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "09-14",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -8931,6 +9565,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "09-21",
       "schema_id": "534cb4f6b8",
       "field_checks": {
@@ -9031,6 +9667,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "09-28",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -9131,6 +9769,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "10-05",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -9231,6 +9871,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "10-12",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -9331,6 +9973,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "10-19",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -9431,6 +10075,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "10-26",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -9531,6 +10177,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-02",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -9631,6 +10279,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-09",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -9731,6 +10381,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-16",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -9831,6 +10483,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-23",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -9931,6 +10585,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-30",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10031,6 +10687,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-07",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10131,6 +10789,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-14",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10231,6 +10891,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-21",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10331,6 +10993,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-28",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10431,6 +11095,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-04",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10531,6 +11197,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-11",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10631,6 +11299,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-18",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10731,6 +11401,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-25",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10831,6 +11503,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-01",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -10931,6 +11605,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-08",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11031,6 +11707,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-15",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11131,6 +11809,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-22",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11231,6 +11911,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-01",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11331,6 +12013,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-08",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11431,6 +12115,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-15",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11531,6 +12217,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-22",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11631,6 +12319,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-29",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11731,6 +12421,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "04-05",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11831,6 +12523,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "04-12",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -11931,6 +12625,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "04-19",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -12031,6 +12727,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "04-26",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -12131,6 +12829,234 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [
+        {
+          "row_1based": 4,
+          "cells": [
+            "",
+            "",
+            "",
+            "（２）①-2うち、確保病床に入院している者数",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 5,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 6,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "（２）①-3うち、確保病床に位置付けられた臨時の医療施設･入院待機施設に入院している者数",
+            "病床数",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 7,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "現フェーズ／ 最終フェーズ （注２）",
+            "即応病床数 (注３)",
+            "確保病床数 （注４）",
+            "",
+            "確保病床 使用率 （注５）"
+          ]
+        },
+        {
+          "row_1based": 8,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "うち、確保病床に位置付けられた臨時の医療施設・入院待機施設の病床数",
+            ""
+          ]
+        },
+        {
+          "row_1based": 9,
+          "cells": [
+            "01 北海道",
+            "5705",
+            "363",
+            "218",
+            "0",
+            "１／３",
+            "1808",
+            "2410",
+            "0",
+            "9"
+          ]
+        },
+        {
+          "row_1based": 10,
+          "cells": [
+            "02 青森県",
+            "1005",
+            "21",
+            "20",
+            "0",
+            "２／５",
+            "430",
+            "480",
+            "0",
+            "4"
+          ]
+        },
+        {
+          "row_1based": 11,
+          "cells": [
+            "03 岩手県",
+            "854",
+            "25",
+            "25",
+            "0",
+            "１／２",
+            "229",
+            "368",
+            "0",
+            "7"
+          ]
+        },
+        {
+          "row_1based": 12,
+          "cells": [
+            "04 宮城県",
+            "1489",
+            "60",
+            "60",
+            "0",
+            "Ⅰ／Ⅰ",
+            "622",
+            "622",
+            "0",
+            "10"
+          ]
+        },
+        {
+          "row_1based": 13,
+          "cells": [
+            "05 秋田県",
+            "903",
+            "46",
+            "22",
+            "0",
+            "３／６",
+            "100",
+            "272",
+            "0",
+            "8"
+          ]
+        },
+        {
+          "row_1based": 14,
+          "cells": [
+            "06 山形県",
+            "907",
+            "53",
+            "32",
+            "0",
+            "Ⅰ／Ⅱ",
+            "294",
+            "294",
+            "0",
+            "11"
+          ]
+        },
+        {
+          "row_1based": 15,
+          "cells": [
+            "07 福島県",
+            "1213",
+            "91",
+            "68",
+            "0",
+            "２／３",
+            "669",
+            "774",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "row_1based": 16,
+          "cells": [
+            "08 茨城県",
+            "1074",
+            "40",
+            "40",
+            "0",
+            "２／７",
+            "200",
+            "949",
+            "200",
+            "4"
+          ]
+        },
+        {
+          "row_1based": 17,
+          "cells": [
+            "09 栃木県",
+            "1165",
+            "49",
+            "49",
+            "0",
+            "１／３",
+            "304",
+            "591",
+            "0",
+            "8"
+          ]
+        },
+        {
+          "row_1based": 18,
+          "cells": [
+            "10 群馬県",
+            "1042",
+            "74",
+            "49",
+            "0",
+            "２／４",
+            "403",
+            "726",
+            "0",
+            "7"
+          ]
+        }
+      ],
       "title_month_day": "05-03",
       "schema_id": "ac15de1f12",
       "field_checks": {
@@ -12231,6 +13157,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "05-10",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -12346,6 +13274,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "05-17",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -12461,6 +13391,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "05-24",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -12576,6 +13508,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "05-31",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -12691,6 +13625,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "06-07",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -12806,6 +13742,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "06-14",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -12921,6 +13859,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "06-21",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -13036,6 +13976,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "06-28",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -13151,6 +14093,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "07-05",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -13266,6 +14210,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "07-12",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -13381,6 +14327,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "07-19",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -13496,6 +14444,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "07-26",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -13611,6 +14561,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-02",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -13726,6 +14678,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-09",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -13841,6 +14795,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-16",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -13956,6 +14912,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-23",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -14071,6 +15029,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "08-30",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -14186,6 +15146,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "09-06",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -14301,6 +15263,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "09-13",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -14416,6 +15380,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "09-20",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -14531,6 +15497,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "09-27",
       "schema_id": "910a6b6ca1",
       "field_checks": {
@@ -14646,6 +15614,234 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [
+        {
+          "row_1based": 4,
+          "cells": [
+            "",
+            "",
+            "（１）①-2 うち、確保病床に入院している者数",
+            "（１）①-3 うち、確保病床外に入院している者数",
+            "病床数",
+            "",
+            "",
+            "",
+            "（１）②ｰ1 うち中等症Ⅱ 患者数",
+            ""
+          ]
+        },
+        {
+          "row_1based": 5,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "（１）②-2 うち、確保病床に入院している中等症Ⅱ患者数"
+          ]
+        },
+        {
+          "row_1based": 6,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 7,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "現段階／ 最終段階 （注１）",
+            "即応病床数 (注２)",
+            "確保病床数 （注３）",
+            "確保病床 使用率 （注４）",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 8,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 9,
+          "cells": [
+            "01 北海道",
+            "414",
+            "－",
+            "－",
+            "０／３",
+            "－",
+            "531",
+            "－",
+            "45",
+            "－"
+          ]
+        },
+        {
+          "row_1based": 10,
+          "cells": [
+            "02 青森県",
+            "98",
+            "16",
+            "82",
+            "０／３",
+            "29",
+            "167",
+            "10",
+            "14",
+            "3"
+          ]
+        },
+        {
+          "row_1based": 11,
+          "cells": [
+            "03 岩手県",
+            "60",
+            "8",
+            "52",
+            "０／３",
+            "17",
+            "222",
+            "4",
+            "11",
+            "3"
+          ]
+        },
+        {
+          "row_1based": 12,
+          "cells": [
+            "04 宮城県",
+            "119",
+            "11",
+            "108",
+            "０／３",
+            "26",
+            "142",
+            "8",
+            "15",
+            "6"
+          ]
+        },
+        {
+          "row_1based": 13,
+          "cells": [
+            "05 秋田県",
+            "73",
+            "6",
+            "67",
+            "０／３",
+            "21",
+            "93",
+            "6",
+            "12",
+            "6"
+          ]
+        },
+        {
+          "row_1based": 14,
+          "cells": [
+            "06 山形県",
+            "106",
+            "10",
+            "96",
+            "０／３",
+            "22",
+            "136",
+            "7",
+            "5",
+            "3"
+          ]
+        },
+        {
+          "row_1based": 15,
+          "cells": [
+            "07 福島県",
+            "172",
+            "17",
+            "155",
+            "０／３",
+            "32",
+            "137",
+            "12",
+            "26",
+            "0"
+          ]
+        },
+        {
+          "row_1based": 16,
+          "cells": [
+            "08 茨城県",
+            "221",
+            "－",
+            "－",
+            "０／３",
+            "－",
+            "－",
+            "－",
+            "46",
+            "－"
+          ]
+        },
+        {
+          "row_1based": 17,
+          "cells": [
+            "09 栃木県",
+            "148",
+            "－",
+            "－",
+            "０／３",
+            "－",
+            "116",
+            "－",
+            "39",
+            "－"
+          ]
+        },
+        {
+          "row_1based": 18,
+          "cells": [
+            "10 群馬県",
+            "218",
+            "27",
+            "191",
+            "０／３",
+            "41",
+            "255",
+            "11",
+            "40",
+            "11"
+          ]
+        }
+      ],
       "title_month_day": "10-04",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -14776,6 +15972,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "10-11",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -14906,6 +16104,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "10-18",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -15036,6 +16236,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "10-25",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -15166,6 +16368,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-01",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -15296,6 +16500,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-08",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -15426,6 +16632,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-15",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -15556,6 +16764,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-22",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -15686,6 +16896,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "11-29",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -15816,6 +17028,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-06",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -15946,6 +17160,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-13",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -16076,6 +17292,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-20",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -16206,6 +17424,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "12-27",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -16336,6 +17556,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-03",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -16466,6 +17688,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-10",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -16596,6 +17820,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-17",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -16726,6 +17952,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-24",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -16856,6 +18084,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "01-31",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -16986,6 +18216,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-07",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -17116,6 +18348,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-14",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -17246,6 +18480,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-21",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -17376,6 +18612,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "02-28",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -17506,6 +18744,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-06",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -17636,6 +18876,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-13",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -17766,6 +19008,8 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [],
       "title_month_day": "03-20",
       "schema_id": "5cf78895c1",
       "field_checks": {
@@ -17896,6 +19140,234 @@
         "鹿児島県"
       ],
       "contains_national_total": false,
+      "prefecture_column_1based": 1,
+      "debug_rows_after_header": [
+        {
+          "row_1based": 4,
+          "cells": [
+            "",
+            "",
+            "（１）①-2 うち、確保病床に入院している者数",
+            "（１）①-3 うち、確保病床外に入院している者数",
+            "病床数",
+            "",
+            "",
+            "",
+            "（１）②ｰ1 うち中等症Ⅱ 患者数",
+            ""
+          ]
+        },
+        {
+          "row_1based": 5,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "（１）②-2 うち、確保病床に入院している中等症Ⅱ患者数"
+          ]
+        },
+        {
+          "row_1based": 6,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 7,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "現段階／ 最終段階 （注１）",
+            "即応病床数 (注２)",
+            "確保病床数 （注３）",
+            "確保病床 使用率 （注４）",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 8,
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "row_1based": 9,
+          "cells": [
+            "01 北海道",
+            "374",
+            "－",
+            "－",
+            "０／３",
+            "－",
+            "－",
+            "－",
+            "86",
+            "－"
+          ]
+        },
+        {
+          "row_1based": 10,
+          "cells": [
+            "02 青森県",
+            "204",
+            "－",
+            "－",
+            "０／３",
+            "－",
+            "－",
+            "－",
+            "12",
+            "－"
+          ]
+        },
+        {
+          "row_1based": 11,
+          "cells": [
+            "03 岩手県",
+            "134",
+            "8",
+            "126",
+            "１／３",
+            "17",
+            "81",
+            "10",
+            "45",
+            "7"
+          ]
+        },
+        {
+          "row_1based": 12,
+          "cells": [
+            "04 宮城県",
+            "348",
+            "10",
+            "338",
+            "２／３",
+            "35",
+            "143",
+            "7",
+            "97",
+            "9"
+          ]
+        },
+        {
+          "row_1based": 13,
+          "cells": [
+            "05 秋田県",
+            "146",
+            "－",
+            "－",
+            "０／３",
+            "－",
+            "－",
+            "－",
+            "20",
+            "－"
+          ]
+        },
+        {
+          "row_1based": 14,
+          "cells": [
+            "06 山形県",
+            "167",
+            "12",
+            "155",
+            "０／３",
+            "22",
+            "136",
+            "9",
+            "10",
+            "4"
+          ]
+        },
+        {
+          "row_1based": 15,
+          "cells": [
+            "07 福島県",
+            "277",
+            "10",
+            "267",
+            "１／３",
+            "32",
+            "137",
+            "7",
+            "38",
+            "3"
+          ]
+        },
+        {
+          "row_1based": 16,
+          "cells": [
+            "08 茨城県",
+            "268",
+            "0",
+            "268",
+            "１／３",
+            "0",
+            "0",
+            "－",
+            "37",
+            "0"
+          ]
+        },
+        {
+          "row_1based": 17,
+          "cells": [
+            "09 栃木県",
+            "148",
+            "－",
+            "－",
+            "０／３",
+            "－",
+            "－",
+            "－",
+            "30",
+            "－"
+          ]
+        },
+        {
+          "row_1based": 18,
+          "cells": [
+            "10 群馬県",
+            "277",
+            "－",
+            "－",
+            "０／３",
+            "－",
+            "－",
+            "－",
+            "46",
+            "－"
+          ]
+        }
+      ],
       "title_month_day": "03-27",
       "schema_id": "5cf78895c1",
       "field_checks": {
