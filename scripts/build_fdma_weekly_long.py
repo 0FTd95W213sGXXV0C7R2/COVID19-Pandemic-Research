@@ -47,7 +47,7 @@ SHEETS = [
 
 FIELDS = [
     "dataset_id", "metric_code", "metric_label", "series_role", "comparison_basis",
-    "week_index", "period_start_date", "period_end_date", "period_end_date_expected",
+    "source_series_phase", "week_index", "period_start_date", "period_end_date", "period_end_date_expected",
     "period_end_date_printed", "date_header_status", "raw_week_header", "prefecture", "prefecture_value_source",
     "fire_department", "aggregation_level", "value", "unit", "observation_status",
     "paired_current_week_start_date", "source_sheet", "source_cell", "source_formula",
@@ -208,6 +208,21 @@ def main():
     partition_checks = Counter()
     incomplete_locations = []
     end_date_mismatch_weeks = []
+    pre_formal_survey_weeks = []
+
+    def source_series_phase(cfg, week):
+        if cfg["series_role"] == "previous_year_comparator":
+            return "historical_previous_year_comparator"
+        if cfg["metric_code"] in (
+            "transport_difficulty_covid_suspected_current",
+            "transport_difficulty_non_covid_suspected_current",
+        ):
+            return "legacy_form_covid_subgroup"
+        if week["start"] < date(2020, 4, 27):
+            return "pre_formal_survey_start_source_data_present_provenance_unresolved"
+        if week["start"] < date(2024, 4, 8):
+            return "original_form_before_2024_revision"
+        return "new_form_from_2024-04-08_covid_subgroup_discontinued"
 
     for cfg in SHEETS:
         ws, wsv = wb[cfg["sheet"]], wb_values[cfg["sheet"]]
@@ -243,6 +258,7 @@ def main():
                     "dataset_id": "FDMA_EMERGENCY_TRANSPORT_WEEKLY_2026",
                     "metric_code": cfg["metric_code"], "metric_label": cfg["metric_label"],
                     "series_role": cfg["series_role"], "comparison_basis": cfg["comparison_basis"],
+                    "source_series_phase": source_series_phase(cfg, week),
                     "week_index": week["index"], "period_start_date": week["start"].isoformat(),
                     "period_end_date": week["expected_end"].isoformat() if week["end_match"] else "",
                     "period_end_date_expected": week["expected_end"].isoformat(),
@@ -272,11 +288,28 @@ def main():
                 total_checks["mismatches"] += 1
                 raise RuntimeError(f"52-HQ total differs from detail sum: {cfg['sheet']} col {col}")
 
+            if (
+                cfg["series_role"] == "current_overall"
+                and week["start"] < date(2020, 4, 27)
+            ):
+                pre_formal_survey_weeks.append({
+                    "week_index": week["index"],
+                    "period_start_date": week["start"].isoformat(),
+                    "period_end_date_expected": week["expected_end"].isoformat(),
+                    "raw_week_header": week["raw_header"],
+                    "detail_numeric_cells": sum(1 for v in detail_values if is_number(v)),
+                    "detail_blank_cells": sum(1 for v in detail_values if v is None),
+                    "detail_sum": numeric_sum,
+                    "cached_total": int(cached_total),
+                    "sum_matches_cached_total": numeric_sum == cached_total,
+                })
+
             total_cell = f"{get_column_letter(col)}58"
             rows.append({
                 "dataset_id": "FDMA_EMERGENCY_TRANSPORT_WEEKLY_2026",
                 "metric_code": cfg["metric_code"], "metric_label": cfg["metric_label"],
                 "series_role": cfg["series_role"], "comparison_basis": cfg["comparison_basis"],
+                "source_series_phase": source_series_phase(cfg, week),
                 "week_index": week["index"], "period_start_date": week["start"].isoformat(),
                 "period_end_date": week["expected_end"].isoformat() if week["end_match"] else "",
                 "period_end_date_expected": week["expected_end"].isoformat(),
@@ -355,6 +388,16 @@ def main():
             "date_policy": "Week start is anchored to the first Reiwa-year header and validated against every printed start date/weekday. End-date discrepancies are preserved; period_end_date is blank for discrepant headers.",
             "total_policy": "52本部合計 is read from cached Excel values and checked against numeric detail cells using Excel SUM blank-ignored semantics. Blank detail cells remain blank.",
             "subgroup_policy": "COVID-suspected and non-COVID-suspected remain separate source series; their sum is checked against overall values where all three values are numeric.",
+            "methodology_timeline": {
+                "formal_survey_start_date_reported_by_fdma": "2020-04-27",
+                "formal_survey_start_source": "https://www.fdma.go.jp/singi_kento/kento/items/r5-1/01/shiryou2-2.pdf",
+                "initial_notification_date": "2020-04-23",
+                "initial_notification_url": "https://www.fdma.go.jp/disaster/coronavirus/items/200423_kyuuki_103.pdf",
+                "new_form_start_date": "2024-04-08",
+                "new_form_notice_url": "https://www.fdma.go.jp/disaster/coronavirus-situ/items/240408_kyuuki_01.pdf",
+                "change": "COVID-suspected inner-count item discontinued; weekly reporting of difficulty cases continues; monthly reporting ends; ambulance dispatch counts added to published figures.",
+                "pre_formal_period_handling": "Workbook contains four weeks beginning 2020-03-30 through 2020-04-20 with numeric values, before the reported formal survey start date. Their collection provenance is unresolved; they are retained and explicitly flagged, not silently merged into the formal survey period.",
+            },
         },
         "output": {
             "path": str(OUT_CSV.relative_to(ROOT)), "rows": len(rows),
@@ -376,6 +419,7 @@ def main():
             "subgroup_reconciliation": dict(partition_checks),
             "incomplete_subgroup_triplets": incomplete_locations,
             "week_end_header_discrepancies": end_date_mismatch_weeks,
+            "pre_formal_survey_weeks_with_source_values": pre_formal_survey_weeks,
         },
         "limitations": [
             "The dataset describes the 52 fire departments included in the FDMA survey, not every fire department in Japan.",
@@ -383,6 +427,8 @@ def main():
             "The previous-year tab is paired by week index 364 days apart and retained as a separate comparator series.",
             "The overall sheet has one blank facility-week observation; this is not converted to zero.",
             "One overall-sheet header prints 2024-04-01 through 2024-04-08 although the validated seven-day interval is 2024-04-01 through 2024-04-07. Its raw header is preserved and period_end_date is blank for that interval.",
+            "The workbook contains four weeks beginning 2020-03-30 through 2020-04-20 with numeric values before the reported formal survey start date of 2020-04-27. Their collection provenance is unresolved; the rows are retained with an explicit phase flag and must not be assumed comparable to the formal survey period.",
+            "From 2024-04-08, the new form discontinued the COVID-suspected inner-count item while continuing the overall difficulty-case survey; the COVID subgroup series therefore ends before the form change.",
             "This is a descriptive weekly dataset and does not establish causal effects of COVID-19 on transport difficulty.",
         ],
     }
@@ -403,6 +449,7 @@ def main():
         "total_checks": dict(total_checks), "subgroup_reconciliation": dict(partition_checks),
         "incomplete_subgroup_triplets": incomplete_locations,
         "week_end_header_discrepancies": end_date_mismatch_weeks,
+        "pre_formal_survey_weeks_with_source_values": pre_formal_survey_weeks,
         "zero_imputation": False, "daily_interpolation": False,
         "historical_derived_csv_used_as_input": False,
     }
@@ -457,6 +504,8 @@ def main():
 - 全体シートの2022-03-07開始週、秋田市消防本部の値は原本空欄。コロナ疑い・非コロナ疑いシートは両方0。
 - 全体シートの2024-04-01開始週の印刷見出しは終了日が2024-04-08と記載されるが、7日間の連続週として期待される終了日は2024-04-07。原文を保持し、period_end_dateは空欄としている。
 - COVID疑い・非COVID疑いの分類は消防庁原本の分類であり、患者の確定診断区分と同一と断定しない。
+- 消防庁の説明資料は正式調査開始を2020-04-27としている一方、Excelには2020-03-30〜2020-04-26の4週分にも数値がある。これらの収集経緯は未確認のため、source_series_phaseで正式調査開始前として識別し、正式調査期間と同条件と仮定しない。
+- 2024-04-08から新様式となり、COVID疑い事案数（内数）は調査中止。全体系列は継続するが、旧様式と新様式の切替点として識別する。月報告も終了。
 - 週次データを日次に補間しない。時系列上の関連は因果関係を意味しない。
 """
     OUT_DICTIONARY.parent.mkdir(parents=True, exist_ok=True)
