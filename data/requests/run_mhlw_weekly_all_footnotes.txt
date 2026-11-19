@@ -1,1 +1,3 @@
 Run all-snapshot MHLW weekly survey footnote audit.
+
+Rerun after JSON newline correction.
