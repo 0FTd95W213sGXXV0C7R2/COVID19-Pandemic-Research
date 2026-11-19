@@ -1,3 +1,5 @@
 Trigger: acquire the official FDMA workbook from the official source page, preserve original bytes, and inventory all sheets. Do not use historical derived CSVs.
 
 Retry after correcting ZIP signature validation. Timestamp: 2026-11-19T04:51:04.758Z
+
+Retry commit after explicitly allowing the official source workbook. 2026-11-19T04:52:01.517Z
