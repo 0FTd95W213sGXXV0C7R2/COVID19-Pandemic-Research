@@ -1,0 +1,1 @@
+Run representative MHLW weekly survey footnote extraction. Source workbooks remain unchanged.
