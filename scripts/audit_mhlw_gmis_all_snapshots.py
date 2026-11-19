@@ -42,7 +42,10 @@ def find_header(rows):
         if ({"医療機関コード", "実績日", "確保病床数"}.issubset(cells)
             and any(x in cells for x in ("即応病床数", "即応病床"))
             and any(x in cells for x in ("入院中患者数", "入院中"))):
-            header = [str(x).strip() for x in row]\n            while header and not header[-1]:\n                header.pop()\n            return i, header
+            header = [str(x).strip() for x in row]
+            while header and not header[-1]:
+                header.pop()
+            return i, header
     return None, None
 
 def inspect(item):
