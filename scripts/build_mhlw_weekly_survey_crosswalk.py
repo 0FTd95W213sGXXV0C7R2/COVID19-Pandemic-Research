@@ -46,9 +46,13 @@ def norm(v):
     return SPACE_RE.sub(" ", str(v)).strip()
 
 def classify(label):
+    compact = re.sub(r"\\s+", "", label)
+    severe_bed_context = "重症者用病床数" in compact
     for key, pattern in RULES:
-        if re.search(pattern, label):
-            # More specific definitions are evaluated first; avoid conflating parent/child concepts.
+        if re.search(pattern, compact):
+            # Separate severe-specific bed capacity from general bed capacity.
+            if severe_bed_context and key in ("immediately_available_beds", "secured_beds", "secured_bed_occupancy_rate"):
+                return "severe_specific_" + key
             return key
     return "unclassified"
 
@@ -131,6 +135,14 @@ def main():
                 columns.append(colrec)
                 key = (concept, label)
                 agg = aggregate[key]
+                numeric_values = [v for v in vals if isinstance(v, (int, float)) and not isinstance(v, bool)]
+                agg.setdefault("numeric_min", None)
+                agg.setdefault("numeric_max", None)
+                if numeric_values:
+                    agg["numeric_min"] = min(numeric_values) if agg["numeric_min"] is None else min(agg["numeric_min"], min(numeric_values))
+                    agg["numeric_max"] = max(numeric_values) if agg["numeric_max"] is None else max(agg["numeric_max"], max(numeric_values))
+                agg["dash_count"] = agg.get("dash_count", 0) + dash
+                agg["blank_count"] = agg.get("blank_count", 0) + blank
                 if date not in agg["dates"]:
                     agg["dates"].append(date)
                 agg["columns"].append({"date": date, "column": col, "schema_id": aud.get("schema_id")})
@@ -168,7 +180,7 @@ def main():
         "candidate_variables": [
             {"candidate_concept": k[0], "exact_header_label": k[1], "date_count": len(v["dates"]),
              "first_date": min(v["dates"]), "last_date": max(v["dates"]), "dates": v["dates"],
-             "column_occurrence_count": len(v["columns"]), "schema_ids": sorted({x["schema_id"] for x in v["columns"]}), "column_indices": sorted({x["column"] for x in v["columns"]}), "examples": v["examples"]}
+             "column_occurrence_count": len(v["columns"]), "schema_ids": sorted({x["schema_id"] for x in v["columns"]}), "column_indices": sorted({x["column"] for x in v["columns"]}), "numeric_min": v.get("numeric_min"), "numeric_max": v.get("numeric_max"), "dash_count": v.get("dash_count", 0), "blank_count": v.get("blank_count", 0), "examples": v["examples"]}
             for k,v in sorted(aggregate.items(), key=lambda z:(z[0][0],z[0][1]))
         ],
         "snapshots": per_snapshot,
