@@ -1,1 +1,1 @@
-Re-run compact weekly survey audit with normalized prefecture labels and debug sample rows.
+Run audit again and include the first data rows after each sample workbook header for column mapping validation.
