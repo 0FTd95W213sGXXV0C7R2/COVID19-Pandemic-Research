@@ -54,7 +54,7 @@ def discover():
     r = requests.get(PAGE, headers={"User-Agent": UA}, timeout=(20, 60))
     r.raise_for_status()
     parser = LinkParser()
-    parser.feed(r.text)
+    parser.feed(r.content.decode('utf-8', errors='replace'))
     # Parse the source page with stdlib HTMLParser and preserve the full anchor list.
     # Date labels are extracted from the immediately preceding title text in page source.
     items = {}
@@ -74,7 +74,7 @@ def discover():
         if not date:
             date = "unknown"
         if url not in items:
-            filename = "unknown_" + Path(path).name
+            filename = "unknown_unknown_" + Path(path).name
             items[url] = {
                 "source_url": url,
                 "source_page": PAGE,
