@@ -81,7 +81,7 @@ def acquire_source() -> tuple[Path, dict]:
     response = session.get(source_url, timeout=(30, 180))
     response.raise_for_status()
     content = response.content
-    if not content.startswith(b"PK\\x03\\x04"):
+    if not content.startswith(b"PK\x03\x04"):
         preview = content[:160].decode("utf-8", errors="replace")
         raise RuntimeError(
             "Official download did not return an XLSX ZIP signature. "
