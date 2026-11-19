@@ -24,6 +24,7 @@ RULES = [
     ("moderate_severe_II_patients_total", r"中等症Ⅱ.*患者数|中等症II.*患者数"),
     ("severe_patients_total", r"重症者数"),
     ("secured_bed_occupancy_rate", r"確保病床\s*使用率|確保病床数に対する使用率"),
+    ("inpatient_rate", r"入院率"),
     ("room_occupancy_rate", r"確保居室\s*使用率|確保居室数に対する使用率"),
     ("immediately_available_beds", r"即応病床数"),
     ("secured_beds", r"確保病床数"),
@@ -139,6 +140,12 @@ def main():
                     agg["numeric_max"] = max(numeric_values) if agg["numeric_max"] is None else max(agg["numeric_max"], max(numeric_values))
                 agg["dash_count"] = agg.get("dash_count", 0) + dash
                 agg["blank_count"] = agg.get("blank_count", 0) + blank
+                agg.setdefault("date_profiles", []).append({
+                    "date": date, "column": col, "numeric_count": len(numeric_values),
+                    "numeric_min": min(numeric_values) if numeric_values else None,
+                    "numeric_max": max(numeric_values) if numeric_values else None,
+                    "dash_count": dash, "blank_count": blank
+                })
                 if date not in agg["dates"]:
                     agg["dates"].append(date)
                 agg["columns"].append({"date": date, "column": col, "schema_id": aud.get("schema_id")})
@@ -176,7 +183,7 @@ def main():
         "candidate_variables": [
             {"candidate_concept": k[0], "exact_header_label": k[1], "date_count": len(v["dates"]),
              "first_date": min(v["dates"]), "last_date": max(v["dates"]), "dates": v["dates"],
-             "column_occurrence_count": len(v["columns"]), "schema_ids": sorted({x["schema_id"] for x in v["columns"]}), "column_indices": sorted({x["column"] for x in v["columns"]}), "numeric_min": v.get("numeric_min"), "numeric_max": v.get("numeric_max"), "dash_count": v.get("dash_count", 0), "blank_count": v.get("blank_count", 0), "examples": v["examples"]}
+             "column_occurrence_count": len(v["columns"]), "schema_ids": sorted({x["schema_id"] for x in v["columns"]}), "column_indices": sorted({x["column"] for x in v["columns"]}), "numeric_min": v.get("numeric_min"), "numeric_max": v.get("numeric_max"), "dash_count": v.get("dash_count", 0), "blank_count": v.get("blank_count", 0), "date_profiles": v.get("date_profiles", []), "examples": v["examples"]}
             for k,v in sorted(aggregate.items(), key=lambda z:(z[0][0],z[0][1]))
         ],
         "snapshots": per_snapshot,
