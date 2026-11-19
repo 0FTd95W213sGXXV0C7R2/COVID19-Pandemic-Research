@@ -32,3 +32,13 @@ No SHA-256 values are assigned because no binary files were obtained. No supplem
 ## Next bounded action
 
 Test Europe PMC's documented supplementary-file retrieval operation for one article (Yamaguchi, PMCID PMC9058318) before attempting the remaining files. If the archive is returned, enumerate its members, verify filenames and byte sizes, calculate SHA-256, and inspect each file. Do not infer numerical values from figures.
+
+
+## API execution test initiated
+
+- Triggered GitHub Actions workflow: `Retrieve Yamaguchi supplementary files from Europe PMC`.
+- Run ID: `44466845755`.
+- Run URL: https://github.com/0FTd95W213sGXXV0C7R2/COVID19-Pandemic-Research/actions/runs/44466845755
+- The runner completed checkout, Python setup, and dependency installation. At the last status check, the bounded retrieval step was still in progress; no archive, extracted PDF, or SHA-256 has yet been confirmed.
+- The workflow has an 8-minute job timeout and the HTTP request has a 90-second read timeout. It records a structured failure manifest rather than inventing a successful retrieval if the endpoint cannot be reached.
+- No values have been added to the 47-row evidence table; no MASTER or analysis dataset was modified.
