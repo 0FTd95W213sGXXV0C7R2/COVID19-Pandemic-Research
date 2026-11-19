@@ -1,1 +1,1 @@
-Re-acquire all weekly MHLW Excel files using UTF-8-decoded report-title date labels; overwrite the existing unknown-named raw copies and update compact manifest.
+Re-acquire all weekly MHLW Excel workbooks and run the structural/schema audit for all 171 snapshots.
