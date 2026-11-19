@@ -1,6 +1,6 @@
 {
   "status": "SOURCE_HEADER_AND_CELL_QUALITY_AUDIT",
-  "audit_timestamp_jst": "2026-11-19T13:56:18.130797+09:00",
+  "audit_timestamp_jst": "2026-11-19T13:57:12.699826+09:00",
   "source_sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
   "source_bytes": 286999,
   "sheet_summaries": [
@@ -64,7 +64,7 @@
       "first_expected_week": "2019-04-01",
       "last_expected_week": "2024-03-25",
       "last_expected_week_end": "2024-03-31",
-      "unparsed_headers": 2,
+      "unparsed_headers": 0,
       "start_label_mismatches": 0,
       "end_label_mismatches": 0,
       "year_label_cells": [
@@ -233,7 +233,10 @@
       "total_row_formula_cells": 207,
       "cached_total_numeric_cells": 261,
       "cached_total_non_numeric_or_missing": 0,
-      "cached_total_mismatches_vs_52_facility_sum": 0
+      "cached_total_formula_checks": 261,
+      "cached_total_formula_checks_with_blank_detail_cells": 1,
+      "cached_total_formula_checks_skipped_non_numeric_detail": 0,
+      "cached_total_formula_mismatches_using_excel_sum_blank_ignored_semantics": 0
     },
     "搬送困難事案（前年同期）": {
       "numeric": 13572,
@@ -242,7 +245,10 @@
       "total_row_formula_cells": 218,
       "cached_total_numeric_cells": 261,
       "cached_total_non_numeric_or_missing": 0,
-      "cached_total_mismatches_vs_52_facility_sum": 0
+      "cached_total_formula_checks": 261,
+      "cached_total_formula_checks_with_blank_detail_cells": 0,
+      "cached_total_formula_checks_skipped_non_numeric_detail": 0,
+      "cached_total_formula_mismatches_using_excel_sum_blank_ignored_semantics": 0
     },
     "うちコロナ疑い事案（今回）": {
       "numeric": 8164,
@@ -251,7 +257,10 @@
       "total_row_formula_cells": 153,
       "cached_total_numeric_cells": 157,
       "cached_total_non_numeric_or_missing": 0,
-      "cached_total_mismatches_vs_52_facility_sum": 0
+      "cached_total_formula_checks": 157,
+      "cached_total_formula_checks_with_blank_detail_cells": 0,
+      "cached_total_formula_checks_skipped_non_numeric_detail": 0,
+      "cached_total_formula_mismatches_using_excel_sum_blank_ignored_semantics": 0
     },
     "うち非コロナ疑い事案（今回）": {
       "numeric": 8164,
@@ -260,7 +269,10 @@
       "total_row_formula_cells": 153,
       "cached_total_numeric_cells": 157,
       "cached_total_non_numeric_or_missing": 0,
-      "cached_total_mismatches_vs_52_facility_sum": 0
+      "cached_total_formula_checks": 157,
+      "cached_total_formula_checks_with_blank_detail_cells": 0,
+      "cached_total_formula_checks_skipped_non_numeric_detail": 0,
+      "cached_total_formula_mismatches_using_excel_sum_blank_ignored_semantics": 0
     }
   },
   "subgroup_partition_reconciliation": {

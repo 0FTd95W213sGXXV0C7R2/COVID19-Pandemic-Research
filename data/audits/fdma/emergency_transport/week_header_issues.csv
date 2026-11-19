@@ -1,0 +1,4 @@
+﻿sheet_name,week_index,excel_column,era_label_anchor,raw_header,expected_start_date,expected_end_date,label_start_date_interpreted,label_end_date_interpreted,start_label_match,end_label_match,issue
+搬送困難事案（今回）,210,213,R2,"4/1(月)～
+4/8(日)分
+【4月第1週】",2024-04-01,2024-04-07,2024-04-01,2024-04-08,True,False,END_LABEL_MISMATCH
