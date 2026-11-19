@@ -1,7 +1,7 @@
 {
   "dataset_id": "FDMA_EMERGENCY_TRANSPORT_WEEKLY_2026",
   "status": "NORMALIZED_SOURCE_DATASET_BUILT_WITH_AUDIT_FLAGS",
-  "created_at_jst": "2026-11-19T14:04:31.033359+09:00",
+  "created_at_jst": "2026-11-19T14:16:41.502051+09:00",
   "source": {
     "publisher": "総務省消防庁",
     "source_page": "https://www.fdma.go.jp/disaster/coronavirus/post-1.html",
@@ -9,12 +9,12 @@
     "filename": "coronavirus_data.xlsx",
     "sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
     "bytes": 286999,
-    "acquired_at_jst": "2026-11-19T14:04:24.866675+09:00"
+    "acquired_at_jst": "2026-11-19T14:16:36.503947+09:00"
   },
   "transformation": {
     "script": "scripts/build_fdma_weekly_long.py",
     "workflow": ".github/workflows/fdma_source_rebuild.yml",
-    "github_sha": "8f48405dc89e31fdb2241d3763ff2690547377aa",
+    "github_sha": "dc0834ae9d4af16b9b7316b3f130fac4918bd6fe",
     "method": "Long-format extraction from the official workbook's four original sheets; no historical derived CSV input.",
     "time_granularity": "weekly",
     "missing_value_policy": "Blank source cells remain blank; explicit numeric zero remains 0; no imputation.",

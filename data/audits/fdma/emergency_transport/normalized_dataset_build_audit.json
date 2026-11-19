@@ -1,6 +1,6 @@
 {
   "status": "PASS_WITH_EXPLICIT_SOURCE_ISSUES",
-  "created_at_jst": "2026-11-19T14:04:31.033359+09:00",
+  "created_at_jst": "2026-11-19T14:16:41.502051+09:00",
   "source_sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
   "normalized_rows": 44308,
   "week_counts_by_sheet": {
