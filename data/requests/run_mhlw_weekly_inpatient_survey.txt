@@ -1,1 +1,1 @@
-Enumerate all weekly MHLW hospitalization survey Excel links and download original workbooks with hashes and sheet previews.
+Re-acquire all weekly MHLW survey workbooks with date labels extracted from the surrounding official report titles; preserve original workbook paths and compact metadata.
