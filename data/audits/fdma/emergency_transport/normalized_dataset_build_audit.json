@@ -1,0 +1,53 @@
+{
+  "status": "PASS_WITH_EXPLICIT_SOURCE_ISSUES",
+  "created_at_jst": "2026-11-19T14:00:37.353157+09:00",
+  "source_sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
+  "normalized_rows": 44308,
+  "week_counts_by_sheet": {
+    "搬送困難事案（今回）": 261,
+    "搬送困難事案（前年同期）": 261,
+    "うちコロナ疑い事案（今回）": 157,
+    "うち非コロナ疑い事案（今回）": 157
+  },
+  "facility_rows_per_sheet": 52,
+  "facility_identity_and_order_consistent": true,
+  "prefecture_cell_provenance": {
+    "explicit_cell_rows": 188,
+    "merged_range_rows": 20
+  },
+  "previous_year_pairing_days": [
+    364
+  ],
+  "total_checks": {
+    "columns_checked": 836,
+    "columns_with_blank_detail": 1
+  },
+  "subgroup_reconciliation": {
+    "numeric_triplets": 8163,
+    "exact_matches": 8163,
+    "incomplete_triplets": 1
+  },
+  "incomplete_subgroup_triplets": [
+    {
+      "prefecture": "秋田県",
+      "fire_department": "秋田市消防本部",
+      "week_start": "2022-03-07",
+      "overall": null,
+      "covid_suspected": 0,
+      "non_covid_suspected": 0
+    }
+  ],
+  "week_end_header_discrepancies": [
+    {
+      "sheet": "搬送困難事案（今回）",
+      "week_index": 210,
+      "start": "2024-04-01",
+      "printed_end": "2024-04-08",
+      "expected_end": "2024-04-07",
+      "raw_header": "4/1(月)～\n4/8(日)分\n【4月第1週】"
+    }
+  ],
+  "zero_imputation": false,
+  "daily_interpolation": false,
+  "historical_derived_csv_used_as_input": false
+}

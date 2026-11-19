@@ -1,0 +1,115 @@
+{
+  "dataset_id": "FDMA_EMERGENCY_TRANSPORT_WEEKLY_2026",
+  "status": "NORMALIZED_SOURCE_DATASET_BUILT_WITH_AUDIT_FLAGS",
+  "created_at_jst": "2026-11-19T14:00:37.353157+09:00",
+  "source": {
+    "publisher": "総務省消防庁",
+    "source_page": "https://www.fdma.go.jp/disaster/coronavirus/post-1.html",
+    "source_file_url": "https://www.fdma.go.jp/disaster/coronavirus/items/coronavirus_data.xlsx",
+    "filename": "coronavirus_data.xlsx",
+    "sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
+    "bytes": 286999,
+    "acquired_at_jst": "2026-11-19T14:00:31.713046+09:00"
+  },
+  "transformation": {
+    "script": "scripts/build_fdma_weekly_long.py",
+    "workflow": ".github/workflows/fdma_source_rebuild.yml",
+    "github_sha": "80cf08bacfe2263f291973897cb710fb2890ddff",
+    "method": "Long-format extraction from the official workbook's four original sheets; no historical derived CSV input.",
+    "time_granularity": "weekly",
+    "missing_value_policy": "Blank source cells remain blank; explicit numeric zero remains 0; no imputation.",
+    "date_policy": "Week start is anchored to the first Reiwa-year header and validated against every printed start date/weekday. End-date discrepancies are preserved; period_end_date is blank for discrepant headers.",
+    "total_policy": "52本部合計 is read from cached Excel values and checked against numeric detail cells using Excel SUM blank-ignored semantics. Blank detail cells remain blank.",
+    "subgroup_policy": "COVID-suspected and non-COVID-suspected remain separate source series; their sum is checked against overall values where all three values are numeric."
+  },
+  "output": {
+    "path": "data/processed/fdma/emergency_transport/weekly_long.csv",
+    "rows": 44308,
+    "detail_rows": 43472,
+    "aggregate_rows": 836,
+    "sha256": "92fb34d8f4c48efffed619e25be1d2fdfb154ed3ff7675f40ae939682200e574",
+    "columns": [
+      "dataset_id",
+      "metric_code",
+      "metric_label",
+      "series_role",
+      "comparison_basis",
+      "week_index",
+      "period_start_date",
+      "period_end_date",
+      "period_end_date_expected",
+      "period_end_date_printed",
+      "date_header_status",
+      "raw_week_header",
+      "prefecture",
+      "prefecture_value_source",
+      "fire_department",
+      "aggregation_level",
+      "value",
+      "unit",
+      "observation_status",
+      "paired_current_week_start_date",
+      "source_sheet",
+      "source_cell",
+      "source_formula",
+      "source_file_sha256"
+    ]
+  },
+  "audits": {
+    "week_counts_by_sheet": {
+      "搬送困難事案（今回）": 261,
+      "搬送困難事案（前年同期）": 261,
+      "うちコロナ疑い事案（今回）": 157,
+      "うち非コロナ疑い事案（今回）": 157
+    },
+    "current_vs_previous_year_week_start_delta_days": {
+      "min": 364,
+      "max": 364,
+      "unique": [
+        364
+      ]
+    },
+    "aligned_subgroup_week_count": 157,
+    "prefecture_cell_provenance": {
+      "explicit_cell_rows": 188,
+      "merged_range_rows": 20
+    },
+    "52_hq_total_checks": {
+      "columns_checked": 836,
+      "columns_with_blank_detail": 1
+    },
+    "subgroup_reconciliation": {
+      "numeric_triplets": 8163,
+      "exact_matches": 8163,
+      "incomplete_triplets": 1
+    },
+    "incomplete_subgroup_triplets": [
+      {
+        "prefecture": "秋田県",
+        "fire_department": "秋田市消防本部",
+        "week_start": "2022-03-07",
+        "overall": null,
+        "covid_suspected": 0,
+        "non_covid_suspected": 0
+      }
+    ],
+    "week_end_header_discrepancies": [
+      {
+        "sheet": "搬送困難事案（今回）",
+        "week_index": 210,
+        "start": "2024-04-01",
+        "printed_end": "2024-04-08",
+        "expected_end": "2024-04-07",
+        "raw_header": "4/1(月)～\n4/8(日)分\n【4月第1週】"
+      }
+    ]
+  },
+  "limitations": [
+    "The dataset describes the 52 fire departments included in the FDMA survey, not every fire department in Japan.",
+    "救急搬送困難事案 is not equivalent to ambulance refusal, non-transport, or inability to receive treatment.",
+    "The previous-year tab is paired by week index 364 days apart and retained as a separate comparator series.",
+    "The overall sheet has one blank facility-week observation; this is not converted to zero.",
+    "One overall-sheet header prints 2024-04-01 through 2024-04-08 although the validated seven-day interval is 2024-04-01 through 2024-04-07. Its raw header is preserved and period_end_date is blank for that interval.",
+    "This is a descriptive weekly dataset and does not establish causal effects of COVID-19 on transport difficulty."
+  ]
+}
