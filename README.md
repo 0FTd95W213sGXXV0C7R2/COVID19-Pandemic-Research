@@ -36,3 +36,7 @@
 ## Daily indicator analysis files
 
 GitHub is the canonical basis for subsequent analysis. Japanese epidemiology indicators and wave information are organized under [`MASTER_01_Epidemiology/`](MASTER_01_Epidemiology/README.md). The folder contains the five indicators, weekly wave aggregation, provisional wave boundaries, methods, audits, and a dedicated file manifest/data dictionary. Original data values were retained during reorganization.
+
+## Research workflow
+
+- The integrated operating procedure for Notion, GitHub, Consensus, Airtable, Python/GitHub Actions, and optional Canva/Vercel use is documented in [RESEARCH_WORKFLOW_PLUGIN_INTEGRATION.md](docs/RESEARCH_WORKFLOW_PLUGIN_INTEGRATION.md).
