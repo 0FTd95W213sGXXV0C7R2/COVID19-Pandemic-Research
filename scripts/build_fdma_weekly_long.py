@@ -145,10 +145,24 @@ def main():
             raise RuntimeError(f"Unexpected week count in {cfg['sheet']}: {len(weeks)}")
         facilities = []
         for row in range(6, 58):
-            pref, hq = ws.cell(row, 2).value, ws.cell(row, 3).value
-            if not pref or not hq:
-                raise RuntimeError(f"Facility identifier missing: {cfg['sheet']} row {row}")
-            facilities.append((str(pref), str(hq), row))
+            pref = ws.cell(row, 2).value
+            hq = ws.cell(row, 3).value
+            pref_source = "explicit_cell"
+            if pref in (None, ""):
+                # The source workbook merges prefecture cells vertically for
+                # multiple fire departments in the same prefecture. Resolve
+                # only when the row is explicitly inside a merged B-column range.
+                merged_pref = next((
+                    rng for rng in ws.merged_cells.ranges
+                    if rng.min_col == 2 and rng.max_col == 2
+                    and rng.min_row <= row <= rng.max_row
+                ), None)
+                if merged_pref is not None:
+                    pref = ws.cell(merged_pref.min_row, 2).value
+                    pref_source = f"merged_range:{merged_pref}"
+            if pref in (None, "") or hq in (None, ""):
+                raise RuntimeError(f"Facility identifier missing outside an explicit merged range: {cfg['sheet']} row {row}")
+            facilities.append((str(pref), str(hq), row, pref_source))
         if len(facilities) != 52 or len({x[1] for x in facilities}) != 52:
             raise RuntimeError(f"Expected 52 unique fire departments in {cfg['sheet']}")
         if ws.cell(58, 3).value != "52本部合計":
@@ -156,9 +170,16 @@ def main():
         weeks_by_sheet[cfg["sheet"]] = weeks
         facilities_by_sheet[cfg["sheet"]] = facilities
 
-    reference_facilities = facilities_by_sheet[SHEETS[0]["sheet"]]
-    if any(facilities_by_sheet[x["sheet"]] != reference_facilities for x in SHEETS[1:]):
+    reference_facilities = [(x[0], x[1]) for x in facilities_by_sheet[SHEETS[0]["sheet"]]]
+    if any(
+        [(x[0], x[1]) for x in facilities_by_sheet[cfg["sheet"]]] != reference_facilities
+        for cfg in SHEETS[1:]
+    ):
         raise RuntimeError("Facility names/order differ between source sheets.")
+    prefecture_source_counts = Counter(
+        x[3] == "explicit_cell"
+        for sheet in facilities_by_sheet.values() for x in sheet
+    )
 
     current_weeks = weeks_by_sheet[SHEETS[0]["sheet"]]
     prior_weeks = weeks_by_sheet[SHEETS[1]["sheet"]]
@@ -205,7 +226,7 @@ def main():
                 })
 
             detail_values = []
-            for pref, hq, row_number in facilities:
+            for pref, hq, row_number, pref_source in facilities:
                 value = ws.cell(row_number, col).value
                 source_cell = f"{get_column_letter(col)}{row_number}"
                 if value is None:
@@ -227,7 +248,8 @@ def main():
                     "period_end_date_expected": week["expected_end"].isoformat(),
                     "period_end_date_printed": week["printed_end"].isoformat(),
                     "date_header_status": week["date_header_status"], "raw_week_header": week["raw_header"],
-                    "prefecture": pref, "fire_department": hq, "aggregation_level": "fire_department",
+                    "prefecture": pref, "prefecture_value_source": pref_source,
+                    "fire_department": hq, "aggregation_level": "fire_department",
                     "value": clean_value, "unit": "件", "observation_status": observation_status,
                     "paired_current_week_start_date": (
                         prior_pair_dates[week["index"]] if cfg["series_role"] == "previous_year_comparator" else ""
@@ -260,7 +282,8 @@ def main():
                 "period_end_date_expected": week["expected_end"].isoformat(),
                 "period_end_date_printed": week["printed_end"].isoformat(),
                 "date_header_status": week["date_header_status"], "raw_week_header": week["raw_header"],
-                "prefecture": "", "fire_department": "52本部合計",
+                "prefecture": "", "prefecture_value_source": "not_applicable",
+                "fire_department": "52本部合計",
                 "aggregation_level": "52_fire_department_total", "value": int(cached_total), "unit": "件",
                 "observation_status": (
                     "cached_excel_total_formula"
@@ -345,6 +368,10 @@ def main():
                 "min": min(prior_pair_deltas), "max": max(prior_pair_deltas), "unique": sorted(set(prior_pair_deltas)),
             },
             "aligned_subgroup_week_count": len(common_dates),
+            "prefecture_cell_provenance": {
+                "explicit_cell_rows": sum(1 for x in prefecture_source_counts.elements() if x),
+                "merged_range_rows": sum(1 for x in prefecture_source_counts.elements() if not x),
+            },
             "52_hq_total_checks": dict(total_checks),
             "subgroup_reconciliation": dict(partition_checks),
             "incomplete_subgroup_triplets": incomplete_locations,
@@ -368,6 +395,10 @@ def main():
         "normalized_rows": len(rows),
         "week_counts_by_sheet": manifest["audits"]["week_counts_by_sheet"],
         "facility_rows_per_sheet": 52, "facility_identity_and_order_consistent": True,
+        "prefecture_cell_provenance": {
+            "explicit_cell_rows": sum(1 for x in prefecture_source_counts.elements() if x),
+            "merged_range_rows": sum(1 for x in prefecture_source_counts.elements() if not x),
+        },
         "previous_year_pairing_days": sorted(set(prior_pair_deltas)),
         "total_checks": dict(total_checks), "subgroup_reconciliation": dict(partition_checks),
         "incomplete_subgroup_triplets": incomplete_locations,
@@ -408,7 +439,8 @@ def main():
 | period_end_date_printed | Excel見出しに印字された終了日 |
 | date_header_status | matched または printed_end_date_or_weekday_mismatch |
 | raw_week_header | Excelの週見出し原文 |
-| prefecture | 消防本部所在地の都道府県 |
+| prefecture | 消防本部所在地の都道府県。縦方向に結合されたExcelセルは、結合範囲の先頭セルから値を取得 |
+| prefecture_value_source | 都道府県値が明示セルか、原本の縦結合セルから取得されたか |
 | fire_department | 消防本部名。合計行は「52本部合計」 |
 | aggregation_level | fire_department または 52_fire_department_total |
 | value | 件数。原本空欄は空欄のまま、明示的な0は0 |
