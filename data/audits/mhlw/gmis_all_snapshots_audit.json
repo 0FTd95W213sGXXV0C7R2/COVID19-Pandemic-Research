@@ -1,6 +1,6 @@
 {
-  "created_at_utc": "2026-11-19T06:02:36.750686+00:00",
-  "created_at_jst": "2026-11-19T15:02:36.750686+09:00",
+  "created_at_utc": "2026-11-19T06:03:53.029166+00:00",
+  "created_at_jst": "2026-11-19T15:03:53.029166+09:00",
   "source_manifest": "data/metadata/mhlw/gmis_all_snapshots_manifest.json",
   "discovered_csv_count": 43,
   "downloaded_csv_count": 43,
@@ -21,12 +21,11 @@
       "56": 1
     }
   },
-  "schema_variant_count": 4,
+  "schema_variant_count": 3,
   "schema_variant_snapshot_counts": {
     "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床|入院中|備考（入院中患者数）": 1,
     "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中患者数|備考(入院中患者数)": 1,
-    "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）": 32,
-    "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||": 9
+    "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）": 41
   },
   "snapshots": [
     {
@@ -66,36 +65,30 @@
         "2021/12/1": 2287
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2021/12/1": 2287
+        "2021-12-01": 2287
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2021/12/1",
-          "normalized": null,
-          "rows": 2287
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2287,
           "blank": 0,
-          "non_numeric_nonblank": 2287,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 14,
+          "sum_numeric": 39714
         },
         "即応病床": {
-          "numeric": 0,
+          "numeric": 2287,
           "blank": 0,
-          "non_numeric_nonblank": 2287,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 378,
+          "sum_numeric": 23869
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2287,
           "blank": 0,
-          "non_numeric_nonblank": 2287,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 2026,
+          "sum_numeric": 401
         }
       },
       "missing_values_by_column": {
@@ -157,37 +150,30 @@
         "44566": 14
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/1/5": 2287,
-        "2022-01-05": 14
+        "2022-01-05": 2301
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/1/5",
-          "normalized": null,
-          "rows": 2287
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2300,
           "blank": 1,
-          "non_numeric_nonblank": 2300,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 16,
+          "sum_numeric": 40103
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2285,
           "blank": 16,
-          "non_numeric_nonblank": 2285,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 358,
+          "sum_numeric": 24938
         },
         "入院中患者数": {
-          "numeric": 0,
+          "numeric": 2285,
           "blank": 16,
-          "non_numeric_nonblank": 2285,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1392,
+          "sum_numeric": 3253
         }
       },
       "missing_values_by_column": {
@@ -248,36 +234,30 @@
         "2022/1/19": 2341
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/1/19": 2341
+        "2022-01-19": 2341
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/1/19",
-          "normalized": null,
-          "rows": 2341
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2336,
           "blank": 5,
-          "non_numeric_nonblank": 2336,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 15,
+          "sum_numeric": 42649
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2309,
           "blank": 32,
-          "non_numeric_nonblank": 2309,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 231,
+          "sum_numeric": 30776
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2309,
           "blank": 32,
-          "non_numeric_nonblank": 2309,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 530,
+          "sum_numeric": 12674
         }
       },
       "missing_values_by_column": {
@@ -338,36 +318,30 @@
         "2022/2/2": 2346
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/2/2": 2346
+        "2022-02-02": 2346
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/2/2",
-          "normalized": null,
-          "rows": 2346
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2340,
           "blank": 6,
-          "non_numeric_nonblank": 2340,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 18,
+          "sum_numeric": 43162
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2317,
           "blank": 29,
-          "non_numeric_nonblank": 2317,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 156,
+          "sum_numeric": 36519
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2317,
           "blank": 29,
-          "non_numeric_nonblank": 2317,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 253,
+          "sum_numeric": 22715
         }
       },
       "missing_values_by_column": {
@@ -428,36 +402,30 @@
         "2022/2/16": 2353
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/2/16": 2353
+        "2022-02-16": 2353
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/2/16",
-          "normalized": null,
-          "rows": 2353
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2349,
           "blank": 4,
-          "non_numeric_nonblank": 2349,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 19,
+          "sum_numeric": 43425
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2309,
           "blank": 44,
-          "non_numeric_nonblank": 2309,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 122,
+          "sum_numeric": 38113
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2309,
           "blank": 44,
-          "non_numeric_nonblank": 2309,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 238,
+          "sum_numeric": 25618
         }
       },
       "missing_values_by_column": {
@@ -518,36 +486,30 @@
         "2022/3/2": 2362
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/3/2": 2362
+        "2022-03-02": 2362
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/3/2",
-          "normalized": null,
-          "rows": 2362
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2357,
           "blank": 5,
-          "non_numeric_nonblank": 2357,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 23,
+          "sum_numeric": 43695
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2310,
           "blank": 52,
-          "non_numeric_nonblank": 2310,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 104,
+          "sum_numeric": 39197
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2310,
           "blank": 52,
-          "non_numeric_nonblank": 2310,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 251,
+          "sum_numeric": 22116
         }
       },
       "missing_values_by_column": {
@@ -608,36 +570,30 @@
         "2022/3/16": 2384
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/3/16": 2384
+        "2022-03-16": 2384
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/3/16",
-          "normalized": null,
-          "rows": 2384
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2376,
           "blank": 8,
-          "non_numeric_nonblank": 2376,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 23,
+          "sum_numeric": 43836
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2330,
           "blank": 54,
-          "non_numeric_nonblank": 2330,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 87,
+          "sum_numeric": 39554
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2330,
           "blank": 54,
-          "non_numeric_nonblank": 2330,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 336,
+          "sum_numeric": 16058
         }
       },
       "missing_values_by_column": {
@@ -698,36 +654,30 @@
         "2022/4/6": 2431
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/4/6": 2431
+        "2022-04-06": 2431
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/4/6",
-          "normalized": null,
-          "rows": 2431
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2414,
           "blank": 17,
-          "non_numeric_nonblank": 2414,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 32,
+          "sum_numeric": 43568
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2350,
           "blank": 81,
-          "non_numeric_nonblank": 2350,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 106,
+          "sum_numeric": 37023
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2350,
           "blank": 81,
-          "non_numeric_nonblank": 2350,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 507,
+          "sum_numeric": 10449
         }
       },
       "missing_values_by_column": {
@@ -788,36 +738,30 @@
         "2022/4/20": 2450
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/4/20": 2450
+        "2022-04-20": 2450
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/4/20",
-          "normalized": null,
-          "rows": 2450
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2430,
           "blank": 20,
-          "non_numeric_nonblank": 2430,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 42,
+          "sum_numeric": 43582
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2372,
           "blank": 78,
-          "non_numeric_nonblank": 2372,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 127,
+          "sum_numeric": 36545
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2372,
           "blank": 78,
-          "non_numeric_nonblank": 2372,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 515,
+          "sum_numeric": 9911
         }
       },
       "missing_values_by_column": {
@@ -878,36 +822,30 @@
         "2022/5/4": 2463
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/5/4": 2463
+        "2022-05-04": 2463
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/5/4",
-          "normalized": null,
-          "rows": 2463
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2448,
           "blank": 15,
-          "non_numeric_nonblank": 2448,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 46,
+          "sum_numeric": 43546
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2331,
           "blank": 132,
-          "non_numeric_nonblank": 2331,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 136,
+          "sum_numeric": 35255
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2331,
           "blank": 132,
-          "non_numeric_nonblank": 2331,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 638,
+          "sum_numeric": 7585
         }
       },
       "missing_values_by_column": {
@@ -968,36 +906,30 @@
         "2022/5/18": 2477
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/5/18": 2477
+        "2022-05-18": 2477
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/5/18",
-          "normalized": null,
-          "rows": 2477
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2459,
           "blank": 18,
-          "non_numeric_nonblank": 2459,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 48,
+          "sum_numeric": 43531
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2397,
           "blank": 80,
-          "non_numeric_nonblank": 2397,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 134,
+          "sum_numeric": 35524
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2397,
           "blank": 80,
-          "non_numeric_nonblank": 2397,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 615,
+          "sum_numeric": 8424
         }
       },
       "missing_values_by_column": {
@@ -1058,36 +990,30 @@
         "2022/6/1": 2492
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/6/1": 2492
+        "2022-06-01": 2492
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/6/1",
-          "normalized": null,
-          "rows": 2492
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2479,
           "blank": 13,
-          "non_numeric_nonblank": 2479,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 55,
+          "sum_numeric": 43060
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2423,
           "blank": 69,
-          "non_numeric_nonblank": 2423,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 156,
+          "sum_numeric": 33428
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2423,
           "blank": 69,
-          "non_numeric_nonblank": 2423,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 760,
+          "sum_numeric": 6707
         }
       },
       "missing_values_by_column": {
@@ -1148,36 +1074,30 @@
         "2022/6/15": 2523
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/6/15": 2523
+        "2022-06-15": 2523
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/6/15",
-          "normalized": null,
-          "rows": 2523
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2505,
           "blank": 18,
-          "non_numeric_nonblank": 2505,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 60,
+          "sum_numeric": 42627
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2444,
           "blank": 79,
-          "non_numeric_nonblank": 2444,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 172,
+          "sum_numeric": 30948
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2444,
           "blank": 79,
-          "non_numeric_nonblank": 2444,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1045,
+          "sum_numeric": 4391
         }
       },
       "missing_values_by_column": {
@@ -1238,36 +1158,30 @@
         "2022/7/6": 2535
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/7/6": 2535
+        "2022-07-06": 2535
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/7/6",
-          "normalized": null,
-          "rows": 2535
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2516,
           "blank": 19,
-          "non_numeric_nonblank": 2516,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 62,
+          "sum_numeric": 42518
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2432,
           "blank": 103,
-          "non_numeric_nonblank": 2432,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 215,
+          "sum_numeric": 28515
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2432,
           "blank": 103,
-          "non_numeric_nonblank": 2432,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 824,
+          "sum_numeric": 7489
         }
       },
       "missing_values_by_column": {
@@ -1328,36 +1242,30 @@
         "2022/7/20": 2549
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/7/20": 2549
+        "2022-07-20": 2549
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/7/20",
-          "normalized": null,
-          "rows": 2549
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2531,
           "blank": 18,
-          "non_numeric_nonblank": 2531,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 60,
+          "sum_numeric": 43099
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2471,
           "blank": 78,
-          "non_numeric_nonblank": 2471,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 171,
+          "sum_numeric": 33462
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2471,
           "blank": 78,
-          "non_numeric_nonblank": 2471,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 409,
+          "sum_numeric": 18667
         }
       },
       "missing_values_by_column": {
@@ -1418,36 +1326,30 @@
         "2022/8/3": 2590
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/8/3": 2590
+        "2022-08-03": 2590
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/8/3",
-          "normalized": null,
-          "rows": 2590
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2566,
           "blank": 24,
-          "non_numeric_nonblank": 2566,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 71,
+          "sum_numeric": 44051
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2489,
           "blank": 101,
-          "non_numeric_nonblank": 2489,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 120,
+          "sum_numeric": 38807
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2489,
           "blank": 101,
-          "non_numeric_nonblank": 2489,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 207,
+          "sum_numeric": 28543
         }
       },
       "missing_values_by_column": {
@@ -1508,36 +1410,30 @@
         "2022/8/17": 2663
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/8/17": 2663
+        "2022-08-17": 2663
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/8/17",
-          "normalized": null,
-          "rows": 2663
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2637,
           "blank": 26,
-          "non_numeric_nonblank": 2637,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 81,
+          "sum_numeric": 44969
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2563,
           "blank": 100,
-          "non_numeric_nonblank": 2563,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 107,
+          "sum_numeric": 41516
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2563,
           "blank": 100,
-          "non_numeric_nonblank": 2563,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 213,
+          "sum_numeric": 31193
         }
       },
       "missing_values_by_column": {
@@ -1598,36 +1494,30 @@
         "2022/9/7": 2759
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/9/7": 2759
+        "2022-09-07": 2759
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/9/7",
-          "normalized": null,
-          "rows": 2759
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2740,
           "blank": 19,
-          "non_numeric_nonblank": 2740,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 94,
+          "sum_numeric": 46113
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2684,
           "blank": 75,
-          "non_numeric_nonblank": 2684,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 93,
+          "sum_numeric": 43147
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2681,
           "blank": 78,
-          "non_numeric_nonblank": 2681,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 290,
+          "sum_numeric": 22077
         }
       },
       "missing_values_by_column": {
@@ -1688,36 +1578,30 @@
         "2022/9/21": 2779
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/9/21": 2779
+        "2022-09-21": 2779
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/9/21",
-          "normalized": null,
-          "rows": 2779
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2760,
           "blank": 19,
-          "non_numeric_nonblank": 2760,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 93,
+          "sum_numeric": 46225
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2718,
           "blank": 61,
-          "non_numeric_nonblank": 2718,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 93,
+          "sum_numeric": 41793
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2715,
           "blank": 64,
-          "non_numeric_nonblank": 2715,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 572,
+          "sum_numeric": 13050
         }
       },
       "missing_values_by_column": {
@@ -1778,36 +1662,30 @@
         "2022/10/5": 2824
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/10/5": 2824
+        "2022-10-05": 2824
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/10/5",
-          "normalized": null,
-          "rows": 2824
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2805,
           "blank": 19,
-          "non_numeric_nonblank": 2805,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 106,
+          "sum_numeric": 45036
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2747,
           "blank": 77,
-          "non_numeric_nonblank": 2747,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 153,
+          "sum_numeric": 35208
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2747,
           "blank": 77,
-          "non_numeric_nonblank": 2747,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 822,
+          "sum_numeric": 8721
         }
       },
       "missing_values_by_column": {
@@ -1852,14 +1730,9 @@
         "確保病床数",
         "即応病床数",
         "入院中",
-        "備考（入院中患者数）",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "備考（入院中患者数）"
       ],
-      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||",
+      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）",
       "facility_records": 2832,
       "unique_nonblank_facility_codes": 2830,
       "blank_facility_codes": 2,
@@ -1873,36 +1746,30 @@
         "2022/10/19": 2832
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/10/19": 2832
+        "2022-10-19": 2832
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/10/19",
-          "normalized": null,
-          "rows": 2832
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2814,
           "blank": 18,
-          "non_numeric_nonblank": 2814,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 105,
+          "sum_numeric": 44536
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2763,
           "blank": 69,
-          "non_numeric_nonblank": 2763,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 232,
+          "sum_numeric": 29686
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2760,
           "blank": 72,
-          "non_numeric_nonblank": 2760,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 928,
+          "sum_numeric": 7877
         }
       },
       "missing_values_by_column": {
@@ -1917,8 +1784,7 @@
         "確保病床数": 18,
         "即応病床数": 69,
         "入院中": 72,
-        "備考（入院中患者数）": 1541,
-        "": 2832
+        "備考（入院中患者数）": 1541
       },
       "field_crosswalk": {
         "secured_beds": "確保病床数",
@@ -1948,14 +1814,9 @@
         "確保病床数",
         "即応病床数",
         "入院中",
-        "備考（入院中患者数）",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "備考（入院中患者数）"
       ],
-      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||",
+      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）",
       "facility_records": 2847,
       "unique_nonblank_facility_codes": 2845,
       "blank_facility_codes": 2,
@@ -1969,36 +1830,30 @@
         "2022/11/2": 2847
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/11/2": 2847
+        "2022-11-02": 2847
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/11/2",
-          "normalized": null,
-          "rows": 2847
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2833,
           "blank": 14,
-          "non_numeric_nonblank": 2833,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 114,
+          "sum_numeric": 44048
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2748,
           "blank": 99,
-          "non_numeric_nonblank": 2748,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 275,
+          "sum_numeric": 26295
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2748,
           "blank": 99,
-          "non_numeric_nonblank": 2748,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 751,
+          "sum_numeric": 10875
         }
       },
       "missing_values_by_column": {
@@ -2013,8 +1868,7 @@
         "確保病床数": 14,
         "即応病床数": 99,
         "入院中": 99,
-        "備考（入院中患者数）": 1532,
-        "": 2847
+        "備考（入院中患者数）": 1532
       },
       "field_crosswalk": {
         "secured_beds": "確保病床数",
@@ -2060,36 +1914,30 @@
         "2022/11/16": 2876
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/11/16": 2876
+        "2022-11-16": 2876
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/11/16",
-          "normalized": null,
-          "rows": 2876
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2857,
           "blank": 19,
-          "non_numeric_nonblank": 2857,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 120,
+          "sum_numeric": 44701
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2791,
           "blank": 85,
-          "non_numeric_nonblank": 2791,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 253,
+          "sum_numeric": 29751
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2792,
           "blank": 84,
-          "non_numeric_nonblank": 2792,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 576,
+          "sum_numeric": 17349
         }
       },
       "missing_values_by_column": {
@@ -2134,14 +1982,9 @@
         "確保病床数",
         "即応病床数",
         "入院中",
-        "備考（入院中患者数）",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "備考（入院中患者数）"
       ],
-      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||",
+      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）",
       "facility_records": 2908,
       "unique_nonblank_facility_codes": 2906,
       "blank_facility_codes": 2,
@@ -2155,36 +1998,30 @@
         "2022/12/7": 2908
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/12/7": 2908
+        "2022-12-07": 2908
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/12/7",
-          "normalized": null,
-          "rows": 2908
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2884,
           "blank": 24,
-          "non_numeric_nonblank": 2884,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 120,
+          "sum_numeric": 45551
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2816,
           "blank": 92,
-          "non_numeric_nonblank": 2816,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 167,
+          "sum_numeric": 36603
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2813,
           "blank": 95,
-          "non_numeric_nonblank": 2813,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 358,
+          "sum_numeric": 25536
         }
       },
       "missing_values_by_column": {
@@ -2199,8 +2036,7 @@
         "確保病床数": 24,
         "即応病床数": 92,
         "入院中": 95,
-        "備考（入院中患者数）": 1604,
-        "": 2908
+        "備考（入院中患者数）": 1604
       },
       "field_crosswalk": {
         "secured_beds": "確保病床数",
@@ -2230,14 +2066,9 @@
         "確保病床数",
         "即応病床数",
         "入院中",
-        "備考（入院中患者数）",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "備考（入院中患者数）"
       ],
-      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||",
+      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）",
       "facility_records": 2925,
       "unique_nonblank_facility_codes": 2923,
       "blank_facility_codes": 2,
@@ -2251,36 +2082,30 @@
         "2022/12/21": 2925
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2022/12/21": 2925
+        "2022-12-21": 2925
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2022/12/21",
-          "normalized": null,
-          "rows": 2925
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2901,
           "blank": 24,
-          "non_numeric_nonblank": 2901,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 124,
+          "sum_numeric": 46105
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2851,
           "blank": 74,
-          "non_numeric_nonblank": 2851,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 157,
+          "sum_numeric": 39105
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2848,
           "blank": 77,
-          "non_numeric_nonblank": 2848,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 255,
+          "sum_numeric": 30572
         }
       },
       "missing_values_by_column": {
@@ -2295,8 +2120,7 @@
         "確保病床数": 24,
         "即応病床数": 74,
         "入院中": 77,
-        "備考（入院中患者数）": 1617,
-        "": 2925
+        "備考（入院中患者数）": 1617
       },
       "field_crosswalk": {
         "secured_beds": "確保病床数",
@@ -2326,14 +2150,9 @@
         "確保病床数",
         "即応病床数",
         "入院中",
-        "備考（入院中患者数）",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "備考（入院中患者数）"
       ],
-      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||",
+      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）",
       "facility_records": 2962,
       "unique_nonblank_facility_codes": 2960,
       "blank_facility_codes": 2,
@@ -2347,36 +2166,30 @@
         "2023/1/4": 2962
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/1/4": 2962
+        "2023-01-04": 2962
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/1/4",
-          "normalized": null,
-          "rows": 2962
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2937,
           "blank": 25,
-          "non_numeric_nonblank": 2937,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 130,
+          "sum_numeric": 46484
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2878,
           "blank": 84,
-          "non_numeric_nonblank": 2878,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 127,
+          "sum_numeric": 41344
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2878,
           "blank": 84,
-          "non_numeric_nonblank": 2878,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 278,
+          "sum_numeric": 33367
         }
       },
       "missing_values_by_column": {
@@ -2391,8 +2204,7 @@
         "確保病床数": 25,
         "即応病床数": 84,
         "入院中": 84,
-        "備考（入院中患者数）": 1638,
-        "": 2962
+        "備考（入院中患者数）": 1638
       },
       "field_crosswalk": {
         "secured_beds": "確保病床数",
@@ -2438,36 +2250,30 @@
         "2023/1/18": 2989
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/1/18": 2989
+        "2023-01-18": 2989
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/1/18",
-          "normalized": null,
-          "rows": 2989
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2974,
           "blank": 15,
-          "non_numeric_nonblank": 2974,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 131,
+          "sum_numeric": 46867
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2904,
           "blank": 85,
-          "non_numeric_nonblank": 2904,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 113,
+          "sum_numeric": 41786
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2901,
           "blank": 88,
-          "non_numeric_nonblank": 2901,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 298,
+          "sum_numeric": 29692
         }
       },
       "missing_values_by_column": {
@@ -2512,14 +2318,9 @@
         "確保病床数",
         "即応病床数",
         "入院中",
-        "備考（入院中患者数）",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "備考（入院中患者数）"
       ],
-      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||",
+      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）",
       "facility_records": 3018,
       "unique_nonblank_facility_codes": 3016,
       "blank_facility_codes": 2,
@@ -2533,36 +2334,30 @@
         "2023/2/1": 3018
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/2/1": 3018
+        "2023-02-01": 3018
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/2/1",
-          "normalized": null,
-          "rows": 3018
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2994,
           "blank": 24,
-          "non_numeric_nonblank": 2994,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 138,
+          "sum_numeric": 46531
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2916,
           "blank": 102,
-          "non_numeric_nonblank": 2916,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 108,
+          "sum_numeric": 40424
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2913,
           "blank": 105,
-          "non_numeric_nonblank": 2913,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 544,
+          "sum_numeric": 18419
         }
       },
       "missing_values_by_column": {
@@ -2577,8 +2372,7 @@
         "確保病床数": 24,
         "即応病床数": 102,
         "入院中": 105,
-        "備考（入院中患者数）": 1682,
-        "": 3018
+        "備考（入院中患者数）": 1682
       },
       "field_crosswalk": {
         "secured_beds": "確保病床数",
@@ -2608,14 +2402,9 @@
         "確保病床数",
         "即応病床数",
         "入院中",
-        "備考（入院中患者数）",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "備考（入院中患者数）"
       ],
-      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||",
+      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）",
       "facility_records": 3041,
       "unique_nonblank_facility_codes": 3039,
       "blank_facility_codes": 2,
@@ -2629,36 +2418,30 @@
         "2023/2/15": 3041
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/2/15": 3041
+        "2023-02-15": 3041
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/2/15",
-          "normalized": null,
-          "rows": 3041
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3019,
           "blank": 22,
-          "non_numeric_nonblank": 3019,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 145,
+          "sum_numeric": 45828
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2939,
           "blank": 102,
-          "non_numeric_nonblank": 2939,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 166,
+          "sum_numeric": 34083
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2936,
           "blank": 105,
-          "non_numeric_nonblank": 2936,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 811,
+          "sum_numeric": 11220
         }
       },
       "missing_values_by_column": {
@@ -2673,8 +2456,7 @@
         "確保病床数": 22,
         "即応病床数": 102,
         "入院中": 105,
-        "備考（入院中患者数）": 1682,
-        "": 3041
+        "備考（入院中患者数）": 1682
       },
       "field_crosswalk": {
         "secured_beds": "確保病床数",
@@ -2704,14 +2486,9 @@
         "確保病床数",
         "即応病床数",
         "入院中",
-        "備考（入院中患者数）",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "備考（入院中患者数）"
       ],
-      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||",
+      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）",
       "facility_records": 3052,
       "unique_nonblank_facility_codes": 3050,
       "blank_facility_codes": 2,
@@ -2725,36 +2502,30 @@
         "2023/3/1": 3052
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/3/1": 3052
+        "2023-03-01": 3052
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/3/1",
-          "normalized": null,
-          "rows": 3052
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3029,
           "blank": 23,
-          "non_numeric_nonblank": 3029,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 158,
+          "sum_numeric": 45059
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2952,
           "blank": 100,
-          "non_numeric_nonblank": 2952,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 255,
+          "sum_numeric": 28340
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2949,
           "blank": 103,
-          "non_numeric_nonblank": 2949,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1279,
+          "sum_numeric": 6100
         }
       },
       "missing_values_by_column": {
@@ -2769,8 +2540,7 @@
         "確保病床数": 23,
         "即応病床数": 100,
         "入院中": 103,
-        "備考（入院中患者数）": 1674,
-        "": 3052
+        "備考（入院中患者数）": 1674
       },
       "field_crosswalk": {
         "secured_beds": "確保病床数",
@@ -2816,36 +2586,30 @@
         "2023/3/15": 3056
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/3/15": 3056
+        "2023-03-15": 3056
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/3/15",
-          "normalized": null,
-          "rows": 3056
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3032,
           "blank": 24,
-          "non_numeric_nonblank": 3032,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 159,
+          "sum_numeric": 44704
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2950,
           "blank": 106,
-          "non_numeric_nonblank": 2950,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 292,
+          "sum_numeric": 26308
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2947,
           "blank": 109,
-          "non_numeric_nonblank": 2947,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1571,
+          "sum_numeric": 4394
         }
       },
       "missing_values_by_column": {
@@ -2890,14 +2654,9 @@
         "確保病床数",
         "即応病床数",
         "入院中",
-        "備考（入院中患者数）",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "備考（入院中患者数）"
       ],
-      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）|||||",
+      "schema_signature": "都道府県番号|都道府県|二次医療圏番号|二次医療圏名|医療機関コード|医療機関名|報告状況|実績日|確保病床数|即応病床数|入院中|備考（入院中患者数）",
       "facility_records": 3099,
       "unique_nonblank_facility_codes": 3097,
       "blank_facility_codes": 2,
@@ -2911,36 +2670,30 @@
         "2023/4/5": 3099
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/4/5": 3099
+        "2023-04-05": 3099
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/4/5",
-          "normalized": null,
-          "rows": 3099
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3070,
           "blank": 29,
-          "non_numeric_nonblank": 3070,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 177,
+          "sum_numeric": 44104
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2965,
           "blank": 134,
-          "non_numeric_nonblank": 2965,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 341,
+          "sum_numeric": 24644
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2964,
           "blank": 135,
-          "non_numeric_nonblank": 2964,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1812,
+          "sum_numeric": 2961
         }
       },
       "missing_values_by_column": {
@@ -2955,8 +2708,7 @@
         "確保病床数": 29,
         "即応病床数": 134,
         "入院中": 135,
-        "備考（入院中患者数）": 1632,
-        "": 3099
+        "備考（入院中患者数）": 1632
       },
       "field_crosswalk": {
         "secured_beds": "確保病床数",
@@ -3002,36 +2754,30 @@
         "2023/4/19": 3114
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/4/19": 3114
+        "2023-04-19": 3114
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/4/19",
-          "normalized": null,
-          "rows": 3114
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3083,
           "blank": 31,
-          "non_numeric_nonblank": 3083,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 179,
+          "sum_numeric": 44057
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2991,
           "blank": 123,
-          "non_numeric_nonblank": 2991,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 353,
+          "sum_numeric": 24667
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2989,
           "blank": 125,
-          "non_numeric_nonblank": 2989,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1759,
+          "sum_numeric": 3321
         }
       },
       "missing_values_by_column": {
@@ -3092,36 +2838,30 @@
         "2023/5/3": 3123
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/5/3": 3123
+        "2023-05-03": 3123
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/5/3",
-          "normalized": null,
-          "rows": 3123
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3099,
           "blank": 24,
-          "non_numeric_nonblank": 3099,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 156,
+          "sum_numeric": 42077
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2981,
           "blank": 142,
-          "non_numeric_nonblank": 2981,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 350,
+          "sum_numeric": 24305
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2979,
           "blank": 144,
-          "non_numeric_nonblank": 2979,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1656,
+          "sum_numeric": 3811
         }
       },
       "missing_values_by_column": {
@@ -3182,36 +2922,30 @@
         "2023/6/7": 3516
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/6/7": 3516
+        "2023-06-07": 3516
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/6/7",
-          "normalized": null,
-          "rows": 3516
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3493,
           "blank": 23,
-          "non_numeric_nonblank": 3493,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 138,
+          "sum_numeric": 34203
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 3426,
           "blank": 90,
-          "non_numeric_nonblank": 3426,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 374,
+          "sum_numeric": 22545
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 3426,
           "blank": 90,
-          "non_numeric_nonblank": 3426,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1665,
+          "sum_numeric": 6419
         }
       },
       "missing_values_by_column": {
@@ -3272,36 +3006,30 @@
         "2023/7/5": 3345
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/7/5": 3345
+        "2023-07-05": 3345
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/7/5",
-          "normalized": null,
-          "rows": 3345
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3327,
           "blank": 18,
-          "non_numeric_nonblank": 3327,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 102,
+          "sum_numeric": 32028
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 3269,
           "blank": 76,
-          "non_numeric_nonblank": 3269,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 324,
+          "sum_numeric": 21447
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 3269,
           "blank": 76,
-          "non_numeric_nonblank": 3269,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1278,
+          "sum_numeric": 8391
         }
       },
       "missing_values_by_column": {
@@ -3362,36 +3090,30 @@
         "2023/8/2": 3333
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/8/2": 3333
+        "2023-08-02": 3333
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/8/2",
-          "normalized": null,
-          "rows": 3333
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3321,
           "blank": 12,
-          "non_numeric_nonblank": 3321,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 51,
+          "sum_numeric": 31357
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 3269,
           "blank": 64,
-          "non_numeric_nonblank": 3269,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 276,
+          "sum_numeric": 23385
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 3269,
           "blank": 64,
-          "non_numeric_nonblank": 3269,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 752,
+          "sum_numeric": 16835
         }
       },
       "missing_values_by_column": {
@@ -3452,36 +3174,30 @@
         "2023/9/6": 3195
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/9/6": 3195
+        "2023-09-06": 3195
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/9/6",
-          "normalized": null,
-          "rows": 3195
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 3189,
           "blank": 6,
-          "non_numeric_nonblank": 3189,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 23,
+          "sum_numeric": 30753
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 3146,
           "blank": 49,
-          "non_numeric_nonblank": 3146,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 179,
+          "sum_numeric": 24361
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 3146,
           "blank": 49,
-          "non_numeric_nonblank": 3146,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 682,
+          "sum_numeric": 18672
         }
       },
       "missing_values_by_column": {
@@ -3542,36 +3258,30 @@
         "2023/11/1": 2215
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/11/1": 2215
+        "2023-11-01": 2215
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/11/1",
-          "normalized": null,
-          "rows": 2215
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2215,
           "blank": 0,
-          "non_numeric_nonblank": 2215,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 487,
+          "sum_numeric": 9018
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2188,
           "blank": 27,
-          "non_numeric_nonblank": 2188,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1783,
+          "sum_numeric": 1375
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2188,
           "blank": 27,
-          "non_numeric_nonblank": 2188,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 995,
+          "sum_numeric": 4195
         }
       },
       "missing_values_by_column": {
@@ -3632,36 +3342,30 @@
         "2023/12/6": 2216
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2023/12/6": 2216
+        "2023-12-06": 2216
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2023/12/6",
-          "normalized": null,
-          "rows": 2216
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2216,
           "blank": 0,
-          "non_numeric_nonblank": 2216,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 452,
+          "sum_numeric": 9060
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2181,
           "blank": 35,
-          "non_numeric_nonblank": 2181,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1902,
+          "sum_numeric": 941
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2181,
           "blank": 35,
-          "non_numeric_nonblank": 2181,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 982,
+          "sum_numeric": 4371
         }
       },
       "missing_values_by_column": {
@@ -3722,36 +3426,30 @@
         "2024/1/3": 2215
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2024/1/3": 2215
+        "2024-01-03": 2215
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2024/1/3",
-          "normalized": null,
-          "rows": 2215
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2215,
           "blank": 0,
-          "non_numeric_nonblank": 2215,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 421,
+          "sum_numeric": 8976
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2180,
           "blank": 35,
-          "non_numeric_nonblank": 2180,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1830,
+          "sum_numeric": 1099
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2180,
           "blank": 35,
-          "non_numeric_nonblank": 2180,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 663,
+          "sum_numeric": 8197
         }
       },
       "missing_values_by_column": {
@@ -3812,36 +3510,30 @@
         "2024/2/7": 2214
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2024/2/7": 2214
+        "2024-02-07": 2214
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2024/2/7",
-          "normalized": null,
-          "rows": 2214
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2214,
           "blank": 0,
-          "non_numeric_nonblank": 2214,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 293,
+          "sum_numeric": 9541
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2188,
           "blank": 26,
-          "non_numeric_nonblank": 2188,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1163,
+          "sum_numeric": 3117
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2188,
           "blank": 26,
-          "non_numeric_nonblank": 2188,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 452,
+          "sum_numeric": 13398
         }
       },
       "missing_values_by_column": {
@@ -3902,36 +3594,30 @@
         "2024/3/6": 2214
       },
       "normalized_observation_date_counts": {
-        "UNPARSED:2024/3/6": 2214
+        "2024-03-06": 2214
       },
-      "observation_date_mismatches": [
-        {
-          "raw_value": "2024/3/6",
-          "normalized": null,
-          "rows": 2214
-        }
-      ],
+      "observation_date_mismatches": [],
       "numeric_field_checks": {
         "確保病床数": {
-          "numeric": 0,
+          "numeric": 2214,
           "blank": 0,
-          "non_numeric_nonblank": 2214,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 346,
+          "sum_numeric": 9165
         },
         "即応病床数": {
-          "numeric": 0,
+          "numeric": 2171,
           "blank": 43,
-          "non_numeric_nonblank": 2171,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 1403,
+          "sum_numeric": 1764
         },
         "入院中": {
-          "numeric": 0,
+          "numeric": 2171,
           "blank": 43,
-          "non_numeric_nonblank": 2171,
-          "zero": 0,
-          "sum_numeric": 0
+          "non_numeric_nonblank": 0,
+          "zero": 587,
+          "sum_numeric": 9127
         }
       },
       "missing_values_by_column": {

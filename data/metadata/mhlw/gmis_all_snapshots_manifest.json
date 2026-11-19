@@ -1,6 +1,6 @@
 {
-  "created_at_utc": "2026-11-19T06:02:34.781542+00:00",
-  "created_at_jst": "2026-11-19T15:02:34.781542+09:00",
+  "created_at_utc": "2026-11-19T06:03:50.935068+00:00",
+  "created_at_jst": "2026-11-19T15:03:50.935068+09:00",
   "purpose": "complete acquisition of CSV links discoverable from the two official MHLW publication pages",
   "official_pages": [
     {
@@ -36,7 +36,33 @@
       "bytes": 231315,
       "sha256": "9798c24707b2419ea8b90aca03eed95285cea16a22fe6383185c1d6bb103ee54",
       "local_path": "data/raw/mhlw/gmis_all_snapshots/2021-12-01_000885545.csv",
-      "schema_status": "unrecognized_or_non_csv"
+      "encoding": "cp932",
+      "row_count_including_blanks": 2308,
+      "header_line_1based": 21,
+      "header": [
+        "都道府県番号",
+        "都道府県",
+        "二次医療圏番号",
+        "二次医療圏名",
+        "医療機関コード",
+        "医療機関名",
+        "報告状況",
+        "実績日",
+        "確保病床数",
+        "即応病床",
+        "入院中",
+        "備考（入院中患者数）"
+      ],
+      "data_record_count": 2287,
+      "report_status_counts": {
+        "報告済み": 2287
+      },
+      "raw_observation_date_counts": {
+        "2021/12/1": 2287
+      },
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000893241.csv",
@@ -80,7 +106,9 @@
         "2022/1/5": 2287,
         "44566": 14
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中患者数"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000899685.csv",
@@ -123,7 +151,9 @@
       "raw_observation_date_counts": {
         "2022/1/19": 2341
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000907257.csv",
@@ -166,7 +196,9 @@
       "raw_observation_date_counts": {
         "2022/2/2": 2346
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000915416.csv",
@@ -209,7 +241,9 @@
       "raw_observation_date_counts": {
         "2022/2/16": 2353
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000924080.csv",
@@ -252,7 +286,9 @@
       "raw_observation_date_counts": {
         "2022/3/2": 2362
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000932478.csv",
@@ -295,7 +331,9 @@
       "raw_observation_date_counts": {
         "2022/3/16": 2384
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000936093.csv",
@@ -338,7 +376,9 @@
       "raw_observation_date_counts": {
         "2022/4/6": 2431
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000941117.csv",
@@ -381,7 +421,9 @@
       "raw_observation_date_counts": {
         "2022/4/20": 2450
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000947005.csv",
@@ -424,7 +466,9 @@
       "raw_observation_date_counts": {
         "2022/5/4": 2463
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000952604.csv",
@@ -467,7 +511,9 @@
       "raw_observation_date_counts": {
         "2022/5/18": 2477
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000959825.csv",
@@ -510,7 +556,9 @@
       "raw_observation_date_counts": {
         "2022/6/1": 2492
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000967847.csv",
@@ -553,7 +601,9 @@
       "raw_observation_date_counts": {
         "2022/6/15": 2523
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000973749.csv",
@@ -596,7 +646,9 @@
       "raw_observation_date_counts": {
         "2022/7/6": 2535
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000977716.csv",
@@ -639,7 +691,9 @@
       "raw_observation_date_counts": {
         "2022/7/20": 2549
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000984922.csv",
@@ -682,7 +736,9 @@
       "raw_observation_date_counts": {
         "2022/8/3": 2590
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000993405.csv",
@@ -725,7 +781,9 @@
       "raw_observation_date_counts": {
         "2022/8/17": 2663
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/000998858.csv",
@@ -768,7 +826,9 @@
       "raw_observation_date_counts": {
         "2022/9/7": 2759
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001003943.csv",
@@ -811,7 +871,9 @@
       "raw_observation_date_counts": {
         "2022/9/21": 2779
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001009900.csv",
@@ -854,7 +916,9 @@
       "raw_observation_date_counts": {
         "2022/10/5": 2824
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001014221.csv",
@@ -902,7 +966,9 @@
       "raw_observation_date_counts": {
         "2022/10/19": 2832
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001019412.csv",
@@ -950,7 +1016,9 @@
       "raw_observation_date_counts": {
         "2022/11/2": 2847
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001029743.csv",
@@ -993,7 +1061,9 @@
       "raw_observation_date_counts": {
         "2022/11/16": 2876
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001037117.csv",
@@ -1041,7 +1111,9 @@
       "raw_observation_date_counts": {
         "2022/12/7": 2908
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001041258.csv",
@@ -1089,7 +1161,9 @@
       "raw_observation_date_counts": {
         "2022/12/21": 2925
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001051701.csv",
@@ -1137,7 +1211,9 @@
       "raw_observation_date_counts": {
         "2023/1/4": 2962
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001060234.csv",
@@ -1180,7 +1256,9 @@
       "raw_observation_date_counts": {
         "2023/1/18": 2989
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001066111.csv",
@@ -1228,7 +1306,9 @@
       "raw_observation_date_counts": {
         "2023/2/1": 3018
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001074367.csv",
@@ -1276,7 +1356,9 @@
       "raw_observation_date_counts": {
         "2023/2/15": 3041
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001082468.csv",
@@ -1324,7 +1406,9 @@
       "raw_observation_date_counts": {
         "2023/3/1": 3052
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001089773.csv",
@@ -1367,7 +1451,9 @@
       "raw_observation_date_counts": {
         "2023/3/15": 3056
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001094393.csv",
@@ -1415,7 +1501,9 @@
       "raw_observation_date_counts": {
         "2023/4/5": 3099
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/10900000/001100934.csv",
@@ -1458,7 +1546,9 @@
       "raw_observation_date_counts": {
         "2023/4/19": 3114
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001112445.csv",
@@ -1501,7 +1591,9 @@
       "raw_observation_date_counts": {
         "2023/5/3": 3123
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001123796.csv",
@@ -1544,7 +1636,9 @@
       "raw_observation_date_counts": {
         "2023/6/7": 3516
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001136988.csv",
@@ -1587,7 +1681,9 @@
       "raw_observation_date_counts": {
         "2023/7/5": 3345
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001150086.csv",
@@ -1630,7 +1726,9 @@
       "raw_observation_date_counts": {
         "2023/8/2": 3333
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001170005.csv",
@@ -1673,7 +1771,9 @@
       "raw_observation_date_counts": {
         "2023/9/6": 3195
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001183713.csv",
@@ -1716,7 +1816,9 @@
       "raw_observation_date_counts": {
         "2023/11/1": 2215
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001195318.csv",
@@ -1759,7 +1861,9 @@
       "raw_observation_date_counts": {
         "2023/12/6": 2216
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001215011.csv",
@@ -1802,7 +1906,9 @@
       "raw_observation_date_counts": {
         "2024/1/3": 2215
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001234485.csv",
@@ -1845,7 +1951,9 @@
       "raw_observation_date_counts": {
         "2024/2/7": 2214
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     },
     {
       "source_url": "https://www.mhlw.go.jp/content/001234488.csv",
@@ -1888,7 +1996,9 @@
       "raw_observation_date_counts": {
         "2024/3/6": 2214
       },
-      "schema_status": "recognized_gmis_bed_csv"
+      "schema_status": "recognized_gmis_bed_csv",
+      "immediate_bed_column": "即応病床数",
+      "inpatient_column": "入院中"
     }
   ],
   "limitations": [
