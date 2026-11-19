@@ -1,1 +1,1 @@
-Re-acquire all weekly MHLW survey workbooks with date labels extracted from the surrounding official report titles; preserve original workbook paths and compact metadata.
+Re-acquire all weekly MHLW Excel files using UTF-8-decoded report-title date labels; overwrite the existing unknown-named raw copies and update compact manifest.
