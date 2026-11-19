@@ -142,3 +142,16 @@
 - 詳細監査：[FDMA analytical applicability audit](audits/fdma/emergency_transport/analytical_applicability_audit.md)
 
 根拠：消防庁2020年通知、2023年調査説明資料、2024年新様式通知、2024-04-01〜04-07公表結果。出典URLは詳細監査文書に記載。
+
+
+## 7. 非COVID患者の医療アクセス：論文公表集計値の抽出（2026-11-19）
+
+- 新規成果物：`data/processed/non_covid_access/article_reported_aggregate_evidence.csv`（47行）。これは原論文の公表集計値を転記・構造化した証拠表であり、患者個票・病院請求データの再構築ではない。
+- 原資料：Yoshida et al. (2022) JACSIS、Yamaguchi et al. (2022) 26病院後ろ向きコホート、Kurokawa et al. (2022) 予定手術延期調査。
+- JACSISは7,747人の自己申告調査（2020年4〜5月の経験を2020年8〜9月に回答）。個票は倫理承認上の制約で公開されていない。
+- 26病院研究はMDVの商用DPC請求データに基づく。26匿名病院、患者785,495人。元データはMDVの proprietary data であり公開されず、購入可能と論文に記載。論文の公表集計値のみ抽出。
+- 予定手術調査は3,678人。非加重の延期・中止回答は223人（6.06%）、加重推計は431人（11.72%）と論文内で別々に報告されるため、別レコードで保存し混同しない。
+- 3研究は分母・対象・測定単位・期間が異なるため統合率を作らない。日次/月次時系列へ補間しない。病院サービス量の減少だけから受療拒否・因果関係を結論づけない。
+- 監査：[initial_source_extraction_audit.md](audits/non_covid_access/initial_source_extraction_audit.md)
+- データ辞書：[NON_COVID_ACCESS_ARTICLE_EVIDENCE.md](data_dictionary/NON_COVID_ACCESS_ARTICLE_EVIDENCE.md)
+- Manifest：[source_manifest.json](../data/metadata/non_covid_access/source_manifest.json)
