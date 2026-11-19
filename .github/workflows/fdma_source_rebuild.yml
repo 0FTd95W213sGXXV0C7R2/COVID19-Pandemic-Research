@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/raw/fdma/emergency_transport/coronavirus_data.xlsx
+          git add -f data/raw/fdma/emergency_transport/coronavirus_data.xlsx
           git add data/interim/fdma/emergency_transport/sheet_cell_dumps
           git add data/audits/fdma/emergency_transport
           if git diff --cached --quiet; then
