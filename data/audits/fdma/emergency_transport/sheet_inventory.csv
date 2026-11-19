@@ -1,0 +1,5 @@
+﻿sheet_name,state,max_row,max_column,nonempty_rows,nonempty_cells,formula_cells,first_nonempty_row,last_nonempty_row,merged_range_count,raw_cell_dump
+搬送困難事案（今回）,visible,61,264,57,14208,207,1,58,279,data/interim/fdma/emergency_transport/sheet_cell_dumps/01_sheet.csv
+搬送困難事案（前年同期）,visible,58,264,57,14211,218,1,58,284,data/interim/fdma/emergency_transport/sheet_cell_dumps/02_sheet.csv
+うちコロナ疑い事案（今回）,visible,61,160,57,8589,153,1,58,171,data/interim/fdma/emergency_transport/sheet_cell_dumps/03_sheet.csv
+うち非コロナ疑い事案（今回）,visible,61,160,57,8589,153,1,58,171,data/interim/fdma/emergency_transport/sheet_cell_dumps/04_sheet.csv

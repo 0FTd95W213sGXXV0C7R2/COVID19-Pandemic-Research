@@ -1,0 +1,88 @@
+{
+  "status": "SOURCE_ACQUIRED_AND_WORKBOOK_INVENTORIED",
+  "manifest": {
+    "source_page": "https://www.fdma.go.jp/disaster/coronavirus/post-1.html",
+    "source_file_url": "https://www.fdma.go.jp/disaster/coronavirus/items/coronavirus_data.xlsx",
+    "source_host": "www.fdma.go.jp",
+    "http_status": 200,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "content_length_header": "286999",
+    "downloaded_bytes": 286999,
+    "sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
+    "acquired_at_utc": "2026-11-19T04:52:14.321601+00:00",
+    "acquired_at_jst": "2026-11-19T13:52:14.321601+09:00",
+    "filename": "coronavirus_data.xlsx",
+    "acquisition_method": "Direct HTTPS download from link discovered on the official FDMA page"
+  },
+  "workbook": {
+    "sheet_count": 4,
+    "sheet_names_in_order": [
+      "搬送困難事案（今回）",
+      "搬送困難事案（前年同期）",
+      "うちコロナ疑い事案（今回）",
+      "うち非コロナ疑い事案（今回）"
+    ],
+    "sheets": [
+      {
+        "sheet_name": "搬送困難事案（今回）",
+        "state": "visible",
+        "max_row": 61,
+        "max_column": 264,
+        "nonempty_rows": 57,
+        "nonempty_cells": 14208,
+        "formula_cells": 207,
+        "first_nonempty_row": 1,
+        "last_nonempty_row": 58,
+        "merged_range_count": 279,
+        "raw_cell_dump": "data/interim/fdma/emergency_transport/sheet_cell_dumps/01_sheet.csv"
+      },
+      {
+        "sheet_name": "搬送困難事案（前年同期）",
+        "state": "visible",
+        "max_row": 58,
+        "max_column": 264,
+        "nonempty_rows": 57,
+        "nonempty_cells": 14211,
+        "formula_cells": 218,
+        "first_nonempty_row": 1,
+        "last_nonempty_row": 58,
+        "merged_range_count": 284,
+        "raw_cell_dump": "data/interim/fdma/emergency_transport/sheet_cell_dumps/02_sheet.csv"
+      },
+      {
+        "sheet_name": "うちコロナ疑い事案（今回）",
+        "state": "visible",
+        "max_row": 61,
+        "max_column": 160,
+        "nonempty_rows": 57,
+        "nonempty_cells": 8589,
+        "formula_cells": 153,
+        "first_nonempty_row": 1,
+        "last_nonempty_row": 58,
+        "merged_range_count": 171,
+        "raw_cell_dump": "data/interim/fdma/emergency_transport/sheet_cell_dumps/03_sheet.csv"
+      },
+      {
+        "sheet_name": "うち非コロナ疑い事案（今回）",
+        "state": "visible",
+        "max_row": 61,
+        "max_column": 160,
+        "nonempty_rows": 57,
+        "nonempty_cells": 8589,
+        "formula_cells": 153,
+        "first_nonempty_row": 1,
+        "last_nonempty_row": 58,
+        "merged_range_count": 171,
+        "raw_cell_dump": "data/interim/fdma/emergency_transport/sheet_cell_dumps/04_sheet.csv"
+      }
+    ],
+    "calculation_mode": null
+  },
+  "important_limitations": [
+    "This is a structural inventory, not a validated analytical dataset.",
+    "Cell dumps preserve worksheet cell values but not all Excel formatting, formulas' cached values, or workbook behavior; the original XLSX is preserved separately.",
+    "No date interpretation, zero/missing classification, annual-block joining, or time-series concatenation is performed at this stage.",
+    "The meaning of blank cells, explicit zeros, repeated headers, subtotals, and reporting revisions must be determined in a separate audit.",
+    "Do not use historical derived CSVs as inputs to this rebuild."
+  ]
+}

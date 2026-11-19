@@ -1,0 +1,14 @@
+{
+  "source_page": "https://www.fdma.go.jp/disaster/coronavirus/post-1.html",
+  "source_file_url": "https://www.fdma.go.jp/disaster/coronavirus/items/coronavirus_data.xlsx",
+  "source_host": "www.fdma.go.jp",
+  "http_status": 200,
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "content_length_header": "286999",
+  "downloaded_bytes": 286999,
+  "sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
+  "acquired_at_utc": "2026-11-19T04:52:14.321601+00:00",
+  "acquired_at_jst": "2026-11-19T13:52:14.321601+09:00",
+  "filename": "coronavirus_data.xlsx",
+  "acquisition_method": "Direct HTTPS download from link discovered on the official FDMA page"
+}
