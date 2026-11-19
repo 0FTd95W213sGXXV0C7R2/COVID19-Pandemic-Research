@@ -8,7 +8,7 @@
 
 ## 1. What was built
 
-A source-transcribed aggregate evidence table was created from the original publisher/PubMed/PMC article materials. It contains 59 rows covering:
+A source-transcribed aggregate evidence table was created from the original publisher/PubMed/PMC article materials. It contains 47 rows covering:
 - JACSIS self-reported scheduled visit avoidance, postponement, medication shortage, disease exacerbation and selected adjusted associations.
 - 26-hospital claims-study cohort counts and reported percentage changes in admissions, outpatient visits, diagnostic services, rehabilitation, chemotherapy, dialysis and prescriptions.
 - Elective-surgery postponement/cancellation survey results, keeping the unweighted and weighted estimates separate.
