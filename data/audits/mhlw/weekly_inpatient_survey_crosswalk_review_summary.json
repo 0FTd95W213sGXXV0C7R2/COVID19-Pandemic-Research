@@ -1,5 +1,5 @@
 {
-  "created_at_jst": "2026-11-20T08:57:38.734637+09:00",
+  "created_at_jst": "2026-11-20T08:58:50.177705+09:00",
   "source": "data/audits/mhlw/weekly_inpatient_survey_variable_crosswalk_candidates.json",
   "summary": {
     "expected_downloaded": 171,
@@ -333,7 +333,7 @@
   "variables": [
     {
       "candidate_concept": "home_care_patients",
-      "exact_header_label": "（４）①-1 自宅療養者 等数",
+      "exact_header_label": "（４）①-1\n自宅療養者\n等数",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -378,7 +378,7 @@
     },
     {
       "candidate_concept": "home_care_patients",
-      "exact_header_label": "（５）①-1自宅療養者等数 （注15）",
+      "exact_header_label": "（５）①-1自宅療養者等数\n（注15）",
       "date_count": 32,
       "first_date": "2022-09-28",
       "last_date": "2023-05-03",
@@ -392,7 +392,7 @@
     },
     {
       "candidate_concept": "hotel_accommodation_patients",
-      "exact_header_label": "（２）①ｰ1 宿泊療養者数",
+      "exact_header_label": "（２）①ｰ1\n宿泊療養者数",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -421,7 +421,7 @@
     },
     {
       "candidate_concept": "hotel_accommodation_patients",
-      "exact_header_label": "（３）宿泊 療養者数",
+      "exact_header_label": "（３）宿泊\n療養者数",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -452,7 +452,7 @@
     },
     {
       "candidate_concept": "immediately_available_beds",
-      "exact_header_label": "病床数 / 即応病床数 (注２)",
+      "exact_header_label": "病床数 / 即応病床数\n(注２)",
       "date_count": 47,
       "first_date": "2023-05-10",
       "last_date": "2024-03-27",
@@ -467,7 +467,7 @@
     },
     {
       "candidate_concept": "immediately_available_beds",
-      "exact_header_label": "病床数 / 即応病床数 (注３)",
+      "exact_header_label": "病床数 / 即応病床数\n(注３)",
       "date_count": 101,
       "first_date": "2021-06-02",
       "last_date": "2023-05-03",
@@ -483,7 +483,7 @@
     },
     {
       "candidate_concept": "immediately_available_rooms",
-      "exact_header_label": "居室数 / 即応居室数 (注7)",
+      "exact_header_label": "居室数 / 即応居室数\n(注7)",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -498,7 +498,7 @@
     },
     {
       "candidate_concept": "immediately_available_rooms",
-      "exact_header_label": "居室数 / 即応居室数 (注５)",
+      "exact_header_label": "居室数 / 即応居室数\n(注５)",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -512,7 +512,7 @@
     },
     {
       "candidate_concept": "immediately_available_rooms",
-      "exact_header_label": "居室数 / 即応居室数 (注７)",
+      "exact_header_label": "居室数 / 即応居室数\n(注７)",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -526,7 +526,7 @@
     },
     {
       "candidate_concept": "inpatient_rate",
-      "exact_header_label": "病床数 / 入院率 （注６）",
+      "exact_header_label": "病床数 / 入院率\n（注６）",
       "date_count": 101,
       "first_date": "2021-06-02",
       "last_date": "2023-05-03",
@@ -1453,7 +1453,7 @@
     },
     {
       "candidate_concept": "inpatients_in_secured_beds",
-      "exact_header_label": "（１）①-2 うち、確保病床に入院している者数",
+      "exact_header_label": "（１）①-2\nうち、確保病床に入院している者数",
       "date_count": 47,
       "first_date": "2023-05-10",
       "last_date": "2024-03-27",
@@ -1483,7 +1483,7 @@
     },
     {
       "candidate_concept": "inpatients_outside_secured_beds",
-      "exact_header_label": "（１）①-3 うち、確保病床外に入院している者数",
+      "exact_header_label": "（１）①-3\nうち、確保病床外に入院している者数",
       "date_count": 47,
       "first_date": "2023-05-10",
       "last_date": "2024-03-27",
@@ -1498,7 +1498,7 @@
     },
     {
       "candidate_concept": "inpatients_outside_secured_beds",
-      "exact_header_label": "（１）②-3 うち、確保病床外に入院している者数",
+      "exact_header_label": "（１）②-3\nうち、確保病床外に入院している者数",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -1512,7 +1512,7 @@
     },
     {
       "candidate_concept": "moderate_severe_II_in_secured_beds",
-      "exact_header_label": "（１）②-2 うち、確保病床に入院している中等症Ⅱ患者数",
+      "exact_header_label": "（１）②-2\nうち、確保病床に入院している中等症Ⅱ患者数",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27",
@@ -1526,7 +1526,7 @@
     },
     {
       "candidate_concept": "moderate_severe_II_outside_secured_beds",
-      "exact_header_label": "（１）②-3 うち、確保病床外に入院している中等症Ⅱ患者数",
+      "exact_header_label": "（１）②-3\nうち、確保病床外に入院している中等症Ⅱ患者数",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27",
@@ -1540,7 +1540,7 @@
     },
     {
       "candidate_concept": "moderate_severe_II_patients_total",
-      "exact_header_label": "（１）②ｰ1 うち中等症Ⅱ 患者数",
+      "exact_header_label": "（１）②ｰ1\nうち中等症Ⅱ\n患者数",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27",
@@ -1554,7 +1554,7 @@
     },
     {
       "candidate_concept": "patients_under_destination_coordination",
-      "exact_header_label": "（５）①-1 療養先調整 中の人数 （注10）",
+      "exact_header_label": "（５）①-1\n療養先調整\n中の人数\n（注10）",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -1568,7 +1568,7 @@
     },
     {
       "candidate_concept": "patients_under_destination_coordination",
-      "exact_header_label": "（６）①-1 療養先調整中の人数 （注15）",
+      "exact_header_label": "（６）①-1\n療養先調整中の人数\n（注15）",
       "date_count": 40,
       "first_date": "2021-12-22",
       "last_date": "2022-09-21",
@@ -1582,7 +1582,7 @@
     },
     {
       "candidate_concept": "patients_under_destination_coordination",
-      "exact_header_label": "（６）①-1 療養先調整中の人数 （注16）",
+      "exact_header_label": "（６）①-1\n療養先調整中の人数\n（注16）",
       "date_count": 32,
       "first_date": "2022-09-28",
       "last_date": "2023-05-03",
@@ -1596,7 +1596,7 @@
     },
     {
       "candidate_concept": "patients_under_hospital_coordination",
-      "exact_header_label": "（５）①-2 うち、入院 先調整中の 人数 (注11)",
+      "exact_header_label": "（５）①-2\nうち、入院\n先調整中の\n人数\n(注11)",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -1610,7 +1610,7 @@
     },
     {
       "candidate_concept": "patients_under_hospital_coordination",
-      "exact_header_label": "（６）①-2 うち、入院先調整中の人数 (注16)",
+      "exact_header_label": "（６）①-2\nうち、入院先調整中の人数\n(注16)",
       "date_count": 40,
       "first_date": "2021-12-22",
       "last_date": "2022-09-21",
@@ -1624,7 +1624,7 @@
     },
     {
       "candidate_concept": "patients_under_hospital_coordination",
-      "exact_header_label": "（６）①-2 うち、入院先調整中の人数 (注17）",
+      "exact_header_label": "（６）①-2\nうち、入院先調整中の人数\n(注17）",
       "date_count": 32,
       "first_date": "2022-09-28",
       "last_date": "2023-05-03",
@@ -1655,7 +1655,7 @@
     },
     {
       "candidate_concept": "room_occupancy_rate",
-      "exact_header_label": "居室数 / 確保居室 使用率 （注9）",
+      "exact_header_label": "居室数 / 確保居室\n使用率\n（注9）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -2320,7 +2320,7 @@
     },
     {
       "candidate_concept": "room_occupancy_rate",
-      "exact_header_label": "居室数 / 確保居室 使用率 （注７）",
+      "exact_header_label": "居室数 / 確保居室\n使用率\n（注７）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -2525,7 +2525,7 @@
     },
     {
       "candidate_concept": "room_occupancy_rate",
-      "exact_header_label": "居室数 / 確保居室 使用率 （注９）",
+      "exact_header_label": "居室数 / 確保居室\n使用率\n（注９）",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -3028,7 +3028,7 @@
     },
     {
       "candidate_concept": "secured_bed_occupancy_rate",
-      "exact_header_label": "病床数 / 確保病床 使用率 （注４）",
+      "exact_header_label": "病床数 / 確保病床\n使用率\n（注４）",
       "date_count": 47,
       "first_date": "2023-05-10",
       "last_date": "2024-03-27",
@@ -3936,7 +3936,7 @@
     },
     {
       "candidate_concept": "secured_bed_occupancy_rate",
-      "exact_header_label": "病床数 / 確保病床 使用率 （注５）",
+      "exact_header_label": "病床数 / 確保病床\n使用率\n（注５）",
       "date_count": 101,
       "first_date": "2021-06-02",
       "last_date": "2023-05-03",
@@ -5296,7 +5296,7 @@
     },
     {
       "candidate_concept": "secured_beds",
-      "exact_header_label": "病床数 / 確保病床数 (注４)",
+      "exact_header_label": "病床数 / 確保病床数\n(注４)",
       "date_count": 23,
       "first_date": "2020-12-23",
       "last_date": "2021-05-26",
@@ -5313,7 +5313,7 @@
     },
     {
       "candidate_concept": "secured_beds",
-      "exact_header_label": "病床数 / 確保病床数 （注３）",
+      "exact_header_label": "病床数 / 確保病床数\n（注３）",
       "date_count": 47,
       "first_date": "2023-05-10",
       "last_date": "2024-03-27",
@@ -5328,7 +5328,7 @@
     },
     {
       "candidate_concept": "secured_beds",
-      "exact_header_label": "病床数 / 確保病床数 （注４）",
+      "exact_header_label": "病床数 / 確保病床数\n（注４）",
       "date_count": 124,
       "first_date": "2020-12-23",
       "last_date": "2023-05-03",
@@ -5348,7 +5348,7 @@
     },
     {
       "candidate_concept": "secured_rooms",
-      "exact_header_label": "居室数 / 確保居室数 （注8）",
+      "exact_header_label": "居室数 / 確保居室数\n（注8）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -5363,7 +5363,7 @@
     },
     {
       "candidate_concept": "secured_rooms",
-      "exact_header_label": "居室数 / 確保居室数 （注６）",
+      "exact_header_label": "居室数 / 確保居室数\n（注６）",
       "date_count": 44,
       "first_date": "2020-12-23",
       "last_date": "2023-09-27",
@@ -5381,7 +5381,7 @@
     },
     {
       "candidate_concept": "secured_rooms",
-      "exact_header_label": "居室数 / 確保居室数 （注８）",
+      "exact_header_label": "居室数 / 確保居室数\n（注８）",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -5395,7 +5395,7 @@
     },
     {
       "candidate_concept": "severe_patients_in_secured_beds",
-      "exact_header_label": "（１）②-2 うち、確保病床に入院している重症者数",
+      "exact_header_label": "（１）②-2\nうち、確保病床に入院している重症者数",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -5409,7 +5409,7 @@
     },
     {
       "candidate_concept": "severe_patients_in_secured_beds",
-      "exact_header_label": "（１）③-2 うち、確保病床に入院している重症者数",
+      "exact_header_label": "（１）③-2\nうち、確保病床に入院している重症者数",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27",
@@ -5423,7 +5423,7 @@
     },
     {
       "candidate_concept": "severe_patients_in_secured_beds",
-      "exact_header_label": "（２）②-2 うち、確保病床に入院している重症者数",
+      "exact_header_label": "（２）②-2\nうち、確保病床に入院している重症者数",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -5438,7 +5438,7 @@
     },
     {
       "candidate_concept": "severe_patients_outside_secured_beds",
-      "exact_header_label": "（１）③-3 うち、確保病床外に入院している重症者数",
+      "exact_header_label": "（１）③-3\nうち、確保病床外に入院している重症者数",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27",
@@ -5469,7 +5469,7 @@
     },
     {
       "candidate_concept": "severe_patients_total",
-      "exact_header_label": "（１）②-1 うち重症者数",
+      "exact_header_label": "（１）②-1\nうち重症者数",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -5483,7 +5483,7 @@
     },
     {
       "candidate_concept": "severe_patients_total",
-      "exact_header_label": "（１）③-1 うち重症者数",
+      "exact_header_label": "（１）③-1\nうち重症者数",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27",
@@ -5497,7 +5497,7 @@
     },
     {
       "candidate_concept": "severe_patients_total",
-      "exact_header_label": "（２）②-1 うち重症者 数",
+      "exact_header_label": "（２）②-1\nうち重症者\n数",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -5511,7 +5511,7 @@
     },
     {
       "candidate_concept": "severe_patients_total",
-      "exact_header_label": "（２）②-1 うち重症者数",
+      "exact_header_label": "（２）②-1\nうち重症者数",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -5541,7 +5541,7 @@
     },
     {
       "candidate_concept": "severe_specific_immediately_available_beds",
-      "exact_header_label": "うち重症者用病床数 / 即応病床数 (注２)",
+      "exact_header_label": "うち重症者用病床数 / 即応病床数\n(注２)",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -5555,7 +5555,7 @@
     },
     {
       "candidate_concept": "severe_specific_immediately_available_beds",
-      "exact_header_label": "うち重症者用病床数 / 即応病床数 (注３)",
+      "exact_header_label": "うち重症者用病床数 / 即応病床数\n(注３)",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -5570,7 +5570,7 @@
     },
     {
       "candidate_concept": "severe_specific_immediately_available_beds",
-      "exact_header_label": "重症者用病床数 / 即応病床数 (注３)",
+      "exact_header_label": "重症者用病床数 / 即応病床数\n(注３)",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -5584,7 +5584,7 @@
     },
     {
       "candidate_concept": "severe_specific_secured_bed_occupancy_rate",
-      "exact_header_label": "うち重症者用病床数 / 確保病床 使用率 （注４）",
+      "exact_header_label": "うち重症者用病床数 / 確保病床\n使用率\n（注４）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -5789,7 +5789,7 @@
     },
     {
       "candidate_concept": "severe_specific_secured_bed_occupancy_rate",
-      "exact_header_label": "うち重症者用病床数 / 確保病床 使用率 （注５）",
+      "exact_header_label": "うち重症者用病床数 / 確保病床\n使用率\n（注５）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -6454,7 +6454,7 @@
     },
     {
       "candidate_concept": "severe_specific_secured_bed_occupancy_rate",
-      "exact_header_label": "重症者用病床数 / 確保病床 使用率 （注５）",
+      "exact_header_label": "重症者用病床数 / 確保病床\n使用率\n（注５）",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -6731,7 +6731,7 @@
     },
     {
       "candidate_concept": "severe_specific_secured_beds",
-      "exact_header_label": "うち重症者用病床数 / 確保病床数 （注３）",
+      "exact_header_label": "うち重症者用病床数 / 確保病床数\n（注３）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -6745,7 +6745,7 @@
     },
     {
       "candidate_concept": "severe_specific_secured_beds",
-      "exact_header_label": "うち重症者用病床数 / 確保病床数 （注４）",
+      "exact_header_label": "うち重症者用病床数 / 確保病床数\n（注４）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -6760,7 +6760,7 @@
     },
     {
       "candidate_concept": "severe_specific_secured_beds",
-      "exact_header_label": "重症者用病床数 / 確保病床数 （注４）",
+      "exact_header_label": "重症者用病床数 / 確保病床数\n（注４）",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -6774,7 +6774,7 @@
     },
     {
       "candidate_concept": "social_welfare_facility_patients",
-      "exact_header_label": "（２）社会福祉施設等療養者数 （注５）",
+      "exact_header_label": "（２）社会福祉施設等療養者数\n（注５）",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27",
@@ -6788,7 +6788,7 @@
     },
     {
       "candidate_concept": "social_welfare_facility_patients",
-      "exact_header_label": "（３）社会福祉施設等療養者数 （注８）",
+      "exact_header_label": "（３）社会福祉施設等療養者数\n（注８）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -6802,7 +6802,7 @@
     },
     {
       "candidate_concept": "social_welfare_facility_patients",
-      "exact_header_label": "（４）①-2 うち、社会 福祉施設等 療養者数",
+      "exact_header_label": "（４）①-2\nうち、社会\n福祉施設等\n療養者数",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -6848,7 +6848,7 @@
     },
     {
       "candidate_concept": "temporary_facility_patients",
-      "exact_header_label": "（４）臨時の医療施設･入院待機施設療養者数 （再掲含む） （注10）",
+      "exact_header_label": "（４）臨時の医療施設･入院待機施設療養者数\n（再掲含む）\n（注10）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -6863,7 +6863,7 @@
     },
     {
       "candidate_concept": "total_inpatients_or_inpatients_present",
-      "exact_header_label": "（１）①-1 入院者数 （在院者数）",
+      "exact_header_label": "（１）①-1\n入院者数\n（在院者数）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -6877,7 +6877,7 @@
     },
     {
       "candidate_concept": "total_inpatients_or_inpatients_present",
-      "exact_header_label": "（１）①-1 在院者数",
+      "exact_header_label": "（１）①-1\n在院者数",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27",
@@ -6891,7 +6891,7 @@
     },
     {
       "candidate_concept": "total_inpatients_or_inpatients_present",
-      "exact_header_label": "（２）①-1 入院者数",
+      "exact_header_label": "（２）①-1\n入院者数",
       "date_count": 101,
       "first_date": "2021-06-02",
       "last_date": "2023-05-03",
@@ -6924,7 +6924,7 @@
     },
     {
       "candidate_concept": "total_patients_in_care",
-      "exact_header_label": "（１）療養 者数 （注１）",
+      "exact_header_label": "（１）療養\n者数\n（注１）",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -6938,7 +6938,7 @@
     },
     {
       "candidate_concept": "total_patients_in_care",
-      "exact_header_label": "（１）療養者数 （注１）",
+      "exact_header_label": "（１）療養者数\n（注１）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -6968,7 +6968,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "うち重症者用病床数 / 現フェーズ／ 最終フェーズ （注１）",
+      "exact_header_label": "うち重症者用病床数 / 現フェーズ／\n最終フェーズ\n（注１）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -6982,7 +6982,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "うち重症者用病床数 / 現フェーズ／ 最終フェーズ （注２）",
+      "exact_header_label": "うち重症者用病床数 / 現フェーズ／\n最終フェーズ\n（注２）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -6997,7 +6997,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "定員数 / 即応定員数 （注12）",
+      "exact_header_label": "定員数 / 即応定員数\n（注12）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -7012,7 +7012,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "定員数 / 現フェーズ／ 最終フェーズ （注２､11）",
+      "exact_header_label": "定員数 / 現フェーズ／\n最終フェーズ\n（注２､11）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -7027,7 +7027,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "定員数 / 確保定員 使用率 （注14）",
+      "exact_header_label": "定員数 / 確保定員\n使用率\n（注14）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -7042,7 +7042,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "定員数 / 確保定員数 （注13）",
+      "exact_header_label": "定員数 / 確保定員数\n（注13）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03",
@@ -7072,7 +7072,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "居室数 / 現フェーズ／ 最終フェーズ （注１）",
+      "exact_header_label": "居室数 / 現フェーズ／\n最終フェーズ\n（注１）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -7086,7 +7086,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "居室数 / 現フェーズ／ 最終フェーズ （注２）",
+      "exact_header_label": "居室数 / 現フェーズ／\n最終フェーズ\n（注２）",
       "date_count": 101,
       "first_date": "2021-06-02",
       "last_date": "2023-05-03",
@@ -7102,7 +7102,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "居室数 / 現フェーズ／ 最終フェーズ （注３）",
+      "exact_header_label": "居室数 / 現フェーズ／\n最終フェーズ\n（注３）",
       "date_count": 21,
       "first_date": "2021-01-06",
       "last_date": "2021-05-26",
@@ -7164,7 +7164,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "病床数 / 現フェーズ／ 最終フェーズ （注１）",
+      "exact_header_label": "病床数 / 現フェーズ／\n最終フェーズ\n（注１）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27",
@@ -7178,7 +7178,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "病床数 / 現フェーズ／ 最終フェーズ （注２）",
+      "exact_header_label": "病床数 / 現フェーズ／\n最終フェーズ\n（注２）",
       "date_count": 101,
       "first_date": "2021-06-02",
       "last_date": "2023-05-03",
@@ -7194,7 +7194,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "病床数 / 現フェーズ／ 最終フェーズ （注３）",
+      "exact_header_label": "病床数 / 現フェーズ／\n最終フェーズ\n（注３）",
       "date_count": 21,
       "first_date": "2021-01-06",
       "last_date": "2021-05-26",
@@ -7224,7 +7224,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "病床数 / 現段階／ 最終段階 （注１）",
+      "exact_header_label": "病床数 / 現段階／\n最終段階\n（注１）",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27",
@@ -7238,7 +7238,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "病床数 / （参考） / 最終フェーズにおける即応病床（計画）数 （注５）",
+      "exact_header_label": "病床数 / （参考） / 最終フェーズにおける即応病床（計画）数\n（注５）",
       "date_count": 21,
       "first_date": "2021-01-06",
       "last_date": "2021-05-26",
@@ -7290,7 +7290,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "重症者用病床数 / 現フェーズ／ 最終フェーズ （注２）",
+      "exact_header_label": "重症者用病床数 / 現フェーズ／\n最終フェーズ\n（注２）",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -7304,7 +7304,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "（２）①-2 うち、確保 病床に入院 している者",
+      "exact_header_label": "（２）①-2\nうち、確保\n病床に入院\nしている者",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -7333,7 +7333,7 @@
     },
     {
       "candidate_concept": "unclassified",
-      "exact_header_label": "（２）②-2 うち、確保 病床に入院 している重 症者",
+      "exact_header_label": "（２）②-2\nうち、確保\n病床に入院\nしている重\n症者",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15",
@@ -7386,37 +7386,37 @@
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "うち重症者用病床数 / 現フェーズ／ 最終フェーズ （注１）",
+      "exact_header_label": "うち重症者用病床数 / 現フェーズ／\n最終フェーズ\n（注１）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27"
     },
     {
-      "exact_header_label": "うち重症者用病床数 / 現フェーズ／ 最終フェーズ （注２）",
+      "exact_header_label": "うち重症者用病床数 / 現フェーズ／\n最終フェーズ\n（注２）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "定員数 / 即応定員数 （注12）",
+      "exact_header_label": "定員数 / 即応定員数\n（注12）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "定員数 / 現フェーズ／ 最終フェーズ （注２､11）",
+      "exact_header_label": "定員数 / 現フェーズ／\n最終フェーズ\n（注２､11）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "定員数 / 確保定員 使用率 （注14）",
+      "exact_header_label": "定員数 / 確保定員\n使用率\n（注14）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "定員数 / 確保定員数 （注13）",
+      "exact_header_label": "定員数 / 確保定員数\n（注13）",
       "date_count": 72,
       "first_date": "2021-12-22",
       "last_date": "2023-05-03"
@@ -7428,19 +7428,19 @@
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "居室数 / 現フェーズ／ 最終フェーズ （注１）",
+      "exact_header_label": "居室数 / 現フェーズ／\n最終フェーズ\n（注１）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27"
     },
     {
-      "exact_header_label": "居室数 / 現フェーズ／ 最終フェーズ （注２）",
+      "exact_header_label": "居室数 / 現フェーズ／\n最終フェーズ\n（注２）",
       "date_count": 101,
       "first_date": "2021-06-02",
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "居室数 / 現フェーズ／ 最終フェーズ （注３）",
+      "exact_header_label": "居室数 / 現フェーズ／\n最終フェーズ\n（注３）",
       "date_count": 21,
       "first_date": "2021-01-06",
       "last_date": "2021-05-26"
@@ -7464,19 +7464,19 @@
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "病床数 / 現フェーズ／ 最終フェーズ （注１）",
+      "exact_header_label": "病床数 / 現フェーズ／\n最終フェーズ\n（注１）",
       "date_count": 21,
       "first_date": "2023-05-10",
       "last_date": "2023-09-27"
     },
     {
-      "exact_header_label": "病床数 / 現フェーズ／ 最終フェーズ （注２）",
+      "exact_header_label": "病床数 / 現フェーズ／\n最終フェーズ\n（注２）",
       "date_count": 101,
       "first_date": "2021-06-02",
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "病床数 / 現フェーズ／ 最終フェーズ （注３）",
+      "exact_header_label": "病床数 / 現フェーズ／\n最終フェーズ\n（注３）",
       "date_count": 21,
       "first_date": "2021-01-06",
       "last_date": "2021-05-26"
@@ -7488,13 +7488,13 @@
       "last_date": "2020-12-30"
     },
     {
-      "exact_header_label": "病床数 / 現段階／ 最終段階 （注１）",
+      "exact_header_label": "病床数 / 現段階／\n最終段階\n（注１）",
       "date_count": 26,
       "first_date": "2023-10-04",
       "last_date": "2024-03-27"
     },
     {
-      "exact_header_label": "病床数 / （参考） / 最終フェーズにおける即応病床（計画）数 （注５）",
+      "exact_header_label": "病床数 / （参考） / 最終フェーズにおける即応病床（計画）数\n（注５）",
       "date_count": 21,
       "first_date": "2021-01-06",
       "last_date": "2021-05-26"
@@ -7512,13 +7512,13 @@
       "last_date": "2024-03-27"
     },
     {
-      "exact_header_label": "重症者用病床数 / 現フェーズ／ 最終フェーズ （注２）",
+      "exact_header_label": "重症者用病床数 / 現フェーズ／\n最終フェーズ\n（注２）",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15"
     },
     {
-      "exact_header_label": "（２）①-2 うち、確保 病床に入院 している者",
+      "exact_header_label": "（２）①-2\nうち、確保\n病床に入院\nしている者",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15"
@@ -7530,7 +7530,7 @@
       "last_date": "2023-05-03"
     },
     {
-      "exact_header_label": "（２）②-2 うち、確保 病床に入院 している重 症者",
+      "exact_header_label": "（２）②-2\nうち、確保\n病床に入院\nしている重\n症者",
       "date_count": 29,
       "first_date": "2021-06-02",
       "last_date": "2021-12-15"
