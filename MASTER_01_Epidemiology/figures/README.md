@@ -1,6 +1,6 @@
 # MASTER01 疫学グラフ
 
-流行波区分を背景色で示した時系列グラフ。流行波の開始・ピーク・終了日は、[NIID基準改正版の波データ](../data/06_Waves/national_epidemic_waves_NIID_amended_20261118.csv)に基づく。
+流行波の開始・終了位置を縦の点線で示した時系列グラフ。流行波の開始・ピーク・終了日は、[NIID基準改正版の波データ](../data/06_Waves/national_epidemic_waves_NIID_amended_20261118.csv)に基づく。
 
 ## グラフ
 
