@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Bounded acquisition probe for official MHLW G-MIS public CSV links.
 
-This probe downloads only two CSV URLs linked from official MHLW pages.
-It records response metadata and a preliminary CSV shape. It does not infer
-that the files are comparable, does not normalize data, and does not modify
-existing MASTER or analysis datasets.
+Downloads only two CSV URLs linked from official MHLW pages. Records response
+metadata and leading rows for source/schema identification. No normalization,
+joining, inference, or modification of MASTER/analysis datasets is performed.
 """
 from __future__ import annotations
 import csv, hashlib, io, json
@@ -36,15 +35,21 @@ def sha256(data: bytes) -> str:
 def inspect_csv(data: bytes):
     for enc in ("utf-8-sig", "cp932", "shift_jis"):
         try:
-            text = data.decode(enc)
-            rows = list(csv.reader(io.StringIO(text)))
+            rows = list(csv.reader(io.StringIO(data.decode(enc))))
+            nonempty = [(i + 1, row) for i, row in enumerate(rows) if any(str(x).strip() for x in row)]
             if rows and max((len(r) for r in rows), default=0) > 1:
+                likely_headers = []
+                for line_no, row in nonempty[:100]:
+                    joined = " ".join(str(x) for x in row)
+                    if any(k in joined for k in ("医療機関名", "病院名", "確保病床", "即応病床", "実績日", "都道府県")):
+                        likely_headers.append({"line": line_no, "row": row})
                 return {
                     "encoding_candidate": enc,
-                    "row_count_including_header": len(rows),
-                    "header_column_count": len(rows[0]),
-                    "header": rows[0],
-                    "first_data_row": rows[1] if len(rows) > 1 else None,
+                    "row_count_including_blank_rows": len(rows),
+                    "nonempty_row_count": len(nonempty),
+                    "max_column_count": max((len(r) for r in rows), default=0),
+                    "first_30_nonempty_rows": [{"line": n, "row": r} for n, r in nonempty[:30]],
+                    "candidate_header_rows_within_first_100_nonempty": likely_headers[:12],
                     "csv_parse_status": "parsed",
                 }
         except (UnicodeDecodeError, csv.Error):
