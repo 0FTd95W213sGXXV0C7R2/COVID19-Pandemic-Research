@@ -42,3 +42,14 @@ Test Europe PMC's documented supplementary-file retrieval operation for one arti
 - The runner completed checkout, Python setup, and dependency installation. At the last status check, the bounded retrieval step was still in progress; no archive, extracted PDF, or SHA-256 has yet been confirmed.
 - The workflow has an 8-minute job timeout and the HTTP request has a 90-second read timeout. It records a structured failure manifest rather than inventing a successful retrieval if the endpoint cannot be reached.
 - No values have been added to the 47-row evidence table; no MASTER or analysis dataset was modified.
+
+## Completed execution result and repository recording
+
+- Checked the completed workflow run on 2026-11-19 (JST).
+- The retrieval step ran and returned HTTP 500 from the Europe PMC REST `supplementaryFiles` endpoint. The response was HTML, not a ZIP archive.
+- Result: 0 supplementary binaries downloaded; 0 files extracted; no SHA-256 hashes; content audit remains not started.
+- The workflow did create the structured failure manifest, but its final push was rejected as non-fast-forward because the remote `main` branch had advanced after the runner checkout. No force push was attempted.
+- The failure manifest was then committed separately at `data/metadata/non_covid_access/yamaguchi_supplementary_retrieval.json` (commit `debb5ecf641af1f710510fe75eefe9ffacbb0d5f`).
+- The earlier "still in progress" statement above is superseded by this completed result.
+- The 47-row evidence table, MASTER, and analytical dataset remain unchanged. No figure-derived or unverified values were added.
+- Next action: do not repeatedly retry the same failing endpoint. Assess one distinct public retrieval route for the Yamaguchi files; if that is unavailable, move to the two Yoshida documents and record the outcome independently.
