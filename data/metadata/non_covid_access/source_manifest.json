@@ -1,0 +1,61 @@
+{
+  "audit_timestamp_jst": "2026-11-19T14:25:34+09:00",
+  "purpose": "Re-extract published aggregate evidence relevant to non-COVID healthcare access from three primary research articles. This is not a reconstruction of patient-level or hospital-level raw datasets.",
+  "policy": "New source-derived evidence only; no legacy processed CSVs or previously transformed values were used as inputs.",
+  "output": "data/processed/non_covid_access/article_reported_aggregate_evidence.csv",
+  "sources": [
+    {
+      "study_id": "YOSHIDA_2022",
+      "citation": "Yoshida S, Okubo R, Katanoda K, Tabuchi T. Impact of state of emergency for coronavirus disease 2019 on hospital visits and disease exacerbation: the Japan COVID-19 and Society Internet Survey. Family Practice. 2022;39(5):883-890. doi:10.1093/fampra/cmac016.",
+      "canonical_url": "https://academic.oup.com/fampra/article/39/5/883/6555049",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9037356/",
+      "access_status": "publisher_full_text_html_read; supplementary DOC listed but download attempt failed; participant-level dataset not public",
+      "source_data_access": "Data underlying the article cannot be shared publicly due to ethics approval restrictions.",
+      "extracted_content": "Methods, Tables 1-3, results, data availability statement; 14 aggregate rows.",
+      "limitations": [
+        "Cross-sectional self-report survey; data collection 2020-08-25 to 2020-09-30 with recall of April-May 2020.",
+        "Analysis restricted to 7,747 respondents reporting a disease currently under treatment from the 28,000-person JACSIS sample.",
+        "Participant-level dataset unavailable publicly; article aggregates and supplementary table only.",
+        "No acute-care or mortality outcomes; findings are not causal."
+      ]
+    },
+    {
+      "study_id": "YAMAGUCHI_2022",
+      "citation": "Yamaguchi S, Okada A, Sunaga S, et al. Impact of COVID-19 pandemic on healthcare service use for non-COVID-19 patients in Japan: retrospective cohort study. BMJ Open. 2022;12:e060390. doi:10.1136/bmjopen-2021-060390.",
+      "canonical_url": "https://bmjopen.bmj.com/content/bmjopen/12/4/e060390.full.pdf",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9058318/",
+      "access_status": "publisher_full_text_PDF_read; ten supplementary PDF files listed but not downloaded in this pass; underlying MDV claims dataset not public",
+      "source_data_access": "MDV dataset is proprietary to Medical Data Vision and not publicly available for research; article says it may be purchased from MDV.",
+      "extracted_content": "Methods, Results, figures and text-reported outcome values; 31 aggregate rows.",
+      "limitations": [
+        "26 anonymised hospitals; facility locations and infection status unknown.",
+        "Study cohort includes patients with at least one serum creatinine measurement, potentially underrepresenting less serious outpatients.",
+        "Hospitalisation counts are based on monthly discharges, not admission dates.",
+        "Percent changes are 2020 vs 2019, not national rates.",
+        "Decreases can reflect changed disease incidence, behaviour, thresholds, patient avoidance, or hospital capacity; cannot be attributed to access restrictions alone."
+      ]
+    },
+    {
+      "study_id": "KUROKAWA_2022",
+      "citation": "Kurokawa T, Ozaki A, Bhandari D, et al. Association between COVID-19 incidence and postponement or cancellation of elective surgeries in Japan until September 2020: a cross-sectional, web-based survey. BMJ Open. 2022;12:e059886. doi:10.1136/bmjopen-2021-059886.",
+      "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9556741/",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36216420/",
+      "access_status": "PubMed abstract and PMC full-text search extraction read; direct PMC page retrieval blocked by access challenge; supplementary files not confirmed",
+      "source_data_access": "Data available upon reasonable request; no direct request made.",
+      "extracted_content": "Methods, Table 2/3 and Results; unweighted and weighted reported estimates stored separately.",
+      "limitations": [
+        "Nationwide web-based self-report survey; 3,678 participants with planned elective surgery.",
+        "The unweighted raw count (223/3,678; 6.06%) and weighted estimate (431/3,678; 11.72%) are distinct and must not be merged.",
+        "Surgical conditions were not collected; severity and appropriateness of postponement cannot be assessed.",
+        "No normal-period comparator, so the causal effect of the pandemic or emergency declaration cannot be isolated."
+      ]
+    }
+  ],
+  "extraction_controls": [
+    "All reported percentages, counts, odds ratios and confidence intervals retain their article-specific unit and estimation basis.",
+    "No daily or monthly time series was created from cross-sectional survey results.",
+    "No missing raw counts were reverse-engineered from rounded percentages.",
+    "No facility-level or participant-level observations were imputed.",
+    "Source-reported aggregate values are not described as independently re-calculated from raw claims or survey microdata."
+  ]
+}
