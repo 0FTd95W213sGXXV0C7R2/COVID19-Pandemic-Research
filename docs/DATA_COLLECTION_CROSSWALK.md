@@ -155,3 +155,11 @@
 - 監査：[initial_source_extraction_audit.md](audits/non_covid_access/initial_source_extraction_audit.md)
 - データ辞書：[NON_COVID_ACCESS_ARTICLE_EVIDENCE.md](data_dictionary/NON_COVID_ACCESS_ARTICLE_EVIDENCE.md)
 - Manifest：[source_manifest.json](../data/metadata/non_covid_access/source_manifest.json)
+
+
+## 8. 補足資料の掲載状況再監査（2026-11-19 14:30 JST）
+
+- **Yoshida et al. (2022) JACSIS**：PMCのAssociated Dataに補足2ファイルが掲載されていることを確認。Table（DOC、48 KB）、Checklist（DOCX、29.2 KB）。出版社本文ページでは今回の取得表示上リンクを確認できなかった。PMCの一覧確認とファイル本体のダウンロード・内容確認は区別し、本体は未取得として扱う。以前の「補足資料が確認できない」という監査表現を訂正。
+- **Yamaguchi et al. (2022)**：PMCに補足PDF 10件（supp001〜supp010、195.9 KB〜1.1 MB）が掲載されていることを確認。本文には補足図表とICD-10コード定義への参照がある。個々のPDF本体は未取得のため、内容・ファイル名と図表の対応関係は未検証。論文公表値CSVに補足由来の新規数値はまだ追加していない。
+- **Kurokawa et al. (2022)**：出版社全文PDFを確認したが、取得した本文PDFに補足資料セクションや補足ファイル参照は見当たらなかった。今回確認したPMC/PubMed索引でも補足ファイルは特定できず。「存在しない」ではなく「今回確認した公開記録では未特定」と記録。データはreasonable requestとされるが、問い合わせは行わない。
+- 詳細：[補足資料監査報告](audits/non_covid_access/initial_source_extraction_audit.md)、[manifest](../data/metadata/non_covid_access/source_manifest.json)。
