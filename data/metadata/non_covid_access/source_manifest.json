@@ -1,5 +1,5 @@
 {
-  "audit_timestamp_jst": "2026-11-19T14:25:34+09:00",
+  "audit_timestamp_jst": "2026-11-19T14:30:34+09:00",
   "purpose": "Re-extract published aggregate evidence relevant to non-COVID healthcare access from three primary research articles. This is not a reconstruction of patient-level or hospital-level raw datasets.",
   "policy": "New source-derived evidence only; no legacy processed CSVs or previously transformed values were used as inputs.",
   "output": "data/processed/non_covid_access/article_reported_aggregate_evidence.csv",
@@ -9,7 +9,7 @@
       "citation": "Yoshida S, Okubo R, Katanoda K, Tabuchi T. Impact of state of emergency for coronavirus disease 2019 on hospital visits and disease exacerbation: the Japan COVID-19 and Society Internet Survey. Family Practice. 2022;39(5):883-890. doi:10.1093/fampra/cmac016.",
       "canonical_url": "https://academic.oup.com/fampra/article/39/5/883/6555049",
       "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9037356/",
-      "access_status": "publisher_full_text_html_read; supplementary DOC listed but download attempt failed; participant-level dataset not public",
+      "access_status": "publisher_full_text_html_read; PMC lists supplementary DOC and DOCX, not downloaded; participant-level dataset not public",
       "source_data_access": "Data underlying the article cannot be shared publicly due to ethics approval restrictions.",
       "extracted_content": "Methods, Tables 1-3, results, data availability statement; 14 aggregate rows.",
       "limitations": [
@@ -24,7 +24,7 @@
       "citation": "Yamaguchi S, Okada A, Sunaga S, et al. Impact of COVID-19 pandemic on healthcare service use for non-COVID-19 patients in Japan: retrospective cohort study. BMJ Open. 2022;12:e060390. doi:10.1136/bmjopen-2021-060390.",
       "canonical_url": "https://bmjopen.bmj.com/content/bmjopen/12/4/e060390.full.pdf",
       "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9058318/",
-      "access_status": "publisher_full_text_PDF_read; ten supplementary PDF files listed but not downloaded in this pass; underlying MDV claims dataset not public",
+      "access_status": "publisher_full_text_PDF_read; ten supplementary PDFs listed by PMC but not downloaded; underlying MDV claims dataset not public",
       "source_data_access": "MDV dataset is proprietary to Medical Data Vision and not publicly available for research; article says it may be purchased from MDV.",
       "extracted_content": "Methods, Results, figures and text-reported outcome values; 31 aggregate rows.",
       "limitations": [
@@ -40,7 +40,7 @@
       "citation": "Kurokawa T, Ozaki A, Bhandari D, et al. Association between COVID-19 incidence and postponement or cancellation of elective surgeries in Japan until September 2020: a cross-sectional, web-based survey. BMJ Open. 2022;12:e059886. doi:10.1136/bmjopen-2021-059886.",
       "canonical_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9556741/",
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36216420/",
-      "access_status": "PubMed abstract and PMC full-text search extraction read; direct PMC page retrieval blocked by access challenge; supplementary files not confirmed",
+      "access_status": "publisher_full_text_PDF_read; no supplementary file identified in retrieved publisher/PMC records; underlying data available upon reasonable request, not requested",
       "source_data_access": "Data available upon reasonable request; no direct request made.",
       "extracted_content": "Methods, Table 2/3 and Results; unweighted and weighted reported estimates stored separately.",
       "limitations": [
@@ -56,6 +56,83 @@
     "No daily or monthly time series was created from cross-sectional survey results.",
     "No missing raw counts were reverse-engineered from rounded percentages.",
     "No facility-level or participant-level observations were imputed.",
-    "Source-reported aggregate values are not described as independently re-calculated from raw claims or survey microdata."
-  ]
+    "Source-reported aggregate values are not described as independently re-calculated from raw claims or survey microdata.",
+    "Supplementary file presence is distinguished from successful file download and content-level verification."
+  ],
+  "supplementary_material_audit": {
+    "timestamp_jst": "2026-11-19T14:30:34+09:00",
+    "scope": "Availability and bibliographic audit of supplementary files; file contents were not transcribed because direct file retrieval was blocked/unavailable in this pass.",
+    "yoshida_2022": {
+      "source": "PMC associated-data section",
+      "status": "supplementary_files_confirmed_listed; files_not_downloaded",
+      "files": [
+        {
+          "name": "cmac016_suppl_Supplementary_Table",
+          "format": "DOC",
+          "reported_size_kb": 48
+        },
+        {
+          "name": "cmac016_suppl_Supplementary_Checklist",
+          "format": "DOCX",
+          "reported_size_kb": 29.2
+        }
+      ],
+      "note": "Oxford Academic article page did not expose a supplementary-data link in the retrieved article view. PMC indexed full-text/associated-data result explicitly lists both files. Actual binary download and content inspection remain outstanding.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9037356/"
+    },
+    "yamaguchi_2022": {
+      "source": "PMC associated-data section",
+      "status": "10_supplementary_pdf_files_confirmed_listed; files_not_downloaded",
+      "files": [
+        {
+          "name": "bmjopen-2021-060390supp001.pdf",
+          "reported_size_kb": 195.9
+        },
+        {
+          "name": "bmjopen-2021-060390supp002.pdf",
+          "reported_size_kb": 463.8
+        },
+        {
+          "name": "bmjopen-2021-060390supp003.pdf",
+          "reported_size_kb": 602.7
+        },
+        {
+          "name": "bmjopen-2021-060390supp004.pdf",
+          "reported_size_kb": 390.9
+        },
+        {
+          "name": "bmjopen-2021-060390supp005.pdf",
+          "reported_size_kb": 479.7
+        },
+        {
+          "name": "bmjopen-2021-060390supp006.pdf",
+          "reported_size_kb": 215.6
+        },
+        {
+          "name": "bmjopen-2021-060390supp007.pdf",
+          "reported_size_kb": 1012.8
+        },
+        {
+          "name": "bmjopen-2021-060390supp008.pdf",
+          "reported_size_mb": 1.1
+        },
+        {
+          "name": "bmjopen-2021-060390supp009.pdf",
+          "reported_size_kb": 818.9
+        },
+        {
+          "name": "bmjopen-2021-060390supp010.pdf",
+          "reported_size_mb": 1.1
+        }
+      ],
+      "note": "The main article refers to supplementary figures/tables and ICD-10 code definitions. The ten PDFs themselves were not downloaded; their individual contents and exact filename-to-table/figure mapping remain unverified.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9058318/"
+    },
+    "kurokawa_2022": {
+      "source": "BMJ Open publisher full-text PDF and PMC/PubMed indexed records",
+      "status": "no_supplementary_file_identified_in_retrieved_records",
+      "note": "The publisher full-text PDF was inspected. It refers to online prepublication history but contains no supplementary-material section or supplementary-file references in the retrieved PDF text. PMC/PubMed searches did not surface a supplementary-file listing in this pass. This is not proof that no supplemental file exists anywhere. Data are available upon reasonable request; no request was made.",
+      "source_url": "https://bmjopen.bmj.com/content/bmjopen/12/10/e059886.full.pdf"
+    }
+  }
 }
