@@ -1,6 +1,6 @@
 {
-  "created_at_utc": "2026-11-19T23:48:01.025839+00:00",
-  "created_at_jst": "2026-11-20T08:48:01.025839+09:00",
+  "created_at_utc": "2026-11-19T23:49:22.798465+00:00",
+  "created_at_jst": "2026-11-20T08:49:22.798465+09:00",
   "official_page": {
     "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00023.html",
     "http_status": 200,
@@ -27007,4 +27007,4 @@
     "The dash symbol is retained verbatim; meanings are not inferred unless explicitly stated in that snapshot's notes.",
     "No national aggregation, occupancy calculation, imputation, schema concatenation, or analytical dataset update was performed."
   ]
-}\n
+}
