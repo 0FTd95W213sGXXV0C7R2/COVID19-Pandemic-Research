@@ -1,0 +1,1 @@
+Trigger: acquire the official FDMA workbook from the official source page, preserve original bytes, and inventory all sheets. Do not use historical derived CSVs.
