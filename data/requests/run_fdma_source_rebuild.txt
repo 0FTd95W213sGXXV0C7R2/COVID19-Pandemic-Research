@@ -15,3 +15,5 @@ Retry with corrected end-date regex escape. 2026-11-19T04:56:01.798Z
 Rerun after optional start-weekday parenthesis and blank-preserving total checks. 2026-11-19T04:56:57.878Z
 
 Build normalized weekly long-format dataset from official workbook. 2026-11-19T04:58:56.805Z
+
+Rerun normalized build with explicit merged-prefecture cell handling. 2026-11-19T04:59:45.839Z
