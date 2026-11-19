@@ -1,0 +1,39 @@
+name: Summarize MHLW weekly survey crosswalk review
+
+on:
+  push:
+    paths:
+      - "data/requests/run_mhlw_weekly_crosswalk_summary.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mhlw-weekly-crosswalk-summary
+  cancel-in-progress: false
+
+jobs:
+  summarize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Create compact review summary from committed candidate JSON
+        run: python scripts/summarize_mhlw_weekly_survey_crosswalk.py
+      - name: Commit compact summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/audits/mhlw/weekly_inpatient_survey_crosswalk_review_summary.json
+          if git diff --cached --quiet; then
+            echo "No summary changes."
+          else
+            git commit -m "Summarize MHLW weekly survey crosswalk review"
+            git pull --rebase origin main
+            git push
+          fi
