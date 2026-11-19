@@ -50,7 +50,16 @@ def parse_file(label, path):
     code_col = "医療機関コード"
     status_col = "報告状況"
     codes = [r.get(code_col, "").strip() for _, r in records]
-    dates = sorted({r.get(date_col, "").strip() for _, r in records if r.get(date_col, "").strip()})
+    date_values = [r.get(date_col, "").strip() for _, r in records if r.get(date_col, "").strip()]
+    dates = sorted(set(date_values))
+    date_value_counts = dict(Counter(date_values))
+    nonstandard_date_rows = [
+        {"line": line_no, "medical_institution_code": r.get(code_col, "").strip(),
+         "medical_institution_name": r.get("医療機関名", "").strip(),
+         "raw_date_value": r.get(date_col, "").strip()}
+        for line_no, r in records
+        if r.get(date_col, "").strip() and not ("/" in r.get(date_col, "").strip())
+    ]
     missing = {col: sum(not str(r.get(col, "")).strip() for _, r in records) for col in header}
     status_counts = dict(Counter(r.get(status_col, "").strip() or "(blank)" for _, r in records))
     numeric = {}
@@ -75,8 +84,11 @@ def parse_file(label, path):
         "data_record_count": len(records),
         "unique_nonblank_medical_institution_codes": len(set(x for x in codes if x)),
         "blank_medical_institution_codes": sum(not x for x in codes),
-        "duplicate_medical_institution_code_rows": len([x for x, n in Counter(codes).items() if x and n > 1]),
-        "observation_dates": dates,
+        "duplicate_medical_institution_code_count": len([x for x, n in Counter(codes).items() if x and n > 1]),
+        "duplicate_medical_institution_code_excess_rows": sum(n - 1 for x, n in Counter(codes).items() if x and n > 1),
+        "observation_dates_raw": dates,
+        "observation_date_raw_value_counts": date_value_counts,
+        "nonstandard_date_value_rows": nonstandard_date_rows,
         "report_status_counts": status_counts,
         "missing_values_by_column": missing,
         "numeric_field_checks": numeric,
