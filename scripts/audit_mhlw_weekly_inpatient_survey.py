@@ -59,7 +59,8 @@ def inspect(item):
                 parts.append(val)
         labels.append(" / ".join(parts))
     def norm_pref(v):
-        return clean(v).replace(" ", "").replace("　", "")
+        value = clean(v).replace(" ", "").replace("　", "")
+        return re.sub(r"^\d{1,2}", "", value)
     data_rows = [row for row in rows[header_row+1:]
                  if pref_col < len(row) and norm_pref(row[pref_col]) in PREFECTURES]
     prefecture_values = [norm_pref(row[pref_col]) for row in data_rows]
