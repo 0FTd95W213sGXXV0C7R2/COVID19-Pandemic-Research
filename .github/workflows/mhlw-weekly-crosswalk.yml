@@ -26,11 +26,13 @@ jobs:
       - run: python -m pip install --disable-pip-version-check openpyxl==3.1.5
       - name: Extract date-specific header paths and variable candidates
         run: python scripts/build_mhlw_weekly_survey_crosswalk.py
+      - name: Create compact review summary
+        run: python scripts/summarize_mhlw_weekly_survey_crosswalk.py
       - name: Commit crosswalk output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/audits/mhlw/weekly_inpatient_survey_variable_crosswalk_candidates.json
+          git add data/audits/mhlw/weekly_inpatient_survey_variable_crosswalk_candidates.json data/audits/mhlw/weekly_inpatient_survey_crosswalk_review_summary.json
           if git diff --cached --quiet; then
             echo "No crosswalk output changes."
           else
