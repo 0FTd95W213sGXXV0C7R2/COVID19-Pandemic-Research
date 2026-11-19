@@ -20,6 +20,8 @@ RULES = [
     ("inpatients_outside_secured_beds", r"確保病床外に入院している者数"),
     ("severe_patients_in_secured_beds", r"確保病床に入院している重症者数"),
     ("severe_patients_outside_secured_beds", r"確保病床外に入院している重症者数"),
+    ("moderate_severe_II_in_secured_beds", r"確保病床に入院している中等症"),
+    ("moderate_severe_II_outside_secured_beds", r"確保病床外に入院している中等症"),
     ("moderate_severe_II_patients_total", r"中等症Ⅱ.*患者数|中等症II.*患者数"),
     ("severe_patients_total", r"重症者数"),
     ("moderate_severe_II_in_secured_beds", r"確保病床に入院している中等症"),
@@ -113,7 +115,7 @@ def main():
                     if v and (not labels or labels[-1] != v):
                         labels.append(v)
                 # Remove repeated document title/date strings from the candidate header.
-                labels = [x for x in labels if not re.search(r"\d{4}年\s*\d{1,2}月\s*\d{1,2}日|調査結果|新型コロナウイルス感染症患者", x)]
+                labels = [x for x in labels if not re.search(r"(?:令和|平成)\s*[0-9０-９]+年|\d{4}年\s*\d{1,2}月\s*\d{1,2}日|調査結果|新型コロナウイルス感染症患者", x)]
                 label = " / ".join(labels)
                 if not label:
                     continue
