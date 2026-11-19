@@ -21,3 +21,5 @@ Rerun normalized build with explicit merged-prefecture cell handling. 2026-11-19
 Rerun after adding prefecture provenance to CSV schema. 2026-11-19T05:00:18.913Z
 
 Rebuild normalized dataset with formal survey start and 2024 new-form phase flags. 2026-11-19T14:12:00+09:00
+
+Retry FDMA source rebuild and lightweight artifact verification after request timeout. 2026-11-19T05:16:17.746Z
