@@ -1,0 +1,17 @@
+{
+  "study_id": "YAMAGUCHI_2022",
+  "pmcid": "PMC9058318",
+  "endpoint": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9058318/supplementaryFiles",
+  "retrieval_method": "Europe PMC official REST supplementaryFiles endpoint",
+  "retrieved_at": "2026-11-19T05:41:13.845658Z",
+  "status": "retrieval_failed",
+  "http_status": 500,
+  "content_type": "text/html",
+  "error_type": "HTTPError",
+  "error": "500 Server Error: Internal Server Error",
+  "content_audit_status": "not_started",
+  "archive_downloaded": false,
+  "supplementary_files_downloaded": 0,
+  "sha256_recorded": false,
+  "note": "No supplementary content was accepted or transcribed. GitHub Actions created this manifest on the runner, but the automatic push was rejected because the remote main branch advanced after checkout. The manifest is being recorded separately."
+}
