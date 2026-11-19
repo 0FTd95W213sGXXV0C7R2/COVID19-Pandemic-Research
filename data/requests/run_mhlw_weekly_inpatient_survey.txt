@@ -1,1 +1,1 @@
-Acquire every Excel workbook linked from the official MHLW weekly hospitalization survey page. Preserve originals and do not merge into analysis data.
+Enumerate all weekly MHLW hospitalization survey Excel links and download original workbooks with hashes and sheet previews.
