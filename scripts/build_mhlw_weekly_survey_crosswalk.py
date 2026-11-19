@@ -18,10 +18,10 @@ RULES = [
     ("total_inpatients_or_inpatients_present", r"入院者数|在院者数"),
     ("inpatients_in_secured_beds", r"確保病床に入院している者数"),
     ("inpatients_outside_secured_beds", r"確保病床外に入院している者数"),
-    ("severe_patients_total", r"重症者数"),
-    ("moderate_severe_II_patients_total", r"中等症Ⅱ.*患者数|中等症II.*患者数"),
     ("severe_patients_in_secured_beds", r"確保病床に入院している重症者数"),
     ("severe_patients_outside_secured_beds", r"確保病床外に入院している重症者数"),
+    ("moderate_severe_II_patients_total", r"中等症Ⅱ.*患者数|中等症II.*患者数"),
+    ("severe_patients_total", r"重症者数"),
     ("moderate_severe_II_in_secured_beds", r"確保病床に入院している中等症"),
     ("moderate_severe_II_outside_secured_beds", r"確保病床外に入院している中等症"),
     ("immediately_available_beds", r"即応病床数"),
@@ -137,7 +137,7 @@ def main():
             schema_groups[aud.get("schema_id", "unknown")].append(date)
             rec["first_prefecture_row"] = first_data
             rec["prefecture_rows_detected"] = len(pref_rows)
-            rec["columns"] = columns
+            rec["column_count"] = len(columns)
             rec["status"] = "audited" if rec["sha256_match"] else "sha256_mismatch"
             wb.close()
         except Exception as exc:
@@ -166,7 +166,7 @@ def main():
         "candidate_variables": [
             {"candidate_concept": k[0], "exact_header_label": k[1], "date_count": len(v["dates"]),
              "first_date": min(v["dates"]), "last_date": max(v["dates"]), "dates": v["dates"],
-             "column_occurrences": v["columns"], "examples": v["examples"]}
+             "column_occurrence_count": len(v["columns"]), "schema_ids": sorted({x["schema_id"] for x in v["columns"]}), "column_indices": sorted({x["column"] for x in v["columns"]}), "examples": v["examples"]}
             for k,v in sorted(aggregate.items(), key=lambda z:(z[0][0],z[0][1]))
         ],
         "snapshots": per_snapshot,
