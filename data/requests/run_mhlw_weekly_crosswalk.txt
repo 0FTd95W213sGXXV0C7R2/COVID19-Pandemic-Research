@@ -11,3 +11,5 @@ Rerun after crosswalk classifier correction.
 Rerun with per-snapshot numeric profiles.
 
 Rebuild with dash-cell coordinates and refined concepts.
+
+Generate compact review summary after numeric profile audit.
