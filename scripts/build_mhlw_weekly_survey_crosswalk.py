@@ -15,7 +15,6 @@ PREF_RE = re.compile(r"^\s*(?:0?[1-9]|[1-3][0-9]|4[0-7])\s*[　 ]*(?:北海道|�
 SPACE_RE = re.compile(r"\s+")
 RULES = [
     ("positive_cases_excluding_recovered", r"PCR.*陽性者数"),
-    ("total_inpatients_or_inpatients_present", r"入院者数|在院者数"),
     ("inpatients_in_secured_beds", r"確保病床に入院している者数"),
     ("inpatients_outside_secured_beds", r"確保病床外に入院している者数"),
     ("severe_patients_in_secured_beds", r"確保病床に入院している重症者数"),
@@ -24,29 +23,26 @@ RULES = [
     ("moderate_severe_II_outside_secured_beds", r"確保病床外に入院している中等症"),
     ("moderate_severe_II_patients_total", r"中等症Ⅱ.*患者数|中等症II.*患者数"),
     ("severe_patients_total", r"重症者数"),
-    ("moderate_severe_II_in_secured_beds", r"確保病床に入院している中等症"),
-    ("moderate_severe_II_outside_secured_beds", r"確保病床外に入院している中等症"),
+    ("secured_bed_occupancy_rate", r"確保病床\s*使用率|確保病床数に対する使用率"),
+    ("room_occupancy_rate", r"確保居室\s*使用率|確保居室数に対する使用率"),
     ("immediately_available_beds", r"即応病床数"),
     ("secured_beds", r"確保病床数"),
-    ("secured_bed_occupancy_rate", r"確保病床\s*使用率|確保病床数に対する使用率"),
     ("hotel_accommodation_patients", r"宿泊療養者数"),
     ("home_care_patients", r"自宅療養者"),
     ("social_welfare_facility_patients", r"社会福祉施設等療養者数"),
     ("patients_under_destination_coordination", r"療養先調整中の人数"),
     ("patients_under_hospital_coordination", r"入院先調整中の人数"),
     ("temporary_facility_patients", r"臨時の医療施設.*療養者数"),
+    ("total_inpatients_or_inpatients_present", r"入院者数|在院者数"),
     ("total_patients_in_care", r"療養者数"),
-    ("PCR_positive_cases", r"陽性者数"),
     ("immediately_available_rooms", r"即応居室数"),
     ("secured_rooms", r"確保居室数"),
-    ("room_occupancy_rate", r"確保居室使用率"),
 ]
-
 def norm(v):
     return SPACE_RE.sub(" ", str(v)).strip()
 
 def classify(label):
-    compact = re.sub(r"\\s+", "", label)
+    compact = re.sub(r"\s+", "", label)
     severe_bed_context = "重症者用病床数" in compact
     for key, pattern in RULES:
         if re.search(pattern, compact):
