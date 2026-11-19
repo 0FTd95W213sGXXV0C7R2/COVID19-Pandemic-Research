@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit weekly MHLW hospitalization survey workbooks without normalizing data."""
+"""Compact structural/schema audit for all official MHLW weekly survey Excel files."""
 from __future__ import annotations
 import hashlib, json, re
 from collections import Counter
@@ -25,8 +25,7 @@ def clean(v):
 def numeric(v):
     if isinstance(v, (int, float)):
         return True
-    s = clean(v).replace(",", "")
-    return bool(re.fullmatch(r"-?\d+(?:\.\d+)?", s))
+    return bool(re.fullmatch(r"-?\d+(?:\.\d+)?", clean(v).replace(",", "")))
 
 def inspect(item):
     path = ROOT / item["local_path"]
@@ -34,8 +33,7 @@ def inspect(item):
     wb = load_workbook(path, read_only=True, data_only=True)
     ws = wb[wb.sheetnames[0]]
     rows = list(ws.iter_rows(values_only=True))
-    header_row = None
-    pref_col = None
+    header_row = pref_col = None
     for i, row in enumerate(rows[:20]):
         for j, v in enumerate(row):
             if clean(v) in ("都道府県名", "都道府県"):
@@ -45,30 +43,30 @@ def inspect(item):
             break
     if header_row is None:
         wb.close()
-        return {"snapshot_date": item["snapshot_date"], "status": "prefecture_header_not_found",
-                "sheetnames": wb.sheetnames, "max_row": ws.max_row, "max_column": ws.max_column}
-    start = max(0, header_row - 3)
-    end = min(len(rows), header_row + 3)
+        return {"snapshot_date": item["snapshot_date"], "status": "prefecture_header_not_found"}
     labels = []
     for col in range(ws.max_column or 0):
         parts = []
-        for rr in rows[start:end]:
-            if col < len(rr):
-                val = clean(rr[col])
-                if val and val not in parts:
-                    parts.append(val)
+        for rr in rows[max(0, header_row-3):min(len(rows), header_row+3)]:
+            if col >= len(rr):
+                continue
+            val = clean(rr[col])
+            if not val or "新型コロナ" in val or "公表" in val or "令和" in val:
+                continue
+            if re.search(r"\d{1,2}月\d{1,2}日", val):
+                continue
+            if val not in parts:
+                parts.append(val)
         labels.append(" / ".join(parts))
-    data_rows = []
-    for row in rows[header_row + 1:]:
-        if pref_col < len(row) and clean(row[pref_col]) in PREFECTURES:
-            data_rows.append(row)
+    data_rows = [row for row in rows[header_row+1:]
+                 if pref_col < len(row) and clean(row[pref_col]) in PREFECTURES]
     prefecture_values = [clean(row[pref_col]) for row in data_rows]
     field_checks = {}
     keywords = ("PCR検査陽性者数","療養者数","入院者数","在院者数","確保病床","病床数","重症者数","中等症Ⅱ","宿泊療養者数","自宅療養者数")
     for col, label in enumerate(labels):
         if any(k in label for k in keywords):
             vals = [row[col] if col < len(row) else None for row in data_rows]
-            field_checks[str(col + 1) + ":" + label] = {
+            field_checks[str(col+1)+":"+label] = {
                 "numeric": sum(numeric(v) for v in vals if v is not None),
                 "blank": sum(v is None or clean(v)=="" for v in vals),
                 "non_numeric_nonblank": sum(v is not None and clean(v)!="" and not numeric(v) for v in vals),
@@ -76,11 +74,8 @@ def inspect(item):
     title = " ".join(clean(v) for row in rows[:3] for v in row if v is not None)
     md = re.search(r"(\d{1,2})月(\d{1,2})日", title)
     title_month_day = f"{int(md.group(1)):02d}-{int(md.group(2)):02d}" if md else None
-    note_rows = []
-    for row in rows[-8:]:
-        vals = [clean(v) for v in row if clean(v)]
-        if vals:
-            note_rows.append(" | ".join(vals)[:500])
+    sheet_names = wb.sheetnames
+    max_row, max_column = ws.max_row, ws.max_column
     wb.close()
     return {
         "snapshot_date": item["snapshot_date"],
@@ -88,12 +83,10 @@ def inspect(item):
         "local_path": item["local_path"],
         "bytes": len(data),
         "sha256": hashlib.sha256(data).hexdigest(),
-        "workbook_status": "audited",
-        "sheet_names": wb.sheetnames,
-        "sheet_max_row": ws.max_row,
-        "sheet_max_column": ws.max_column,
-        "prefecture_header_row_1based": header_row + 1,
-        "prefecture_column_1based": pref_col + 1,
+        "status": "audited",
+        "sheet_names": sheet_names,
+        "sheet_max_row": max_row,
+        "sheet_max_column": max_column,
         "data_row_count": len(data_rows),
         "unique_prefecture_names": len(set(prefecture_values)),
         "missing_prefecture_names": sorted(PREFECTURES - set(prefecture_values) - {"全国"}),
@@ -102,16 +95,41 @@ def inspect(item):
         "header_labels_by_column": labels,
         "schema_signature": "||".join(labels),
         "field_checks": field_checks,
-        "bottom_notes": note_rows,
     }
 
 def main():
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     items = [x for x in manifest["results"] if x.get("status") == "downloaded"]
-    results = [inspect(x) for x in items]
-    results.sort(key=lambda x: x.get("snapshot_date", ""))
-    variants = Counter(x.get("schema_signature", "UNRECOGNIZED") for x in results)
-    dates = [datetime.fromisoformat(x["snapshot_date"]) for x in results if x.get("snapshot_date") != "unknown"]
+    inspected = [inspect(x) for x in items]
+    inspected.sort(key=lambda x: x.get("snapshot_date", ""))
+    schema_defs, snapshots = {}, []
+    for item in inspected:
+        signature = item.get("schema_signature", "UNRECOGNIZED")
+        sid = hashlib.sha256(signature.encode("utf-8")).hexdigest()[:10]
+        if sid not in schema_defs:
+            schema_defs[sid] = {
+                "count": 0,
+                "representative_snapshot": item.get("snapshot_date"),
+                "header_labels_by_column": item.get("header_labels_by_column", []),
+            }
+        schema_defs[sid]["count"] += 1
+        snapshots.append({
+            "snapshot_date": item.get("snapshot_date"),
+            "status": item.get("status"),
+            "source_url": item.get("source_url"),
+            "local_path": item.get("local_path"),
+            "sha256": item.get("sha256"),
+            "sheet_max_row": item.get("sheet_max_row"),
+            "sheet_max_column": item.get("sheet_max_column"),
+            "data_row_count": item.get("data_row_count"),
+            "unique_prefecture_names": item.get("unique_prefecture_names"),
+            "missing_prefecture_names": item.get("missing_prefecture_names"),
+            "contains_national_total": item.get("contains_national_total"),
+            "title_month_day": item.get("title_month_day"),
+            "schema_id": sid,
+            "field_checks": item.get("field_checks", {}),
+        })
+    dates = [datetime.fromisoformat(x["snapshot_date"]) for x in snapshots if x.get("status") == "audited"]
     intervals = [(dates[i]-dates[i-1]).days for i in range(1,len(dates))]
     now = datetime.now(timezone.utc)
     audit = {
@@ -120,17 +138,17 @@ def main():
         "source_manifest": "data/metadata/mhlw/weekly_inpatient_survey_manifest.json",
         "discovered_workbooks": manifest.get("discovered_unique_excel_count"),
         "downloaded_workbooks": manifest.get("downloaded_count"),
-        "audited_workbooks": sum(x.get("workbook_status") == "audited" for x in results),
-        "snapshot_date_range": [results[0]["snapshot_date"], results[-1]["snapshot_date"]] if results else None,
+        "audited_workbooks": sum(x.get("status") == "audited" for x in inspected),
+        "snapshot_date_range": [snapshots[0]["snapshot_date"], snapshots[-1]["snapshot_date"]] if snapshots else None,
         "interval_days_distribution": dict(Counter(intervals)),
-        "schema_variant_count": len(variants),
-        "schema_variant_counts": dict(variants),
-        "workbooks": results,
+        "schema_variant_count": len(schema_defs),
+        "schema_definitions": schema_defs,
+        "snapshots": snapshots,
         "limitations": [
-            "The survey is a separate prefecture-level weekly series, not the facility-level G-MIS series.",
-            "Header/schema changes across dates require separate variable crosswalks; no automatic concatenation was performed.",
-            "No missing-value imputation, occupancy-rate calculation, or analysis dataset update was performed.",
-            "The public page lists earlier 2020 materials in PDF form; this acquisition covers only the Excel files linked on the page."
+            "This is a prefecture-level weekly survey, separate from facility-level G-MIS snapshots.",
+            "Schema changes require date-specific variable crosswalks; no automatic concatenation was performed.",
+            "No imputation, occupancy-rate calculation, or analytical dataset update was performed.",
+            "The MHLW page contains earlier PDF-only reports; this acquisition covers the Excel links exposed on the page."
         ]
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -142,13 +160,9 @@ def main():
         "audited": audit["audited_workbooks"],
         "date_range": audit["snapshot_date_range"],
         "interval_days": audit["interval_days_distribution"],
-        "schema_variants": audit["schema_variant_counts"],
-        "snapshots": [{
-            "date": x["snapshot_date"], "rows": x.get("data_row_count"),
-            "unique_prefectures": x.get("unique_prefecture_names"),
-            "national_total": x.get("contains_national_total"),
-            "header": x.get("header_labels_by_column"),
-        } for x in results]
+        "schema_definitions": audit["schema_definitions"],
+        "coverage_anomalies": [x for x in snapshots if x.get("missing_prefecture_names")],
+        "snapshots": [{k:x.get(k) for k in ("snapshot_date","data_row_count","unique_prefecture_names","contains_national_total","title_month_day","schema_id")} for x in snapshots]
     }, ensure_ascii=False, indent=2))
 
 if __name__ == "__main__":
