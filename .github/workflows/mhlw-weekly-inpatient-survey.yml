@@ -40,5 +40,6 @@ jobs:
             echo "No new files to commit."
           else
             git commit -m "Acquire official MHLW weekly inpatient survey Excel files"
+            git pull --rebase origin main
             git push
           fi
