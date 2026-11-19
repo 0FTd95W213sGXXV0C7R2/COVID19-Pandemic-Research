@@ -1,0 +1,1 @@
+Enumerate and download every G-MIS bed CSV linked from the official MHLW archive and current publication pages.
