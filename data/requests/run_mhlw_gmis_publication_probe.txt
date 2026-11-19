@@ -1,1 +1,1 @@
-Run the bounded official MHLW G-MIS CSV source probe; include first 30 nonempty rows and candidate headers.
+Acquire official MHLW G-MIS CSVs and run snapshot structure audit.
