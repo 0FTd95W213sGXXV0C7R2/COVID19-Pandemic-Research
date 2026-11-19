@@ -1,6 +1,6 @@
 {
   "status": "SOURCE_HEADER_AND_CELL_QUALITY_AUDIT",
-  "audit_timestamp_jst": "2026-11-19T13:54:09.931289+09:00",
+  "audit_timestamp_jst": "2026-11-19T13:56:18.130797+09:00",
   "source_sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
   "source_bytes": 286999,
   "sheet_summaries": [
@@ -12,7 +12,7 @@
       "first_expected_week": "2020-03-30",
       "last_expected_week": "2025-03-24",
       "last_expected_week_end": "2025-03-30",
-      "unparsed_headers": 1,
+      "unparsed_headers": 0,
       "start_label_mismatches": 0,
       "end_label_mismatches": 1,
       "year_label_cells": [
@@ -264,11 +264,11 @@
     }
   },
   "subgroup_partition_reconciliation": {
-    "common_week_count": 156,
-    "common_week_first": "2021-04-05",
+    "common_week_count": 157,
+    "common_week_first": "2021-03-29",
     "common_week_last": "2024-03-25",
-    "numeric_triplets": 8111,
-    "exact_partition_matches": 8111,
+    "numeric_triplets": 8163,
+    "exact_partition_matches": 8163,
     "incomplete_triplets": 1,
     "mismatch_or_incomplete_rows": 1
   },

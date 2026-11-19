@@ -9,8 +9,8 @@
     "content_length_header": "286999",
     "downloaded_bytes": 286999,
     "sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
-    "acquired_at_utc": "2026-11-19T04:54:07.125370+00:00",
-    "acquired_at_jst": "2026-11-19T13:54:07.125370+09:00",
+    "acquired_at_utc": "2026-11-19T04:56:15.400796+00:00",
+    "acquired_at_jst": "2026-11-19T13:56:15.400796+09:00",
     "filename": "coronavirus_data.xlsx",
     "acquisition_method": "Direct HTTPS download from link discovered on the official FDMA page"
   },
