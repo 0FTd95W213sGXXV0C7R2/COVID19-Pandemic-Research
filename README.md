@@ -24,6 +24,8 @@
 
 ## Data Policy
 
+- **All subsequent data collection must be rebuilt from original sources.** Existing processed datasets and historical extracts are reference/audit material only, not inputs to new canonical datasets, unless the user explicitly approves an exception. See [DATA_COLLECTION_REBUILD_POLICY.md](docs/DATA_COLLECTION_REBUILD_POLICY.md).
+
 原データおよび保護対象MASTERは、利用条件と保全条件を確認するまで登録しない。GitHubには原則としてコード、文書、メタデータを保存する。
 
 ## Research Records
