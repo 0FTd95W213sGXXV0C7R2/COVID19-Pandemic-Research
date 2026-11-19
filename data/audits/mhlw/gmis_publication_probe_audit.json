@@ -1,6 +1,6 @@
 {
-  "created_at_utc": "2026-11-19T05:55:23.828669+00:00",
-  "created_at_jst": "2026-11-19T14:55:23.828669+09:00",
+  "created_at_utc": "2026-11-19T05:56:08.668293+00:00",
+  "created_at_jst": "2026-11-19T14:56:08.668293+09:00",
   "status": "PRELIMINARY_SNAPSHOT_STRUCTURE_AUDIT",
   "interpretation": "Two separate cross-sectional publication snapshots; not a continuous time series by themselves.",
   "facility_code_overlap": {
@@ -36,10 +36,101 @@
       "data_record_count": 2301,
       "unique_nonblank_medical_institution_codes": 2301,
       "blank_medical_institution_codes": 0,
-      "duplicate_medical_institution_code_rows": 0,
-      "observation_dates": [
+      "duplicate_medical_institution_code_count": 0,
+      "duplicate_medical_institution_code_excess_rows": 0,
+      "observation_dates_raw": [
         "2022/1/5",
         "44566"
+      ],
+      "observation_date_raw_value_counts": {
+        "2022/1/5": 2287,
+        "44566": 14
+      },
+      "nonstandard_date_value_rows": [
+        {
+          "line": 2309,
+          "medical_institution_code": "4711110660",
+          "medical_institution_name": "友愛医療センター",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2310,
+          "medical_institution_code": "4718110135",
+          "medical_institution_name": "沖縄県立精和病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2311,
+          "medical_institution_code": "4710117401",
+          "medical_institution_name": "医療法人おもと会　大浜第一病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2312,
+          "medical_institution_code": "4710117310",
+          "medical_institution_name": "沖縄協同病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2313,
+          "medical_institution_code": "4718010095",
+          "medical_institution_name": "琉球大学病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2314,
+          "medical_institution_code": "4710810245",
+          "medical_institution_name": "社会医療法人仁愛会　浦添総合病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2315,
+          "medical_institution_code": "4712311846",
+          "medical_institution_name": "医療法人　沖縄徳洲会　南部徳洲会病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2316,
+          "medical_institution_code": "4712310673",
+          "medical_institution_name": "医療法人信和会　沖縄第一病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2317,
+          "medical_institution_code": "4718110184",
+          "medical_institution_name": "沖縄赤十字病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2318,
+          "medical_institution_code": "4718110168",
+          "medical_institution_name": "公立久米島病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2319,
+          "medical_institution_code": "4710610918",
+          "medical_institution_name": "宮古島徳洲会病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2320,
+          "medical_institution_code": "4718110192",
+          "medical_institution_name": "沖縄県立宮古病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2321,
+          "medical_institution_code": "4710710650",
+          "medical_institution_name": "石垣島徳洲会病院",
+          "raw_date_value": "44566"
+        },
+        {
+          "line": 2322,
+          "medical_institution_code": "4718110200",
+          "medical_institution_name": "沖縄県立八重山病院",
+          "raw_date_value": "44566"
+        }
       ],
       "report_status_counts": {
         "報告済み": 2285,
@@ -111,10 +202,15 @@
       "data_record_count": 2214,
       "unique_nonblank_medical_institution_codes": 2214,
       "blank_medical_institution_codes": 0,
-      "duplicate_medical_institution_code_rows": 0,
-      "observation_dates": [
+      "duplicate_medical_institution_code_count": 0,
+      "duplicate_medical_institution_code_excess_rows": 0,
+      "observation_dates_raw": [
         "2024/3/6"
       ],
+      "observation_date_raw_value_counts": {
+        "2024/3/6": 2214
+      },
+      "nonstandard_date_value_rows": [],
       "report_status_counts": {
         "報告済み": 2171,
         "未報告": 43
