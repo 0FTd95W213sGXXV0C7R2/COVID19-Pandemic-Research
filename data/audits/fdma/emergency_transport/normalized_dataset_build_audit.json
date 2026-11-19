@@ -1,6 +1,6 @@
 {
   "status": "PASS_WITH_EXPLICIT_SOURCE_ISSUES",
-  "created_at_jst": "2026-11-19T14:00:37.353157+09:00",
+  "created_at_jst": "2026-11-19T14:04:31.033359+09:00",
   "source_sha256": "bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101",
   "normalized_rows": 44308,
   "week_counts_by_sheet": {
@@ -45,6 +45,52 @@
       "printed_end": "2024-04-08",
       "expected_end": "2024-04-07",
       "raw_header": "4/1(月)～\n4/8(日)分\n【4月第1週】"
+    }
+  ],
+  "pre_formal_survey_weeks_with_source_values": [
+    {
+      "week_index": 1,
+      "period_start_date": "2020-03-30",
+      "period_end_date_expected": "2020-04-05",
+      "raw_week_header": "3/30(月)～4/5(日)分\n【4月第1週】",
+      "detail_numeric_cells": 52,
+      "detail_blank_cells": 0,
+      "detail_sum": 1395,
+      "cached_total": 1395,
+      "sum_matches_cached_total": true
+    },
+    {
+      "week_index": 2,
+      "period_start_date": "2020-04-06",
+      "period_end_date_expected": "2020-04-12",
+      "raw_week_header": "4/6(月)～4/12(日)分\n【4月第2週】",
+      "detail_numeric_cells": 52,
+      "detail_blank_cells": 0,
+      "detail_sum": 1780,
+      "cached_total": 1780,
+      "sum_matches_cached_total": true
+    },
+    {
+      "week_index": 3,
+      "period_start_date": "2020-04-13",
+      "period_end_date_expected": "2020-04-19",
+      "raw_week_header": "4/13(月)～4/19(日)分\n【4月第3週】",
+      "detail_numeric_cells": 52,
+      "detail_blank_cells": 0,
+      "detail_sum": 1739,
+      "cached_total": 1739,
+      "sum_matches_cached_total": true
+    },
+    {
+      "week_index": 4,
+      "period_start_date": "2020-04-20",
+      "period_end_date_expected": "2020-04-26",
+      "raw_week_header": "4/20(月)～4/26(日)分\n【4月第4週】",
+      "detail_numeric_cells": 52,
+      "detail_blank_cells": 0,
+      "detail_sum": 1658,
+      "cached_total": 1658,
+      "sum_matches_cached_total": true
     }
   ],
   "zero_imputation": false,
