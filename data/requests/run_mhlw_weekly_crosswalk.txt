@@ -3,3 +3,5 @@ Build date-specific MHLW weekly survey variable crosswalk candidates.
 Rerun compact crosswalk output.
 
 Rerun normalized header crosswalk.
+
+Rerun with numeric profiles and severity-specific capacity groups.
