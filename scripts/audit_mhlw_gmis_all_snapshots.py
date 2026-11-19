@@ -13,7 +13,7 @@ OUT = ROOT / "data/audits/mhlw/gmis_all_snapshots_audit.json"
 
 def parse_date(value):
     s = str(value or "").strip()
-    m = re.fullmatch(r"(\\d{4})/(\\d{1,2})/(\\d{1,2})", s)
+    m = re.fullmatch(r"(\d{4})/(\d{1,2})/(\d{1,2})", s)
     if m:
         y, mo, d = map(int, m.groups())
         return datetime(y, mo, d).date().isoformat()
@@ -26,7 +26,7 @@ def parse_date(value):
 
 def parse_int(value):
     s = str(value or "").strip().replace(",", "")
-    return int(s) if re.fullmatch(r"-?\\d+", s) else None
+    return int(s) if re.fullmatch(r"-?\d+", s) else None
 
 def decode_csv(data):
     for enc in ("utf-8-sig", "cp932", "shift_jis"):
@@ -42,7 +42,7 @@ def find_header(rows):
         if ({"医療機関コード", "実績日", "確保病床数"}.issubset(cells)
             and any(x in cells for x in ("即応病床数", "即応病床"))
             and any(x in cells for x in ("入院中患者数", "入院中"))):
-            return i, [str(x).strip() for x in row]
+            header = [str(x).strip() for x in row]\n            while header and not header[-1]:\n                header.pop()\n            return i, header
     return None, None
 
 def inspect(item):
