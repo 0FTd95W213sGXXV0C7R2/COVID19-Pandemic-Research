@@ -1,1 +1,1 @@
-Re-acquire all weekly MHLW Excel workbooks and run the structural/schema audit for all 171 snapshots.
+Re-run the complete official MHLW weekly inpatient survey Excel acquisition and structural audit. Preserve existing raw files; verify hashes and do not merge into analysis data.
