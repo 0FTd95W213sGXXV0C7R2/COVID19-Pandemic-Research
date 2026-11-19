@@ -34,10 +34,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/raw/mhlw/gmis_publication_probe data/metadata/mhlw/gmis_publication_probe_manifest.json
+          git add -f data/raw/mhlw/gmis_publication_probe
+          git add data/metadata/mhlw/gmis_publication_probe_manifest.json
           if git diff --cached --quiet; then
             echo "No probe outputs to commit."
           else
-            git commit -m "Probe official MHLW G-MIS public CSV sources"
+            git commit -m "Acquire official MHLW G-MIS public CSV probe files"
             git push
           fi
