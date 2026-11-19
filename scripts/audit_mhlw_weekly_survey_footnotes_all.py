@@ -77,7 +77,7 @@ def main():
                           "The dash symbol is retained verbatim; meanings are not inferred unless explicitly stated in that snapshot's notes.",
                           "No national aggregation, occupancy calculation, imputation, schema concatenation, or analytical dataset update was performed."]}
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"created_at_jst": out["created_at_jst"], "summary": summary,
                       "date_range": [min(dates), max(dates)] if dates else None,
                       "statuses": {k: sum(r.get("status") == k for r in results) for k in sorted({r.get("status") for r in results})}},
