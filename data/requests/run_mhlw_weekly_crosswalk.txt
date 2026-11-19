@@ -1,3 +1,5 @@
 Build date-specific MHLW weekly survey variable crosswalk candidates.
 
 Rerun compact crosswalk output.
+
+Rerun normalized header crosswalk.
