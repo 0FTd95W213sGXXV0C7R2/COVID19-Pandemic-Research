@@ -87,3 +87,23 @@
 5. 各問題に対し、比較可能な背景指標・政策イベントを割り当てる。
 
 研究上の相関・因果は、この取得監査と分析の後にのみ結論づける。
+
+
+## 6. 消防庁・救急搬送困難事案データの原本再構築（2026-11-19）
+
+- 状態：公式Excelからの新規取得・正規化・基本監査が完了。研究上の最終採用は未確定。
+- 対応する倫理領域：非COVID患者の医療アクセス（背景・状況指標）。この指標だけで患者個人の受療権侵害や治療拒否を示すものではない。
+- 公式原本： https://www.fdma.go.jp/disaster/coronavirus/items/coronavirus_data.xlsx
+- 原本SHA-256：`bc586c494b32dd83c8d79c1ffd736e828ca208c93a7932667c5a606e1a6a4101`
+- 正規化データ：`data/processed/fdma/emergency_transport/weekly_long.csv`（44,308行、消防本部別43,472行、52本部合計836行）
+- 4シートの週数：261 / 261 / 157 / 157。52消防本部の名称・順序は4シート間で一致。前年同期の週開始日は対応する今回系列から364日差。
+- 合計監査：836列で原本のキャッシュ済み合計と数値セル合計が一致。COVID疑い＋非COVID疑いは数値がそろう8,163組で全体値と一致。
+- 原本問題：2022-03-07週の秋田市消防本部・全体値は空欄（内訳は双方0）。2024-04-01週の全体シート見出しは終了日が4/8と印字されるが、7日間の週次連続性から期待される4/7とは不一致。いずれも自動補正していない。
+- 原本空欄と明示的ゼロは区別し、補間・日次化は行っていない。調査対象は52消防本部であり全国全消防本部の悉皆データではない。
+- 監査報告：`data/audits/fdma/emergency_transport/normalized_dataset_build_audit.json`
+- データ辞書：`docs/data_dictionary/FDMA_EMERGENCY_TRANSPORT_WEEKLY.md`
+- 生成スクリプト：`scripts/build_fdma_weekly_long.py`
+- Actions実行：https://github.com/0FTd95W213sGXXV0C7R2/COVID19-Pandemic-Research/actions/runs/44462132438
+- CSV SHA-256：`92fb34d8f4c48efffed619e25be1d2fdfb154ed3ff7675f40ae939682200e574`
+
+このデータは週次の背景指標として扱い、患者個票や受療実績の代替にはしない。次段階では、原本の調査定義・対象消防本部・報告方式変更（特に2024-04-08のCOVID疑い内数調査終了）を期間別に照合し、分析に使用可能な範囲を限定する。
