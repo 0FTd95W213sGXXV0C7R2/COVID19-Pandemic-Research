@@ -1,1 +1,1 @@
-Enumerate and download every G-MIS bed CSV linked from the official MHLW archive and current publication pages.
+Re-acquire every official MHLW G-MIS bed CSV and run full schema/coverage/date audit, including earliest header variants.
