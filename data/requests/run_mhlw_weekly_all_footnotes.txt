@@ -1,3 +1,5 @@
 Run all-snapshot MHLW weekly survey footnote audit.
 
 Rerun with corrected regex escaping and Japanese whitespace normalization.
+
+Run dash-cell context extraction after footnote extraction; preserve all dash values without semantic imputation.
