@@ -9,10 +9,11 @@ from openpyxl import load_workbook
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data/metadata/mhlw/weekly_inpatient_survey_manifest.json"
 OUT = ROOT / "data/audits/mhlw/weekly_inpatient_survey_footnotes_all.json"
-PATTERN = re.compile(r"注\\s*\\d*|※|備考|「－」|\\b－\\b|未報告|調整中|対象外|含まない|含む|割合|定義|修正")
+# Match Japanese footnote markers, dash-related explanations, and definition terms.
+PATTERN = re.compile(r"注\s*\d*|※|備考|「－」|\b－\b|未報告|調整中|対象外|含まない|含む|割合|定義|修正")
 
 def norm(value):
-    return re.sub(r"\\s+", " ", str(value)).strip()
+    return re.sub(r"\s+", " ", str(value)).strip()
 
 def main():
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
