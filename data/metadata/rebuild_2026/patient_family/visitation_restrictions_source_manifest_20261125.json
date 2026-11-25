@@ -121,6 +121,60 @@
       },
       "accessed_at_jst": "2026-11-25T20:17:00+09:00",
       "reference_registry_id": "MATSUMOTO_2022"
+    },
+    {
+      "source_id": "ISHIHARA_2024",
+      "title": "COVID-19の治療に関するインフォームド・コンセントにおける倫理的課題についての実態調査",
+      "title_english": "A survey on the ethical issues in informed consent for the treatment of COVID-19",
+      "authors": [
+        "石原 恵依子",
+        "甲畑 宏子",
+        "小峯 真理子",
+        "荒井 裕国",
+        "長岡 英気",
+        "宮﨑 泰成",
+        "大友 康裕",
+        "鵜川 豊世武",
+        "増田 孝広",
+        "神里 彩子",
+        "吉田 雅幸"
+      ],
+      "journal": "生命倫理",
+      "volume_issue_pages": "34(1):21-32",
+      "year": 2024,
+      "publication_date": "2024-09-30",
+      "jstage_publication_date": "2025-08-20",
+      "doi": "10.20593/jabedit.34.1_21",
+      "publisher_landing_page": "https://www.jstage.jst.go.jp/article/jabedit/34/1/34_05/_article/-char/ja",
+      "publisher_pdf": "https://www.jstage.jst.go.jp/article/jabedit/34/1/34_05/_pdf/-char/ja",
+      "study_period": "E1: 2020-12 to 2021-03; E2/E4: 2021-12 to 2022-08 (as described in article)",
+      "design": "Questionnaire survey and telephone semi-structured interviews",
+      "population": "Patients admitted to Tokyo Medical and Dental University Hospital for COVID-19 moderate II or severe respiratory failure during selected emergency-declaration periods and family members who received treatment explanations",
+      "questionnaire_responses": {
+        "patients": 72,
+        "family_members": 53,
+        "total": 125
+      },
+      "interviews": {
+        "patients": 6,
+        "family_members": 4
+      },
+      "abstract_findings": "Approximately 90% of patients and family members reported understanding treatment explanations; 51.1% of patients (23/45) reported not expressing or being unable to express treatment preferences, or not remembering/knowing; ACP awareness was low.",
+      "supplementary_materials": {
+        "listed_count": 0,
+        "status": "NO_SUPPLEMENTARY_MATERIALS_LISTED_ON_J-STAGE_RECORD"
+      },
+      "source_sha256": null,
+      "source_sha256_note": "Publisher PDF inspected via web viewer; not stored in GitHub and no hash is claimed.",
+      "accessed_at_jst": "2026-11-25T20:21:10+09:00",
+      "reference_registry_id": "ISHIHARA_2024",
+      "candidate_status": "CANDIDATE_FOR_PATIENT_FAMILY_AUTONOMY_AND_DECISION_SUPPORT; NOT_YET_ADOPTED",
+      "limitations": [
+        "Single-hospital sample",
+        "Patients with survival discharge were included; scope does not represent all COVID-19 inpatients",
+        "Not narrowly a visitation-restriction study",
+        "Full methods/results extraction and quality audit remain pending"
+      ]
     }
   ],
   "extraction_file": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
@@ -131,9 +185,10 @@
     "The Shiraishi study excluded patients with altered consciousness and severe depressive symptoms and used a non-randomized small sample.",
     "Matsumoto et al. used purposive/network recruitment of experienced specialists; categories do not estimate prevalence.",
     "The extracted intervention ideas are reported practices or qualitative suggestions, not demonstrated causal effects.",
-    "Shiraishi et al. supplementary material existence (five items) and body references (Appendix Figures 1-2, Tables 1-3) were reconfirmed on 2026-11-25; individual file names/URLs/content remain unresolved."
+    "Shiraishi et al. supplementary material existence (five items) and body references (Appendix Figures 1-2, Tables 1-3) were reconfirmed on 2026-11-25; individual file names/URLs/content remain unresolved.",
+    "ISHIHARA_2024 was added as a candidate source for informed consent, substituted decision-making and ACP; it is not a direct visitation-restriction study and has not yet passed full extraction or quality audit."
   ],
-  "accessed_at_jst": "2026-11-25T20:20:07+09:00",
+  "accessed_at_jst": "2026-11-25T20:21:10+09:00",
   "reference_registry": "data/metadata/rebuild_2026/patient_family/reference_registry_20261125.csv",
   "reference_recording_policy": "All bibliographic references, including candidates considered, must have complete title, all authors in published order, publication metadata, identifiers, official landing page URL, full-text/PDF/supplement URLs, access timestamp JST, source type, verification state, and unresolved items in the central GitHub reference registry."
 }
