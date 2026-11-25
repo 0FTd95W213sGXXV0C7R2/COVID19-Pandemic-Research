@@ -350,44 +350,6 @@
       }
     },
     {
-      "source_id": "TATENO_2022",
-      "title": "救急・集中治療領域におけるCOVID-19患者の終末期及び死亡宣告時の家族面会の実態と看護師・感染管理者の意識調査",
-      "title_english": null,
-      "authors": [
-        "立野 淳子",
-        "山本 小奈実",
-        "山勢 博彰",
-        "藤本 理恵",
-        "大野 美香",
-        "岡林 志穂",
-        "小島 朗",
-        "芝田 里花",
-        "中谷 美紀子",
-        "福島 綾子",
-        "山勢 善江"
-      ],
-      "journal": "日本クリティカルケア看護学会誌",
-      "volume_issue_pages": "18/0/81-91",
-      "year": 2022,
-      "doi": "10.11153/jaccn.18.0_81",
-      "publisher_landing_page": "https://www.jstage.jst.go.jp/article/jaccn/18/0/18_81/_article/-char/ja",
-      "full_text_html": null,
-      "publisher_pdf": "https://www.jstage.jst.go.jp/article/jaccn/18/0/18_81/_pdf/-char/ja",
-      "publication_date": "2022-03-31; J-STAGE 2022-12-22",
-      "design": "Web survey of emergency/critical care nurses and infection-control nurses, June-July 2021",
-      "study_population_or_scope": "Facility-practice and professional-attitude context, not direct family/patient responses. 181 emergency/critical-care nurses and 94 infection-control nurses; 24 facilities (29.3%) reported end-of-life family visits and 20 (29.9%) family presence at death notification; 80-90% of respondents thought family visits/presence should be allowed. Metadata and abstract verified; PDF link identified but full-text PDF retrieval failed in current browser.",
-      "accessed_at_jst": "2026-11-25 JST (exact time not available; do not infer)",
-      "source_status": "METADATA_AND_ABSTRACT_VERIFIED; PDF_RETRIEVAL_FAILED",
-      "gate_status": {
-        "G0": "PASS_CANDIDATE",
-        "G1": "PASS_METADATA",
-        "G2": "PARTIAL_OR_PENDING",
-        "G3": "PENDING",
-        "G4": "PENDING",
-        "G5": "PENDING"
-      }
-    },
-    {
       "source_id": "NISHIGUCHI_2024",
       "title": "新型コロナウイルス感染症患者へのEnd of Life Careにおける看護師の思いと実践",
       "title_english": "Thoughts and Practices of Nurses Providing End-of-Life Care to Patients with COVID-19",
@@ -462,6 +424,62 @@
         "G4": "PENDING",
         "G5": "PENDING"
       }
+    },
+    {
+      "source_id": "TATENO_2022",
+      "title": "救急・集中治療領域におけるCOVID-19患者の終末期及び死亡宣告時の家族面会の実態と看護師・感染管理者の意識調査",
+      "title_english": "A Survey on family visits, and perceptions of nurses and infection managers during COVID-19 patients’ end-of-life time and dying in emergency and intensive care settings",
+      "authors": [
+        "立野淳子",
+        "山本小奈実",
+        "山勢博彰",
+        "藤本理恵",
+        "大野美香",
+        "岡林志穂",
+        "小島朗",
+        "芝田里花",
+        "中谷美紀子",
+        "福島綾子",
+        "山勢善江"
+      ],
+      "journal": "日本クリティカルケア看護学会誌",
+      "volume_issue_pages": "18:81-91",
+      "year": 2022,
+      "doi": "10.11153/jaccn.18.0_81",
+      "publisher_landing_page": "https://www.jstage.jst.go.jp/article/jaccn/18/0/18_81/_article/-char/ja",
+      "publisher_pdf": "https://www.jstage.jst.go.jp/article/jaccn/18/0/18_81/_pdf",
+      "supplementary_materials": 0,
+      "study_design": "Cross-sectional web questionnaire survey",
+      "data_collection_period": "2021-06-25 to 2021-07-30",
+      "respondents": {
+        "emergency_critical_care_nurses": 181,
+        "valid_emergency_critical_care_nurses": 180,
+        "infection_control_nurses": 94,
+        "facilities_after_deduplication": 109
+      },
+      "extraction_status": "FULL_TEXT_EXTRACTION_COMPLETE",
+      "extraction_csv": "data/processed/rebuild_2026/patient_family/tateno_2022_end_of_life_family_visitation_evidence_extract_20261125.csv",
+      "extraction_report": "docs/audits/rebuild_2026/TATENO_2022_FULLTEXT_EXTRACTION_20261125.md",
+      "rows": 44,
+      "columns": 15,
+      "quality_gates": {
+        "G0": "PASS",
+        "G1": "PASS",
+        "G2": "PARTIAL - full publisher PDF inspected; not copied to public GitHub",
+        "G3": "PASS",
+        "G4": "PARTIAL - key denominators extracted; independent second extraction pending; abstract/body discrepancy logged",
+        "G5": "PENDING - supporting facility-practice/professional-attitude evidence"
+      },
+      "limitations": [
+        "Not a patient/family direct survey",
+        "109 facilities after deduplication for facility-practice analysis",
+        "Non-members and non-designated infection hospitals not included",
+        "Item-specific denominators differ",
+        "No measured infection outcomes or bereavement outcomes",
+        "Abstract/body inconsistency for family visitation implementation rate; body Fig 1 and conclusion use 40/109 (36.7%), abstract's 24/29.3 aligns with window-visit method item"
+      ],
+      "accessed_at_jst": "2026-11-25T23:35:00+09:00",
+      "copyright_policy": "Publisher PDF not copied to public GitHub; structured findings, paraphrased free-text themes, metadata and audit only."
     }
   ],
   "extraction_file": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
@@ -477,7 +495,7 @@
     "Ishihara et al. 2024 full-text first-pass extraction completed on 2026-11-25 20:23 JST; item-specific denominators and retrospective recall limitations recorded; G4/G5 pending.",
     "The combined 125/148 row was removed because it was a derived pooled response rate across distinct respondent classes, not a rate reported by the study. A tautological 45/45 explanation row was also removed. Main outcome denominators were checked against the publisher PDF."
   ],
-  "accessed_at_jst": "2026-11-25T22:52:00+09:00",
+  "accessed_at_jst": "2026-11-25T23:35:00+09:00",
   "reference_registry": "data/metadata/rebuild_2026/patient_family/reference_registry_20261125.csv",
   "reference_recording_policy": "All bibliographic references, including candidates considered, must have complete title, all authors in published order, publication metadata, identifiers, official landing page URL, full-text/PDF/supplement URLs, access timestamp JST, source type, verification state, and unresolved items in the central GitHub reference registry.",
   "extraction_audit": {
@@ -514,6 +532,13 @@
     "rows": 51,
     "columns": 15,
     "created_at_jst": "2026-11-25T22:52:00+09:00",
+    "status": "FULL_TEXT_EXTRACTION_COMPLETE_QUALITY_AUDIT_PARTIAL"
+  },
+  "tateno_2022_dataset": {
+    "csv": "data/processed/rebuild_2026/patient_family/tateno_2022_end_of_life_family_visitation_evidence_extract_20261125.csv",
+    "report": "docs/audits/rebuild_2026/TATENO_2022_FULLTEXT_EXTRACTION_20261125.md",
+    "rows": 44,
+    "columns": 15,
     "status": "FULL_TEXT_EXTRACTION_COMPLETE_QUALITY_AUDIT_PARTIAL"
   }
 }
