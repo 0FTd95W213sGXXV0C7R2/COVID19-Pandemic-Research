@@ -395,56 +395,6 @@
       "copyright_policy": "Do not copy publisher PDF or interview transcripts into public GitHub; store structured paraphrased findings, bibliographic metadata, source URLs and audit records only."
     },
     {
-      "source_id": "SHIMOMURA_2026",
-      "title": "高度救命救急センターICUにおける新型コロナウイルス感染症蔓延予防のための面会制限下に関するオンライン面会時の家族の思い",
-      "title_english": null,
-      "authors": [
-        "下村 祐哉",
-        "柴崎 有美",
-        "岩間 朋子",
-        "林 ゑり子"
-      ],
-      "journal": "日本看護管理学会誌",
-      "volume_issue_pages": "30/1/85-95",
-      "year": 2026,
-      "doi": "10.19012/janap.30.1_85",
-      "publisher_landing_page": "https://www.jstage.jst.go.jp/article/janap/30/1/30_85/_article/-char/ja",
-      "full_text_html": null,
-      "publisher_pdf": "J-STAGE article page lists PDF (706K); direct PDF URL not resolved in this retrieval",
-      "publication_date": "2026; J-STAGE 2026-08-19",
-      "design": "Qualitative descriptive study; semi-structured interviews with 5 family members who used online visits between 2020-09 and 2021-06",
-      "study_population_or_scope": "Direct family-perspective candidate. Abstract reports reassurance when seeing patient response and speaking/touching through screen, but also disappointment when interaction failed and unequal experience associated with digital literacy/age. Official metadata/abstract only; full text not yet inspected.",
-      "accessed_at_jst": "2026-11-25 JST (exact time not available; do not infer)",
-      "source_status": "PUBLISHER_METADATA_AND_ABSTRACT_ONLY; FULL_TEXT_PENDING",
-      "gate_status": {
-        "G0": "PASS_CANDIDATE",
-        "G1": "PASS_METADATA",
-        "G2": "PARTIAL_OR_PENDING",
-        "G3": "PENDING",
-        "G4": "PENDING",
-        "G5": "PENDING"
-      },
-      "full_text_retrieval_attempts": [
-        {
-          "date_jst": "2026-11-25",
-          "source": "J-STAGE article landing page",
-          "result": "Cache miss in available retrieval; metadata and abstract remain accessible."
-        },
-        {
-          "date_jst": "2026-11-25",
-          "source": "J-STAGE publisher PDF URL pattern /_pdf/-char/ja",
-          "result": "Cache miss in available retrieval."
-        },
-        {
-          "date_jst": "2026-11-25",
-          "source": "J-STAGE publisher PDF URL pattern /_pdf",
-          "result": "Not accessible via available retrieval."
-        }
-      ],
-      "extraction_status": "ABSTRACT_ONLY_FULL_TEXT_RETRIEVAL_BLOCKED",
-      "note": "Do not treat abstract as full-text extraction. Official metadata and abstract verified; publisher lists 706K PDF but full text could not be retrieved by current browser retrieval. No extraction CSV created."
-    },
-    {
       "source_id": "TATENO_2022",
       "title": "救急・集中治療領域におけるCOVID-19患者の終末期及び死亡宣告時の家族面会の実態と看護師・感染管理者の意識調査",
       "title_english": "A Survey on family visits, and perceptions of nurses and infection managers during COVID-19 patients’ end-of-life time and dying in emergency and intensive care settings",
