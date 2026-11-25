@@ -234,7 +234,11 @@
           "Provide families with regular updates on patient condition",
           "Provide accurate public information about invasive treatments and standard treatment pathways",
           "Promote ACP through hospital posters and leaflets and public online programs"
-        ]
+        ],
+        "extraction_rows": 32,
+        "extraction_file": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
+        "last_extracted_at_jst": "2026-11-25T20:23:01+09:00",
+        "csv_schema_validation": "PASS: 32 rows, 15 columns each"
       },
       "gate_status": {
         "G0": "PASS",
@@ -260,5 +264,17 @@
   ],
   "accessed_at_jst": "2026-11-25T20:23:01+09:00",
   "reference_registry": "data/metadata/rebuild_2026/patient_family/reference_registry_20261125.csv",
-  "reference_recording_policy": "All bibliographic references, including candidates considered, must have complete title, all authors in published order, publication metadata, identifiers, official landing page URL, full-text/PDF/supplement URLs, access timestamp JST, source type, verification state, and unresolved items in the central GitHub reference registry."
+  "reference_recording_policy": "All bibliographic references, including candidates considered, must have complete title, all authors in published order, publication metadata, identifiers, official landing page URL, full-text/PDF/supplement URLs, access timestamp JST, source type, verification state, and unresolved items in the central GitHub reference registry.",
+  "extraction_audit": {
+    "last_checked_at_jst": "2026-11-25T20:23:01+09:00",
+    "total_data_rows": 70,
+    "rows_by_source": {
+      "SHIRAISHI_2022": 19,
+      "MATSUMOTO_2022": 19,
+      "ISHIHARA_2024": 32
+    },
+    "expected_columns": 15,
+    "all_rows_have_expected_column_count": true,
+    "method": "CSV parsed with quote-aware field handling; all 70 data rows were confirmed to contain 15 fields."
+  }
 }
