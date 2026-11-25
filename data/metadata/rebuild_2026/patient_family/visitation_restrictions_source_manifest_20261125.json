@@ -2,7 +2,7 @@
   "created_at_jst": "2026-11-25T20:07:00+09:00",
   "dataset_id": "patient_family_visitation_restrictions_20261125",
   "scope": "Direct evidence on patient/family autonomy, dignity, communication and visitation restrictions during COVID-19 in Japan",
-  "status": "INITIAL_EXTRACTION_COMPLETE_AUDIT_PENDING",
+  "status": "MULTI_SOURCE_EXTRACTION_IN_PROGRESS_AUDIT_PENDING",
   "raw_source_storage_policy": "Publisher-hosted full text/PDFs were inspected. Copyrighted article files were not copied into the public GitHub repository. The original publisher URLs and exact bibliographic identifiers are retained for traceability.",
   "sources": [
     {
@@ -451,6 +451,51 @@
         "G4": "PENDING",
         "G5": "PENDING"
       }
+    },
+    {
+      "source_id": "NISHIGUCHI_2024",
+      "title": "新型コロナウイルス感染症患者へのEnd of Life Careにおける看護師の思いと実践",
+      "title_english": "Thoughts and Practices of Nurses Providing End-of-Life Care to Patients with COVID-19",
+      "authors": [
+        "西口悦子",
+        "青盛真紀",
+        "林ゑり子",
+        "落合亮太",
+        "勝倉恵津子",
+        "髙橋和彦",
+        "玉井奈緒"
+      ],
+      "journal": "日本看護科学会誌",
+      "volume_issue_pages": "44:1170-1180",
+      "year": 2024,
+      "doi": "10.5630/jans.44.1170",
+      "publisher_landing_page": "https://www.jstage.jst.go.jp/article/jans/44/0/44_441170/_article/-char/ja/",
+      "publisher_full_text_html": "https://www.jstage.jst.go.jp/article/jans/44/0/44_441170/_html/-char/ja",
+      "publisher_pdf": "https://www.jstage.jst.go.jp/article/jans/44/0/44_441170/_pdf/-char/ja",
+      "study_design": "Single-center qualitative descriptive study; semi-structured interviews with 10 nurses experienced in COVID-19 end-of-life care",
+      "population": "10 nurses at one advanced medical hospital; 5 COVID-19 ward, 4 ICU, 1 emergency ward",
+      "data_collection_period": "2023-01 to 2023-08",
+      "analysis": "355 codes, 32 subcategories, 12 categories; saturation judged at 10 participants",
+      "extraction_status": "FULL_TEXT_EXTRACTION_COMPLETE",
+      "extraction_csv": "data/processed/rebuild_2026/healthcare_workers/eolc_nursing_experience_evidence_extract_20261125.csv",
+      "extraction_report": "docs/audits/rebuild_2026/NISHIGUCHI_2024_FULLTEXT_EXTRACTION_20261125.md",
+      "quality_gates": {
+        "G0": "PASS",
+        "G1": "PASS",
+        "G2": "PARTIAL - publisher full text inspected; PDF not copied to public repository",
+        "G3": "PASS",
+        "G4": "PARTIAL - no independent second extraction or transcript-level audit",
+        "G5": "PENDING - supporting qualitative evidence candidate"
+      },
+      "limitations": [
+        "Single-center study; not representative",
+        "Retrospective accounts of 2020-2022 cases; recall bias possible",
+        "Nurse perspective; no direct patient/family respondent data",
+        "No category/subcategory frequencies; do not infer prevalence",
+        "Reported practices and recommendations were not tested for intervention effectiveness"
+      ],
+      "accessed_at_jst": "2026-11-25T22:52:00+09:00",
+      "copyright_policy": "Do not copy publisher PDF or interview transcripts into public GitHub; store structured paraphrased findings, bibliographic metadata, source URLs and audit records only."
     }
   ],
   "extraction_file": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
@@ -466,7 +511,7 @@
     "Ishihara et al. 2024 full-text first-pass extraction completed on 2026-11-25 20:23 JST; item-specific denominators and retrospective recall limitations recorded; G4/G5 pending.",
     "The combined 125/148 row was removed because it was a derived pooled response rate across distinct respondent classes, not a rate reported by the study. A tautological 45/45 explanation row was also removed. Main outcome denominators were checked against the publisher PDF."
   ],
-  "accessed_at_jst": "2026-11-25T20:23:01+09:00",
+  "accessed_at_jst": "2026-11-25T22:52:00+09:00",
   "reference_registry": "data/metadata/rebuild_2026/patient_family/reference_registry_20261125.csv",
   "reference_recording_policy": "All bibliographic references, including candidates considered, must have complete title, all authors in published order, publication metadata, identifiers, official landing page URL, full-text/PDF/supplement URLs, access timestamp JST, source type, verification state, and unresolved items in the central GitHub reference registry.",
   "extraction_audit": {
@@ -481,7 +526,7 @@
     "expected_columns": 15,
     "all_rows_have_expected_column_count": true,
     "method": "CSV parsed with quote-aware field handling; every data row has exactly 15 columns.",
-    "note": "Takeshige et al. 2023 first-pass full-text extraction added; G4 pending."
+    "note": "Patient/family CSV remains separate (117 rows). NISHIGUCHI_2024 is stored in a separate healthcare-worker CSV and must not be added to the patient/family table."
   },
   "new_candidate_search": {
     "checked_at_jst": "2026-11-25 JST (exact time not available; do not infer)",
@@ -493,5 +538,16 @@
       "SHIMOMURA_2026"
     ],
     "note": "Candidates are registered for follow-up, not yet adopted. Full-text inspection and extraction remain outstanding where specified; do not treat abstract-level findings as complete evidence."
+  },
+  "healthcare_worker_eolc_dataset": {
+    "dataset_id": "healthcare_worker_eolc_nursing_experience_20261125",
+    "csv": "data/processed/rebuild_2026/healthcare_workers/eolc_nursing_experience_evidence_extract_20261125.csv",
+    "source_ids": [
+      "NISHIGUCHI_2024"
+    ],
+    "rows": 51,
+    "columns": 15,
+    "created_at_jst": "2026-11-25T22:52:00+09:00",
+    "status": "FULL_TEXT_EXTRACTION_COMPLETE_QUALITY_AUDIT_PARTIAL"
   }
 }
