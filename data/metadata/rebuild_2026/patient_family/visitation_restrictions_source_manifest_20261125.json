@@ -147,7 +147,11 @@
       "doi": "10.20593/jabedit.34.1_21",
       "publisher_landing_page": "https://www.jstage.jst.go.jp/article/jabedit/34/1/34_05/_article/-char/ja",
       "publisher_pdf": "https://www.jstage.jst.go.jp/article/jabedit/34/1/34_05/_pdf/-char/ja",
-      "study_period": "E1: 2020-12 to 2021-03; E2/E4: 2021-12 to 2022-08 (as described in article)",
+      "study_period": {
+        "emergency_period_cohorts": "E1 (Tokyo first emergency declaration, 2020-04-07 to 2020-05-25); E2 (2021-01-08 to 2021-03-21); E4 (2021-07-12 to 2021-09-30)",
+        "survey_windows_as_reported": "E1 survey: 2020-12 to 2021-03; E2/E4 survey: 2021-12 to 2022-08",
+        "note": "The article distinguishes the emergency-period admission cohorts from the later survey windows; do not conflate these dates."
+      },
       "design": "Questionnaire survey and telephone semi-structured interviews",
       "population": "Patients admitted to Tokyo Medical and Dental University Hospital for COVID-19 moderate II or severe respiratory failure during selected emergency-declaration periods and family members who received treatment explanations",
       "questionnaire_responses": {
@@ -157,7 +161,14 @@
       },
       "interviews": {
         "patients": 6,
-        "family_members": 4
+        "family_members": 4,
+        "total": 10,
+        "method": "Telephone semi-structured interview, approximately 30 minutes",
+        "patient_age_mean": 49.3,
+        "patient_age_range": "38-63",
+        "patient_age_median": 47.5,
+        "family_relationships": "Two spouses/partners and two children among four family interviewees",
+        "patient_family_pairs": 3
       },
       "abstract_findings": "Approximately 90% of patients and family members reported understanding treatment explanations; 51.1% of patients (23/45) reported not expressing or being unable to express treatment preferences, or not remembering/knowing; ACP awareness was low.",
       "supplementary_materials": {
@@ -166,15 +177,73 @@
       },
       "source_sha256": null,
       "source_sha256_note": "Publisher PDF inspected via web viewer; not stored in GitHub and no hash is claimed.",
-      "accessed_at_jst": "2026-11-25T20:21:10+09:00",
+      "accessed_at_jst": "2026-11-25T20:23:01+09:00",
       "reference_registry_id": "ISHIHARA_2024",
-      "candidate_status": "CANDIDATE_FOR_PATIENT_FAMILY_AUTONOMY_AND_DECISION_SUPPORT; NOT_YET_ADOPTED",
+      "candidate_status": "CANDIDATE_FOR_PATIENT_FAMILY_AUTONOMY_AND_DECISION_SUPPORT; FULL_TEXT_EXTRACTED; NOT_YET_ADOPTED",
       "limitations": [
-        "Single-hospital sample",
-        "Patients with survival discharge were included; scope does not represent all COVID-19 inpatients",
-        "Not narrowly a visitation-restriction study",
-        "Full methods/results extraction and quality audit remain pending"
-      ]
+        "Single hospital (Tokyo Medical and Dental University Hospital)",
+        "Only patients discharged alive after moderate II or severe respiratory failure were included; not all COVID-19 patients or those who died",
+        "Patients who were unable to participate and those with altered consciousness at admission are not directly represented by patient questionnaire responses",
+        "Survey recall could be up to 13 months after hospitalization; authors explicitly note recall uncertainty",
+        "Questionnaire denominators vary by item (e.g. n=43/44 for understanding, n=45/44 for preference); do not use total respondent count as denominator for every item",
+        "Combined 51.1% patient category includes no expression, inability to express, and not remembering/knowing; it is not a direct measure of incapacity or refusal",
+        "Interview sample is only 6 patients and 4 family members; qualitative findings are not prevalence estimates",
+        "Single-center results cannot establish national prevalence or causal effects of visitation restrictions"
+      ],
+      "sampling": {
+        "patients_approached_or_consented": 86,
+        "family_members_approached_or_consented": 62,
+        "patient_questionnaire_responses": 72,
+        "family_questionnaire_responses": 53,
+        "patient_response_rate_percent": 83.7,
+        "family_response_rate_percent": 85.5,
+        "patient_directly_explained_while_conscious": 45,
+        "family_receiving_explanation": 44,
+        "selection": "Only patients discharged alive after admission for moderate II or severe respiratory failure in the specified emergency-period cohorts; family members who received treatment explanations."
+      },
+      "full_text_extraction": {
+        "extraction_status": "FULL_TEXT_FIRST_PASS_COMPLETE",
+        "pages": "PDF pp.22-31 (methods, results, discussion and conclusion)",
+        "ethics_approval": "M2020-155",
+        "understanding": {
+          "patients": "37/43 (86.0%) fully or mostly understood",
+          "families": "41/44 (93.2%) fully or mostly understood"
+        },
+        "decision_expression": {
+          "patients": "23/45 (51.1%) combined category: did not express/could not express/did not remember or know; categories must not be conflated with refusal or incapacity",
+          "patients_preferred_maximal_treatment": "18/45 (40.0%)",
+          "families_preferred_maximal_treatment": "26/44 (59.1%)"
+        },
+        "acp_awareness": {
+          "first_heard_patients": "60/71 (84.5%)",
+          "first_heard_families": "42/53 (79.2%)"
+        },
+        "interviews": {
+          "patients_without_consciousness_at_admission": "4/6",
+          "patients_reported_maximal_treatment_preference": "2/6",
+          "family_interviewees_burdened_by_surrogate_decision": "2/4",
+          "patients_accepting_family_decision_if_unconscious": "5/6",
+          "pre_admission_treatment_discussion_about_COVID": "0/10 interviewees"
+        },
+        "communication": {
+          "family_distress_from_no_direct_visits": "qualitative/free-text reports",
+          "reassurance_from_regular_phone_updates": "qualitative/free-text report"
+        },
+        "authors_suggested_measures": [
+          "Make multiple family members available to participate in surrogate decision-making while clarifying a key contact person",
+          "Provide families with regular updates on patient condition",
+          "Provide accurate public information about invasive treatments and standard treatment pathways",
+          "Promote ACP through hospital posters and leaflets and public online programs"
+        ]
+      },
+      "gate_status": {
+        "G0": "PASS",
+        "G1": "PASS",
+        "G2": "PARTIAL: publisher PDF inspected but not stored in public GitHub due copyright; official URL and metadata retained",
+        "G3": "PASS for full-text methods/results/discussion extraction; no supplementary materials listed",
+        "G4": "PENDING: structured denominator and source-to-extract audit still required",
+        "G5": "PENDING: candidate not yet adopted"
+      }
     }
   ],
   "extraction_file": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
@@ -186,9 +255,10 @@
     "Matsumoto et al. used purposive/network recruitment of experienced specialists; categories do not estimate prevalence.",
     "The extracted intervention ideas are reported practices or qualitative suggestions, not demonstrated causal effects.",
     "Shiraishi et al. supplementary material existence (five items) and body references (Appendix Figures 1-2, Tables 1-3) were reconfirmed on 2026-11-25; individual file names/URLs/content remain unresolved.",
-    "ISHIHARA_2024 was added as a candidate source for informed consent, substituted decision-making and ACP; it is not a direct visitation-restriction study and has not yet passed full extraction or quality audit."
+    "ISHIHARA_2024 was added as a candidate source for informed consent, substituted decision-making and ACP; it is not a direct visitation-restriction study and has not yet passed full extraction or quality audit.",
+    "Ishihara et al. 2024 full-text first-pass extraction completed on 2026-11-25 20:23 JST; item-specific denominators and retrospective recall limitations recorded; G4/G5 pending."
   ],
-  "accessed_at_jst": "2026-11-25T20:21:10+09:00",
+  "accessed_at_jst": "2026-11-25T20:23:01+09:00",
   "reference_registry": "data/metadata/rebuild_2026/patient_family/reference_registry_20261125.csv",
   "reference_recording_policy": "All bibliographic references, including candidates considered, must have complete title, all authors in published order, publication metadata, identifiers, official landing page URL, full-text/PDF/supplement URLs, access timestamp JST, source type, verification state, and unresolved items in the central GitHub reference registry."
 }
