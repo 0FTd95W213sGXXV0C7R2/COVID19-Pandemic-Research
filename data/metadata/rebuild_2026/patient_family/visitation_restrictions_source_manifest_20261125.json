@@ -51,9 +51,9 @@
         "publisher_page_indicates_electronic_supplement": true,
         "listed_count_displayed": 5,
         "individual_files_downloaded_and_verified": false,
-        "status": "PRESENCE_CONFIRMED_IN_PUBLISHER_RECORD; INDIVIDUAL_FILES_UNRESOLVED",
+        "status": "PRESENCE_CONFIRMED; INDIVIDUAL_ATTACHMENT_LINKS_NOT_EXPOSED_BY_AVAILABLE_BROWSER_RETRIEVAL",
         "note": "J-STAGE article page displays five electronic supplementary items and full-text HTML has a Supplementary materials section. Body references Appendix Figure 1, Appendix Figure 2, and Appendix Tables 1-3. Individual names, direct URLs, file formats, downloads and contents were not resolved in this pass; do not infer them.",
-        "last_checked_at_jst": "2026-11-25T20:20:07+09:00",
+        "last_checked_at_jst": "2026-11-25",
         "publisher_page_url": "https://www.jstage.jst.go.jp/article/jspm/17/2/17_22-00007/_article/-char/ja/",
         "full_text_html_url": "https://www.jstage.jst.go.jp/article/jspm/17/2/17_22-00007/_html/-char/ja",
         "body_references": [
@@ -65,7 +65,14 @@
         ],
         "individual_file_names": null,
         "individual_direct_urls": null,
-        "one_to_one_mapping_to_body_references": "UNVERIFIED"
+        "one_to_one_mapping_to_body_references": "UNVERIFIED",
+        "browser_link_attempt": {
+          "checked_publisher_article_page": "https://www.jstage.jst.go.jp/article/jspm/17/2/17_22-00007/_article/-char/ja/",
+          "page_displays": "電子付録 (5)",
+          "click_attempt": "J-STAGE article page's electronic supplement section link was followed, but the browser retrieval returned the same bibliographic page and did not expose any individual attachment URLs.",
+          "result": "INDIVIDUAL_ATTACHMENT_URLS_STILL_UNRESOLVED",
+          "note": "Search indexing and browser text extraction confirm five supplementary items exist, but do not expose attachment titles or hrefs. No guessed URLs were used."
+        }
       },
       "source_sha256": null,
       "source_sha256_note": "Not calculated because the publisher PDF was not stored in the repository; no hash is claimed.",
