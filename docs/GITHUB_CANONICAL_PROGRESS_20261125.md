@@ -121,3 +121,13 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 - 暫定判定：白石らは患者・家族・看護師を含む小規模単施設調査、松本らは専門看護師6名の質的研究。いずれも全国代表データではなく、補助証拠候補として扱う。最終採否は保留。
 - CSVの列数検査を実施し、全38データ行が15列であることを確認。出典マニフェストJSONの構文検証もPASS。
 - 原資料PDFは著作権条件未確認のため公開リポジトリに保存せず。未保存ファイルのSHA-256は付与していない。
+
+
+## 8. 2026-11-25 20:20 JST 追加進捗：白石ら（2022）電子付録の再確認
+
+- J-STAGE書誌ページで電子付録5件の表示を再確認し、全文HTMLの「Supplementary materials」セクションも確認。
+- 本文中の付録参照は付録図1・付録図2・付録表1～3の5項目。
+- 5件と本文参照の一対一対応、個別ファイル名・直接URL・形式・内容は未確認。個別ファイルのダウンロードも未完了。
+- したがって、白石らの付録依存項目の抽出・G3/G4/G5は未完了のまま。研究採否も保留を維持。
+- 更新した正本：監査記録 docs/audits/rebuild_2026/PATIENT_FAMILY_VISITATION_EVIDENCE_AUDIT_20261125.md、出典マニフェスト data/metadata/rebuild_2026/patient_family/visitation_restrictions_source_manifest_20261125.json、文献台帳 data/metadata/rebuild_2026/patient_family/reference_registry_20261125.csv。
+- J-STAGE公式資料は電子付録の登録仕様と独立DOIが付与されないことを説明するが、当該論文の個別付録URLを特定するものではない。
