@@ -186,3 +186,12 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 - 電話説明の非言語情報不足、退院調整、遠隔面会の高齢・難聴者への障壁、医療者の調整負担・時間外対応を質的所見として整理。
 - 抽出CSVに32行追加。合計117行（白石20、松本18、石原47、竹茂32）。G0/G1/G3 PASS、G2 PARTIAL、G4/G5 PENDING。
 - 正本：`data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv`、`data/metadata/rebuild_2026/patient_family/visitation_restrictions_source_manifest_20261125.json`、`docs/audits/rebuild_2026/PATIENT_FAMILY_VISITATION_EVIDENCE_AUDIT_20261125.md`。
+
+
+## 15. 2026-11-25 JST 追加進捗：国内候補文献4件の登録と構造QA
+
+- 追加候補4件を文献台帳・マニフェストへ登録：竹茂ら（2023）、立野ら（2022）、西口ら（2024）、下村ら（2026）。
+- 竹茂らは7ページPDFを確認し32行を初回抽出。西口らは11ページPDFを確認したが詳細抽出は未実施。立野らは書誌・抄録を確認したがPDF取得に失敗。下村らは書誌・抄録のみ確認。
+- 患者・家族証拠抽出CSV：117行（白石20、松本18、石原47、竹茂32）、全行15列。
+- 文献台帳：7文献、全データ行20列。出典マニフェストの行数とCSVが一致。
+- 追加文献は候補段階であり、採用判断・品質監査は未完了。
