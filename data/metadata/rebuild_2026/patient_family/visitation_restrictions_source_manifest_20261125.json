@@ -390,71 +390,6 @@
     {
       "source_id": "NISHIGUCHI_2024",
       "title": "新型コロナウイルス感染症患者へのEnd of Life Careにおける看護師の思いと実践",
-      "title_english": null,
-      "authors": [
-        "西口 悦子",
-        "青盛 真紀",
-        "林 ゑり子",
-        "落合 亮太",
-        "勝倉 恵津子",
-        "髙橋 和彦",
-        "玉井 奈緒"
-      ],
-      "journal": "日本看護科学会誌",
-      "volume_issue_pages": "44/1170-1180",
-      "year": 2024,
-      "doi": "10.5630/jans.44.1170",
-      "publisher_landing_page": "https://www.jstage.jst.go.jp/article/jans/44/0/44_441170/_article/-char/ja/",
-      "full_text_html": "https://www.jstage.jst.go.jp/article/jans/44/0/44_441170/_html/-char/ja",
-      "publisher_pdf": "https://www.jstage.jst.go.jp/article/jans/44/0/44_441170/_pdf/-char/ja",
-      "publication_date": "2024; J-STAGE 2025-03-19",
-      "design": "Qualitative inductive study; semi-structured interviews with 10 nurses experienced in COVID-19 end-of-life care",
-      "study_population_or_scope": "Healthcare-worker perspective on dignity, restrictive infection-control rules, family visitation negotiation, bereavement support and organizational psychological safety. Full 11-page publisher PDF opened; detailed extraction and G4/G5 pending.",
-      "accessed_at_jst": "2026-11-25 JST (exact time not available; do not infer)",
-      "source_status": "PUBLISHER_FULL_TEXT_OPENED; DETAILED_EXTRACTION_PENDING",
-      "gate_status": {
-        "G0": "PASS_CANDIDATE",
-        "G1": "PASS_METADATA",
-        "G2": "PARTIAL_OR_PENDING",
-        "G3": "PENDING",
-        "G4": "PENDING",
-        "G5": "PENDING"
-      }
-    },
-    {
-      "source_id": "SHIMOMURA_2026",
-      "title": "高度救命救急センターICUにおける新型コロナウイルス感染症蔓延予防のための面会制限下に関するオンライン面会時の家族の思い",
-      "title_english": null,
-      "authors": [
-        "下村 祐哉",
-        "柴崎 有美",
-        "岩間 朋子",
-        "林 ゑり子"
-      ],
-      "journal": "日本看護管理学会誌",
-      "volume_issue_pages": "30/1/85-95",
-      "year": 2026,
-      "doi": "10.19012/janap.30.1_85",
-      "publisher_landing_page": "https://www.jstage.jst.go.jp/article/janap/30/1/30_85/_article/-char/ja",
-      "full_text_html": null,
-      "publisher_pdf": "J-STAGE article page lists PDF (706K); direct PDF URL not resolved in this retrieval",
-      "publication_date": "2026; J-STAGE 2026-08-19",
-      "design": "Qualitative descriptive study; semi-structured interviews with 5 family members who used online visits between 2020-09 and 2021-06",
-      "study_population_or_scope": "Direct family-perspective candidate. Abstract reports reassurance when seeing patient response and speaking/touching through screen, but also disappointment when interaction failed and unequal experience associated with digital literacy/age. Official metadata/abstract only; full text not yet inspected.",
-      "accessed_at_jst": "2026-11-25 JST (exact time not available; do not infer)",
-      "source_status": "PUBLISHER_METADATA_AND_ABSTRACT_ONLY; FULL_TEXT_PENDING",
-      "gate_status": {
-        "G0": "PASS_CANDIDATE",
-        "G1": "PASS_METADATA",
-        "G2": "PARTIAL_OR_PENDING",
-        "G3": "PENDING",
-        "G4": "PENDING",
-        "G5": "PENDING"
-      }
-    },
-    {
-      "source_id": "NISHIGUCHI_2024",
-      "title": "新型コロナウイルス感染症患者へのEnd of Life Careにおける看護師の思いと実践",
       "title_english": "Thoughts and Practices of Nurses Providing End-of-Life Care to Patients with COVID-19",
       "authors": [
         "西口悦子",
@@ -496,6 +431,37 @@
       ],
       "accessed_at_jst": "2026-11-25T22:52:00+09:00",
       "copyright_policy": "Do not copy publisher PDF or interview transcripts into public GitHub; store structured paraphrased findings, bibliographic metadata, source URLs and audit records only."
+    },
+    {
+      "source_id": "SHIMOMURA_2026",
+      "title": "高度救命救急センターICUにおける新型コロナウイルス感染症蔓延予防のための面会制限下に関するオンライン面会時の家族の思い",
+      "title_english": null,
+      "authors": [
+        "下村 祐哉",
+        "柴崎 有美",
+        "岩間 朋子",
+        "林 ゑり子"
+      ],
+      "journal": "日本看護管理学会誌",
+      "volume_issue_pages": "30/1/85-95",
+      "year": 2026,
+      "doi": "10.19012/janap.30.1_85",
+      "publisher_landing_page": "https://www.jstage.jst.go.jp/article/janap/30/1/30_85/_article/-char/ja",
+      "full_text_html": null,
+      "publisher_pdf": "J-STAGE article page lists PDF (706K); direct PDF URL not resolved in this retrieval",
+      "publication_date": "2026; J-STAGE 2026-08-19",
+      "design": "Qualitative descriptive study; semi-structured interviews with 5 family members who used online visits between 2020-09 and 2021-06",
+      "study_population_or_scope": "Direct family-perspective candidate. Abstract reports reassurance when seeing patient response and speaking/touching through screen, but also disappointment when interaction failed and unequal experience associated with digital literacy/age. Official metadata/abstract only; full text not yet inspected.",
+      "accessed_at_jst": "2026-11-25 JST (exact time not available; do not infer)",
+      "source_status": "PUBLISHER_METADATA_AND_ABSTRACT_ONLY; FULL_TEXT_PENDING",
+      "gate_status": {
+        "G0": "PASS_CANDIDATE",
+        "G1": "PASS_METADATA",
+        "G2": "PARTIAL_OR_PENDING",
+        "G3": "PENDING",
+        "G4": "PENDING",
+        "G5": "PENDING"
+      }
     }
   ],
   "extraction_file": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
