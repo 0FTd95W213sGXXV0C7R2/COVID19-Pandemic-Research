@@ -51,8 +51,21 @@
         "publisher_page_indicates_electronic_supplement": true,
         "listed_count_displayed": 5,
         "individual_files_downloaded_and_verified": false,
-        "status": "UNRESOLVED",
-        "note": "The landing page indicates electronic supplementary material, but the five items were not individually resolved and downloaded during this pass. Values in the CSV that depend on supplementary figures/tables are explicitly marked as requiring further extraction."
+        "status": "PRESENCE_CONFIRMED_IN_PUBLISHER_RECORD; INDIVIDUAL_FILES_UNRESOLVED",
+        "note": "J-STAGE article page displays five electronic supplementary items and full-text HTML has a Supplementary materials section. Body references Appendix Figure 1, Appendix Figure 2, and Appendix Tables 1-3. Individual names, direct URLs, file formats, downloads and contents were not resolved in this pass; do not infer them.",
+        "last_checked_at_jst": "2026-11-25T20:20:07+09:00",
+        "publisher_page_url": "https://www.jstage.jst.go.jp/article/jspm/17/2/17_22-00007/_article/-char/ja/",
+        "full_text_html_url": "https://www.jstage.jst.go.jp/article/jspm/17/2/17_22-00007/_html/-char/ja",
+        "body_references": [
+          "付録図1（質問紙・調査項目）",
+          "付録図2（妥当な面会時間・頻度）",
+          "付録表1（使用中の面会手段）",
+          "付録表2（面会制限緩和手段・代替案の希望）",
+          "付録表3（面会制限への自由意見）"
+        ],
+        "individual_file_names": null,
+        "individual_direct_urls": null,
+        "one_to_one_mapping_to_body_references": "UNVERIFIED"
       },
       "source_sha256": null,
       "source_sha256_note": "Not calculated because the publisher PDF was not stored in the repository; no hash is claimed.",
@@ -117,9 +130,10 @@
     "Shiraishi et al. supplementary materials have not yet been individually downloaded or audited.",
     "The Shiraishi study excluded patients with altered consciousness and severe depressive symptoms and used a non-randomized small sample.",
     "Matsumoto et al. used purposive/network recruitment of experienced specialists; categories do not estimate prevalence.",
-    "The extracted intervention ideas are reported practices or qualitative suggestions, not demonstrated causal effects."
+    "The extracted intervention ideas are reported practices or qualitative suggestions, not demonstrated causal effects.",
+    "Shiraishi et al. supplementary material existence (five items) and body references (Appendix Figures 1-2, Tables 1-3) were reconfirmed on 2026-11-25; individual file names/URLs/content remain unresolved."
   ],
-  "accessed_at_jst": "2026-11-25T20:17:00+09:00",
+  "accessed_at_jst": "2026-11-25T20:20:07+09:00",
   "reference_registry": "data/metadata/rebuild_2026/patient_family/reference_registry_20261125.csv",
   "reference_recording_policy": "All bibliographic references, including candidates considered, must have complete title, all authors in published order, publication metadata, identifiers, official landing page URL, full-text/PDF/supplement URLs, access timestamp JST, source type, verification state, and unresolved items in the central GitHub reference registry."
 }
