@@ -168,3 +168,11 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 - 石原らの主要数値・分母の原文照合はPARTIAL PASS。全図表の完全な再転記・独立再現照合は未完了。G4全体とG5はPENDING。
 - 正本更新先：`data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv`、`data/metadata/rebuild_2026/patient_family/visitation_restrictions_source_manifest_20261125.json`、`docs/audits/rebuild_2026/PATIENT_FAMILY_VISITATION_EVIDENCE_AUDIT_20261125.md`。
 - 作業日：2026-11-25 JST。分単位の実行時刻は取得できなかったため、推定値は記録していない。
+
+
+## 13. 2026-11-25 JST 追加進捗：J-STAGE付録リンク取得試行・行数訂正
+
+- 白石ら（2022）のJ-STAGE書誌ページで「電子付録 (5)」を確認。付録セクションのリンク操作を試したが、利用可能なブラウザ取得では書誌ページに戻り、5件の個別添付URL・ファイル名は取得できなかった。
+- 個別URLを推測せず、付録は存在確認済み・個別リンク未解決として記録。実ブラウザでの展開または発行機関/J-STAGEへの照会が必要。
+- CSVの実データ行数を再集計し、白石20、松本18、石原47、合計85行と確認。監査文書にあった白石19・松本19は誤記として訂正記録を追加。全85行15列。
+- マニフェスト・監査記録・進捗報告を更新。
