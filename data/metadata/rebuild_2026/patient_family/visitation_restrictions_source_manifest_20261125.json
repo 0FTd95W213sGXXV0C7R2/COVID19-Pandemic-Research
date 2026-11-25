@@ -423,7 +423,26 @@
         "G3": "PENDING",
         "G4": "PENDING",
         "G5": "PENDING"
-      }
+      },
+      "full_text_retrieval_attempts": [
+        {
+          "date_jst": "2026-11-25",
+          "source": "J-STAGE article landing page",
+          "result": "Cache miss in available retrieval; metadata and abstract remain accessible."
+        },
+        {
+          "date_jst": "2026-11-25",
+          "source": "J-STAGE publisher PDF URL pattern /_pdf/-char/ja",
+          "result": "Cache miss in available retrieval."
+        },
+        {
+          "date_jst": "2026-11-25",
+          "source": "J-STAGE publisher PDF URL pattern /_pdf",
+          "result": "Not accessible via available retrieval."
+        }
+      ],
+      "extraction_status": "ABSTRACT_ONLY_FULL_TEXT_RETRIEVAL_BLOCKED",
+      "note": "Do not treat abstract as full-text extraction. Official metadata and abstract verified; publisher lists 706K PDF but full text could not be retrieved by current browser retrieval. No extraction CSV created."
     },
     {
       "source_id": "TATENO_2022",
@@ -540,5 +559,13 @@
     "rows": 44,
     "columns": 15,
     "status": "FULL_TEXT_EXTRACTION_COMPLETE_QUALITY_AUDIT_PARTIAL"
+  },
+  "shimomura_2026_retrieval_status": {
+    "status": "BLOCKED_BY_AVAILABLE_BROWSER_RETRIEVAL",
+    "checked_at_jst": "2026-11-25",
+    "publisher_pdf_listed": true,
+    "pdf_size_kb": 706,
+    "full_text_obtained": false,
+    "abstract_only": true
   }
 }
