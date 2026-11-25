@@ -451,3 +451,13 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 - 監査ファイル：`docs/audits/NORISUE_2021_MIXED_METHODS_EXTRACTION_AUDIT_20261125.md` Section 11。
 - 結論：分母の不整合は解消していない。3,191／3,192／1,520／約1,541の数値を独立に保持し、推測補正を禁止。著者照会または出版社原表画像の取得が必要。
 - 監査日：2026-11-26 JST。
+
+
+## 29. 2026-11-26 JST 追加進捗：Mori et al.（2026）補足資料の公式リンク再確認
+
+- Springer Nature公式論文ページのSupplementary Information欄から、XLSX（`12910_2026_1442_MOESM1_ESM.xlsx`）とDOCX（`12910_2026_1442_MOESM2_ESM.docx`）の個別ダウンロードリンクを再確認。
+- 個別リンクを開く操作は、ブラウザ取得側で両ファイルとも `400 Unsupported content-type: application/octet-stream`。static-content URLおよびmedia URLからの直接取得も失敗。
+- ファイル名・公式リンクの所在は確定したが、バイナリは未取得。XLSX/DOCXの内容、シート、コードブック、匿名化データの再集計は未実施。
+- 監査文書：`docs/audits/MORI_2026_SUPPLEMENTARY_AUDIT.md` Section 10。
+- 次の実務上の必要条件：ユーザーが公式ページから取得した正規XLSX/DOCXをこの会話に添付するか、バイナリ取得可能な実行環境を用意すること。添付が得られたら実体検査・本文Table 1–5との照合を行う。
+- 監査日：2026-11-26 JST。
