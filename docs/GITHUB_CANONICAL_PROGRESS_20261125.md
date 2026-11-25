@@ -24,8 +24,8 @@
 | 1 | 希少資源配分の実態調査（Mori et al.） | `docs/audits/MORI_2026_SUPPLEMENTARY_AUDIT.md` | 一部整理済み | 論文本文の集計結果・変数は整理済み。補足XLSX/DOCXの実ファイル取得・照合は未完了 |
 | 2 | 医療機関の資源配分方針・倫理相談体制 | `docs/medical_frontline_impacts/source_register_20261119.md`、`docs/references/references_master.csv` | 出典記録のみ | 院内指針、倫理相談、複数職種レビュー等の実施状況を示す資料・データの抽出が必要 |
 | 3 | 病床・ICU・ECMO・人工呼吸器の稼働状況 | `data/raw/mhlw/weekly_inpatient_survey/`、`data/raw/mhlw/gmis_all_snapshots/`、`data/audits/mhlw/` | 原資料あり・整理中 | 週次Excel171件、G-MISスナップショット43件と複数監査を保存。変数クロスウォークは候補段階。ICU/ECMO/MVを含む統合系列は未確定 |
-| 4 | 面会制限に関する調査・論文 | `docs/references/references_master.csv` | 出典記録のみ | 面会制限の期間・対象・例外・代替手段をGitHub上のデータ表に抽出する必要 |
-| 5 | 患者・家族の心理的負担・意思決定参加 | `docs/references/references_master.csv` | 出典記録のみ | 患者・家族本人の回答・質的結果を出典本文から抽出し、対象・方法・限界を記録する必要 |
+| 4 | 面会制限に関する調査・論文 | `data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv`、`data/metadata/rebuild_2026/patient_family/visitation_restrictions_source_manifest_20261125.json`、`docs/audits/rebuild_2026/PATIENT_FAMILY_VISITATION_EVIDENCE_AUDIT_20261125.md` | 初回抽出済み・監査未完了 | 白石ら（2022）・松本ら（2022）の本文と表を確認し、38行の集計/質的所見を抽出。白石論文の電子付録5件の個別確認、図表再抽出、G4/G5が未完了 |
+| 5 | 患者・家族の心理的負担・意思決定参加 | `data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv`、`docs/audits/rebuild_2026/PATIENT_FAMILY_VISITATION_EVIDENCE_AUDIT_20261125.md` | 初回抽出済み・監査未完了 | 白石ら（2022）の患者・家族本人の回答と、松本ら（2022）の専門看護師の質的所見を分けて記録。患者本人の意思決定参加・ACPに関する独立研究は追加取得が必要 |
 | 6 | 緩和ケア・終末期医療・ACP | `docs/references/references_master.csv`、`docs/medical_frontline_impacts/source_register_20261119.md` | 出典記録のみ | 緩和ケア・ACP・看取り支援の実態を示す資料・結果の抽出が必要 |
 | 7 | 救急搬送困難事案 | `data/raw/fdma/emergency_transport/coronavirus_data.xlsx`、`data/processed/fdma/emergency_transport/weekly_long.csv`、`data/audits/fdma/emergency_transport/`、`docs/audits/FDMA_WEEKLY_DATA_AUDIT.md` | 整理済み（監査記録あり） | 週次長形式データと詳細監査あり。監査ステータスは `PASS_WITH_EXPLICIT_SOURCE_ISSUES`。2022-03-07の不完全区分、週末日見出し不一致、2024年度の調査方式変更等を明示して最終採否を確定する |
 | 8 | 外来・入院・診断別の医療利用 | `data/processed/non_covid_access/article_reported_aggregate_evidence.csv`、`data/metadata/non_covid_access/source_manifest.json` | 一部整理済み | 26病院研究の論文報告集計値は抽出済み。MDV等の個票・病院原データは公開されていない。全国月次系列ではない |
@@ -78,7 +78,7 @@
 
 ### 3.5 倫理的問題の直接証拠
 
-Mori et al.の本文集計は監査文書に整理されているが、補足資料の実ファイル監査は未完了。面会制限、患者・家族、医療従事者の心理的負担・労働環境・補償などは、出典登録とデータ抽出を区別し、現時点では主に出典記録段階として扱う。
+Mori et al.の本文集計は監査文書に整理されているが、補足資料の実ファイル監査は未完了。患者・家族の面会制限については、白石ら（2022）と松本ら（2022）の初回抽出を完了し、CSV・出典マニフェスト・監査文書を作成した。ただし、白石論文の電子付録5件の個別確認、G4品質監査、G5最終採否は未完了。医療従事者の感染・欠勤・労働環境・補償等は引き続き出典登録段階。
 
 ## 4. 今後の運用規則（確定）
 
@@ -109,3 +109,15 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 
 ---
 この文書は、2026-11-25 JST時点でGitHub mainブランチに存在する内容に基づくスナップショットである。以後の状態はリポジトリの後続コミットで更新する。
+
+
+## 7. 2026-11-25 20:07 JST 追加進捗：患者・家族の面会制限研究
+
+- 対象原典：白石ら（2022）Palliative Care Research 17(2):65-70、松本・副島・上別府（2022）家族看護学研究 28(1):15-29。出版社/J-STAGEの本文・PDFを確認。
+- 抽出データ：`data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv`（38行）。
+- 出典マニフェスト：`data/metadata/rebuild_2026/patient_family/visitation_restrictions_source_manifest_20261125.json`。
+- 監査記録：`docs/audits/rebuild_2026/PATIENT_FAMILY_VISITATION_EVIDENCE_AUDIT_20261125.md`。
+- 取得段階：G0/G1はPASS。両論文PDFは出版社で閲覧したが、公開GitHubへの複製は行わず、G2はPARTIAL。白石論文は本文・表2まで抽出したが電子付録5件の個別取得・確認が残るためG3 PARTIAL。松本論文は方法・対象・表2/表3・限界を抽出しG3 PASS。G4/G5は両論文とも未完了。
+- 暫定判定：白石らは患者・家族・看護師を含む小規模単施設調査、松本らは専門看護師6名の質的研究。いずれも全国代表データではなく、補助証拠候補として扱う。最終採否は保留。
+- CSVの列数検査を実施し、全38データ行が15列であることを確認。出典マニフェストJSONの構文検証もPASS。
+- 原資料PDFは著作権条件未確認のため公開リポジトリに保存せず。未保存ファイルのSHA-256は付与していない。
