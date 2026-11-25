@@ -304,14 +304,49 @@
       "design": "Qualitative interview study; 11 healthcare workers and 10 patients or family members; content analysis",
       "study_population_or_scope": "Primary candidate for direct patient/family and staff experience. Patient/family group: 2 patients and 8 patient/family participants; admission between 2021-04 and 2022-03, >5 days. Main themes include difficulty explaining condition, discharge coordination, limitations of remote visits for older adults with hearing loss, and staff scheduling burden. Full 7-page publisher PDF inspected; G3/G4/G5 not yet complete.",
       "accessed_at_jst": "2026-11-25 JST (exact time not available; do not infer)",
-      "source_status": "PUBLISHER_FULL_TEXT_OPENED; DETAILED_EXTRACTION_PENDING",
+      "source_status": "PUBLISHER_METADATA_AND_FULL_TEXT_PDF_INSPECTED; FIRST_PASS_EXTRACTION_COMPLETE; QUALITY_AUDIT_PENDING",
       "gate_status": {
-        "G0": "PASS_CANDIDATE",
-        "G1": "PASS_METADATA",
-        "G2": "PARTIAL_OR_PENDING",
-        "G3": "PENDING",
-        "G4": "PENDING",
-        "G5": "PENDING"
+        "G0": "PASS",
+        "G1": "PASS",
+        "G2": "PARTIAL: publisher PDF inspected but not copied to public GitHub; copyright/storage status not independently cleared",
+        "G3": "PASS: first-pass full-text extraction completed",
+        "G4": "PENDING: item-level source-to-row crosscheck and denominator audit remain",
+        "G5": "PENDING: candidate not yet adopted"
+      },
+      "extraction": {
+        "status": "FIRST_PASS_FULL_TEXT_EXTRACTION_COMPLETE",
+        "extraction_file": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
+        "extraction_rows": 32,
+        "source_checked": "Publisher-hosted 7-page PDF; methods, results, discussion, conclusion and limitations checked",
+        "sample": {
+          "patient_family_group_total": 10,
+          "patients": 2,
+          "patient_or_family_subgroup_reported": 8,
+          "healthcare_workers": 11,
+          "physicians": 9,
+          "nurses": 2,
+          "admission_period": "2021-04 to 2022-03",
+          "minimum_stay_days": 6
+        },
+        "main_findings": [
+          "6/8 (75%) patient/family respondents accepted visitation restrictions; 1/8 expressed infection concern; 1/8 sadness about inability to visit even when condition worsened",
+          "5/8 (62.5%) considered telephone explanation acceptable; some could not imagine patient condition without images/visual information",
+          "Communication methods: telephone 6/10 (60%), remote visit 3/10 (30%), Zoom 1/10 (10%), LINE 1/10 (10%); multiple responses",
+          "Desired remote-visit frequency: daily 6/10 (60%), weekly 2/10 (20%), 2-3 times weekly 2/10 (20%)",
+          "Preferred remote-visit method: hospital iPad 4/10 (40%), family at home using device 6/10 (60%)",
+          "Healthcare workers: telephone 11/11 (100%), face-to-face outpatient explanation 6/11 (55%), remote visit 2/11 (18%); methods not mutually exclusive",
+          "9/11 (81%) healthcare workers said explanation or policy decisions became more difficult; 2/11 (18%) reported no change",
+          "Qualitative findings: difficulty imagining ADL/home situation without visual contact; after-hours workload; end-of-life guilt; difficulty supporting family understanding; remote visits difficult for older adults with hearing loss and time-consuming for staff"
+        ],
+        "methodology": "Semi-structured interviews of approximately 15 minutes; audio recording not used; interviewer notes transcribed after interviews; co-researchers discussed analytical reliability and validity.",
+        "limitations": [
+          "Single-center",
+          "Retrospective recall bias",
+          "Purposive selection/selection bias",
+          "Potential physician-interviewer/doctor-patient relationship bias",
+          "Small qualitative sample; not prevalence evidence",
+          "One subgroup's exact composition is not fully specified in extracted results; respondent labels preserve article wording"
+        ]
       }
     },
     {
@@ -436,16 +471,17 @@
   "reference_recording_policy": "All bibliographic references, including candidates considered, must have complete title, all authors in published order, publication metadata, identifiers, official landing page URL, full-text/PDF/supplement URLs, access timestamp JST, source type, verification state, and unresolved items in the central GitHub reference registry.",
   "extraction_audit": {
     "last_checked_date_jst": "2026-11-25",
-    "total_data_rows": 85,
+    "total_data_rows": 117,
     "rows_by_source": {
       "SHIRAISHI_2022": 20,
       "MATSUMOTO_2022": 18,
-      "ISHIHARA_2024": 47
+      "ISHIHARA_2024": 47,
+      "TAKESHIGE_2023": 32
     },
     "expected_columns": 15,
     "all_rows_have_expected_column_count": true,
     "method": "CSV parsed with quote-aware field handling; every data row has exactly 15 columns.",
-    "note": "Ishihara 2024 extraction corrected and expanded after direct comparison with the publisher-hosted PDF."
+    "note": "Takeshige et al. 2023 first-pass full-text extraction added; G4 pending."
   },
   "new_candidate_search": {
     "checked_at_jst": "2026-11-25 JST (exact time not available; do not infer)",
