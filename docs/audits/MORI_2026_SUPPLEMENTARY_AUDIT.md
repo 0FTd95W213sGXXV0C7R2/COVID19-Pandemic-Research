@@ -191,3 +191,33 @@ PMCに収録された本文テキストから、以下を再確認した。い�
 
 - 追記確認日：2026-11-25 JST。
 - 判定：**本文再確認・変数分離完了／補足実ファイル取得・再集計は未完了**。
+
+
+## 10. 2026-11-26 JST 公式ダウンロードリンクの再確認
+
+### 10.1 公式ページで確認したリンク
+
+Springer Natureの論文ページのSupplementary Information欄に、次の2つの個別ダウンロードリンクが掲載されていることを再確認した。
+
+- Supplementary Material 1（XLSX）：`12910_2026_1442_MOESM1_ESM.xlsx`
+  - 公式ページ上のダウンロードリンク：`https://static-content.springer.com/esm/art%3A10.1186%2Fs12910-026-01442-2/MediaObjects/12910_2026_1442_MOESM1_ESM.xlsx`
+- Supplementary Material 2（DOCX）：`12910_2026_1442_MOESM2_ESM.docx`
+  - 公式ページ上のダウンロードリンク：`https://static-content.springer.com/esm/art%3A10.1186%2Fs12910-026-01442-2/MediaObjects/12910_2026_1442_MOESM2_ESM.docx`
+
+公式論文ページ：https://link.springer.com/article/10.1186/s12910-026-01442-2
+
+### 10.2 今回の取得試行
+
+- Springerページの個別リンクをクリックして実体取得を試みたが、XLSX・DOCXともブラウザ取得側で `400 Unsupported content-type: application/octet-stream` となった。
+- static-content URLおよび既知のmedia.springernature.com URLを別途開く試行も、現在のブラウザ取得環境ではアクセス不可。
+- XLSXの直接ダウンロードも試したが失敗。DOCXも同じ個別リンクで取得失敗。
+- したがって、公式ページ上のファイル名・リンクの存在は再確認できたが、ファイルのバイト列・サイズ・ハッシュ・シート／表の実体は取得できていない。
+
+### 10.3 判定と次の条件
+
+- 状態は「公式個別リンク確認済み／バイナリ取得失敗／内容未監査」のまま。
+- 論文本文から補足ファイルの内容を推定して再集計しない。
+- 次に実体監査を行うには、ユーザーが出版社から取得した正規XLSX・DOCXをこの会話に添付するか、バイナリを取得できる実行環境が必要。
+- ファイル取得後は、XLSXの全シート・16設問・選択肢・分岐、DOCXの全データ行・列名・コードブック・欠測値を確認し、本文Table 1–5を再計算して照合する。
+
+- 追記日：2026-11-26 JST。
