@@ -1,18 +1,21 @@
 # Project Status
 
-最終更新：2026-11-18 JST
+最終更新：2026-11-25 JST
 
-## Current Status
+> **進捗・取得状況の正本はGitHubのみ。** 30項目のファイル単位の根拠・判定は [docs/GITHUB_CANONICAL_PROGRESS_20261125.md](docs/GITHUB_CANONICAL_PROGRESS_20261125.md) を参照。Notion・会話履歴の進捗記述は過去時点の履歴であり、現行状態の判定には使用しない。
 
-| Area | Status |
+## Current Status（2026-11-25 JST）
+
+| Area | GitHub上の確認状況 |
 |---|---|
-| M1 Medical Burden | 既存データ・分析あり。結果の確定作業が必要 |
-| M2 Healthcare Access | 既存資料あり。系列ごとの検証状態を整理する |
-| E1 Ethics and Equity | 評価枠組みあり。根拠付き論点の抽出が必要 |
-| E2 Transparency | 資料候補あり。証拠整理が必要 |
-| I1 Integration | 未完了 |
-| C1 International Comparison | 比較可能性の確認が必要 |
-| F1 Future Policy | モデル案あり。証拠との対応づけが必要 |
+| Epidemiology / medical burden | 新規陽性者・重症者・死亡者・病床使用・RtのファイルとREADMEあり。系列ごとに監査・比較可能性の未解決事項あり |
+| Emergency access | 消防庁原本、週次longデータ、監査成果物あり。明示されたソース問題を残す |
+| Non-COVID healthcare access | 3研究の公表集計値47行をCSV化。個票・原データではなく、研究ごとの制約あり |
+| Resource allocation ethics | Mori et al.本文由来の監査記録あり。補足ファイルの実監査は未完了 |
+| Patient/family autonomy and dignity | 現在確認できるのは主に出典登録。構造化された証拠データは未整備 |
+| Healthcare worker burden and reciprocity | 現在確認できるのは主に出典登録。構造化された証拠データは未整備 |
+| Policy / governance | 出典候補はあるが、政策時系列・通知・議事録の体系的整理は未完了 |
+| Integration and recommendations | 未完了 |
 
 ## Existing Data Assets
 
