@@ -100,5 +100,12 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 5. 患者・家族の自律と尊厳、医療従事者の負担・互恵性について、GitHubに実データ・本文抽出・監査記録が不足している項目を優先取得する。
 6. 政策・通知・議事録の一次資料を取得し、政策時系列と現場運用の証拠を区別して整理する。
 
+
+## 6. Repository metadata / access status
+
+- GitHub API metadata checked on 2026-11-25 JST: repository visibility is `public`, default branch is `main`, repository is `0FTd95W213sGXXV0C7R2/COVID19-Pandemic-Research`.
+- This differs from the earlier Notion migration plan, which recorded an intended `private` repository. The actual GitHub setting takes precedence for current state.
+- The available connected GitHub actions in this session can read and write repository files but do not expose a repository-visibility update operation. Therefore, this work did not change the visibility setting. If the intended access policy remains private, the repository owner must change it in GitHub repository settings before placing any restricted or sensitive material in the repository.
+
 ---
 この文書は、2026-11-25 JST時点でGitHub mainブランチに存在する内容に基づくスナップショットである。以後の状態はリポジトリの後続コミットで更新する。
