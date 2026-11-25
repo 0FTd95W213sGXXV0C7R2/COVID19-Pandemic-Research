@@ -286,3 +286,17 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 - 詳細監査を `docs/audits/MORI_2026_SUPPLEMENTARY_AUDIT.md` に追記。
 - 次工程：別経路またはユーザー提供ファイルで取得可能になった場合に両ファイルを検査し、質問票・データ・コードブック・本文Table 1–5の三者照合を行う。取得できない場合は本文報告値を補助証拠として維持し、ファイル内容を推測しない。
 - 監査文書更新コミット：`0cdb0812200fc25a9b4a0ff2a69e9308b109b2c5`。
+
+
+## 24. 2026-11-25 JST：希少医療資源配分の国内一次資料・実証研究の初回確認
+
+- 次工程として、人工呼吸器・ECMO・ICU資源配分に関する規範資料と実証研究を分離して調査。
+- 日本集中治療医学会臨床倫理委員会（澤村ら、2020）「新型コロナウイルス感染症流行に際しての医療資源配分の観点からの治療の差し控え・中止についての提言」について、J-STAGE公式書誌、著者13名、DOI 10.3918/jsicm.27_509、抄録を確認。PDF取得はrobots制限で失敗したため、全文抽出済みとは扱わない。
+- 生命・医療倫理研究会有志（2020）「COVID-19の感染爆発時における人工呼吸器の配分を判断するプロセスについての提言」について、公式ページ本文・作成者・査読者・更新履歴を確認。非公式・非拘束的な有志提案であり、法的・倫理的妥当性を保証しないとの注意書きを保持。患者意思、医学的適応、公平性、多職種協議、記録、倫理コンサルテーション、資源調達・地域移送、病院長責任等を初回抽出。
+- Norisue et al.（2021）「Allocation of Mechanical Ventilators During a Pandemic: A Mixed-Methods Study of Perceptions Among Japanese Health Care Workers and the General Public」について、PubMed・出版社全文を確認。配布3,191件・回収1,520件。救命数最大化への賛成95.8%、便益期間82.2%、ライフサイクル80.1%、医療従事者への報償75.3%、人工呼吸器再配分64.4%、先着順28.4%。意識調査であり実際の配分決定・臨床アウトカムではない。
+- Ishizaki et al.（2023）「Patient Admission and Mechanical Ventilator Allocation Decision-Making Processes by Frontline Medical Professionals in a Japanese ICU During the COVID-19 Pandemic: A Qualitative Study」について、PubMed・PMC・出版社ページを確認。単施設ICUの医師・看護師の質的研究で、医師の個別判断、多職種カンファレンス、患者・家族の治療選好、看護師からの情報伝達、院内クラスター時の人工呼吸器不足、心理的負担等を扱う。全文の完全な構造化抽出・独立照合は未完了。
+- Dozono et al.（2026）「Discussions on Ventilator Allocation in Japan during the COVID-19 Pandemic」について、出版社全文を確認。2020年提言への批判を整理し、トリアージ適用状況の限定、地域調整、フローチャートと責任、法的保護、救命可能性基準、年齢・障害等の間接差別、患者の自発的意思、危機時医療基準、社会的合意、事後検証を論点として抽出。出版社ページで中間著者名が省略表示されているため完全著者列は未照合。
+- Mori et al.（2026）の参考文献に記載された「Narisawa et al. (2024), BMC Medical Ethics 25:24, DOI 10.1186/s12910-024-01039-w」は、今回の検索ではDOI・書誌の対応を確認できず、未解決として保留。Ishizaki et al.（2023）とは別書誌として扱い、同一視しない。
+- 新規監査文書：docs/audits/SCARCE_RESOURCE_ALLOCATION_PRIMARY_SOURCE_AUDIT_20261125.md。
+- 本工程の判定：書誌・公開ページの初回確認は一部完了。JSICM PDF全文取得、各資料の完全抽出、独立再監査、最終採否は未完了。規範資料・意識調査・単施設質的研究・施設横断調査を一つの実態指標として統合しない。
+- 次工程：JSICM PDFの別経路取得、生命・医療倫理研究会PDFとフローチャートのページ単位照合、Norisue質問票・補足資料の監査、Ishizaki全文抽出、Narisawa書誌不一致の解決。
