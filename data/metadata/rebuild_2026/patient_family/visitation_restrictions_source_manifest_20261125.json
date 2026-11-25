@@ -499,6 +499,68 @@
       ],
       "accessed_at_jst": "2026-11-25T23:35:00+09:00",
       "copyright_policy": "Publisher PDF not copied to public GitHub; structured findings, paraphrased free-text themes, metadata and audit only."
+    },
+    {
+      "source_id": "SHIMOMURA_2026",
+      "title": "高度救命救急センターICUにおける新型コロナウイルス感染症蔓延予防のための面会制限下に関するオンライン面会時の家族の思い",
+      "title_english": "Family’s Thoughts during Online Visitation Regarding Restricted Visitation to Prevent the Spread of Novel Coronavirus Infection in the Intensive Care Unit of an Advanced Critical Care Center",
+      "authors": [
+        "下村祐哉",
+        "柴崎有美",
+        "岩間朋子",
+        "林ゑり子"
+      ],
+      "journal": "日本看護管理学会誌 / The Journal of the Japan Academy of Nursing Administration and Policies",
+      "volume_issue_pages": "30(1):85-95",
+      "year": 2026,
+      "publication_date": "2026-08-19",
+      "received_date": "2025-08-08",
+      "accepted_date": "2026-03-31",
+      "doi": "10.19012/janap.30.1_85",
+      "publisher_landing_page": "https://www.jstage.jst.go.jp/article/janap/30/1/30_85/_article/-char/ja",
+      "publisher_pdf": "https://www.jstage.jst.go.jp/article/janap/30/1/30_85/_pdf/-char/ja",
+      "study_period": "Online visitation Sep 2020-Jun 2021; interviews 2023-01-01 to 2023-02-28",
+      "design": "Qualitative descriptive study; semi-structured interviews and qualitative content analysis",
+      "population": "Adult first-contact/key family members of patients admitted to one tertiary emergency medical center advanced critical care ICU; at least two online visits",
+      "sample": {
+        "eligible": 13,
+        "participants": 5,
+        "participation_percent": 38.5,
+        "relationships": "three daughters, one father, one grandmother",
+        "interviews": "two face-to-face, three online; mean 38 minutes"
+      },
+      "findings": {
+        "categories": 6,
+        "subcategories": 25,
+        "illustrative_accounts": 44,
+        "extraction_rows": 25
+      },
+      "ethics_approval": "F220400054",
+      "supplementary_materials": {
+        "listed_count": 0,
+        "status": "NO_SUPPLEMENTARY_MATERIALS_LISTED_ON_J-STAGE_RECORD"
+      },
+      "source_sha256": null,
+      "source_sha256_note": "User-uploaded publisher PDF inspected but not copied to public GitHub; no hash claimed.",
+      "accessed_at_jst": "2026-11-25 (exact time not recorded)",
+      "candidate_status": "FULL_TEXT_EXTRACTED; QUALITY_AUDIT_PARTIAL; NOT_YET_ADOPTED",
+      "limitations": [
+        "Single hospital and five participants",
+        "Five of 13 eligible people consented; selection bias possible",
+        "Interviews about two years after visitation; recall bias acknowledged",
+        "Data saturation may not have been achieved",
+        "Qualitative categories are not prevalence estimates",
+        "No infection, clinical outcome, long-term mental health, or comparative intervention effects measured"
+      ],
+      "gate_status": {
+        "G0": "PASS",
+        "G1": "PASS",
+        "G2": "PARTIAL: user-uploaded publisher PDF inspected but not copied to public GitHub due copyright policy",
+        "G3": "PASS: all 11 pages inspected and 25 structured evidence rows extracted",
+        "G4": "PARTIAL: methods, sample, themes and recommendations extracted; independent second extraction and complete subcategory verification pending",
+        "G5": "PENDING: candidate not yet adopted"
+      },
+      "reference_registry_id": "SHIMOMURA_2026"
     }
   ],
   "extraction_file": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
@@ -561,11 +623,28 @@
     "status": "FULL_TEXT_EXTRACTION_COMPLETE_QUALITY_AUDIT_PARTIAL"
   },
   "shimomura_2026_retrieval_status": {
-    "status": "BLOCKED_BY_AVAILABLE_BROWSER_RETRIEVAL",
-    "checked_at_jst": "2026-11-25",
+    "status": "FULL_TEXT_RECEIVED_FROM_USER_AND_INSPECTED",
+    "checked_at_jst": "2026-11-25 (exact time not recorded)",
     "publisher_pdf_listed": true,
-    "pdf_size_kb": 706,
-    "full_text_obtained": false,
-    "abstract_only": true
+    "full_text_obtained": true,
+    "source": "User-uploaded ja.pdf, 11 pages",
+    "pages_inspected": "all 11 pages",
+    "public_repository_pdf_copy": false,
+    "reason_not_copied": "Copyrighted publisher PDF; structured extraction and bibliographic traceability only"
+  },
+  "shimomura_2026_dataset": {
+    "csv": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
+    "rows": 25,
+    "columns": 15,
+    "status": "FULL_TEXT_EXTRACTION_COMPLETE_QUALITY_AUDIT_PARTIAL"
+  },
+  "aggregate_extraction": {
+    "patient_family_rows": 186,
+    "patient_family_studies_fully_extracted": 6,
+    "healthcare_worker_rows": 51,
+    "healthcare_worker_studies_fully_extracted": 1,
+    "total_rows": 237,
+    "total_fully_extracted_studies": 7,
+    "note": "Structured evidence rows, not participant counts; totals reflect current six patient/family studies and one healthcare-worker study."
   }
 }
