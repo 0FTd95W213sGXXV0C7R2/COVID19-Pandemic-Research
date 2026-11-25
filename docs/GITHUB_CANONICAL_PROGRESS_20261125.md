@@ -273,3 +273,16 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 - Markdown報告書：`docs/analysis/rebuild_2026/ETHICAL_HARM_MITIGATION_EVALUATION_MATRIX_20261126.md`
 - 機械可読CSV：`data/processed/rebuild_2026/patient_family/ethical_harm_mitigation_evaluation_matrix_20261126.csv`
 - 本表は分析用の暫定対応表。軽減策の有効性評価・研究への最終採用判断は今後の課題。
+
+
+## 23. 2026-11-25 JST：Mori et al.（2026）補足資料の再取得監査
+
+- Mori et al.（2026）の出版社本文およびPMC収録ページを再確認し、Supplementary Material 1（XLSX）と2（DOCX）の個別ファイル名・リンク先を特定。
+- Material 1：`12910_2026_1442_MOESM1_ESM.xlsx`。本文Methodsでは全16項目の質問票として説明される。
+- Material 2：`12910_2026_1442_MOESM2_ESM.docx`。本文MethodsおよびData availabilityでは、記述統計に用いた匿名化施設単位データセットとコードブックとして説明される。再集計の主対象はMaterial 2、設問・分岐・回答選択肢の監査対象はMaterial 1。
+- 出版社個別リンク、直接ダウンロード、代替static-content URLで取得を試みたが、利用可能な取得環境ではCache miss／アクセス不可となり、両ファイルの実体取得は失敗。
+- ファイルのバイト列、サイズ、SHA-256、XLSXシート構造、DOCX内容は未確認。したがって「リンク・ファイル名特定済み／実ファイル未取得／内容未監査」とし、取得済み・抽出済み・照合済みとは扱わない。
+- 出版社本文からの追加確認事項：ECMO機器不足で一部患者に提供できなかった施設4/27（14.8%）、非COVID患者をECMOで優先した施設4/27（14.8%）。ECMO早期中止・短縮5/27（18.5%）と人工呼吸器早期中止・減量4/27（14.8%）は別項目として保持する。これらは本文集計値であり補足データ再集計値ではない。
+- 詳細監査を `docs/audits/MORI_2026_SUPPLEMENTARY_AUDIT.md` に追記。
+- 次工程：別経路またはユーザー提供ファイルで取得可能になった場合に両ファイルを検査し、質問票・データ・コードブック・本文Table 1–5の三者照合を行う。取得できない場合は本文報告値を補助証拠として維持し、ファイル内容を推測しない。
+- 監査文書更新コミット：`0cdb0812200fc25a9b4a0ff2a69e9308b109b2c5`。
