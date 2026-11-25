@@ -8,7 +8,17 @@
     {
       "source_id": "SHIRAISHI_2022",
       "title": "COVID-19蔓延下での担がん患者および患者家族，医療従事者への面会制限の心理的影響",
-      "authors": ["白石朝子", "安髙久美子", "木村恵", "鍋島直美", "伊藤誉人", "井手飛香", "近藤貴子", "尾崎彩子", "塚田順一"],
+      "authors": [
+        "白石朝子",
+        "安髙久美子",
+        "木村恵",
+        "鍋島直美",
+        "伊藤誉人",
+        "井手飛香",
+        "近藤貴子",
+        "尾崎彩子",
+        "塚田順一"
+      ],
       "journal": "Palliative Care Research",
       "volume_issue_pages": "17(2):65-70",
       "year": 2022,
@@ -19,9 +29,22 @@
       "design": "Single-center anonymous self-administered questionnaire; descriptive statistics; Mann-Whitney U test for ordinal group comparisons; content analysis of free text",
       "population": "Adults aged 20 or older with cancer admitted to one hospital and referred to its palliative care center, their family/primary caregivers, and their primary nurses",
       "responses": {
-        "patients": {"valid_n": 31, "consenting_n": 33, "eligible_after_exclusions_n": 184, "response_rate_among_consenters_percent": 93.9},
-        "families": {"n": 25, "denominator": 32, "response_rate_percent": 78.1},
-        "primary_nurses": {"n": 26, "denominator": 33, "response_rate_percent": 78.8}
+        "patients": {
+          "valid_n": 31,
+          "consenting_n": 33,
+          "eligible_after_exclusions_n": 184,
+          "response_rate_among_consenters_percent": 93.9
+        },
+        "families": {
+          "n": 25,
+          "denominator": 32,
+          "response_rate_percent": 78.1
+        },
+        "primary_nurses": {
+          "n": 26,
+          "denominator": 33,
+          "response_rate_percent": 78.8
+        }
       },
       "ethics_approval": "UOEHCRB20-153",
       "supplementary_materials": {
@@ -33,12 +56,25 @@
       },
       "source_sha256": null,
       "source_sha256_note": "Not calculated because the publisher PDF was not stored in the repository; no hash is claimed.",
-      "gate_status": {"G0": "PASS", "G1": "PASS", "G2": "PARTIAL: publisher PDF inspected but not retained due copyright/public-repository policy", "G3": "PARTIAL: main text and tables extracted; supplementary items pending", "G4": "PENDING", "G5": "PENDING"}
+      "gate_status": {
+        "G0": "PASS",
+        "G1": "PASS",
+        "G2": "PARTIAL: publisher PDF inspected but not retained due copyright/public-repository policy",
+        "G3": "PARTIAL: main text and tables extracted; supplementary items pending",
+        "G4": "PENDING",
+        "G5": "PENDING"
+      },
+      "accessed_at_jst": "2026-11-25T20:17:00+09:00",
+      "reference_registry_id": "SHIRAISHI_2022"
     },
     {
       "source_id": "MATSUMOTO_2022",
       "title": "新型コロナウイルス感染症の流行やそれに伴う面会制限によって看護師が家族に関わる際に抱く困難とその対応",
-      "authors": ["松本淳", "副島尭史", "上別府圭子"],
+      "authors": [
+        "松本淳",
+        "副島尭史",
+        "上別府圭子"
+      ],
       "journal": "家族看護学研究 / Japanese Journal of Research in Family Nursing",
       "volume_issue_pages": "28(1):15-29",
       "year": 2022,
@@ -49,12 +85,29 @@
       "recruitment_period": "2020-11 to 2020-12",
       "design": "Qualitative study using semi-structured interviews and Mayring qualitative content analysis",
       "population": "Certified nurse specialists recruited through purposive/network-based recruitment; eligibility required at least 3 years since certification and at least 1 year at current institution",
-      "sample": {"consented": 6, "approached_or_explained_to": 7},
-      "findings": {"difficulty_categories": 8, "context_units_for_difficulties": 16, "response_categories": 9, "context_units_for_responses": 26},
+      "sample": {
+        "consented": 6,
+        "approached_or_explained_to": 7
+      },
+      "findings": {
+        "difficulty_categories": 8,
+        "context_units_for_difficulties": 16,
+        "response_categories": 9,
+        "context_units_for_responses": 26
+      },
       "ethics_approval": "2020168NI (University of Tokyo Graduate School of Medicine / Faculty of Medicine ethics committee)",
       "source_sha256": null,
       "source_sha256_note": "Not calculated because the publisher PDF was not stored in the repository; no hash is claimed.",
-      "gate_status": {"G0": "PASS", "G1": "PASS", "G2": "PARTIAL: publisher PDF inspected but not retained due copyright/public-repository policy", "G3": "PASS for abstract, methods, tables 1-3 and limitations", "G4": "PENDING", "G5": "PENDING"}
+      "gate_status": {
+        "G0": "PASS",
+        "G1": "PASS",
+        "G2": "PARTIAL: publisher PDF inspected but not retained due copyright/public-repository policy",
+        "G3": "PASS for abstract, methods, tables 1-3 and limitations",
+        "G4": "PENDING",
+        "G5": "PENDING"
+      },
+      "accessed_at_jst": "2026-11-25T20:17:00+09:00",
+      "reference_registry_id": "MATSUMOTO_2022"
     }
   ],
   "extraction_file": "data/processed/rebuild_2026/patient_family/visitation_restrictions_evidence_extract_20261125.csv",
@@ -65,5 +118,8 @@
     "The Shiraishi study excluded patients with altered consciousness and severe depressive symptoms and used a non-randomized small sample.",
     "Matsumoto et al. used purposive/network recruitment of experienced specialists; categories do not estimate prevalence.",
     "The extracted intervention ideas are reported practices or qualitative suggestions, not demonstrated causal effects."
-  ]
+  ],
+  "accessed_at_jst": "2026-11-25T20:17:00+09:00",
+  "reference_registry": "data/metadata/rebuild_2026/patient_family/reference_registry_20261125.csv",
+  "reference_recording_policy": "All bibliographic references, including candidates considered, must have complete title, all authors in published order, publication metadata, identifiers, official landing page URL, full-text/PDF/supplement URLs, access timestamp JST, source type, verification state, and unresolved items in the central GitHub reference registry."
 }
