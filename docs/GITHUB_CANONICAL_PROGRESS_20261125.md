@@ -131,3 +131,11 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 - したがって、白石らの付録依存項目の抽出・G3/G4/G5は未完了のまま。研究採否も保留を維持。
 - 更新した正本：監査記録 docs/audits/rebuild_2026/PATIENT_FAMILY_VISITATION_EVIDENCE_AUDIT_20261125.md、出典マニフェスト data/metadata/rebuild_2026/patient_family/visitation_restrictions_source_manifest_20261125.json、文献台帳 data/metadata/rebuild_2026/patient_family/reference_registry_20261125.csv。
 - J-STAGE公式資料は電子付録の登録仕様と独立DOIが付与されないことを説明するが、当該論文の個別付録URLを特定するものではない。
+
+
+## 9. 2026-11-25 20:21 JST 追加進捗：意思決定・ACPの候補文献登録
+
+- 石原ら（2024）「COVID-19の治療に関するインフォームド・コンセントにおける倫理的課題についての実態調査」を一次資料J-STAGEで確認。
+- 質問紙回答は患者72名・家族53名、インタビューは患者6名・家族4名。感染対策下の同意説明、患者の意思表示、家族の代諾、ACPを扱う。
+- 面会制限に限定した研究ではないため、面会制限研究とは分けた補助候補として登録。全文抽出・品質監査・採否は未完了。
+- 書誌情報は文献台帳・出典マニフェストに登録済み。候補文献の確認日時は2026-11-25 20:21 JST。
