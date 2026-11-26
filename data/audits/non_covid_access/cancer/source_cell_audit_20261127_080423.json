@@ -1,0 +1,152 @@
+{
+  "audit": "NCC_SOURCE_CELL_VERIFICATION",
+  "started_at_jst": "2026-11-27T08:04:23.093062+09:00",
+  "finished_at_jst": "2026-11-27T08:05:26.878579+09:00",
+  "elapsed_seconds": 63.79,
+  "parser": "xlrd 2.0.2",
+  "input_file": "ncc_annual_long_2017_2024.csv.gz",
+  "input_sha256": "525d33421dcc1d1d288341346cb4f219feaf538887c19f7a2cf7305c01b23812",
+  "expected_rows": 1730865,
+  "absolute_numeric_tolerance": 1e-07,
+  "counts": {
+    "rows": 1730865,
+    "cells_read": 1730865,
+    "passed_rows": 1730865
+  },
+  "unique_source_cells": 1730865,
+  "referenced_sources": [
+    "cancer_incidenceNCR(2016-2023).xls",
+    "pref_AllCancer_mortality(1995-2024).xls",
+    "pref_CancerSite_mortalityASR75(1995-2024).xls",
+    "pref_cancer_incidenceNCR(2016-2023).xls"
+  ],
+  "source_sha256": {
+    "cancer_incidenceNCR(2016-2023).xls": "0b738a50d4549d47ed8b434c841e9769f6f616b7bcc00092f75c499985931212",
+    "pref_AllCancer_mortality(1995-2024).xls": "4545b00ab61dd636d758ef9d39ea765120a2168fe25277471df045cfd86e934f",
+    "pref_CancerSite_mortalityASR75(1995-2024).xls": "6dd4956583b6162bb870c02f7d9bc58a4d0492f16fd20e9be2abc7c8a7e3246b",
+    "cancer_mortality(1979-2024)H27.xls": "a1f8a171dd1d68dc45977aa4ceba1b1e489c921576a8f3ddf5fe6a44df372c4d",
+    "cancer_mortality(1958-2024).xls": "ca8e2a5a415e84b4c12a9cc55ec05cf789c1901a040f6f25986a8af89de7213c",
+    "pref_cancer_incidenceNCR(2016-2023).xls": "f2f514f223cc4cb13e544e3f57b205205016ffeae49cf2584c2dc4707f620adc"
+  },
+  "source_load_errors": [
+    {
+      "source": "cancer_mortality(1979-2024)H27.xls",
+      "error": "Workbook is encrypted"
+    },
+    {
+      "source": "cancer_mortality(1958-2024).xls",
+      "error": "Workbook is encrypted"
+    }
+  ],
+  "value_status_counts": {
+    "reported": 1240338,
+    "reported_zero": 438860,
+    "dash_unresolved": 51667
+  },
+  "by_source": {
+    "pref_AllCancer_mortality(1995-2024).xls": {
+      "rows": 73728,
+      "cells_read": 73728,
+      "passed_rows": 73728
+    },
+    "pref_CancerSite_mortalityASR75(1995-2024).xls": {
+      "rows": 16512,
+      "cells_read": 16512,
+      "passed_rows": 16512
+    },
+    "cancer_incidenceNCR(2016-2023).xls": {
+      "rows": 48993,
+      "cells_read": 48993,
+      "passed_rows": 48993
+    },
+    "pref_cancer_incidenceNCR(2016-2023).xls": {
+      "rows": 1591632,
+      "cells_read": 1591632,
+      "passed_rows": 1591632
+    }
+  },
+  "by_sheet": {
+    "pref_AllCancer_mortality(1995-2024).xls::number": {
+      "rows": 27648,
+      "cells_read": 27648,
+      "passed_rows": 27648
+    },
+    "pref_AllCancer_mortality(1995-2024).xls::rate": {
+      "rows": 21888,
+      "cells_read": 21888,
+      "passed_rows": 21888
+    },
+    "pref_AllCancer_mortality(1995-2024).xls::pop": {
+      "rows": 23040,
+      "cells_read": 23040,
+      "passed_rows": 23040
+    },
+    "pref_AllCancer_mortality(1995-2024).xls::asr75": {
+      "rows": 1152,
+      "cells_read": 1152,
+      "passed_rows": 1152
+    },
+    "pref_CancerSite_mortalityASR75(1995-2024).xls::asr75": {
+      "rows": 16512,
+      "cells_read": 16512,
+      "passed_rows": 16512
+    },
+    "cancer_incidenceNCR(2016-2023).xls::number": {
+      "rows": 18200,
+      "cells_read": 18200,
+      "passed_rows": 18200
+    },
+    "cancer_incidenceNCR(2016-2023).xls::rate": {
+      "rows": 18200,
+      "cells_read": 18200,
+      "passed_rows": 18200
+    },
+    "cancer_incidenceNCR(2016-2023).xls::asr": {
+      "rows": 2184,
+      "cells_read": 2184,
+      "passed_rows": 2184
+    },
+    "cancer_incidenceNCR(2016-2023).xls::pop": {
+      "rows": 525,
+      "cells_read": 525,
+      "passed_rows": 525
+    },
+    "cancer_incidenceNCR(2016-2023).xls::detail": {
+      "rows": 9884,
+      "cells_read": 9884,
+      "passed_rows": 9884
+    },
+    "pref_cancer_incidenceNCR(2016-2023).xls::number": {
+      "rows": 838656,
+      "cells_read": 838656,
+      "passed_rows": 838656
+    },
+    "pref_cancer_incidenceNCR(2016-2023).xls::rate": {
+      "rows": 663936,
+      "cells_read": 663936,
+      "passed_rows": 663936
+    },
+    "pref_cancer_incidenceNCR(2016-2023).xls::asrW": {
+      "rows": 34944,
+      "cells_read": 34944,
+      "passed_rows": 34944
+    },
+    "pref_cancer_incidenceNCR(2016-2023).xls::asrJ": {
+      "rows": 34944,
+      "cells_read": 34944,
+      "passed_rows": 34944
+    },
+    "pref_cancer_incidenceNCR(2016-2023).xls::pop": {
+      "rows": 19152,
+      "cells_read": 19152,
+      "passed_rows": 19152
+    }
+  },
+  "all_pass": true,
+  "issue_file": "source_cell_issues_20261127_080423.csv.gz",
+  "issue_file_sha256": "1698ab3d80fdcc7c8a4ea8f3a4fc7319bfce292bbdf3be8259b16043f85a2be3",
+  "analytical_adoption": "PENDING_QA",
+  "source_modified": false,
+  "imputation_performed": false,
+  "github_uploaded": false
+}
