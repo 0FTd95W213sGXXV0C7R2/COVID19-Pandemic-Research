@@ -1,0 +1,258 @@
+{
+  "started_jst": "2026-11-27T08:35:26+09:00",
+  "finished_jst": "2026-11-27T08:36:30+09:00",
+  "integrity": {
+    "match": 75,
+    "readable": 95,
+    "no_baseline": 22,
+    "encrypted": 2
+  },
+  "national": {
+    "counts": {
+      "rows": 1730865,
+      "raw_match": 1730865,
+      "numeric_match": 1730865
+    },
+    "metadata": {
+      "year:checked": 1730865,
+      "scope:checked": 1730865,
+      "raw_age:checked": 1730865,
+      "source_sha256:checked": 1730865,
+      "measure:checked": 1730865,
+      "prefecture:checked": 1681872,
+      "prefecture_code:checked": 1681872,
+      "sex_raw:checked": 1730865,
+      "unit:checked": 1730865,
+      "sex:checked": 1730865,
+      "age:checked": 1730865,
+      "reprint:checked": 1730865,
+      "standardized:checked": 1730865,
+      "normalized_measure:checked": 1730865,
+      "period_type:checked": 1730865,
+      "value_status:checked": 1730865,
+      "site:checked": 1637460,
+      "site_code:checked": 1627576,
+      "icd10:checked": 1620948,
+      "standard_population_raw:checked": 72072
+    },
+    "coverage": {
+      "pref_AllCancer_mortality(1995-2024).xls|number": {
+        "observed": 27648,
+        "missing_source_cells": 0,
+        "in_scope_seen": 27648
+      },
+      "pref_AllCancer_mortality(1995-2024).xls|rate": {
+        "observed": 21888,
+        "missing_source_cells": 0,
+        "in_scope_seen": 21888
+      },
+      "pref_AllCancer_mortality(1995-2024).xls|pop": {
+        "observed": 23040,
+        "missing_source_cells": 0,
+        "in_scope_seen": 23040
+      },
+      "pref_AllCancer_mortality(1995-2024).xls|asr75": {
+        "observed": 1152,
+        "missing_source_cells": 0,
+        "in_scope_seen": 1152
+      },
+      "pref_CancerSite_mortalityASR75(1995-2024).xls|asr75": {
+        "observed": 16512,
+        "missing_source_cells": 0,
+        "in_scope_seen": 16512
+      },
+      "cancer_incidenceNCR(2016-2023).xls|number": {
+        "observed": 18200,
+        "missing_source_cells": 0,
+        "in_scope_seen": 18200
+      },
+      "cancer_incidenceNCR(2016-2023).xls|rate": {
+        "observed": 18200,
+        "missing_source_cells": 0,
+        "in_scope_seen": 18200
+      },
+      "cancer_incidenceNCR(2016-2023).xls|asr": {
+        "observed": 2184,
+        "missing_source_cells": 0,
+        "in_scope_seen": 2184
+      },
+      "cancer_incidenceNCR(2016-2023).xls|pop": {
+        "observed": 525,
+        "missing_source_cells": 0,
+        "in_scope_seen": 525
+      },
+      "cancer_incidenceNCR(2016-2023).xls|detail": {
+        "observed": 9884,
+        "missing_source_cells": 0,
+        "in_scope_seen": 9884
+      },
+      "pref_cancer_incidenceNCR(2016-2023).xls|number": {
+        "observed": 838656,
+        "missing_source_cells": 0,
+        "in_scope_seen": 838656
+      },
+      "pref_cancer_incidenceNCR(2016-2023).xls|rate": {
+        "observed": 663936,
+        "missing_source_cells": 0,
+        "in_scope_seen": 663936
+      },
+      "pref_cancer_incidenceNCR(2016-2023).xls|asrW": {
+        "observed": 34944,
+        "missing_source_cells": 0,
+        "in_scope_seen": 34944
+      },
+      "pref_cancer_incidenceNCR(2016-2023).xls|asrJ": {
+        "observed": 34944,
+        "missing_source_cells": 0,
+        "in_scope_seen": 34944
+      },
+      "pref_cancer_incidenceNCR(2016-2023).xls|pop": {
+        "observed": 19152,
+        "missing_source_cells": 0,
+        "in_scope_seen": 19152
+      }
+    },
+    "arithmetic": {
+      "mortality_prefecture:match": 20736,
+      "mortality_prefecture:held": 8064,
+      "incidence_national:match": 16296,
+      "incidence_national:held": 1904,
+      "incidence_prefecture:match": 619248,
+      "incidence_prefecture:held": 219408,
+      "mortality_prefecture:ASR:japan_1985:match": 1152,
+      "mortality_site_prefecture:held_no_age_specific_counts": 16512,
+      "incidence_national:ASR:world_segi_1960:match": 679,
+      "incidence_national:ASR:world_segi_1960:held": 49,
+      "incidence_national:ASR:japan_1985:match": 679,
+      "incidence_national:ASR:japan_1985:held": 49,
+      "incidence_national:ASR:japan_2015:approximation:match": 679,
+      "incidence_national:ASR:japan_2015:approximation:held": 49,
+      "incidence_prefecture:ASR:world_segi_1960:match": 32592,
+      "incidence_prefecture:ASR:world_segi_1960:held": 2352,
+      "incidence_prefecture:ASR:japan_1985:match": 32592,
+      "incidence_prefecture:ASR:japan_1985:held": 2352,
+      "national_vs_prefecture:match": 25304,
+      "national_vs_prefecture:difference": 5468,
+      "national_vs_prefecture:held": 931
+    },
+    "absolute_tolerance": 1e-07,
+    "age_standardized": "2015 is approximate; site mortality not recalculated",
+    "extract_hash_matches": true
+  },
+  "hbcr": {
+    "files": {
+      "HBCR_2022_discovery_page124.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 260,
+        "rows": 260,
+        "page_token_found": 260,
+        "table_reconciliation": {
+          "match": 260,
+          "source_keys_in_selected_pages": 260,
+          "source_keys_absent_from_extract": 0
+        }
+      },
+      "HBCR_2022_discovery_page125.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 480,
+        "rows": 480,
+        "page_token_found": 480,
+        "table_reconciliation": {
+          "match": 480,
+          "source_keys_in_selected_pages": 480,
+          "source_keys_absent_from_extract": 0
+        }
+      },
+      "HBCR_2022_prostate_monthly.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 120,
+        "rows": 120,
+        "page_token_found": 120,
+        "table_reconciliation": {
+          "match": 120,
+          "source_keys_in_selected_pages": 120,
+          "source_keys_absent_from_extract": 0
+        }
+      },
+      "HBCR_2022_stage_counts.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 255,
+        "rows": 255,
+        "page_token_found": 255,
+        "table_reconciliation": {
+          "match": 255,
+          "source_keys_in_selected_pages": 255,
+          "source_keys_absent_from_extract": 0
+        }
+      },
+      "HBCR_2022_treatment_monthly.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 300,
+        "rows": 300,
+        "page_token_found": 300,
+        "table_reconciliation": {
+          "match": 300,
+          "source_keys_in_selected_pages": 325,
+          "source_keys_absent_from_extract": 25
+        }
+      },
+      "HBCR_2022_treatment_annual.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 25,
+        "rows": 25,
+        "page_token_found": 25,
+        "table_reconciliation": {
+          "match": 25,
+          "source_keys_in_selected_pages": 325,
+          "source_keys_absent_from_extract": 300
+        }
+      },
+      "HBCR_2022_site_treatment_annual.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 210,
+        "rows": 210,
+        "page_token_found": 210,
+        "table_reconciliation": {
+          "denominator_checked": 210,
+          "denominator_mismatch": 0,
+          "rate_checked": 210,
+          "rate_mismatch": 0,
+          "match": 210,
+          "source_keys_in_selected_pages": 210,
+          "source_keys_absent_from_extract": 0
+        }
+      },
+      "HBCR_2023_stage_counts.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 210,
+        "rows": 210,
+        "page_token_found": 210,
+        "table_reconciliation": {
+          "match": 210,
+          "source_keys_in_selected_pages": 210,
+          "source_keys_absent_from_extract": 0
+        }
+      },
+      "HBCR_2023_discovery_annual.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 40,
+        "rows": 40,
+        "page_token_found": 40,
+        "table_reconciliation": {
+          "match": 40,
+          "source_keys_in_selected_pages": 40,
+          "source_keys_absent_from_extract": 0
+        }
+      },
+      "HBCR_treatment_interval_candidates.csv": {
+        "status": "PARTIALLY_REPRODUCED",
+        "expected_reference": 29,
+        "rows": 29,
+        "page_token_found": 29
+      }
+    },
+    "limit": "Table counts and keys checked where layout is recognized. Additional PDF keys can include out-of-scope sections; denominator and interval definitions remain pending."
+  },
+  "status": "PENDING_QA",
+  "code_sha256": "b016e5ab2368ad1b3ca70876d08cd6baa68d0aef208c5d79b1a44403a94f40e4"
+}

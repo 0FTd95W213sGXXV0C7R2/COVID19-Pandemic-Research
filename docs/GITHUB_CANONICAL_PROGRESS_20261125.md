@@ -685,3 +685,9 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 ## 2026-11-27 JST — cancer QA stages 1–10
 
 Colab source-cell audit completed 08:05:26 JST: 1,730,865/1,730,865 rows passed, 15 sheets across four workbooks, zero issue rows, unique cells 1,730,865. Input SHA256 matches preservation audit. Report independently retrieved from Drive and verified against GitHub copy: `data/audits/non_covid_access/cancer/source_cell_audit_20261127_080423.json`. Two unreferenced national mortality workbooks encrypted and held. Cell audit does not establish completeness or semantic label correctness. Stages 1–9 recorded under `docs/audits/rebuild_2026/cancer_national_qa_stage{1..9}_20261127.md`; 1985 and Segi ASR internal checks recorded, 2015 approximation and missingness held. Next: semantic labels and extraction coverage, national detail, HBCR QA, analytical eligibility. Public redistribution rights pending; no raw dataset publication. PENDING_QA.
+
+## 51. 2026-11-27 JST 追加進捗：がん統計の独立統合監査
+
+- Driveの対象91件を確認。既存台帳の75件でハッシュ一致。HBCR関連16件は現状ハッシュを保存、暗号化Excel2件は未読。
+- 全国統計1,730,865行の原値・数値と対象15シートの対象範囲を独立照合。HBCRの表1,900行は一致、治療開始期間29件は定義保留。2019・2020・2022・2023年の報告書・訂正PDFは公式版と8件一致。
+- 全国と都道府県表の全国欄の差、HBCRの訂正省略分、治療開始期間の定義、利用条件の確認を継続。 [統合監査報告書](../data/audits/non_covid_access/cancer/integrated_20261127/audit_report.md)

@@ -1,0 +1,6 @@
+{"at_jst": "2026-11-27T08:35:26+09:00", "phase": "integrity", "status": "started"}
+{"at_jst": "2026-11-27T08:35:30+09:00", "phase": "integrity", "status": "finished"}
+{"at_jst": "2026-11-27T08:35:30+09:00", "phase": "national", "status": "started"}
+{"at_jst": "2026-11-27T08:36:19+09:00", "phase": "national", "status": "finished"}
+{"at_jst": "2026-11-27T08:36:24+09:00", "phase": "hbcr", "status": "finished"}
+{"at_jst": "2026-11-27T08:36:30+09:00", "phase": "errata", "status": "finished"}

@@ -1,0 +1,551 @@
+[
+  {
+    "filename": "cancer_mortality(1958-2024).xls",
+    "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/cancer_mortality(1958-2024).xls",
+    "institution": "国立がん研究センター",
+    "bytes": 3192320,
+    "sha256": "ca8e2a5a415e84b4c12a9cc55ec05cf789c1901a040f6f25986a8af89de7213c",
+    "retrieved_at_jst": "2026-11-26T21:15:12.341750+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "cancer_mortality(1979-2024)H27.xls",
+    "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/cancer_mortality(1979-2024)H27.xls",
+    "institution": "国立がん研究センター",
+    "bytes": 2415616,
+    "sha256": "a1f8a171dd1d68dc45977aa4ceba1b1e489c921576a8f3ddf5fe6a44df372c4d",
+    "retrieved_at_jst": "2026-11-26T21:15:13.462892+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "pref_AllCancer_mortality(1995-2024).xls",
+    "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/pref_AllCancer_mortality(1995-2024).xls",
+    "institution": "国立がん研究センター",
+    "bytes": 4191744,
+    "sha256": "4545b00ab61dd636d758ef9d39ea765120a2168fe25277471df045cfd86e934f",
+    "retrieved_at_jst": "2026-11-26T21:15:14.596381+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "pref_CancerSite_mortalityASR75(1995-2024).xls",
+    "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/pref_CancerSite_mortalityASR75(1995-2024).xls",
+    "institution": "国立がん研究センター",
+    "bytes": 3485696,
+    "sha256": "6dd4956583b6162bb870c02f7d9bc58a4d0492f16fd20e9be2abc7c8a7e3246b",
+    "retrieved_at_jst": "2026-11-26T21:15:15.698023+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "cancer_incidenceNCR(2016-2023).xls",
+    "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/cancer_incidenceNCR(2016-2023).xls",
+    "institution": "国立がん研究センター",
+    "bytes": 1187328,
+    "sha256": "0b738a50d4549d47ed8b434c841e9769f6f616b7bcc00092f75c499985931212",
+    "retrieved_at_jst": "2026-11-26T21:15:16.553869+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "pref_cancer_incidenceNCR(2016-2023).xls",
+    "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/pref_cancer_incidenceNCR(2016-2023).xls",
+    "institution": "国立がん研究センター",
+    "bytes": 29833216,
+    "sha256": "f2f514f223cc4cb13e544e3f57b205205016ffeae49cf2584c2dc4707f620adc",
+    "retrieved_at_jst": "2026-11-26T21:15:20.905507+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2023_report.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_report.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 4329879,
+    "sha256": "e5c14d371ae9ecc8a458b614178b860c691942ac8fd7fe9ffaf2e7a555380146",
+    "retrieved_at_jst": "2026-11-26T21:15:22.300621+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2023_fuhyo1-2.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_fuhyo1-2.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 386641,
+    "sha256": "01f697df6867845f7847e56d325d11b600c797f2845b8ecd725b460daa4d9e77",
+    "retrieved_at_jst": "2026-11-26T21:15:23.153032+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2023_fuhyo1-3.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_fuhyo1-3.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 383073,
+    "sha256": "f9b822ce79e42ffbd52a3dac7370492ea43a3fd9c5e4a41ad382668f5cdf5f9b",
+    "retrieved_at_jst": "2026-11-26T21:15:24.030636+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2023_fuhyo2-1.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_fuhyo2-1.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 428949,
+    "sha256": "26d710d8a5f2057cb9e0b80f20ec340947aad2456492c97da01aef228d0b6050",
+    "retrieved_at_jst": "2026-11-26T21:15:25.112422+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2023_fuhyo2-3.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_fuhyo2-3.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 305887,
+    "sha256": "03233de11a997c4d6dbf4bdfad8f5b1793829571bfda0ef21069a9e411d940ca",
+    "retrieved_at_jst": "2026-11-26T21:15:25.967019+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2023_syusei.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_syusei.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 192186,
+    "sha256": "0a7ad3d9d3bb03d8a36add7f7e14891f08f37a6c8584f85311351ac87be9eac3",
+    "retrieved_at_jst": "2026-11-26T21:15:26.807991+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2022_report.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_report.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 5764477,
+    "sha256": "adb7bb894af9f077053d4335f3a5c3080e5b8cdc3220db5b8577f7b890faf349",
+    "retrieved_at_jst": "2026-11-26T21:15:28.673566+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2022_fuhyo01_kyoten.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_fuhyo01_kyoten.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 202989,
+    "sha256": "0183cbb8c74b796942e4f2b1e8b48164281c37d0253aa790efa70fff6d7181c6",
+    "retrieved_at_jst": "2026-11-26T21:15:29.568088+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2022_fuhyo01_kyotengai.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_fuhyo01_kyotengai.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 222042,
+    "sha256": "151b36a873406774ca1ed021bd3ab4b870b2e6ab53e468c82c34b190339cb42c",
+    "retrieved_at_jst": "2026-11-26T21:15:30.403649+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2022_fuhyo02_kyoten.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_fuhyo02_kyoten.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 335613,
+    "sha256": "88e82ff11959cc90e442bf753ec6e0759e83b135092f68ce32d28c62d8201796",
+    "retrieved_at_jst": "2026-11-26T21:15:31.519265+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2022_fuhyo02_kyotengai.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_fuhyo02_kyotengai.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 304180,
+    "sha256": "985ccc6662428543edee3791ce56e85f3ee7501faa6482b76a1881de37c6f9a3",
+    "retrieved_at_jst": "2026-11-26T21:15:32.378014+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2022_syusei.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_syusei.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 225223,
+    "sha256": "c0479f8021b3c5c614777fec1f98d1e1e6c1d0c5f435a94d51b05b2e040fb693",
+    "retrieved_at_jst": "2026-11-26T21:15:33.203439+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2021_report_02.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_report_02.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 4429277,
+    "sha256": "e08a929f9dc6839ba9c8f19ebebc3e8af7140374583a0a295f1bce0427811c83",
+    "retrieved_at_jst": "2026-11-26T21:15:35.082762+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2021_shisetsubetsu_report00_fuhyo01.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_shisetsubetsu_report00_fuhyo01.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 347368,
+    "sha256": "8b32cefe33bd664c9766e661ab187c5de59972d4327933c6c515f34bb865f991",
+    "retrieved_at_jst": "2026-11-26T21:15:35.939935+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2021_pref_shisetsubetsu_report00_fuhyo01.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_pref_shisetsubetsu_report00_fuhyo01.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 384229,
+    "sha256": "86d75ec74540c9b4a8a6489e209b6ed68c3ade980d9f2ddb2a66077eccf4e529",
+    "retrieved_at_jst": "2026-11-26T21:15:37.014587+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2021vol_shisetsubetsu_report00_fuhyo01.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021vol_shisetsubetsu_report00_fuhyo01.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 251807,
+    "sha256": "fac236e4aaa62ce3aac9644a66522d72b5bb9dfbac3bbda1d0ed16b940a81f16",
+    "retrieved_at_jst": "2026-11-26T21:15:37.846136+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2021_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 390379,
+    "sha256": "aeaef73d90a1e0f0b5f5ece1d4a880994647266b220f5dce7ac3aba0266b57c1",
+    "retrieved_at_jst": "2026-11-26T21:15:38.941604+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2021_pref_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_pref_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 317694,
+    "sha256": "ee0d9793270f7afb95c9acd56e3164f3d45569add2a009c2900223e21271528e",
+    "retrieved_at_jst": "2026-11-26T21:15:39.772552+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2021vol_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021vol_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 238871,
+    "sha256": "11f0c9c2635cccfe34c4f836bb1670925b6a6255171a9bd3a6b84517f553388e",
+    "retrieved_at_jst": "2026-11-26T21:15:40.618659+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2021_syusei.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_syusei.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 104696,
+    "sha256": "b9107e7f1d44fa5112b30d40b33ecb4b6e7ebcd2342f1f34252d29098fe6cf5d",
+    "retrieved_at_jst": "2026-11-26T21:15:41.442797+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2021_report.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_report.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 2052731,
+    "sha256": "a4bcd2333c95705160a04321067a93e7f88b02f8f507789876e31b8ee1d68c83",
+    "retrieved_at_jst": "2026-11-26T21:15:43.269207+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2020_report.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_report.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 3876291,
+    "sha256": "c6afbf614961b83a20fd442ccf3fc96ebc49e01357f44194c232fc7c241aa74f",
+    "retrieved_at_jst": "2026-11-26T21:15:44.690056+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2020_report_add.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_report_add.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 291310,
+    "sha256": "934537c3bc8350a4ec26642f3749edce125e0d096117ce322ee4f8aeffb848ea",
+    "retrieved_at_jst": "2026-11-26T21:15:45.519085+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2020_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 347161,
+    "sha256": "3c156acd24329c8cc354650a176ca30961c11a442aa7b9c2d2b0b9b8e666d37a",
+    "retrieved_at_jst": "2026-11-26T21:15:46.347889+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2020_pref_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_pref_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 333978,
+    "sha256": "9b14425d02a834504fa6db341e3c13180be56f7ac6a479c532e8d06f164fa940",
+    "retrieved_at_jst": "2026-11-26T21:15:47.215532+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2020vol_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020vol_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 181573,
+    "sha256": "15ce1aba3ccaa5547c886a83e4fc3e1b150bf486b963e6383f46596c7fb40f17",
+    "retrieved_at_jst": "2026-11-26T21:15:48.044402+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2020_syusei.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_syusei.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 268648,
+    "sha256": "b8a22b247b120a04539e3e50bbeb33bc71c08bb2e457e994a00e1aed518fd012",
+    "retrieved_at_jst": "2026-11-26T21:15:49.111518+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2019_report.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_report.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 7493194,
+    "sha256": "c483e8485740e9707c9dbd65326510b57f6dd0abc65acf6bc29d74577865c7dc",
+    "retrieved_at_jst": "2026-11-26T21:15:51.254788+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2019_report_add.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_report_add.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 921325,
+    "sha256": "3393133001bae6ea3649f320a1781646f6fd4f0b00c1fadc53db823558f15e0e",
+    "retrieved_at_jst": "2026-11-26T21:15:52.333899+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2019_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 419229,
+    "sha256": "8f306598712a10a6b32afd5d75ad507dce2aab179580dc9c423418e07750b45a",
+    "retrieved_at_jst": "2026-11-26T21:15:53.198236+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2019_pref_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_pref_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 409466,
+    "sha256": "45dc2394f0dc08661012e18d0510c0bb9d0846e0b30f3dea5178b9b0ea35baca",
+    "retrieved_at_jst": "2026-11-26T21:15:54.030322+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2019_vol_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_vol_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 253761,
+    "sha256": "0bafee162d70f6b81f26cd6940674bc738dae9212f97d5c1913fecba4e0cac12",
+    "retrieved_at_jst": "2026-11-26T21:15:54.865914+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2019_syusei.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_syusei.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 216786,
+    "sha256": "0c8b231769a16b294b0c94ef40ebc9198dd408dc6c363b8613d55927e6b06cc2",
+    "retrieved_at_jst": "2026-11-26T21:15:55.721843+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2018_report.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_report.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 3314860,
+    "sha256": "6aed42adff0b9317c0a167daf9fef648a11e41b2b751a077ba1436ef942919f1",
+    "retrieved_at_jst": "2026-11-26T21:15:57.352646+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2018_report_add.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_report_add.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 3520823,
+    "sha256": "2056d3bd21ebf268550b064067af4ea60ba3abb52646ce2c21a0b672173451a9",
+    "retrieved_at_jst": "2026-11-26T21:15:58.729076+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2018_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 33501822,
+    "sha256": "fc0d5d8746ab01b2a6ca9b46c2240aeb669def3087e9904f6ff3f9f475ff0b84",
+    "retrieved_at_jst": "2026-11-26T21:16:02.860535+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2018_pref_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_pref_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 21296757,
+    "sha256": "84b0cef674e5a7a212d7d36e5170b6f0176c23687c04f79c4143df564589d4f8",
+    "retrieved_at_jst": "2026-11-26T21:16:06.101296+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2018_vol_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_vol_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 5813120,
+    "sha256": "967cc7ad65889e6af9596a44110fee40348ef813c323aaf7f9c63e7a9f9c326a",
+    "retrieved_at_jst": "2026-11-26T21:16:07.753787+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2018_shusei.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_shusei.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 153413,
+    "sha256": "7adb6e6963b2a35c5b8d62b94940f45dc3177441f6d3ff4fd411ce60bde726c7",
+    "retrieved_at_jst": "2026-11-26T21:16:08.607205+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2017_report.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_report.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 5394383,
+    "sha256": "0cca923dd5a99b4bea55c770d4953b2360de73138e2ae89892c66a9fd94c818d",
+    "retrieved_at_jst": "2026-11-26T21:16:10.513340+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2017_report_add.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_report_add.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 881537,
+    "sha256": "5d8884551f4d30920f7b29ed091928447a761f061b13effcdecfdb1988af6e61",
+    "retrieved_at_jst": "2026-11-26T21:16:11.641574+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2017_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 137577635,
+    "sha256": "8ce149078621b1638a7a035139c03ab1c4df5b69adb7ff7c535896c9e7572dd1",
+    "retrieved_at_jst": "2026-11-26T21:16:26.806716+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2017_pref_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_pref_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 94262441,
+    "sha256": "698c3f418863aa2855be7dc7518a6bce88fbdf99693b3a274c9a2917839cc4a1",
+    "retrieved_at_jst": "2026-11-26T21:16:38.831058+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2017_vol_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_vol_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 31851483,
+    "sha256": "43790a528baacd128147f61a1557c881d93769363bcea5ca78007d6252b8ebc5",
+    "retrieved_at_jst": "2026-11-26T21:16:43.447430+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2017_shusei.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_shusei.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 187369,
+    "sha256": "03ac9f82e8ac5cb137c067f6dae53482ca0a9095980285a4873e59c0c839b526",
+    "retrieved_at_jst": "2026-11-26T21:16:44.292028+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2016_report.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_report.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 7432222,
+    "sha256": "b7f24c5fdfc1b25e642a6aca113c44f8229786426c29a41dd8969331c859250f",
+    "retrieved_at_jst": "2026-11-26T21:16:46.354818+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2016_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 116028881,
+    "sha256": "035e398254ccfa382af56aefed49f16cbcf267f3fee9d87a39f8537bae3204b5",
+    "retrieved_at_jst": "2026-11-26T21:16:58.706623+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2016_pref_shisetsubetsu_report00.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_pref_shisetsubetsu_report00.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 129246658,
+    "sha256": "20004ab4fb7d193e58094e13a56740e0a942e02b5ed316d25dda28b94a481ba9",
+    "retrieved_at_jst": "2026-11-26T21:17:13.534514+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2016_revision_history.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_revision_history.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 179661,
+    "sha256": "cab0cc3f88c6ae7d0d60ab5f5491d9218afd2f25d6f0bcba4e88815c7f3d0fe3",
+    "retrieved_at_jst": "2026-11-26T21:17:14.628384+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2018_2019_icccaya.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_2019_icccaya.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 863927,
+    "sha256": "e6017ed96629762df667896cc287be1c024763e84df2ee370232c4f5ff880130",
+    "retrieved_at_jst": "2026-11-26T21:17:15.955701+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2018_2019_icccaya_appendix01.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_2019_icccaya_appendix01.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 313892,
+    "sha256": "0216d7a2c35831e0c9674e1f977ca44e528ae42c030ec449827b52596d1288a4",
+    "retrieved_at_jst": "2026-11-26T21:17:16.801312+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2018_2019_icccaya_appendix02.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_2019_icccaya_appendix02.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 1164046,
+    "sha256": "2b7ea24f531f1cce8dfb2c06a98f7a37ac9e12233e0b95b30cc6743c4861828a",
+    "retrieved_at_jst": "2026-11-26T21:17:18.166091+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2016_2017_icccaya.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_2017_icccaya.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 2961144,
+    "sha256": "f1e432e3ae2620513b209703743cef857d1f304ed4f0f9154c6737da8baa8b68",
+    "retrieved_at_jst": "2026-11-26T21:17:19.589825+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "2016_2017_icccaya_shusei.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_2017_icccaya_shusei.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 413224,
+    "sha256": "bcd4e086511394dac6a8497fd2f99d7a4f42c5fa578c7dab96e40edc26916bb6",
+    "retrieved_at_jst": "2026-11-26T21:17:20.427626+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  },
+  {
+    "filename": "new2017_tokubetsu.pdf",
+    "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/new2017_tokubetsu.pdf",
+    "institution": "国立がん研究センター",
+    "bytes": 782931,
+    "sha256": "715e63afaa46594886741959f8544fc0b9b6b19fe01fc623ae4f2a6bfdcd95ad",
+    "retrieved_at_jst": "2026-11-26T21:17:21.518402+09:00",
+    "redistribution_status": "PENDING_REVIEW"
+  }
+]

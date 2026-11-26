@@ -1,0 +1,23 @@
+{
+  "mortality_prefecture:match": 20736,
+  "mortality_prefecture:held": 8064,
+  "incidence_national:match": 16296,
+  "incidence_national:held": 1904,
+  "incidence_prefecture:match": 619248,
+  "incidence_prefecture:held": 219408,
+  "mortality_prefecture:ASR:japan_1985:match": 1152,
+  "mortality_site_prefecture:held_no_age_specific_counts": 16512,
+  "incidence_national:ASR:world_segi_1960:match": 679,
+  "incidence_national:ASR:world_segi_1960:held": 49,
+  "incidence_national:ASR:japan_1985:match": 679,
+  "incidence_national:ASR:japan_1985:held": 49,
+  "incidence_national:ASR:japan_2015:approximation:match": 679,
+  "incidence_national:ASR:japan_2015:approximation:held": 49,
+  "incidence_prefecture:ASR:world_segi_1960:match": 32592,
+  "incidence_prefecture:ASR:world_segi_1960:held": 2352,
+  "incidence_prefecture:ASR:japan_1985:match": 32592,
+  "incidence_prefecture:ASR:japan_1985:held": 2352,
+  "national_vs_prefecture:match": 25304,
+  "national_vs_prefecture:difference": 5468,
+  "national_vs_prefecture:held": 931
+}

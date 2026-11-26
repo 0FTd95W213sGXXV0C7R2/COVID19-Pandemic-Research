@@ -1,0 +1,114 @@
+{
+  "files": {
+    "HBCR_2022_discovery_page124.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 260,
+      "rows": 260,
+      "page_token_found": 260,
+      "table_reconciliation": {
+        "match": 260,
+        "source_keys_in_selected_pages": 260,
+        "source_keys_absent_from_extract": 0
+      }
+    },
+    "HBCR_2022_discovery_page125.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 480,
+      "rows": 480,
+      "page_token_found": 480,
+      "table_reconciliation": {
+        "match": 480,
+        "source_keys_in_selected_pages": 480,
+        "source_keys_absent_from_extract": 0
+      }
+    },
+    "HBCR_2022_prostate_monthly.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 120,
+      "rows": 120,
+      "page_token_found": 120,
+      "table_reconciliation": {
+        "match": 120,
+        "source_keys_in_selected_pages": 120,
+        "source_keys_absent_from_extract": 0
+      }
+    },
+    "HBCR_2022_stage_counts.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 255,
+      "rows": 255,
+      "page_token_found": 255,
+      "table_reconciliation": {
+        "match": 255,
+        "source_keys_in_selected_pages": 255,
+        "source_keys_absent_from_extract": 0
+      }
+    },
+    "HBCR_2022_treatment_monthly.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 300,
+      "rows": 300,
+      "page_token_found": 300,
+      "table_reconciliation": {
+        "match": 300,
+        "source_keys_in_selected_pages": 325,
+        "source_keys_absent_from_extract": 25
+      }
+    },
+    "HBCR_2022_treatment_annual.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 25,
+      "rows": 25,
+      "page_token_found": 25,
+      "table_reconciliation": {
+        "match": 25,
+        "source_keys_in_selected_pages": 325,
+        "source_keys_absent_from_extract": 300
+      }
+    },
+    "HBCR_2022_site_treatment_annual.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 210,
+      "rows": 210,
+      "page_token_found": 210,
+      "table_reconciliation": {
+        "denominator_checked": 210,
+        "denominator_mismatch": 0,
+        "rate_checked": 210,
+        "rate_mismatch": 0,
+        "match": 210,
+        "source_keys_in_selected_pages": 210,
+        "source_keys_absent_from_extract": 0
+      }
+    },
+    "HBCR_2023_stage_counts.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 210,
+      "rows": 210,
+      "page_token_found": 210,
+      "table_reconciliation": {
+        "match": 210,
+        "source_keys_in_selected_pages": 210,
+        "source_keys_absent_from_extract": 0
+      }
+    },
+    "HBCR_2023_discovery_annual.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 40,
+      "rows": 40,
+      "page_token_found": 40,
+      "table_reconciliation": {
+        "match": 40,
+        "source_keys_in_selected_pages": 40,
+        "source_keys_absent_from_extract": 0
+      }
+    },
+    "HBCR_treatment_interval_candidates.csv": {
+      "status": "PARTIALLY_REPRODUCED",
+      "expected_reference": 29,
+      "rows": 29,
+      "page_token_found": 29
+    }
+  },
+  "limit": "Table counts and keys checked where layout is recognized. Additional PDF keys can include out-of-scope sections; denominator and interval definitions remain pending."
+}

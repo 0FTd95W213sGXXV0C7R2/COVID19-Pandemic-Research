@@ -1,0 +1,77 @@
+{
+  "pref_AllCancer_mortality(1995-2024).xls|number": {
+    "observed": 27648,
+    "missing_source_cells": 0,
+    "in_scope_seen": 27648
+  },
+  "pref_AllCancer_mortality(1995-2024).xls|rate": {
+    "observed": 21888,
+    "missing_source_cells": 0,
+    "in_scope_seen": 21888
+  },
+  "pref_AllCancer_mortality(1995-2024).xls|pop": {
+    "observed": 23040,
+    "missing_source_cells": 0,
+    "in_scope_seen": 23040
+  },
+  "pref_AllCancer_mortality(1995-2024).xls|asr75": {
+    "observed": 1152,
+    "missing_source_cells": 0,
+    "in_scope_seen": 1152
+  },
+  "pref_CancerSite_mortalityASR75(1995-2024).xls|asr75": {
+    "observed": 16512,
+    "missing_source_cells": 0,
+    "in_scope_seen": 16512
+  },
+  "cancer_incidenceNCR(2016-2023).xls|number": {
+    "observed": 18200,
+    "missing_source_cells": 0,
+    "in_scope_seen": 18200
+  },
+  "cancer_incidenceNCR(2016-2023).xls|rate": {
+    "observed": 18200,
+    "missing_source_cells": 0,
+    "in_scope_seen": 18200
+  },
+  "cancer_incidenceNCR(2016-2023).xls|asr": {
+    "observed": 2184,
+    "missing_source_cells": 0,
+    "in_scope_seen": 2184
+  },
+  "cancer_incidenceNCR(2016-2023).xls|pop": {
+    "observed": 525,
+    "missing_source_cells": 0,
+    "in_scope_seen": 525
+  },
+  "cancer_incidenceNCR(2016-2023).xls|detail": {
+    "observed": 9884,
+    "missing_source_cells": 0,
+    "in_scope_seen": 9884
+  },
+  "pref_cancer_incidenceNCR(2016-2023).xls|number": {
+    "observed": 838656,
+    "missing_source_cells": 0,
+    "in_scope_seen": 838656
+  },
+  "pref_cancer_incidenceNCR(2016-2023).xls|rate": {
+    "observed": 663936,
+    "missing_source_cells": 0,
+    "in_scope_seen": 663936
+  },
+  "pref_cancer_incidenceNCR(2016-2023).xls|asrW": {
+    "observed": 34944,
+    "missing_source_cells": 0,
+    "in_scope_seen": 34944
+  },
+  "pref_cancer_incidenceNCR(2016-2023).xls|asrJ": {
+    "observed": 34944,
+    "missing_source_cells": 0,
+    "in_scope_seen": 34944
+  },
+  "pref_cancer_incidenceNCR(2016-2023).xls|pop": {
+    "observed": 19152,
+    "missing_source_cells": 0,
+    "in_scope_seen": 19152
+  }
+}

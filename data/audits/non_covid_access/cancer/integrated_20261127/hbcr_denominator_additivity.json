@@ -1,0 +1,17 @@
+{
+  "recorded_jst": "2026-11-27T08:36:30+09:00",
+  "site_treatment": {
+    "denominator_checked": 210,
+    "denominator_mismatch": 0,
+    "rate_checked": 210,
+    "rate_mismatch": 0,
+    "match": 210,
+    "source_keys_in_selected_pages": 210,
+    "source_keys_absent_from_extract": 0
+  },
+  "monthly_additivity": {
+    "groups": 95,
+    "match": 95
+  },
+  "limit": "For page125 and prostate the comparator is the existing transcribed annual QA value."
+}
