@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "population_denominator": 4963,
+    "aggregation_definition": 505,
+    "numerator": 0,
+    "standard_population": 0,
+    "rounding": 0,
+    "key_mismatch": 0,
+    "other_multiple_components": 0,
+    "unknown": 0
+  },
+  "by_measure": {
+    "incidence_rate": {
+      "population_denominator": 4799,
+      "aggregation_definition": 490
+    },
+    "population": {
+      "population_denominator": 164,
+      "aggregation_definition": 15
+    }
+  },
+  "age_definition_pairs": [
+    {
+      "national_header": "85歳以上（再掲）",
+      "prefecture_header": "85歳以上",
+      "count": 505
+    }
+  ]
+}

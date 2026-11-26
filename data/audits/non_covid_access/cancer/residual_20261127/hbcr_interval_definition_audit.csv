@@ -1,0 +1,13 @@
+year,site,statistic,status,count
+2019,大腸,平均,text_definition_located,4
+2019,子宮体部,平均,text_definition_located,1
+2019,子宮頸部,平均,text_definition_located,1
+2019,甲状腺乳頭・濾胞癌,平均,text_definition_located,1
+2019,胃,平均,text_definition_located,6
+2019,胆嚢,平均,text_definition_located,2
+2019,腎,平均,endpoint_unspecified,2
+2019,腎盂・尿管,平均,text_definition_located,3
+2019,非小細胞肺,平均,text_definition_located,1
+2020,大腸,中央値,text_definition_located,1
+2020,胃,中央値,text_definition_located,6
+2020,胃,平均,text_definition_located,1

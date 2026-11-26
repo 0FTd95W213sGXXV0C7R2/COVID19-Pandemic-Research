@@ -1,0 +1,274 @@
+[
+  {
+    "file": "HBCR_2022_discovery_page124.csv",
+    "measured_sha256": "dbefa96614bba616d9293d2153383368ae5c87d5d72151f1cdf6d673ae93fdc4",
+    "historical_sha256": [
+      "dbefa96614bba616d9293d2153383368ae5c87d5d72151f1cdf6d673ae93fdc4",
+      "dbefa96614bba616d9293d2153383368ae5c87d5d72151f1cdf6d673ae93fdc4",
+      "dbefa96614bba616d9293d2153383368ae5c87d5d72151f1cdf6d673ae93fdc4"
+    ],
+    "historical_bytes": [
+      59771,
+      59771,
+      59771,
+      59771
+    ],
+    "measured_bytes": 59771,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_discovery_page124_QA.csv",
+    "measured_sha256": "82a174d7e6b558477c0b19f3d10d57d3d9689e3cb8e8325314f117de7e59edca",
+    "historical_sha256": [
+      "82a174d7e6b558477c0b19f3d10d57d3d9689e3cb8e8325314f117de7e59edca",
+      "82a174d7e6b558477c0b19f3d10d57d3d9689e3cb8e8325314f117de7e59edca",
+      "82a174d7e6b558477c0b19f3d10d57d3d9689e3cb8e8325314f117de7e59edca"
+    ],
+    "historical_bytes": [
+      1148,
+      1148,
+      1148,
+      1148
+    ],
+    "measured_bytes": 1148,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_discovery_page125.csv",
+    "measured_sha256": "2aed3126632b0a83c5529b3d669f64333d456f120c5d4b8e586a796db19661f9",
+    "historical_sha256": [
+      "2aed3126632b0a83c5529b3d669f64333d456f120c5d4b8e586a796db19661f9",
+      "2aed3126632b0a83c5529b3d669f64333d456f120c5d4b8e586a796db19661f9",
+      "2aed3126632b0a83c5529b3d669f64333d456f120c5d4b8e586a796db19661f9"
+    ],
+    "historical_bytes": [
+      108358,
+      108358,
+      108358,
+      108358
+    ],
+    "measured_bytes": 108358,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_discovery_page125_QA.csv",
+    "measured_sha256": "c442013beba3b74ebef48ee34ef2fee9a4a8feb4e52be3721b088a41471a2f04",
+    "historical_sha256": [
+      "c442013beba3b74ebef48ee34ef2fee9a4a8feb4e52be3721b088a41471a2f04",
+      "c442013beba3b74ebef48ee34ef2fee9a4a8feb4e52be3721b088a41471a2f04",
+      "c442013beba3b74ebef48ee34ef2fee9a4a8feb4e52be3721b088a41471a2f04"
+    ],
+    "historical_bytes": [
+      7857,
+      7857,
+      7857,
+      7857
+    ],
+    "measured_bytes": 7857,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_prostate_QA.csv",
+    "measured_sha256": "dd0f0c4f7d5a5eb74632f7675f5c50cb17ab1939dacdac76916961fc55600e30",
+    "historical_sha256": [
+      "dd0f0c4f7d5a5eb74632f7675f5c50cb17ab1939dacdac76916961fc55600e30",
+      "dd0f0c4f7d5a5eb74632f7675f5c50cb17ab1939dacdac76916961fc55600e30",
+      "dd0f0c4f7d5a5eb74632f7675f5c50cb17ab1939dacdac76916961fc55600e30"
+    ],
+    "historical_bytes": [
+      501,
+      501,
+      501,
+      501
+    ],
+    "measured_bytes": 501,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_prostate_monthly.csv",
+    "measured_sha256": "b7968c362195ba507d85ae978db7285aaa617ecef33d2260874fc457d3b52c00",
+    "historical_sha256": [
+      "b7968c362195ba507d85ae978db7285aaa617ecef33d2260874fc457d3b52c00",
+      "b7968c362195ba507d85ae978db7285aaa617ecef33d2260874fc457d3b52c00",
+      "b7968c362195ba507d85ae978db7285aaa617ecef33d2260874fc457d3b52c00"
+    ],
+    "historical_bytes": [
+      20045,
+      20045,
+      20045,
+      20045
+    ],
+    "measured_bytes": 20045,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_site_treatment_QA.csv",
+    "measured_sha256": "a3a22674ce4440519ad67d0fdd312c53f43ba5e41001315bc1dc31dffa30c40f",
+    "historical_sha256": [
+      "a3a22674ce4440519ad67d0fdd312c53f43ba5e41001315bc1dc31dffa30c40f",
+      "a3a22674ce4440519ad67d0fdd312c53f43ba5e41001315bc1dc31dffa30c40f",
+      "a3a22674ce4440519ad67d0fdd312c53f43ba5e41001315bc1dc31dffa30c40f"
+    ],
+    "historical_bytes": [
+      2283,
+      2283,
+      2283,
+      2283
+    ],
+    "measured_bytes": 2283,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_site_treatment_annual.csv",
+    "measured_sha256": "01e7c4684a57ffeec1ac087de6fec61b5eb3097011d43bd2fad66eb0c5368443",
+    "historical_sha256": [
+      "01e7c4684a57ffeec1ac087de6fec61b5eb3097011d43bd2fad66eb0c5368443",
+      "01e7c4684a57ffeec1ac087de6fec61b5eb3097011d43bd2fad66eb0c5368443",
+      "01e7c4684a57ffeec1ac087de6fec61b5eb3097011d43bd2fad66eb0c5368443"
+    ],
+    "historical_bytes": [
+      65617,
+      65617,
+      65617,
+      65617
+    ],
+    "measured_bytes": 65617,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_stage_counts.csv",
+    "measured_sha256": "05c2874994bbaca43906e4431a3ae35b0c5c2e846ad327094d17d4e11911a43e",
+    "historical_sha256": [
+      "05c2874994bbaca43906e4431a3ae35b0c5c2e846ad327094d17d4e11911a43e",
+      "05c2874994bbaca43906e4431a3ae35b0c5c2e846ad327094d17d4e11911a43e",
+      "05c2874994bbaca43906e4431a3ae35b0c5c2e846ad327094d17d4e11911a43e"
+    ],
+    "historical_bytes": [
+      56826,
+      56826,
+      56826,
+      56826
+    ],
+    "measured_bytes": 56826,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_treatment_QA.csv",
+    "measured_sha256": "7bf796c4de76622e733d01fc78b10926b7d24ff443630bd1c4befbe7800b1b99",
+    "historical_sha256": [
+      "7bf796c4de76622e733d01fc78b10926b7d24ff443630bd1c4befbe7800b1b99",
+      "7bf796c4de76622e733d01fc78b10926b7d24ff443630bd1c4befbe7800b1b99",
+      "7bf796c4de76622e733d01fc78b10926b7d24ff443630bd1c4befbe7800b1b99"
+    ],
+    "historical_bytes": [
+      1006,
+      1006,
+      1006,
+      1006
+    ],
+    "measured_bytes": 1006,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_treatment_annual.csv",
+    "measured_sha256": "392b9d1524a295981dad6c6691d8207c22366a34c01afb3e23c0c914ab66b843",
+    "historical_sha256": [
+      "392b9d1524a295981dad6c6691d8207c22366a34c01afb3e23c0c914ab66b843",
+      "392b9d1524a295981dad6c6691d8207c22366a34c01afb3e23c0c914ab66b843",
+      "392b9d1524a295981dad6c6691d8207c22366a34c01afb3e23c0c914ab66b843"
+    ],
+    "historical_bytes": [
+      5326,
+      5326,
+      5326,
+      5326
+    ],
+    "measured_bytes": 5326,
+    "match": true
+  },
+  {
+    "file": "HBCR_2022_treatment_monthly.csv",
+    "measured_sha256": "83bee38b0c83089725398f20c58087d6b83540e53822434631084cedb9f1e479",
+    "historical_sha256": [
+      "83bee38b0c83089725398f20c58087d6b83540e53822434631084cedb9f1e479",
+      "83bee38b0c83089725398f20c58087d6b83540e53822434631084cedb9f1e479",
+      "83bee38b0c83089725398f20c58087d6b83540e53822434631084cedb9f1e479"
+    ],
+    "historical_bytes": [
+      62703,
+      62703,
+      62703,
+      62703
+    ],
+    "measured_bytes": 62703,
+    "match": true
+  },
+  {
+    "file": "HBCR_2023_discovery_annual.csv",
+    "measured_sha256": "47b7ad11002fd77f818e54014ab5b3160c2a582b6c823274a7373d5620c250b1",
+    "historical_sha256": [
+      "47b7ad11002fd77f818e54014ab5b3160c2a582b6c823274a7373d5620c250b1",
+      "47b7ad11002fd77f818e54014ab5b3160c2a582b6c823274a7373d5620c250b1",
+      "47b7ad11002fd77f818e54014ab5b3160c2a582b6c823274a7373d5620c250b1"
+    ],
+    "historical_bytes": [
+      10137,
+      10137,
+      10137,
+      10137
+    ],
+    "measured_bytes": 10137,
+    "match": true
+  },
+  {
+    "file": "HBCR_2023_stage_counts.csv",
+    "measured_sha256": "74448f19adc109cf014623d4b8241312429f949fd296c8552f33d002dfc12116",
+    "historical_sha256": [
+      "74448f19adc109cf014623d4b8241312429f949fd296c8552f33d002dfc12116",
+      "74448f19adc109cf014623d4b8241312429f949fd296c8552f33d002dfc12116",
+      "74448f19adc109cf014623d4b8241312429f949fd296c8552f33d002dfc12116"
+    ],
+    "historical_bytes": [
+      46990,
+      46990,
+      46990,
+      46990
+    ],
+    "measured_bytes": 46990,
+    "match": true
+  },
+  {
+    "file": "HBCR_2023_stage_reconciliation.csv",
+    "measured_sha256": "ff4fd9a54e0e89df40af8a16debe76ebc7aae64cffeed5a1291ef861fa7fe002",
+    "historical_sha256": [
+      "ff4fd9a54e0e89df40af8a16debe76ebc7aae64cffeed5a1291ef861fa7fe002",
+      "ff4fd9a54e0e89df40af8a16debe76ebc7aae64cffeed5a1291ef861fa7fe002",
+      "ff4fd9a54e0e89df40af8a16debe76ebc7aae64cffeed5a1291ef861fa7fe002"
+    ],
+    "historical_bytes": [
+      2562,
+      2562,
+      2562,
+      2562
+    ],
+    "measured_bytes": 2562,
+    "match": true
+  },
+  {
+    "file": "HBCR_treatment_interval_candidates.csv",
+    "measured_sha256": "007d2d7f4cfb500de46467a9c7a8c5bcbf066073aef70d3408f7aba8ecded717",
+    "historical_sha256": [
+      "007d2d7f4cfb500de46467a9c7a8c5bcbf066073aef70d3408f7aba8ecded717",
+      "007d2d7f4cfb500de46467a9c7a8c5bcbf066073aef70d3408f7aba8ecded717",
+      "007d2d7f4cfb500de46467a9c7a8c5bcbf066073aef70d3408f7aba8ecded717"
+    ],
+    "historical_bytes": [
+      24007,
+      24007,
+      24007,
+      24007
+    ],
+    "measured_bytes": 24007,
+    "match": true
+  }
+]

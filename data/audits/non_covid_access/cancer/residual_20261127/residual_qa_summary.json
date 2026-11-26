@@ -1,0 +1,48 @@
+{
+  "started_at_jst": "2026-11-27T08:42:54+09:00",
+  "comparison": {
+    "membership": {
+      "old_only": 1449,
+      "both": 31232,
+      "new_only": 471
+    },
+    "old_sha256": "0ad0af4efe5b93dcd4a62b9620980ebfd120164e43a2df900f51cbdc2c650410",
+    "old_tolerance_replay_mismatches": {
+      "0": 5944,
+      "5e-09": 0,
+      "1e-08": 0,
+      "1e-07": 10
+    },
+    "common_lineage_checks": {
+      "national_coordinate_changed": 0,
+      "national_value_changed": 526,
+      "prefecture_coordinate_changed": 0,
+      "prefecture_value_changed": 2653
+    },
+    "counterfactual_status_mismatches": {
+      "new_at_old_proxy_tolerance": 0,
+      "old_at_new_tolerance": 0
+    },
+    "common_status_changes": 9
+  },
+  "hbcr_hash_matches": 16,
+  "intervals": {
+    "rows": 29,
+    "endpoint_unspecified": 2,
+    "definition_level_comparable_pairs": [
+      {
+        "source_csv_rows": [
+          2,
+          24
+        ],
+        "site": "胃",
+        "stage": "cT1aN0M0",
+        "statistic": "平均",
+        "criterion": "ESD/EMR実施例、診断日から手術、両年とも本文の年齢条件明記なし",
+        "restriction": "施設構成や算出対象の完全同一性は未確認。全施設の公表値の記述比較に限定"
+      }
+    ]
+  },
+  "finished_at_jst": "2026-11-27T08:43:06+09:00",
+  "adoption_status": "PENDING_QA"
+}
