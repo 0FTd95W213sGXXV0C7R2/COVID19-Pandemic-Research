@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "verified_jst": "2026-11-26T20:58:41+09:00",
+  "prior_changed_files": 452,
+  "missing_prior": [],
+  "altered_prior_data": [],
+  "hashes": 437,
+  "hash_errors": [],
+  "series": {
+    "fiscal_year": {
+      "rows": 30,
+      "scope_errors": 0
+    },
+    "month": {
+      "rows": 270,
+      "scope_errors": 0
+    },
+    "dpc": {
+      "rows": 2057804,
+      "scope_errors": 0
+    }
+  },
+  "examples": {
+    "fiscal_year": [],
+    "month": [],
+    "dpc": []
+  },
+  "disease_definition_rows": 1180,
+  "mapping_errors": 0,
+  "facility_rows": 40200,
+  "facility_errors": 0,
+  "fixed_cohorts": "not_constructed",
+  "additivity": "not_tested_across_surgery_or_disclosure_groups"
+}

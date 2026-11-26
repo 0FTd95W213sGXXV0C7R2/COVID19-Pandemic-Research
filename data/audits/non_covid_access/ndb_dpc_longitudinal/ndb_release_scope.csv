@@ -1,0 +1,12 @@
+release,fiscal_year,payer_version,medical_claim_scope,month_axis,suppression_note,source
+3,2016,historical_excluded,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,not_found,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+4,2017,historical_excluded,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,not_found,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+5,2018,historical_excluded,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,not_found,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+6,2019,historical_excluded,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,confirmed,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+7,2020,historical_excluded,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,confirmed,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+8,2021,historical_excluded,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,confirmed,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+9,2022,historical_excluded,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,confirmed,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+10,2023,excluded,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,confirmed,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+10,2023,included,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,confirmed,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+11,2024,excluded,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,confirmed,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf
+11,2024,included,電子化された保険医科レセプト。労災・自賠責・自費等は対象外。公費単独は版別。,confirmed,原表注記に基づく10未満・二次秘匿。抑制方法は表注を参照。,https://www.mhlw.go.jp/content/12400000/001568663.pdf

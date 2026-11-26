@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "ndb_additive_comparisons": 18,
+  "ndb_pending": 12,
+  "ndb_differences": [],
+  "dpc_roster_source_errors": 0,
+  "dpc_pending_pairs_checked": 33208,
+  "dpc_invalid_pairs": 0
+}
