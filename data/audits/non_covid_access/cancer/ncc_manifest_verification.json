@@ -1,0 +1,139 @@
+{
+  "verified_at": "2026-11-26T23:26:21.509711+09:00",
+  "source": "https://drive.google.com/drive/folders/1HKGAXwAfD-JaXMtRy2FG7eMqYyP94YZo",
+  "files": [
+    {
+      "filename": "coverage.csv",
+      "bytes": 338140,
+      "sha256": "705532d55c7566af9883b9301fbebafa23dfa165f919d0fdd952d2c742acd3a5",
+      "actual_sha256": "705532d55c7566af9883b9301fbebafa23dfa165f919d0fdd952d2c742acd3a5",
+      "actual_bytes": 338140,
+      "match": true,
+      "rows": 5797,
+      "columns": 6,
+      "bad_rows": 0
+    },
+    {
+      "filename": "inventory.json",
+      "bytes": 1531,
+      "sha256": "2dbffc92dbc1bc073e1f97d5c88fdcbd41a14c41af0f3adbcbe11c483fcbf117",
+      "actual_sha256": "2dbffc92dbc1bc073e1f97d5c88fdcbd41a14c41af0f3adbcbe11c483fcbf117",
+      "actual_bytes": 1531,
+      "match": true
+    },
+    {
+      "filename": "known_limitations.json",
+      "bytes": 556,
+      "sha256": "779ea4ef0ab296bcfc40a7da2cbb78325eeda2a4ff62988443997ba371c22962",
+      "actual_sha256": "779ea4ef0ab296bcfc40a7da2cbb78325eeda2a4ff62988443997ba371c22962",
+      "actual_bytes": 556,
+      "match": true
+    },
+    {
+      "filename": "logical_key_duplicates.csv.gz",
+      "bytes": 212,
+      "sha256": "fac869a1d5a1d7c5d5c71c0a876c8028aac489d54c2485fd16576954d56835ca",
+      "actual_sha256": "fac869a1d5a1d7c5d5c71c0a876c8028aac489d54c2485fd16576954d56835ca",
+      "actual_bytes": 212,
+      "match": true,
+      "rows": 0,
+      "columns": 27,
+      "bad_rows": 0
+    },
+    {
+      "filename": "mortality_asr_comparison.csv",
+      "bytes": 87166,
+      "sha256": "6b73d6eb8cc28a80e2b94627598dbc51865cc4345037921a2001cdf36b42ca8b",
+      "actual_sha256": "6b73d6eb8cc28a80e2b94627598dbc51865cc4345037921a2001cdf36b42ca8b",
+      "actual_bytes": 87166,
+      "match": true,
+      "rows": 1152,
+      "columns": 10,
+      "bad_rows": 0
+    },
+    {
+      "filename": "national_annual_candidates.csv",
+      "bytes": 2775403,
+      "sha256": "f2018a4b9457a0b725a9824c524fcd71115f9b6b38dac9df9fe6017f8791877a",
+      "actual_sha256": "f2018a4b9457a0b725a9824c524fcd71115f9b6b38dac9df9fe6017f8791877a",
+      "actual_bytes": 2775403,
+      "match": true,
+      "rows": 5891,
+      "columns": 27,
+      "bad_rows": 0
+    },
+    {
+      "filename": "national_prefecture_comparison.csv.gz",
+      "bytes": 617921,
+      "sha256": "0ad0af4efe5b93dcd4a62b9620980ebfd120164e43a2df900f51cbdc2c650410",
+      "actual_sha256": "0ad0af4efe5b93dcd4a62b9620980ebfd120164e43a2df900f51cbdc2c650410",
+      "actual_bytes": 617921,
+      "match": true,
+      "rows": 32681,
+      "columns": 15,
+      "bad_rows": 0
+    },
+    {
+      "filename": "ncc_annual_long_2017_2024.csv.gz",
+      "bytes": 21331833,
+      "sha256": "525d33421dcc1d1d288341346cb4f219feaf538887c19f7a2cf7305c01b23812",
+      "actual_sha256": "525d33421dcc1d1d288341346cb4f219feaf538887c19f7a2cf7305c01b23812",
+      "actual_bytes": 21331833,
+      "match": true,
+      "rows": 1730865,
+      "columns": 27,
+      "bad_rows": 0
+    },
+    {
+      "filename": "rate_recalculation_audit.csv.gz",
+      "bytes": 13752810,
+      "sha256": "f7b7e31ace4c7ea1fd2be54fbf7a234582f686d8bef42dc8f5706602d21a3777",
+      "actual_sha256": "f7b7e31ace4c7ea1fd2be54fbf7a234582f686d8bef42dc8f5706602d21a3777",
+      "actual_bytes": 13752810,
+      "match": true,
+      "rows": 625957,
+      "columns": 16,
+      "bad_rows": 0
+    },
+    {
+      "filename": "schema.json",
+      "bytes": 4927,
+      "sha256": "518022ac35aa60ca1f72323838906f8f9723ea6c92cf16bca0564bdeefdb5a4e",
+      "actual_sha256": "518022ac35aa60ca1f72323838906f8f9723ea6c92cf16bca0564bdeefdb5a4e",
+      "actual_bytes": 4927,
+      "match": true
+    },
+    {
+      "filename": "site_codebooks.json",
+      "bytes": 10244,
+      "sha256": "94749266699fc40aa4079cf8ec26d31fd1e604442e64bc9c86093802d8839c5a",
+      "actual_sha256": "94749266699fc40aa4079cf8ec26d31fd1e604442e64bc9c86093802d8839c5a",
+      "actual_bytes": 10244,
+      "match": true
+    },
+    {
+      "filename": "skipped_rows.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "actual_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "actual_bytes": 2,
+      "match": true
+    },
+    {
+      "filename": "source_mismatches.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "actual_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "actual_bytes": 2,
+      "match": true
+    },
+    {
+      "filename": "summary.json",
+      "bytes": 1702,
+      "sha256": "80aa29136258c911c41494f19f6a5e23f1277183bd348abd6a4565c4db718a79",
+      "actual_sha256": "80aa29136258c911c41494f19f6a5e23f1277183bd348abd6a4565c4db718a79",
+      "actual_bytes": 1702,
+      "match": true
+    }
+  ]
+}
