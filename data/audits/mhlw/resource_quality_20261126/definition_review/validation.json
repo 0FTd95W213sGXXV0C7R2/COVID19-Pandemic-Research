@@ -1,0 +1,57 @@
+{
+  "start_jst": "2026-11-26T14:27:37+09:00",
+  "end_jst": "2026-11-26T14:27:43+09:00",
+  "xml_values_checked": 211124,
+  "xml_notes_checked": 5124,
+  "xml_title_dates_checked": 171,
+  "xml_differences": 0,
+  "weekly_columns": 4492,
+  "previous_known": 2820,
+  "previous_unknown": 1672,
+  "formerly_unknown_types": 44,
+  "formerly_unknown_types_with_confirmation": 24,
+  "formerly_unknown_types_still_open": 20,
+  "formerly_unknown_still_open": 706,
+  "definition_status": {
+    "confirmed_prior": 2748,
+    "hold": 778,
+    "confirmed_new": 966
+  },
+  "national_reason_combinations": {
+    "other_prefecture_value": 10,
+    "dash": 306,
+    "dash|reported_national_zero_with_incomplete_prefectures": 18
+  },
+  "revision_classifications": {
+    "distinct_detail": 169,
+    "duplicate_date_only": 90,
+    "dependent_correction": 1
+  },
+  "revision_events": {
+    "distinct_detailed_events": 169
+  },
+  "adoption_status": {
+    "採用可・期間内の記述分析": 68,
+    "保留": 31,
+    "条件付き・数値ありの都道府県のみ": 22
+  },
+  "archive_source": "official_archive",
+  "archive_error": "",
+  "archive_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/newpage_00023.html",
+  "early_pdfs": 36,
+  "stored_pdfs": 0,
+  "tests": {
+    "xml_values_independently_match_all_rows": true,
+    "each_variable_has_47_unique_prefectures": true,
+    "all_workbook_notes_independently_match": true,
+    "source_title_month_days_match": true,
+    "all_numbered_source_notes_in_catalog": true,
+    "all_171_weeks_reviewed": true,
+    "all_1672_originally_missing_definitions_classified": true,
+    "new_confirmations_have_exact_source_evidence": true,
+    "all_334_incomplete_national_comparisons_explained": true,
+    "all_260_revision_mentions_classified": true,
+    "pdf_archive_inventory_available": true,
+    "original_bytes_match_previous_sha256": true
+  }
+}
