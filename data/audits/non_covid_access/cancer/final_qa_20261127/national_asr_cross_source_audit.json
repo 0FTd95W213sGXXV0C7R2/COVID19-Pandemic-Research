@@ -1,0 +1,101 @@
+{
+  "started_at_jst": "2026-11-27T08:47:18+09:00",
+  "finished_at_jst": "2026-11-27T08:47:21+09:00",
+  "errata": {
+    "published_correction_pages": [
+      4,
+      47,
+      110
+    ],
+    "reviewed_extract_pages": [
+      124,
+      125,
+      126,
+      129,
+      132,
+      133,
+      137
+    ],
+    "direct_page_overlap": [],
+    "omitted_history": true,
+    "sha256": {
+      "adb7bb894af9_2022_report.pdf": "adb7bb894af9f077053d4335f3a5c3080e5b8cdc3220db5b8577f7b890faf349",
+      "c0479f8021b3_2022_syusei.pdf": "c0479f8021b3c5c614777fec1f98d1e1e6c1d0c5f435a94d51b05b2e040fb693"
+    }
+  },
+  "input_sha256": {
+    "0b738a50d454_cancer_incidenceNCR(2016-2023).xls": "0b738a50d4549d47ed8b434c841e9769f6f616b7bcc00092f75c499985931212",
+    "f2f514f223cc_pref_cancer_incidenceNCR(2016-2023).xls": "f2f514f223cc4cb13e544e3f57b205205016ffeae49cf2584c2dc4707f620adc",
+    "national_prefecture_comparison.csv.gz": "0ad0af4efe5b93dcd4a62b9620980ebfd120164e43a2df900f51cbdc2c650410"
+  },
+  "absolute_tolerance": 1e-07,
+  "asr": {
+    "world_segi_1960": {
+      "national_within_source": {
+        "MATCH": 679,
+        "NONNUMERIC_HELD": 49
+      },
+      "prefecture_within_source": {
+        "MATCH": 679,
+        "NONNUMERIC_HELD": 49
+      },
+      "cross_source": {
+        "DIFFERENT": 581,
+        "MATCH": 98,
+        "NONNUMERIC_HELD": 49
+      },
+      "historical_cross_source": {
+        "DIFFERENT": 582,
+        "MATCH": 97,
+        "NONNUMERIC_HELD": 49
+      }
+    },
+    "japan_1985": {
+      "national_within_source": {
+        "MATCH": 672,
+        "NONNUMERIC_HELD": 49
+      },
+      "prefecture_within_source": {
+        "MATCH": 672,
+        "NONNUMERIC_HELD": 49
+      },
+      "cross_source": {
+        "DIFFERENT": 576,
+        "MATCH": 96,
+        "NONNUMERIC_HELD": 49
+      },
+      "historical_cross_source": {
+        "DIFFERENT": 576,
+        "MATCH": 96,
+        "NONNUMERIC_HELD": 49
+      }
+    }
+  },
+  "maximum_cross_source_absolute_difference": {
+    "world_segi_1960": 0.040509520634884666,
+    "japan_1985": 0.05957754876135368
+  },
+  "age_85plus_checks": {
+    "national_case_85plus_sum": {
+      "MATCH": 728
+    },
+    "national_rate_85plus": {
+      "MATCH": 679,
+      "NONNUMERIC_HELD": 49
+    },
+    "prefecture_case_85plus_sum": {
+      "MATCH": 728
+    },
+    "prefecture_rate_85plus": {
+      "MATCH": 679,
+      "NONNUMERIC_HELD": 49
+    },
+    "national_population_85plus_sum": {
+      "MATCH": 21
+    },
+    "cross_source_population_85plus": {
+      "MATCH": 6,
+      "DIFFERENT": 15
+    }
+  }
+}
