@@ -1,0 +1,7 @@
+# MHLW footnote comparison: 2021–2022
+
+Date: 2026-11-26 JST; time unverified.
+
+Primary sources: https://www.mhlw.go.jp/content/10900000/000872286.pdf (2021-06-23, published June 25, revised Dec 23, note 12 Yamaguchi hospital coordination); https://www.mhlw.go.jp/content/10900000/001029801.pdf (2022-12-21, published Dec 23, revised Dec 27, note 18 Osaka immediate accommodation rooms).
+
+2021 notes 1–11 versus 2022 notes 1–17: total care population adds temporary facilities and subtracts overlapping bed/room subsets in 2022. Immediate beds wording adds completed conversion and already accepting patients. Secured capacity and occupancy formulas broadly correspond, but preserve exact numerator column and verify header context. Admission ratio is total inpatients / care population, not occupancy. 2022 note 15 home care may be estimated from weekly incident cases or directly counted; note 16 coordination restricted to notification-eligible persons, some municipalities report zero because ascertainment difficult. Note 17 hospital coordination refers to admission not yet started, unlike 2021 receiving institution not decided. Note 11 dash explicitly indicates absent temporary facility in phase field, not general missingness rule. Do not merge these variables across periods without definition flags. 2021 and 2022 are examples within schema periods, not exact representative dates or all-workbook validation. No final harmonization.
