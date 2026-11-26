@@ -1,0 +1,12 @@
+observation_date,source_path,sheet,change_type,previous_signature,signature,evidence
+2020-12-23,data/raw/mhlw/weekly_inpatient_survey/2020-12-23_unknown_unknown_000717219.xlsx,公表資料,initial,,28686a54ac10,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2021-01-06,data/raw/mhlw/weekly_inpatient_survey/2021-01-06_unknown_unknown_000721071.xlsx,公表資料,schema_change,28686a54ac10,28686a54ac10,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2021-01-13,data/raw/mhlw/weekly_inpatient_survey/2021-01-13_unknown_unknown_000721104.xlsx,公表資料,schema_change,28686a54ac10,28686a54ac10,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2021-01-20,data/raw/mhlw/weekly_inpatient_survey/2021-01-20_unknown_unknown_000731213.xlsx,公表資料,schema_change,28686a54ac10,28686a54ac10,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2021-03-24,data/raw/mhlw/weekly_inpatient_survey/2021-03-24_unknown_unknown_000760411.xlsx,公表資料,schema_change,28686a54ac10,28686a54ac10,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2021-06-02,data/raw/mhlw/weekly_inpatient_survey/2021-06-02_unknown_unknown_000872295.xlsx,公表資料,schema_change,28686a54ac10,ff7daa0d426f,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2021-12-22,data/raw/mhlw/weekly_inpatient_survey/2021-12-22_unknown_unknown_000873645.xlsx,公表資料,schema_change,ff7daa0d426f,cc536592199d,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2022-09-28,data/raw/mhlw/weekly_inpatient_survey/2022-09-28_unknown_unknown_000996353.xlsx,公表資料,schema_change,cc536592199d,ba2be6f9d930,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2023-05-10,data/raw/mhlw/weekly_inpatient_survey/2023-05-10_unknown_unknown_001143142.xlsx,公表資料,schema_change,ba2be6f9d930,8945609b4c13,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2023-10-04,data/raw/mhlw/weekly_inpatient_survey/2023-10-04_unknown_unknown_001178677.xlsx,公表資料,schema_change,8945609b4c13,c6e2b5f4b287,列見出しと参照注記の変更候補。意味の同一性は個別確認
+2023-11-01,data/raw/mhlw/weekly_inpatient_survey/2023-11-01_unknown_unknown_001164509.xlsx,公表資料,header_or_referenced_note_change,c6e2b5f4b287,3bb2bbce5313,列見出しと参照注記の変更候補。意味の同一性は個別確認

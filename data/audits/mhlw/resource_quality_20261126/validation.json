@@ -1,0 +1,58 @@
+{
+  "started_at_jst": "2026-11-26T14:20:39+09:00",
+  "finished_at_jst": "2026-11-26T14:21:23+09:00",
+  "counts": {
+    "gmis_audited": 43,
+    "sheets": 171,
+    "footnote_occurrences": 5124,
+    "change_events": 11,
+    "numeric": 121583,
+    "time_series_rows": 211124,
+    "text": 24503,
+    "undefined_weekly_columns": 1672,
+    "reported_zero": 49925,
+    "excel_audited": 171,
+    "revision_records": 260,
+    "annotated_value": 15,
+    "dash": 15098,
+    "date_discrepancies": 1
+  },
+  "schemas": {
+    "6745ac0f25": 2,
+    "5ff08f9bbd": 10,
+    "f3472b74b1": 1,
+    "9bf2552d51": 10,
+    "72624e14af": 29,
+    "534cb4f6b8": 40,
+    "ac15de1f12": 32,
+    "910a6b6ca1": 21,
+    "5cf78895c1": 26
+  },
+  "national_checks": {
+    "match": 2939,
+    "incomplete": 316,
+    "national_zero_incomplete": 18
+  },
+  "header_signatures": 100,
+  "errors": [],
+  "historical_differences": [],
+  "historical_notes_missing": [],
+  "tests": {
+    "reproduces_known_revision_dates": true,
+    "title_date_used_for_february_2024": true,
+    "raw_counts": true,
+    "canonical_counts": true,
+    "acquisition_hash_and_size": true,
+    "no_processing_errors": true,
+    "historical_structure_and_gmis": true,
+    "historical_header_signatures_and_profiles": true,
+    "historical_dash_cells": true,
+    "historical_note_texts": true,
+    "complete_dated_prefecture_tables": true,
+    "csv_integrity_and_no_imputation": true,
+    "csv_cells_match_original_cached_values": true,
+    "final_snapshot_matches_pdf_transcription": true,
+    "raw_files_unchanged": true,
+    "additive_checks_executed": true
+  }
+}
