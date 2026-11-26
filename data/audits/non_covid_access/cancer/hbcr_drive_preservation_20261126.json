@@ -1,0 +1,87 @@
+{
+  "recorded_at_jst": "2026-11-26T23:43:00+09:00",
+  "timestamp_note": "Minute of Drive folder inspection; upload completed subsequently",
+  "status": "DRIVE_UPLOAD_COMPLETE_HASH_RECHECK_PENDING",
+  "files": [
+    {
+      "filename": "HBCR_treatment_interval_candidates.csv",
+      "bytes": 24007,
+      "expected_bytes": 24007
+    },
+    {
+      "filename": "HBCR_2023_stage_reconciliation.csv",
+      "bytes": 2562,
+      "expected_bytes": 2562
+    },
+    {
+      "filename": "HBCR_2023_stage_counts.csv",
+      "bytes": 46990,
+      "expected_bytes": 46990
+    },
+    {
+      "filename": "HBCR_2023_discovery_annual.csv",
+      "bytes": 10137,
+      "expected_bytes": 10137
+    },
+    {
+      "filename": "HBCR_2022_treatment_monthly.csv",
+      "bytes": 62703,
+      "expected_bytes": 62703
+    },
+    {
+      "filename": "HBCR_2022_treatment_annual.csv",
+      "bytes": 5326,
+      "expected_bytes": 5326
+    },
+    {
+      "filename": "HBCR_2022_treatment_QA.csv",
+      "bytes": 1006,
+      "expected_bytes": 1006
+    },
+    {
+      "filename": "HBCR_2022_stage_counts.csv",
+      "bytes": 56826,
+      "expected_bytes": 56826
+    },
+    {
+      "filename": "HBCR_2022_site_treatment_annual.csv",
+      "bytes": 65617,
+      "expected_bytes": 65617
+    },
+    {
+      "filename": "HBCR_2022_site_treatment_QA.csv",
+      "bytes": 2283,
+      "expected_bytes": 2283
+    },
+    {
+      "filename": "HBCR_2022_prostate_monthly.csv",
+      "bytes": 20045,
+      "expected_bytes": 20045
+    },
+    {
+      "filename": "HBCR_2022_prostate_QA.csv",
+      "bytes": 501,
+      "expected_bytes": 501
+    },
+    {
+      "filename": "HBCR_2022_discovery_page125_QA.csv",
+      "bytes": 7857,
+      "expected_bytes": 7857
+    },
+    {
+      "filename": "HBCR_2022_discovery_page125.csv",
+      "bytes": 108358,
+      "expected_bytes": 108358
+    },
+    {
+      "filename": "HBCR_2022_discovery_page124_QA.csv",
+      "bytes": 1148,
+      "expected_bytes": 1148
+    },
+    {
+      "filename": "HBCR_2022_discovery_page124.csv",
+      "bytes": 59771,
+      "expected_bytes": 59771
+    }
+  ]
+}
