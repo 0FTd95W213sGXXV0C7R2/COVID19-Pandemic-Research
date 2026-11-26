@@ -1,0 +1,1427 @@
+{
+  "audit_type": "NCC_RAW_SOURCE_SHA256_VERIFICATION",
+  "completed_at_jst": "2026-11-27T07:08:30.389606+09:00",
+  "manifest_sha256": "efb21e48c341e7fc30dceae310a148a8283149341712afba4398c0f3622833e5",
+  "manifest_bytes": 69520,
+  "expected_files": 61,
+  "verified_files": 61,
+  "verified_pdf": 55,
+  "verified_excel": 6,
+  "expected_total_bytes": 678059062,
+  "verified_total_bytes": 678059062,
+  "unique_verified_paths": 61,
+  "status_counts": {
+    "VERIFIED": 61
+  },
+  "all_pass": true,
+  "unused_raw_files": [],
+  "elapsed_seconds": 52.13,
+  "source_files_modified": false,
+  "github_write": false,
+  "adoption_status": "PENDING_QA",
+  "files": [
+    {
+      "index": 1,
+      "filename": "ca8e2a5a415e_cancer_mortality(1958-2024).xls",
+      "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/cancer_mortality(1958-2024).xls",
+      "expected_sha256": "ca8e2a5a415e84b4c12a9cc55ec05cf789c1901a040f6f25986a8af89de7213c",
+      "manifest_saved_sha256": "ca8e2a5a415e84b4c12a9cc55ec05cf789c1901a040f6f25986a8af89de7213c",
+      "expected_bytes": 3192320,
+      "verified_at_jst": "2026-11-27T07:07:40.104427+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/cancer_statistics/ca8e2a5a415e_cancer_mortality(1958-2024).xls",
+          "actual_sha256": "ca8e2a5a415e84b4c12a9cc55ec05cf789c1901a040f6f25986a8af89de7213c",
+          "actual_bytes": 3192320,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "ca8e2a5a415e84b4c12a9cc55ec05cf789c1901a040f6f25986a8af89de7213c",
+      "actual_bytes": 3192320,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 2,
+      "filename": "a1f8a171dd1d_cancer_mortality(1979-2024)H27.xls",
+      "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/cancer_mortality(1979-2024)H27.xls",
+      "expected_sha256": "a1f8a171dd1d68dc45977aa4ceba1b1e489c921576a8f3ddf5fe6a44df372c4d",
+      "manifest_saved_sha256": "a1f8a171dd1d68dc45977aa4ceba1b1e489c921576a8f3ddf5fe6a44df372c4d",
+      "expected_bytes": 2415616,
+      "verified_at_jst": "2026-11-27T07:07:40.694370+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/cancer_statistics/a1f8a171dd1d_cancer_mortality(1979-2024)H27.xls",
+          "actual_sha256": "a1f8a171dd1d68dc45977aa4ceba1b1e489c921576a8f3ddf5fe6a44df372c4d",
+          "actual_bytes": 2415616,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "a1f8a171dd1d68dc45977aa4ceba1b1e489c921576a8f3ddf5fe6a44df372c4d",
+      "actual_bytes": 2415616,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 3,
+      "filename": "4545b00ab61d_pref_AllCancer_mortality(1995-2024).xls",
+      "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/pref_AllCancer_mortality(1995-2024).xls",
+      "expected_sha256": "4545b00ab61dd636d758ef9d39ea765120a2168fe25277471df045cfd86e934f",
+      "manifest_saved_sha256": "4545b00ab61dd636d758ef9d39ea765120a2168fe25277471df045cfd86e934f",
+      "expected_bytes": 4191744,
+      "verified_at_jst": "2026-11-27T07:07:41.260707+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/cancer_statistics/4545b00ab61d_pref_AllCancer_mortality(1995-2024).xls",
+          "actual_sha256": "4545b00ab61dd636d758ef9d39ea765120a2168fe25277471df045cfd86e934f",
+          "actual_bytes": 4191744,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "4545b00ab61dd636d758ef9d39ea765120a2168fe25277471df045cfd86e934f",
+      "actual_bytes": 4191744,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 4,
+      "filename": "6dd4956583b6_pref_CancerSite_mortalityASR75(1995-2024).xls",
+      "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/pref_CancerSite_mortalityASR75(1995-2024).xls",
+      "expected_sha256": "6dd4956583b6162bb870c02f7d9bc58a4d0492f16fd20e9be2abc7c8a7e3246b",
+      "manifest_saved_sha256": "6dd4956583b6162bb870c02f7d9bc58a4d0492f16fd20e9be2abc7c8a7e3246b",
+      "expected_bytes": 3485696,
+      "verified_at_jst": "2026-11-27T07:07:41.812117+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/cancer_statistics/6dd4956583b6_pref_CancerSite_mortalityASR75(1995-2024).xls",
+          "actual_sha256": "6dd4956583b6162bb870c02f7d9bc58a4d0492f16fd20e9be2abc7c8a7e3246b",
+          "actual_bytes": 3485696,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "6dd4956583b6162bb870c02f7d9bc58a4d0492f16fd20e9be2abc7c8a7e3246b",
+      "actual_bytes": 3485696,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 5,
+      "filename": "0b738a50d454_cancer_incidenceNCR(2016-2023).xls",
+      "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/cancer_incidenceNCR(2016-2023).xls",
+      "expected_sha256": "0b738a50d4549d47ed8b434c841e9769f6f616b7bcc00092f75c499985931212",
+      "manifest_saved_sha256": "0b738a50d4549d47ed8b434c841e9769f6f616b7bcc00092f75c499985931212",
+      "expected_bytes": 1187328,
+      "verified_at_jst": "2026-11-27T07:07:42.187866+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/cancer_statistics/0b738a50d454_cancer_incidenceNCR(2016-2023).xls",
+          "actual_sha256": "0b738a50d4549d47ed8b434c841e9769f6f616b7bcc00092f75c499985931212",
+          "actual_bytes": 1187328,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "0b738a50d4549d47ed8b434c841e9769f6f616b7bcc00092f75c499985931212",
+      "actual_bytes": 1187328,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 6,
+      "filename": "f2f514f223cc_pref_cancer_incidenceNCR(2016-2023).xls",
+      "source_url": "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/pref_cancer_incidenceNCR(2016-2023).xls",
+      "expected_sha256": "f2f514f223cc4cb13e544e3f57b205205016ffeae49cf2584c2dc4707f620adc",
+      "manifest_saved_sha256": "f2f514f223cc4cb13e544e3f57b205205016ffeae49cf2584c2dc4707f620adc",
+      "expected_bytes": 29833216,
+      "verified_at_jst": "2026-11-27T07:07:42.463796+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/cancer_statistics/f2f514f223cc_pref_cancer_incidenceNCR(2016-2023).xls",
+          "actual_sha256": "f2f514f223cc4cb13e544e3f57b205205016ffeae49cf2584c2dc4707f620adc",
+          "actual_bytes": 29833216,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "f2f514f223cc4cb13e544e3f57b205205016ffeae49cf2584c2dc4707f620adc",
+      "actual_bytes": 29833216,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 7,
+      "filename": "e5c14d371ae9_2023_report.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_report.pdf",
+      "expected_sha256": "e5c14d371ae9ecc8a458b614178b860c691942ac8fd7fe9ffaf2e7a555380146",
+      "manifest_saved_sha256": "e5c14d371ae9ecc8a458b614178b860c691942ac8fd7fe9ffaf2e7a555380146",
+      "expected_bytes": 4329879,
+      "verified_at_jst": "2026-11-27T07:07:44.099371+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/e5c14d371ae9_2023_report.pdf",
+          "actual_sha256": "e5c14d371ae9ecc8a458b614178b860c691942ac8fd7fe9ffaf2e7a555380146",
+          "actual_bytes": 4329879,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "e5c14d371ae9ecc8a458b614178b860c691942ac8fd7fe9ffaf2e7a555380146",
+      "actual_bytes": 4329879,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 8,
+      "filename": "01f697df6867_2023_fuhyo1-2.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_fuhyo1-2.pdf",
+      "expected_sha256": "01f697df6867845f7847e56d325d11b600c797f2845b8ecd725b460daa4d9e77",
+      "manifest_saved_sha256": "01f697df6867845f7847e56d325d11b600c797f2845b8ecd725b460daa4d9e77",
+      "expected_bytes": 386641,
+      "verified_at_jst": "2026-11-27T07:07:44.694896+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/01f697df6867_2023_fuhyo1-2.pdf",
+          "actual_sha256": "01f697df6867845f7847e56d325d11b600c797f2845b8ecd725b460daa4d9e77",
+          "actual_bytes": 386641,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "01f697df6867845f7847e56d325d11b600c797f2845b8ecd725b460daa4d9e77",
+      "actual_bytes": 386641,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 9,
+      "filename": "f9b822ce79e4_2023_fuhyo1-3.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_fuhyo1-3.pdf",
+      "expected_sha256": "f9b822ce79e42ffbd52a3dac7370492ea43a3fd9c5e4a41ad382668f5cdf5f9b",
+      "manifest_saved_sha256": "f9b822ce79e42ffbd52a3dac7370492ea43a3fd9c5e4a41ad382668f5cdf5f9b",
+      "expected_bytes": 383073,
+      "verified_at_jst": "2026-11-27T07:07:45.099586+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/f9b822ce79e4_2023_fuhyo1-3.pdf",
+          "actual_sha256": "f9b822ce79e42ffbd52a3dac7370492ea43a3fd9c5e4a41ad382668f5cdf5f9b",
+          "actual_bytes": 383073,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "f9b822ce79e42ffbd52a3dac7370492ea43a3fd9c5e4a41ad382668f5cdf5f9b",
+      "actual_bytes": 383073,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 10,
+      "filename": "26d710d8a5f2_2023_fuhyo2-1.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_fuhyo2-1.pdf",
+      "expected_sha256": "26d710d8a5f2057cb9e0b80f20ec340947aad2456492c97da01aef228d0b6050",
+      "manifest_saved_sha256": "26d710d8a5f2057cb9e0b80f20ec340947aad2456492c97da01aef228d0b6050",
+      "expected_bytes": 428949,
+      "verified_at_jst": "2026-11-27T07:07:45.575397+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/26d710d8a5f2_2023_fuhyo2-1.pdf",
+          "actual_sha256": "26d710d8a5f2057cb9e0b80f20ec340947aad2456492c97da01aef228d0b6050",
+          "actual_bytes": 428949,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "26d710d8a5f2057cb9e0b80f20ec340947aad2456492c97da01aef228d0b6050",
+      "actual_bytes": 428949,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 11,
+      "filename": "03233de11a99_2023_fuhyo2-3.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_fuhyo2-3.pdf",
+      "expected_sha256": "03233de11a997c4d6dbf4bdfad8f5b1793829571bfda0ef21069a9e411d940ca",
+      "manifest_saved_sha256": "03233de11a997c4d6dbf4bdfad8f5b1793829571bfda0ef21069a9e411d940ca",
+      "expected_bytes": 305887,
+      "verified_at_jst": "2026-11-27T07:07:45.984637+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/03233de11a99_2023_fuhyo2-3.pdf",
+          "actual_sha256": "03233de11a997c4d6dbf4bdfad8f5b1793829571bfda0ef21069a9e411d940ca",
+          "actual_bytes": 305887,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "03233de11a997c4d6dbf4bdfad8f5b1793829571bfda0ef21069a9e411d940ca",
+      "actual_bytes": 305887,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 12,
+      "filename": "0a7ad3d9d3bb_2023_syusei.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2023_syusei.pdf",
+      "expected_sha256": "0a7ad3d9d3bb03d8a36add7f7e14891f08f37a6c8584f85311351ac87be9eac3",
+      "manifest_saved_sha256": "0a7ad3d9d3bb03d8a36add7f7e14891f08f37a6c8584f85311351ac87be9eac3",
+      "expected_bytes": 192186,
+      "verified_at_jst": "2026-11-27T07:07:46.315907+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/0a7ad3d9d3bb_2023_syusei.pdf",
+          "actual_sha256": "0a7ad3d9d3bb03d8a36add7f7e14891f08f37a6c8584f85311351ac87be9eac3",
+          "actual_bytes": 192186,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "0a7ad3d9d3bb03d8a36add7f7e14891f08f37a6c8584f85311351ac87be9eac3",
+      "actual_bytes": 192186,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 13,
+      "filename": "adb7bb894af9_2022_report.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_report.pdf",
+      "expected_sha256": "adb7bb894af9f077053d4335f3a5c3080e5b8cdc3220db5b8577f7b890faf349",
+      "manifest_saved_sha256": "adb7bb894af9f077053d4335f3a5c3080e5b8cdc3220db5b8577f7b890faf349",
+      "expected_bytes": 5764477,
+      "verified_at_jst": "2026-11-27T07:07:46.589253+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/adb7bb894af9_2022_report.pdf",
+          "actual_sha256": "adb7bb894af9f077053d4335f3a5c3080e5b8cdc3220db5b8577f7b890faf349",
+          "actual_bytes": 5764477,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "adb7bb894af9f077053d4335f3a5c3080e5b8cdc3220db5b8577f7b890faf349",
+      "actual_bytes": 5764477,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 14,
+      "filename": "0183cbb8c74b_2022_fuhyo01_kyoten.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_fuhyo01_kyoten.pdf",
+      "expected_sha256": "0183cbb8c74b796942e4f2b1e8b48164281c37d0253aa790efa70fff6d7181c6",
+      "manifest_saved_sha256": "0183cbb8c74b796942e4f2b1e8b48164281c37d0253aa790efa70fff6d7181c6",
+      "expected_bytes": 202989,
+      "verified_at_jst": "2026-11-27T07:07:47.423509+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/0183cbb8c74b_2022_fuhyo01_kyoten.pdf",
+          "actual_sha256": "0183cbb8c74b796942e4f2b1e8b48164281c37d0253aa790efa70fff6d7181c6",
+          "actual_bytes": 202989,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "0183cbb8c74b796942e4f2b1e8b48164281c37d0253aa790efa70fff6d7181c6",
+      "actual_bytes": 202989,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 15,
+      "filename": "151b36a87340_2022_fuhyo01_kyotengai.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_fuhyo01_kyotengai.pdf",
+      "expected_sha256": "151b36a873406774ca1ed021bd3ab4b870b2e6ab53e468c82c34b190339cb42c",
+      "manifest_saved_sha256": "151b36a873406774ca1ed021bd3ab4b870b2e6ab53e468c82c34b190339cb42c",
+      "expected_bytes": 222042,
+      "verified_at_jst": "2026-11-27T07:07:47.856769+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/151b36a87340_2022_fuhyo01_kyotengai.pdf",
+          "actual_sha256": "151b36a873406774ca1ed021bd3ab4b870b2e6ab53e468c82c34b190339cb42c",
+          "actual_bytes": 222042,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "151b36a873406774ca1ed021bd3ab4b870b2e6ab53e468c82c34b190339cb42c",
+      "actual_bytes": 222042,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 16,
+      "filename": "88e82ff11959_2022_fuhyo02_kyoten.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_fuhyo02_kyoten.pdf",
+      "expected_sha256": "88e82ff11959cc90e442bf753ec6e0759e83b135092f68ce32d28c62d8201796",
+      "manifest_saved_sha256": "88e82ff11959cc90e442bf753ec6e0759e83b135092f68ce32d28c62d8201796",
+      "expected_bytes": 335613,
+      "verified_at_jst": "2026-11-27T07:07:48.285106+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/88e82ff11959_2022_fuhyo02_kyoten.pdf",
+          "actual_sha256": "88e82ff11959cc90e442bf753ec6e0759e83b135092f68ce32d28c62d8201796",
+          "actual_bytes": 335613,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "88e82ff11959cc90e442bf753ec6e0759e83b135092f68ce32d28c62d8201796",
+      "actual_bytes": 335613,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 17,
+      "filename": "985ccc666242_2022_fuhyo02_kyotengai.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_fuhyo02_kyotengai.pdf",
+      "expected_sha256": "985ccc6662428543edee3791ce56e85f3ee7501faa6482b76a1881de37c6f9a3",
+      "manifest_saved_sha256": "985ccc6662428543edee3791ce56e85f3ee7501faa6482b76a1881de37c6f9a3",
+      "expected_bytes": 304180,
+      "verified_at_jst": "2026-11-27T07:07:48.682505+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/985ccc666242_2022_fuhyo02_kyotengai.pdf",
+          "actual_sha256": "985ccc6662428543edee3791ce56e85f3ee7501faa6482b76a1881de37c6f9a3",
+          "actual_bytes": 304180,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "985ccc6662428543edee3791ce56e85f3ee7501faa6482b76a1881de37c6f9a3",
+      "actual_bytes": 304180,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 18,
+      "filename": "c0479f8021b3_2022_syusei.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_syusei.pdf",
+      "expected_sha256": "c0479f8021b3c5c614777fec1f98d1e1e6c1d0c5f435a94d51b05b2e040fb693",
+      "manifest_saved_sha256": "c0479f8021b3c5c614777fec1f98d1e1e6c1d0c5f435a94d51b05b2e040fb693",
+      "expected_bytes": 225223,
+      "verified_at_jst": "2026-11-27T07:07:49.145573+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/c0479f8021b3_2022_syusei.pdf",
+          "actual_sha256": "c0479f8021b3c5c614777fec1f98d1e1e6c1d0c5f435a94d51b05b2e040fb693",
+          "actual_bytes": 225223,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "c0479f8021b3c5c614777fec1f98d1e1e6c1d0c5f435a94d51b05b2e040fb693",
+      "actual_bytes": 225223,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 19,
+      "filename": "e08a929f9dc6_2021_report_02.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_report_02.pdf",
+      "expected_sha256": "e08a929f9dc6839ba9c8f19ebebc3e8af7140374583a0a295f1bce0427811c83",
+      "manifest_saved_sha256": "e08a929f9dc6839ba9c8f19ebebc3e8af7140374583a0a295f1bce0427811c83",
+      "expected_bytes": 4429277,
+      "verified_at_jst": "2026-11-27T07:07:49.585198+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/e08a929f9dc6_2021_report_02.pdf",
+          "actual_sha256": "e08a929f9dc6839ba9c8f19ebebc3e8af7140374583a0a295f1bce0427811c83",
+          "actual_bytes": 4429277,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "e08a929f9dc6839ba9c8f19ebebc3e8af7140374583a0a295f1bce0427811c83",
+      "actual_bytes": 4429277,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 20,
+      "filename": "8b32cefe33bd_2021_shisetsubetsu_report00_fuhyo01.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_shisetsubetsu_report00_fuhyo01.pdf",
+      "expected_sha256": "8b32cefe33bd664c9766e661ab187c5de59972d4327933c6c515f34bb865f991",
+      "manifest_saved_sha256": "8b32cefe33bd664c9766e661ab187c5de59972d4327933c6c515f34bb865f991",
+      "expected_bytes": 347368,
+      "verified_at_jst": "2026-11-27T07:07:50.037648+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/8b32cefe33bd_2021_shisetsubetsu_report00_fuhyo01.pdf",
+          "actual_sha256": "8b32cefe33bd664c9766e661ab187c5de59972d4327933c6c515f34bb865f991",
+          "actual_bytes": 347368,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "8b32cefe33bd664c9766e661ab187c5de59972d4327933c6c515f34bb865f991",
+      "actual_bytes": 347368,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 21,
+      "filename": "86d75ec74540_2021_pref_shisetsubetsu_report00_fuhyo01.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_pref_shisetsubetsu_report00_fuhyo01.pdf",
+      "expected_sha256": "86d75ec74540c9b4a8a6489e209b6ed68c3ade980d9f2ddb2a66077eccf4e529",
+      "manifest_saved_sha256": "86d75ec74540c9b4a8a6489e209b6ed68c3ade980d9f2ddb2a66077eccf4e529",
+      "expected_bytes": 384229,
+      "verified_at_jst": "2026-11-27T07:07:50.456470+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/86d75ec74540_2021_pref_shisetsubetsu_report00_fuhyo01.pdf",
+          "actual_sha256": "86d75ec74540c9b4a8a6489e209b6ed68c3ade980d9f2ddb2a66077eccf4e529",
+          "actual_bytes": 384229,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "86d75ec74540c9b4a8a6489e209b6ed68c3ade980d9f2ddb2a66077eccf4e529",
+      "actual_bytes": 384229,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 22,
+      "filename": "fac236e4aaa6_2021vol_shisetsubetsu_report00_fuhyo01.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021vol_shisetsubetsu_report00_fuhyo01.pdf",
+      "expected_sha256": "fac236e4aaa62ce3aac9644a66522d72b5bb9dfbac3bbda1d0ed16b940a81f16",
+      "manifest_saved_sha256": "fac236e4aaa62ce3aac9644a66522d72b5bb9dfbac3bbda1d0ed16b940a81f16",
+      "expected_bytes": 251807,
+      "verified_at_jst": "2026-11-27T07:07:50.786738+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/fac236e4aaa6_2021vol_shisetsubetsu_report00_fuhyo01.pdf",
+          "actual_sha256": "fac236e4aaa62ce3aac9644a66522d72b5bb9dfbac3bbda1d0ed16b940a81f16",
+          "actual_bytes": 251807,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "fac236e4aaa62ce3aac9644a66522d72b5bb9dfbac3bbda1d0ed16b940a81f16",
+      "actual_bytes": 251807,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 23,
+      "filename": "aeaef73d90a1_2021_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_shisetsubetsu_report00.pdf",
+      "expected_sha256": "aeaef73d90a1e0f0b5f5ece1d4a880994647266b220f5dce7ac3aba0266b57c1",
+      "manifest_saved_sha256": "aeaef73d90a1e0f0b5f5ece1d4a880994647266b220f5dce7ac3aba0266b57c1",
+      "expected_bytes": 390379,
+      "verified_at_jst": "2026-11-27T07:07:51.230798+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/aeaef73d90a1_2021_shisetsubetsu_report00.pdf",
+          "actual_sha256": "aeaef73d90a1e0f0b5f5ece1d4a880994647266b220f5dce7ac3aba0266b57c1",
+          "actual_bytes": 390379,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "aeaef73d90a1e0f0b5f5ece1d4a880994647266b220f5dce7ac3aba0266b57c1",
+      "actual_bytes": 390379,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 24,
+      "filename": "ee0d9793270f_2021_pref_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_pref_shisetsubetsu_report00.pdf",
+      "expected_sha256": "ee0d9793270f7afb95c9acd56e3164f3d45569add2a009c2900223e21271528e",
+      "manifest_saved_sha256": "ee0d9793270f7afb95c9acd56e3164f3d45569add2a009c2900223e21271528e",
+      "expected_bytes": 317694,
+      "verified_at_jst": "2026-11-27T07:07:51.665509+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/ee0d9793270f_2021_pref_shisetsubetsu_report00.pdf",
+          "actual_sha256": "ee0d9793270f7afb95c9acd56e3164f3d45569add2a009c2900223e21271528e",
+          "actual_bytes": 317694,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "ee0d9793270f7afb95c9acd56e3164f3d45569add2a009c2900223e21271528e",
+      "actual_bytes": 317694,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 25,
+      "filename": "11f0c9c2635c_2021vol_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021vol_shisetsubetsu_report00.pdf",
+      "expected_sha256": "11f0c9c2635cccfe34c4f836bb1670925b6a6255171a9bd3a6b84517f553388e",
+      "manifest_saved_sha256": "11f0c9c2635cccfe34c4f836bb1670925b6a6255171a9bd3a6b84517f553388e",
+      "expected_bytes": 238871,
+      "verified_at_jst": "2026-11-27T07:07:52.058546+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/11f0c9c2635c_2021vol_shisetsubetsu_report00.pdf",
+          "actual_sha256": "11f0c9c2635cccfe34c4f836bb1670925b6a6255171a9bd3a6b84517f553388e",
+          "actual_bytes": 238871,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "11f0c9c2635cccfe34c4f836bb1670925b6a6255171a9bd3a6b84517f553388e",
+      "actual_bytes": 238871,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 26,
+      "filename": "b9107e7f1d44_2021_syusei.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_syusei.pdf",
+      "expected_sha256": "b9107e7f1d44fa5112b30d40b33ecb4b6e7ebcd2342f1f34252d29098fe6cf5d",
+      "manifest_saved_sha256": "b9107e7f1d44fa5112b30d40b33ecb4b6e7ebcd2342f1f34252d29098fe6cf5d",
+      "expected_bytes": 104696,
+      "verified_at_jst": "2026-11-27T07:07:52.530556+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/b9107e7f1d44_2021_syusei.pdf",
+          "actual_sha256": "b9107e7f1d44fa5112b30d40b33ecb4b6e7ebcd2342f1f34252d29098fe6cf5d",
+          "actual_bytes": 104696,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "b9107e7f1d44fa5112b30d40b33ecb4b6e7ebcd2342f1f34252d29098fe6cf5d",
+      "actual_bytes": 104696,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 27,
+      "filename": "a4bcd2333c95_2021_report.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2021_report.pdf",
+      "expected_sha256": "a4bcd2333c95705160a04321067a93e7f88b02f8f507789876e31b8ee1d68c83",
+      "manifest_saved_sha256": "a4bcd2333c95705160a04321067a93e7f88b02f8f507789876e31b8ee1d68c83",
+      "expected_bytes": 2052731,
+      "verified_at_jst": "2026-11-27T07:07:52.807581+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/a4bcd2333c95_2021_report.pdf",
+          "actual_sha256": "a4bcd2333c95705160a04321067a93e7f88b02f8f507789876e31b8ee1d68c83",
+          "actual_bytes": 2052731,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "a4bcd2333c95705160a04321067a93e7f88b02f8f507789876e31b8ee1d68c83",
+      "actual_bytes": 2052731,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 28,
+      "filename": "c6afbf614961_2020_report.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_report.pdf",
+      "expected_sha256": "c6afbf614961b83a20fd442ccf3fc96ebc49e01357f44194c232fc7c241aa74f",
+      "manifest_saved_sha256": "c6afbf614961b83a20fd442ccf3fc96ebc49e01357f44194c232fc7c241aa74f",
+      "expected_bytes": 3876291,
+      "verified_at_jst": "2026-11-27T07:07:53.374510+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/c6afbf614961_2020_report.pdf",
+          "actual_sha256": "c6afbf614961b83a20fd442ccf3fc96ebc49e01357f44194c232fc7c241aa74f",
+          "actual_bytes": 3876291,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "c6afbf614961b83a20fd442ccf3fc96ebc49e01357f44194c232fc7c241aa74f",
+      "actual_bytes": 3876291,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 29,
+      "filename": "934537c3bc83_2020_report_add.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_report_add.pdf",
+      "expected_sha256": "934537c3bc8350a4ec26642f3749edce125e0d096117ce322ee4f8aeffb848ea",
+      "manifest_saved_sha256": "934537c3bc8350a4ec26642f3749edce125e0d096117ce322ee4f8aeffb848ea",
+      "expected_bytes": 291310,
+      "verified_at_jst": "2026-11-27T07:07:53.942514+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/934537c3bc83_2020_report_add.pdf",
+          "actual_sha256": "934537c3bc8350a4ec26642f3749edce125e0d096117ce322ee4f8aeffb848ea",
+          "actual_bytes": 291310,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "934537c3bc8350a4ec26642f3749edce125e0d096117ce322ee4f8aeffb848ea",
+      "actual_bytes": 291310,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 30,
+      "filename": "3c156acd2432_2020_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_shisetsubetsu_report00.pdf",
+      "expected_sha256": "3c156acd24329c8cc354650a176ca30961c11a442aa7b9c2d2b0b9b8e666d37a",
+      "manifest_saved_sha256": "3c156acd24329c8cc354650a176ca30961c11a442aa7b9c2d2b0b9b8e666d37a",
+      "expected_bytes": 347161,
+      "verified_at_jst": "2026-11-27T07:07:54.209772+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/3c156acd2432_2020_shisetsubetsu_report00.pdf",
+          "actual_sha256": "3c156acd24329c8cc354650a176ca30961c11a442aa7b9c2d2b0b9b8e666d37a",
+          "actual_bytes": 347161,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "3c156acd24329c8cc354650a176ca30961c11a442aa7b9c2d2b0b9b8e666d37a",
+      "actual_bytes": 347161,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 31,
+      "filename": "9b14425d02a8_2020_pref_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_pref_shisetsubetsu_report00.pdf",
+      "expected_sha256": "9b14425d02a834504fa6db341e3c13180be56f7ac6a479c532e8d06f164fa940",
+      "manifest_saved_sha256": "9b14425d02a834504fa6db341e3c13180be56f7ac6a479c532e8d06f164fa940",
+      "expected_bytes": 333978,
+      "verified_at_jst": "2026-11-27T07:07:54.530915+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/9b14425d02a8_2020_pref_shisetsubetsu_report00.pdf",
+          "actual_sha256": "9b14425d02a834504fa6db341e3c13180be56f7ac6a479c532e8d06f164fa940",
+          "actual_bytes": 333978,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "9b14425d02a834504fa6db341e3c13180be56f7ac6a479c532e8d06f164fa940",
+      "actual_bytes": 333978,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 32,
+      "filename": "15ce1aba3cca_2020vol_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020vol_shisetsubetsu_report00.pdf",
+      "expected_sha256": "15ce1aba3ccaa5547c886a83e4fc3e1b150bf486b963e6383f46596c7fb40f17",
+      "manifest_saved_sha256": "15ce1aba3ccaa5547c886a83e4fc3e1b150bf486b963e6383f46596c7fb40f17",
+      "expected_bytes": 181573,
+      "verified_at_jst": "2026-11-27T07:07:54.949210+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/15ce1aba3cca_2020vol_shisetsubetsu_report00.pdf",
+          "actual_sha256": "15ce1aba3ccaa5547c886a83e4fc3e1b150bf486b963e6383f46596c7fb40f17",
+          "actual_bytes": 181573,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "15ce1aba3ccaa5547c886a83e4fc3e1b150bf486b963e6383f46596c7fb40f17",
+      "actual_bytes": 181573,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 33,
+      "filename": "b8a22b247b12_2020_syusei.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2020_syusei.pdf",
+      "expected_sha256": "b8a22b247b120a04539e3e50bbeb33bc71c08bb2e457e994a00e1aed518fd012",
+      "manifest_saved_sha256": "b8a22b247b120a04539e3e50bbeb33bc71c08bb2e457e994a00e1aed518fd012",
+      "expected_bytes": 268648,
+      "verified_at_jst": "2026-11-27T07:07:55.331316+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/b8a22b247b12_2020_syusei.pdf",
+          "actual_sha256": "b8a22b247b120a04539e3e50bbeb33bc71c08bb2e457e994a00e1aed518fd012",
+          "actual_bytes": 268648,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "b8a22b247b120a04539e3e50bbeb33bc71c08bb2e457e994a00e1aed518fd012",
+      "actual_bytes": 268648,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 34,
+      "filename": "c483e8485740_2019_report.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_report.pdf",
+      "expected_sha256": "c483e8485740e9707c9dbd65326510b57f6dd0abc65acf6bc29d74577865c7dc",
+      "manifest_saved_sha256": "c483e8485740e9707c9dbd65326510b57f6dd0abc65acf6bc29d74577865c7dc",
+      "expected_bytes": 7493194,
+      "verified_at_jst": "2026-11-27T07:07:55.777411+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/c483e8485740_2019_report.pdf",
+          "actual_sha256": "c483e8485740e9707c9dbd65326510b57f6dd0abc65acf6bc29d74577865c7dc",
+          "actual_bytes": 7493194,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "c483e8485740e9707c9dbd65326510b57f6dd0abc65acf6bc29d74577865c7dc",
+      "actual_bytes": 7493194,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 35,
+      "filename": "3393133001ba_2019_report_add.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_report_add.pdf",
+      "expected_sha256": "3393133001bae6ea3649f320a1781646f6fd4f0b00c1fadc53db823558f15e0e",
+      "manifest_saved_sha256": "3393133001bae6ea3649f320a1781646f6fd4f0b00c1fadc53db823558f15e0e",
+      "expected_bytes": 921325,
+      "verified_at_jst": "2026-11-27T07:07:56.730424+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/3393133001ba_2019_report_add.pdf",
+          "actual_sha256": "3393133001bae6ea3649f320a1781646f6fd4f0b00c1fadc53db823558f15e0e",
+          "actual_bytes": 921325,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "3393133001bae6ea3649f320a1781646f6fd4f0b00c1fadc53db823558f15e0e",
+      "actual_bytes": 921325,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 36,
+      "filename": "8f306598712a_2019_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_shisetsubetsu_report00.pdf",
+      "expected_sha256": "8f306598712a10a6b32afd5d75ad507dce2aab179580dc9c423418e07750b45a",
+      "manifest_saved_sha256": "8f306598712a10a6b32afd5d75ad507dce2aab179580dc9c423418e07750b45a",
+      "expected_bytes": 419229,
+      "verified_at_jst": "2026-11-27T07:07:57.147042+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/8f306598712a_2019_shisetsubetsu_report00.pdf",
+          "actual_sha256": "8f306598712a10a6b32afd5d75ad507dce2aab179580dc9c423418e07750b45a",
+          "actual_bytes": 419229,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "8f306598712a10a6b32afd5d75ad507dce2aab179580dc9c423418e07750b45a",
+      "actual_bytes": 419229,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 37,
+      "filename": "45dc2394f0dc_2019_pref_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_pref_shisetsubetsu_report00.pdf",
+      "expected_sha256": "45dc2394f0dc08661012e18d0510c0bb9d0846e0b30f3dea5178b9b0ea35baca",
+      "manifest_saved_sha256": "45dc2394f0dc08661012e18d0510c0bb9d0846e0b30f3dea5178b9b0ea35baca",
+      "expected_bytes": 409466,
+      "verified_at_jst": "2026-11-27T07:07:57.551744+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/45dc2394f0dc_2019_pref_shisetsubetsu_report00.pdf",
+          "actual_sha256": "45dc2394f0dc08661012e18d0510c0bb9d0846e0b30f3dea5178b9b0ea35baca",
+          "actual_bytes": 409466,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "45dc2394f0dc08661012e18d0510c0bb9d0846e0b30f3dea5178b9b0ea35baca",
+      "actual_bytes": 409466,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 38,
+      "filename": "0bafee162d70_2019_vol_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_vol_shisetsubetsu_report00.pdf",
+      "expected_sha256": "0bafee162d70f6b81f26cd6940674bc738dae9212f97d5c1913fecba4e0cac12",
+      "manifest_saved_sha256": "0bafee162d70f6b81f26cd6940674bc738dae9212f97d5c1913fecba4e0cac12",
+      "expected_bytes": 253761,
+      "verified_at_jst": "2026-11-27T07:07:57.863872+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/0bafee162d70_2019_vol_shisetsubetsu_report00.pdf",
+          "actual_sha256": "0bafee162d70f6b81f26cd6940674bc738dae9212f97d5c1913fecba4e0cac12",
+          "actual_bytes": 253761,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "0bafee162d70f6b81f26cd6940674bc738dae9212f97d5c1913fecba4e0cac12",
+      "actual_bytes": 253761,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 39,
+      "filename": "0c8b231769a1_2019_syusei.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2019_syusei.pdf",
+      "expected_sha256": "0c8b231769a16b294b0c94ef40ebc9198dd408dc6c363b8613d55927e6b06cc2",
+      "manifest_saved_sha256": "0c8b231769a16b294b0c94ef40ebc9198dd408dc6c363b8613d55927e6b06cc2",
+      "expected_bytes": 216786,
+      "verified_at_jst": "2026-11-27T07:07:58.265924+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/0c8b231769a1_2019_syusei.pdf",
+          "actual_sha256": "0c8b231769a16b294b0c94ef40ebc9198dd408dc6c363b8613d55927e6b06cc2",
+          "actual_bytes": 216786,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "0c8b231769a16b294b0c94ef40ebc9198dd408dc6c363b8613d55927e6b06cc2",
+      "actual_bytes": 216786,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 40,
+      "filename": "6aed42adff0b_2018_report.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_report.pdf",
+      "expected_sha256": "6aed42adff0b9317c0a167daf9fef648a11e41b2b751a077ba1436ef942919f1",
+      "manifest_saved_sha256": "6aed42adff0b9317c0a167daf9fef648a11e41b2b751a077ba1436ef942919f1",
+      "expected_bytes": 3314860,
+      "verified_at_jst": "2026-11-27T07:07:58.558318+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/6aed42adff0b_2018_report.pdf",
+          "actual_sha256": "6aed42adff0b9317c0a167daf9fef648a11e41b2b751a077ba1436ef942919f1",
+          "actual_bytes": 3314860,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "6aed42adff0b9317c0a167daf9fef648a11e41b2b751a077ba1436ef942919f1",
+      "actual_bytes": 3314860,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 41,
+      "filename": "2056d3bd21eb_2018_report_add.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_report_add.pdf",
+      "expected_sha256": "2056d3bd21ebf268550b064067af4ea60ba3abb52646ce2c21a0b672173451a9",
+      "manifest_saved_sha256": "2056d3bd21ebf268550b064067af4ea60ba3abb52646ce2c21a0b672173451a9",
+      "expected_bytes": 3520823,
+      "verified_at_jst": "2026-11-27T07:07:59.135720+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/2056d3bd21eb_2018_report_add.pdf",
+          "actual_sha256": "2056d3bd21ebf268550b064067af4ea60ba3abb52646ce2c21a0b672173451a9",
+          "actual_bytes": 3520823,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "2056d3bd21ebf268550b064067af4ea60ba3abb52646ce2c21a0b672173451a9",
+      "actual_bytes": 3520823,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 42,
+      "filename": "fc0d5d8746ab_2018_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_shisetsubetsu_report00.pdf",
+      "expected_sha256": "fc0d5d8746ab01b2a6ca9b46c2240aeb669def3087e9904f6ff3f9f475ff0b84",
+      "manifest_saved_sha256": "fc0d5d8746ab01b2a6ca9b46c2240aeb669def3087e9904f6ff3f9f475ff0b84",
+      "expected_bytes": 33501822,
+      "verified_at_jst": "2026-11-27T07:07:59.739657+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/fc0d5d8746ab_2018_shisetsubetsu_report00.pdf",
+          "actual_sha256": "fc0d5d8746ab01b2a6ca9b46c2240aeb669def3087e9904f6ff3f9f475ff0b84",
+          "actual_bytes": 33501822,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "fc0d5d8746ab01b2a6ca9b46c2240aeb669def3087e9904f6ff3f9f475ff0b84",
+      "actual_bytes": 33501822,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 43,
+      "filename": "84b0cef674e5_2018_pref_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_pref_shisetsubetsu_report00.pdf",
+      "expected_sha256": "84b0cef674e5a7a212d7d36e5170b6f0176c23687c04f79c4143df564589d4f8",
+      "manifest_saved_sha256": "84b0cef674e5a7a212d7d36e5170b6f0176c23687c04f79c4143df564589d4f8",
+      "expected_bytes": 21296757,
+      "verified_at_jst": "2026-11-27T07:08:02.257403+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/84b0cef674e5_2018_pref_shisetsubetsu_report00.pdf",
+          "actual_sha256": "84b0cef674e5a7a212d7d36e5170b6f0176c23687c04f79c4143df564589d4f8",
+          "actual_bytes": 21296757,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "84b0cef674e5a7a212d7d36e5170b6f0176c23687c04f79c4143df564589d4f8",
+      "actual_bytes": 21296757,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 44,
+      "filename": "967cc7ad6588_2018_vol_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_vol_shisetsubetsu_report00.pdf",
+      "expected_sha256": "967cc7ad65889e6af9596a44110fee40348ef813c323aaf7f9c63e7a9f9c326a",
+      "manifest_saved_sha256": "967cc7ad65889e6af9596a44110fee40348ef813c323aaf7f9c63e7a9f9c326a",
+      "expected_bytes": 5813120,
+      "verified_at_jst": "2026-11-27T07:08:04.423706+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/967cc7ad6588_2018_vol_shisetsubetsu_report00.pdf",
+          "actual_sha256": "967cc7ad65889e6af9596a44110fee40348ef813c323aaf7f9c63e7a9f9c326a",
+          "actual_bytes": 5813120,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "967cc7ad65889e6af9596a44110fee40348ef813c323aaf7f9c63e7a9f9c326a",
+      "actual_bytes": 5813120,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 45,
+      "filename": "7adb6e6963b2_2018_shusei.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_shusei.pdf",
+      "expected_sha256": "7adb6e6963b2a35c5b8d62b94940f45dc3177441f6d3ff4fd411ce60bde726c7",
+      "manifest_saved_sha256": "7adb6e6963b2a35c5b8d62b94940f45dc3177441f6d3ff4fd411ce60bde726c7",
+      "expected_bytes": 153413,
+      "verified_at_jst": "2026-11-27T07:08:05.278681+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/7adb6e6963b2_2018_shusei.pdf",
+          "actual_sha256": "7adb6e6963b2a35c5b8d62b94940f45dc3177441f6d3ff4fd411ce60bde726c7",
+          "actual_bytes": 153413,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "7adb6e6963b2a35c5b8d62b94940f45dc3177441f6d3ff4fd411ce60bde726c7",
+      "actual_bytes": 153413,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 46,
+      "filename": "0cca923dd5a9_2017_report.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_report.pdf",
+      "expected_sha256": "0cca923dd5a99b4bea55c770d4953b2360de73138e2ae89892c66a9fd94c818d",
+      "manifest_saved_sha256": "0cca923dd5a99b4bea55c770d4953b2360de73138e2ae89892c66a9fd94c818d",
+      "expected_bytes": 5394383,
+      "verified_at_jst": "2026-11-27T07:08:05.608249+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/0cca923dd5a9_2017_report.pdf",
+          "actual_sha256": "0cca923dd5a99b4bea55c770d4953b2360de73138e2ae89892c66a9fd94c818d",
+          "actual_bytes": 5394383,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "0cca923dd5a99b4bea55c770d4953b2360de73138e2ae89892c66a9fd94c818d",
+      "actual_bytes": 5394383,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 47,
+      "filename": "5d8884551f4d_2017_report_add.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_report_add.pdf",
+      "expected_sha256": "5d8884551f4d30920f7b29ed091928447a761f061b13effcdecfdb1988af6e61",
+      "manifest_saved_sha256": "5d8884551f4d30920f7b29ed091928447a761f061b13effcdecfdb1988af6e61",
+      "expected_bytes": 881537,
+      "verified_at_jst": "2026-11-27T07:08:06.116617+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/5d8884551f4d_2017_report_add.pdf",
+          "actual_sha256": "5d8884551f4d30920f7b29ed091928447a761f061b13effcdecfdb1988af6e61",
+          "actual_bytes": 881537,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "5d8884551f4d30920f7b29ed091928447a761f061b13effcdecfdb1988af6e61",
+      "actual_bytes": 881537,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 48,
+      "filename": "8ce149078621_2017_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_shisetsubetsu_report00.pdf",
+      "expected_sha256": "8ce149078621b1638a7a035139c03ab1c4df5b69adb7ff7c535896c9e7572dd1",
+      "manifest_saved_sha256": "8ce149078621b1638a7a035139c03ab1c4df5b69adb7ff7c535896c9e7572dd1",
+      "expected_bytes": 137577635,
+      "verified_at_jst": "2026-11-27T07:08:06.571358+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/8ce149078621_2017_shisetsubetsu_report00.pdf",
+          "actual_sha256": "8ce149078621b1638a7a035139c03ab1c4df5b69adb7ff7c535896c9e7572dd1",
+          "actual_bytes": 137577635,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "8ce149078621b1638a7a035139c03ab1c4df5b69adb7ff7c535896c9e7572dd1",
+      "actual_bytes": 137577635,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 49,
+      "filename": "698c3f418863_2017_pref_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_pref_shisetsubetsu_report00.pdf",
+      "expected_sha256": "698c3f418863aa2855be7dc7518a6bce88fbdf99693b3a274c9a2917839cc4a1",
+      "manifest_saved_sha256": "698c3f418863aa2855be7dc7518a6bce88fbdf99693b3a274c9a2917839cc4a1",
+      "expected_bytes": 94262441,
+      "verified_at_jst": "2026-11-27T07:08:12.459738+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/698c3f418863_2017_pref_shisetsubetsu_report00.pdf",
+          "actual_sha256": "698c3f418863aa2855be7dc7518a6bce88fbdf99693b3a274c9a2917839cc4a1",
+          "actual_bytes": 94262441,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "698c3f418863aa2855be7dc7518a6bce88fbdf99693b3a274c9a2917839cc4a1",
+      "actual_bytes": 94262441,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 50,
+      "filename": "43790a528baa_2017_vol_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_vol_shisetsubetsu_report00.pdf",
+      "expected_sha256": "43790a528baacd128147f61a1557c881d93769363bcea5ca78007d6252b8ebc5",
+      "manifest_saved_sha256": "43790a528baacd128147f61a1557c881d93769363bcea5ca78007d6252b8ebc5",
+      "expected_bytes": 31851483,
+      "verified_at_jst": "2026-11-27T07:08:16.316996+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/43790a528baa_2017_vol_shisetsubetsu_report00.pdf",
+          "actual_sha256": "43790a528baacd128147f61a1557c881d93769363bcea5ca78007d6252b8ebc5",
+          "actual_bytes": 31851483,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "43790a528baacd128147f61a1557c881d93769363bcea5ca78007d6252b8ebc5",
+      "actual_bytes": 31851483,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 51,
+      "filename": "03ac9f82e8ac_2017_shusei.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2017_shusei.pdf",
+      "expected_sha256": "03ac9f82e8ac5cb137c067f6dae53482ca0a9095980285a4873e59c0c839b526",
+      "manifest_saved_sha256": "03ac9f82e8ac5cb137c067f6dae53482ca0a9095980285a4873e59c0c839b526",
+      "expected_bytes": 187369,
+      "verified_at_jst": "2026-11-27T07:08:18.726590+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/03ac9f82e8ac_2017_shusei.pdf",
+          "actual_sha256": "03ac9f82e8ac5cb137c067f6dae53482ca0a9095980285a4873e59c0c839b526",
+          "actual_bytes": 187369,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "03ac9f82e8ac5cb137c067f6dae53482ca0a9095980285a4873e59c0c839b526",
+      "actual_bytes": 187369,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 52,
+      "filename": "b7f24c5fdfc1_2016_report.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_report.pdf",
+      "expected_sha256": "b7f24c5fdfc1b25e642a6aca113c44f8229786426c29a41dd8969331c859250f",
+      "manifest_saved_sha256": "b7f24c5fdfc1b25e642a6aca113c44f8229786426c29a41dd8969331c859250f",
+      "expected_bytes": 7432222,
+      "verified_at_jst": "2026-11-27T07:08:19.046367+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/b7f24c5fdfc1_2016_report.pdf",
+          "actual_sha256": "b7f24c5fdfc1b25e642a6aca113c44f8229786426c29a41dd8969331c859250f",
+          "actual_bytes": 7432222,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "b7f24c5fdfc1b25e642a6aca113c44f8229786426c29a41dd8969331c859250f",
+      "actual_bytes": 7432222,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 53,
+      "filename": "035e398254cc_2016_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_shisetsubetsu_report00.pdf",
+      "expected_sha256": "035e398254ccfa382af56aefed49f16cbcf267f3fee9d87a39f8537bae3204b5",
+      "manifest_saved_sha256": "035e398254ccfa382af56aefed49f16cbcf267f3fee9d87a39f8537bae3204b5",
+      "expected_bytes": 116028881,
+      "verified_at_jst": "2026-11-27T07:08:19.584260+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/035e398254cc_2016_shisetsubetsu_report00.pdf",
+          "actual_sha256": "035e398254ccfa382af56aefed49f16cbcf267f3fee9d87a39f8537bae3204b5",
+          "actual_bytes": 116028881,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "035e398254ccfa382af56aefed49f16cbcf267f3fee9d87a39f8537bae3204b5",
+      "actual_bytes": 116028881,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 54,
+      "filename": "20004ab4fb7d_2016_pref_shisetsubetsu_report00.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_pref_shisetsubetsu_report00.pdf",
+      "expected_sha256": "20004ab4fb7d193e58094e13a56740e0a942e02b5ed316d25dda28b94a481ba9",
+      "manifest_saved_sha256": "20004ab4fb7d193e58094e13a56740e0a942e02b5ed316d25dda28b94a481ba9",
+      "expected_bytes": 129246658,
+      "verified_at_jst": "2026-11-27T07:08:22.809499+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/20004ab4fb7d_2016_pref_shisetsubetsu_report00.pdf",
+          "actual_sha256": "20004ab4fb7d193e58094e13a56740e0a942e02b5ed316d25dda28b94a481ba9",
+          "actual_bytes": 129246658,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "20004ab4fb7d193e58094e13a56740e0a942e02b5ed316d25dda28b94a481ba9",
+      "actual_bytes": 129246658,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 55,
+      "filename": "cab0cc3f88c6_2016_revision_history.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_revision_history.pdf",
+      "expected_sha256": "cab0cc3f88c6ae7d0d60ab5f5491d9218afd2f25d6f0bcba4e88815c7f3d0fe3",
+      "manifest_saved_sha256": "cab0cc3f88c6ae7d0d60ab5f5491d9218afd2f25d6f0bcba4e88815c7f3d0fe3",
+      "expected_bytes": 179661,
+      "verified_at_jst": "2026-11-27T07:08:26.827358+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/cab0cc3f88c6_2016_revision_history.pdf",
+          "actual_sha256": "cab0cc3f88c6ae7d0d60ab5f5491d9218afd2f25d6f0bcba4e88815c7f3d0fe3",
+          "actual_bytes": 179661,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "cab0cc3f88c6ae7d0d60ab5f5491d9218afd2f25d6f0bcba4e88815c7f3d0fe3",
+      "actual_bytes": 179661,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 56,
+      "filename": "e6017ed96629_2018_2019_icccaya.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_2019_icccaya.pdf",
+      "expected_sha256": "e6017ed96629762df667896cc287be1c024763e84df2ee370232c4f5ff880130",
+      "manifest_saved_sha256": "e6017ed96629762df667896cc287be1c024763e84df2ee370232c4f5ff880130",
+      "expected_bytes": 863927,
+      "verified_at_jst": "2026-11-27T07:08:27.743300+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/e6017ed96629_2018_2019_icccaya.pdf",
+          "actual_sha256": "e6017ed96629762df667896cc287be1c024763e84df2ee370232c4f5ff880130",
+          "actual_bytes": 863927,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "e6017ed96629762df667896cc287be1c024763e84df2ee370232c4f5ff880130",
+      "actual_bytes": 863927,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 57,
+      "filename": "0216d7a2c358_2018_2019_icccaya_appendix01.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_2019_icccaya_appendix01.pdf",
+      "expected_sha256": "0216d7a2c35831e0c9674e1f977ca44e528ae42c030ec449827b52596d1288a4",
+      "manifest_saved_sha256": "0216d7a2c35831e0c9674e1f977ca44e528ae42c030ec449827b52596d1288a4",
+      "expected_bytes": 313892,
+      "verified_at_jst": "2026-11-27T07:08:28.174593+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/0216d7a2c358_2018_2019_icccaya_appendix01.pdf",
+          "actual_sha256": "0216d7a2c35831e0c9674e1f977ca44e528ae42c030ec449827b52596d1288a4",
+          "actual_bytes": 313892,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "0216d7a2c35831e0c9674e1f977ca44e528ae42c030ec449827b52596d1288a4",
+      "actual_bytes": 313892,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 58,
+      "filename": "2b7ea24f531f_2018_2019_icccaya_appendix02.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2018_2019_icccaya_appendix02.pdf",
+      "expected_sha256": "2b7ea24f531f1cce8dfb2c06a98f7a37ac9e12233e0b95b30cc6743c4861828a",
+      "manifest_saved_sha256": "2b7ea24f531f1cce8dfb2c06a98f7a37ac9e12233e0b95b30cc6743c4861828a",
+      "expected_bytes": 1164046,
+      "verified_at_jst": "2026-11-27T07:08:28.579557+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/2b7ea24f531f_2018_2019_icccaya_appendix02.pdf",
+          "actual_sha256": "2b7ea24f531f1cce8dfb2c06a98f7a37ac9e12233e0b95b30cc6743c4861828a",
+          "actual_bytes": 1164046,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "2b7ea24f531f1cce8dfb2c06a98f7a37ac9e12233e0b95b30cc6743c4861828a",
+      "actual_bytes": 1164046,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 59,
+      "filename": "f1e432e3ae26_2016_2017_icccaya.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_2017_icccaya.pdf",
+      "expected_sha256": "f1e432e3ae2620513b209703743cef857d1f304ed4f0f9154c6737da8baa8b68",
+      "manifest_saved_sha256": "f1e432e3ae2620513b209703743cef857d1f304ed4f0f9154c6737da8baa8b68",
+      "expected_bytes": 2961144,
+      "verified_at_jst": "2026-11-27T07:08:28.959539+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/f1e432e3ae26_2016_2017_icccaya.pdf",
+          "actual_sha256": "f1e432e3ae2620513b209703743cef857d1f304ed4f0f9154c6737da8baa8b68",
+          "actual_bytes": 2961144,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "f1e432e3ae2620513b209703743cef857d1f304ed4f0f9154c6737da8baa8b68",
+      "actual_bytes": 2961144,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 60,
+      "filename": "bcd4e0865113_2016_2017_icccaya_shusei.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2016_2017_icccaya_shusei.pdf",
+      "expected_sha256": "bcd4e086511394dac6a8497fd2f99d7a4f42c5fa578c7dab96e40edc26916bb6",
+      "manifest_saved_sha256": "bcd4e086511394dac6a8497fd2f99d7a4f42c5fa578c7dab96e40edc26916bb6",
+      "expected_bytes": 413224,
+      "verified_at_jst": "2026-11-27T07:08:29.581703+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/bcd4e0865113_2016_2017_icccaya_shusei.pdf",
+          "actual_sha256": "bcd4e086511394dac6a8497fd2f99d7a4f42c5fa578c7dab96e40edc26916bb6",
+          "actual_bytes": 413224,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "bcd4e086511394dac6a8497fd2f99d7a4f42c5fa578c7dab96e40edc26916bb6",
+      "actual_bytes": 413224,
+      "status": "VERIFIED"
+    },
+    {
+      "index": 61,
+      "filename": "715e63afaa46_new2017_tokubetsu.pdf",
+      "source_url": "https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/new2017_tokubetsu.pdf",
+      "expected_sha256": "715e63afaa46594886741959f8544fc0b9b6b19fe01fc623ae4f2a6bfdcd95ad",
+      "manifest_saved_sha256": "715e63afaa46594886741959f8544fc0b9b6b19fe01fc623ae4f2a6bfdcd95ad",
+      "expected_bytes": 782931,
+      "verified_at_jst": "2026-11-27T07:08:29.914860+09:00",
+      "located_copies": 1,
+      "checked_files": [
+        {
+          "relative_path": "raw/hospital_registry/715e63afaa46_new2017_tokubetsu.pdf",
+          "actual_sha256": "715e63afaa46594886741959f8544fc0b9b6b19fe01fc623ae4f2a6bfdcd95ad",
+          "actual_bytes": 782931,
+          "hash_match": true,
+          "size_match": true
+        }
+      ],
+      "verified_copies": 1,
+      "actual_sha256": "715e63afaa46594886741959f8544fc0b9b6b19fe01fc623ae4f2a6bfdcd95ad",
+      "actual_bytes": 782931,
+      "status": "VERIFIED"
+    }
+  ]
+}
