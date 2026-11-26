@@ -1,0 +1,70 @@
+{
+  "verified_jst": "2026-11-26T19:50:56+09:00",
+  "checks": {
+    "hash_and_size": {
+      "status": "pass",
+      "count": 174
+    },
+    "original_cells": {
+      "status": "pass",
+      "count": 365472,
+      "mismatches": 0,
+      "sample": []
+    },
+    "no_missing_value_imputation": {
+      "status": "pass",
+      "errors": 0
+    },
+    "unique_observations": {
+      "status": "pass",
+      "duplicates": 0
+    },
+    "hospital_96_months_47_prefectures_10_metrics": {
+      "status": "pass",
+      "combinations": 960,
+      "prefectures": 47
+    },
+    "medias_national_96_months": {
+      "status": "pass",
+      "months": 96
+    },
+    "yoy_derived_arithmetic": {
+      "status": "pass",
+      "verified": 2208,
+      "uncomputed": 0,
+      "distinct_baseline_sources": 2,
+      "discrepancies_over_005pp": 0,
+      "discrepancy_examples": []
+    },
+    "national_cost_components": {
+      "status": "pass",
+      "months": 96,
+      "maximum_absolute_error_trillion_yen": "0E-12"
+    },
+    "national_cost_per_day": {
+      "status": "pass",
+      "months": 96,
+      "maximum_absolute_error_thousand_yen": "3.71075771856E-15"
+    },
+    "hospital_additive_same_edition": {
+      "status": "pass",
+      "comparisons": 576
+    }
+  },
+  "hospital_rows": 267648,
+  "medias_rows": 97824,
+  "medias_rows_by_series": {
+    "national_level": 2208,
+    "national_published_yoy": 2208,
+    "specialty_published_yoy": 2880,
+    "regional_published_yoy": 90528
+  },
+  "hospital_edition_comparisons": {
+    "national_month_preliminary_vs_annual_edition/difference": 574,
+    "same_edition_47_prefectures_vs_national/match": 576,
+    "national_month_preliminary_vs_annual_edition/match": 2,
+    "prefecture_annual_matched_scope/difference": 1487,
+    "prefecture_annual_matched_scope/match": 433
+  },
+  "medias_region_months": 76
+}
