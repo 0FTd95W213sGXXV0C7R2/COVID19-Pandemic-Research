@@ -1,0 +1,5 @@
+# Stage 14: normalized attributes and detail column mapping
+
+Executed 2026-11-27T08:15:46.587748+09:00. Python pandas full CSV scan (1,730,865 rows). Sex mapping 男女計/総数→total, 男→male, 女→female; age normalization removes 歳, handles aggregate/reprint and open-ended groups, unknown and all ages; mortality_asr75 maps 0-74. Reprint flag matches 再掲 or 合計. Standard mapping distinguishes world_segi_1960, japan_1985, japan_2015 and empty. Each of four checks: 1,730,865 rows, zero mismatches (6,923,460 comparisons). Detail original header inspected: E count, F crude rate, G 1985 ASR, H world ASR; 2,471 rows each. Measure, standard and unit checks each 9,884 rows, zero mismatches. This validates mapping, not independent ASR recalculation or all semantic attributes. No raw edits. PENDING_QA. Earlier stage 11–13 execution evidence should be independently reproduced before final acceptance.
+
+Sources: https://drive.google.com/file/d/11wpd9QSQVf4t2XKT30NahPjp1MxmkCMe/view ; https://drive.google.com/drive/folders/1HKGAXwAfD-JaXMtRy2FG7eMqYyP94YZo ; https://ganjoho.jp/reg_stat/statistics/data/dl/index.html
