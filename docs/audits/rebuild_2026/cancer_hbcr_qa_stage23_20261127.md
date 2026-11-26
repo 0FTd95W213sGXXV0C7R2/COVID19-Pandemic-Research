@@ -1,0 +1,5 @@
+# Stage 23 — independent PDF table 5-3 reconciliation
+
+2026-11-27 JST; exact execution time not captured. Executed pdfplumber and pandas on preserved PDF and three CSVs. PDF SHA256 adb7bb894af9f077053d4335f3a5c3080e5b8cdc3220db5b8577f7b890faf349. Independently enumerated table rows by site header, year header, month/annual label and left/right discovery pathway. Site labels normalized by removing parenthesized ICD code. Page 124 expected/actual/physical rows 260/260/260; page 125 480/480/480; page 126 120/120/120. Every page: zero missing keys, extra keys and numeric differences. Total 860, including 840 monthly and 20 annual totals on page 124; annual totals on pages 125–126 excluded because not in these three primary CSVs. No separate ICD-code check, no current online PDF byte hash comparison, no final errata or adoption clearance. PENDING_QA. No source edits.
+
+Sources: https://ganjoho.jp/public/qa_links/report/hosp_c/pdf/2022_report.pdf ; https://drive.google.com/file/d/13PkpsrxLWvRHJlnpW7iPhST1hmjfeSMa/view ; https://drive.google.com/drive/folders/1AW9Uf5ihRuJs9jFL7TDoKlJsGK_DTDi2
