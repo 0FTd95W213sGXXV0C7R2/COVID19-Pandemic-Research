@@ -1,0 +1,7 @@
+variable	unit	grain	definition	source
+transport_difficulty_overall_current	件	消防本部・52本部合計×月曜開始週	救急隊による医療機関への受入れ照会4回以上かつ現場滞在30分以上。保健所等による受入照会を除外。	https://www.fdma.go.jp/disaster/coronavirus-situ/items/coronavirus_kekka.pdf
+transport_difficulty_overall_previous_year	件	消防本部・52本部合計×前年同期週	Excelの今回週と364日差の比較欄。今回観測と足し合わせると同一観測を重ねる可能性。	https://www.fdma.go.jp/disaster/coronavirus/items/coronavirus_data.xlsx
+transport_difficulty_covid_suspected_current	件	消防本部・52本部合計×月曜開始週	搬送困難の内数。発熱37度以上・呼吸困難等の疑い症状。5類移行後、保健所等の照会を経ず消防機関が照会した陽性者も含む。	https://www.fdma.go.jp/singi_kento/kento/items/r5-1/01/shiryou2-2.pdf
+transport_difficulty_non_covid_suspected_current	件	消防本部・52本部合計×月曜開始週	搬送困難のうち当該調査でコロナ疑いに分類されなかった事案。確定陰性の分類とは別。	https://www.fdma.go.jp/disaster/coronavirus/items/coronavirus_data.xlsx
+emergency_dispatches	件	報告PDF上の消防本部・52本部合計×月曜開始週	今回の救急出動件数。搬送人員、搬送実施件数、患者数とは異なる。	https://www.fdma.go.jp/disaster/coronavirus-situ/items/240408_kyuuki_01.pdf
+cases_per_100_dispatches	100出動あたり件	同一PDFの同一週・同一消防本部範囲	今回の搬送困難事案数÷今回の救急出動件数×100。全52本部の範囲と二指標の全国行を同時に照合できた公表版。	weekly_publication_coverage.csv

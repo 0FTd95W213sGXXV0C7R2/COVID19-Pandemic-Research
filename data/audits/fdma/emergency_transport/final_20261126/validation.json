@@ -1,0 +1,60 @@
+{
+  "start_jst": "2026-11-26T16:44:33+09:00",
+  "end_jst": "2026-11-26T16:44:38+09:00",
+  "compared_rows": 44308,
+  "mismatches": 0,
+  "workbook_periods": {
+    "搬送困難事案（今回）": [
+      "2020-03-30",
+      "2025-03-30",
+      261
+    ],
+    "搬送困難事案（前年同期）": [
+      "2019-04-01",
+      "2024-03-31",
+      261
+    ],
+    "うちコロナ疑い事案（今回）": [
+      "2021-03-29",
+      "2024-03-31",
+      157
+    ],
+    "うち非コロナ疑い事案（今回）": [
+      "2021-03-29",
+      "2024-03-31",
+      157
+    ]
+  },
+  "national_outcomes": {
+    "match": 835,
+    "incomplete_known_sum_matches": 1
+  },
+  "partitions": {
+    "match": 8320,
+    "incomplete": 1
+  },
+  "acquisition": {
+    "downloaded": 96
+  },
+  "pdf_weeks_accepted": 67,
+  "pdf_weeks_held": 21,
+  "count_rows": 30257,
+  "rate_rows": 3551,
+  "revision_rows": 2,
+  "pdf_workbook_differences": 0,
+  "tests": {
+    "raw_matches_archived_manifest": true,
+    "independent_cells_44308": true,
+    "continuous_monday_weeks": true,
+    "identical_52_departments_in_workbook": true,
+    "one_incomplete_national_reconciliation": true,
+    "fresh_official_workbook_matches_saved_bytes": true,
+    "classification_partition_total_and_facility": true,
+    "boundary_20240401_verified_53_pdf_cells": true,
+    "weekly_dispatch_rate_has_matching_period_scope": true,
+    "no_cross_form_ids_or_missing_values": true,
+    "paired_comparator_not_double_counted": true,
+    "notice_105_verifies_reporting_changes": true,
+    "rate_observation_keys_unique_and_same_53_records": true
+  }
+}
