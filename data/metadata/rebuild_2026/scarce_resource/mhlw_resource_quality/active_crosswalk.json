@@ -1,0 +1,17 @@
+{
+  "release": "weekly_candidate_v2",
+  "crosswalk": "data/metadata/rebuild_2026/scarce_resource/mhlw_resource_quality/variable_crosswalk_candidate_v2.csv",
+  "status_precedence": [
+    "held_definition_followup",
+    "definition_evidence",
+    "adoption_decisions",
+    "historical_metadata"
+  ],
+  "sha256": {
+    "data/metadata/rebuild_2026/scarce_resource/mhlw_resource_quality/variable_crosswalk_candidate_v2.csv": "c315da8f5b5c649065174e9930520af89bdab6d361d06360f9160cf90adce9c4",
+    "data/metadata/rebuild_2026/scarce_resource/mhlw_resource_quality/variable_crosswalk.csv": "77fc2aed62378c73673b2ec2f479fb94a7fef43507cdc71cf91af1356cec26e8",
+    "data/audits/mhlw/resource_quality_20261126/definition_review/definition_evidence.csv": "b4fb6b1a4013d9fa1f14ca219b427e778a6575a24052b2a649b2ccb3ba9071d1",
+    "data/audits/mhlw/resource_quality_20261126/definition_review/adoption_decisions.csv": "33d884eb5825fc5e8019a51e1c7a864fe6d9fbc929dc546bd0cb4ba8314d9692",
+    "data/audits/mhlw/resource_quality_20261126/early_pdf_audit/held_definition_followup.csv": "ad4645db0cd774c4578fb889a4a38101992f54b123d9f918dbc7644fbee4692b"
+  }
+}

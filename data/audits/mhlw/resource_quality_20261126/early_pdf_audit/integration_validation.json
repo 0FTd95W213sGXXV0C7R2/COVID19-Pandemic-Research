@@ -1,0 +1,24 @@
+{
+  "started_at_jst": "2026-11-26T14:35:28+09:00",
+  "finished_at_jst": "2026-11-26T14:35:36+09:00",
+  "rows": 5008,
+  "weekly": 4492,
+  "held": 778,
+  "pdf_files": 171,
+  "pdf_downloaded": 171,
+  "same_week_occurrences": 778,
+  "matching_context_note_occurrences": 542,
+  "tests": {
+    "same_variable_identity": true,
+    "all_778_held_remain_unusable": true,
+    "old_known_conflicts_overridden": true,
+    "reviewed_severity_takes_priority": true,
+    "required_sources_present": true,
+    "no_automatic_gmis_join": true,
+    "dash_and_blank_blocked": true,
+    "version_pointer_and_hashes_validated": true,
+    "different_eras_cannot_be_joined": true,
+    "same_governed_definition_can_be_compared": true,
+    "allow_numeric_for_supported_variable": true
+  }
+}

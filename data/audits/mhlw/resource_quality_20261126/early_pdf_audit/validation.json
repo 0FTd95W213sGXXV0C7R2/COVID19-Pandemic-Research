@@ -1,0 +1,26 @@
+{
+  "started_at_jst": "2026-11-26T14:35:51+09:00",
+  "finished_at_jst": "2026-11-26T14:36:10+09:00",
+  "downloads": 36,
+  "pages": 38,
+  "tables": {
+    "hold": 9,
+    "screened_grid": 29
+  },
+  "national": {
+    "match": 355,
+    "incomplete": 2
+  },
+  "extraction_errors": [],
+  "tests": {
+    "queue_complete": true,
+    "all_36_downloaded": true,
+    "rendered_all_extracted_pages": true,
+    "december_sample_visual_totals": true,
+    "screen_requires_full_coverage": true,
+    "acquisition_provenance": true,
+    "extracted_downloads": true,
+    "no_imputation": true,
+    "nonnumeric_preserved": true
+  }
+}
