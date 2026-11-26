@@ -1,0 +1,6 @@
+item,status,period,reason,url
+全国月次年次公表版,取得済,2017-01～2024-12,72 CSV。,https://www.e-stat.go.jp/stat-search/files?toukei=00450023&tstat=000001030749
+地域年次年次公表版,取得済,2017～2024,56 CSV。病床数は6月末。,https://www.e-stat.go.jp/stat-search/files?toukei=00450023&tstat=000001030749
+都道府県月次・確定値,未特定,2017-01～2024-12,調査した年次公表一覧では全国月別と都道府県年別が別。,https://www.e-stat.go.jp/stat-search/files?toukei=00450023&tstat=000001030749
+都道府県月次・概数,掲載確認・値未取得,DB 0004024141 表示上 2024-04～2025-09,都道府県別の公式概数DB。期間全体のデータ出力と独立照合は未実施。,https://www.e-stat.go.jp/dbview?sid=0004024141
+改訂前の原ファイル,未確認,2017～2024,公開（更新）日から改訂内容は推定しない。,https://www.e-stat.go.jp/stat-search/files?toukei=00450023&tstat=000001030749

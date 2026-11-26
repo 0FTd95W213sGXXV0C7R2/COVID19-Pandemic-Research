@@ -1,0 +1,13 @@
+metric,label,unit,definition,source_url,population
+inpatient_days,在院患者延数,人日,毎日24時現在の在院者数を期間内で合計。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+month_end_inpatients,月末在院患者数,人,月末24時現在の在院患者。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+admissions,新入院患者数,入院件,月内の新入院。同日退院も含む。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+discharges,退院患者数,退院件,月内の退院。同日入退院も含む。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+outpatient_contacts,外来患者延数,延人,初再診・往診・巡回診療を含む。複数診療科で診療録が各科に作成される場合は科別に計上。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+daily_mean_inpatients,1日平均在院患者数,人/日,月間在院患者延数を当該月の暦日数で除した派生値。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+daily_mean_outpatients,1日平均外来患者数,人/日,月間外来患者延数を当該月の暦日数で除した派生値。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+beds,月末病床数,床,当該月末の病床数。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+month_end_bed_utilization,月末病床利用率,%,月末在院患者数÷月末病床数×100の公表値。年次の病床利用率とは適用期間・定義が異なる。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+average_stay,平均在院日数,日,在院患者延数÷（（新入院患者数＋退院患者数）÷2）。療養病床には院内の他病床種別間の移動を加えた分母を用いる。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+annual_bed_utilization,年間病床利用率,%,年間在院患者延数÷各月の（月間日数×月末病床数）の年間合計×100。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）
+beds_june_end,6月末病床数,床,当該年の6月末の病床数。,https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/24/dl/01tyousa06.pdf,報告対象病院の全患者（COVID-19除外不可）

@@ -1,0 +1,5 @@
+period,metric,provisional_pdf,page,provisional_value,annual_source_id,annual_derived_rounded,annual_minus_provisional
+2024-04,daily_mean_inpatients,provisional_2024_04.pdf,1,1127762,000040323427,1127664,-98
+2024-04,daily_mean_outpatients,provisional_2024_04.pdf,1,1222525,000040323431,1222643,118
+2024-12,daily_mean_inpatients,provisional_2024_12.pdf,1,1133001,000040323427,1132710,-291
+2024-12,daily_mean_outpatients,provisional_2024_12.pdf,1,1236915,000040323431,1237188,273

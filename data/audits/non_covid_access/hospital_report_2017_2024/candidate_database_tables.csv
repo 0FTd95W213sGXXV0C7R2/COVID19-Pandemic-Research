@@ -1,0 +1,6 @@
+id,url,stat_code,period,table,title,released,variant
+0004019963,https://www.e-stat.go.jp/stat-search/database?layout=dataset&statdisp_id=0004019963,00450023,2021年,J13,外来患者延数，月・病院の種類別,2024-09-05 14:00,e-Stat database
+0004029012,https://www.e-stat.go.jp/stat-search/database?layout=dataset&statdisp_id=0004029012,00450023,2023年,Z13,外来患者延数，月・病院の種類別,2025-07-16 14:00,e-Stat database
+0004045391,https://www.e-stat.go.jp/stat-search/database?layout=dataset&statdisp_id=0004045391,00450023,2024年,Z9-1,在院患者延数・月末在院患者数・新入院患者数・退院患者数・月末病床利用率・病床数，月・病院ー病床の種類別,2026-02-20 14:00,e-Stat database
+0004045392,https://www.e-stat.go.jp/stat-search/database?layout=dataset&statdisp_id=0004045392,00450023,2024年,Z9-2,在院患者延数・月末在院患者数・新入院患者数・退院患者数・平均在院日数・月末病床利用率・病床数，月・病床の種類別,2026-02-20 14:00,e-Stat database
+0004045393,https://www.e-stat.go.jp/stat-search/database?layout=dataset&statdisp_id=0004045393,00450023,2024年,Z13,外来患者延数，月・病院の種類別,2026-02-20 14:00,e-Stat database

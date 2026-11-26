@@ -1,0 +1,65 @@
+{
+  "verified_at_jst": "2026-11-26T19:35:45+09:00",
+  "checks": {
+    "source_hash_and_size": {
+      "status": "pass",
+      "files": 128
+    },
+    "official_annual_metadata": {
+      "status": "pass"
+    },
+    "independent_cell_coverage": {
+      "status": "pass",
+      "cells": 40464
+    },
+    "original_raw_and_numeric_no_imputation": {
+      "status": "pass",
+      "mismatches": []
+    },
+    "observation_keys": {
+      "status": "pass",
+      "duplicates": []
+    },
+    "96_months_eight_published_series": {
+      "status": "pass",
+      "months": 96
+    },
+    "derived_separation_and_calendar_formula": {
+      "status": "pass",
+      "rows": 192
+    },
+    "care_bed_boundary_and_nonapplicability": {
+      "status": "pass",
+      "discontinued_cells": 117
+    },
+    "annual_national_prefecture_month_sum": {
+      "status": "pass",
+      "counts": {
+        "match": 32
+      }
+    },
+    "june_beds_same_reference_date": {
+      "status": "pass",
+      "compared": 24
+    },
+    "additive_hospital_type_totals": {
+      "status": "pass",
+      "compared": 2496,
+      "pending": 0,
+      "mismatches": []
+    },
+    "national_prefecture_monthly_reconciliation": {
+      "status": "not_tested",
+      "reason": "Comparable monthly prefecture series was not acquired"
+    },
+    "nonadditive_region_reconciliation": {
+      "status": "not_applicable",
+      "reason": "Rates and average lengths of stay cannot be summed"
+    }
+  },
+  "rows": {
+    "national_monthly": 11328,
+    "prefecture_annual": 29136,
+    "derived": 192
+  }
+}
