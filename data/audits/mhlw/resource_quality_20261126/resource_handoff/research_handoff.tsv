@@ -1,0 +1,12 @@
+dataset	acquisition_status	adoption_status	period	geography	ethical_research_use	limitations	artifact
+週次療養Excel	取得済み	分析可能と条件付き採用	2020-12-23〜2024-03-27	都道府県	地域・時期別の受入・病床逼迫に関する事例の背景	有効v3の採用列のみ。同一定義IDと期間内で比較。施設別の配分理由・因果効果は測定しない。	weekly_excel_v3_analysis.csv.gz
+週次療養Excelの分析保留	取得済み	保留	2020-12-23〜2024-03-27	都道府県	定義変更と地域の報告差が生む比較可能性の監査	全保留1121列。追加監査対象の残り588列（定義未確定509・地域重症運用79）を含む。	active_crosswalk.json
+初期PDF	取得済み	条件付き採用	2020-04-28〜2020-12-16	都道府県	初動期の病床確保計画と地域差の記述	参考再掲を除外。項目別基準日と原表の脚注を確認。Excel期や異なる指標を接続しない。	early_pdf_numeric_extract.csv.gz
+G-MIS全報告行	取得済み	条件付き採用	2021-12-01〜2024-03-06、43時点	施設・都道府県集計	当日報告施設における病床供給と報告網の状況	施設構成が変化。施設コード欠損・未報告・再掲を扱う。都道府県の連続系列には不採用。	gmis_prefecture_cohorts.csv
+G-MIS継続報告施設	取得済み	条件付き採用	2021-12-01〜2024-03-06、43時点	固定施設・都道府県集計	報告施設の入れ替わりを避けた時点比較	固定集合と隣接点集合は別。2023年10月の区分をまたがない。報告施設選択・数値欠測に注意。	gmis_prefecture_cohorts.csv
+G-MIS集中治療公表表	取得済み	分析可能	2023-05-08〜2023-09-24、20週	全国のG-MIS報告施設	全国的な急性期負荷の時間的背景	ICU在室・ECMO又は人工呼吸器の7日平均。新規入院週合計と別。公表改訂・標本差を保持。	gmis_critical_care_weekly_latest.csv
+G-MIS定点の新規入院	取得済み	条件付き採用	2022-12-05〜2023-09-24	全国の定点医療機関	入院需要の背景	公表XLSXは新規入院の週別値。ICU・ECMO・人工呼吸器のデータ欄なし。	critical_care_acquisition.csv
+ICU届出病床・ECMOと人工呼吸器単独	取得済み	条件付き採用	2020年〜2022年の別時点・別期間	全国・登録施設	供給規模と集中治療利用の歴史的背景	前回確認済み7値。設備・時点人数・累積症例数を保持し、連続系列に補間しない。	../final_resource_review/critical_care_values.csv
+CRISIS公開時系列の元データ	未取得	保留	2020-02以降の一部表示	参加施設集計	開始件数・実施中症例と地域資源制約の検討	公開図あり。取得した公開ページにCSV等の配布リンクを確認できず、図を目測数値化していない。	critical_care_acquisition.csv
+CRISIS非公開レジストリ	未取得	保留	提供範囲は審査時確認	参加施設、提供粒度は要確認	装着開始・実施中・転帰・施設カバー率の定義確認	様式1をECMOnetの窓口へ。目的・仮説・方法・希望項目を提示し委員会審査。申請・取得は未実施。	https://www.ecmonet.jp/archives/crisis-data
+新規ICU入室・設備台数	未取得	保留	未確定	未確定	新規需要と保有・稼働上限を別々に評価	施設別の新規ICU入室、人工呼吸器・ECMO設備台数の検証済み連続系列は未取得。	../final_resource_review/supplemental_source_manifest.csv

@@ -1,0 +1,13 @@
+{
+  "start_jst": "2026-11-26T16:28:54+09:00",
+  "end_jst": "2026-11-26T16:29:00+09:00",
+  "facility_rows": 116214,
+  "snapshot_count": 43,
+  "nonreporting": 3165,
+  "republished_prior": 2519,
+  "unidentified": 50,
+  "cohort_rows": 23634,
+  "membership_events": 3389,
+  "weekly_excel_rows": 146126,
+  "early_pdf_rows": 22021
+}

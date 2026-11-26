@@ -1,0 +1,32 @@
+{
+  "start_jst": "2026-11-26T16:32:19+09:00",
+  "end_jst": "2026-11-26T16:32:24+09:00",
+  "original_files": 556,
+  "weekly_v3_rows": 146126,
+  "early_pdf_rows": 22021,
+  "excluded_review_holds": 588,
+  "all_weekly_hold_columns": 1121,
+  "gmis_reconciled_rows": 116214,
+  "critical_week_count": 20,
+  "tests": {
+    "all_556_original_hashes": true,
+    "v3_registry_dependencies": true,
+    "eligible_source_rows_match_exactly": true,
+    "588_review_holds_excluded": true,
+    "all_weekly_analysis_holds_excluded": true,
+    "regional_severity_not_assumed_equivalent": true,
+    "regional_and_national_standard_evidence_traced": true,
+    "definition_id_preserved_without_merging": true,
+    "excel_source_and_series_observation_keys_unique": true,
+    "weekly_no_imputation": true,
+    "pdf_reference_exclusion_complete_and_exact": true,
+    "pdf_series_separate_and_duplicate_free": true,
+    "gmis_facility_values_independently_reconciled": true,
+    "gmis_unique_source_records_and_no_missing_id_panel": true,
+    "facility_turnover_codes_reconcile": true,
+    "gmis_cohort_populations_and_missingness_declared": true,
+    "gmis_current_and_fixed_populations_reconcile": true,
+    "critical_care_unique_observation_vintages_and_latest_selection": true,
+    "critical_care_week_values_are_not_chart_estimates": true
+  }
+}
