@@ -150,6 +150,8 @@ def review_held(evidence, headers, private):
 
 
 def build():
+    if ACTIVE.exists() and json.loads(ACTIVE.read_text(encoding="utf-8"))["release"] != "weekly_candidate_v2":
+        raise ValueError("A later crosswalk is active. Reproduce v2 from its historical commit.")
     old = by_key(csv_rows(HISTORICAL), "variable_id")
     evidence = by_key(csv_rows(REVIEW / "definition_evidence.csv"), "variable_id")
     decisions = by_key(csv_rows(REVIEW / "adoption_decisions.csv"), "definition_id")
@@ -198,6 +200,8 @@ def main():
     parser.add_argument("--private-dir", type=Path)
     parser.add_argument("--integrate-only", action="store_true", help="Reuse the saved hold review without Internet access")
     args = parser.parse_args()
+    if ACTIVE.exists() and json.loads(ACTIVE.read_text(encoding="utf-8"))["release"] != "weekly_candidate_v2":
+        parser.error("A later crosswalk is active. Reproduce v2 from its historical commit.")
     started = datetime.now(JST).isoformat(timespec="seconds")
     OUT.mkdir(parents=True, exist_ok=True)
     if not args.integrate_only:

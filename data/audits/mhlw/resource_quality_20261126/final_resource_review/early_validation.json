@@ -1,0 +1,24 @@
+{
+  "start_jst": "2026-11-26T14:46:55+09:00",
+  "end_jst": "2026-11-26T14:47:12+09:00",
+  "transitions": {
+    "hold->verified": 9,
+    "screened_grid->verified": 29
+  },
+  "series_rows": 26508,
+  "national": {
+    "match": 423,
+    "incomplete": 11
+  },
+  "tests": {
+    "all_38_tables_assessed": true,
+    "all_nine_rechecked": true,
+    "reference_pages_explicitly_flagged": true,
+    "approved_tables_require_48_matched_rows": true,
+    "series_has_unique_source_cells": true,
+    "no_zero_imputation": true,
+    "no_excel_join": true,
+    "annotated_severe_values_preserved": true,
+    "reference_dates_not_collapsed": true
+  }
+}

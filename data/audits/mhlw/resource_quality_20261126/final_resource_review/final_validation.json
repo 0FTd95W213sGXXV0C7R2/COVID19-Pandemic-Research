@@ -1,0 +1,22 @@
+{
+  "start_jst": "2026-11-26T14:47:01+09:00",
+  "end_jst": "2026-11-26T14:47:09+09:00",
+  "source_success": 23,
+  "source_total": 25,
+  "new_definition_count": 269,
+  "remaining_held": 509,
+  "original_rights_eligible": 206,
+  "private_copy_count": 207,
+  "metric_count": 7,
+  "tests": {
+    "all_207_originals_hash_verified": true,
+    "no_original_pdf_listed_as_public": true,
+    "every_held_occurrence_reassessed": true,
+    "allowed_changes_have_notice_page": true,
+    "early_occupancy_still_held": true,
+    "severe_regional_use_still_held": true,
+    "crosswalk_has_5008_entries": true,
+    "license_policy_retrieved": true,
+    "critical_care_metric_types_separate": true
+  }
+}

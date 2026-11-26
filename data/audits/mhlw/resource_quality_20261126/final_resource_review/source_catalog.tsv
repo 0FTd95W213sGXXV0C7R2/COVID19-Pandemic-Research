@@ -1,0 +1,26 @@
+id	publisher	url	format	period	metric_type	unit	geography	coverage_definition
+survey_2020	mhlw	https://www.mhlw.go.jp/content/000625945.pdf	pdf	2020-04-26	reporting_protocol	none	prefecture	初期調査報告依頼。基準時点と項目別指示。
+survey_2022	mhlw	https://www.mhlw.go.jp/content/000994201.pdf	pdf	2022-09-28から	reporting_protocol	none	prefecture	第1節 報告対象・入院・重症・宿泊・自宅等の定義。
+survey_may	mhlw	https://www.mhlw.go.jp/content/001088884.pdf	pdf	2023-05-10から	reporting_protocol	none	prefecture	5類移行後の週次調査報告定義。
+survey_oct	mhlw	https://www.mhlw.go.jp/content/001147068.pdf	pdf	2023-10-04から	reporting_protocol	none	prefecture	10月以降の在院・中等症Ⅱ・重症・即応病床上限・段階0。
+policy_oct	mhlw	https://www.mhlw.go.jp/content/001147051.pdf	pdf	2023-10-01から	policy	none	national	提供体制の移行・公費支援。週次調査の計数仕様と区別。
+notification_scope	mhlw	https://www.mhlw.go.jp/content/000997634.pdf	pdf	2022-09-26から	policy	none	national	全数届出の見直し・HER-SYSの総数報告。週次の自宅療養数とは別。
+tokyo_standard	tokyo	https://www.metro.tokyo.lg.jp/governor/kishakaiken/2020/8/21	html	2020-08-21	local_reporting_protocol	none	Tokyo	都のモニタリング上の人工呼吸器・ECMO基準。
+tokyo_record	tokyo	https://www.gikai.metro.tokyo.lg.jp/record/proceedings/2021-1/01.html	html	2021年2月	local_reporting_protocol	none	Tokyo	都議会会議録。都の重症指標と国基準を区別。
+gmis_202308	mhlw_niid	https://www.mhlw.go.jp/content/10900000/001131554.pdf	pdf	2022-10-03/2023-07-23	icu_patient_prevalence;ecmo_or_ventilator_prevalence;admission_incidence	person	national	G-MIS報告施設。患者ストックの7日間平均と新規入院フローを区別。
+gmis_sep_context	mhlw	https://www.mhlw.go.jp/content/12404000/001145875.pdf	pdf	2023-09-13	administrative_snapshot	none	national	中医協の診療報酬資料。期間・系列ごとに再確認。
+icu_beds	mhlw	https://www.mhlw.go.jp/content/12404000/001325879.pdf	pdf	令和4年9月14日資料から引用	icu_registered_bed_capacity	bed	national	特定集中治療室管理料区分の届出病床。全用途。入室患者数・COVID確保床とは別。
+icu_trend	mhlw	https://www.mhlw.go.jp/content/10808000/001533221.pdf	pdf	診療報酬改定前後	registered_bed_capacity	bed	national	ICU・HCU・救命救急の区分、改定による区分追加。
+ecmo_cumulative	mhlw_ecmonet	https://www.mhlw.go.jp/content/10802000/000951151.pdf	pdf	2020-02-09/2022-06-12	ecmo_cumulative_patients	person	national_registry	CRISIS登録ECMO装着患者の期間累積。全患者・時点稼働とは別。
+device_protocol	mhlw	https://www.mhlw.go.jp/content/000616014.pdf	pdf	2020年	equipment_survey_protocol	device	national	保有・稼働の調査票。回答集計値の原資料は別。
+crisis_description	ecmonet	https://www.ecmonet.jp/crisis	html	2020-07-10登録範囲	registry_coverage_facilities_and_beds	facility;bed	national_registry	参加施設と登録対象ICUベッド。全国設備総数の直接測定ではない。
+crisis_dashboard	ecmonet	https://crisis.ecmonet.jp/en-general/	html	2020-02以降	graph_dashboard	person	national_registry	時点使用・月別ECMO開始・累積転帰は別図。転載制限。HTMLのみ。
+crisis_application	ecmonet	https://www.ecmonet.jp/archives/crisis-data	html	不明	application_catalog	none	national_registry	データ利用の申請状況。個票未取得。
+jsicm_covid	jsicm	https://www.jsicm.org/covid-19.html	html	パンデミック期	source_index	none	national	集中治療医学会の公開リンク。患者系列そのものではない。
+coviregi_protocol	jihs	https://icrown-portal.jihs.go.jp/coviregi/about-the-registry/	html	2020年以降	registry_protocol	none	participating_facilities	入院レジストリ、ICU管理・装着有無。全数調査ではない。
+coviregi_dashboard	jihs	https://icrown-portal.jihs.go.jp/coviregi/dashboard/	html	2020年以降	graph_dashboard	person	participating_facilities	重症は入院中の挿管又はECMO等。利用・転載は事務局連絡。
+mhlw_license	mhlw	https://www.mhlw.go.jp/chosakuken/	html	取得時	license	none	none	PDL1.0の適用と例外、出典と加工明示。
+pdl	digital_agency	https://www.digital.go.jp/resources/open_data/public_data_license_v1.0	html	取得時	license	none	none	第三者の権利と配布時の条件。
+mv_cumulative_2020	mhlw_ecmonet	https://www.mhlw.go.jp/content/000712473.pdf	pdf	2020-12-23まで	ventilator_without_ecmo_cumulative_patients	person	national_registry	診療の手引き第4版の累計成績グラフ。図から値を推測しない。
+mv_timeseries_chart	mhlw_ecmonet	https://www.mhlw.go.jp/content/10900000/000847821.pdf	pdf	2020-02-09/2021-10-18	ventilator_including_ecmo_current_patients_and_capacity	person	national_registry	人工呼吸器装着中（ECMO含む）と受入可能数の別系列。図のみ。
+mv_early_chart	mhlw_ecmonet	https://www.mhlw.go.jp/content/10906000/000663058.pdf	pdf	2020年	ventilator_without_ecmo_cumulative_patients	person	national_registry	ECMOを除く人工呼吸治療の累積成績。図のみ。

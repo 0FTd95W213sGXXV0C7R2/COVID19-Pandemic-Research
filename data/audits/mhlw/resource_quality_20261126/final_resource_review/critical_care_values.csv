@@ -1,0 +1,8 @@
+source_id,url,sha256,page,metric,start,end,value,unit,definition,geography
+gmis_202308,https://www.mhlw.go.jp/content/10900000/001131554.pdf,e024c774a6235339b7282aac0641aa7eab5651d25b94db04d54281902b7dfedb,1,icu_current_patients_7d_average,2023-07-17,2023-07-23,132,人,7日間平均の在室患者数,全国の報告施設
+gmis_202308,https://www.mhlw.go.jp/content/10900000/001131554.pdf,e024c774a6235339b7282aac0641aa7eab5651d25b94db04d54281902b7dfedb,1,ecmo_or_ventilator_current_7d_average,2023-07-17,2023-07-23,70,人,ECMO管理中とECMOなし人工呼吸器管理中の7日間平均,全国の報告施設
+ecmo_cumulative,https://www.mhlw.go.jp/content/10802000/000951151.pdf,b8e9b25ac700ffab27d0bde401f83b1e76687b82c1c563bd40b695912285363f,11,ecmo_cumulative_treated_patients,2020-02-09,2022-06-12,1287,人,CRISISに登録された期間累積装着患者,全国の報告施設
+mv_cumulative_2020,https://www.mhlw.go.jp/content/000712473.pdf,00eaa40ebc4e5c6ff51c47cd53c6d2a86ba7d6900d04c888eed82a8d0a8dc140,34,ventilator_without_ecmo_cumulative_patients,不明,2020-12-23,2030,例,日本ECMOnet公表の人工呼吸治療累積、ECMO除外,全国の報告施設
+mv_cumulative_2020,https://www.mhlw.go.jp/content/000712473.pdf,00eaa40ebc4e5c6ff51c47cd53c6d2a86ba7d6900d04c888eed82a8d0a8dc140,34,ventilator_without_ecmo_current_patients,2020-12-23,2020-12-23,367,例,同集計日に人工呼吸を実施中、ECMO除外,全国の報告施設
+mv_cumulative_2020,https://www.mhlw.go.jp/content/000712473.pdf,00eaa40ebc4e5c6ff51c47cd53c6d2a86ba7d6900d04c888eed82a8d0a8dc140,34,ecmo_current_patients,2020-12-23,2020-12-23,59,例,同集計日にECMOを実施中,全国の報告施設
+icu_beds,https://www.mhlw.go.jp/content/12404000/001325879.pdf,ad61156f8668b0c07e67db0044a38d37c62c371c2564823e1c207f788b13b039,169,icu_management_fee_1_registered_beds,不明,不明,1487,床,特定集中治療室管理料1の届出。引用資料日2022-09-14,全国の届出病床
