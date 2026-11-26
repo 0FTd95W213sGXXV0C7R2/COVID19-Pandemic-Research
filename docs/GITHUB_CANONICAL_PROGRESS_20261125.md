@@ -680,3 +680,8 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 ## 2026-11-27 07:08:30 JST — Raw source verification
 
 61/61 original files verified, 678059062 bytes, 55 PDFs and 6 Excel files. All SHA-256 values match the registered source manifest. See `data/audits/non_covid_access/cancer/raw_source_verification_20261127_070830.json`. Processed 30/30 previously verified. Preservation integrity complete for these 91 files; rights and analytical QA remain pending. No new acquisition or main merge.
+
+
+## 2026-11-27 JST — cancer QA stages 1–10
+
+Colab source-cell audit completed 08:05:26 JST: 1,730,865/1,730,865 rows passed, 15 sheets across four workbooks, zero issue rows, unique cells 1,730,865. Input SHA256 matches preservation audit. Report independently retrieved from Drive and verified against GitHub copy: `data/audits/non_covid_access/cancer/source_cell_audit_20261127_080423.json`. Two unreferenced national mortality workbooks encrypted and held. Cell audit does not establish completeness or semantic label correctness. Stages 1–9 recorded under `docs/audits/rebuild_2026/cancer_national_qa_stage{1..9}_20261127.md`; 1985 and Segi ASR internal checks recorded, 2015 approximation and missingness held. Next: semantic labels and extraction coverage, national detail, HBCR QA, analytical eligibility. Public redistribution rights pending; no raw dataset publication. PENDING_QA.
