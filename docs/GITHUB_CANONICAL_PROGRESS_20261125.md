@@ -675,3 +675,8 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 - Coverage filename collision resolved by schema comparison; no overwrite.
 - Public redistribution permission remains unresolved; keep processed data in Drive, status PENDING_QA. See `docs/audits/rebuild_2026/cancer_rights_and_coverage_20261126.md`.
 - Next: original byte verification, rights decision, QA. No new literature or screening acquisition, no main merge.
+
+
+## 2026-11-27 07:08:30 JST — Raw source verification
+
+61/61 original files verified, 678059062 bytes, 55 PDFs and 6 Excel files. All SHA-256 values match the registered source manifest. See `data/audits/non_covid_access/cancer/raw_source_verification_20261127_070830.json`. Processed 30/30 previously verified. Preservation integrity complete for these 91 files; rights and analytical QA remain pending. No new acquisition or main merge.
