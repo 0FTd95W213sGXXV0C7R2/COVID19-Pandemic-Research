@@ -666,3 +666,12 @@ Mori et al.の本文集計は監査文書に整理されているが、補足資
 - NDB第10回公費単独除外版を取得し、基本外来3コードの年度30行・診療月270行を公費範囲別に保存。改定をまたぐ接続は保留。
 - DPCのICD対応候補1,180行、年度内施設台帳40,200行、手術区分・在院日数2,057,804行を構造化。施設リンク候補33,208組は外部識別子の照合待ち。
 - 既存427件を含む原資料437件のハッシュを確認。独立検証と採用条件は [NDB・DPC定義監査](audits/rebuild_2026/NDB_DPC_LONGITUDINAL_20261126.md)。
+
+
+## 2026-11-27 07:06 JST — Cancer preservation checkpoint
+
+- 61 original sources located; original byte-level SHA-256 recheck pending.
+- 30/30 processed files verified against recorded SHA-256 in Colab (2026-11-26 23:45:47 JST); 16 HBCR and 14 national files. Output manifest separately preserved. See `data/audits/non_covid_access/cancer/colab_preservation_20261126_234547.json`.
+- Coverage filename collision resolved by schema comparison; no overwrite.
+- Public redistribution permission remains unresolved; keep processed data in Drive, status PENDING_QA. See `docs/audits/rebuild_2026/cancer_rights_and_coverage_20261126.md`.
+- Next: original byte verification, rights decision, QA. No new literature or screening acquisition, no main merge.
