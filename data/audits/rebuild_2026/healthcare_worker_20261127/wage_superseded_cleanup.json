@@ -1,0 +1,25 @@
+{
+  "recorded_at_jst": "2026-11-27T13:42:00+09:00",
+  "retained": "occupational_wage_2017_2024_pending.csv",
+  "retained_sha256": "7e0e3912f367bec74f0c2b02b837815f8c29e2ee9bdb3c0b0bb6f6f89e550dbc",
+  "deleted": [
+    {
+      "name": "occupational_wage_2020_2024_pending.csv",
+      "bytes": 16571412,
+      "rows": 69600
+    },
+    {
+      "name": "occupational_wage_2021_2024_pending.csv",
+      "bytes": 11759725,
+      "rows": 55680
+    }
+  ],
+  "comparison": "Exact multiset equality on every old column, zero missing or extra",
+  "employment": {
+    "rows": 818148,
+    "exact_medical_industry_label": 90104,
+    "source_count": 232,
+    "semantic_status": "pending; sample lacks measure and unit context"
+  },
+  "limitations": "No original-source semantic validation; account quota not measured."
+}
