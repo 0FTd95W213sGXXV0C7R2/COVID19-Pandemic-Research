@@ -1,0 +1,3 @@
+# Integrated eight dates Drive preservation QA
+JST 2026/11/27 22:57:13
+Local regenerated CSV from two saved CSVs, normalized codes to two digits, sorted date/code/type, 2304 unique keys. Uploaded to Drive ID 1LTRspZyDPCk8a4F9BI05dp8l7U9v3eRJ; materialized readback 209977 bytes. Actual sha256sum both files: 5038b69e0e308e8b6d546ceae0b5945d889e9c00aa0d34a09fd1ef4a47ab0675; cmp MATCH. GitHub integrated CSV exists from earlier commit a95e5d0323ad5939501894f345a6d74d18f13333; exact GitHub-to-local byte comparison not performed this turn. No new observation dates. Source https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html .
