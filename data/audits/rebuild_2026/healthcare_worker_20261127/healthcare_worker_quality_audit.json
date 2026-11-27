@@ -1,0 +1,377 @@
+{
+  "started_at_jst": "2026-11-27T09:05:12+09:00",
+  "finished_at_jst": "2026-11-27T09:05:20+09:00",
+  "published_rows": 43,
+  "source_hash_checks": 19,
+  "ratio_checks": [
+    {
+      "filename": "jna_2017.pdf",
+      "metric": "正規雇用看護職員離職率",
+      "reported": "10.9",
+      "calculated": 10.88477039365865,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2017.pdf",
+      "metric": "新卒採用者離職率",
+      "reported": "7.6",
+      "calculated": 7.569651813411417,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2018.pdf",
+      "metric": "正規雇用看護職員離職率",
+      "reported": "10.9",
+      "calculated": 10.873572028176211,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2018.pdf",
+      "metric": "新卒採用者離職率",
+      "reported": "7.5",
+      "calculated": 7.5286262519110165,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2019.pdf",
+      "metric": "正規雇用看護職員離職率",
+      "reported": "10.7",
+      "calculated": 10.74725971611716,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2019.pdf",
+      "metric": "新卒採用者離職率",
+      "reported": "7.8",
+      "calculated": 7.771946014534549,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2019.pdf",
+      "metric": "既卒採用者離職率",
+      "reported": "17.7",
+      "calculated": 17.540940537700326,
+      "pass_at_one_decimal": false
+    },
+    {
+      "filename": "jna_2020.pdf",
+      "metric": "正規雇用看護職員離職率",
+      "reported": "11.5",
+      "calculated": 11.544297506858634,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2020.pdf",
+      "metric": "新卒採用者離職率",
+      "reported": "8.6",
+      "calculated": 8.59332683349583,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2020.pdf",
+      "metric": "既卒採用者離職率",
+      "reported": "16.4",
+      "calculated": 16.352801864089535,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2021.pdf",
+      "metric": "正規雇用看護職員離職率",
+      "reported": "10.6",
+      "calculated": 10.574340572608186,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2021.pdf",
+      "metric": "新卒採用者離職率",
+      "reported": "8.2",
+      "calculated": 8.208054785586173,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2021.pdf",
+      "metric": "既卒採用者離職率",
+      "reported": "14.9",
+      "calculated": 14.792160778928972,
+      "pass_at_one_decimal": false
+    },
+    {
+      "filename": "jna_2022.pdf",
+      "metric": "正規雇用看護職員離職率",
+      "reported": "11.6",
+      "calculated": 11.572483876034497,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2022.pdf",
+      "metric": "新卒採用者離職率",
+      "reported": "10.3",
+      "calculated": 10.261715113271956,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2022.pdf",
+      "metric": "既卒採用者離職率",
+      "reported": "16.8",
+      "calculated": 16.56764936666293,
+      "pass_at_one_decimal": false
+    },
+    {
+      "filename": "jna_2023.pdf",
+      "metric": "正規雇用看護職員離職率",
+      "reported": "11.8",
+      "calculated": 11.76286716047509,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2023.pdf",
+      "metric": "新卒採用者離職率",
+      "reported": "10.2",
+      "calculated": 10.234207918209796,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2023.pdf",
+      "metric": "既卒採用者離職率",
+      "reported": "16.6",
+      "calculated": 16.520955031952013,
+      "pass_at_one_decimal": false
+    },
+    {
+      "filename": "jna_2024.pdf",
+      "metric": "正規雇用看護職員離職率",
+      "reported": "11.3",
+      "calculated": 11.302260284373082,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2024.pdf",
+      "metric": "新卒採用者離職率",
+      "reported": "8.8",
+      "calculated": 8.763552905795763,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2024.pdf",
+      "metric": "既卒採用者離職率",
+      "reported": "16.1",
+      "calculated": 16.044349615179456,
+      "pass_at_one_decimal": false
+    },
+    {
+      "filename": "jna_2024.pdf",
+      "metric": "月72時間超夜勤者率",
+      "reported": "34.3",
+      "calculated": 34.32774236141198,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2024.pdf",
+      "metric": "短時間勤務正職員制度導入病院率",
+      "reported": "31.9",
+      "calculated": 31.89932689493708,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2025.pdf",
+      "metric": "正規雇用看護職員離職率",
+      "reported": "11.0",
+      "calculated": 11.01844726449065,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2025.pdf",
+      "metric": "新卒採用者離職率",
+      "reported": "8.4",
+      "calculated": 8.409565077836623,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "jna_2025.pdf",
+      "metric": "既卒採用者離職率",
+      "reported": "16.1",
+      "calculated": 16.097019070542494,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "pmc_10020069.html",
+      "metric": "COVID-19関連差別経験割合",
+      "reported": "8.4",
+      "calculated": 8.486761353673506,
+      "pass_at_one_decimal": false
+    },
+    {
+      "filename": "pmc_10020069.html",
+      "metric": "重度心理的苦痛（K6≥13）",
+      "reported": "8.5",
+      "calculated": 8.521830615465545,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "pmc_11027999.html",
+      "metric": "抗N抗体陽性割合",
+      "reported": "54.1",
+      "calculated": 54.09015025041736,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "pmc_11027999.html",
+      "metric": "PCR陽性既往割合",
+      "reported": "37.1",
+      "calculated": 37.145242070116865,
+      "pass_at_one_decimal": true
+    },
+    {
+      "filename": "mhlw_2019.pdf",
+      "metric": "医師勤務調査・施設回収率",
+      "reported": "20.8",
+      "calculated": 20.75659271661783,
+      "pass_at_one_decimal": true
+    }
+  ],
+  "nursing_sample": {
+    "jna_2017.pdf": {
+      "invited": "8,396",
+      "responded": "4,134",
+      "response_rate": "49.2",
+      "sample_unit": "病院",
+      "sample_locator": "PDF p.11, 11"
+    },
+    "jna_2018.pdf": {
+      "invited": "8,361",
+      "responded": "3,634",
+      "response_rate": "43.5",
+      "sample_unit": "病院",
+      "sample_locator": "PDF p.11, 11"
+    },
+    "jna_2019.pdf": {
+      "invited": "8,300",
+      "responded": "3,385",
+      "response_rate": "40.8",
+      "sample_unit": "病院",
+      "sample_locator": "PDF p.12, 12"
+    },
+    "jna_2020.pdf": {
+      "invited": "8,249",
+      "responded": "3,797",
+      "response_rate": "46.0",
+      "sample_unit": "病院",
+      "sample_locator": "PDF p.9, 9"
+    },
+    "jna_2021.pdf": {
+      "invited": "8,202",
+      "responded": "2,668",
+      "response_rate": "32.5",
+      "sample_unit": "病院",
+      "sample_locator": "PDF p.13, 13"
+    },
+    "jna_2022.pdf": {
+      "invited": "8,165",
+      "responded": "2,964",
+      "response_rate": "36.3",
+      "sample_unit": "病院",
+      "sample_locator": "PDF p.13, 13"
+    },
+    "jna_2023.pdf": {
+      "invited": "8,130",
+      "responded": "3,699",
+      "response_rate": "45.5",
+      "sample_unit": "病院",
+      "sample_locator": "PDF p.13, 13"
+    },
+    "jna_2024.pdf": {
+      "invited": "8,079",
+      "responded": "3,417",
+      "response_rate": "42.3",
+      "sample_unit": "病院",
+      "sample_locator": "PDF p.9, 10"
+    },
+    "jna_2025.pdf": {
+      "invited": "8,022",
+      "responded": "3,502",
+      "response_rate": "43.7",
+      "sample_unit": "病院",
+      "sample_locator": "PDF p.9, 10"
+    }
+  },
+  "article_metadata": {
+    "pmc_10020069.html": {
+      "title": [
+        "The association between experience of COVID-19-related discrimination and psychological distress among healthcare workers for six national medical research centers in Japan"
+      ],
+      "author": [
+        "Rachana Manandhar Shrestha",
+        "Yosuke Inoue",
+        "Shohei Yamamoto",
+        "Ami Fukunaga",
+        "Makiko Sampei",
+        "Ryo Okubo",
+        "Naho Morisaki",
+        "Norio Ohmagari",
+        "Takanori Funaki",
+        "Kazue Ishizuka",
+        "Koushi Yamaguchi",
+        "Yohei Sasaki",
+        "Kazuyoshi Takeda",
+        "Takeshi Miyama",
+        "Masayo Kojima",
+        "Takeshi Nakagawa",
+        "Kunihiro Nishimura",
+        "Soshiro Ogata",
+        "Jun Umezawa",
+        "Shiori Tanaka",
+        "Manami Inoue",
+        "Maki Konishi",
+        "Kengo Miyo",
+        "Tetsuya Mizoue"
+      ],
+      "doi": [
+        "10.1007/s00127-023-02460-w"
+      ],
+      "publication_date": [
+        "2023 Mar 17"
+      ]
+    },
+    "pmc_8590925.html": {
+      "title": [
+        "Ethical and Social Issues for Health Care Providers in the Intensive Care Unit during the Early Stages of the COVID-19 Pandemic in Japan: a Questionnaire Survey"
+      ],
+      "author": [
+        "Yusuke Seino",
+        "Yayoi Aizawa",
+        "Atsushi Kogetsu",
+        "Kazuto Kato"
+      ],
+      "doi": [
+        "10.1007/s41649-021-00194-y"
+      ],
+      "publication_date": [
+        "2021 Nov 15"
+      ]
+    },
+    "pmc_11027999.html": {
+      "title": [
+        "SARS-CoV-2 seroprevalence among healthcare workers in a highly vaccinated Japanese medical center from 2020–2023"
+      ],
+      "author": [
+        "Yan Yan",
+        "Kanami Ito",
+        "Hiroshi Fukuda",
+        "Shuko Nojiri",
+        "Wataru Urasaki",
+        "Takamasa Yamamoto",
+        "Yuki Horiuchi",
+        "Satoshi Hori",
+        "Kazuhisa Takahashi",
+        "Toshio Naito",
+        "Yoko Tabe"
+      ],
+      "doi": [
+        "10.1080/21645515.2024.2337984"
+      ],
+      "publication_date": [
+        "2024 Apr 15"
+      ]
+    }
+  }
+}
