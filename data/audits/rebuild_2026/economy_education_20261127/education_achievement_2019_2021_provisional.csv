@@ -1,0 +1,9 @@
+year,school_type,subject,mean_correct,questions,mean_correct_pct,source_url,status
+2021,elementary,japanese,9.1,14,64.9,https://www.mext.go.jp/content/20210929-mxt_kyoiku01-000017645_s4-1.pdf,provisional_web
+2021,elementary,math,11.3,16,70.3,https://www.mext.go.jp/content/20210929-mxt_kyoiku01-000017645_s4-1.pdf,provisional_web
+2021,junior_high,japanese,9.1,14,64.9,https://www.mext.go.jp/content/20210929-mxt_kyoiku01-000017645_s4-1.pdf,provisional_web
+2021,junior_high,math,9.2,16,57.5,https://www.mext.go.jp/content/20210929-mxt_kyoiku01-000017645_s4-1.pdf,provisional_web
+2019,elementary,japanese,9,14,64,https://www.mext.go.jp/content/20210929-mxt_kyoiku01-000017645_s4-1.pdf,provisional_web
+2019,elementary,math,9.3,14,66.7,https://www.mext.go.jp/content/20210929-mxt_kyoiku01-000017645_s4-1.pdf,provisional_web
+2019,junior_high,japanese,7.3,10,73.2,https://www.mext.go.jp/content/20210929-mxt_kyoiku01-000017645_s4-1.pdf,provisional_web
+2019,junior_high,math,9.7,16,60.3,https://www.mext.go.jp/content/20210929-mxt_kyoiku01-000017645_s4-1.pdf,provisional_web
