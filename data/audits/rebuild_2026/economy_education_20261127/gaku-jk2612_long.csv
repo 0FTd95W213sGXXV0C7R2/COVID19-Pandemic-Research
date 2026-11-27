@@ -1,0 +1,3226 @@
+period,source_row,source_column,header_jp,header_en,value
+1994Q1,8,2,国内総生産(支出側),GDP(Expenditure Approach),465065.0
+1994Q1,8,3,民間最終消費支出,PrivateConsumption,252337.9
+1994Q1,8,4,家計最終消費支出,Consumption ofHouseholds,248579.4
+1994Q1,8,5,除く持ち家の帰属家賃,ExcludingImputed Rent,212801.4
+1994Q1,8,6,民間住宅,PrivateResidentialInvestment,33377.1
+1994Q1,8,7,民間企業設備,Private Non-Resi.Investment,75393.7
+1994Q1,8,8,民間在庫変動,Changein PrivateInventories,3963.4
+1994Q1,8,9,政府最終消費支出,GovernmentConsumption,70669.0
+1994Q1,8,10,公的固定資本形成,PublicInvestment,47225.3
+1994Q1,8,11,公的在庫変動,Changein PublicInventories,-489.4
+1994Q1,8,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-5582.8
+1994Q1,8,13,輸出,Exports,34405.7
+1994Q1,8,14,輸入,Imports,39988.6
+1994Q1,8,15,開差,Residual,-11829.2
+1994Q1,8,17,交易利得,TradingGains/Losses,16003.3
+1994Q1,8,18,国内総所得,GDI,481068.3
+1994Q1,8,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,4170.8
+1994Q1,8,20,受取,Receipt,14693.6
+1994Q1,8,21,支払,Payment,10522.8
+1994Q1,8,22,国民総所得,GNI,485239.1
+1994Q1,8,24,国内需要,DomesticDemand,478865.6
+1994Q1,8,25,民間需要,PrivateDemand,363828.9
+1994Q1,8,26,公的需要,PublicDemand,115017.3
+1994Q1,8,28,総固定資本形成,Gross Fixed CapitalFormation,152874.9
+1994Q1,8,30,最終需要,Final Sales of Domestic Product,460986.3
+1994Q2,9,2,国内総生産(支出側),GDP(Expenditure Approach),461497.8
+1994Q2,9,3,民間最終消費支出,PrivateConsumption,253547.0
+1994Q2,9,4,家計最終消費支出,Consumption ofHouseholds,249701.3
+1994Q2,9,5,除く持ち家の帰属家賃,ExcludingImputed Rent,213721.0
+1994Q2,9,6,民間住宅,PrivateResidentialInvestment,34755.7
+1994Q2,9,7,民間企業設備,Private Non-Resi.Investment,74417.6
+1994Q2,9,8,民間在庫変動,Changein PrivateInventories,-2837.6
+1994Q2,9,9,政府最終消費支出,GovernmentConsumption,71469.4
+1994Q2,9,10,公的固定資本形成,PublicInvestment,48073.0
+1994Q2,9,11,公的在庫変動,Changein PublicInventories,559.7
+1994Q2,9,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-6148.3
+1994Q2,9,13,輸出,Exports,34611.7
+1994Q2,9,14,輸入,Imports,40760.0
+1994Q2,9,15,開差,Residual,-12338.7
+1994Q2,9,17,交易利得,TradingGains/Losses,15428.2
+1994Q2,9,18,国内総所得,GDI,476926.0
+1994Q2,9,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,3842.6
+1994Q2,9,20,受取,Receipt,14641.1
+1994Q2,9,21,支払,Payment,10798.5
+1994Q2,9,22,国民総所得,GNI,480768.5
+1994Q2,9,24,国内需要,DomesticDemand,475494.1
+1994Q2,9,25,民間需要,PrivateDemand,358045.9
+1994Q2,9,26,公的需要,PublicDemand,117528.0
+1994Q2,9,28,総固定資本形成,Gross Fixed CapitalFormation,153760.8
+1994Q2,9,30,最終需要,Final Sales of Domestic Product,463379.3
+1994Q3,10,2,国内総生産(支出側),GDP(Expenditure Approach),466136.4
+1994Q3,10,3,民間最終消費支出,PrivateConsumption,255483.9
+1994Q3,10,4,家計最終消費支出,Consumption ofHouseholds,251664.6
+1994Q3,10,5,除く持ち家の帰属家賃,ExcludingImputed Rent,215464.8
+1994Q3,10,6,民間住宅,PrivateResidentialInvestment,37290.9
+1994Q3,10,7,民間企業設備,Private Non-Resi.Investment,73966.8
+1994Q3,10,8,民間在庫変動,Changein PrivateInventories,-565.9
+1994Q3,10,9,政府最終消費支出,GovernmentConsumption,71995.0
+1994Q3,10,10,公的固定資本形成,PublicInvestment,46318.0
+1994Q3,10,11,公的在庫変動,Changein PublicInventories,761.8
+1994Q3,10,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-6755.6
+1994Q3,10,13,輸出,Exports,35232.9
+1994Q3,10,14,輸入,Imports,41988.4
+1994Q3,10,15,開差,Residual,-12358.5
+1994Q3,10,17,交易利得,TradingGains/Losses,14868.4
+1994Q3,10,18,国内総所得,GDI,481004.8
+1994Q3,10,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,3915.3
+1994Q3,10,20,受取,Receipt,14971.8
+1994Q3,10,21,支払,Payment,11056.5
+1994Q3,10,22,国民総所得,GNI,484920.1
+1994Q3,10,24,国内需要,DomesticDemand,480604.3
+1994Q3,10,25,民間需要,PrivateDemand,364037.2
+1994Q3,10,26,公的需要,PublicDemand,116582.6
+1994Q3,10,28,総固定資本形成,Gross Fixed CapitalFormation,153881.5
+1994Q3,10,30,最終需要,Final Sales of Domestic Product,465578.4
+1994Q4,11,2,国内総生産(支出側),GDP(Expenditure Approach),464395.6
+1994Q4,11,3,民間最終消費支出,PrivateConsumption,255655.1
+1994Q4,11,4,家計最終消費支出,Consumption ofHouseholds,251806.6
+1994Q4,11,5,除く持ち家の帰属家賃,ExcludingImputed Rent,215422.5
+1994Q4,11,6,民間住宅,PrivateResidentialInvestment,35860.3
+1994Q4,11,7,民間企業設備,Private Non-Resi.Investment,74798.9
+1994Q4,11,8,民間在庫変動,Changein PrivateInventories,-1347.2
+1994Q4,11,9,政府最終消費支出,GovernmentConsumption,72006.6
+1994Q4,11,10,公的固定資本形成,PublicInvestment,45543.4
+1994Q4,11,11,公的在庫変動,Changein PublicInventories,796.1
+1994Q4,11,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-7035.6
+1994Q4,11,13,輸出,Exports,35379.0
+1994Q4,11,14,輸入,Imports,42414.6
+1994Q4,11,15,開差,Residual,-11881.9
+1994Q4,11,17,交易利得,TradingGains/Losses,15216.3
+1994Q4,11,18,国内総所得,GDI,479611.8
+1994Q4,11,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,3950.7
+1994Q4,11,20,受取,Receipt,15502.7
+1994Q4,11,21,支払,Payment,11552.0
+1994Q4,11,22,国民総所得,GNI,483562.6
+1994Q4,11,24,国内需要,DomesticDemand,478945.5
+1994Q4,11,25,民間需要,PrivateDemand,363056.3
+1994Q4,11,26,公的需要,PublicDemand,115897.0
+1994Q4,11,28,総固定資本形成,Gross Fixed CapitalFormation,152859.5
+1994Q4,11,30,最終需要,Final Sales of Domestic Product,464593.5
+1995Q1,12,2,国内総生産(支出側),GDP(Expenditure Approach),468895.6
+1995Q1,12,3,民間最終消費支出,PrivateConsumption,257635.9
+1995Q1,12,4,家計最終消費支出,Consumption ofHouseholds,253705.9
+1995Q1,12,5,除く持ち家の帰属家賃,ExcludingImputed Rent,217115.6
+1995Q1,12,6,民間住宅,PrivateResidentialInvestment,34856.8
+1995Q1,12,7,民間企業設備,Private Non-Resi.Investment,75800.8
+1995Q1,12,8,民間在庫変動,Changein PrivateInventories,2075.4
+1995Q1,12,9,政府最終消費支出,GovernmentConsumption,73872.6
+1995Q1,12,10,公的固定資本形成,PublicInvestment,43860.5
+1995Q1,12,11,公的在庫変動,Changein PublicInventories,-111.9
+1995Q1,12,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-7973.2
+1995Q1,12,13,輸出,Exports,35829.2
+1995Q1,12,14,輸入,Imports,43802.4
+1995Q1,12,15,開差,Residual,-11121.3
+1995Q1,12,17,交易利得,TradingGains/Losses,15527.8
+1995Q1,12,18,国内総所得,GDI,484423.3
+1995Q1,12,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,4004.8
+1995Q1,12,20,受取,Receipt,15793.8
+1995Q1,12,21,支払,Payment,11789.0
+1995Q1,12,22,国民総所得,GNI,488428.2
+1995Q1,12,24,国内需要,DomesticDemand,484246.6
+1995Q1,12,25,民間需要,PrivateDemand,368796.4
+1995Q1,12,26,公的需要,PublicDemand,115406.4
+1995Q1,12,28,総固定資本形成,Gross Fixed CapitalFormation,151576.0
+1995Q1,12,30,最終需要,Final Sales of Domestic Product,466397.5
+1995Q2,13,2,国内総生産(支出側),GDP(Expenditure Approach),473156.0
+1995Q2,13,3,民間最終消費支出,PrivateConsumption,260010.0
+1995Q2,13,4,家計最終消費支出,Consumption ofHouseholds,255983.8
+1995Q2,13,5,除く持ち家の帰属家賃,ExcludingImputed Rent,219196.7
+1995Q2,13,6,民間住宅,PrivateResidentialInvestment,34180.7
+1995Q2,13,7,民間企業設備,Private Non-Resi.Investment,77998.9
+1995Q2,13,8,民間在庫変動,Changein PrivateInventories,1035.9
+1995Q2,13,9,政府最終消費支出,GovernmentConsumption,73792.3
+1995Q2,13,10,公的固定資本形成,PublicInvestment,45601.1
+1995Q2,13,11,公的在庫変動,Changein PublicInventories,191.0
+1995Q2,13,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8751.5
+1995Q2,13,13,輸出,Exports,36383.1
+1995Q2,13,14,輸入,Imports,45134.6
+1995Q2,13,15,開差,Residual,-10902.3
+1995Q2,13,17,交易利得,TradingGains/Losses,16224.6
+1995Q2,13,18,国内総所得,GDI,489380.5
+1995Q2,13,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,3212.1
+1995Q2,13,20,受取,Receipt,14983.8
+1995Q2,13,21,支払,Payment,11771.7
+1995Q2,13,22,国民総所得,GNI,492592.7
+1995Q2,13,24,国内需要,DomesticDemand,489122.3
+1995Q2,13,25,民間需要,PrivateDemand,371873.6
+1995Q2,13,26,公的需要,PublicDemand,117223.6
+1995Q2,13,28,総固定資本形成,Gross Fixed CapitalFormation,154939.4
+1995Q2,13,30,最終需要,Final Sales of Domestic Product,471448.8
+1995Q3,14,2,国内総生産(支出側),GDP(Expenditure Approach),478593.0
+1995Q3,14,3,民間最終消費支出,PrivateConsumption,261308.8
+1995Q3,14,4,家計最終消費支出,Consumption ofHouseholds,257204.6
+1995Q3,14,5,除く持ち家の帰属家賃,ExcludingImputed Rent,220241.9
+1995Q3,14,6,民間住宅,PrivateResidentialInvestment,33485.7
+1995Q3,14,7,民間企業設備,Private Non-Resi.Investment,79218.3
+1995Q3,14,8,民間在庫変動,Changein PrivateInventories,2220.9
+1995Q3,14,9,政府最終消費支出,GovernmentConsumption,74692.0
+1995Q3,14,10,公的固定資本形成,PublicInvestment,49108.1
+1995Q3,14,11,公的在庫変動,Changein PublicInventories,149.1
+1995Q3,14,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-10942.4
+1995Q3,14,13,輸出,Exports,36707.0
+1995Q3,14,14,輸入,Imports,47649.5
+1995Q3,14,15,開差,Residual,-10647.4
+1995Q3,14,17,交易利得,TradingGains/Losses,16981.5
+1995Q3,14,18,国内総所得,GDI,495574.6
+1995Q3,14,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,4713.2
+1995Q3,14,20,受取,Receipt,18869.5
+1995Q3,14,21,支払,Payment,14156.3
+1995Q3,14,22,国民総所得,GNI,500287.7
+1995Q3,14,24,国内需要,DomesticDemand,496460.5
+1995Q3,14,25,民間需要,PrivateDemand,375119.0
+1995Q3,14,26,公的需要,PublicDemand,121385.7
+1995Q3,14,28,総固定資本形成,Gross Fixed CapitalFormation,158806.6
+1995Q3,14,30,最終需要,Final Sales of Domestic Product,475728.0
+1995Q4,15,2,国内総生産(支出側),GDP(Expenditure Approach),479789.2
+1995Q4,15,3,民間最終消費支出,PrivateConsumption,263005.4
+1995Q4,15,4,家計最終消費支出,Consumption ofHouseholds,258862.5
+1995Q4,15,5,除く持ち家の帰属家賃,ExcludingImputed Rent,221700.5
+1995Q4,15,6,民間住宅,PrivateResidentialInvestment,34307.7
+1995Q4,15,7,民間企業設備,Private Non-Resi.Investment,80583.4
+1995Q4,15,8,民間在庫変動,Changein PrivateInventories,941.7
+1995Q4,15,9,政府最終消費支出,GovernmentConsumption,75021.8
+1995Q4,15,10,公的固定資本形成,PublicInvestment,49428.4
+1995Q4,15,11,公的在庫変動,Changein PublicInventories,212.5
+1995Q4,15,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-13363.6
+1995Q4,15,13,輸出,Exports,36598.6
+1995Q4,15,14,輸入,Imports,49962.1
+1995Q4,15,15,開差,Residual,-10348.1
+1995Q4,15,17,交易利得,TradingGains/Losses,17579.8
+1995Q4,15,18,国内総所得,GDI,497369.0
+1995Q4,15,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,5008.0
+1995Q4,15,20,受取,Receipt,19524.6
+1995Q4,15,21,支払,Payment,14516.6
+1995Q4,15,22,国民総所得,GNI,502377.0
+1995Q4,15,24,国内需要,DomesticDemand,499702.4
+1995Q4,15,25,民間需要,PrivateDemand,377671.9
+1995Q4,15,26,公的需要,PublicDemand,122068.2
+1995Q4,15,28,総固定資本形成,Gross Fixed CapitalFormation,161284.5
+1995Q4,15,30,最終需要,Final Sales of Domestic Product,478150.1
+1996Q1,16,2,国内総生産(支出側),GDP(Expenditure Approach),484268.9
+1996Q1,16,3,民間最終消費支出,PrivateConsumption,262931.2
+1996Q1,16,4,家計最終消費支出,Consumption ofHouseholds,258781.5
+1996Q1,16,5,除く持ち家の帰属家賃,ExcludingImputed Rent,221430.2
+1996Q1,16,6,民間住宅,PrivateResidentialInvestment,35121.5
+1996Q1,16,7,民間企業設備,Private Non-Resi.Investment,81208.2
+1996Q1,16,8,民間在庫変動,Changein PrivateInventories,1746.9
+1996Q1,16,9,政府最終消費支出,GovernmentConsumption,75579.1
+1996Q1,16,10,公的固定資本形成,PublicInvestment,51312.5
+1996Q1,16,11,公的在庫変動,Changein PublicInventories,588.1
+1996Q1,16,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-13733.2
+1996Q1,16,13,輸出,Exports,37189.6
+1996Q1,16,14,輸入,Imports,50922.8
+1996Q1,16,15,開差,Residual,-10485.3
+1996Q1,16,17,交易利得,TradingGains/Losses,17110.6
+1996Q1,16,18,国内総所得,GDI,501379.5
+1996Q1,16,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,5665.9
+1996Q1,16,20,受取,Receipt,11920.3
+1996Q1,16,21,支払,Payment,6254.4
+1996Q1,16,22,国民総所得,GNI,507045.4
+1996Q1,16,24,国内需要,DomesticDemand,504452.8
+1996Q1,16,25,民間需要,PrivateDemand,379822.5
+1996Q1,16,26,公的需要,PublicDemand,124697.8
+1996Q1,16,28,総固定資本形成,Gross Fixed CapitalFormation,164359.0
+1996Q1,16,30,最終需要,Final Sales of Domestic Product,481526.7
+1996Q2,17,2,国内総生産(支出側),GDP(Expenditure Approach),489500.4
+1996Q2,17,3,民間最終消費支出,PrivateConsumption,265563.3
+1996Q2,17,4,家計最終消費支出,Consumption ofHouseholds,261410.6
+1996Q2,17,5,除く持ち家の帰属家賃,ExcludingImputed Rent,223835.3
+1996Q2,17,6,民間住宅,PrivateResidentialInvestment,36628.9
+1996Q2,17,7,民間企業設備,Private Non-Resi.Investment,83554.6
+1996Q2,17,8,民間在庫変動,Changein PrivateInventories,3044.8
+1996Q2,17,9,政府最終消費支出,GovernmentConsumption,75573.1
+1996Q2,17,10,公的固定資本形成,PublicInvestment,50537.2
+1996Q2,17,11,公的在庫変動,Changein PublicInventories,163.8
+1996Q2,17,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-15370.1
+1996Q2,17,13,輸出,Exports,37168.9
+1996Q2,17,14,輸入,Imports,52539.0
+1996Q2,17,15,開差,Residual,-10195.3
+1996Q2,17,17,交易利得,TradingGains/Losses,16391.3
+1996Q2,17,18,国内総所得,GDI,505891.7
+1996Q2,17,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6352.9
+1996Q2,17,20,受取,Receipt,12137.2
+1996Q2,17,21,支払,Payment,5784.3
+1996Q2,17,22,国民総所得,GNI,512244.6
+1996Q2,17,24,国内需要,DomesticDemand,511241.3
+1996Q2,17,25,民間需要,PrivateDemand,387637.6
+1996Q2,17,26,公的需要,PublicDemand,123605.1
+1996Q2,17,28,総固定資本形成,Gross Fixed CapitalFormation,167502.0
+1996Q2,17,30,最終需要,Final Sales of Domestic Product,485797.9
+1996Q3,18,2,国内総生産(支出側),GDP(Expenditure Approach),490385.9
+1996Q3,18,3,民間最終消費支出,PrivateConsumption,265851.0
+1996Q3,18,4,家計最終消費支出,Consumption ofHouseholds,261669.4
+1996Q3,18,5,除く持ち家の帰属家賃,ExcludingImputed Rent,223871.5
+1996Q3,18,6,民間住宅,PrivateResidentialInvestment,37936.0
+1996Q3,18,7,民間企業設備,Private Non-Resi.Investment,84702.1
+1996Q3,18,8,民間在庫変動,Changein PrivateInventories,1529.5
+1996Q3,18,9,政府最終消費支出,GovernmentConsumption,75985.1
+1996Q3,18,10,公的固定資本形成,PublicInvestment,48343.2
+1996Q3,18,11,公的在庫変動,Changein PublicInventories,211.2
+1996Q3,18,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-14182.5
+1996Q3,18,13,輸出,Exports,38262.2
+1996Q3,18,14,輸入,Imports,52444.7
+1996Q3,18,15,開差,Residual,-9989.6
+1996Q3,18,17,交易利得,TradingGains/Losses,15458.3
+1996Q3,18,18,国内総所得,GDI,505844.2
+1996Q3,18,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6053.7
+1996Q3,18,20,受取,Receipt,11623.1
+1996Q3,18,21,支払,Payment,5569.4
+1996Q3,18,22,国民総所得,GNI,511897.9
+1996Q3,18,24,国内需要,DomesticDemand,510790.5
+1996Q3,18,25,民間需要,PrivateDemand,388744.9
+1996Q3,18,26,公的需要,PublicDemand,122013.8
+1996Q3,18,28,総固定資本形成,Gross Fixed CapitalFormation,167896.4
+1996Q3,18,30,最終需要,Final Sales of Domestic Product,488149.9
+1996Q4,19,2,国内総生産(支出側),GDP(Expenditure Approach),495641.6
+1996Q4,19,3,民間最終消費支出,PrivateConsumption,268199.9
+1996Q4,19,4,家計最終消費支出,Consumption ofHouseholds,264021.7
+1996Q4,19,5,除く持ち家の帰属家賃,ExcludingImputed Rent,225988.4
+1996Q4,19,6,民間住宅,PrivateResidentialInvestment,38502.0
+1996Q4,19,7,民間企業設備,Private Non-Resi.Investment,84970.6
+1996Q4,19,8,民間在庫変動,Changein PrivateInventories,2383.7
+1996Q4,19,9,政府最終消費支出,GovernmentConsumption,77093.9
+1996Q4,19,10,公的固定資本形成,PublicInvestment,47244.6
+1996Q4,19,11,公的在庫変動,Changein PublicInventories,244.4
+1996Q4,19,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-13247.7
+1996Q4,19,13,輸出,Exports,39897.4
+1996Q4,19,14,輸入,Imports,53145.1
+1996Q4,19,15,開差,Residual,-9750.0
+1996Q4,19,17,交易利得,TradingGains/Losses,14998.5
+1996Q4,19,18,国内総所得,GDI,510640.0
+1996Q4,19,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6242.5
+1996Q4,19,20,受取,Receipt,11794.3
+1996Q4,19,21,支払,Payment,5551.8
+1996Q4,19,22,国民総所得,GNI,516882.6
+1996Q4,19,24,国内需要,DomesticDemand,514915.9
+1996Q4,19,25,民間需要,PrivateDemand,392730.7
+1996Q4,19,26,公的需要,PublicDemand,122138.0
+1996Q4,19,28,総固定資本形成,Gross Fixed CapitalFormation,167685.4
+1996Q4,19,30,最終需要,Final Sales of Domestic Product,492525.4
+1997Q1,20,2,国内総生産(支出側),GDP(Expenditure Approach),498907.8
+1997Q1,20,3,民間最終消費支出,PrivateConsumption,272127.5
+1997Q1,20,4,家計最終消費支出,Consumption ofHouseholds,267981.3
+1997Q1,20,5,除く持ち家の帰属家賃,ExcludingImputed Rent,229729.1
+1997Q1,20,6,民間住宅,PrivateResidentialInvestment,38641.5
+1997Q1,20,7,民間企業設備,Private Non-Resi.Investment,86394.2
+1997Q1,20,8,民間在庫変動,Changein PrivateInventories,-348.0
+1997Q1,20,9,政府最終消費支出,GovernmentConsumption,77028.2
+1997Q1,20,10,公的固定資本形成,PublicInvestment,46921.4
+1997Q1,20,11,公的在庫変動,Changein PublicInventories,133.8
+1997Q1,20,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-12461.9
+1997Q1,20,13,輸出,Exports,41124.7
+1997Q1,20,14,輸入,Imports,53586.6
+1997Q1,20,15,開差,Residual,-9528.8
+1997Q1,20,17,交易利得,TradingGains/Losses,14456.6
+1997Q1,20,18,国内総所得,GDI,513364.4
+1997Q1,20,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6778.0
+1997Q1,20,20,受取,Receipt,12543.5
+1997Q1,20,21,支払,Payment,5765.5
+1997Q1,20,22,国民総所得,GNI,520142.4
+1997Q1,20,24,国内需要,DomesticDemand,517202.8
+1997Q1,20,25,民間需要,PrivateDemand,395472.0
+1997Q1,20,26,公的需要,PublicDemand,121677.2
+1997Q1,20,28,総固定資本形成,Gross Fixed CapitalFormation,169038.1
+1997Q1,20,30,最終需要,Final Sales of Domestic Product,498561.5
+1997Q2,21,2,国内総生産(支出側),GDP(Expenditure Approach),495402.7
+1997Q2,21,3,民間最終消費支出,PrivateConsumption,265224.7
+1997Q2,21,4,家計最終消費支出,Consumption ofHouseholds,261154.8
+1997Q2,21,5,除く持ち家の帰属家賃,ExcludingImputed Rent,222750.2
+1997Q2,21,6,民間住宅,PrivateResidentialInvestment,35389.1
+1997Q2,21,7,民間企業設備,Private Non-Resi.Investment,86201.4
+1997Q2,21,8,民間在庫変動,Changein PrivateInventories,2532.3
+1997Q2,21,9,政府最終消費支出,GovernmentConsumption,77337.6
+1997Q2,21,10,公的固定資本形成,PublicInvestment,47059.1
+1997Q2,21,11,公的在庫変動,Changein PublicInventories,64.1
+1997Q2,21,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-9817.6
+1997Q2,21,13,輸出,Exports,42897.0
+1997Q2,21,14,輸入,Imports,52714.6
+1997Q2,21,15,開差,Residual,-8588.1
+1997Q2,21,17,交易利得,TradingGains/Losses,14777.4
+1997Q2,21,18,国内総所得,GDI,510180.1
+1997Q2,21,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6871.9
+1997Q2,21,20,受取,Receipt,12519.9
+1997Q2,21,21,支払,Payment,5648.0
+1997Q2,21,22,国民総所得,GNI,517051.9
+1997Q2,21,24,国内需要,DomesticDemand,510607.6
+1997Q2,21,25,民間需要,PrivateDemand,388528.1
+1997Q2,21,26,公的需要,PublicDemand,122060.7
+1997Q2,21,28,総固定資本形成,Gross Fixed CapitalFormation,166094.1
+1997Q2,21,30,最終需要,Final Sales of Domestic Product,492290.3
+1997Q3,22,2,国内総生産(支出側),GDP(Expenditure Approach),496173.3
+1997Q3,22,3,民間最終消費支出,PrivateConsumption,265534.8
+1997Q3,22,4,家計最終消費支出,Consumption ofHouseholds,261536.0
+1997Q3,22,5,除く持ち家の帰属家賃,ExcludingImputed Rent,222956.2
+1997Q3,22,6,民間住宅,PrivateResidentialInvestment,33448.6
+1997Q3,22,7,民間企業設備,Private Non-Resi.Investment,86353.5
+1997Q3,22,8,民間在庫変動,Changein PrivateInventories,4872.0
+1997Q3,22,9,政府最終消費支出,GovernmentConsumption,77172.8
+1997Q3,22,10,公的固定資本形成,PublicInvestment,47488.2
+1997Q3,22,11,公的在庫変動,Changein PublicInventories,142.2
+1997Q3,22,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-10318.7
+1997Q3,22,13,輸出,Exports,42292.8
+1997Q3,22,14,輸入,Imports,52611.5
+1997Q3,22,15,開差,Residual,-8520.0
+1997Q3,22,17,交易利得,TradingGains/Losses,14890.4
+1997Q3,22,18,国内総所得,GDI,511063.7
+1997Q3,22,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,5992.5
+1997Q3,22,20,受取,Receipt,11793.8
+1997Q3,22,21,支払,Payment,5801.3
+1997Q3,22,22,国民総所得,GNI,517056.2
+1997Q3,22,24,国内需要,DomesticDemand,512048.5
+1997Q3,22,25,民間需要,PrivateDemand,389667.5
+1997Q3,22,26,公的需要,PublicDemand,122363.9
+1997Q3,22,28,総固定資本形成,Gross Fixed CapitalFormation,164938.5
+1997Q3,22,30,最終需要,Final Sales of Domestic Product,490700.6
+1997Q4,23,2,国内総生産(支出側),GDP(Expenditure Approach),496112.0
+1997Q4,23,3,民間最終消費支出,PrivateConsumption,265053.9
+1997Q4,23,4,家計最終消費支出,Consumption ofHouseholds,260957.3
+1997Q4,23,5,除く持ち家の帰属家賃,ExcludingImputed Rent,222210.3
+1997Q4,23,6,民間住宅,PrivateResidentialInvestment,32273.8
+1997Q4,23,7,民間企業設備,Private Non-Resi.Investment,88361.0
+1997Q4,23,8,民間在庫変動,Changein PrivateInventories,3356.4
+1997Q4,23,9,政府最終消費支出,GovernmentConsumption,77566.8
+1997Q4,23,10,公的固定資本形成,PublicInvestment,45246.3
+1997Q4,23,11,公的在庫変動,Changein PublicInventories,438.4
+1997Q4,23,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8128.0
+1997Q4,23,13,輸出,Exports,43230.1
+1997Q4,23,14,輸入,Imports,51358.1
+1997Q4,23,15,開差,Residual,-8056.5
+1997Q4,23,17,交易利得,TradingGains/Losses,15430.7
+1997Q4,23,18,国内総所得,GDI,511542.7
+1997Q4,23,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7136.8
+1997Q4,23,20,受取,Receipt,13433.9
+1997Q4,23,21,支払,Payment,6297.1
+1997Q4,23,22,国民総所得,GNI,518679.4
+1997Q4,23,24,国内需要,DomesticDemand,509735.6
+1997Q4,23,25,民間需要,PrivateDemand,388769.2
+1997Q4,23,26,公的需要,PublicDemand,120935.8
+1997Q4,23,28,総固定資本形成,Gross Fixed CapitalFormation,164024.7
+1997Q4,23,30,最終需要,Final Sales of Domestic Product,491888.1
+1998Q1,24,2,国内総生産(支出側),GDP(Expenditure Approach),488264.2
+1998Q1,24,3,民間最終消費支出,PrivateConsumption,264438.9
+1998Q1,24,4,家計最終消費支出,Consumption ofHouseholds,260087.7
+1998Q1,24,5,除く持ち家の帰属家賃,ExcludingImputed Rent,221172.0
+1998Q1,24,6,民間住宅,PrivateResidentialInvestment,31483.0
+1998Q1,24,7,民間企業設備,Private Non-Resi.Investment,84946.3
+1998Q1,24,8,民間在庫変動,Changein PrivateInventories,3655.0
+1998Q1,24,9,政府最終消費支出,GovernmentConsumption,77544.6
+1998Q1,24,10,公的固定資本形成,PublicInvestment,42637.2
+1998Q1,24,11,公的在庫変動,Changein PublicInventories,230.0
+1998Q1,24,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8788.5
+1998Q1,24,13,輸出,Exports,42129.6
+1998Q1,24,14,輸入,Imports,50918.1
+1998Q1,24,15,開差,Residual,-7882.2
+1998Q1,24,17,交易利得,TradingGains/Losses,16161.5
+1998Q1,24,18,国内総所得,GDI,504425.7
+1998Q1,24,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6727.4
+1998Q1,24,20,受取,Receipt,12658.0
+1998Q1,24,21,支払,Payment,5930.7
+1998Q1,24,22,国民総所得,GNI,511153.1
+1998Q1,24,24,国内需要,DomesticDemand,502497.2
+1998Q1,24,25,民間需要,PrivateDemand,384120.1
+1998Q1,24,26,公的需要,PublicDemand,118328.3
+1998Q1,24,28,総固定資本形成,Gross Fixed CapitalFormation,157304.4
+1998Q1,24,30,最終需要,Final Sales of Domestic Product,483930.0
+1998Q2,25,2,国内総生産(支出側),GDP(Expenditure Approach),485566.6
+1998Q2,25,3,民間最終消費支出,PrivateConsumption,264389.2
+1998Q2,25,4,家計最終消費支出,Consumption ofHouseholds,259752.1
+1998Q2,25,5,除く持ち家の帰属家賃,ExcludingImputed Rent,220675.8
+1998Q2,25,6,民間住宅,PrivateResidentialInvestment,30923.8
+1998Q2,25,7,民間企業設備,Private Non-Resi.Investment,83679.4
+1998Q2,25,8,民間在庫変動,Changein PrivateInventories,1531.2
+1998Q2,25,9,政府最終消費支出,GovernmentConsumption,78058.4
+1998Q2,25,10,公的固定資本形成,PublicInvestment,42356.1
+1998Q2,25,11,公的在庫変動,Changein PublicInventories,162.8
+1998Q2,25,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-7352.5
+1998Q2,25,13,輸出,Exports,41320.2
+1998Q2,25,14,輸入,Imports,48672.6
+1998Q2,25,15,開差,Residual,-8181.9
+1998Q2,25,17,交易利得,TradingGains/Losses,15974.6
+1998Q2,25,18,国内総所得,GDI,501541.2
+1998Q2,25,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,5708.6
+1998Q2,25,20,受取,Receipt,11902.5
+1998Q2,25,21,支払,Payment,6193.9
+1998Q2,25,22,国民総所得,GNI,507249.8
+1998Q2,25,24,国内需要,DomesticDemand,498639.5
+1998Q2,25,25,民間需要,PrivateDemand,380074.7
+1998Q2,25,26,公的需要,PublicDemand,118534.4
+1998Q2,25,28,総固定資本形成,Gross Fixed CapitalFormation,155203.1
+1998Q2,25,30,最終需要,Final Sales of Domestic Product,483364.3
+1998Q3,26,2,国内総生産(支出側),GDP(Expenditure Approach),486201.9
+1998Q3,26,3,民間最終消費支出,PrivateConsumption,266678.9
+1998Q3,26,4,家計最終消費支出,Consumption ofHouseholds,261829.4
+1998Q3,26,5,除く持ち家の帰属家賃,ExcludingImputed Rent,222565.1
+1998Q3,26,6,民間住宅,PrivateResidentialInvestment,30262.9
+1998Q3,26,7,民間企業設備,Private Non-Resi.Investment,82974.0
+1998Q3,26,8,民間在庫変動,Changein PrivateInventories,-725.1
+1998Q3,26,9,政府最終消費支出,GovernmentConsumption,78487.7
+1998Q3,26,10,公的固定資本形成,PublicInvestment,44282.6
+1998Q3,26,11,公的在庫変動,Changein PublicInventories,-80.9
+1998Q3,26,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-7358.6
+1998Q3,26,13,輸出,Exports,41435.1
+1998Q3,26,14,輸入,Imports,48793.7
+1998Q3,26,15,開差,Residual,-8319.7
+1998Q3,26,17,交易利得,TradingGains/Losses,15642.6
+1998Q3,26,18,国内総所得,GDI,501844.6
+1998Q3,26,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6457.7
+1998Q3,26,20,受取,Receipt,12020.1
+1998Q3,26,21,支払,Payment,5562.4
+1998Q3,26,22,国民総所得,GNI,508302.2
+1998Q3,26,24,国内需要,DomesticDemand,499265.9
+1998Q3,26,25,民間需要,PrivateDemand,378728.9
+1998Q3,26,26,公的需要,PublicDemand,120539.7
+1998Q3,26,28,総固定資本形成,Gross Fixed CapitalFormation,155622.0
+1998Q3,26,30,最終需要,Final Sales of Domestic Product,486399.3
+1998Q4,27,2,国内総生産(支出側),GDP(Expenditure Approach),490396.6
+1998Q4,27,3,民間最終消費支出,PrivateConsumption,266108.2
+1998Q4,27,4,家計最終消費支出,Consumption ofHouseholds,261107.3
+1998Q4,27,5,除く持ち家の帰属家賃,ExcludingImputed Rent,221680.3
+1998Q4,27,6,民間住宅,PrivateResidentialInvestment,29826.0
+1998Q4,27,7,民間企業設備,Private Non-Resi.Investment,80841.3
+1998Q4,27,8,民間在庫変動,Changein PrivateInventories,2413.8
+1998Q4,27,9,政府最終消費支出,GovernmentConsumption,79042.1
+1998Q4,27,10,公的固定資本形成,PublicInvestment,48858.7
+1998Q4,27,11,公的在庫変動,Changein PublicInventories,-572.1
+1998Q4,27,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-6962.0
+1998Q4,27,13,輸出,Exports,40699.2
+1998Q4,27,14,輸入,Imports,47661.1
+1998Q4,27,15,開差,Residual,-9159.5
+1998Q4,27,17,交易利得,TradingGains/Losses,16100.0
+1998Q4,27,18,国内総所得,GDI,506496.6
+1998Q4,27,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,5888.5
+1998Q4,27,20,受取,Receipt,10257.8
+1998Q4,27,21,支払,Payment,4369.3
+1998Q4,27,22,国民総所得,GNI,512385.1
+1998Q4,27,24,国内需要,DomesticDemand,503534.2
+1998Q4,27,25,民間需要,PrivateDemand,378693.5
+1998Q4,27,26,公的需要,PublicDemand,124904.0
+1998Q4,27,28,総固定資本形成,Gross Fixed CapitalFormation,157120.4
+1998Q4,27,30,最終需要,Final Sales of Domestic Product,487922.4
+1999Q1,28,2,国内総生産(支出側),GDP(Expenditure Approach),483236.2
+1999Q1,28,3,民間最終消費支出,PrivateConsumption,266976.9
+1999Q1,28,4,家計最終消費支出,Consumption ofHouseholds,261900.2
+1999Q1,28,5,除く持ち家の帰属家賃,ExcludingImputed Rent,222239.3
+1999Q1,28,6,民間住宅,PrivateResidentialInvestment,29526.4
+1999Q1,28,7,民間企業設備,Private Non-Resi.Investment,78638.3
+1999Q1,28,8,民間在庫変動,Changein PrivateInventories,-3838.6
+1999Q1,28,9,政府最終消費支出,GovernmentConsumption,79940.7
+1999Q1,28,10,公的固定資本形成,PublicInvestment,49237.8
+1999Q1,28,11,公的在庫変動,Changein PublicInventories,-83.3
+1999Q1,28,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8280.1
+1999Q1,28,13,輸出,Exports,40788.7
+1999Q1,28,14,輸入,Imports,49068.8
+1999Q1,28,15,開差,Residual,-8881.9
+1999Q1,28,17,交易利得,TradingGains/Losses,16837.3
+1999Q1,28,18,国内総所得,GDI,500073.5
+1999Q1,28,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,5244.2
+1999Q1,28,20,受取,Receipt,10025.5
+1999Q1,28,21,支払,Payment,4781.4
+1999Q1,28,22,国民総所得,GNI,505317.6
+1999Q1,28,24,国内需要,DomesticDemand,497208.6
+1999Q1,28,25,民間需要,PrivateDemand,370781.1
+1999Q1,28,26,公的需要,PublicDemand,126560.1
+1999Q1,28,28,総固定資本形成,Gross Fixed CapitalFormation,154835.6
+1999Q1,28,30,最終需要,Final Sales of Domestic Product,486343.0
+1999Q2,29,2,国内総生産(支出側),GDP(Expenditure Approach),485679.0
+1999Q2,29,3,民間最終消費支出,PrivateConsumption,267447.3
+1999Q2,29,4,家計最終消費支出,Consumption ofHouseholds,262208.5
+1999Q2,29,5,除く持ち家の帰属家賃,ExcludingImputed Rent,222292.3
+1999Q2,29,6,民間住宅,PrivateResidentialInvestment,31302.9
+1999Q2,29,7,民間企業設備,Private Non-Resi.Investment,79191.8
+1999Q2,29,8,民間在庫変動,Changein PrivateInventories,-3744.9
+1999Q2,29,9,政府最終消費支出,GovernmentConsumption,80740.0
+1999Q2,29,10,公的固定資本形成,PublicInvestment,48514.9
+1999Q2,29,11,公的在庫変動,Changein PublicInventories,-8.8
+1999Q2,29,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8799.8
+1999Q2,29,13,輸出,Exports,41172.1
+1999Q2,29,14,輸入,Imports,49971.9
+1999Q2,29,15,開差,Residual,-8964.2
+1999Q2,29,17,交易利得,TradingGains/Losses,16324.8
+1999Q2,29,18,国内総所得,GDI,502003.8
+1999Q2,29,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6340.2
+1999Q2,29,20,受取,Receipt,10327.5
+1999Q2,29,21,支払,Payment,3987.3
+1999Q2,29,22,国民総所得,GNI,508344.0
+1999Q2,29,24,国内需要,DomesticDemand,500098.4
+1999Q2,29,25,民間需要,PrivateDemand,373453.0
+1999Q2,29,26,公的需要,PublicDemand,126771.1
+1999Q2,29,28,総固定資本形成,Gross Fixed CapitalFormation,156310.4
+1999Q2,29,30,最終需要,Final Sales of Domestic Product,488634.2
+1999Q3,30,2,国内総生産(支出側),GDP(Expenditure Approach),488376.0
+1999Q3,30,3,民間最終消費支出,PrivateConsumption,269630.4
+1999Q3,30,4,家計最終消費支出,Consumption ofHouseholds,264204.9
+1999Q3,30,5,除く持ち家の帰属家賃,ExcludingImputed Rent,224031.2
+1999Q3,30,6,民間住宅,PrivateResidentialInvestment,31417.1
+1999Q3,30,7,民間企業設備,Private Non-Resi.Investment,78753.8
+1999Q3,30,8,民間在庫変動,Changein PrivateInventories,-3331.1
+1999Q3,30,9,政府最終消費支出,GovernmentConsumption,81685.3
+1999Q3,30,10,公的固定資本形成,PublicInvestment,46953.8
+1999Q3,30,11,公的在庫変動,Changein PublicInventories,-9.8
+1999Q3,30,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8342.5
+1999Q3,30,13,輸出,Exports,42904.3
+1999Q3,30,14,輸入,Imports,51246.8
+1999Q3,30,15,開差,Residual,-8381.0
+1999Q3,30,17,交易利得,TradingGains/Losses,15471.3
+1999Q3,30,18,国内総所得,GDI,503847.3
+1999Q3,30,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6447.1
+1999Q3,30,20,受取,Receipt,10128.0
+1999Q3,30,21,支払,Payment,3680.8
+1999Q3,30,22,国民総所得,GNI,510294.4
+1999Q3,30,24,国内需要,DomesticDemand,501874.5
+1999Q3,30,25,民間需要,PrivateDemand,375676.9
+1999Q3,30,26,公的需要,PublicDemand,126305.5
+1999Q3,30,28,総固定資本形成,Gross Fixed CapitalFormation,154519.9
+1999Q3,30,30,最終需要,Final Sales of Domestic Product,490934.4
+1999Q4,31,2,国内総生産(支出側),GDP(Expenditure Approach),488083.5
+1999Q4,31,3,民間最終消費支出,PrivateConsumption,269802.1
+1999Q4,31,4,家計最終消費支出,Consumption ofHouseholds,264398.3
+1999Q4,31,5,除く持ち家の帰属家賃,ExcludingImputed Rent,223980.9
+1999Q4,31,6,民間住宅,PrivateResidentialInvestment,30227.8
+1999Q4,31,7,民間企業設備,Private Non-Resi.Investment,79734.8
+1999Q4,31,8,民間在庫変動,Changein PrivateInventories,-3552.0
+1999Q4,31,9,政府最終消費支出,GovernmentConsumption,82021.7
+1999Q4,31,10,公的固定資本形成,PublicInvestment,46720.6
+1999Q4,31,11,公的在庫変動,Changein PublicInventories,-367.2
+1999Q4,31,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8897.0
+1999Q4,31,13,輸出,Exports,43893.3
+1999Q4,31,14,輸入,Imports,52790.3
+1999Q4,31,15,開差,Residual,-7607.5
+1999Q4,31,17,交易利得,TradingGains/Losses,16427.3
+1999Q4,31,18,国内総所得,GDI,504510.7
+1999Q4,31,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6769.8
+1999Q4,31,20,受取,Receipt,10335.5
+1999Q4,31,21,支払,Payment,3565.7
+1999Q4,31,22,国民総所得,GNI,511280.5
+1999Q4,31,24,国内需要,DomesticDemand,501695.0
+1999Q4,31,25,民間需要,PrivateDemand,375652.8
+1999Q4,31,26,公的需要,PublicDemand,126144.7
+1999Q4,31,28,総固定資本形成,Gross Fixed CapitalFormation,154334.2
+1999Q4,31,30,最終需要,Final Sales of Domestic Product,491128.5
+2000Q1,32,2,国内総生産(支出側),GDP(Expenditure Approach),497255.3
+2000Q1,32,3,民間最終消費支出,PrivateConsumption,272071.8
+2000Q1,32,4,家計最終消費支出,Consumption ofHouseholds,266918.5
+2000Q1,32,5,除く持ち家の帰属家賃,ExcludingImputed Rent,226246.0
+2000Q1,32,6,民間住宅,PrivateResidentialInvestment,30670.2
+2000Q1,32,7,民間企業設備,Private Non-Resi.Investment,83389.0
+2000Q1,32,8,民間在庫変動,Changein PrivateInventories,-1999.0
+2000Q1,32,9,政府最終消費支出,GovernmentConsumption,83102.0
+2000Q1,32,10,公的固定資本形成,PublicInvestment,43642.9
+2000Q1,32,11,公的在庫変動,Changein PublicInventories,173.4
+2000Q1,32,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-6556.4
+2000Q1,32,13,輸出,Exports,46242.4
+2000Q1,32,14,輸入,Imports,52798.8
+2000Q1,32,15,開差,Residual,-7238.7
+2000Q1,32,17,交易利得,TradingGains/Losses,14792.8
+2000Q1,32,18,国内総所得,GDI,512048.0
+2000Q1,32,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,6450.8
+2000Q1,32,20,受取,Receipt,10687.4
+2000Q1,32,21,支払,Payment,4236.6
+2000Q1,32,22,国民総所得,GNI,518498.8
+2000Q1,32,24,国内需要,DomesticDemand,508537.3
+2000Q1,32,25,民間需要,PrivateDemand,383635.2
+2000Q1,32,26,公的需要,PublicDemand,124913.9
+2000Q1,32,28,総固定資本形成,Gross Fixed CapitalFormation,155860.5
+2000Q1,32,30,最終需要,Final Sales of Domestic Product,498404.9
+2000Q2,33,2,国内総生産(支出側),GDP(Expenditure Approach),500296.7
+2000Q2,33,3,民間最終消費支出,PrivateConsumption,271400.7
+2000Q2,33,4,家計最終消費支出,Consumption ofHouseholds,266576.4
+2000Q2,33,5,除く持ち家の帰属家賃,ExcludingImputed Rent,225656.2
+2000Q2,33,6,民間住宅,PrivateResidentialInvestment,31520.9
+2000Q2,33,7,民間企業設備,Private Non-Resi.Investment,82327.7
+2000Q2,33,8,民間在庫変動,Changein PrivateInventories,1684.9
+2000Q2,33,9,政府最終消費支出,GovernmentConsumption,84158.4
+2000Q2,33,10,公的固定資本形成,PublicInvestment,43290.1
+2000Q2,33,11,公的在庫変動,Changein PublicInventories,39.0
+2000Q2,33,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-7160.8
+2000Q2,33,13,輸出,Exports,47698.1
+2000Q2,33,14,輸入,Imports,54858.9
+2000Q2,33,15,開差,Residual,-6964.3
+2000Q2,33,17,交易利得,TradingGains/Losses,15396.9
+2000Q2,33,18,国内総所得,GDI,515693.6
+2000Q2,33,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7814.9
+2000Q2,33,20,受取,Receipt,11495.2
+2000Q2,33,21,支払,Payment,3680.3
+2000Q2,33,22,国民総所得,GNI,523508.5
+2000Q2,33,24,国内需要,DomesticDemand,511711.5
+2000Q2,33,25,民間需要,PrivateDemand,386158.4
+2000Q2,33,26,公的需要,PublicDemand,125559.1
+2000Q2,33,28,総固定資本形成,Gross Fixed CapitalFormation,155142.6
+2000Q2,33,30,最終需要,Final Sales of Domestic Product,498098.4
+2000Q3,34,2,国内総生産(支出側),GDP(Expenditure Approach),500070.9
+2000Q3,34,3,民間最終消費支出,PrivateConsumption,271787.5
+2000Q3,34,4,家計最終消費支出,Consumption ofHouseholds,267199.0
+2000Q3,34,5,除く持ち家の帰属家賃,ExcludingImputed Rent,226030.4
+2000Q3,34,6,民間住宅,PrivateResidentialInvestment,31005.3
+2000Q3,34,7,民間企業設備,Private Non-Resi.Investment,85037.4
+2000Q3,34,8,民間在庫変動,Changein PrivateInventories,-1119.8
+2000Q3,34,9,政府最終消費支出,GovernmentConsumption,84817.1
+2000Q3,34,10,公的固定資本形成,PublicInvestment,42583.2
+2000Q3,34,11,公的在庫変動,Changein PublicInventories,-46.0
+2000Q3,34,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-7778.9
+2000Q3,34,13,輸出,Exports,48492.1
+2000Q3,34,14,輸入,Imports,56271.0
+2000Q3,34,15,開差,Residual,-6214.9
+2000Q3,34,17,交易利得,TradingGains/Losses,14960.6
+2000Q3,34,18,国内総所得,GDI,515031.5
+2000Q3,34,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7781.6
+2000Q3,34,20,受取,Receipt,11590.8
+2000Q3,34,21,支払,Payment,3809.1
+2000Q3,34,22,国民総所得,GNI,522813.1
+2000Q3,34,24,国内需要,DomesticDemand,511718.9
+2000Q3,34,25,民間需要,PrivateDemand,386212.4
+2000Q3,34,26,公的需要,PublicDemand,125513.5
+2000Q3,34,28,総固定資本形成,Gross Fixed CapitalFormation,156957.1
+2000Q3,34,30,最終需要,Final Sales of Domestic Product,500574.3
+2000Q4,35,2,国内総生産(支出側),GDP(Expenditure Approach),505253.3
+2000Q4,35,3,民間最終消費支出,PrivateConsumption,275116.5
+2000Q4,35,4,家計最終消費支出,Consumption ofHouseholds,270562.4
+2000Q4,35,5,除く持ち家の帰属家賃,ExcludingImputed Rent,229126.4
+2000Q4,35,6,民間住宅,PrivateResidentialInvestment,31564.6
+2000Q4,35,7,民間企業設備,Private Non-Resi.Investment,87711.0
+2000Q4,35,8,民間在庫変動,Changein PrivateInventories,310.7
+2000Q4,35,9,政府最終消費支出,GovernmentConsumption,85325.7
+2000Q4,35,10,公的固定資本形成,PublicInvestment,41279.5
+2000Q4,35,11,公的在庫変動,Changein PublicInventories,-69.2
+2000Q4,35,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-10067.2
+2000Q4,35,13,輸出,Exports,48306.5
+2000Q4,35,14,輸入,Imports,58373.7
+2000Q4,35,15,開差,Residual,-5918.4
+2000Q4,35,17,交易利得,TradingGains/Losses,15551.0
+2000Q4,35,18,国内総所得,GDI,520804.3
+2000Q4,35,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7793.1
+2000Q4,35,20,受取,Receipt,12005.1
+2000Q4,35,21,支払,Payment,4212.0
+2000Q4,35,22,国民総所得,GNI,528597.4
+2000Q4,35,24,国内需要,DomesticDemand,519086.8
+2000Q4,35,25,民間需要,PrivateDemand,394207.8
+2000Q4,35,26,公的需要,PublicDemand,124820.2
+2000Q4,35,28,総固定資本形成,Gross Fixed CapitalFormation,159124.4
+2000Q4,35,30,最終需要,Final Sales of Domestic Product,504430.9
+2001Q1,36,2,国内総生産(支出側),GDP(Expenditure Approach),508208.0
+2001Q1,36,3,民間最終消費支出,PrivateConsumption,276418.0
+2001Q1,36,4,家計最終消費支出,Consumption ofHouseholds,271694.5
+2001Q1,36,5,除く持ち家の帰属家賃,ExcludingImputed Rent,230007.1
+2001Q1,36,6,民間住宅,PrivateResidentialInvestment,31576.2
+2001Q1,36,7,民間企業設備,Private Non-Resi.Investment,87952.0
+2001Q1,36,8,民間在庫変動,Changein PrivateInventories,2230.7
+2001Q1,36,9,政府最終消費支出,GovernmentConsumption,85445.2
+2001Q1,36,10,公的固定資本形成,PublicInvestment,42957.8
+2001Q1,36,11,公的在庫変動,Changein PublicInventories,17.3
+2001Q1,36,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-11917.1
+2001Q1,36,13,輸出,Exports,46563.7
+2001Q1,36,14,輸入,Imports,58480.8
+2001Q1,36,15,開差,Residual,-6472.2
+2001Q1,36,17,交易利得,TradingGains/Losses,15466.3
+2001Q1,36,18,国内総所得,GDI,523674.3
+2001Q1,36,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,8062.9
+2001Q1,36,20,受取,Receipt,12344.5
+2001Q1,36,21,支払,Payment,4281.6
+2001Q1,36,22,国民総所得,GNI,531737.2
+2001Q1,36,24,国内需要,DomesticDemand,524220.6
+2001Q1,36,25,民間需要,PrivateDemand,397630.3
+2001Q1,36,26,公的需要,PublicDemand,126551.9
+2001Q1,36,28,総固定資本形成,Gross Fixed CapitalFormation,160917.1
+2001Q1,36,30,最終需要,Final Sales of Domestic Product,505510.6
+2001Q2,37,2,国内総生産(支出側),GDP(Expenditure Approach),504352.5
+2001Q2,37,3,民間最終消費支出,PrivateConsumption,279081.4
+2001Q2,37,4,家計最終消費支出,Consumption ofHouseholds,274146.3
+2001Q2,37,5,除く持ち家の帰属家賃,ExcludingImputed Rent,232216.8
+2001Q2,37,6,民間住宅,PrivateResidentialInvestment,29953.7
+2001Q2,37,7,民間企業設備,Private Non-Resi.Investment,85288.0
+2001Q2,37,8,民間在庫変動,Changein PrivateInventories,2488.4
+2001Q2,37,9,政府最終消費支出,GovernmentConsumption,86183.9
+2001Q2,37,10,公的固定資本形成,PublicInvestment,40382.7
+2001Q2,37,11,公的在庫変動,Changein PublicInventories,-205.8
+2001Q2,37,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-12408.5
+2001Q2,37,13,輸出,Exports,44790.6
+2001Q2,37,14,輸入,Imports,57199.1
+2001Q2,37,15,開差,Residual,-6411.4
+2001Q2,37,17,交易利得,TradingGains/Losses,14437.2
+2001Q2,37,18,国内総所得,GDI,518789.7
+2001Q2,37,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7857.9
+2001Q2,37,20,受取,Receipt,11937.3
+2001Q2,37,21,支払,Payment,4079.4
+2001Q2,37,22,国民総所得,GNI,526647.6
+2001Q2,37,24,国内需要,DomesticDemand,521149.0
+2001Q2,37,25,民間需要,PrivateDemand,396366.2
+2001Q2,37,26,公的需要,PublicDemand,124728.7
+2001Q2,37,28,総固定資本形成,Gross Fixed CapitalFormation,154284.2
+2001Q2,37,30,最終需要,Final Sales of Domestic Product,501612.0
+2001Q3,38,2,国内総生産(支出側),GDP(Expenditure Approach),498415.0
+2001Q3,38,3,民間最終消費支出,PrivateConsumption,278529.3
+2001Q3,38,4,家計最終消費支出,Consumption ofHouseholds,273463.6
+2001Q3,38,5,除く持ち家の帰属家賃,ExcludingImputed Rent,231294.7
+2001Q3,38,6,民間住宅,PrivateResidentialInvestment,29814.2
+2001Q3,38,7,民間企業設備,Private Non-Resi.Investment,83986.7
+2001Q3,38,8,民間在庫変動,Changein PrivateInventories,-2191.2
+2001Q3,38,9,政府最終消費支出,GovernmentConsumption,86281.2
+2001Q3,38,10,公的固定資本形成,PublicInvestment,40443.9
+2001Q3,38,11,公的在庫変動,Changein PublicInventories,-237.4
+2001Q3,38,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-11707.3
+2001Q3,38,13,輸出,Exports,43836.7
+2001Q3,38,14,輸入,Imports,55543.9
+2001Q3,38,15,開差,Residual,-6504.3
+2001Q3,38,17,交易利得,TradingGains/Losses,14201.2
+2001Q3,38,18,国内総所得,GDI,512616.2
+2001Q3,38,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7782.9
+2001Q3,38,20,受取,Receipt,11651.6
+2001Q3,38,21,支払,Payment,3868.7
+2001Q3,38,22,国民総所得,GNI,520399.2
+2001Q3,38,24,国内需要,DomesticDemand,514676.0
+2001Q3,38,25,民間需要,PrivateDemand,389799.6
+2001Q3,38,26,公的需要,PublicDemand,124854.4
+2001Q3,38,28,総固定資本形成,Gross Fixed CapitalFormation,152825.4
+2001Q3,38,30,最終需要,Final Sales of Domestic Product,500093.7
+2001Q4,39,2,国内総生産(支出側),GDP(Expenditure Approach),497326.7
+2001Q4,39,3,民間最終消費支出,PrivateConsumption,278523.3
+2001Q4,39,4,家計最終消費支出,Consumption ofHouseholds,273436.2
+2001Q4,39,5,除く持ち家の帰属家賃,ExcludingImputed Rent,231037.8
+2001Q4,39,6,民間住宅,PrivateResidentialInvestment,30093.9
+2001Q4,39,7,民間企業設備,Private Non-Resi.Investment,80930.4
+2001Q4,39,8,民間在庫変動,Changein PrivateInventories,-1347.2
+2001Q4,39,9,政府最終消費支出,GovernmentConsumption,87369.9
+2001Q4,39,10,公的固定資本形成,PublicInvestment,39606.3
+2001Q4,39,11,公的在庫変動,Changein PublicInventories,-27.3
+2001Q4,39,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-10837.0
+2001Q4,39,13,輸出,Exports,42988.4
+2001Q4,39,14,輸入,Imports,53825.3
+2001Q4,39,15,開差,Residual,-6985.6
+2001Q4,39,17,交易利得,TradingGains/Losses,15205.6
+2001Q4,39,18,国内総所得,GDI,512532.3
+2001Q4,39,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,8278.2
+2001Q4,39,20,受取,Receipt,11673.5
+2001Q4,39,21,支払,Payment,3395.2
+2001Q4,39,22,国民総所得,GNI,520810.6
+2001Q4,39,24,国内需要,DomesticDemand,513058.9
+2001Q4,39,25,民間需要,PrivateDemand,387657.1
+2001Q4,39,26,公的需要,PublicDemand,125390.7
+2001Q4,39,28,総固定資本形成,Gross Fixed CapitalFormation,149036.8
+2001Q4,39,30,最終需要,Final Sales of Domestic Product,498029.4
+2002Q1,40,2,国内総生産(支出側),GDP(Expenditure Approach),498587.7
+2002Q1,40,3,民間最終消費支出,PrivateConsumption,280260.3
+2002Q1,40,4,家計最終消費支出,Consumption ofHouseholds,275267.2
+2002Q1,40,5,除く持ち家の帰属家賃,ExcludingImputed Rent,232629.4
+2002Q1,40,6,民間住宅,PrivateResidentialInvestment,29732.4
+2002Q1,40,7,民間企業設備,Private Non-Resi.Investment,80576.3
+2002Q1,40,8,民間在庫変動,Changein PrivateInventories,-3353.9
+2002Q1,40,9,政府最終消費支出,GovernmentConsumption,87487.8
+2002Q1,40,10,公的固定資本形成,PublicInvestment,39849.5
+2002Q1,40,11,公的在庫変動,Changein PublicInventories,-89.4
+2002Q1,40,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-9369.6
+2002Q1,40,13,輸出,Exports,44962.0
+2002Q1,40,14,輸入,Imports,54331.6
+2002Q1,40,15,開差,Residual,-6505.7
+2002Q1,40,17,交易利得,TradingGains/Losses,15129.2
+2002Q1,40,18,国内総所得,GDI,513716.9
+2002Q1,40,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,8069.3
+2002Q1,40,20,受取,Receipt,11152.8
+2002Q1,40,21,支払,Payment,3083.5
+2002Q1,40,22,国民総所得,GNI,521786.2
+2002Q1,40,24,国内需要,DomesticDemand,512504.0
+2002Q1,40,25,民間需要,PrivateDemand,386793.4
+2002Q1,40,26,公的需要,PublicDemand,125686.0
+2002Q1,40,28,総固定資本形成,Gross Fixed CapitalFormation,148576.8
+2002Q1,40,30,最終需要,Final Sales of Domestic Product,501200.8
+2002Q2,41,2,国内総生産(支出側),GDP(Expenditure Approach),502166.1
+2002Q2,41,3,民間最終消費支出,PrivateConsumption,282277.4
+2002Q2,41,4,家計最終消費支出,Consumption ofHouseholds,277441.8
+2002Q2,41,5,除く持ち家の帰属家賃,ExcludingImputed Rent,234575.2
+2002Q2,41,6,民間住宅,PrivateResidentialInvestment,29896.4
+2002Q2,41,7,民間企業設備,Private Non-Resi.Investment,79438.5
+2002Q2,41,8,民間在庫変動,Changein PrivateInventories,-2390.7
+2002Q2,41,9,政府最終消費支出,GovernmentConsumption,87684.2
+2002Q2,41,10,公的固定資本形成,PublicInvestment,38902.8
+2002Q2,41,11,公的在庫変動,Changein PublicInventories,-24.9
+2002Q2,41,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-7737.4
+2002Q2,41,13,輸出,Exports,48199.9
+2002Q2,41,14,輸入,Imports,55937.3
+2002Q2,41,15,開差,Residual,-5880.3
+2002Q2,41,17,交易利得,TradingGains/Losses,15063.3
+2002Q2,41,18,国内総所得,GDI,517229.4
+2002Q2,41,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7291.8
+2002Q2,41,20,受取,Receipt,10547.5
+2002Q2,41,21,支払,Payment,3255.7
+2002Q2,41,22,国民総所得,GNI,524521.2
+2002Q2,41,24,国内需要,DomesticDemand,513839.3
+2002Q2,41,25,民間需要,PrivateDemand,388712.0
+2002Q2,41,26,公的需要,PublicDemand,125094.9
+2002Q2,41,28,総固定資本形成,Gross Fixed CapitalFormation,146641.7
+2002Q2,41,30,最終需要,Final Sales of Domestic Product,503820.5
+2002Q3,42,2,国内総生産(支出側),GDP(Expenditure Approach),503711.3
+2002Q3,42,3,民間最終消費支出,PrivateConsumption,282346.8
+2002Q3,42,4,家計最終消費支出,Consumption ofHouseholds,277618.8
+2002Q3,42,5,除く持ち家の帰属家賃,ExcludingImputed Rent,234545.0
+2002Q3,42,6,民間住宅,PrivateResidentialInvestment,29876.7
+2002Q3,42,7,民間企業設備,Private Non-Resi.Investment,80507.6
+2002Q3,42,8,民間在庫変動,Changein PrivateInventories,-1460.4
+2002Q3,42,9,政府最終消費支出,GovernmentConsumption,88366.8
+2002Q3,42,10,公的固定資本形成,PublicInvestment,38795.0
+2002Q3,42,11,公的在庫変動,Changein PublicInventories,-57.1
+2002Q3,42,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-9123.1
+2002Q3,42,13,輸出,Exports,48709.0
+2002Q3,42,14,輸入,Imports,57832.1
+2002Q3,42,15,開差,Residual,-5541.0
+2002Q3,42,17,交易利得,TradingGains/Losses,14991.2
+2002Q3,42,18,国内総所得,GDI,518702.5
+2002Q3,42,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7472.4
+2002Q3,42,20,受取,Receipt,10876.9
+2002Q3,42,21,支払,Payment,3404.5
+2002Q3,42,22,国民総所得,GNI,526174.9
+2002Q3,42,24,国内需要,DomesticDemand,516488.8
+2002Q3,42,25,民間需要,PrivateDemand,390779.9
+2002Q3,42,26,公的需要,PublicDemand,125673.2
+2002Q3,42,28,総固定資本形成,Gross Fixed CapitalFormation,147662.7
+2002Q3,42,30,最終需要,Final Sales of Domestic Product,504526.0
+2002Q4,43,2,国内総生産(支出側),GDP(Expenditure Approach),504887.9
+2002Q4,43,3,民間最終消費支出,PrivateConsumption,281370.2
+2002Q4,43,4,家計最終消費支出,Consumption ofHouseholds,276610.3
+2002Q4,43,5,除く持ち家の帰属家賃,ExcludingImputed Rent,233317.0
+2002Q4,43,6,民間住宅,PrivateResidentialInvestment,29579.2
+2002Q4,43,7,民間企業設備,Private Non-Resi.Investment,80504.6
+2002Q4,43,8,民間在庫変動,Changein PrivateInventories,522.4
+2002Q4,43,9,政府最終消費支出,GovernmentConsumption,88240.8
+2002Q4,43,10,公的固定資本形成,PublicInvestment,38323.1
+2002Q4,43,11,公的在庫変動,Changein PublicInventories,-164.4
+2002Q4,43,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8303.9
+2002Q4,43,13,輸出,Exports,50343.6
+2002Q4,43,14,輸入,Imports,58647.5
+2002Q4,43,15,開差,Residual,-5184.1
+2002Q4,43,17,交易利得,TradingGains/Losses,15260.7
+2002Q4,43,18,国内総所得,GDI,520148.5
+2002Q4,43,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7127.1
+2002Q4,43,20,受取,Receipt,10442.8
+2002Q4,43,21,支払,Payment,3315.8
+2002Q4,43,22,国民総所得,GNI,527275.6
+2002Q4,43,24,国内需要,DomesticDemand,516515.2
+2002Q4,43,25,民間需要,PrivateDemand,391458.6
+2002Q4,43,26,公的需要,PublicDemand,125023.1
+2002Q4,43,28,総固定資本形成,Gross Fixed CapitalFormation,146961.3
+2002Q4,43,30,最終需要,Final Sales of Domestic Product,503952.9
+2003Q1,44,2,国内総生産(支出側),GDP(Expenditure Approach),504307.3
+2003Q1,44,3,民間最終消費支出,PrivateConsumption,281692.4
+2003Q1,44,4,家計最終消費支出,Consumption ofHouseholds,276768.3
+2003Q1,44,5,除く持ち家の帰属家賃,ExcludingImputed Rent,233246.8
+2003Q1,44,6,民間住宅,PrivateResidentialInvestment,29499.1
+2003Q1,44,7,民間企業設備,Private Non-Resi.Investment,80207.9
+2003Q1,44,8,民間在庫変動,Changein PrivateInventories,-361.0
+2003Q1,44,9,政府最終消費支出,GovernmentConsumption,88804.2
+2003Q1,44,10,公的固定資本形成,PublicInvestment,37442.9
+2003Q1,44,11,公的在庫変動,Changein PublicInventories,-77.0
+2003Q1,44,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8019.9
+2003Q1,44,13,輸出,Exports,51019.4
+2003Q1,44,14,輸入,Imports,59039.3
+2003Q1,44,15,開差,Residual,-4881.2
+2003Q1,44,17,交易利得,TradingGains/Losses,13732.9
+2003Q1,44,18,国内総所得,GDI,518040.2
+2003Q1,44,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7749.6
+2003Q1,44,20,受取,Receipt,10899.5
+2003Q1,44,21,支払,Payment,3149.9
+2003Q1,44,22,国民総所得,GNI,525789.8
+2003Q1,44,24,国内需要,DomesticDemand,515471.5
+2003Q1,44,25,民間需要,PrivateDemand,390549.3
+2003Q1,44,26,公的需要,PublicDemand,124894.4
+2003Q1,44,28,総固定資本形成,Gross Fixed CapitalFormation,145756.7
+2003Q1,44,30,最終需要,Final Sales of Domestic Product,504117.7
+2003Q2,45,2,国内総生産(支出側),GDP(Expenditure Approach),508468.4
+2003Q2,45,3,民間最終消費支出,PrivateConsumption,282590.0
+2003Q2,45,4,家計最終消費支出,Consumption ofHouseholds,277468.5
+2003Q2,45,5,除く持ち家の帰属家賃,ExcludingImputed Rent,233718.6
+2003Q2,45,6,民間住宅,PrivateResidentialInvestment,29550.8
+2003Q2,45,7,民間企業設備,Private Non-Resi.Investment,81235.3
+2003Q2,45,8,民間在庫変動,Changein PrivateInventories,-776.4
+2003Q2,45,9,政府最終消費支出,GovernmentConsumption,89513.5
+2003Q2,45,10,公的固定資本形成,PublicInvestment,37572.2
+2003Q2,45,11,公的在庫変動,Changein PublicInventories,71.7
+2003Q2,45,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-6040.2
+2003Q2,45,13,輸出,Exports,51094.8
+2003Q2,45,14,輸入,Imports,57135.0
+2003Q2,45,15,開差,Residual,-5248.5
+2003Q2,45,17,交易利得,TradingGains/Losses,14429.8
+2003Q2,45,18,国内総所得,GDI,522898.3
+2003Q2,45,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,7945.0
+2003Q2,45,20,受取,Receipt,10881.5
+2003Q2,45,21,支払,Payment,2936.5
+2003Q2,45,22,国民総所得,GNI,530843.2
+2003Q2,45,24,国内需要,DomesticDemand,518055.3
+2003Q2,45,25,民間需要,PrivateDemand,392151.9
+2003Q2,45,26,公的需要,PublicDemand,125875.6
+2003Q2,45,28,総固定資本形成,Gross Fixed CapitalFormation,147008.6
+2003Q2,45,30,最終需要,Final Sales of Domestic Product,508531.3
+2003Q3,46,2,国内総生産(支出側),GDP(Expenditure Approach),509943.7
+2003Q3,46,3,民間最終消費支出,PrivateConsumption,282804.9
+2003Q3,46,4,家計最終消費支出,Consumption ofHouseholds,277541.0
+2003Q3,46,5,除く持ち家の帰属家賃,ExcludingImputed Rent,233529.1
+2003Q3,46,6,民間住宅,PrivateResidentialInvestment,30115.2
+2003Q3,46,7,民間企業設備,Private Non-Resi.Investment,79421.6
+2003Q3,46,8,民間在庫変動,Changein PrivateInventories,1641.9
+2003Q3,46,9,政府最終消費支出,GovernmentConsumption,89948.7
+2003Q3,46,10,公的固定資本形成,PublicInvestment,36677.5
+2003Q3,46,11,公的在庫変動,Changein PublicInventories,-98.0
+2003Q3,46,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-5605.7
+2003Q3,46,13,輸出,Exports,52907.3
+2003Q3,46,14,輸入,Imports,58512.9
+2003Q3,46,15,開差,Residual,-4962.5
+2003Q3,46,17,交易利得,TradingGains/Losses,14475.3
+2003Q3,46,18,国内総所得,GDI,524419.0
+2003Q3,46,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,9491.4
+2003Q3,46,20,受取,Receipt,12333.5
+2003Q3,46,21,支払,Payment,2842.1
+2003Q3,46,22,国民総所得,GNI,533910.5
+2003Q3,46,24,国内需要,DomesticDemand,518691.5
+2003Q3,46,25,民間需要,PrivateDemand,393305.7
+2003Q3,46,26,公的需要,PublicDemand,125366.8
+2003Q3,46,28,総固定資本形成,Gross Fixed CapitalFormation,144752.2
+2003Q3,46,30,最終需要,Final Sales of Domestic Product,507919.7
+2003Q4,47,2,国内総生産(支出側),GDP(Expenditure Approach),515100.9
+2003Q4,47,3,民間最終消費支出,PrivateConsumption,286022.7
+2003Q4,47,4,家計最終消費支出,Consumption ofHouseholds,280706.0
+2003Q4,47,5,除く持ち家の帰属家賃,ExcludingImputed Rent,236559.4
+2003Q4,47,6,民間住宅,PrivateResidentialInvestment,29797.6
+2003Q4,47,7,民間企業設備,Private Non-Resi.Investment,82466.9
+2003Q4,47,8,民間在庫変動,Changein PrivateInventories,-528.4
+2003Q4,47,9,政府最終消費支出,GovernmentConsumption,90309.5
+2003Q4,47,10,公的固定資本形成,PublicInvestment,35921.5
+2003Q4,47,11,公的在庫変動,Changein PublicInventories,-374.1
+2003Q4,47,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-4283.2
+2003Q4,47,13,輸出,Exports,55600.7
+2003Q4,47,14,輸入,Imports,59883.9
+2003Q4,47,15,開差,Residual,-4231.5
+2003Q4,47,17,交易利得,TradingGains/Losses,14769.0
+2003Q4,47,18,国内総所得,GDI,529869.9
+2003Q4,47,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,8508.2
+2003Q4,47,20,受取,Receipt,11225.3
+2003Q4,47,21,支払,Payment,2717.2
+2003Q4,47,22,国民総所得,GNI,538378.1
+2003Q4,47,24,国内需要,DomesticDemand,522125.8
+2003Q4,47,25,民間需要,PrivateDemand,397312.6
+2003Q4,47,26,公的需要,PublicDemand,124808.1
+2003Q4,47,28,総固定資本形成,Gross Fixed CapitalFormation,146994.4
+2003Q4,47,30,最終需要,Final Sales of Domestic Product,515327.0
+2004Q1,48,2,国内総生産(支出側),GDP(Expenditure Approach),519507.8
+2004Q1,48,3,民間最終消費支出,PrivateConsumption,286551.3
+2004Q1,48,4,家計最終消費支出,Consumption ofHouseholds,281269.8
+2004Q1,48,5,除く持ち家の帰属家賃,ExcludingImputed Rent,236932.4
+2004Q1,48,6,民間住宅,PrivateResidentialInvestment,30295.0
+2004Q1,48,7,民間企業設備,Private Non-Resi.Investment,82313.0
+2004Q1,48,8,民間在庫変動,Changein PrivateInventories,2549.0
+2004Q1,48,9,政府最終消費支出,GovernmentConsumption,90813.8
+2004Q1,48,10,公的固定資本形成,PublicInvestment,34429.0
+2004Q1,48,11,公的在庫変動,Changein PublicInventories,-326.6
+2004Q1,48,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-3304.4
+2004Q1,48,13,輸出,Exports,58353.8
+2004Q1,48,14,輸入,Imports,61658.1
+2004Q1,48,15,開差,Residual,-3812.2
+2004Q1,48,17,交易利得,TradingGains/Losses,13990.1
+2004Q1,48,18,国内総所得,GDI,533497.8
+2004Q1,48,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,9525.6
+2004Q1,48,20,受取,Receipt,12234.9
+2004Q1,48,21,支払,Payment,2709.3
+2004Q1,48,22,国民総所得,GNI,543023.4
+2004Q1,48,24,国内需要,DomesticDemand,525136.3
+2004Q1,48,25,民間需要,PrivateDemand,401101.0
+2004Q1,48,26,公的需要,PublicDemand,124032.7
+2004Q1,48,28,総固定資本形成,Gross Fixed CapitalFormation,145890.6
+2004Q1,48,30,最終需要,Final Sales of Domestic Product,516809.1
+2004Q2,49,2,国内総生産(支出側),GDP(Expenditure Approach),519128.9
+2004Q2,49,3,民間最終消費支出,PrivateConsumption,286476.0
+2004Q2,49,4,家計最終消費支出,Consumption ofHouseholds,281244.6
+2004Q2,49,5,除く持ち家の帰属家賃,ExcludingImputed Rent,236736.4
+2004Q2,49,6,民間住宅,PrivateResidentialInvestment,30841.7
+2004Q2,49,7,民間企業設備,Private Non-Resi.Investment,81861.5
+2004Q2,49,8,民間在庫変動,Changein PrivateInventories,1246.6
+2004Q2,49,9,政府最終消費支出,GovernmentConsumption,90343.1
+2004Q2,49,10,公的固定資本形成,PublicInvestment,34311.2
+2004Q2,49,11,公的在庫変動,Changein PublicInventories,58.2
+2004Q2,49,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-2493.7
+2004Q2,49,13,輸出,Exports,60207.9
+2004Q2,49,14,輸入,Imports,62701.6
+2004Q2,49,15,開差,Residual,-3515.7
+2004Q2,49,17,交易利得,TradingGains/Losses,13083.0
+2004Q2,49,18,国内総所得,GDI,532211.8
+2004Q2,49,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,10212.7
+2004Q2,49,20,受取,Receipt,13122.3
+2004Q2,49,21,支払,Payment,2909.5
+2004Q2,49,22,国民総所得,GNI,542424.6
+2004Q2,49,24,国内需要,DomesticDemand,523578.4
+2004Q2,49,25,民間需要,PrivateDemand,399771.7
+2004Q2,49,26,公的需要,PublicDemand,123800.0
+2004Q2,49,28,総固定資本形成,Gross Fixed CapitalFormation,145793.6
+2004Q2,49,30,最終需要,Final Sales of Domestic Product,517304.0
+2004Q3,50,2,国内総生産(支出側),GDP(Expenditure Approach),522005.8
+2004Q3,50,3,民間最終消費支出,PrivateConsumption,288498.9
+2004Q3,50,4,家計最終消費支出,Consumption ofHouseholds,283284.1
+2004Q3,50,5,除く持ち家の帰属家賃,ExcludingImputed Rent,238607.9
+2004Q3,50,6,民間住宅,PrivateResidentialInvestment,30918.6
+2004Q3,50,7,民間企業設備,Private Non-Resi.Investment,82601.9
+2004Q3,50,8,民間在庫変動,Changein PrivateInventories,2088.2
+2004Q3,50,9,政府最終消費支出,GovernmentConsumption,90759.0
+2004Q3,50,10,公的固定資本形成,PublicInvestment,33776.5
+2004Q3,50,11,公的在庫変動,Changein PublicInventories,51.6
+2004Q3,50,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-3358.5
+2004Q3,50,13,輸出,Exports,60766.7
+2004Q3,50,14,輸入,Imports,64125.3
+2004Q3,50,15,開差,Residual,-3330.3
+2004Q3,50,17,交易利得,TradingGains/Losses,13031.1
+2004Q3,50,18,国内総所得,GDI,535036.9
+2004Q3,50,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,10524.8
+2004Q3,50,20,受取,Receipt,13666.7
+2004Q3,50,21,支払,Payment,3141.9
+2004Q3,50,22,国民総所得,GNI,545561.8
+2004Q3,50,24,国内需要,DomesticDemand,527189.1
+2004Q3,50,25,民間需要,PrivateDemand,403441.8
+2004Q3,50,26,公的需要,PublicDemand,123742.8
+2004Q3,50,28,総固定資本形成,Gross Fixed CapitalFormation,146145.1
+2004Q3,50,30,最終需要,Final Sales of Domestic Product,519397.0
+2004Q4,51,2,国内総生産(支出側),GDP(Expenditure Approach),520016.1
+2004Q4,51,3,民間最終消費支出,PrivateConsumption,285921.0
+2004Q4,51,4,家計最終消費支出,Consumption ofHouseholds,280674.4
+2004Q4,51,5,除く持ち家の帰属家賃,ExcludingImputed Rent,235820.2
+2004Q4,51,6,民間住宅,PrivateResidentialInvestment,31080.0
+2004Q4,51,7,民間企業設備,Private Non-Resi.Investment,84283.0
+2004Q4,51,8,民間在庫変動,Changein PrivateInventories,1705.4
+2004Q4,51,9,政府最終消費支出,GovernmentConsumption,90789.6
+2004Q4,51,10,公的固定資本形成,PublicInvestment,33458.7
+2004Q4,51,11,公的在庫変動,Changein PublicInventories,151.1
+2004Q4,51,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-4463.6
+2004Q4,51,13,輸出,Exports,61549.8
+2004Q4,51,14,輸入,Imports,66013.4
+2004Q4,51,15,開差,Residual,-2909.3
+2004Q4,51,17,交易利得,TradingGains/Losses,13448.6
+2004Q4,51,18,国内総所得,GDI,533464.7
+2004Q4,51,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,10990.4
+2004Q4,51,20,受取,Receipt,14294.8
+2004Q4,51,21,支払,Payment,3304.4
+2004Q4,51,22,国民総所得,GNI,544455.2
+2004Q4,51,24,国内需要,DomesticDemand,525921.1
+2004Q4,51,25,民間需要,PrivateDemand,402331.8
+2004Q4,51,26,公的需要,PublicDemand,123583.2
+2004Q4,51,28,総固定資本形成,Gross Fixed CapitalFormation,147765.4
+2004Q4,51,30,最終需要,Final Sales of Domestic Product,517677.5
+2005Q1,52,2,国内総生産(支出側),GDP(Expenditure Approach),523235.1
+2005Q1,52,3,民間最終消費支出,PrivateConsumption,288639.4
+2005Q1,52,4,家計最終消費支出,Consumption ofHouseholds,283350.6
+2005Q1,52,5,除く持ち家の帰属家賃,ExcludingImputed Rent,238398.1
+2005Q1,52,6,民間住宅,PrivateResidentialInvestment,30574.6
+2005Q1,52,7,民間企業設備,Private Non-Resi.Investment,86237.0
+2005Q1,52,8,民間在庫変動,Changein PrivateInventories,731.5
+2005Q1,52,9,政府最終消費支出,GovernmentConsumption,91672.8
+2005Q1,52,10,公的固定資本形成,PublicInvestment,32792.4
+2005Q1,52,11,公的在庫変動,Changein PublicInventories,179.9
+2005Q1,52,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-4653.5
+2005Q1,52,13,輸出,Exports,60948.6
+2005Q1,52,14,輸入,Imports,65602.2
+2005Q1,52,15,開差,Residual,-2938.9
+2005Q1,52,17,交易利得,TradingGains/Losses,12427.5
+2005Q1,52,18,国内総所得,GDI,535662.6
+2005Q1,52,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,10516.4
+2005Q1,52,20,受取,Receipt,14469.3
+2005Q1,52,21,支払,Payment,3952.9
+2005Q1,52,22,国民総所得,GNI,546179.0
+2005Q1,52,24,国内需要,DomesticDemand,529565.9
+2005Q1,52,25,民間需要,PrivateDemand,405637.1
+2005Q1,52,26,公的需要,PublicDemand,123924.8
+2005Q1,52,28,総固定資本形成,Gross Fixed CapitalFormation,148737.4
+2005Q1,52,30,最終需要,Final Sales of Domestic Product,521802.6
+2005Q2,53,2,国内総生産(支出側),GDP(Expenditure Approach),528264.2
+2005Q2,53,3,民間最終消費支出,PrivateConsumption,290606.4
+2005Q2,53,4,家計最終消費支出,Consumption ofHouseholds,285244.8
+2005Q2,53,5,除く持ち家の帰属家賃,ExcludingImputed Rent,240158.5
+2005Q2,53,6,民間住宅,PrivateResidentialInvestment,30442.9
+2005Q2,53,7,民間企業設備,Private Non-Resi.Investment,89223.6
+2005Q2,53,8,民間在庫変動,Changein PrivateInventories,1587.3
+2005Q2,53,9,政府最終消費支出,GovernmentConsumption,91260.2
+2005Q2,53,10,公的固定資本形成,PublicInvestment,30836.7
+2005Q2,53,11,公的在庫変動,Changein PublicInventories,-18.0
+2005Q2,53,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-3257.6
+2005Q2,53,13,輸出,Exports,63542.7
+2005Q2,53,14,輸入,Imports,66800.3
+2005Q2,53,15,開差,Residual,-2417.4
+2005Q2,53,17,交易利得,TradingGains/Losses,10532.2
+2005Q2,53,18,国内総所得,GDI,538796.4
+2005Q2,53,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,11760.3
+2005Q2,53,20,受取,Receipt,15925.8
+2005Q2,53,21,支払,Payment,4165.5
+2005Q2,53,22,国民総所得,GNI,550556.7
+2005Q2,53,24,国内需要,DomesticDemand,532931.8
+2005Q2,53,25,民間需要,PrivateDemand,411375.9
+2005Q2,53,26,公的需要,PublicDemand,121563.5
+2005Q2,53,28,総固定資本形成,Gross Fixed CapitalFormation,149932.7
+2005Q2,53,30,最終需要,Final Sales of Domestic Product,526184.6
+2005Q3,54,2,国内総生産(支出側),GDP(Expenditure Approach),533024.7
+2005Q3,54,3,民間最終消費支出,PrivateConsumption,293290.3
+2005Q3,54,4,家計最終消費支出,Consumption ofHouseholds,287865.9
+2005Q3,54,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242601.9
+2005Q3,54,6,民間住宅,PrivateResidentialInvestment,31042.5
+2005Q3,54,7,民間企業設備,Private Non-Resi.Investment,90976.6
+2005Q3,54,8,民間在庫変動,Changein PrivateInventories,285.5
+2005Q3,54,9,政府最終消費支出,GovernmentConsumption,91137.6
+2005Q3,54,10,公的固定資本形成,PublicInvestment,31536.5
+2005Q3,54,11,公的在庫変動,Changein PublicInventories,9.4
+2005Q3,54,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-2988.9
+2005Q3,54,13,輸出,Exports,65550.8
+2005Q3,54,14,輸入,Imports,68539.7
+2005Q3,54,15,開差,Residual,-2264.8
+2005Q3,54,17,交易利得,TradingGains/Losses,8943.3
+2005Q3,54,18,国内総所得,GDI,541968.1
+2005Q3,54,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,12498.8
+2005Q3,54,20,受取,Receipt,16714.9
+2005Q3,54,21,支払,Payment,4216.0
+2005Q3,54,22,国民総所得,GNI,554466.9
+2005Q3,54,24,国内需要,DomesticDemand,537163.1
+2005Q3,54,25,民間需要,PrivateDemand,415084.7
+2005Q3,54,26,公的需要,PublicDemand,122089.2
+2005Q3,54,28,総固定資本形成,Gross Fixed CapitalFormation,152966.7
+2005Q3,54,30,最終需要,Final Sales of Domestic Product,532171.0
+2005Q4,55,2,国内総生産(支出側),GDP(Expenditure Approach),534524.0
+2005Q4,55,3,民間最終消費支出,PrivateConsumption,293770.0
+2005Q4,55,4,家計最終消費支出,Consumption ofHouseholds,288304.9
+2005Q4,55,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242849.9
+2005Q4,55,6,民間住宅,PrivateResidentialInvestment,31392.7
+2005Q4,55,7,民間企業設備,Private Non-Resi.Investment,89369.5
+2005Q4,55,8,民間在庫変動,Changein PrivateInventories,410.8
+2005Q4,55,9,政府最終消費支出,GovernmentConsumption,91589.6
+2005Q4,55,10,公的固定資本形成,PublicInvestment,30844.6
+2005Q4,55,11,公的在庫変動,Changein PublicInventories,-13.1
+2005Q4,55,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-842.7
+2005Q4,55,13,輸出,Exports,67844.0
+2005Q4,55,14,輸入,Imports,68686.7
+2005Q4,55,15,開差,Residual,-1997.5
+2005Q4,55,17,交易利得,TradingGains/Losses,8044.6
+2005Q4,55,18,国内総所得,GDI,542568.7
+2005Q4,55,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,13433.2
+2005Q4,55,20,受取,Receipt,18189.3
+2005Q4,55,21,支払,Payment,4756.1
+2005Q4,55,22,国民総所得,GNI,556001.9
+2005Q4,55,24,国内需要,DomesticDemand,536266.7
+2005Q4,55,25,民間需要,PrivateDemand,414366.8
+2005Q4,55,26,公的需要,PublicDemand,121912.8
+2005Q4,55,28,総固定資本形成,Gross Fixed CapitalFormation,150952.8
+2005Q4,55,30,最終需要,Final Sales of Domestic Product,533574.7
+2006Q1,56,2,国内総生産(支出側),GDP(Expenditure Approach),534939.2
+2006Q1,56,3,民間最終消費支出,PrivateConsumption,293773.4
+2006Q1,56,4,家計最終消費支出,Consumption ofHouseholds,288297.1
+2006Q1,56,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242657.4
+2006Q1,56,6,民間住宅,PrivateResidentialInvestment,30926.4
+2006Q1,56,7,民間企業設備,Private Non-Resi.Investment,89202.9
+2006Q1,56,8,民間在庫変動,Changein PrivateInventories,118.5
+2006Q1,56,9,政府最終消費支出,GovernmentConsumption,91312.8
+2006Q1,56,10,公的固定資本形成,PublicInvestment,31908.9
+2006Q1,56,11,公的在庫変動,Changein PublicInventories,31.2
+2006Q1,56,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-507.7
+2006Q1,56,13,輸出,Exports,69399.7
+2006Q1,56,14,輸入,Imports,69907.4
+2006Q1,56,15,開差,Residual,-1827.1
+2006Q1,56,17,交易利得,TradingGains/Losses,6066.9
+2006Q1,56,18,国内総所得,GDI,541006.2
+2006Q1,56,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14159.3
+2006Q1,56,20,受取,Receipt,19345.2
+2006Q1,56,21,支払,Payment,5185.9
+2006Q1,56,22,国民総所得,GNI,555165.5
+2006Q1,56,24,国内需要,DomesticDemand,536107.5
+2006Q1,56,25,民間需要,PrivateDemand,413491.5
+2006Q1,56,26,公的需要,PublicDemand,122625.4
+2006Q1,56,28,総固定資本形成,Gross Fixed CapitalFormation,151346.0
+2006Q1,56,30,最終需要,Final Sales of Domestic Product,534240.3
+2006Q2,57,2,国内総生産(支出側),GDP(Expenditure Approach),536420.6
+2006Q2,57,3,民間最終消費支出,PrivateConsumption,294765.5
+2006Q2,57,4,家計最終消費支出,Consumption ofHouseholds,289259.3
+2006Q2,57,5,除く持ち家の帰属家賃,ExcludingImputed Rent,243439.2
+2006Q2,57,6,民間住宅,PrivateResidentialInvestment,30867.0
+2006Q2,57,7,民間企業設備,Private Non-Resi.Investment,91046.8
+2006Q2,57,8,民間在庫変動,Changein PrivateInventories,-804.0
+2006Q2,57,9,政府最終消費支出,GovernmentConsumption,91727.7
+2006Q2,57,10,公的固定資本形成,PublicInvestment,30600.9
+2006Q2,57,11,公的在庫変動,Changein PublicInventories,-25.8
+2006Q2,57,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-255.4
+2006Q2,57,13,輸出,Exports,70571.9
+2006Q2,57,14,輸入,Imports,70827.3
+2006Q2,57,15,開差,Residual,-1502.1
+2006Q2,57,17,交易利得,TradingGains/Losses,5779.8
+2006Q2,57,18,国内総所得,GDI,542200.4
+2006Q2,57,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14035.4
+2006Q2,57,20,受取,Receipt,19597.8
+2006Q2,57,21,支払,Payment,5562.5
+2006Q2,57,22,国民総所得,GNI,556235.7
+2006Q2,57,24,国内需要,DomesticDemand,537173.1
+2006Q2,57,25,民間需要,PrivateDemand,415373.6
+2006Q2,57,26,公的需要,PublicDemand,121818.9
+2006Q2,57,28,総固定資本形成,Gross Fixed CapitalFormation,152006.9
+2006Q2,57,30,最終需要,Final Sales of Domestic Product,536697.3
+2006Q3,58,2,国内総生産(支出側),GDP(Expenditure Approach),536346.4
+2006Q3,58,3,民間最終消費支出,PrivateConsumption,292435.2
+2006Q3,58,4,家計最終消費支出,Consumption ofHouseholds,286882.4
+2006Q3,58,5,除く持ち家の帰属家賃,ExcludingImputed Rent,240869.1
+2006Q3,58,6,民間住宅,PrivateResidentialInvestment,30883.0
+2006Q3,58,7,民間企業設備,Private Non-Resi.Investment,91011.4
+2006Q3,58,8,民間在庫変動,Changein PrivateInventories,1015.3
+2006Q3,58,9,政府最終消費支出,GovernmentConsumption,91819.3
+2006Q3,58,10,公的固定資本形成,PublicInvestment,29158.6
+2006Q3,58,11,公的在庫変動,Changein PublicInventories,38.8
+2006Q3,58,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,1109.3
+2006Q3,58,13,輸出,Exports,71890.5
+2006Q3,58,14,輸入,Imports,70781.2
+2006Q3,58,15,開差,Residual,-1124.5
+2006Q3,58,17,交易利得,TradingGains/Losses,4629.1
+2006Q3,58,18,国内総所得,GDI,540975.5
+2006Q3,58,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14649.0
+2006Q3,58,20,受取,Receipt,20355.5
+2006Q3,58,21,支払,Payment,5706.5
+2006Q3,58,22,国民総所得,GNI,555624.5
+2006Q3,58,24,国内需要,DomesticDemand,535519.0
+2006Q3,58,25,民間需要,PrivateDemand,414853.8
+2006Q3,58,26,公的需要,PublicDemand,120689.9
+2006Q3,58,28,総固定資本形成,Gross Fixed CapitalFormation,150641.3
+2006Q3,58,30,最終需要,Final Sales of Domestic Product,534755.2
+2006Q4,59,2,国内総生産(支出側),GDP(Expenditure Approach),543555.7
+2006Q4,59,3,民間最終消費支出,PrivateConsumption,297060.5
+2006Q4,59,4,家計最終消費支出,Consumption ofHouseholds,291514.5
+2006Q4,59,5,除く持ち家の帰属家賃,ExcludingImputed Rent,245328.4
+2006Q4,59,6,民間住宅,PrivateResidentialInvestment,30723.6
+2006Q4,59,7,民間企業設備,Private Non-Resi.Investment,92897.4
+2006Q4,59,8,民間在庫変動,Changein PrivateInventories,743.7
+2006Q4,59,9,政府最終消費支出,GovernmentConsumption,91785.7
+2006Q4,59,10,公的固定資本形成,PublicInvestment,29500.2
+2006Q4,59,11,公的在庫変動,Changein PublicInventories,-10.2
+2006Q4,59,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,1957.5
+2006Q4,59,13,輸出,Exports,72757.8
+2006Q4,59,14,輸入,Imports,70800.3
+2006Q4,59,15,開差,Residual,-1102.6
+2006Q4,59,17,交易利得,TradingGains/Losses,5467.7
+2006Q4,59,18,国内総所得,GDI,549023.5
+2006Q4,59,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,15505.6
+2006Q4,59,20,受取,Receipt,21839.1
+2006Q4,59,21,支払,Payment,6333.4
+2006Q4,59,22,国民総所得,GNI,564529.1
+2006Q4,59,24,国内需要,DomesticDemand,541883.2
+2006Q4,59,25,民間需要,PrivateDemand,421009.8
+2006Q4,59,26,公的需要,PublicDemand,120905.7
+2006Q4,59,28,総固定資本形成,Gross Fixed CapitalFormation,152792.2
+2006Q4,59,30,最終需要,Final Sales of Domestic Product,542273.3
+2007Q1,60,2,国内総生産(支出側),GDP(Expenditure Approach),547462.4
+2007Q1,60,3,民間最終消費支出,PrivateConsumption,296132.4
+2007Q1,60,4,家計最終消費支出,Consumption ofHouseholds,290630.0
+2007Q1,60,5,除く持ち家の帰属家賃,ExcludingImputed Rent,244242.1
+2007Q1,60,6,民間住宅,PrivateResidentialInvestment,30762.5
+2007Q1,60,7,民間企業設備,Private Non-Resi.Investment,93681.5
+2007Q1,60,8,民間在庫変動,Changein PrivateInventories,2550.4
+2007Q1,60,9,政府最終消費支出,GovernmentConsumption,92301.7
+2007Q1,60,10,公的固定資本形成,PublicInvestment,29857.6
+2007Q1,60,11,公的在庫変動,Changein PublicInventories,-109.8
+2007Q1,60,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3098.5
+2007Q1,60,13,輸出,Exports,74494.2
+2007Q1,60,14,輸入,Imports,71395.7
+2007Q1,60,15,開差,Residual,-812.4
+2007Q1,60,17,交易利得,TradingGains/Losses,5073.4
+2007Q1,60,18,国内総所得,GDI,552535.8
+2007Q1,60,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,16663.7
+2007Q1,60,20,受取,Receipt,23445.6
+2007Q1,60,21,支払,Payment,6781.9
+2007Q1,60,22,国民総所得,GNI,569199.5
+2007Q1,60,24,国内需要,DomesticDemand,544398.3
+2007Q1,60,25,民間需要,PrivateDemand,422790.4
+2007Q1,60,26,公的需要,PublicDemand,121634.9
+2007Q1,60,28,総固定資本形成,Gross Fixed CapitalFormation,153980.4
+2007Q1,60,30,最終需要,Final Sales of Domestic Product,544437.1
+2007Q2,61,2,国内総生産(支出側),GDP(Expenditure Approach),548310.5
+2007Q2,61,3,民間最終消費支出,PrivateConsumption,298728.1
+2007Q2,61,4,家計最終消費支出,Consumption ofHouseholds,293285.8
+2007Q2,61,5,除く持ち家の帰属家賃,ExcludingImputed Rent,246728.1
+2007Q2,61,6,民間住宅,PrivateResidentialInvestment,30221.9
+2007Q2,61,7,民間企業設備,Private Non-Resi.Investment,92733.0
+2007Q2,61,8,民間在庫変動,Changein PrivateInventories,913.4
+2007Q2,61,9,政府最終消費支出,GovernmentConsumption,93192.2
+2007Q2,61,10,公的固定資本形成,PublicInvestment,29088.9
+2007Q2,61,11,公的在庫変動,Changein PublicInventories,127.5
+2007Q2,61,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3743.0
+2007Q2,61,13,輸出,Exports,76246.7
+2007Q2,61,14,輸入,Imports,72503.7
+2007Q2,61,15,開差,Residual,-437.2
+2007Q2,61,17,交易利得,TradingGains/Losses,4233.5
+2007Q2,61,18,国内総所得,GDI,552544.0
+2007Q2,61,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,17374.2
+2007Q2,61,20,受取,Receipt,23690.0
+2007Q2,61,21,支払,Payment,6315.9
+2007Q2,61,22,国民総所得,GNI,569918.2
+2007Q2,61,24,国内需要,DomesticDemand,544372.5
+2007Q2,61,25,民間需要,PrivateDemand,422252.1
+2007Q2,61,26,公的需要,PublicDemand,122143.3
+2007Q2,61,28,総固定資本形成,Gross Fixed CapitalFormation,151775.6
+2007Q2,61,30,最終需要,Final Sales of Domestic Product,546671.7
+2007Q3,62,2,国内総生産(支出側),GDP(Expenditure Approach),544713.2
+2007Q3,62,3,民間最終消費支出,PrivateConsumption,295268.3
+2007Q3,62,4,家計最終消費支出,Consumption ofHouseholds,289861.5
+2007Q3,62,5,除く持ち家の帰属家賃,ExcludingImputed Rent,243163.8
+2007Q3,62,6,民間住宅,PrivateResidentialInvestment,27836.8
+2007Q3,62,7,民間企業設備,Private Non-Resi.Investment,91621.6
+2007Q3,62,8,民間在庫変動,Changein PrivateInventories,1536.7
+2007Q3,62,9,政府最終消費支出,GovernmentConsumption,93037.3
+2007Q3,62,10,公的固定資本形成,PublicInvestment,28832.9
+2007Q3,62,11,公的在庫変動,Changein PublicInventories,39.1
+2007Q3,62,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,6263.6
+2007Q3,62,13,輸出,Exports,78151.7
+2007Q3,62,14,輸入,Imports,71888.1
+2007Q3,62,15,開差,Residual,276.7
+2007Q3,62,17,交易利得,TradingGains/Losses,2749.9
+2007Q3,62,18,国内総所得,GDI,547463.0
+2007Q3,62,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,15603.0
+2007Q3,62,20,受取,Receipt,23724.2
+2007Q3,62,21,支払,Payment,8121.3
+2007Q3,62,22,国民総所得,GNI,563066.0
+2007Q3,62,24,国内需要,DomesticDemand,537787.5
+2007Q3,62,25,民間需要,PrivateDemand,416161.0
+2007Q3,62,26,公的需要,PublicDemand,121646.2
+2007Q3,62,28,総固定資本形成,Gross Fixed CapitalFormation,148178.3
+2007Q3,62,30,最終需要,Final Sales of Domestic Product,542545.0
+2007Q4,63,2,国内総生産(支出側),GDP(Expenditure Approach),547805.2
+2007Q4,63,3,民間最終消費支出,PrivateConsumption,296802.1
+2007Q4,63,4,家計最終消費支出,Consumption ofHouseholds,291419.6
+2007Q4,63,5,除く持ち家の帰属家賃,ExcludingImputed Rent,244620.3
+2007Q4,63,6,民間住宅,PrivateResidentialInvestment,25121.8
+2007Q4,63,7,民間企業設備,Private Non-Resi.Investment,91524.5
+2007Q4,63,8,民間在庫変動,Changein PrivateInventories,2580.1
+2007Q4,63,9,政府最終消費支出,GovernmentConsumption,93907.5
+2007Q4,63,10,公的固定資本形成,PublicInvestment,29314.2
+2007Q4,63,11,公的在庫変動,Changein PublicInventories,69.6
+2007Q4,63,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,7605.9
+2007Q4,63,13,輸出,Exports,80459.1
+2007Q4,63,14,輸入,Imports,72853.2
+2007Q4,63,15,開差,Residual,879.6
+2007Q4,63,17,交易利得,TradingGains/Losses,-734.5
+2007Q4,63,18,国内総所得,GDI,547070.8
+2007Q4,63,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,17377.0
+2007Q4,63,20,受取,Receipt,24522.3
+2007Q4,63,21,支払,Payment,7145.3
+2007Q4,63,22,国民総所得,GNI,564447.8
+2007Q4,63,24,国内需要,DomesticDemand,539246.3
+2007Q4,63,25,民間需要,PrivateDemand,416253.8
+2007Q4,63,26,公的需要,PublicDemand,123011.4
+2007Q4,63,28,総固定資本形成,Gross Fixed CapitalFormation,146020.7
+2007Q4,63,30,最終需要,Final Sales of Domestic Product,544533.1
+2008Q1,64,2,国内総生産(支出側),GDP(Expenditure Approach),548947.2
+2008Q1,64,3,民間最終消費支出,PrivateConsumption,297288.4
+2008Q1,64,4,家計最終消費支出,Consumption ofHouseholds,291910.6
+2008Q1,64,5,除く持ち家の帰属家賃,ExcludingImputed Rent,244947.5
+2008Q1,64,6,民間住宅,PrivateResidentialInvestment,25597.1
+2008Q1,64,7,民間企業設備,Private Non-Resi.Investment,92199.0
+2008Q1,64,8,民間在庫変動,Changein PrivateInventories,1780.8
+2008Q1,64,9,政府最終消費支出,GovernmentConsumption,93692.6
+2008Q1,64,10,公的固定資本形成,PublicInvestment,28497.9
+2008Q1,64,11,公的在庫変動,Changein PublicInventories,84.5
+2008Q1,64,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,8692.0
+2008Q1,64,13,輸出,Exports,82474.5
+2008Q1,64,14,輸入,Imports,73782.5
+2008Q1,64,15,開差,Residual,1114.9
+2008Q1,64,17,交易利得,TradingGains/Losses,-2909.7
+2008Q1,64,18,国内総所得,GDI,546037.6
+2008Q1,64,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,16803.2
+2008Q1,64,20,受取,Receipt,22969.9
+2008Q1,64,21,支払,Payment,6166.7
+2008Q1,64,22,国民総所得,GNI,562840.8
+2008Q1,64,24,国内需要,DomesticDemand,539047.6
+2008Q1,64,25,民間需要,PrivateDemand,416992.6
+2008Q1,64,26,公的需要,PublicDemand,122074.7
+2008Q1,64,28,総固定資本形成,Gross Fixed CapitalFormation,146400.5
+2008Q1,64,30,最終需要,Final Sales of Domestic Product,546509.2
+2008Q2,65,2,国内総生産(支出側),GDP(Expenditure Approach),546315.3
+2008Q2,65,3,民間最終消費支出,PrivateConsumption,294132.8
+2008Q2,65,4,家計最終消費支出,Consumption ofHouseholds,288783.4
+2008Q2,65,5,除く持ち家の帰属家賃,ExcludingImputed Rent,241619.9
+2008Q2,65,6,民間住宅,PrivateResidentialInvestment,26608.9
+2008Q2,65,7,民間企業設備,Private Non-Resi.Investment,90937.2
+2008Q2,65,8,民間在庫変動,Changein PrivateInventories,4155.1
+2008Q2,65,9,政府最終消費支出,GovernmentConsumption,92623.6
+2008Q2,65,10,公的固定資本形成,PublicInvestment,27649.1
+2008Q2,65,11,公的在庫変動,Changein PublicInventories,-36.6
+2008Q2,65,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,9054.4
+2008Q2,65,13,輸出,Exports,80793.3
+2008Q2,65,14,輸入,Imports,71738.8
+2008Q2,65,15,開差,Residual,1190.7
+2008Q2,65,17,交易利得,TradingGains/Losses,-5383.4
+2008Q2,65,18,国内総所得,GDI,540931.9
+2008Q2,65,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,13254.3
+2008Q2,65,20,受取,Receipt,19280.5
+2008Q2,65,21,支払,Payment,6026.1
+2008Q2,65,22,国民総所得,GNI,554186.3
+2008Q2,65,24,国内需要,DomesticDemand,536026.7
+2008Q2,65,25,民間需要,PrivateDemand,415988.1
+2008Q2,65,26,公的需要,PublicDemand,120057.0
+2008Q2,65,28,総固定資本形成,Gross Fixed CapitalFormation,145228.1
+2008Q2,65,30,最終需要,Final Sales of Domestic Product,541508.0
+2008Q3,66,2,国内総生産(支出側),GDP(Expenditure Approach),540243.9
+2008Q3,66,3,民間最終消費支出,PrivateConsumption,293493.1
+2008Q3,66,4,家計最終消費支出,Consumption ofHouseholds,288180.0
+2008Q3,66,5,除く持ち家の帰属家賃,ExcludingImputed Rent,240825.4
+2008Q3,66,6,民間住宅,PrivateResidentialInvestment,27207.6
+2008Q3,66,7,民間企業設備,Private Non-Resi.Investment,89769.2
+2008Q3,66,8,民間在庫変動,Changein PrivateInventories,-459.1
+2008Q3,66,9,政府最終消費支出,GovernmentConsumption,92727.9
+2008Q3,66,10,公的固定資本形成,PublicInvestment,27747.2
+2008Q3,66,11,公的在庫変動,Changein PublicInventories,-43.1
+2008Q3,66,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,8916.3
+2008Q3,66,13,輸出,Exports,80853.2
+2008Q3,66,14,輸入,Imports,71936.9
+2008Q3,66,15,開差,Residual,884.7
+2008Q3,66,17,交易利得,TradingGains/Losses,-8912.0
+2008Q3,66,18,国内総所得,GDI,531331.9
+2008Q3,66,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14046.9
+2008Q3,66,20,受取,Receipt,19625.9
+2008Q3,66,21,支払,Payment,5579.1
+2008Q3,66,22,国民総所得,GNI,545378.8
+2008Q3,66,24,国内需要,DomesticDemand,530013.1
+2008Q3,66,25,民間需要,PrivateDemand,409793.7
+2008Q3,66,26,公的需要,PublicDemand,120244.9
+2008Q3,66,28,総固定資本形成,Gross Fixed CapitalFormation,144653.1
+2008Q3,66,30,最終需要,Final Sales of Domestic Product,540304.2
+2008Q4,67,2,国内総生産(支出側),GDP(Expenditure Approach),527418.9
+2008Q4,67,3,民間最終消費支出,PrivateConsumption,289430.6
+2008Q4,67,4,家計最終消費支出,Consumption ofHouseholds,284076.5
+2008Q4,67,5,除く持ち家の帰属家賃,ExcludingImputed Rent,236502.2
+2008Q4,67,6,民間住宅,PrivateResidentialInvestment,26905.7
+2008Q4,67,7,民間企業設備,Private Non-Resi.Investment,86813.9
+2008Q4,67,8,民間在庫変動,Changein PrivateInventories,7043.8
+2008Q4,67,9,政府最終消費支出,GovernmentConsumption,93025.5
+2008Q4,67,10,公的固定資本形成,PublicInvestment,27606.0
+2008Q4,67,11,公的在庫変動,Changein PublicInventories,55.2
+2008Q4,67,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-2607.4
+2008Q4,67,13,輸出,Exports,70674.9
+2008Q4,67,14,輸入,Imports,73282.3
+2008Q4,67,15,開差,Residual,-854.4
+2008Q4,67,17,交易利得,TradingGains/Losses,-911.9
+2008Q4,67,18,国内総所得,GDI,526507.1
+2008Q4,67,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,12626.2
+2008Q4,67,20,受取,Receipt,17902.9
+2008Q4,67,21,支払,Payment,5276.7
+2008Q4,67,22,国民総所得,GNI,539133.3
+2008Q4,67,24,国内需要,DomesticDemand,530994.6
+2008Q4,67,25,民間需要,PrivateDemand,410473.3
+2008Q4,67,26,公的需要,PublicDemand,120548.9
+2008Q4,67,28,総固定資本形成,Gross Fixed CapitalFormation,141160.9
+2008Q4,67,30,最終需要,Final Sales of Domestic Product,519376.2
+2009Q1,68,2,国内総生産(支出側),GDP(Expenditure Approach),504026.6
+2009Q1,68,3,民間最終消費支出,PrivateConsumption,291227.1
+2009Q1,68,4,家計最終消費支出,Consumption ofHouseholds,285780.9
+2009Q1,68,5,除く持ち家の帰属家賃,ExcludingImputed Rent,238022.0
+2009Q1,68,6,民間住宅,PrivateResidentialInvestment,24197.2
+2009Q1,68,7,民間企業設備,Private Non-Resi.Investment,81460.4
+2009Q1,68,8,民間在庫変動,Changein PrivateInventories,-3441.4
+2009Q1,68,9,政府最終消費支出,GovernmentConsumption,93545.0
+2009Q1,68,10,公的固定資本形成,PublicInvestment,27904.1
+2009Q1,68,11,公的在庫変動,Changein PublicInventories,-87.9
+2009Q1,68,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-8834.3
+2009Q1,68,13,輸出,Exports,52660.5
+2009Q1,68,14,輸入,Imports,61494.8
+2009Q1,68,15,開差,Residual,-1943.7
+2009Q1,68,17,交易利得,TradingGains/Losses,4642.3
+2009Q1,68,18,国内総所得,GDI,508668.9
+2009Q1,68,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,11925.9
+2009Q1,68,20,受取,Receipt,16473.9
+2009Q1,68,21,支払,Payment,4548.0
+2009Q1,68,22,国民総所得,GNI,520594.7
+2009Q1,68,24,国内需要,DomesticDemand,514101.7
+2009Q1,68,25,民間需要,PrivateDemand,392989.4
+2009Q1,68,26,公的需要,PublicDemand,121163.2
+2009Q1,68,28,総固定資本形成,Gross Fixed CapitalFormation,133351.4
+2009Q1,68,30,最終需要,Final Sales of Domestic Product,507641.4
+2009Q2,69,2,国内総生産(支出側),GDP(Expenditure Approach),509666.7
+2009Q2,69,3,民間最終消費支出,PrivateConsumption,289779.9
+2009Q2,69,4,家計最終消費支出,Consumption ofHouseholds,284239.2
+2009Q2,69,5,除く持ち家の帰属家賃,ExcludingImputed Rent,236293.8
+2009Q2,69,6,民間住宅,PrivateResidentialInvestment,22078.0
+2009Q2,69,7,民間企業設備,Private Non-Resi.Investment,79048.5
+2009Q2,69,8,民間在庫変動,Changein PrivateInventories,-4297.1
+2009Q2,69,9,政府最終消費支出,GovernmentConsumption,94707.9
+2009Q2,69,10,公的固定資本形成,PublicInvestment,30130.1
+2009Q2,69,11,公的在庫変動,Changein PublicInventories,12.1
+2009Q2,69,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-1303.8
+2009Q2,69,13,輸出,Exports,57440.7
+2009Q2,69,14,輸入,Imports,58744.5
+2009Q2,69,15,開差,Residual,-488.8
+2009Q2,69,17,交易利得,TradingGains/Losses,4440.3
+2009Q2,69,18,国内総所得,GDI,514107.0
+2009Q2,69,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,13404.5
+2009Q2,69,20,受取,Receipt,17449.1
+2009Q2,69,21,支払,Payment,4044.6
+2009Q2,69,22,国民総所得,GNI,527511.5
+2009Q2,69,24,国内需要,DomesticDemand,510701.6
+2009Q2,69,25,民間需要,PrivateDemand,386242.7
+2009Q2,69,26,公的需要,PublicDemand,124529.4
+2009Q2,69,28,総固定資本形成,Gross Fixed CapitalFormation,130948.2
+2009Q2,69,30,最終需要,Final Sales of Domestic Product,514043.5
+2009Q3,70,2,国内総生産(支出側),GDP(Expenditure Approach),506357.0
+2009Q3,70,3,民間最終消費支出,PrivateConsumption,289122.4
+2009Q3,70,4,家計最終消費支出,Consumption ofHouseholds,283516.7
+2009Q3,70,5,除く持ち家の帰属家賃,ExcludingImputed Rent,235412.5
+2009Q3,70,6,民間住宅,PrivateResidentialInvestment,20731.5
+2009Q3,70,7,民間企業設備,Private Non-Resi.Investment,76825.9
+2009Q3,70,8,民間在庫変動,Changein PrivateInventories,-6240.3
+2009Q3,70,9,政府最終消費支出,GovernmentConsumption,95628.4
+2009Q3,70,10,公的固定資本形成,PublicInvestment,29567.5
+2009Q3,70,11,公的在庫変動,Changein PublicInventories,15.3
+2009Q3,70,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,1112.3
+2009Q3,70,13,輸出,Exports,62981.7
+2009Q3,70,14,輸入,Imports,61869.4
+2009Q3,70,15,開差,Residual,-405.9
+2009Q3,70,17,交易利得,TradingGains/Losses,2672.7
+2009Q3,70,18,国内総所得,GDI,509029.7
+2009Q3,70,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,12804.3
+2009Q3,70,20,受取,Receipt,16750.0
+2009Q3,70,21,支払,Payment,3945.8
+2009Q3,70,22,国民総所得,GNI,521834.0
+2009Q3,70,24,国内需要,DomesticDemand,504873.1
+2009Q3,70,25,民間需要,PrivateDemand,379992.9
+2009Q3,70,26,公的需要,PublicDemand,124955.8
+2009Q3,70,28,総固定資本形成,Gross Fixed CapitalFormation,126856.6
+2009Q3,70,30,最終需要,Final Sales of Domestic Product,512845.8
+2009Q4,71,2,国内総生産(支出側),GDP(Expenditure Approach),514486.5
+2009Q4,71,3,民間最終消費支出,PrivateConsumption,292670.8
+2009Q4,71,4,家計最終消費支出,Consumption ofHouseholds,287005.4
+2009Q4,71,5,除く持ち家の帰属家賃,ExcludingImputed Rent,238767.0
+2009Q4,71,6,民間住宅,PrivateResidentialInvestment,20434.2
+2009Q4,71,7,民間企業設備,Private Non-Resi.Investment,76307.9
+2009Q4,71,8,民間在庫変動,Changein PrivateInventories,-5015.4
+2009Q4,71,9,政府最終消費支出,GovernmentConsumption,95868.6
+2009Q4,71,10,公的固定資本形成,PublicInvestment,29870.5
+2009Q4,71,11,公的在庫変動,Changein PublicInventories,28.9
+2009Q4,71,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,4239.3
+2009Q4,71,13,輸出,Exports,67519.4
+2009Q4,71,14,輸入,Imports,63280.1
+2009Q4,71,15,開差,Residual,81.7
+2009Q4,71,17,交易利得,TradingGains/Losses,1548.1
+2009Q4,71,18,国内総所得,GDI,516034.6
+2009Q4,71,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,12779.5
+2009Q4,71,20,受取,Receipt,16450.1
+2009Q4,71,21,支払,Payment,3670.6
+2009Q4,71,22,国民総所得,GNI,528814.1
+2009Q4,71,24,国内需要,DomesticDemand,509514.8
+2009Q4,71,25,民間需要,PrivateDemand,384087.7
+2009Q4,71,26,公的需要,PublicDemand,125495.1
+2009Q4,71,28,総固定資本形成,Gross Fixed CapitalFormation,126327.3
+2009Q4,71,30,最終需要,Final Sales of Domestic Product,519604.9
+2010Q1,72,2,国内総生産(支出側),GDP(Expenditure Approach),520865.2
+2010Q1,72,3,民間最終消費支出,PrivateConsumption,294512.2
+2010Q1,72,4,家計最終消費支出,Consumption ofHouseholds,288785.8
+2010Q1,72,5,除く持ち家の帰属家賃,ExcludingImputed Rent,240387.2
+2010Q1,72,6,民間住宅,PrivateResidentialInvestment,21275.9
+2010Q1,72,7,民間企業設備,Private Non-Resi.Investment,76543.3
+2010Q1,72,8,民間在庫変動,Changein PrivateInventories,-3399.8
+2010Q1,72,9,政府最終消費支出,GovernmentConsumption,95151.6
+2010Q1,72,10,公的固定資本形成,PublicInvestment,30302.1
+2010Q1,72,11,公的在庫変動,Changein PublicInventories,91.5
+2010Q1,72,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,6398.2
+2010Q1,72,13,輸出,Exports,71532.5
+2010Q1,72,14,輸入,Imports,65134.4
+2010Q1,72,15,開差,Residual,-9.8
+2010Q1,72,17,交易利得,TradingGains/Losses,953.9
+2010Q1,72,18,国内総所得,GDI,521819.1
+2010Q1,72,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,13855.9
+2010Q1,72,20,受取,Receipt,17912.9
+2010Q1,72,21,支払,Payment,4057.0
+2010Q1,72,22,国民総所得,GNI,535675.0
+2010Q1,72,24,国内需要,DomesticDemand,513777.2
+2010Q1,72,25,民間需要,PrivateDemand,388625.4
+2010Q1,72,26,公的需要,PublicDemand,125221.4
+2010Q1,72,28,総固定資本形成,Gross Fixed CapitalFormation,127772.0
+2010Q1,72,30,最終需要,Final Sales of Domestic Product,524261.2
+2010Q2,73,2,国内総生産(支出側),GDP(Expenditure Approach),528046.0
+2010Q2,73,3,民間最終消費支出,PrivateConsumption,297238.3
+2010Q2,73,4,家計最終消費支出,Consumption ofHouseholds,291485.9
+2010Q2,73,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242930.9
+2010Q2,73,6,民間住宅,PrivateResidentialInvestment,21445.2
+2010Q2,73,7,民間企業設備,Private Non-Resi.Investment,77169.5
+2010Q2,73,8,民間在庫変動,Changein PrivateInventories,-386.7
+2010Q2,73,9,政府最終消費支出,GovernmentConsumption,97107.9
+2010Q2,73,10,公的固定資本形成,PublicInvestment,28571.2
+2010Q2,73,11,公的在庫変動,Changein PublicInventories,-24.9
+2010Q2,73,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,6637.5
+2010Q2,73,13,輸出,Exports,74968.6
+2010Q2,73,14,輸入,Imports,68331.1
+2010Q2,73,15,開差,Residual,288.1
+2010Q2,73,17,交易利得,TradingGains/Losses,89.1
+2010Q2,73,18,国内総所得,GDI,528135.0
+2010Q2,73,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,13509.2
+2010Q2,73,20,受取,Receipt,17894.9
+2010Q2,73,21,支払,Payment,4385.7
+2010Q2,73,22,国民総所得,GNI,541644.2
+2010Q2,73,24,国内需要,DomesticDemand,520726.2
+2010Q2,73,25,民間需要,PrivateDemand,395295.9
+2010Q2,73,26,公的需要,PublicDemand,125505.0
+2010Q2,73,28,総固定資本形成,Gross Fixed CapitalFormation,126944.3
+2010Q2,73,30,最終需要,Final Sales of Domestic Product,528449.5
+2010Q3,74,2,国内総生産(支出側),GDP(Expenditure Approach),537151.9
+2010Q3,74,3,民間最終消費支出,PrivateConsumption,301905.0
+2010Q3,74,4,家計最終消費支出,Consumption ofHouseholds,296128.6
+2010Q3,74,5,除く持ち家の帰属家賃,ExcludingImputed Rent,247449.1
+2010Q3,74,6,民間住宅,PrivateResidentialInvestment,21689.1
+2010Q3,74,7,民間企業設備,Private Non-Resi.Investment,77804.7
+2010Q3,74,8,民間在庫変動,Changein PrivateInventories,2432.0
+2010Q3,74,9,政府最終消費支出,GovernmentConsumption,97467.6
+2010Q3,74,10,公的固定資本形成,PublicInvestment,28160.4
+2010Q3,74,11,公的在庫変動,Changein PublicInventories,-144.7
+2010Q3,74,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,7440.7
+2010Q3,74,13,輸出,Exports,77052.4
+2010Q3,74,14,輸入,Imports,69611.6
+2010Q3,74,15,開差,Residual,397.1
+2010Q3,74,17,交易利得,TradingGains/Losses,-364.2
+2010Q3,74,18,国内総所得,GDI,536787.7
+2010Q3,74,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14304.7
+2010Q3,74,20,受取,Receipt,18514.8
+2010Q3,74,21,支払,Payment,4210.1
+2010Q3,74,22,国民総所得,GNI,551092.4
+2010Q3,74,24,国内需要,DomesticDemand,529074.3
+2010Q3,74,25,民間需要,PrivateDemand,403794.9
+2010Q3,74,26,公的需要,PublicDemand,125366.6
+2010Q3,74,28,総固定資本形成,Gross Fixed CapitalFormation,127443.0
+2010Q3,74,30,最終需要,Final Sales of Domestic Product,534755.8
+2010Q4,75,2,国内総生産(支出側),GDP(Expenditure Approach),532537.7
+2010Q4,75,3,民間最終消費支出,PrivateConsumption,297321.1
+2010Q4,75,4,家計最終消費支出,Consumption ofHouseholds,291426.5
+2010Q4,75,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242477.7
+2010Q4,75,6,民間住宅,PrivateResidentialInvestment,22350.2
+2010Q4,75,7,民間企業設備,Private Non-Resi.Investment,77206.9
+2010Q4,75,8,民間在庫変動,Changein PrivateInventories,2561.5
+2010Q4,75,9,政府最終消費支出,GovernmentConsumption,97984.4
+2010Q4,75,10,公的固定資本形成,PublicInvestment,27515.4
+2010Q4,75,11,公的在庫変動,Changein PublicInventories,-56.2
+2010Q4,75,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,7213.2
+2010Q4,75,13,輸出,Exports,77318.6
+2010Q4,75,14,輸入,Imports,70105.4
+2010Q4,75,15,開差,Residual,441.0
+2010Q4,75,17,交易利得,TradingGains/Losses,-1332.5
+2010Q4,75,18,国内総所得,GDI,531205.2
+2010Q4,75,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14586.1
+2010Q4,75,20,受取,Receipt,19017.8
+2010Q4,75,21,支払,Payment,4431.7
+2010Q4,75,22,国民総所得,GNI,545791.3
+2010Q4,75,24,国内需要,DomesticDemand,524671.3
+2010Q4,75,25,民間需要,PrivateDemand,399356.3
+2010Q4,75,26,公的需要,PublicDemand,125395.7
+2010Q4,75,28,総固定資本形成,Gross Fixed CapitalFormation,126837.2
+2010Q4,75,30,最終需要,Final Sales of Domestic Product,529895.5
+2011Q1,76,2,国内総生産(支出側),GDP(Expenditure Approach),524897.7
+2011Q1,76,3,民間最終消費支出,PrivateConsumption,291094.1
+2011Q1,76,4,家計最終消費支出,Consumption ofHouseholds,284997.9
+2011Q1,76,5,除く持ち家の帰属家賃,ExcludingImputed Rent,235897.6
+2011Q1,76,6,民間住宅,PrivateResidentialInvestment,23188.7
+2011Q1,76,7,民間企業設備,Private Non-Resi.Investment,77823.9
+2011Q1,76,8,民間在庫変動,Changein PrivateInventories,946.0
+2011Q1,76,9,政府最終消費支出,GovernmentConsumption,98672.0
+2011Q1,76,10,公的固定資本形成,PublicInvestment,27182.1
+2011Q1,76,11,公的在庫変動,Changein PublicInventories,-56.7
+2011Q1,76,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,5720.5
+2011Q1,76,13,輸出,Exports,76637.0
+2011Q1,76,14,輸入,Imports,70916.5
+2011Q1,76,15,開差,Residual,327.1
+2011Q1,76,17,交易利得,TradingGains/Losses,-3649.8
+2011Q1,76,18,国内総所得,GDI,521247.9
+2011Q1,76,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,15308.2
+2011Q1,76,20,受取,Receipt,19694.6
+2011Q1,76,21,支払,Payment,4386.4
+2011Q1,76,22,国民総所得,GNI,536556.1
+2011Q1,76,24,国内需要,DomesticDemand,518565.3
+2011Q1,76,25,民間需要,PrivateDemand,392826.9
+2011Q1,76,26,公的需要,PublicDemand,125792.0
+2011Q1,76,28,総固定資本形成,Gross Fixed CapitalFormation,127946.2
+2011Q1,76,30,最終需要,Final Sales of Domestic Product,523941.8
+2011Q2,77,2,国内総生産(支出側),GDP(Expenditure Approach),521540.1
+2011Q2,77,3,民間最終消費支出,PrivateConsumption,294505.3
+2011Q2,77,4,家計最終消費支出,Consumption ofHouseholds,288206.5
+2011Q2,77,5,除く持ち家の帰属家賃,ExcludingImputed Rent,239346.3
+2011Q2,77,6,民間住宅,PrivateResidentialInvestment,22638.7
+2011Q2,77,7,民間企業設備,Private Non-Resi.Investment,77150.4
+2011Q2,77,8,民間在庫変動,Changein PrivateInventories,117.7
+2011Q2,77,9,政府最終消費支出,GovernmentConsumption,98925.7
+2011Q2,77,10,公的固定資本形成,PublicInvestment,27881.6
+2011Q2,77,11,公的在庫変動,Changein PublicInventories,-11.5
+2011Q2,77,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,267.8
+2011Q2,77,13,輸出,Exports,70885.0
+2011Q2,77,14,輸入,Imports,70617.2
+2011Q2,77,15,開差,Residual,64.4
+2011Q2,77,17,交易利得,TradingGains/Losses,-6183.6
+2011Q2,77,18,国内総所得,GDI,515356.6
+2011Q2,77,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,15264.1
+2011Q2,77,20,受取,Receipt,19468.0
+2011Q2,77,21,支払,Payment,4203.8
+2011Q2,77,22,国民総所得,GNI,530620.7
+2011Q2,77,24,国内需要,DomesticDemand,520874.9
+2011Q2,77,25,民間需要,PrivateDemand,394180.5
+2011Q2,77,26,公的需要,PublicDemand,126744.8
+2011Q2,77,28,総固定資本形成,Gross Fixed CapitalFormation,127395.7
+2011Q2,77,30,最終需要,Final Sales of Domestic Product,521396.5
+2011Q3,78,2,国内総生産(支出側),GDP(Expenditure Approach),534023.4
+2011Q3,78,3,民間最終消費支出,PrivateConsumption,297434.5
+2011Q3,78,4,家計最終消費支出,Consumption ofHouseholds,290965.1
+2011Q3,78,5,除く持ち家の帰属家賃,ExcludingImputed Rent,241933.9
+2011Q3,78,6,民間住宅,PrivateResidentialInvestment,23462.7
+2011Q3,78,7,民間企業設備,Private Non-Resi.Investment,78316.1
+2011Q3,78,8,民間在庫変動,Changein PrivateInventories,3337.6
+2011Q3,78,9,政府最終消費支出,GovernmentConsumption,99354.3
+2011Q3,78,10,公的固定資本形成,PublicInvestment,27092.1
+2011Q3,78,11,公的在庫変動,Changein PublicInventories,41.3
+2011Q3,78,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,4533.2
+2011Q3,78,13,輸出,Exports,77505.9
+2011Q3,78,14,輸入,Imports,72972.8
+2011Q3,78,15,開差,Residual,451.6
+2011Q3,78,17,交易利得,TradingGains/Losses,-7047.9
+2011Q3,78,18,国内総所得,GDI,526975.4
+2011Q3,78,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,15197.8
+2011Q3,78,20,受取,Receipt,19424.5
+2011Q3,78,21,支払,Payment,4226.8
+2011Q3,78,22,国民総所得,GNI,542173.2
+2011Q3,78,24,国内需要,DomesticDemand,528922.7
+2011Q3,78,25,民間需要,PrivateDemand,402495.3
+2011Q3,78,26,公的需要,PublicDemand,126516.0
+2011Q3,78,28,総固定資本形成,Gross Fixed CapitalFormation,128619.8
+2011Q3,78,30,最終需要,Final Sales of Domestic Product,530391.0
+2011Q4,79,2,国内総生産(支出側),GDP(Expenditure Approach),534208.8
+2011Q4,79,3,民間最終消費支出,PrivateConsumption,300596.0
+2011Q4,79,4,家計最終消費支出,Consumption ofHouseholds,293983.6
+2011Q4,79,5,除く持ち家の帰属家賃,ExcludingImputed Rent,244781.8
+2011Q4,79,6,民間住宅,PrivateResidentialInvestment,23087.4
+2011Q4,79,7,民間企業設備,Private Non-Resi.Investment,83502.7
+2011Q4,79,8,民間在庫変動,Changein PrivateInventories,-264.2
+2011Q4,79,9,政府最終消費支出,GovernmentConsumption,99697.3
+2011Q4,79,10,公的固定資本形成,PublicInvestment,26240.5
+2011Q4,79,11,公的在庫変動,Changein PublicInventories,-14.6
+2011Q4,79,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,1179.6
+2011Q4,79,13,輸出,Exports,75533.4
+2011Q4,79,14,輸入,Imports,74353.8
+2011Q4,79,15,開差,Residual,184.0
+2011Q4,79,17,交易利得,TradingGains/Losses,-7212.0
+2011Q4,79,18,国内総所得,GDI,526996.8
+2011Q4,79,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14364.5
+2011Q4,79,20,受取,Receipt,18606.0
+2011Q4,79,21,支払,Payment,4241.5
+2011Q4,79,22,国民総所得,GNI,541361.3
+2011Q4,79,24,国内需要,DomesticDemand,532630.7
+2011Q4,79,25,民間需要,PrivateDemand,406722.5
+2011Q4,79,26,公的需要,PublicDemand,126021.2
+2011Q4,79,28,総固定資本形成,Gross Fixed CapitalFormation,132802.9
+2011Q4,79,30,最終需要,Final Sales of Domestic Product,534481.1
+2012Q1,80,2,国内総生産(支出側),GDP(Expenditure Approach),542328.9
+2012Q1,80,3,民間最終消費支出,PrivateConsumption,301308.3
+2012Q1,80,4,家計最終消費支出,Consumption ofHouseholds,294583.6
+2012Q1,80,5,除く持ち家の帰属家賃,ExcludingImputed Rent,245167.6
+2012Q1,80,6,民間住宅,PrivateResidentialInvestment,22991.8
+2012Q1,80,7,民間企業設備,Private Non-Resi.Investment,83021.6
+2012Q1,80,8,民間在庫変動,Changein PrivateInventories,3761.4
+2012Q1,80,9,政府最終消費支出,GovernmentConsumption,100734.4
+2012Q1,80,10,公的固定資本形成,PublicInvestment,27764.6
+2012Q1,80,11,公的在庫変動,Changein PublicInventories,2.7
+2012Q1,80,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,2338.3
+2012Q1,80,13,輸出,Exports,77880.9
+2012Q1,80,14,輸入,Imports,75542.6
+2012Q1,80,15,開差,Residual,406.0
+2012Q1,80,17,交易利得,TradingGains/Losses,-7911.0
+2012Q1,80,18,国内総所得,GDI,534417.9
+2012Q1,80,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14325.7
+2012Q1,80,20,受取,Receipt,18653.2
+2012Q1,80,21,支払,Payment,4327.5
+2012Q1,80,22,国民総所得,GNI,548743.7
+2012Q1,80,24,国内需要,DomesticDemand,539619.2
+2012Q1,80,25,民間需要,PrivateDemand,411212.3
+2012Q1,80,26,公的需要,PublicDemand,128507.2
+2012Q1,80,28,総固定資本形成,Gross Fixed CapitalFormation,133663.7
+2012Q1,80,30,最終需要,Final Sales of Domestic Product,538193.7
+2012Q2,81,2,国内総生産(支出側),GDP(Expenditure Approach),537303.0
+2012Q2,81,3,民間最終消費支出,PrivateConsumption,302048.3
+2012Q2,81,4,家計最終消費支出,Consumption ofHouseholds,295180.9
+2012Q2,81,5,除く持ち家の帰属家賃,ExcludingImputed Rent,245545.8
+2012Q2,81,6,民間住宅,PrivateResidentialInvestment,23345.8
+2012Q2,81,7,民間企業設備,Private Non-Resi.Investment,82711.9
+2012Q2,81,8,民間在庫変動,Changein PrivateInventories,697.5
+2012Q2,81,9,政府最終消費支出,GovernmentConsumption,100610.3
+2012Q2,81,10,公的固定資本形成,PublicInvestment,28088.7
+2012Q2,81,11,公的在庫変動,Changein PublicInventories,45.6
+2012Q2,81,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-62.8
+2012Q2,81,13,輸出,Exports,77141.6
+2012Q2,81,14,輸入,Imports,77204.5
+2012Q2,81,15,開差,Residual,-182.2
+2012Q2,81,17,交易利得,TradingGains/Losses,-8191.4
+2012Q2,81,18,国内総所得,GDI,529111.6
+2012Q2,81,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14316.7
+2012Q2,81,20,受取,Receipt,19078.8
+2012Q2,81,21,支払,Payment,4762.2
+2012Q2,81,22,国民総所得,GNI,543428.2
+2012Q2,81,24,国内需要,DomesticDemand,537270.6
+2012Q2,81,25,民間需要,PrivateDemand,408626.5
+2012Q2,81,26,公的需要,PublicDemand,128730.2
+2012Q2,81,28,総固定資本形成,Gross Fixed CapitalFormation,133985.2
+2012Q2,81,30,最終需要,Final Sales of Domestic Product,536488.2
+2012Q3,82,2,国内総生産(支出側),GDP(Expenditure Approach),535178.5
+2012Q3,82,3,民間最終消費支出,PrivateConsumption,302510.7
+2012Q3,82,4,家計最終消費支出,Consumption ofHouseholds,295485.4
+2012Q3,82,5,除く持ち家の帰属家賃,ExcludingImputed Rent,245662.4
+2012Q3,82,6,民間住宅,PrivateResidentialInvestment,23861.4
+2012Q3,82,7,民間企業設備,Private Non-Resi.Investment,82071.7
+2012Q3,82,8,民間在庫変動,Changein PrivateInventories,1037.7
+2012Q3,82,9,政府最終消費支出,GovernmentConsumption,100933.5
+2012Q3,82,10,公的固定資本形成,PublicInvestment,27585.0
+2012Q3,82,11,公的在庫変動,Changein PublicInventories,75.6
+2012Q3,82,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-2689.4
+2012Q3,82,13,輸出,Exports,74312.3
+2012Q3,82,14,輸入,Imports,77001.7
+2012Q3,82,15,開差,Residual,-207.7
+2012Q3,82,17,交易利得,TradingGains/Losses,-6196.9
+2012Q3,82,18,国内総所得,GDI,528981.6
+2012Q3,82,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14698.9
+2012Q3,82,20,受取,Receipt,18912.6
+2012Q3,82,21,支払,Payment,4213.7
+2012Q3,82,22,国民総所得,GNI,543680.5
+2012Q3,82,24,国内需要,DomesticDemand,537826.3
+2012Q3,82,25,民間需要,PrivateDemand,409287.6
+2012Q3,82,26,公的需要,PublicDemand,128629.7
+2012Q3,82,28,総固定資本形成,Gross Fixed CapitalFormation,133333.0
+2012Q3,82,30,最終需要,Final Sales of Domestic Product,533960.6
+2012Q4,83,2,国内総生産(支出側),GDP(Expenditure Approach),534885.4
+2012Q4,83,3,民間最終消費支出,PrivateConsumption,304056.9
+2012Q4,83,4,家計最終消費支出,Consumption ofHouseholds,296952.9
+2012Q4,83,5,除く持ち家の帰属家賃,ExcludingImputed Rent,246930.1
+2012Q4,83,6,民間住宅,PrivateResidentialInvestment,24346.2
+2012Q4,83,7,民間企業設備,Private Non-Resi.Investment,82007.4
+2012Q4,83,8,民間在庫変動,Changein PrivateInventories,-729.7
+2012Q4,83,9,政府最終消費支出,GovernmentConsumption,101654.8
+2012Q4,83,10,公的固定資本形成,PublicInvestment,26993.2
+2012Q4,83,11,公的在庫変動,Changein PublicInventories,8.9
+2012Q4,83,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-3291.3
+2012Q4,83,13,輸出,Exports,71794.8
+2012Q4,83,14,輸入,Imports,75086.1
+2012Q4,83,15,開差,Residual,-161.0
+2012Q4,83,17,交易利得,TradingGains/Losses,-6535.0
+2012Q4,83,18,国内総所得,GDI,528350.3
+2012Q4,83,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,14960.2
+2012Q4,83,20,受取,Receipt,19785.6
+2012Q4,83,21,支払,Payment,4825.5
+2012Q4,83,22,国民総所得,GNI,543310.5
+2012Q4,83,24,国内需要,DomesticDemand,537950.1
+2012Q4,83,25,民間需要,PrivateDemand,409303.9
+2012Q4,83,26,公的需要,PublicDemand,128735.9
+2012Q4,83,28,総固定資本形成,Gross Fixed CapitalFormation,133160.7
+2012Q4,83,30,最終需要,Final Sales of Domestic Product,535685.9
+2013Q1,84,2,国内総生産(支出側),GDP(Expenditure Approach),541717.8
+2013Q1,84,3,民間最終消費支出,PrivateConsumption,308865.4
+2013Q1,84,4,家計最終消費支出,Consumption ofHouseholds,301769.4
+2013Q1,84,5,除く持ち家の帰属家賃,ExcludingImputed Rent,251569.8
+2013Q1,84,6,民間住宅,PrivateResidentialInvestment,24364.0
+2013Q1,84,7,民間企業設備,Private Non-Resi.Investment,81172.6
+2013Q1,84,8,民間在庫変動,Changein PrivateInventories,128.0
+2013Q1,84,9,政府最終消費支出,GovernmentConsumption,101462.0
+2013Q1,84,10,公的固定資本形成,PublicInvestment,27165.9
+2013Q1,84,11,公的在庫変動,Changein PublicInventories,-97.3
+2013Q1,84,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-1303.5
+2013Q1,84,13,輸出,Exports,74133.2
+2013Q1,84,14,輸入,Imports,75436.8
+2013Q1,84,15,開差,Residual,-39.4
+2013Q1,84,17,交易利得,TradingGains/Losses,-8154.9
+2013Q1,84,18,国内総所得,GDI,533562.9
+2013Q1,84,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,16302.7
+2013Q1,84,20,受取,Receipt,21563.8
+2013Q1,84,21,支払,Payment,5261.1
+2013Q1,84,22,国民総所得,GNI,549865.6
+2013Q1,84,24,国内需要,DomesticDemand,542661.3
+2013Q1,84,25,民間需要,PrivateDemand,414215.4
+2013Q1,84,26,公的需要,PublicDemand,128560.5
+2013Q1,84,28,総固定資本形成,Gross Fixed CapitalFormation,132483.5
+2013Q1,84,30,最終需要,Final Sales of Domestic Product,541715.0
+2013Q2,85,2,国内総生産(支出側),GDP(Expenditure Approach),547274.7
+2013Q2,85,3,民間最終消費支出,PrivateConsumption,310951.2
+2013Q2,85,4,家計最終消費支出,Consumption ofHouseholds,303804.5
+2013Q2,85,5,除く持ち家の帰属家賃,ExcludingImputed Rent,253394.6
+2013Q2,85,6,民間住宅,PrivateResidentialInvestment,24638.8
+2013Q2,85,7,民間企業設備,Private Non-Resi.Investment,84373.6
+2013Q2,85,8,民間在庫変動,Changein PrivateInventories,-2004.2
+2013Q2,85,9,政府最終消費支出,GovernmentConsumption,102743.1
+2013Q2,85,10,公的固定資本形成,PublicInvestment,28149.8
+2013Q2,85,11,公的在庫変動,Changein PublicInventories,15.5
+2013Q2,85,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-1278.5
+2013Q2,85,13,輸出,Exports,76614.7
+2013Q2,85,14,輸入,Imports,77893.3
+2013Q2,85,15,開差,Residual,-314.5
+2013Q2,85,17,交易利得,TradingGains/Losses,-7755.2
+2013Q2,85,18,国内総所得,GDI,539519.5
+2013Q2,85,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,20236.7
+2013Q2,85,20,受取,Receipt,26322.0
+2013Q2,85,21,支払,Payment,6085.3
+2013Q2,85,22,国民総所得,GNI,559756.2
+2013Q2,85,24,国内需要,DomesticDemand,548348.2
+2013Q2,85,25,民間需要,PrivateDemand,417523.3
+2013Q2,85,26,公的需要,PublicDemand,130921.5
+2013Q2,85,28,総固定資本形成,Gross Fixed CapitalFormation,136975.3
+2013Q2,85,30,最終需要,Final Sales of Domestic Product,549429.5
+2013Q3,86,2,国内総生産(支出側),GDP(Expenditure Approach),552467.4
+2013Q3,86,3,民間最終消費支出,PrivateConsumption,312522.8
+2013Q3,86,4,家計最終消費支出,Consumption ofHouseholds,305290.8
+2013Q3,86,5,除く持ち家の帰属家賃,ExcludingImputed Rent,254658.8
+2013Q3,86,6,民間住宅,PrivateResidentialInvestment,25646.2
+2013Q3,86,7,民間企業設備,Private Non-Resi.Investment,85667.7
+2013Q3,86,8,民間在庫変動,Changein PrivateInventories,-507.7
+2013Q3,86,9,政府最終消費支出,GovernmentConsumption,102835.0
+2013Q3,86,10,公的固定資本形成,PublicInvestment,29685.7
+2013Q3,86,11,公的在庫変動,Changein PublicInventories,-71.0
+2013Q3,86,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-2817.5
+2013Q3,86,13,輸出,Exports,76541.3
+2013Q3,86,14,輸入,Imports,79358.7
+2013Q3,86,15,開差,Residual,-493.9
+2013Q3,86,17,交易利得,TradingGains/Losses,-7940.8
+2013Q3,86,18,国内総所得,GDI,544526.5
+2013Q3,86,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,18237.9
+2013Q3,86,20,受取,Receipt,25126.7
+2013Q3,86,21,支払,Payment,6888.8
+2013Q3,86,22,国民総所得,GNI,562764.4
+2013Q3,86,24,国内需要,DomesticDemand,555199.7
+2013Q3,86,25,民間需要,PrivateDemand,422970.0
+2013Q3,86,26,公的需要,PublicDemand,132331.6
+2013Q3,86,28,総固定資本形成,Gross Fixed CapitalFormation,140729.9
+2013Q3,86,30,最終需要,Final Sales of Domestic Product,553100.9
+2013Q4,87,2,国内総生産(支出側),GDP(Expenditure Approach),551690.3
+2013Q4,87,3,民間最終消費支出,PrivateConsumption,311768.7
+2013Q4,87,4,家計最終消費支出,Consumption ofHouseholds,304592.2
+2013Q4,87,5,除く持ち家の帰属家賃,ExcludingImputed Rent,253809.9
+2013Q4,87,6,民間住宅,PrivateResidentialInvestment,26456.3
+2013Q4,87,7,民間企業設備,Private Non-Resi.Investment,86799.1
+2013Q4,87,8,民間在庫変動,Changein PrivateInventories,-83.6
+2013Q4,87,9,政府最終消費支出,GovernmentConsumption,103046.1
+2013Q4,87,10,公的固定資本形成,PublicInvestment,29998.9
+2013Q4,87,11,公的在庫変動,Changein PublicInventories,64.2
+2013Q4,87,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-5546.2
+2013Q4,87,13,輸出,Exports,76181.9
+2013Q4,87,14,輸入,Imports,81728.1
+2013Q4,87,15,開差,Residual,-813.1
+2013Q4,87,17,交易利得,TradingGains/Losses,-8851.4
+2013Q4,87,18,国内総所得,GDI,542838.9
+2013Q4,87,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,18448.8
+2013Q4,87,20,受取,Receipt,24928.4
+2013Q4,87,21,支払,Payment,6479.6
+2013Q4,87,22,国民総所得,GNI,561287.7
+2013Q4,87,24,国内需要,DomesticDemand,557508.1
+2013Q4,87,25,民間需要,PrivateDemand,424590.8
+2013Q4,87,26,公的需要,PublicDemand,133016.9
+2013Q4,87,28,総固定資本形成,Gross Fixed CapitalFormation,142963.1
+2013Q4,87,30,最終需要,Final Sales of Domestic Product,551678.8
+2014Q1,88,2,国内総生産(支出側),GDP(Expenditure Approach),557466.0
+2014Q1,88,3,民間最終消費支出,PrivateConsumption,318141.3
+2014Q1,88,4,家計最終消費支出,Consumption ofHouseholds,311176.4
+2014Q1,88,5,除く持ち家の帰属家賃,ExcludingImputed Rent,260364.1
+2014Q1,88,6,民間住宅,PrivateResidentialInvestment,26708.6
+2014Q1,88,7,民間企業設備,Private Non-Resi.Investment,90090.0
+2014Q1,88,8,民間在庫変動,Changein PrivateInventories,-2455.1
+2014Q1,88,9,政府最終消費支出,GovernmentConsumption,103014.5
+2014Q1,88,10,公的固定資本形成,PublicInvestment,29536.8
+2014Q1,88,11,公的在庫変動,Changein PublicInventories,65.5
+2014Q1,88,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-5926.3
+2014Q1,88,13,輸出,Exports,80870.1
+2014Q1,88,14,輸入,Imports,86796.4
+2014Q1,88,15,開差,Residual,-1709.1
+2014Q1,88,17,交易利得,TradingGains/Losses,-11005.6
+2014Q1,88,18,国内総所得,GDI,546460.4
+2014Q1,88,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,18415.2
+2014Q1,88,20,受取,Receipt,25895.5
+2014Q1,88,21,支払,Payment,7480.2
+2014Q1,88,22,国民総所得,GNI,564875.7
+2014Q1,88,24,国内需要,DomesticDemand,564375.7
+2014Q1,88,25,民間需要,PrivateDemand,431953.8
+2014Q1,88,26,公的需要,PublicDemand,132563.7
+2014Q1,88,28,総固定資本形成,Gross Fixed CapitalFormation,146127.4
+2014Q1,88,30,最終需要,Final Sales of Domestic Product,560089.6
+2014Q2,89,2,国内総生産(支出側),GDP(Expenditure Approach),549438.4
+2014Q2,89,3,民間最終消費支出,PrivateConsumption,303780.5
+2014Q2,89,4,家計最終消費支出,Consumption ofHouseholds,297137.6
+2014Q2,89,5,除く持ち家の帰属家賃,ExcludingImputed Rent,246129.9
+2014Q2,89,6,民間住宅,PrivateResidentialInvestment,24708.8
+2014Q2,89,7,民間企業設備,Private Non-Resi.Investment,88762.3
+2014Q2,89,8,民間在庫変動,Changein PrivateInventories,2259.4
+2014Q2,89,9,政府最終消費支出,GovernmentConsumption,103152.1
+2014Q2,89,10,公的固定資本形成,PublicInvestment,28364.4
+2014Q2,89,11,公的在庫変動,Changein PublicInventories,82.6
+2014Q2,89,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-1333.6
+2014Q2,89,13,輸出,Exports,82047.5
+2014Q2,89,14,輸入,Imports,83381.1
+2014Q2,89,15,開差,Residual,-338.0
+2014Q2,89,17,交易利得,TradingGains/Losses,-9486.6
+2014Q2,89,18,国内総所得,GDI,539951.7
+2014Q2,89,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,18330.9
+2014Q2,89,20,受取,Receipt,26081.9
+2014Q2,89,21,支払,Payment,7751.0
+2014Q2,89,22,国民総所得,GNI,558282.6
+2014Q2,89,24,国内需要,DomesticDemand,551097.4
+2014Q2,89,25,民間需要,PrivateDemand,419563.2
+2014Q2,89,26,公的需要,PublicDemand,131629.9
+2014Q2,89,28,総固定資本形成,Gross Fixed CapitalFormation,141726.4
+2014Q2,89,30,最終需要,Final Sales of Domestic Product,546774.7
+2014Q3,90,2,国内総生産(支出側),GDP(Expenditure Approach),550514.1
+2014Q3,90,3,民間最終消費支出,PrivateConsumption,305907.9
+2014Q3,90,4,家計最終消費支出,Consumption ofHouseholds,299534.7
+2014Q3,90,5,除く持ち家の帰属家賃,ExcludingImputed Rent,248501.2
+2014Q3,90,6,民間住宅,PrivateResidentialInvestment,23679.2
+2014Q3,90,7,民間企業設備,Private Non-Resi.Investment,90346.3
+2014Q3,90,8,民間在庫変動,Changein PrivateInventories,-313.8
+2014Q3,90,9,政府最終消費支出,GovernmentConsumption,103565.6
+2014Q3,90,10,公的固定資本形成,PublicInvestment,29263.5
+2014Q3,90,11,公的在庫変動,Changein PublicInventories,140.2
+2014Q3,90,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-1368.6
+2014Q3,90,13,輸出,Exports,83247.1
+2014Q3,90,14,輸入,Imports,84615.6
+2014Q3,90,15,開差,Residual,-706.2
+2014Q3,90,17,交易利得,TradingGains/Losses,-9693.4
+2014Q3,90,18,国内総所得,GDI,540820.7
+2014Q3,90,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,20200.0
+2014Q3,90,20,受取,Receipt,28131.2
+2014Q3,90,21,支払,Payment,7931.3
+2014Q3,90,22,国民総所得,GNI,561020.7
+2014Q3,90,24,国内需要,DomesticDemand,552399.8
+2014Q3,90,25,民間需要,PrivateDemand,419490.6
+2014Q3,90,26,公的需要,PublicDemand,132984.9
+2014Q3,90,28,総固定資本形成,Gross Fixed CapitalFormation,143224.7
+2014Q3,90,30,最終需要,Final Sales of Domestic Product,550631.1
+2014Q4,91,2,国内総生産(支出側),GDP(Expenditure Approach),553695.8
+2014Q4,91,3,民間最終消費支出,PrivateConsumption,306552.4
+2014Q4,91,4,家計最終消費支出,Consumption ofHouseholds,300135.0
+2014Q4,91,5,除く持ち家の帰属家賃,ExcludingImputed Rent,249034.3
+2014Q4,91,6,民間住宅,PrivateResidentialInvestment,23612.1
+2014Q4,91,7,民間企業設備,Private Non-Resi.Investment,91087.3
+2014Q4,91,8,民間在庫変動,Changein PrivateInventories,-777.3
+2014Q4,91,9,政府最終消費支出,GovernmentConsumption,103940.5
+2014Q4,91,10,公的固定資本形成,PublicInvestment,29267.5
+2014Q4,91,11,公的在庫変動,Changein PublicInventories,16.8
+2014Q4,91,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,586.2
+2014Q4,91,13,輸出,Exports,85728.4
+2014Q4,91,14,輸入,Imports,85142.2
+2014Q4,91,15,開差,Residual,-589.8
+2014Q4,91,17,交易利得,TradingGains/Losses,-8378.2
+2014Q4,91,18,国内総所得,GDI,545317.6
+2014Q4,91,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,22822.3
+2014Q4,91,20,受取,Receipt,31343.8
+2014Q4,91,21,支払,Payment,8521.5
+2014Q4,91,22,国民総所得,GNI,568139.9
+2014Q4,91,24,国内需要,DomesticDemand,553434.3
+2014Q4,91,25,民間需要,PrivateDemand,420313.0
+2014Q4,91,26,公的需要,PublicDemand,133197.8
+2014Q4,91,28,総固定資本形成,Gross Fixed CapitalFormation,143917.1
+2014Q4,91,30,最終需要,Final Sales of Domestic Product,554504.8
+2015Q1,92,2,国内総生産(支出側),GDP(Expenditure Approach),562615.6
+2015Q1,92,3,民間最終消費支出,PrivateConsumption,308726.5
+2015Q1,92,4,家計最終消費支出,Consumption ofHouseholds,301962.4
+2015Q1,92,5,除く持ち家の帰属家賃,ExcludingImputed Rent,250800.8
+2015Q1,92,6,民間住宅,PrivateResidentialInvestment,24414.9
+2015Q1,92,7,民間企業設備,Private Non-Resi.Investment,95056.0
+2015Q1,92,8,民間在庫変動,Changein PrivateInventories,103.7
+2015Q1,92,9,政府最終消費支出,GovernmentConsumption,104724.9
+2015Q1,92,10,公的固定資本形成,PublicInvestment,28267.0
+2015Q1,92,11,公的在庫変動,Changein PublicInventories,101.3
+2015Q1,92,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,1420.4
+2015Q1,92,13,輸出,Exports,86990.5
+2015Q1,92,14,輸入,Imports,85570.1
+2015Q1,92,15,開差,Residual,-199.1
+2015Q1,92,17,交易利得,TradingGains/Losses,-4742.7
+2015Q1,92,18,国内総所得,GDI,557873.0
+2015Q1,92,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,20688.7
+2015Q1,92,20,受取,Receipt,29235.7
+2015Q1,92,21,支払,Payment,8546.9
+2015Q1,92,22,国民総所得,GNI,578561.7
+2015Q1,92,24,国内需要,DomesticDemand,561260.7
+2015Q1,92,25,民間需要,PrivateDemand,428233.6
+2015Q1,92,26,公的需要,PublicDemand,133141.0
+2015Q1,92,28,総固定資本形成,Gross Fixed CapitalFormation,147733.8
+2015Q1,92,30,最終需要,Final Sales of Domestic Product,562330.4
+2015Q2,93,2,国内総生産(支出側),GDP(Expenditure Approach),562950.8
+2015Q2,93,3,民間最終消費支出,PrivateConsumption,308868.1
+2015Q2,93,4,家計最終消費支出,Consumption ofHouseholds,301755.8
+2015Q2,93,5,除く持ち家の帰属家賃,ExcludingImputed Rent,250528.2
+2015Q2,93,6,民間住宅,PrivateResidentialInvestment,24725.3
+2015Q2,93,7,民間企業設備,Private Non-Resi.Investment,94807.6
+2015Q2,93,8,民間在庫変動,Changein PrivateInventories,2033.8
+2015Q2,93,9,政府最終消費支出,GovernmentConsumption,104609.7
+2015Q2,93,10,公的固定資本形成,PublicInvestment,27748.2
+2015Q2,93,11,公的在庫変動,Changein PublicInventories,-66.1
+2015Q2,93,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,207.5
+2015Q2,93,13,輸出,Exports,84121.8
+2015Q2,93,14,輸入,Imports,83914.3
+2015Q2,93,15,開差,Residual,16.5
+2015Q2,93,17,交易利得,TradingGains/Losses,-3297.6
+2015Q2,93,18,国内総所得,GDI,559653.2
+2015Q2,93,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,21887.2
+2015Q2,93,20,受取,Receipt,30548.9
+2015Q2,93,21,支払,Payment,8661.7
+2015Q2,93,22,国民総所得,GNI,581540.4
+2015Q2,93,24,国内需要,DomesticDemand,562683.3
+2015Q2,93,25,民間需要,PrivateDemand,430518.2
+2015Q2,93,26,公的需要,PublicDemand,132301.6
+2015Q2,93,28,総固定資本形成,Gross Fixed CapitalFormation,147269.3
+2015Q2,93,30,最終需要,Final Sales of Domestic Product,560760.9
+2015Q3,94,2,国内総生産(支出側),GDP(Expenditure Approach),563779.1
+2015Q3,94,3,民間最終消費支出,PrivateConsumption,309948.5
+2015Q3,94,4,家計最終消費支出,Consumption ofHouseholds,302610.7
+2015Q3,94,5,除く持ち家の帰属家賃,ExcludingImputed Rent,251322.9
+2015Q3,94,6,民間住宅,PrivateResidentialInvestment,24767.4
+2015Q3,94,7,民間企業設備,Private Non-Resi.Investment,95337.7
+2015Q3,94,8,民間在庫変動,Changein PrivateInventories,1111.2
+2015Q3,94,9,政府最終消費支出,GovernmentConsumption,105212.9
+2015Q3,94,10,公的固定資本形成,PublicInvestment,27747.0
+2015Q3,94,11,公的在庫変動,Changein PublicInventories,-75.0
+2015Q3,94,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,68.1
+2015Q3,94,13,輸出,Exports,86252.8
+2015Q3,94,14,輸入,Imports,86184.7
+2015Q3,94,15,開差,Residual,-338.7
+2015Q3,94,17,交易利得,TradingGains/Losses,-2413.7
+2015Q3,94,18,国内総所得,GDI,561365.4
+2015Q3,94,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,21508.4
+2015Q3,94,20,受取,Receipt,30810.8
+2015Q3,94,21,支払,Payment,9302.4
+2015Q3,94,22,国民総所得,GNI,582873.8
+2015Q3,94,24,国内需要,DomesticDemand,563930.2
+2015Q3,94,25,民間需要,PrivateDemand,431163.2
+2015Q3,94,26,公的需要,PublicDemand,132898.8
+2015Q3,94,28,総固定資本形成,Gross Fixed CapitalFormation,147843.5
+2015Q3,94,30,最終需要,Final Sales of Domestic Product,562623.6
+2015Q4,95,2,国内総生産(支出側),GDP(Expenditure Approach),562695.7
+2015Q4,95,3,民間最終消費支出,PrivateConsumption,308220.0
+2015Q4,95,4,家計最終消費支出,Consumption ofHouseholds,300655.3
+2015Q4,95,5,除く持ち家の帰属家賃,ExcludingImputed Rent,249302.0
+2015Q4,95,6,民間住宅,PrivateResidentialInvestment,24669.0
+2015Q4,95,7,民間企業設備,Private Non-Resi.Investment,95569.9
+2015Q4,95,8,民間在庫変動,Changein PrivateInventories,889.9
+2015Q4,95,9,政府最終消費支出,GovernmentConsumption,105949.8
+2015Q4,95,10,公的固定資本形成,PublicInvestment,28342.8
+2015Q4,95,11,公的在庫変動,Changein PublicInventories,-54.1
+2015Q4,95,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-537.0
+2015Q4,95,13,輸出,Exports,85281.6
+2015Q4,95,14,輸入,Imports,85818.6
+2015Q4,95,15,開差,Residual,-354.6
+2015Q4,95,17,交易利得,TradingGains/Losses,-1360.6
+2015Q4,95,18,国内総所得,GDI,561335.1
+2015Q4,95,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,22444.6
+2015Q4,95,20,受取,Receipt,32016.7
+2015Q4,95,21,支払,Payment,9572.1
+2015Q4,95,22,国民総所得,GNI,583779.7
+2015Q4,95,24,国内需要,DomesticDemand,563472.8
+2015Q4,95,25,民間需要,PrivateDemand,429332.6
+2015Q4,95,26,公的需要,PublicDemand,134245.7
+2015Q4,95,28,総固定資本形成,Gross Fixed CapitalFormation,148565.9
+2015Q4,95,30,最終需要,Final Sales of Domestic Product,561758.6
+2016Q1,96,2,国内総生産(支出側),GDP(Expenditure Approach),567582.5
+2016Q1,96,3,民間最終消費支出,PrivateConsumption,308604.7
+2016Q1,96,4,家計最終消費支出,Consumption ofHouseholds,300817.9
+2016Q1,96,5,除く持ち家の帰属家賃,ExcludingImputed Rent,249398.7
+2016Q1,96,6,民間住宅,PrivateResidentialInvestment,24407.4
+2016Q1,96,7,民間企業設備,Private Non-Resi.Investment,95216.8
+2016Q1,96,8,民間在庫変動,Changein PrivateInventories,1346.3
+2016Q1,96,9,政府最終消費支出,GovernmentConsumption,107380.3
+2016Q1,96,10,公的固定資本形成,PublicInvestment,29275.9
+2016Q1,96,11,公的在庫変動,Changein PublicInventories,45.0
+2016Q1,96,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,1314.9
+2016Q1,96,13,輸出,Exports,85940.8
+2016Q1,96,14,輸入,Imports,84625.9
+2016Q1,96,15,開差,Residual,-8.8
+2016Q1,96,17,交易利得,TradingGains/Losses,2266.1
+2016Q1,96,18,国内総所得,GDI,569848.6
+2016Q1,96,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,20725.7
+2016Q1,96,20,受取,Receipt,30097.4
+2016Q1,96,21,支払,Payment,9371.7
+2016Q1,96,22,国民総所得,GNI,590574.4
+2016Q1,96,24,国内需要,DomesticDemand,566201.9
+2016Q1,96,25,民間需要,PrivateDemand,429586.3
+2016Q1,96,26,公的需要,PublicDemand,136696.2
+2016Q1,96,28,総固定資本形成,Gross Fixed CapitalFormation,148869.7
+2016Q1,96,30,最終需要,Final Sales of Domestic Product,566059.0
+2016Q2,97,2,国内総生産(支出側),GDP(Expenditure Approach),565642.4
+2016Q2,97,3,民間最終消費支出,PrivateConsumption,306375.6
+2016Q2,97,4,家計最終消費支出,Consumption ofHouseholds,298323.1
+2016Q2,97,5,除く持ち家の帰属家賃,ExcludingImputed Rent,246926.5
+2016Q2,97,6,民間住宅,PrivateResidentialInvestment,24884.0
+2016Q2,97,7,民間企業設備,Private Non-Resi.Investment,94863.4
+2016Q2,97,8,民間在庫変動,Changein PrivateInventories,3134.9
+2016Q2,97,9,政府最終消費支出,GovernmentConsumption,106451.9
+2016Q2,97,10,公的固定資本形成,PublicInvestment,28279.3
+2016Q2,97,11,公的在庫変動,Changein PublicInventories,-214.5
+2016Q2,97,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,1698.5
+2016Q2,97,13,輸出,Exports,85428.4
+2016Q2,97,14,輸入,Imports,83729.9
+2016Q2,97,15,開差,Residual,169.3
+2016Q2,97,17,交易利得,TradingGains/Losses,2258.8
+2016Q2,97,18,国内総所得,GDI,567901.2
+2016Q2,97,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,19442.3
+2016Q2,97,20,受取,Receipt,29365.7
+2016Q2,97,21,支払,Payment,9923.5
+2016Q2,97,22,国民総所得,GNI,587343.5
+2016Q2,97,24,国内需要,DomesticDemand,563806.0
+2016Q2,97,25,民間需要,PrivateDemand,429377.3
+2016Q2,97,26,公的需要,PublicDemand,134533.5
+2016Q2,97,28,総固定資本形成,Gross Fixed CapitalFormation,147998.9
+2016Q2,97,30,最終需要,Final Sales of Domestic Product,562473.9
+2016Q3,98,2,国内総生産(支出側),GDP(Expenditure Approach),566913.9
+2016Q3,98,3,民間最終消費支出,PrivateConsumption,307765.9
+2016Q3,98,4,家計最終消費支出,Consumption ofHouseholds,299447.9
+2016Q3,98,5,除く持ち家の帰属家賃,ExcludingImputed Rent,248013.0
+2016Q3,98,6,民間住宅,PrivateResidentialInvestment,25191.3
+2016Q3,98,7,民間企業設備,Private Non-Resi.Investment,95233.0
+2016Q3,98,8,民間在庫変動,Changein PrivateInventories,514.2
+2016Q3,98,9,政府最終消費支出,GovernmentConsumption,106782.7
+2016Q3,98,10,公的固定資本形成,PublicInvestment,28289.5
+2016Q3,98,11,公的在庫変動,Changein PublicInventories,-272.6
+2016Q3,98,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3229.4
+2016Q3,98,13,輸出,Exports,87286.8
+2016Q3,98,14,輸入,Imports,84057.4
+2016Q3,98,15,開差,Residual,180.5
+2016Q3,98,17,交易利得,TradingGains/Losses,1989.0
+2016Q3,98,18,国内総所得,GDI,568902.8
+2016Q3,98,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,18708.7
+2016Q3,98,20,受取,Receipt,28941.8
+2016Q3,98,21,支払,Payment,10233.0
+2016Q3,98,22,国民総所得,GNI,587611.6
+2016Q3,98,24,国内需要,DomesticDemand,563382.8
+2016Q3,98,25,民間需要,PrivateDemand,428661.3
+2016Q3,98,26,公的需要,PublicDemand,134821.0
+2016Q3,98,28,総固定資本形成,Gross Fixed CapitalFormation,148682.8
+2016Q3,98,30,最終需要,Final Sales of Domestic Product,566582.7
+2016Q4,99,2,国内総生産(支出側),GDP(Expenditure Approach),567003.1
+2016Q4,99,3,民間最終消費支出,PrivateConsumption,308225.4
+2016Q4,99,4,家計最終消費支出,Consumption ofHouseholds,299747.2
+2016Q4,99,5,除く持ち家の帰属家賃,ExcludingImputed Rent,248265.4
+2016Q4,99,6,民間住宅,PrivateResidentialInvestment,25280.8
+2016Q4,99,7,民間企業設備,Private Non-Resi.Investment,95979.4
+2016Q4,99,8,民間在庫変動,Changein PrivateInventories,-1353.8
+2016Q4,99,9,政府最終消費支出,GovernmentConsumption,106845.5
+2016Q4,99,10,公的固定資本形成,PublicInvestment,28296.3
+2016Q4,99,11,公的在庫変動,Changein PublicInventories,-329.3
+2016Q4,99,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3948.4
+2016Q4,99,13,輸出,Exports,89224.8
+2016Q4,99,14,輸入,Imports,85276.4
+2016Q4,99,15,開差,Residual,110.2
+2016Q4,99,17,交易利得,TradingGains/Losses,776.2
+2016Q4,99,18,国内総所得,GDI,567779.3
+2016Q4,99,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,18875.4
+2016Q4,99,20,受取,Receipt,29107.2
+2016Q4,99,21,支払,Payment,10231.7
+2016Q4,99,22,国民総所得,GNI,586654.8
+2016Q4,99,24,国内需要,DomesticDemand,562737.7
+2016Q4,99,25,民間需要,PrivateDemand,427998.2
+2016Q4,99,26,公的需要,PublicDemand,134836.5
+2016Q4,99,28,総固定資本形成,Gross Fixed CapitalFormation,149534.3
+2016Q4,99,30,最終需要,Final Sales of Domestic Product,568693.2
+2017Q1,100,2,国内総生産(支出側),GDP(Expenditure Approach),571132.1
+2017Q1,100,3,民間最終消費支出,PrivateConsumption,309201.5
+2017Q1,100,4,家計最終消費支出,Consumption ofHouseholds,300672.0
+2017Q1,100,5,除く持ち家の帰属家賃,ExcludingImputed Rent,249130.4
+2017Q1,100,6,民間住宅,PrivateResidentialInvestment,24892.4
+2017Q1,100,7,民間企業設備,Private Non-Resi.Investment,96528.0
+2017Q1,100,8,民間在庫変動,Changein PrivateInventories,-233.8
+2017Q1,100,9,政府最終消費支出,GovernmentConsumption,107138.2
+2017Q1,100,10,公的固定資本形成,PublicInvestment,28527.7
+2017Q1,100,11,公的在庫変動,Changein PublicInventories,-257.4
+2017Q1,100,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,5155.7
+2017Q1,100,13,輸出,Exports,91323.1
+2017Q1,100,14,輸入,Imports,86167.3
+2017Q1,100,15,開差,Residual,179.8
+2017Q1,100,17,交易利得,TradingGains/Losses,-1393.5
+2017Q1,100,18,国内総所得,GDI,569738.6
+2017Q1,100,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,21365.5
+2017Q1,100,20,受取,Receipt,31996.8
+2017Q1,100,21,支払,Payment,10631.3
+2017Q1,100,22,国民総所得,GNI,591104.1
+2017Q1,100,24,国内需要,DomesticDemand,565653.5
+2017Q1,100,25,民間需要,PrivateDemand,430327.1
+2017Q1,100,26,公的需要,PublicDemand,135425.3
+2017Q1,100,28,総固定資本形成,Gross Fixed CapitalFormation,149936.2
+2017Q1,100,30,最終需要,Final Sales of Domestic Product,571570.7
+2017Q2,101,2,国内総生産(支出側),GDP(Expenditure Approach),572968.5
+2017Q2,101,3,民間最終消費支出,PrivateConsumption,311165.5
+2017Q2,101,4,家計最終消費支出,Consumption ofHouseholds,302571.9
+2017Q2,101,5,除く持ち家の帰属家賃,ExcludingImputed Rent,250973.0
+2017Q2,101,6,民間住宅,PrivateResidentialInvestment,25156.1
+2017Q2,101,7,民間企業設備,Private Non-Resi.Investment,97094.7
+2017Q2,101,8,民間在庫変動,Changein PrivateInventories,-392.0
+2017Q2,101,9,政府最終消費支出,GovernmentConsumption,106831.9
+2017Q2,101,10,公的固定資本形成,PublicInvestment,28841.5
+2017Q2,101,11,公的在庫変動,Changein PublicInventories,-39.0
+2017Q2,101,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,4179.0
+2017Q2,101,13,輸出,Exports,91330.2
+2017Q2,101,14,輸入,Imports,87151.2
+2017Q2,101,15,開差,Residual,130.9
+2017Q2,101,17,交易利得,TradingGains/Losses,-1803.9
+2017Q2,101,18,国内総所得,GDI,571164.6
+2017Q2,101,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,20053.4
+2017Q2,101,20,受取,Receipt,30856.4
+2017Q2,101,21,支払,Payment,10803.0
+2017Q2,101,22,国民総所得,GNI,591218.0
+2017Q2,101,24,国内需要,DomesticDemand,568499.5
+2017Q2,101,25,民間需要,PrivateDemand,432981.5
+2017Q2,101,26,公的需要,PublicDemand,135625.0
+2017Q2,101,28,総固定資本形成,Gross Fixed CapitalFormation,151074.8
+2017Q2,101,30,最終需要,Final Sales of Domestic Product,573328.6
+2017Q3,102,2,国内総生産(支出側),GDP(Expenditure Approach),579488.4
+2017Q3,102,3,民間最終消費支出,PrivateConsumption,310184.9
+2017Q3,102,4,家計最終消費支出,Consumption ofHouseholds,301478.5
+2017Q3,102,5,除く持ち家の帰属家賃,ExcludingImputed Rent,249822.1
+2017Q3,102,6,民間住宅,PrivateResidentialInvestment,24987.0
+2017Q3,102,7,民間企業設備,Private Non-Resi.Investment,98502.2
+2017Q3,102,8,民間在庫変動,Changein PrivateInventories,2750.0
+2017Q3,102,9,政府最終消費支出,GovernmentConsumption,107314.1
+2017Q3,102,10,公的固定資本形成,PublicInvestment,28321.8
+2017Q3,102,11,公的在庫変動,Changein PublicInventories,-21.7
+2017Q3,102,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,7148.4
+2017Q3,102,13,輸出,Exports,93621.1
+2017Q3,102,14,輸入,Imports,86472.7
+2017Q3,102,15,開差,Residual,301.6
+2017Q3,102,17,交易利得,TradingGains/Losses,-886.6
+2017Q3,102,18,国内総所得,GDI,578601.7
+2017Q3,102,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,21455.7
+2017Q3,102,20,受取,Receipt,31988.3
+2017Q3,102,21,支払,Payment,10532.6
+2017Q3,102,22,国民総所得,GNI,600057.4
+2017Q3,102,24,国内需要,DomesticDemand,572017.6
+2017Q3,102,25,民間需要,PrivateDemand,436509.1
+2017Q3,102,26,公的需要,PublicDemand,135629.4
+2017Q3,102,28,総固定資本形成,Gross Fixed CapitalFormation,151822.9
+2017Q3,102,30,最終需要,Final Sales of Domestic Product,576599.9
+2017Q4,103,2,国内総生産(支出側),GDP(Expenditure Approach),580391.6
+2017Q4,103,3,民間最終消費支出,PrivateConsumption,311497.2
+2017Q4,103,4,家計最終消費支出,Consumption ofHouseholds,302724.3
+2017Q4,103,5,除く持ち家の帰属家賃,ExcludingImputed Rent,251021.5
+2017Q4,103,6,民間住宅,PrivateResidentialInvestment,24495.0
+2017Q4,103,7,民間企業設備,Private Non-Resi.Investment,99166.2
+2017Q4,103,8,民間在庫変動,Changein PrivateInventories,3395.5
+2017Q4,103,9,政府最終消費支出,GovernmentConsumption,107305.6
+2017Q4,103,10,公的固定資本形成,PublicInvestment,28513.4
+2017Q4,103,11,公的在庫変動,Changein PublicInventories,-17.8
+2017Q4,103,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,5689.9
+2017Q4,103,13,輸出,Exports,94668.9
+2017Q4,103,14,輸入,Imports,88979.0
+2017Q4,103,15,開差,Residual,346.8
+2017Q4,103,17,交易利得,TradingGains/Losses,-2499.2
+2017Q4,103,18,国内総所得,GDI,577892.5
+2017Q4,103,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,20817.3
+2017Q4,103,20,受取,Receipt,32019.3
+2017Q4,103,21,支払,Payment,11201.9
+2017Q4,103,22,国民総所得,GNI,598709.8
+2017Q4,103,24,国内需要,DomesticDemand,574368.4
+2017Q4,103,25,民間需要,PrivateDemand,438683.4
+2017Q4,103,26,公的需要,PublicDemand,135812.3
+2017Q4,103,28,総固定資本形成,Gross Fixed CapitalFormation,152197.7
+2017Q4,103,30,最終需要,Final Sales of Domestic Product,576820.4
+2018Q1,104,2,国内総生産(支出側),GDP(Expenditure Approach),579495.4
+2018Q1,104,3,民間最終消費支出,PrivateConsumption,310614.5
+2018Q1,104,4,家計最終消費支出,Consumption ofHouseholds,301820.0
+2018Q1,104,5,除く持ち家の帰属家賃,ExcludingImputed Rent,250070.1
+2018Q1,104,6,民間住宅,PrivateResidentialInvestment,23833.6
+2018Q1,104,7,民間企業設備,Private Non-Resi.Investment,99723.0
+2018Q1,104,8,民間在庫変動,Changein PrivateInventories,1391.6
+2018Q1,104,9,政府最終消費支出,GovernmentConsumption,108134.7
+2018Q1,104,10,公的固定資本形成,PublicInvestment,28737.2
+2018Q1,104,11,公的在庫変動,Changein PublicInventories,-12.8
+2018Q1,104,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,6714.9
+2018Q1,104,13,輸出,Exports,96279.2
+2018Q1,104,14,輸入,Imports,89564.3
+2018Q1,104,15,開差,Residual,358.8
+2018Q1,104,17,交易利得,TradingGains/Losses,-3282.0
+2018Q1,104,18,国内総所得,GDI,576213.4
+2018Q1,104,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,20346.5
+2018Q1,104,20,受取,Receipt,32517.8
+2018Q1,104,21,支払,Payment,12171.3
+2018Q1,104,22,国民総所得,GNI,596559.9
+2018Q1,104,24,国内需要,DomesticDemand,572385.3
+2018Q1,104,25,民間需要,PrivateDemand,435616.0
+2018Q1,104,26,公的需要,PublicDemand,136873.7
+2018Q1,104,28,総固定資本形成,Gross Fixed CapitalFormation,152321.1
+2018Q1,104,30,最終需要,Final Sales of Domestic Product,578004.7
+2018Q2,105,2,国内総生産(支出側),GDP(Expenditure Approach),583149.0
+2018Q2,105,3,民間最終消費支出,PrivateConsumption,310840.0
+2018Q2,105,4,家計最終消費支出,Consumption ofHouseholds,302082.3
+2018Q2,105,5,除く持ち家の帰属家賃,ExcludingImputed Rent,250269.8
+2018Q2,105,6,民間住宅,PrivateResidentialInvestment,23187.9
+2018Q2,105,7,民間企業設備,Private Non-Resi.Investment,102381.3
+2018Q2,105,8,民間在庫変動,Changein PrivateInventories,1770.9
+2018Q2,105,9,政府最終消費支出,GovernmentConsumption,108029.7
+2018Q2,105,10,公的固定資本形成,PublicInvestment,29135.9
+2018Q2,105,11,公的在庫変動,Changein PublicInventories,20.2
+2018Q2,105,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,7335.3
+2018Q2,105,13,輸出,Exports,97081.1
+2018Q2,105,14,輸入,Imports,89745.8
+2018Q2,105,15,開差,Residual,447.6
+2018Q2,105,17,交易利得,TradingGains/Losses,-5393.7
+2018Q2,105,18,国内総所得,GDI,577755.3
+2018Q2,105,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,21946.0
+2018Q2,105,20,受取,Receipt,33942.3
+2018Q2,105,21,支払,Payment,11996.3
+2018Q2,105,22,国民総所得,GNI,599701.3
+2018Q2,105,24,国内需要,DomesticDemand,575382.3
+2018Q2,105,25,民間需要,PrivateDemand,438297.8
+2018Q2,105,26,公的需要,PublicDemand,137194.9
+2018Q2,105,28,総固定資本形成,Gross Fixed CapitalFormation,154750.3
+2018Q2,105,30,最終需要,Final Sales of Domestic Product,581212.3
+2018Q3,106,2,国内総生産(支出側),GDP(Expenditure Approach),580294.4
+2018Q3,106,3,民間最終消費支出,PrivateConsumption,311412.7
+2018Q3,106,4,家計最終消費支出,Consumption ofHouseholds,302672.7
+2018Q3,106,5,除く持ち家の帰属家賃,ExcludingImputed Rent,250847.3
+2018Q3,106,6,民間住宅,PrivateResidentialInvestment,23236.2
+2018Q3,106,7,民間企業設備,Private Non-Resi.Investment,99594.5
+2018Q3,106,8,民間在庫変動,Changein PrivateInventories,2091.3
+2018Q3,106,9,政府最終消費支出,GovernmentConsumption,107970.6
+2018Q3,106,10,公的固定資本形成,PublicInvestment,29014.0
+2018Q3,106,11,公的在庫変動,Changein PublicInventories,66.8
+2018Q3,106,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,6551.7
+2018Q3,106,13,輸出,Exports,95717.4
+2018Q3,106,14,輸入,Imports,89165.7
+2018Q3,106,15,開差,Residual,356.7
+2018Q3,106,17,交易利得,TradingGains/Losses,-6801.1
+2018Q3,106,18,国内総所得,GDI,573493.3
+2018Q3,106,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,21792.4
+2018Q3,106,20,受取,Receipt,33899.0
+2018Q3,106,21,支払,Payment,12106.7
+2018Q3,106,22,国民総所得,GNI,595285.7
+2018Q3,106,24,国内需要,DomesticDemand,573391.9
+2018Q3,106,25,民間需要,PrivateDemand,436427.9
+2018Q3,106,26,公的需要,PublicDemand,137068.1
+2018Q3,106,28,総固定資本形成,Gross Fixed CapitalFormation,151868.2
+2018Q3,106,30,最終需要,Final Sales of Domestic Product,577961.2
+2018Q4,107,2,国内総生産(支出側),GDP(Expenditure Approach),580699.5
+2018Q4,107,3,民間最終消費支出,PrivateConsumption,311574.9
+2018Q4,107,4,家計最終消費支出,Consumption ofHouseholds,302711.6
+2018Q4,107,5,除く持ち家の帰属家賃,ExcludingImputed Rent,250811.2
+2018Q4,107,6,民間住宅,PrivateResidentialInvestment,23487.3
+2018Q4,107,7,民間企業設備,Private Non-Resi.Investment,101848.6
+2018Q4,107,8,民間在庫変動,Changein PrivateInventories,3789.5
+2018Q4,107,9,政府最終消費支出,GovernmentConsumption,108841.2
+2018Q4,107,10,公的固定資本形成,PublicInvestment,28659.4
+2018Q4,107,11,公的在庫変動,Changein PublicInventories,27.4
+2018Q4,107,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,2405.7
+2018Q4,107,13,輸出,Exports,95941.2
+2018Q4,107,14,輸入,Imports,93535.5
+2018Q4,107,15,開差,Residual,65.7
+2018Q4,107,17,交易利得,TradingGains/Losses,-7100.6
+2018Q4,107,18,国内総所得,GDI,573598.9
+2018Q4,107,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,22390.7
+2018Q4,107,20,受取,Receipt,34950.6
+2018Q4,107,21,支払,Payment,12559.9
+2018Q4,107,22,国民総所得,GNI,595989.6
+2018Q4,107,24,国内需要,DomesticDemand,578351.5
+2018Q4,107,25,民間需要,PrivateDemand,440909.8
+2018Q4,107,26,公的需要,PublicDemand,137555.9
+2018Q4,107,28,総固定資本形成,Gross Fixed CapitalFormation,154038.0
+2018Q4,107,30,最終需要,Final Sales of Domestic Product,576622.8
+2019Q1,108,2,国内総生産(支出側),GDP(Expenditure Approach),581449.1
+2019Q1,108,3,民間最終消費支出,PrivateConsumption,310443.5
+2019Q1,108,4,家計最終消費支出,Consumption ofHouseholds,301318.7
+2019Q1,108,5,除く持ち家の帰属家賃,ExcludingImputed Rent,249305.1
+2019Q1,108,6,民間住宅,PrivateResidentialInvestment,24179.8
+2019Q1,108,7,民間企業設備,Private Non-Resi.Investment,102439.1
+2019Q1,108,8,民間在庫変動,Changein PrivateInventories,1157.5
+2019Q1,108,9,政府最終消費支出,GovernmentConsumption,109142.5
+2019Q1,108,10,公的固定資本形成,PublicInvestment,29311.5
+2019Q1,108,11,公的在庫変動,Changein PublicInventories,-41.6
+2019Q1,108,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,4584.9
+2019Q1,108,13,輸出,Exports,94829.8
+2019Q1,108,14,輸入,Imports,90244.9
+2019Q1,108,15,開差,Residual,232.0
+2019Q1,108,17,交易利得,TradingGains/Losses,-4177.2
+2019Q1,108,18,国内総所得,GDI,577272.0
+2019Q1,108,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,21935.9
+2019Q1,108,20,受取,Receipt,34111.3
+2019Q1,108,21,支払,Payment,12175.4
+2019Q1,108,22,国民総所得,GNI,599207.9
+2019Q1,108,24,国内需要,DomesticDemand,576616.6
+2019Q1,108,25,民間需要,PrivateDemand,438301.9
+2019Q1,108,26,公的需要,PublicDemand,138412.3
+2019Q1,108,28,総固定資本形成,Gross Fixed CapitalFormation,155960.3
+2019Q1,108,30,最終需要,Final Sales of Domestic Product,580244.4
+2019Q2,109,2,国内総生産(支出側),GDP(Expenditure Approach),583719.4
+2019Q2,109,3,民間最終消費支出,PrivateConsumption,310320.0
+2019Q2,109,4,家計最終消費支出,Consumption ofHouseholds,300967.2
+2019Q2,109,5,除く持ち家の帰属家賃,ExcludingImputed Rent,248833.7
+2019Q2,109,6,民間住宅,PrivateResidentialInvestment,24426.1
+2019Q2,109,7,民間企業設備,Private Non-Resi.Investment,102232.8
+2019Q2,109,8,民間在庫変動,Changein PrivateInventories,2675.8
+2019Q2,109,9,政府最終消費支出,GovernmentConsumption,110315.0
+2019Q2,109,10,公的固定資本形成,PublicInvestment,29921.9
+2019Q2,109,11,公的在庫変動,Changein PublicInventories,-97.4
+2019Q2,109,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3776.8
+2019Q2,109,13,輸出,Exports,95201.8
+2019Q2,109,14,輸入,Imports,91425.1
+2019Q2,109,15,開差,Residual,148.4
+2019Q2,109,17,交易利得,TradingGains/Losses,-5998.5
+2019Q2,109,18,国内総所得,GDI,577720.9
+2019Q2,109,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,22269.1
+2019Q2,109,20,受取,Receipt,34775.0
+2019Q2,109,21,支払,Payment,12505.9
+2019Q2,109,22,国民総所得,GNI,599990.0
+2019Q2,109,24,国内需要,DomesticDemand,579846.2
+2019Q2,109,25,民間需要,PrivateDemand,439813.8
+2019Q2,109,26,公的需要,PublicDemand,140119.6
+2019Q2,109,28,総固定資本形成,Gross Fixed CapitalFormation,156598.5
+2019Q2,109,30,最終需要,Final Sales of Domestic Product,580972.1
+2019Q3,110,2,国内総生産(支出側),GDP(Expenditure Approach),584013.0
+2019Q3,110,3,民間最終消費支出,PrivateConsumption,312559.7
+2019Q3,110,4,家計最終消費支出,Consumption ofHouseholds,303035.4
+2019Q3,110,5,除く持ち家の帰属家賃,ExcludingImputed Rent,250761.2
+2019Q3,110,6,民間住宅,PrivateResidentialInvestment,24533.2
+2019Q3,110,7,民間企業設備,Private Non-Resi.Investment,104464.2
+2019Q3,110,8,民間在庫変動,Changein PrivateInventories,-241.6
+2019Q3,110,9,政府最終消費支出,GovernmentConsumption,110853.4
+2019Q3,110,10,公的固定資本形成,PublicInvestment,29764.0
+2019Q3,110,11,公的在庫変動,Changein PublicInventories,-113.8
+2019Q3,110,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,2404.3
+2019Q3,110,13,輸出,Exports,95698.7
+2019Q3,110,14,輸入,Imports,93294.4
+2019Q3,110,15,開差,Residual,-210.3
+2019Q3,110,17,交易利得,TradingGains/Losses,-5329.7
+2019Q3,110,18,国内総所得,GDI,578683.3
+2019Q3,110,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,22516.6
+2019Q3,110,20,受取,Receipt,35432.9
+2019Q3,110,21,支払,Payment,12916.3
+2019Q3,110,22,国民総所得,GNI,601199.9
+2019Q3,110,24,国内需要,DomesticDemand,581735.0
+2019Q3,110,25,民間需要,PrivateDemand,441340.2
+2019Q3,110,26,公的需要,PublicDemand,140484.6
+2019Q3,110,28,総固定資本形成,Gross Fixed CapitalFormation,158797.3
+2019Q3,110,30,最終需要,Final Sales of Domestic Product,584380.2
+2019Q4,111,2,国内総生産(支出側),GDP(Expenditure Approach),567204.4
+2019Q4,111,3,民間最終消費支出,PrivateConsumption,301346.0
+2019Q4,111,4,家計最終消費支出,Consumption ofHouseholds,291558.3
+2019Q4,111,5,除く持ち家の帰属家賃,ExcludingImputed Rent,239253.3
+2019Q4,111,6,民間住宅,PrivateResidentialInvestment,24171.5
+2019Q4,111,7,民間企業設備,Private Non-Resi.Investment,97759.1
+2019Q4,111,8,民間在庫変動,Changein PrivateInventories,605.8
+2019Q4,111,9,政府最終消費支出,GovernmentConsumption,111472.1
+2019Q4,111,10,公的固定資本形成,PublicInvestment,29637.6
+2019Q4,111,11,公的在庫変動,Changein PublicInventories,-61.0
+2019Q4,111,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,2425.2
+2019Q4,111,13,輸出,Exports,93794.4
+2019Q4,111,14,輸入,Imports,91369.2
+2019Q4,111,15,開差,Residual,-152.0
+2019Q4,111,17,交易利得,TradingGains/Losses,-4025.0
+2019Q4,111,18,国内総所得,GDI,563179.4
+2019Q4,111,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,21194.9
+2019Q4,111,20,受取,Receipt,33855.6
+2019Q4,111,21,支払,Payment,12660.7
+2019Q4,111,22,国民総所得,GNI,584374.3
+2019Q4,111,24,国内需要,DomesticDemand,564918.8
+2019Q4,111,25,民間需要,PrivateDemand,423908.2
+2019Q4,111,26,公的需要,PublicDemand,141046.0
+2019Q4,111,28,総固定資本形成,Gross Fixed CapitalFormation,151566.4
+2019Q4,111,30,最終需要,Final Sales of Domestic Product,566611.8
+2020Q1,112,2,国内総生産(支出側),GDP(Expenditure Approach),569434.5
+2020Q1,112,3,民間最終消費支出,PrivateConsumption,301793.5
+2020Q1,112,4,家計最終消費支出,Consumption ofHouseholds,291671.1
+2020Q1,112,5,除く持ち家の帰属家賃,ExcludingImputed Rent,239263.3
+2020Q1,112,6,民間住宅,PrivateResidentialInvestment,23049.9
+2020Q1,112,7,民間企業設備,Private Non-Resi.Investment,101134.7
+2020Q1,112,8,民間在庫変動,Changein PrivateInventories,-278.1
+2020Q1,112,9,政府最終消費支出,GovernmentConsumption,111885.9
+2020Q1,112,10,公的固定資本形成,PublicInvestment,29349.3
+2020Q1,112,11,公的在庫変動,Changein PublicInventories,-50.6
+2020Q1,112,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,2436.7
+2020Q1,112,13,輸出,Exports,90345.1
+2020Q1,112,14,輸入,Imports,87908.4
+2020Q1,112,15,開差,Residual,113.1
+2020Q1,112,17,交易利得,TradingGains/Losses,-3718.9
+2020Q1,112,18,国内総所得,GDI,565715.5
+2020Q1,112,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,22022.1
+2020Q1,112,20,受取,Receipt,33585.6
+2020Q1,112,21,支払,Payment,11563.5
+2020Q1,112,22,国民総所得,GNI,587737.7
+2020Q1,112,24,国内需要,DomesticDemand,566866.4
+2020Q1,112,25,民間需要,PrivateDemand,425721.8
+2020Q1,112,26,公的需要,PublicDemand,141187.0
+2020Q1,112,28,総固定資本形成,Gross Fixed CapitalFormation,153559.5
+2020Q1,112,30,最終需要,Final Sales of Domestic Product,569757.1
+2020Q2,113,2,国内総生産(支出側),GDP(Expenditure Approach),528206.4
+2020Q2,113,3,民間最終消費支出,PrivateConsumption,278903.7
+2020Q2,113,4,家計最終消費支出,Consumption ofHouseholds,268280.6
+2020Q2,113,5,除く持ち家の帰属家賃,ExcludingImputed Rent,215830.1
+2020Q2,113,6,民間住宅,PrivateResidentialInvestment,23215.5
+2020Q2,113,7,民間企業設備,Private Non-Resi.Investment,94228.2
+2020Q2,113,8,民間在庫変動,Changein PrivateInventories,1784.8
+2020Q2,113,9,政府最終消費支出,GovernmentConsumption,111959.4
+2020Q2,113,10,公的固定資本形成,PublicInvestment,31435.8
+2020Q2,113,11,公的在庫変動,Changein PublicInventories,39.7
+2020Q2,113,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,-12842.6
+2020Q2,113,13,輸出,Exports,74326.6
+2020Q2,113,14,輸入,Imports,87169.3
+2020Q2,113,15,開差,Residual,-518.1
+2020Q2,113,17,交易利得,TradingGains/Losses,1176.1
+2020Q2,113,18,国内総所得,GDI,529382.4
+2020Q2,113,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,18051.0
+2020Q2,113,20,受取,Receipt,28777.7
+2020Q2,113,21,支払,Payment,10726.7
+2020Q2,113,22,国民総所得,GNI,547433.5
+2020Q2,113,24,国内需要,DomesticDemand,541685.9
+2020Q2,113,25,民間需要,PrivateDemand,398232.4
+2020Q2,113,26,公的需要,PublicDemand,143425.8
+2020Q2,113,28,総固定資本形成,Gross Fixed CapitalFormation,148858.4
+2020Q2,113,30,最終需要,Final Sales of Domestic Product,526270.0
+2020Q3,114,2,国内総生産(支出側),GDP(Expenditure Approach),554588.5
+2020Q3,114,3,民間最終消費支出,PrivateConsumption,293521.6
+2020Q3,114,4,家計最終消費支出,Consumption ofHouseholds,282453.2
+2020Q3,114,5,除く持ち家の帰属家賃,ExcludingImputed Rent,229852.3
+2020Q3,114,6,民間住宅,PrivateResidentialInvestment,22121.8
+2020Q3,114,7,民間企業設備,Private Non-Resi.Investment,95018.8
+2020Q3,114,8,民間在庫変動,Changein PrivateInventories,-2256.0
+2020Q3,114,9,政府最終消費支出,GovernmentConsumption,114005.1
+2020Q3,114,10,公的固定資本形成,PublicInvestment,31019.1
+2020Q3,114,11,公的在庫変動,Changein PublicInventories,69.9
+2020Q3,114,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,775.2
+2020Q3,114,13,輸出,Exports,81479.2
+2020Q3,114,14,輸入,Imports,80704.0
+2020Q3,114,15,開差,Residual,312.9
+2020Q3,114,17,交易利得,TradingGains/Losses,1052.9
+2020Q3,114,18,国内総所得,GDI,555641.4
+2020Q3,114,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,18812.1
+2020Q3,114,20,受取,Receipt,29436.7
+2020Q3,114,21,支払,Payment,10624.6
+2020Q3,114,22,国民総所得,GNI,574453.5
+2020Q3,114,24,国内需要,DomesticDemand,553471.4
+2020Q3,114,25,民間需要,PrivateDemand,408353.4
+2020Q3,114,26,公的需要,PublicDemand,145105.5
+2020Q3,114,28,総固定資本形成,Gross Fixed CapitalFormation,148153.7
+2020Q3,114,30,最終需要,Final Sales of Domestic Product,556808.8
+2020Q4,115,2,国内総生産(支出側),GDP(Expenditure Approach),563848.7
+2020Q4,115,3,民間最終消費支出,PrivateConsumption,298897.2
+2020Q4,115,4,家計最終消費支出,Consumption ofHouseholds,287747.0
+2020Q4,115,5,除く持ち家の帰属家賃,ExcludingImputed Rent,235019.4
+2020Q4,115,6,民間住宅,PrivateResidentialInvestment,22166.7
+2020Q4,115,7,民間企業設備,Private Non-Resi.Investment,97009.0
+2020Q4,115,8,民間在庫変動,Changein PrivateInventories,-3506.4
+2020Q4,115,9,政府最終消費支出,GovernmentConsumption,115061.3
+2020Q4,115,10,公的固定資本形成,PublicInvestment,31149.8
+2020Q4,115,11,公的在庫変動,Changein PublicInventories,-51.2
+2020Q4,115,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3030.2
+2020Q4,115,13,輸出,Exports,88427.5
+2020Q4,115,14,輸入,Imports,85397.4
+2020Q4,115,15,開差,Residual,92.1
+2020Q4,115,17,交易利得,TradingGains/Losses,1698.7
+2020Q4,115,18,国内総所得,GDI,565547.4
+2020Q4,115,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,20141.0
+2020Q4,115,20,受取,Receipt,29896.2
+2020Q4,115,21,支払,Payment,9755.2
+2020Q4,115,22,国民総所得,GNI,585688.4
+2020Q4,115,24,国内需要,DomesticDemand,560654.9
+2020Q4,115,25,民間需要,PrivateDemand,414497.5
+2020Q4,115,26,公的需要,PublicDemand,146155.1
+2020Q4,115,28,総固定資本形成,Gross Fixed CapitalFormation,150327.0
+2020Q4,115,30,最終需要,Final Sales of Domestic Product,567490.0
+2021Q1,116,2,国内総生産(支出側),GDP(Expenditure Approach),569978.1
+2021Q1,116,3,民間最終消費支出,PrivateConsumption,296832.8
+2021Q1,116,4,家計最終消費支出,Consumption ofHouseholds,285965.9
+2021Q1,116,5,除く持ち家の帰属家賃,ExcludingImputed Rent,233157.9
+2021Q1,116,6,民間住宅,PrivateResidentialInvestment,22660.0
+2021Q1,116,7,民間企業設備,Private Non-Resi.Investment,98735.2
+2021Q1,116,8,民間在庫変動,Changein PrivateInventories,711.8
+2021Q1,116,9,政府最終消費支出,GovernmentConsumption,114972.9
+2021Q1,116,10,公的固定資本形成,PublicInvestment,30696.6
+2021Q1,116,11,公的在庫変動,Changein PublicInventories,32.8
+2021Q1,116,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,5316.2
+2021Q1,116,13,輸出,Exports,92427.3
+2021Q1,116,14,輸入,Imports,87111.1
+2021Q1,116,15,開差,Residual,19.9
+2021Q1,116,17,交易利得,TradingGains/Losses,-2528.6
+2021Q1,116,18,国内総所得,GDI,567449.5
+2021Q1,116,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,22401.6
+2021Q1,116,20,受取,Receipt,33209.8
+2021Q1,116,21,支払,Payment,10808.2
+2021Q1,116,22,国民総所得,GNI,589851.1
+2021Q1,116,24,国内需要,DomesticDemand,564606.4
+2021Q1,116,25,民間需要,PrivateDemand,418903.7
+2021Q1,116,26,公的需要,PublicDemand,145703.7
+2021Q1,116,28,総固定資本形成,Gross Fixed CapitalFormation,152092.3
+2021Q1,116,30,最終需要,Final Sales of Domestic Product,569279.6
+2021Q2,117,2,国内総生産(支出側),GDP(Expenditure Approach),573957.3
+2021Q2,117,3,民間最終消費支出,PrivateConsumption,298631.8
+2021Q2,117,4,家計最終消費支出,Consumption ofHouseholds,288106.9
+2021Q2,117,5,除く持ち家の帰属家賃,ExcludingImputed Rent,235188.6
+2021Q2,117,6,民間住宅,PrivateResidentialInvestment,22785.2
+2021Q2,117,7,民間企業設備,Private Non-Resi.Investment,100373.4
+2021Q2,117,8,民間在庫変動,Changein PrivateInventories,709.3
+2021Q2,117,9,政府最終消費支出,GovernmentConsumption,118088.6
+2021Q2,117,10,公的固定資本形成,PublicInvestment,29936.3
+2021Q2,117,11,公的在庫変動,Changein PublicInventories,-11.6
+2021Q2,117,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3458.2
+2021Q2,117,13,輸出,Exports,94722.4
+2021Q2,117,14,輸入,Imports,91264.2
+2021Q2,117,15,開差,Residual,-13.8
+2021Q2,117,17,交易利得,TradingGains/Losses,-5337.0
+2021Q2,117,18,国内総所得,GDI,568620.3
+2021Q2,117,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,27410.6
+2021Q2,117,20,受取,Receipt,38861.8
+2021Q2,117,21,支払,Payment,11451.2
+2021Q2,117,22,国民総所得,GNI,596030.9
+2021Q2,117,24,国内需要,DomesticDemand,570506.0
+2021Q2,117,25,民間需要,PrivateDemand,422491.2
+2021Q2,117,26,公的需要,PublicDemand,148016.6
+2021Q2,117,28,総固定資本形成,Gross Fixed CapitalFormation,153094.6
+2021Q2,117,30,最終需要,Final Sales of Domestic Product,573272.6
+2021Q3,118,2,国内総生産(支出側),GDP(Expenditure Approach),573137.1
+2021Q3,118,3,民間最終消費支出,PrivateConsumption,295826.2
+2021Q3,118,4,家計最終消費支出,Consumption ofHouseholds,285499.7
+2021Q3,118,5,除く持ち家の帰属家賃,ExcludingImputed Rent,232470.3
+2021Q3,118,6,民間住宅,PrivateResidentialInvestment,22610.4
+2021Q3,118,7,民間企業設備,Private Non-Resi.Investment,99314.2
+2021Q3,118,8,民間在庫変動,Changein PrivateInventories,2491.6
+2021Q3,118,9,政府最終消費支出,GovernmentConsumption,118722.2
+2021Q3,118,10,公的固定資本形成,PublicInvestment,29611.7
+2021Q3,118,11,公的在庫変動,Changein PublicInventories,-57.7
+2021Q3,118,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,4630.2
+2021Q3,118,13,輸出,Exports,93972.6
+2021Q3,118,14,輸入,Imports,89342.4
+2021Q3,118,15,開差,Residual,-11.7
+2021Q3,118,17,交易利得,TradingGains/Losses,-8239.5
+2021Q3,118,18,国内総所得,GDI,564897.6
+2021Q3,118,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,26773.9
+2021Q3,118,20,受取,Receipt,38306.9
+2021Q3,118,21,支払,Payment,11533.1
+2021Q3,118,22,国民総所得,GNI,591671.4
+2021Q3,118,24,国内需要,DomesticDemand,568533.5
+2021Q3,118,25,民間需要,PrivateDemand,420256.6
+2021Q3,118,26,公的需要,PublicDemand,148277.2
+2021Q3,118,28,総固定資本形成,Gross Fixed CapitalFormation,151535.6
+2021Q3,118,30,最終需要,Final Sales of Domestic Product,570687.0
+2021Q4,119,2,国内総生産(支出側),GDP(Expenditure Approach),579998.5
+2021Q4,119,3,民間最終消費支出,PrivateConsumption,304632.2
+2021Q4,119,4,家計最終消費支出,Consumption ofHouseholds,294359.1
+2021Q4,119,5,除く持ち家の帰属家賃,ExcludingImputed Rent,241217.7
+2021Q4,119,6,民間住宅,PrivateResidentialInvestment,22630.5
+2021Q4,119,7,民間企業設備,Private Non-Resi.Investment,99382.4
+2021Q4,119,8,民間在庫変動,Changein PrivateInventories,2513.2
+2021Q4,119,9,政府最終消費支出,GovernmentConsumption,117884.6
+2021Q4,119,10,公的固定資本形成,PublicInvestment,29134.2
+2021Q4,119,11,公的在庫変動,Changein PublicInventories,-22.8
+2021Q4,119,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3814.6
+2021Q4,119,13,輸出,Exports,93444.1
+2021Q4,119,14,輸入,Imports,89629.5
+2021Q4,119,15,開差,Residual,29.6
+2021Q4,119,17,交易利得,TradingGains/Losses,-10861.4
+2021Q4,119,18,国内総所得,GDI,569137.0
+2021Q4,119,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,28249.1
+2021Q4,119,20,受取,Receipt,40941.0
+2021Q4,119,21,支払,Payment,12691.9
+2021Q4,119,22,国民総所得,GNI,597386.2
+2021Q4,119,24,国内需要,DomesticDemand,576183.0
+2021Q4,119,25,民間需要,PrivateDemand,429190.0
+2021Q4,119,26,公的需要,PublicDemand,146990.2
+2021Q4,119,28,総固定資本形成,Gross Fixed CapitalFormation,151146.2
+2021Q4,119,30,最終需要,Final Sales of Domestic Product,577466.0
+2022Q1,120,2,国内総生産(支出側),GDP(Expenditure Approach),578113.5
+2022Q1,120,3,民間最終消費支出,PrivateConsumption,302018.0
+2022Q1,120,4,家計最終消費支出,Consumption ofHouseholds,291656.3
+2022Q1,120,5,除く持ち家の帰属家賃,ExcludingImputed Rent,238399.1
+2022Q1,120,6,民間住宅,PrivateResidentialInvestment,22700.5
+2022Q1,120,7,民間企業設備,Private Non-Resi.Investment,100431.5
+2022Q1,120,8,民間在庫変動,Changein PrivateInventories,3206.7
+2022Q1,120,9,政府最終消費支出,GovernmentConsumption,118474.2
+2022Q1,120,10,公的固定資本形成,PublicInvestment,27691.3
+2022Q1,120,11,公的在庫変動,Changein PublicInventories,-17.8
+2022Q1,120,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3780.6
+2022Q1,120,13,輸出,Exports,97006.4
+2022Q1,120,14,輸入,Imports,93225.8
+2022Q1,120,15,開差,Residual,-171.4
+2022Q1,120,17,交易利得,TradingGains/Losses,-13588.3
+2022Q1,120,18,国内総所得,GDI,564525.3
+2022Q1,120,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,31868.9
+2022Q1,120,20,受取,Receipt,44658.0
+2022Q1,120,21,支払,Payment,12789.1
+2022Q1,120,22,国民総所得,GNI,596394.2
+2022Q1,120,24,国内需要,DomesticDemand,574578.2
+2022Q1,120,25,民間需要,PrivateDemand,428460.9
+2022Q1,120,26,公的需要,PublicDemand,146105.5
+2022Q1,120,28,総固定資本形成,Gross Fixed CapitalFormation,150814.5
+2022Q1,120,30,最終需要,Final Sales of Domestic Product,574800.8
+2022Q2,121,2,国内総生産(支出側),GDP(Expenditure Approach),583356.1
+2022Q2,121,3,民間最終消費支出,PrivateConsumption,306650.9
+2022Q2,121,4,家計最終消費支出,Consumption ofHouseholds,296213.1
+2022Q2,121,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242869.9
+2022Q2,121,6,民間住宅,PrivateResidentialInvestment,22594.6
+2022Q2,121,7,民間企業設備,Private Non-Resi.Investment,102561.6
+2022Q2,121,8,民間在庫変動,Changein PrivateInventories,1909.6
+2022Q2,121,9,政府最終消費支出,GovernmentConsumption,119642.9
+2022Q2,121,10,公的固定資本形成,PublicInvestment,27143.8
+2022Q2,121,11,公的在庫変動,Changein PublicInventories,98.1
+2022Q2,121,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,3089.9
+2022Q2,121,13,輸出,Exports,97739.5
+2022Q2,121,14,輸入,Imports,94649.6
+2022Q2,121,15,開差,Residual,-335.4
+2022Q2,121,17,交易利得,TradingGains/Losses,-17495.0
+2022Q2,121,18,国内総所得,GDI,565861.1
+2022Q2,121,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,30669.6
+2022Q2,121,20,受取,Receipt,44569.5
+2022Q2,121,21,支払,Payment,13899.9
+2022Q2,121,22,国民総所得,GNI,596530.7
+2022Q2,121,24,国内需要,DomesticDemand,580591.8
+2022Q2,121,25,民間需要,PrivateDemand,433715.8
+2022Q2,121,26,公的需要,PublicDemand,146855.4
+2022Q2,121,28,総固定資本形成,Gross Fixed CapitalFormation,152270.3
+2022Q2,121,30,最終需要,Final Sales of Domestic Product,581290.5
+2022Q3,122,2,国内総生産(支出側),GDP(Expenditure Approach),581257.3
+2022Q3,122,3,民間最終消費支出,PrivateConsumption,306731.3
+2022Q3,122,4,家計最終消費支出,Consumption ofHouseholds,296268.4
+2022Q3,122,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242822.7
+2022Q3,122,6,民間住宅,PrivateResidentialInvestment,22898.5
+2022Q3,122,7,民間企業設備,Private Non-Resi.Investment,103689.8
+2022Q3,122,8,民間在庫変動,Changein PrivateInventories,2531.6
+2022Q3,122,9,政府最終消費支出,GovernmentConsumption,118922.0
+2022Q3,122,10,公的固定資本形成,PublicInvestment,27261.1
+2022Q3,122,11,公的在庫変動,Changein PublicInventories,-167.8
+2022Q3,122,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,341.6
+2022Q3,122,13,輸出,Exports,99527.5
+2022Q3,122,14,輸入,Imports,99185.8
+2022Q3,122,15,開差,Residual,-950.9
+2022Q3,122,17,交易利得,TradingGains/Losses,-20495.8
+2022Q3,122,18,国内総所得,GDI,560761.6
+2022Q3,122,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,33193.4
+2022Q3,122,20,受取,Receipt,47720.5
+2022Q3,122,21,支払,Payment,14527.1
+2022Q3,122,22,国民総所得,GNI,593955.0
+2022Q3,122,24,国内需要,DomesticDemand,581853.7
+2022Q3,122,25,民間需要,PrivateDemand,435900.2
+2022Q3,122,26,公的需要,PublicDemand,145923.5
+2022Q3,122,28,総固定資本形成,Gross Fixed CapitalFormation,153819.9
+2022Q3,122,30,最終需要,Final Sales of Domestic Product,578853.9
+2022Q4,123,2,国内総生産(支出側),GDP(Expenditure Approach),583951.1
+2022Q4,123,3,民間最終消費支出,PrivateConsumption,307671.2
+2022Q4,123,4,家計最終消費支出,Consumption ofHouseholds,297166.4
+2022Q4,123,5,除く持ち家の帰属家賃,ExcludingImputed Rent,243618.5
+2022Q4,123,6,民間住宅,PrivateResidentialInvestment,22819.6
+2022Q4,123,7,民間企業設備,Private Non-Resi.Investment,103526.3
+2022Q4,123,8,民間在庫変動,Changein PrivateInventories,1847.5
+2022Q4,123,9,政府最終消費支出,GovernmentConsumption,120022.0
+2022Q4,123,10,公的固定資本形成,PublicInvestment,27556.6
+2022Q4,123,11,公的在庫変動,Changein PublicInventories,108.3
+2022Q4,123,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,1363.7
+2022Q4,123,13,輸出,Exports,100363.7
+2022Q4,123,14,輸入,Imports,99000.0
+2022Q4,123,15,開差,Residual,-964.1
+2022Q4,123,17,交易利得,TradingGains/Losses,-18687.1
+2022Q4,123,18,国内総所得,GDI,565264.0
+2022Q4,123,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,37993.9
+2022Q4,123,20,受取,Receipt,54445.3
+2022Q4,123,21,支払,Payment,16451.4
+2022Q4,123,22,国民総所得,GNI,603257.9
+2022Q4,123,24,国内需要,DomesticDemand,583544.7
+2022Q4,123,25,民間需要,PrivateDemand,435845.6
+2022Q4,123,26,公的需要,PublicDemand,147678.5
+2022Q4,123,28,総固定資本形成,Gross Fixed CapitalFormation,153870.7
+2022Q4,123,30,最終需要,Final Sales of Domestic Product,581945.3
+2023Q1,124,2,国内総生産(支出側),GDP(Expenditure Approach),588715.8
+2023Q1,124,3,民間最終消費支出,PrivateConsumption,309375.5
+2023Q1,124,4,家計最終消費支出,Consumption ofHouseholds,298810.8
+2023Q1,124,5,除く持ち家の帰属家賃,ExcludingImputed Rent,245150.8
+2023Q1,124,6,民間住宅,PrivateResidentialInvestment,22940.0
+2023Q1,124,7,民間企業設備,Private Non-Resi.Investment,105093.6
+2023Q1,124,8,民間在庫変動,Changein PrivateInventories,1092.6
+2023Q1,124,9,政府最終消費支出,GovernmentConsumption,120195.8
+2023Q1,124,10,公的固定資本形成,PublicInvestment,28660.6
+2023Q1,124,11,公的在庫変動,Changein PublicInventories,66.9
+2023Q1,124,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,1908.6
+2023Q1,124,13,輸出,Exports,99266.3
+2023Q1,124,14,輸入,Imports,97357.7
+2023Q1,124,15,開差,Residual,-618.0
+2023Q1,124,17,交易利得,TradingGains/Losses,-16617.2
+2023Q1,124,18,国内総所得,GDI,572098.6
+2023Q1,124,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,30929.1
+2023Q1,124,20,受取,Receipt,49516.4
+2023Q1,124,21,支払,Payment,18587.3
+2023Q1,124,22,国民総所得,GNI,603027.7
+2023Q1,124,24,国内需要,DomesticDemand,587297.9
+2023Q1,124,25,民間需要,PrivateDemand,438339.9
+2023Q1,124,26,公的需要,PublicDemand,148947.8
+2023Q1,124,28,総固定資本形成,Gross Fixed CapitalFormation,156646.5
+2023Q1,124,30,最終需要,Final Sales of Domestic Product,587715.2
+2023Q2,125,2,国内総生産(支出側),GDP(Expenditure Approach),589184.2
+2023Q2,125,3,民間最終消費支出,PrivateConsumption,306461.0
+2023Q2,125,4,家計最終消費支出,Consumption ofHouseholds,295788.6
+2023Q2,125,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242031.4
+2023Q2,125,6,民間住宅,PrivateResidentialInvestment,23592.3
+2023Q2,125,7,民間企業設備,Private Non-Resi.Investment,103392.6
+2023Q2,125,8,民間在庫変動,Changein PrivateInventories,1161.4
+2023Q2,125,9,政府最終消費支出,GovernmentConsumption,118545.0
+2023Q2,125,10,公的固定資本形成,PublicInvestment,28333.9
+2023Q2,125,11,公的在庫変動,Changein PublicInventories,-106.8
+2023Q2,125,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,6877.8
+2023Q2,125,13,輸出,Exports,100740.5
+2023Q2,125,14,輸入,Imports,93862.7
+2023Q2,125,15,開差,Residual,927.0
+2023Q2,125,17,交易利得,TradingGains/Losses,-12031.1
+2023Q2,125,18,国内総所得,GDI,577153.1
+2023Q2,125,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,33706.0
+2023Q2,125,20,受取,Receipt,53358.4
+2023Q2,125,21,支払,Payment,19652.4
+2023Q2,125,22,国民総所得,GNI,610859.1
+2023Q2,125,24,国内需要,DomesticDemand,581231.7
+2023Q2,125,25,民間需要,PrivateDemand,434508.7
+2023Q2,125,26,公的需要,PublicDemand,146697.2
+2023Q2,125,28,総固定資本形成,Gross Fixed CapitalFormation,155331.7
+2023Q2,125,30,最終需要,Final Sales of Domestic Product,588404.5
+2023Q3,126,2,国内総生産(支出側),GDP(Expenditure Approach),581135.4
+2023Q3,126,3,民間最終消費支出,PrivateConsumption,304288.9
+2023Q3,126,4,家計最終消費支出,Consumption ofHouseholds,293515.7
+2023Q3,126,5,除く持ち家の帰属家賃,ExcludingImputed Rent,239671.6
+2023Q3,126,6,民間住宅,PrivateResidentialInvestment,23233.0
+2023Q3,126,7,民間企業設備,Private Non-Resi.Investment,102954.0
+2023Q3,126,8,民間在庫変動,Changein PrivateInventories,-2129.9
+2023Q3,126,9,政府最終消費支出,GovernmentConsumption,118692.0
+2023Q3,126,10,公的固定資本形成,PublicInvestment,27746.2
+2023Q3,126,11,公的在庫変動,Changein PublicInventories,-196.7
+2023Q3,126,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,6913.4
+2023Q3,126,13,輸出,Exports,102107.1
+2023Q3,126,14,輸入,Imports,95193.7
+2023Q3,126,15,開差,Residual,-365.4
+2023Q3,126,17,交易利得,TradingGains/Losses,-10136.0
+2023Q3,126,18,国内総所得,GDI,570999.4
+2023Q3,126,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,32529.2
+2023Q3,126,20,受取,Receipt,53621.7
+2023Q3,126,21,支払,Payment,21092.4
+2023Q3,126,22,国民総所得,GNI,603528.6
+2023Q3,126,24,国内需要,DomesticDemand,573793.9
+2023Q3,126,25,民間需要,PrivateDemand,427709.8
+2023Q3,126,26,公的需要,PublicDemand,146090.1
+2023Q3,126,28,総固定資本形成,Gross Fixed CapitalFormation,153930.8
+2023Q3,126,30,最終需要,Final Sales of Domestic Product,584487.2
+2023Q4,127,2,国内総生産(支出側),GDP(Expenditure Approach),584209.4
+2023Q4,127,3,民間最終消費支出,PrivateConsumption,304247.9
+2023Q4,127,4,家計最終消費支出,Consumption ofHouseholds,293495.4
+2023Q4,127,5,除く持ち家の帰属家賃,ExcludingImputed Rent,239579.3
+2023Q4,127,6,民間住宅,PrivateResidentialInvestment,23198.1
+2023Q4,127,7,民間企業設備,Private Non-Resi.Investment,105145.5
+2023Q4,127,8,民間在庫変動,Changein PrivateInventories,-703.6
+2023Q4,127,9,政府最終消費支出,GovernmentConsumption,118681.4
+2023Q4,127,10,公的固定資本形成,PublicInvestment,27617.5
+2023Q4,127,11,公的在庫変動,Changein PublicInventories,-171.9
+2023Q4,127,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,6799.0
+2023Q4,127,13,輸出,Exports,104690.3
+2023Q4,127,14,輸入,Imports,97891.3
+2023Q4,127,15,開差,Residual,-604.4
+2023Q4,127,17,交易利得,TradingGains/Losses,-11076.3
+2023Q4,127,18,国内総所得,GDI,573133.0
+2023Q4,127,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,34740.1
+2023Q4,127,20,受取,Receipt,56149.1
+2023Q4,127,21,支払,Payment,21409.0
+2023Q4,127,22,国民総所得,GNI,607873.1
+2023Q4,127,24,国内需要,DomesticDemand,577490.0
+2023Q4,127,25,民間需要,PrivateDemand,431478.9
+2023Q4,127,26,公的需要,PublicDemand,145991.0
+2023Q4,127,28,総固定資本形成,Gross Fixed CapitalFormation,155928.3
+2023Q4,127,30,最終需要,Final Sales of Domestic Product,585788.1
+2024Q1,128,2,国内総生産(支出側),GDP(Expenditure Approach),582459.5
+2024Q1,128,3,民間最終消費支出,PrivateConsumption,303565.5
+2024Q1,128,4,家計最終消費支出,Consumption ofHouseholds,292952.2
+2024Q1,128,5,除く持ち家の帰属家賃,ExcludingImputed Rent,239012.6
+2024Q1,128,6,民間住宅,PrivateResidentialInvestment,22890.0
+2024Q1,128,7,民間企業設備,Private Non-Resi.Investment,103308.7
+2024Q1,128,8,民間在庫変動,Changein PrivateInventories,-483.2
+2024Q1,128,9,政府最終消費支出,GovernmentConsumption,119065.0
+2024Q1,128,10,公的固定資本形成,PublicInvestment,27196.2
+2024Q1,128,11,公的在庫変動,Changein PublicInventories,-184.7
+2024Q1,128,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,7093.6
+2024Q1,128,13,輸出,Exports,101645.3
+2024Q1,128,14,輸入,Imports,94551.7
+2024Q1,128,15,開差,Residual,8.6
+2024Q1,128,17,交易利得,TradingGains/Losses,-11582.4
+2024Q1,128,18,国内総所得,GDI,570877.2
+2024Q1,128,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,33415.1
+2024Q1,128,20,受取,Receipt,55950.9
+2024Q1,128,21,支払,Payment,22535.8
+2024Q1,128,22,国民総所得,GNI,604292.3
+2024Q1,128,24,国内需要,DomesticDemand,574802.9
+2024Q1,128,25,民間需要,PrivateDemand,428891.1
+2024Q1,128,26,公的需要,PublicDemand,145908.8
+2024Q1,128,28,総固定資本形成,Gross Fixed CapitalFormation,153368.9
+2024Q1,128,30,最終需要,Final Sales of Domestic Product,583779.7
+2024Q2,129,2,国内総生産(支出側),GDP(Expenditure Approach),582337.7
+2024Q2,129,3,民間最終消費支出,PrivateConsumption,303450.2
+2024Q2,129,4,家計最終消費支出,Consumption ofHouseholds,293043.7
+2024Q2,129,5,除く持ち家の帰属家賃,ExcludingImputed Rent,239039.2
+2024Q2,129,6,民間住宅,PrivateResidentialInvestment,22783.2
+2024Q2,129,7,民間企業設備,Private Non-Resi.Investment,104062.5
+2024Q2,129,8,民間在庫変動,Changein PrivateInventories,-1271.0
+2024Q2,129,9,政府最終消費支出,GovernmentConsumption,121501.7
+2024Q2,129,10,公的固定資本形成,PublicInvestment,27521.3
+2024Q2,129,11,公的在庫変動,Changein PublicInventories,-36.3
+2024Q2,129,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,5159.4
+2024Q2,129,13,輸出,Exports,102476.8
+2024Q2,129,14,輸入,Imports,97317.4
+2024Q2,129,15,開差,Residual,-833.2
+2024Q2,129,17,交易利得,TradingGains/Losses,-9596.0
+2024Q2,129,18,国内総所得,GDI,572741.7
+2024Q2,129,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,36182.9
+2024Q2,129,20,受取,Receipt,59163.5
+2024Q2,129,21,支払,Payment,22980.5
+2024Q2,129,22,国民総所得,GNI,608924.7
+2024Q2,129,24,国内需要,DomesticDemand,577329.0
+2024Q2,129,25,民間需要,PrivateDemand,428521.1
+2024Q2,129,26,公的需要,PublicDemand,148877.6
+2024Q2,129,28,総固定資本形成,Gross Fixed CapitalFormation,154330.0
+2024Q2,129,30,最終需要,Final Sales of Domestic Product,584364.5
+2024Q3,130,2,国内総生産(支出側),GDP(Expenditure Approach),586317.9
+2024Q3,130,3,民間最終消費支出,PrivateConsumption,304926.5
+2024Q3,130,4,家計最終消費支出,Consumption ofHouseholds,294675.8
+2024Q3,130,5,除く持ち家の帰属家賃,ExcludingImputed Rent,240595.8
+2024Q3,130,6,民間住宅,PrivateResidentialInvestment,23085.8
+2024Q3,130,7,民間企業設備,Private Non-Resi.Investment,104875.6
+2024Q3,130,8,民間在庫変動,Changein PrivateInventories,509.6
+2024Q3,130,9,政府最終消費支出,GovernmentConsumption,121542.4
+2024Q3,130,10,公的固定資本形成,PublicInvestment,27878.9
+2024Q3,130,11,公的在庫変動,Changein PublicInventories,-26.8
+2024Q3,130,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,4488.9
+2024Q3,130,13,輸出,Exports,104916.2
+2024Q3,130,14,輸入,Imports,100427.3
+2024Q3,130,15,開差,Residual,-963.0
+2024Q3,130,17,交易利得,TradingGains/Losses,-9113.4
+2024Q3,130,18,国内総所得,GDI,577204.5
+2024Q3,130,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,35596.6
+2024Q3,130,20,受取,Receipt,59456.2
+2024Q3,130,21,支払,Payment,23859.7
+2024Q3,130,22,国民総所得,GNI,612801.0
+2024Q3,130,24,国内需要,DomesticDemand,582439.3
+2024Q3,130,25,民間需要,PrivateDemand,433175.0
+2024Q3,130,26,公的需要,PublicDemand,149306.5
+2024Q3,130,28,総固定資本形成,Gross Fixed CapitalFormation,155809.1
+2024Q3,130,30,最終需要,Final Sales of Domestic Product,586210.5
+2024Q4,131,2,国内総生産(支出側),GDP(Expenditure Approach),588359.1
+2024Q4,131,3,民間最終消費支出,PrivateConsumption,304858.3
+2024Q4,131,4,家計最終消費支出,Consumption ofHouseholds,294602.6
+2024Q4,131,5,除く持ち家の帰属家賃,ExcludingImputed Rent,240452.3
+2024Q4,131,6,民間住宅,PrivateResidentialInvestment,23244.4
+2024Q4,131,7,民間企業設備,Private Non-Resi.Investment,103982.9
+2024Q4,131,8,民間在庫変動,Changein PrivateInventories,-854.2
+2024Q4,131,9,政府最終消費支出,GovernmentConsumption,121594.4
+2024Q4,131,10,公的固定資本形成,PublicInvestment,27788.2
+2024Q4,131,11,公的在庫変動,Changein PublicInventories,-146.6
+2024Q4,131,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,8092.1
+2024Q4,131,13,輸出,Exports,106628.1
+2024Q4,131,14,輸入,Imports,98535.9
+2024Q4,131,15,開差,Residual,-200.4
+2024Q4,131,17,交易利得,TradingGains/Losses,-9049.3
+2024Q4,131,18,国内総所得,GDI,579309.8
+2024Q4,131,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,34438.0
+2024Q4,131,20,受取,Receipt,57654.3
+2024Q4,131,21,支払,Payment,23216.3
+2024Q4,131,22,国民総所得,GNI,613747.8
+2024Q4,131,24,国内需要,DomesticDemand,579837.0
+2024Q4,131,25,民間需要,PrivateDemand,430809.7
+2024Q4,131,26,公的需要,PublicDemand,149084.2
+2024Q4,131,28,総固定資本形成,Gross Fixed CapitalFormation,155000.1
+2024Q4,131,30,最終需要,Final Sales of Domestic Product,590053.1
+2025Q1,132,2,国内総生産(支出側),GDP(Expenditure Approach),591344.0
+2025Q1,132,3,民間最終消費支出,PrivateConsumption,306760.0
+2025Q1,132,4,家計最終消費支出,Consumption ofHouseholds,296336.8
+2025Q1,132,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242106.5
+2025Q1,132,6,民間住宅,PrivateResidentialInvestment,23118.9
+2025Q1,132,7,民間企業設備,Private Non-Resi.Investment,105183.2
+2025Q1,132,8,民間在庫変動,Changein PrivateInventories,2540.4
+2025Q1,132,9,政府最終消費支出,GovernmentConsumption,121286.9
+2025Q1,132,10,公的固定資本形成,PublicInvestment,27556.7
+2025Q1,132,11,公的在庫変動,Changein PublicInventories,13.9
+2025Q1,132,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,5276.0
+2025Q1,132,13,輸出,Exports,106016.5
+2025Q1,132,14,輸入,Imports,100740.5
+2025Q1,132,15,開差,Residual,-391.9
+2025Q1,132,17,交易利得,TradingGains/Losses,-10411.4
+2025Q1,132,18,国内総所得,GDI,580932.7
+2025Q1,132,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,36510.9
+2025Q1,132,20,受取,Receipt,59814.1
+2025Q1,132,21,支払,Payment,23303.2
+2025Q1,132,22,国民総所得,GNI,617443.5
+2025Q1,132,24,国内需要,DomesticDemand,586493.0
+2025Q1,132,25,民間需要,PrivateDemand,437689.7
+2025Q1,132,26,公的需要,PublicDemand,148782.5
+2025Q1,132,28,総固定資本形成,Gross Fixed CapitalFormation,155826.1
+2025Q1,132,30,最終需要,Final Sales of Domestic Product,588761.4
+2025Q2,133,2,国内総生産(支出側),GDP(Expenditure Approach),592943.3
+2025Q2,133,3,民間最終消費支出,PrivateConsumption,307361.2
+2025Q2,133,4,家計最終消費支出,Consumption ofHouseholds,296773.3
+2025Q2,133,5,除く持ち家の帰属家賃,ExcludingImputed Rent,242479.9
+2025Q2,133,6,民間住宅,PrivateResidentialInvestment,23110.9
+2025Q2,133,7,民間企業設備,Private Non-Resi.Investment,106238.0
+2025Q2,133,8,民間在庫変動,Changein PrivateInventories,1291.8
+2025Q2,133,9,政府最終消費支出,GovernmentConsumption,122060.6
+2025Q2,133,10,公的固定資本形成,PublicInvestment,27679.0
+2025Q2,133,11,公的在庫変動,Changein PublicInventories,-107.4
+2025Q2,133,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,5929.7
+2025Q2,133,13,輸出,Exports,107746.0
+2025Q2,133,14,輸入,Imports,101816.3
+2025Q2,133,15,開差,Residual,-620.6
+2025Q2,133,17,交易利得,TradingGains/Losses,-7269.4
+2025Q2,133,18,国内総所得,GDI,585673.9
+2025Q2,133,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,34049.8
+2025Q2,133,20,受取,Receipt,57348.1
+2025Q2,133,21,支払,Payment,23298.2
+2025Q2,133,22,国民総所得,GNI,619723.7
+2025Q2,133,24,国内需要,DomesticDemand,587386.9
+2025Q2,133,25,民間需要,PrivateDemand,437900.6
+2025Q2,133,26,公的需要,PublicDemand,149485.9
+2025Q2,133,28,総固定資本形成,Gross Fixed CapitalFormation,156984.9
+2025Q2,133,30,最終需要,Final Sales of Domestic Product,592035.7
+2025Q3,134,2,国内総生産(支出側),GDP(Expenditure Approach),589459.8
+2025Q3,134,3,民間最終消費支出,PrivateConsumption,308937.0
+2025Q3,134,4,家計最終消費支出,Consumption ofHouseholds,298246.2
+2025Q3,134,5,除く持ち家の帰属家賃,ExcludingImputed Rent,243905.0
+2025Q3,134,6,民間住宅,PrivateResidentialInvestment,21255.6
+2025Q3,134,7,民間企業設備,Private Non-Resi.Investment,106126.3
+2025Q3,134,8,民間在庫変動,Changein PrivateInventories,498.4
+2025Q3,134,9,政府最終消費支出,GovernmentConsumption,122150.9
+2025Q3,134,10,公的固定資本形成,PublicInvestment,27394.7
+2025Q3,134,11,公的在庫変動,Changein PublicInventories,-49.1
+2025Q3,134,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,4406.6
+2025Q3,134,13,輸出,Exports,106054.1
+2025Q3,134,14,輸入,Imports,101647.5
+2025Q3,134,15,開差,Residual,-1260.6
+2025Q3,134,17,交易利得,TradingGains/Losses,-6232.5
+2025Q3,134,18,国内総所得,GDI,583227.3
+2025Q3,134,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,38138.4
+2025Q3,134,20,受取,Receipt,61436.5
+2025Q3,134,21,支払,Payment,23298.2
+2025Q3,134,22,国民総所得,GNI,621365.7
+2025Q3,134,24,国内需要,DomesticDemand,585813.3
+2025Q3,134,25,民間需要,PrivateDemand,436463.4
+2025Q3,134,26,公的需要,PublicDemand,149361.4
+2025Q3,134,28,総固定資本形成,Gross Fixed CapitalFormation,154663.4
+2025Q3,134,30,最終需要,Final Sales of Domestic Product,589405.7
+2025Q4,135,2,国内総生産(支出側),GDP(Expenditure Approach),590545.8
+2025Q4,135,3,民間最終消費支出,PrivateConsumption,309199.8
+2025Q4,135,4,家計最終消費支出,Consumption ofHouseholds,298400.5
+2025Q4,135,5,除く持ち家の帰属家賃,ExcludingImputed Rent,244005.8
+2025Q4,135,6,民間住宅,PrivateResidentialInvestment,22308.8
+2025Q4,135,7,民間企業設備,Private Non-Resi.Investment,107357.4
+2025Q4,135,8,民間在庫変動,Changein PrivateInventories,-1408.0
+2025Q4,135,9,政府最終消費支出,GovernmentConsumption,122614.7
+2025Q4,135,10,公的固定資本形成,PublicInvestment,27359.4
+2025Q4,135,11,公的在庫変動,Changein PublicInventories,-74.2
+2025Q4,135,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,4625.0
+2025Q4,135,13,輸出,Exports,106264.9
+2025Q4,135,14,輸入,Imports,101639.9
+2025Q4,135,15,開差,Residual,-1436.9
+2025Q4,135,17,交易利得,TradingGains/Losses,-5678.1
+2025Q4,135,18,国内総所得,GDI,584867.7
+2025Q4,135,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,35321.6
+2025Q4,135,20,受取,Receipt,59567.3
+2025Q4,135,21,支払,Payment,24245.6
+2025Q4,135,22,国民総所得,GNI,620189.3
+2025Q4,135,24,国内需要,DomesticDemand,586607.1
+2025Q4,135,25,民間需要,PrivateDemand,436885.1
+2025Q4,135,26,公的需要,PublicDemand,149741.2
+2025Q4,135,28,総固定資本形成,Gross Fixed CapitalFormation,156940.5
+2025Q4,135,30,最終需要,Final Sales of Domestic Product,592799.3
+2026Q1,136,2,国内総生産(支出側),GDP(Expenditure Approach),593218.8
+2026Q1,136,3,民間最終消費支出,PrivateConsumption,310270.5
+2026Q1,136,4,家計最終消費支出,Consumption ofHouseholds,299356.9
+2026Q1,136,5,除く持ち家の帰属家賃,ExcludingImputed Rent,244896.1
+2026Q1,136,6,民間住宅,PrivateResidentialInvestment,22514.0
+2026Q1,136,7,民間企業設備,Private Non-Resi.Investment,106588.7
+2026Q1,136,8,民間在庫変動,Changein PrivateInventories,-1748.4
+2026Q1,136,9,政府最終消費支出,GovernmentConsumption,123001.0
+2026Q1,136,10,公的固定資本形成,PublicInvestment,27770.2
+2026Q1,136,11,公的在庫変動,Changein PublicInventories,-98.6
+2026Q1,136,12,財貨・サービス / 純輸出,Goods & Services / Net Exports,6125.7
+2026Q1,136,13,輸出,Exports,108190.8
+2026Q1,136,14,輸入,Imports,102065.1
+2026Q1,136,15,開差,Residual,-1204.2
+2026Q1,136,17,交易利得,TradingGains/Losses,-6786.9
+2026Q1,136,18,国内総所得,GDI,586431.9
+2026Q1,136,19,海外からの所得 / 純受取,Income from /to the Rest of the World / Net,36555.6
+2026Q1,136,20,受取,Receipt,60933.2
+2026Q1,136,21,支払,Payment,24377.6
+2026Q1,136,22,国民総所得,GNI,622987.5
+2026Q1,136,24,国内需要,DomesticDemand,587483.2
+2026Q1,136,25,民間需要,PrivateDemand,436999.4
+2026Q1,136,26,公的需要,PublicDemand,150528.4
+2026Q1,136,28,総固定資本形成,Gross Fixed CapitalFormation,156806.2
+2026Q1,136,30,最終需要,Final Sales of Domestic Product,595903.9
