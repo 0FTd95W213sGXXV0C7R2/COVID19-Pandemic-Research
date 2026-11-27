@@ -1,0 +1,27 @@
+{
+  "publisher": "厚生労働省",
+  "date_jst": "2026-11-27",
+  "sources": [
+    {
+      "year": 2017,
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032117118",
+      "rows": 12384
+    },
+    {
+      "year": 2018,
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032117102",
+      "rows": 12384
+    },
+    {
+      "year": 2019,
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032117086",
+      "rows": 12384
+    }
+  ],
+  "new_rows": 37152,
+  "new_numeric": 35952,
+  "total_rows": 106752,
+  "sha256": "7e0e3912f367bec74f0c2b02b837815f8c29e2ee9bdb3c0b0bb6f6f89e550dbc",
+  "status": "PENDING_QA",
+  "limitations": "Pre-2020 reestimated tables retained as separate classification. No independent source reconciliation or cross-classification equivalence determination. Existing 2020–2024 candidate CSV appended unchanged."
+}
