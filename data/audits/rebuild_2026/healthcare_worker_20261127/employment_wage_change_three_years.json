@@ -1,0 +1,68 @@
+{
+  "publisher": "厚生労働省",
+  "survey": "雇用動向調査",
+  "sheet": "A01301",
+  "unit": "千人",
+  "columns": "E:L",
+  "industry_code": 83,
+  "records": [
+    {
+      "year": 2021,
+      "stat_infid": "000032232310",
+      "sha256": "27ad8a2f105664e91fa73466125ef7e56ea4e99fb0bddd89db603d74a93f4c9d",
+      "row": 62,
+      "values": [
+        315.6,
+        24.8,
+        48.4,
+        35.8,
+        80.3,
+        30.9,
+        48.7,
+        39.4
+      ],
+      "residual": 7.3
+    },
+    {
+      "year": 2022,
+      "stat_infid": "000040096419",
+      "sha256": "cfb014a415a4dca2caad11f67fc047e66c6410a884d38f157e38b115dc0e1808",
+      "row": 63,
+      "values": [
+        334.6,
+        44.3,
+        68.1,
+        44.9,
+        68.1,
+        21.4,
+        47.3,
+        38.4
+      ],
+      "residual": 2.1
+    },
+    {
+      "year": 2024,
+      "stat_infid": "000040305975",
+      "sha256": "8a635d8c80ee8f49851de28c2493f78d87c206a81455e6bb7da613f137eb325b",
+      "row": 63,
+      "values": [
+        403.6,
+        50,
+        87.5,
+        40,
+        92.2,
+        35,
+        58.2,
+        39.8
+      ],
+      "residual": 0.9
+    }
+  ],
+  "status": "PENDING_ORIGINAL_QA",
+  "limitations": [
+    "Saved raw-cell CSV checked using Python; original workbook not independently checked",
+    "2021 period from acquisition manifest; explicit year label absent in extracted header",
+    "Residual cause unknown",
+    "2021 official listing access failed"
+  ]
+}
