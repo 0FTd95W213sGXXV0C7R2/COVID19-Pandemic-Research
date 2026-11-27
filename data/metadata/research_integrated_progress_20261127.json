@@ -1278,19 +1278,22 @@
       "target": "休業校数割合",
       "priority": "最優先",
       "status": "L3",
-      "status_scope": "2020-05-11調査の部分証拠。政策日次・実休業日数の確定ではない。",
+      "status_scope": "L3 系列全体。第1バッチ6観測日（2022-01-26〜05-09）は既存監査報告に基づき条件付き採用",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
         "data/audits/rebuild_2026/economy_education_20261127/school_prefecture_closure_20200511.csv",
         "data/audits/rebuild_2026/economy_education_20261127/school_closure_history.csv",
-        "data/audits/rebuild_2026/economy_education_20261127/school_pages8_10_visual_QA.md"
+        "data/audits/rebuild_2026/economy_education_20261127/school_pages8_10_visual_QA.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_batch1_metadata_QA.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_batch1_coordinate_QA.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_prefecture_batch1.csv"
       ],
       "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
-      "analysis_eligibility": "正式採用保留",
-      "remaining": "時点地域別・最優先",
-      "next_action": "観測時点・母集団・政策日付の区別、追加時点取得",
-      "updated_jst": "2026/11/27 18:02:55"
+      "analysis_eligibility": "第1バッチのみ記述・探索的相関。日次補間・因果推論不可",
+      "remaining": "残り13観測日の原本・地域別データ監査、登録済み監査コードの再実行確認",
+      "next_action": "第2バッチ4原本取得、既存10月・12月監査",
+      "updated_jst": "2026/11/27 22:47:05"
     },
     {
       "id": "EDU03",
