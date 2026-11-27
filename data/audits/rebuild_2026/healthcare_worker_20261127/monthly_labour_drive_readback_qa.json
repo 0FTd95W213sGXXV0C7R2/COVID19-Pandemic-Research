@@ -1,0 +1,21 @@
+{
+  "verified_at_jst": "2026-11-27T10:43:25+09:00",
+  "method": "Materialize two Drive files separately; sha256sum against local originals; gzip header and first records inspected",
+  "files": [
+    {
+      "name": "monthly_labour_2017_2024_candidates.csv.gz",
+      "bytes": 1031641,
+      "original_sha256": "b5f35d6becbb1ef172de6cfa32d580d4ebd05990fa65d9a062565105eacc450e",
+      "readback_sha256": "b5f35d6becbb1ef172de6cfa32d580d4ebd05990fa65d9a062565105eacc450e",
+      "match": true
+    },
+    {
+      "name": "extraction_audit.json",
+      "bytes": 3058,
+      "original_sha256": "9898fb27fbe8b01c98f45850a223b620c140ab925af761ce0cdbbc1aa4e8a9dc",
+      "readback_sha256": "9898fb27fbe8b01c98f45850a223b620c140ab925af761ce0cdbbc1aa4e8a9dc",
+      "match": true
+    }
+  ],
+  "limitations": "Byte integrity only; earlier yearbook comparison and full numeric accuracy not verified in this run. Adoption PENDING_QA."
+}
