@@ -1,0 +1,31 @@
+{
+  "date_jst": "2026-11-27",
+  "status": "PARTIAL_UNIT_EVIDENCE",
+  "verified_reporting_units": {
+    "payroll": "JPY/person/month",
+    "hours": "hours/person/month",
+    "attendance": "days/person/month",
+    "growth": "percent",
+    "parttime_share": "percent",
+    "parttime_share_difference": "percentage points"
+  },
+  "sources": [
+    {
+      "author": "厚生労働省",
+      "title": "毎月勤労統計調査 令和6年分結果確報",
+      "published": "2025-02-25",
+      "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r06/24cr/dl/pdf24cr.pdf"
+    },
+    {
+      "author": "山口労働局",
+      "title": "第8表 事業所規模、性別、就業形態別常用労働者の一人平均月間現金給与額、出勤日数及び実労働時間",
+      "url": "https://jsite.mhlw.go.jp/yamaguchi-roudoukyoku/content/contents/002871619.pdf"
+    },
+    {
+      "author": "厚生労働省",
+      "title": "2024年年報 第13表",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040445566"
+    }
+  ],
+  "limitations": "Official public reporting units verified via retrieved web excerpts, not independently matched to cumulative CSV values. No saved yearbook workbook parsing or numerical QA this turn. Exact timestamp and Notion update pending. Prior audit execution claims require reproducible evidence."
+}
