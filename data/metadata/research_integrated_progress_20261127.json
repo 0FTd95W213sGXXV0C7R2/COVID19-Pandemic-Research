@@ -1278,7 +1278,7 @@
       "target": "休業校数割合",
       "priority": "最優先",
       "status": "L3",
-      "status_scope": "L3 系列全体。8観測日（第1バッチ6日、10月3日、12月1日）は条件付き採用",
+      "status_scope": "L3 系列全体。2022年12観測日を条件付き採用",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
@@ -1290,13 +1290,16 @@
         "data/audits/rebuild_2026/economy_education_20261127/education_prefecture_batch1.csv",
         "data/audits/rebuild_2026/economy_education_20261127/education_octdec_metadata_QA.md",
         "data/audits/rebuild_2026/economy_education_20261127/education_octdec_coordinate_QA.md",
-        "data/audits/rebuild_2026/economy_education_20261127/education_prefecture_integrated_8dates_v1.csv"
+        "data/audits/rebuild_2026/economy_education_20261127/education_prefecture_integrated_8dates_v1.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/education_batch2_drive_QA.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_prefecture_integrated_12dates_v1.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/education_batch2_extraction_QA.md"
       ],
       "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
-      "analysis_eligibility": "8観測日の記述・探索的相関、日次補間・因果推論不可",
-      "remaining": "残り11観測日原本取得・構造化・監査、統合CSV Drive保存、登録コード再実行",
-      "next_action": "第2バッチ4原本取得、既存10月・12月監査",
-      "updated_jst": "2026/11/27 22:54:38"
+      "analysis_eligibility": "12観測日の記述・探索的相関。日次補間・因果推論不可",
+      "remaining": "2023年7観測日原本取得・構造化・監査、登録コード再実行、GitHubとDriveの12日版内容照合",
+      "next_action": "2023年原本取得と5類移行前後の定義確認",
+      "updated_jst": "2026/11/28 6:28:18"
     },
     {
       "id": "EDU03",
