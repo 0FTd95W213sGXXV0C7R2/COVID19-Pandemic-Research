@@ -1,0 +1,74 @@
+{
+  "completed_at_jst": "2026-11-27T10:14:38.131689+09:00",
+  "target_count": 3,
+  "acquired_count": 3,
+  "sources": {
+    "000032189776": {
+      "source_id": "000032189776",
+      "publisher": "厚生労働省",
+      "survey": "毎月勤労統計調査",
+      "title": "実数・指数累積データ 実数",
+      "detail_url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189776",
+      "attempted_at_jst": "2026-11-27T10:14:20.617179+09:00",
+      "status": "ACQUIRED",
+      "adoption_status": "PENDING_QA",
+      "attempts": [],
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032189776&fileKind=1",
+      "final_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032189776&fileKind=1",
+      "content_type": "text/csv;charset=UTF-8",
+      "content_disposition": "attachment; filename*=UTF-8''hon-maikin-k-jissu.csv",
+      "bytes": 21026739,
+      "sha256": "f47ee7e36bc158354870350ba8d9543e47257c3bd2532d260d4469093da027d1",
+      "hash_verified": true,
+      "acquired_at_jst": "2026-11-27T10:14:29.745554+09:00",
+      "actual_period_verified": false
+    },
+    "000032189777": {
+      "source_id": "000032189777",
+      "publisher": "厚生労働省",
+      "survey": "毎月勤労統計調査",
+      "title": "実数・指数累積データ 指数・伸び率",
+      "detail_url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189777",
+      "attempted_at_jst": "2026-11-27T10:14:29.757923+09:00",
+      "status": "ACQUIRED",
+      "adoption_status": "PENDING_QA",
+      "attempts": [],
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032189777&fileKind=1",
+      "final_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032189777&fileKind=1",
+      "content_type": "text/csv;charset=UTF-8",
+      "content_disposition": "attachment; filename*=UTF-8''hon-maikin-k-sisu.csv",
+      "bytes": 16653823,
+      "sha256": "6b3c6cf3dc54df118b56e67766a3511dbad0cfdc9d3735559d4f6af84ae5e5cd",
+      "hash_verified": true,
+      "acquired_at_jst": "2026-11-27T10:14:34.836829+09:00",
+      "actual_period_verified": false
+    },
+    "000032189744": {
+      "source_id": "000032189744",
+      "publisher": "厚生労働省",
+      "survey": "毎月勤労統計調査",
+      "title": "総実労働時間 指数及び増減率－一般労働者（5人以上）",
+      "detail_url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189744",
+      "attempted_at_jst": "2026-11-27T10:14:34.843252+09:00",
+      "status": "ACQUIRED",
+      "adoption_status": "PENDING_QA",
+      "attempts": [
+        {
+          "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032189744&fileKind=0",
+          "error": "HTTPError('404 Client Error: Not Found for url: https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032189744&fileKind=0')"
+        }
+      ],
+      "download_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032189744&fileKind=4",
+      "final_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032189744&fileKind=4",
+      "content_type": "application/octet-stream",
+      "content_disposition": "attachment; filename*=UTF-8''hon-t31.xls",
+      "bytes": 758272,
+      "sha256": "e519acee428a28449ebeb8ac966a463e2d58b6e733f7ed6e1ba8dde6e5e1e888",
+      "hash_verified": true,
+      "acquired_at_jst": "2026-11-27T10:14:38.123133+09:00",
+      "actual_period_verified": false
+    }
+  },
+  "actual_period_verified": false,
+  "numerical_extraction_completed": false
+}
