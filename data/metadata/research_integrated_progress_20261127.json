@@ -1,0 +1,1757 @@
+{
+  "source_plan_blob": "82bfc020bad8789fd14b0acc186d59cd327408f0",
+  "scope": "103取得補完監査タスク。既存33系列とは別。部分到達は項目全体の完了を意味しない。時刻は会話提供時刻。",
+  "rows": [
+    {
+      "id": "BG01",
+      "area": "共通",
+      "target": "新規感染者数",
+      "priority": "高",
+      "status": "L2",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "取得済・最終系列確定",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG02",
+      "area": "共通",
+      "target": "死亡者数",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "取得記録・原本照合",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG03",
+      "area": "共通",
+      "target": "Rt",
+      "priority": "高",
+      "status": "L3",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "再構成済・推定法監査",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG04",
+      "area": "共通",
+      "target": "入院・重症者",
+      "priority": "高",
+      "status": "L3",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "構造化済・定義監査",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG05",
+      "area": "共通",
+      "target": "検査・陽性率",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "一部取得",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG06",
+      "area": "共通",
+      "target": "接種率",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要棚卸し",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG07",
+      "area": "共通",
+      "target": "変異株",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要棚卸し",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG08",
+      "area": "共通",
+      "target": "人口・年齢構成",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要棚卸し",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG09",
+      "area": "共通",
+      "target": "緊急事態宣言",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "一部整理・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG10",
+      "area": "共通",
+      "target": "重点措置",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "一部整理・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG11",
+      "area": "共通",
+      "target": "学校休業政策",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "追加・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG12",
+      "area": "共通",
+      "target": "経済支援政策",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "追加",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "BG13",
+      "area": "共通",
+      "target": "人流",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要棚卸し",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-R01",
+      "area": "医療資源",
+      "target": "ICU新規入室・施設別利用",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-R02",
+      "area": "医療資源",
+      "target": "ECMO単独時系列",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-R03",
+      "area": "医療資源",
+      "target": "人工呼吸器利用",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-R04",
+      "area": "医療資源",
+      "target": "地域別資源設備",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-R05",
+      "area": "医療資源",
+      "target": "患者移送・広域調整",
+      "priority": "CONFLICT: 中/高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-R06",
+      "area": "医療資源",
+      "target": "配分判断の倫理支援",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-A01",
+      "area": "非COVIDアクセス",
+      "target": "自治体がん検診受診者数",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-A02",
+      "area": "非COVIDアクセス",
+      "target": "がん検診受診率",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-A03",
+      "area": "非COVIDアクセス",
+      "target": "診断時病期",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-A04",
+      "area": "非COVIDアクセス",
+      "target": "診断・治療遅延",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-A05",
+      "area": "非COVIDアクセス",
+      "target": "手術・予定入院延期",
+      "priority": "高",
+      "status": "L3",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-A06",
+      "area": "非COVIDアクセス",
+      "target": "MEDIAS不足地域期間",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-A07",
+      "area": "非COVIDアクセス",
+      "target": "疾患別受診抑制",
+      "priority": "高",
+      "status": "L3",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-A08",
+      "area": "非COVIDアクセス",
+      "target": "年齢・所得・地域格差",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-P01",
+      "area": "患者家族",
+      "target": "面会制限",
+      "priority": "高",
+      "status": "L3",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "原著抽出済",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-P02",
+      "area": "患者家族",
+      "target": "意思決定参加",
+      "priority": "高",
+      "status": "L2",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "文献取得済",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-P03",
+      "area": "患者家族",
+      "target": "終末期医療",
+      "priority": "高",
+      "status": "L2",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "質的研究取得済",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-P04",
+      "area": "患者家族",
+      "target": "配分受容",
+      "priority": "高",
+      "status": "L3",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "Norisue分母保留",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-P05",
+      "area": "患者家族",
+      "target": "ECMO配分",
+      "priority": "高",
+      "status": "L3",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "Mori不一致保持",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-P06",
+      "area": "患者家族",
+      "target": "単施設意思決定",
+      "priority": "高",
+      "status": "L3",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "Ishizaki記述限定",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-P07",
+      "area": "患者家族",
+      "target": "自律・尊厳侵害",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "一部取得",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-P08",
+      "area": "患者家族",
+      "target": "倫理意思決定支援",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "規範比較済・実態追加",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W01",
+      "area": "医療者",
+      "target": "離職理由",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": "https://www.e-stat.go.jp/statistics/00450073",
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W02",
+      "area": "医療者",
+      "target": "職業別未充足求人",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": "https://www.e-stat.go.jp/statistics/00450073",
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W03",
+      "area": "医療者",
+      "target": "職業別欠員率",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": "https://www.e-stat.go.jp/statistics/00450073",
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W04",
+      "area": "医療者",
+      "target": "施設・職種別人員",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W05",
+      "area": "医療者",
+      "target": "医師歯科医師薬剤師数",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W06",
+      "area": "医療者",
+      "target": "看護職等就業者数",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W07",
+      "area": "医療者",
+      "target": "感染・欠勤・休職",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W08",
+      "area": "医療者",
+      "target": "過労労災",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W09",
+      "area": "医療者",
+      "target": "心理負担・道徳的苦痛",
+      "priority": "高",
+      "status": "L3",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "MED-W10",
+      "area": "医療者",
+      "target": "組織支援・安全対策",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO01",
+      "area": "経済",
+      "target": "実質名目GDP",
+      "priority": "最優先",
+      "status": "L1",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/toukei_2026.html",
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "四半期・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO02",
+      "area": "経済",
+      "target": "民間最終消費",
+      "priority": "最優先",
+      "status": "L1",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/toukei_2026.html",
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "四半期・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO03",
+      "area": "経済",
+      "target": "設備投資",
+      "priority": "高",
+      "status": "L1",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/toukei_2026.html",
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "四半期",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO04",
+      "area": "経済",
+      "target": "家計消費",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO05",
+      "area": "経済",
+      "target": "商業販売額",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次産業別",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO06",
+      "area": "経済",
+      "target": "企業売上利益",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "四半期産業別",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO07",
+      "area": "経済",
+      "target": "倒産休廃業",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次年次",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO08",
+      "area": "経済",
+      "target": "宿泊観光消費",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次四半期",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO09",
+      "area": "経済",
+      "target": "輸出入・鉱工業生産",
+      "priority": "中",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次・中",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO10",
+      "area": "経済",
+      "target": "CPI",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO11",
+      "area": "経済",
+      "target": "失業者数率",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO12",
+      "area": "経済",
+      "target": "就業雇用者数",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO13",
+      "area": "経済",
+      "target": "正規非正規",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次四半期・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO14",
+      "area": "経済",
+      "target": "休業者",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO15",
+      "area": "経済",
+      "target": "労働時間",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO16",
+      "area": "経済",
+      "target": "名目実質賃金",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO17",
+      "area": "経済",
+      "target": "年齢男女産業別所得",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "年次四半期",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO18",
+      "area": "経済",
+      "target": "世帯所得階層別消費",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "年次月次",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO19",
+      "area": "経済",
+      "target": "生活保護困窮支援",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "月次年次",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO20",
+      "area": "経済",
+      "target": "ひとり親等負担",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "調査単位",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO21",
+      "area": "経済",
+      "target": "雇用調整助成金",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO22",
+      "area": "経済",
+      "target": "特別定額給付金",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO23",
+      "area": "経済",
+      "target": "持続化給付金",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO24",
+      "area": "経済",
+      "target": "時短協力金",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO25",
+      "area": "経済",
+      "target": "資金繰り支援",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO26",
+      "area": "経済",
+      "target": "COVID財政支出",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "ECO27",
+      "area": "経済",
+      "target": "金融政策",
+      "priority": "中",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "中",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU01",
+      "area": "教育",
+      "target": "全国一斉休校政策",
+      "priority": "最優先",
+      "status": "L1",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "日次・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU02",
+      "area": "教育",
+      "target": "休業校数割合",
+      "priority": "最優先",
+      "status": "L1",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "時点地域別・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU03",
+      "area": "教育",
+      "target": "休業日数",
+      "priority": "最優先",
+      "status": "L1",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "学校地域別・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU04",
+      "area": "教育",
+      "target": "授業時数対面授業",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "年度学校段階・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU05",
+      "area": "教育",
+      "target": "オンライン授業率",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "時点・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU06",
+      "area": "教育",
+      "target": "ICT端末通信",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "年度地域",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU07",
+      "area": "教育",
+      "target": "行事部活動制限",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU08",
+      "area": "教育",
+      "target": "特別支援・学習支援",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU09",
+      "area": "教育",
+      "target": "給食・居場所",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU10",
+      "area": "教育",
+      "target": "全国学力調査",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "年度教科・最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU11",
+      "area": "教育",
+      "target": "家庭学習時間",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU12",
+      "area": "教育",
+      "target": "学習定着",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU13",
+      "area": "教育",
+      "target": "家庭所得別格差",
+      "priority": "最優先",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "最優先",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU14",
+      "area": "教育",
+      "target": "教育費塾支出",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU15",
+      "area": "教育",
+      "target": "地域学習環境",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU16",
+      "area": "教育",
+      "target": "PISA",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "調査年",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU17",
+      "area": "教育",
+      "target": "進学就職率",
+      "priority": "中",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "年度・中",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU18",
+      "area": "教育",
+      "target": "不登校",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "年度",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU19",
+      "area": "教育",
+      "target": "心理負担",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU20",
+      "area": "教育",
+      "target": "孤立社会参加",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU21",
+      "area": "教育",
+      "target": "身体活動体力",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "年度",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU22",
+      "area": "教育",
+      "target": "睡眠生活習慣",
+      "priority": "中",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "中",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU23",
+      "area": "教育",
+      "target": "大学休退学",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "年度",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU24",
+      "area": "教育",
+      "target": "大学生経済困窮",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU25",
+      "area": "教育",
+      "target": "大学授業形態",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU26",
+      "area": "教育",
+      "target": "教員勤務実態",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU27",
+      "area": "教育",
+      "target": "教員欠員",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU28",
+      "area": "教育",
+      "target": "感染対策追加業務",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU29",
+      "area": "教育",
+      "target": "GIGAスクール",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU30",
+      "area": "教育",
+      "target": "修学支援",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    },
+    {
+      "id": "EDU31",
+      "area": "教育",
+      "target": "学習補償補習",
+      "priority": "高",
+      "status": "UNVERIFIED",
+      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "existing_evidence": [
+        "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+      ],
+      "source": null,
+      "analysis_eligibility": "個別採否確認待ち",
+      "remaining": "要確認・高",
+      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
+      "updated_jst": "2026-11-27T15:44+09:00"
+    }
+  ]
+}
