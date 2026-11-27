@@ -1,0 +1,4 @@
+survey_date,school_type,population,item,option_1_pct,option_2_pct,option_3_pct,option_4_pct,other_pct,source_url,status
+2021-05-27,elementary,national_public,C5_1,22.3,11.2,11.3,53.8,1.3,https://www.nier.go.jp/21chousakekkahoukoku/factsheet/data/21p_418.pdf,provisional_web
+2021-05-27,junior_high,national_public,C5_1,22.3,10.7,11.3,54.1,1.6,https://www.nier.go.jp/21chousakekkahoukoku/factsheet/data/21m_418.pdf,provisional_web
+2021-05-27,elementary,national_public,C5_2,14.2,9.2,17.2,58.1,1.3,https://www.nier.go.jp/21chousakekkahoukoku/factsheet/data/21p_418.pdf,provisional_web
