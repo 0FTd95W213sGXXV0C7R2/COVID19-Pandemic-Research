@@ -1,0 +1,11 @@
+{
+  "recorded_at_jst": "2026-11-27T13:02:33+09:00",
+  "publisher": "厚生労働省",
+  "source": "https://www.e-stat.go.jp/stat-search/files?toukei=00450073",
+  "files": 315,
+  "sheets": 1665,
+  "previously_extracted_cells": 53275518,
+  "health_keyword_files": 232,
+  "status": "PENDING_SEMANTIC_EXTRACTION",
+  "limitations": "Counts computed from local source manifest and extraction checkpoint; no new source-cell extraction. Keyword hits are incomplete. Registry saved to Drive."
+}
