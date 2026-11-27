@@ -1,0 +1,7 @@
+observation_date,school_type,partial_count,whole_count,total_schools,partial_rate_pct,whole_rate_pct,source_url,source_page
+2022-04-11,kindergarten,12,9,2690,0.4,0.3,https://www.mext.go.jp/content/20220422-mxt_kouhou01-000004520_01.pdf,2
+2022-04-11,elementary,443,38,18636,2.4,0.2,https://www.mext.go.jp/content/20220422-mxt_kouhou01-000004520_01.pdf,2
+2022-04-11,junior_high,126,21,9068,1.4,0.2,https://www.mext.go.jp/content/20220422-mxt_kouhou01-000004520_01.pdf,2
+2022-04-11,high,92,10,3536,2.6,0.3,https://www.mext.go.jp/content/20220422-mxt_kouhou01-000004520_01.pdf,2
+2022-04-11,special_support,35,4,1108,3.2,0.4,https://www.mext.go.jp/content/20220422-mxt_kouhou01-000004520_01.pdf,2
+2022-04-11,all,708,82,35038,2,0.2,https://www.mext.go.jp/content/20220422-mxt_kouhou01-000004520_01.pdf,2
