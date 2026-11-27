@@ -1,0 +1,3 @@
+# Remaining acquisition status
+JST 2026/11/27 22:59:06
+Official index reopened: https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html . Local curl for June 30 PDF failed DNS error 6; no raw bytes acquired. Remaining publication dates: 2022-06-30,07-27,09-13,11-15; 2023-01-24 (index year typo candidate),02-17,03-17,04-28,05-19,06-13 (June19 correction),07-18. Prior GitHub/Drive normalized line comparison 2305/2305 matched, not byte equivalence. Eight dates remain conditionally adopted, EDU02 L3. No repeat audit necessary unless discrepancy found. Request four originals from user if direct acquisition blocked.
