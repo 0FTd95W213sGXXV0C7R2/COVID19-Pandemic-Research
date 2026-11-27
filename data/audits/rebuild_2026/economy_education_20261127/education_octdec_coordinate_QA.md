@@ -1,0 +1,3 @@
+# October/December coordinate QA
+JST 2026/11/27 22:48:53
+Executed local PyMuPDF coordinate_extract_batch1.py with dates changed to 2022-10-03 and 2022-12-01 and glob 20221[02]*pdf. 576 keys equal, 2880 Decimal values compared, zero differences. Drive readback SHA256: Oct 52d5df24d56616978858ab1af83d8a1454698458f6a803e41c8a9f3752a69394; Dec 4ced005b584a6310915ad4704138b133b0377b4cbe2094e2ea9abf389d2d674f; CSV 7ce2088c00582c79a2c7995f8ee3f383460188ef671a368cc680024148142d69; all match prior recorded hashes. CSV original also matches. Metadata audit pending; no formal adoption. Four new batch2 originals still unavailable locally. Source https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html .
