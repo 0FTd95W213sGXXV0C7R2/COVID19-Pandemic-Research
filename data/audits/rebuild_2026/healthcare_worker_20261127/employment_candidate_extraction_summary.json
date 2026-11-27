@@ -1,0 +1,40 @@
+{
+  "version": "employment_context_v1",
+  "finished_at_jst": "2026-11-27T13:21:49.339537+09:00",
+  "expected_files": 315,
+  "completed_files": 315,
+  "failed_files": 0,
+  "candidate_rows": 818148,
+  "annual_counts": {
+    "2017": 145261,
+    "2018": 135690,
+    "2019": 124739,
+    "2020": 35804,
+    "2021": 110912,
+    "2022": 101960,
+    "2023": 60028,
+    "2024": 103754
+  },
+  "axis_counts": {
+    "ROW": 787893,
+    "COLUMN": 30255
+  },
+  "merged_sha256": "46dddf1985af32ebce2918d7520da5a06774fde1923519e52ecc944196cf3f2c",
+  "merged_bytes": 6159525,
+  "all_files_processed": true,
+  "semantic_validation_completed": false,
+  "independent_source_audit_completed": false,
+  "formal_adoption_completed": false,
+  "limitations": [
+    "Keyword and coordinate based candidate extraction.",
+    "Merged header spans are not fully reconstructed.",
+    "Column context is limited to 20 preceding rows.",
+    "Non-numeric and missing cells remain in original raw-cell files.",
+    "Industry and occupation equivalence is not established.",
+    "Requested year is not independently verified as observation year.",
+    "Output hash verification is not independent source validation."
+  ],
+  "source": "https://www.e-stat.go.jp/stat-search/files?toukei=00450073",
+  "drive_summary_readback_verified": true,
+  "merged_file_hash_independently_verified": false
+}
