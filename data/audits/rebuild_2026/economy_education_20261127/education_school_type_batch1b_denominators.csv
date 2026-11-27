@@ -1,0 +1,11 @@
+observation_date,school_type,partial_count,whole_count,total_schools,partial_rate_pct,whole_rate_pct,source_url,source_page
+2022-03-09,kindergarten,58,44,2850,2,1.5,https://www.mext.go.jp/content/20220317-mxt_kouhou01-000004520_07.pdf,2
+2022-03-09,elementary,2329,86,18802,12.4,0.5,https://www.mext.go.jp/content/20220317-mxt_kouhou01-000004520_07.pdf,2
+2022-03-09,junior_high,493,19,9140,5.4,0.2,https://www.mext.go.jp/content/20220317-mxt_kouhou01-000004520_07.pdf,2
+2022-03-09,high,75,32,3557,2.1,0.9,https://www.mext.go.jp/content/20220317-mxt_kouhou01-000004520_07.pdf,2
+2022-03-09,special_support,74,5,1095,6.8,0.5,https://www.mext.go.jp/content/20220317-mxt_kouhou01-000004520_07.pdf,2
+2022-05-09,kindergarten,10,2,2684,0.4,0.1,https://www.mext.go.jp/content/20220520-mxt_kouhou01-000004520_01.pdf,3
+2022-05-09,elementary,348,10,18623,1.9,0.1,https://www.mext.go.jp/content/20220520-mxt_kouhou01-000004520_01.pdf,3
+2022-05-09,junior_high,128,7,9069,1.4,0.1,https://www.mext.go.jp/content/20220520-mxt_kouhou01-000004520_01.pdf,3
+2022-05-09,high,80,8,3537,2.3,0.2,https://www.mext.go.jp/content/20220520-mxt_kouhou01-000004520_01.pdf,3
+2022-05-09,special_support,19,0,1107,1.7,0,https://www.mext.go.jp/content/20220520-mxt_kouhou01-000004520_01.pdf,3
