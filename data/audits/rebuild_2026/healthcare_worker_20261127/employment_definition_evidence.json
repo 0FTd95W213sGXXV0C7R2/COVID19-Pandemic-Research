@@ -1,0 +1,29 @@
+{
+  "publisher": "厚生労働省",
+  "evidence": [
+    {
+      "url": "https://www.e-stat.go.jp/dbview?sid=0003376334",
+      "table": "13",
+      "finding": "賃金変動区分計には不詳を含む。",
+      "limitation": "Applicability to annual Excel table 13-1 remains to be verified."
+    },
+    {
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040193423",
+      "year": 2023,
+      "table": "13-1",
+      "published": "2024-08-27 14:00 JST",
+      "status": "OFFICIAL_METADATA_VERIFIED"
+    },
+    {
+      "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000032136117",
+      "year": 2020,
+      "finding": "Official erratum identifies Excel title correction for table 13-1."
+    },
+    {
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040308411",
+      "finding": "2023 reference compilation exists for table 13-2; check corresponding 13-1 and comparability before selecting series."
+    }
+  ],
+  "status": "PENDING_ORIGINAL_QA",
+  "new_numeric_extraction": false
+}
