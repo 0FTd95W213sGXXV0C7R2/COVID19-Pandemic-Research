@@ -1278,7 +1278,7 @@
       "target": "休業校数割合",
       "priority": "最優先",
       "status": "L3",
-      "status_scope": "L3 系列全体。2022年12観測日を条件付き採用",
+      "status_scope": "2022年12観測日条件付き採用、2023年5観測日全学校種暫定",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
@@ -1293,7 +1293,9 @@
         "data/audits/rebuild_2026/economy_education_20261127/education_prefecture_integrated_8dates_v1.csv",
         "data/audits/rebuild_2026/economy_education_20261127/education_batch2_drive_QA.md",
         "data/audits/rebuild_2026/economy_education_20261127/education_prefecture_integrated_12dates_v1.csv",
-        "data/audits/rebuild_2026/economy_education_20261127/education_batch2_extraction_QA.md"
+        "data/audits/rebuild_2026/economy_education_20261127/education_batch2_extraction_QA.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_2023_prefecture_alltypes_web_provisional.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/education_2023_national_schooltype_web_provisional.csv"
       ],
       "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
       "analysis_eligibility": "12観測日の記述・探索的相関。日次補間・因果推論不可",
@@ -1306,20 +1308,21 @@
       "area": "教育",
       "target": "休業日数",
       "priority": "最優先",
-      "status": "L1",
-      "status_scope": "2020-05-11調査の部分証拠。政策日次・実休業日数の確定ではない。",
+      "status": "L3",
+      "status_scope": "2021学校質問紙の全国小中学校休業期間分布20値を暫定構造化。地域別・実授業喪失日数未取得",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
         "data/audits/rebuild_2026/economy_education_20261127/school_prefecture_closure_20200511.csv",
         "data/audits/rebuild_2026/economy_education_20261127/school_closure_history.csv",
-        "data/audits/rebuild_2026/economy_education_20261127/school_pages8_10_visual_QA.md"
+        "data/audits/rebuild_2026/economy_education_20261127/school_pages8_10_visual_QA.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_closure_duration_2021_survey_provisional.csv"
       ],
-      "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
-      "analysis_eligibility": "正式採用保留",
-      "remaining": "学校地域別・最優先",
-      "next_action": "観測時点・母集団・政策日付の区別、追加時点取得",
-      "updated_jst": "2026/11/27 18:02:55"
+      "source": "https://www.mext.go.jp/content/20210929-mxt_kyoiku01-000017645_s4-1.pdf",
+      "analysis_eligibility": "正式採用保留。Web抽出・原本未保存・独立照合未実施",
+      "remaining": "原本保存、分母・地域別集計、独立照合",
+      "next_action": "国立教育政策研究所の質問紙集計表を確認",
+      "updated_jst": "2026/11/28 8:27:22"
     },
     {
       "id": "EDU04",
