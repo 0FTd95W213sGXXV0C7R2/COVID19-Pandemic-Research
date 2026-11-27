@@ -1,0 +1,3 @@
+# Coordinate QA
+JST 2026/11/27 22:31:41
+Local PyMuPDF execution generated 1728 unique date/code/type rows from six PDFs, no baseline input. Compared with existing CSV: key sets equal, 8640 Decimal values, zero differences. Initial nearest-rate-row assignment failed (30 counts in first row); corrected by 2.5 point offset, specific to tested layouts. Region codes inferred from row order, not independently extracted; names excluded. Numeric QA passed; full metadata QA and formal adoption pending. Source https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html .
