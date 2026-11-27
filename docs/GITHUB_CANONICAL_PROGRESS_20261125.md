@@ -710,3 +710,7 @@ Colab source-cell audit completed 08:05:26 JST: 1,730,865/1,730,865 rows passed,
 
 ### 医師勤務実態調査の追加保全（2026-11-27 JST）
 厚生労働省2023年10月12日資料2を追加。PDFと119行の抽出CSVをDriveに保存。保存監査記録は [CSV readback](../data/audits/rebuild_2026/healthcare_worker_20261127/physician_csv_readback_20261127.md)。過去の独立全件照合の実行証跡は未確認。条件付き記述分析候補とし、2016年の対象差、2019年の標本調整、1920時間と1860時間の閾値差を維持する。参考文献DB統合・Notion記録は保留。次は毎月勤労統計の医療・福祉産業系列（職種別とは区別）。
+
+
+### 2026-11-27 labour audit update
+Existing consolidated QA report: `data/audits/rebuild_2026/healthcare_worker_20261127/monthly_labour_consolidated_qa.md`. Consolidated JSON saved to Drive this turn. Current official codebook directly rechecked: https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000032189778 . Final adoption remains pending; historical XLS extraction and 54 wage/315 employment files not yet processed. xlrd absent in current runtime. Prior reported numerical QA not independently rerun this turn.
