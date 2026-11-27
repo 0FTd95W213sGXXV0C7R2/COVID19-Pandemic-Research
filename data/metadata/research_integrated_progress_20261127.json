@@ -178,16 +178,19 @@
       "target": "学校休業政策",
       "priority": "最優先",
       "status": "UNVERIFIED",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status_scope": "2020-05-11調査の部分証拠。政策日次・実休業日数の確定ではない。",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/school_prefecture_closure_20200511.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/school_closure_history.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/school_pages8_10_visual_QA.md"
       ],
       "source": null,
-      "analysis_eligibility": "個別採否確認待ち",
+      "analysis_eligibility": "正式採用保留",
       "remaining": "追加・最優先",
-      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "next_action": "観測時点・母集団・政策日付の区別、追加時点取得",
+      "updated_jst": "2026/11/27 18:02:55"
     },
     {
       "id": "BG12",
@@ -772,34 +775,40 @@
       "area": "経済",
       "target": "実質名目GDP",
       "priority": "最優先",
-      "status": "L1",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status": "L3",
+      "status_scope": "年度系列のみ構造化・GitHub再読込済。四半期未取得。",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-jfy2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-mfy2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gdp_definition_QA.md"
       ],
       "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/toukei_2026.html",
-      "analysis_eligibility": "個別採否確認待ち",
+      "analysis_eligibility": "正式採用保留",
       "remaining": "四半期・最優先",
-      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "next_action": "四半期系列取得、年度指標定義と版の確認",
+      "updated_jst": "2026/11/27 18:02:55"
     },
     {
       "id": "ECO02",
       "area": "経済",
       "target": "民間最終消費",
       "priority": "最優先",
-      "status": "L1",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status": "L3",
+      "status_scope": "年度系列のみ構造化・GitHub再読込済。四半期未取得。",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-jfy2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-mfy2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gdp_definition_QA.md"
       ],
       "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/toukei_2026.html",
-      "analysis_eligibility": "個別採否確認待ち",
+      "analysis_eligibility": "正式採用保留",
       "remaining": "四半期・最優先",
-      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "next_action": "四半期系列取得、年度指標定義と版の確認",
+      "updated_jst": "2026/11/27 18:02:55"
     },
     {
       "id": "ECO03",
@@ -1232,33 +1241,39 @@
       "target": "全国一斉休校政策",
       "priority": "最優先",
       "status": "L1",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status_scope": "2020-05-11調査の部分証拠。政策日次・実休業日数の確定ではない。",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/school_prefecture_closure_20200511.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/school_closure_history.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/school_pages8_10_visual_QA.md"
       ],
       "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
-      "analysis_eligibility": "個別採否確認待ち",
+      "analysis_eligibility": "正式採用保留",
       "remaining": "日次・最優先",
-      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "next_action": "観測時点・母集団・政策日付の区別、追加時点取得",
+      "updated_jst": "2026/11/27 18:02:55"
     },
     {
       "id": "EDU02",
       "area": "教育",
       "target": "休業校数割合",
       "priority": "最優先",
-      "status": "L1",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status": "L3",
+      "status_scope": "2020-05-11調査の部分証拠。政策日次・実休業日数の確定ではない。",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/school_prefecture_closure_20200511.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/school_closure_history.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/school_pages8_10_visual_QA.md"
       ],
       "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
-      "analysis_eligibility": "個別採否確認待ち",
+      "analysis_eligibility": "正式採用保留",
       "remaining": "時点地域別・最優先",
-      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "next_action": "観測時点・母集団・政策日付の区別、追加時点取得",
+      "updated_jst": "2026/11/27 18:02:55"
     },
     {
       "id": "EDU03",
@@ -1266,16 +1281,19 @@
       "target": "休業日数",
       "priority": "最優先",
       "status": "L1",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status_scope": "2020-05-11調査の部分証拠。政策日次・実休業日数の確定ではない。",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/school_prefecture_closure_20200511.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/school_closure_history.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/school_pages8_10_visual_QA.md"
       ],
       "source": "https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html",
-      "analysis_eligibility": "個別採否確認待ち",
+      "analysis_eligibility": "正式採用保留",
       "remaining": "学校地域別・最優先",
-      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "next_action": "観測時点・母集団・政策日付の区別、追加時点取得",
+      "updated_jst": "2026/11/27 18:02:55"
     },
     {
       "id": "EDU04",
