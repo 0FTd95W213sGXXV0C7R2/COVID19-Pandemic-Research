@@ -1,0 +1,4 @@
+# Education existing inventory and registry readback
+JST 2026/11/27 20:04:34
+Registry blob 822d730aad902e06af268c694c3b6f20dc6ce94a parsed successfully, 103 unique IDs, L3 13 L2 3 L1 2 UNVERIFIED 85; ECO01–03 updated. Prior exact text mismatch cause unknown.
+Recovered indexed file STEP114_Education_Observation_Master_v1.csv, 9 dates 2022-01-26 to 2023-03-01; partial school counts 4727,5500,3951,3100,708,585,572,2545,156; whole school 1114,700,missing,200,82,27,44,99,8. Existing derived data only, not independently verified. Official MEXT index https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html lists 2022–23 surveys and 2020 April22 May11 June1, plus March19 and April10. Existing raw preservation for additional PDFs not established. Index date anomaly: R4 Jan24 appears between R5 Feb17 and R4 Dec13; verify PDF. No new raw bytes acquired. Preserve existing master and audit against official PDFs before adoption.
