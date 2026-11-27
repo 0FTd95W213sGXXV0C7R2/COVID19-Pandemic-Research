@@ -1,0 +1,36 @@
+{
+  "timestamp_jst": "2026-11-27T10:42:17.628727+09:00",
+  "method": "Read Drive extracted cell CSV and CP932 cumulative CSV with pandas; compare P industry, T/0 size, 1/2 employment, rows 10–43 and 50–83, columns 6/10, matching year/month/kind.",
+  "checks": [
+    {
+      "kind": "annual_index",
+      "n": 20,
+      "exact": 20
+    },
+    {
+      "kind": "monthly_index",
+      "n": 48,
+      "exact": 48
+    },
+    {
+      "kind": "annual_yoy",
+      "n": 16,
+      "exact": 16
+    },
+    {
+      "kind": "monthly_yoy",
+      "n": 48,
+      "exact": 48
+    }
+  ],
+  "total": 132,
+  "exact": 132,
+  "max_abs_difference": 0,
+  "limitations": "Extracted yearbook cells, not independent original XLS parsing. Earlier yearbooks not compared. PENDING_QA.",
+  "sources": [
+    "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040445561",
+    "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189777",
+    "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040174011",
+    "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040282436"
+  ]
+}
