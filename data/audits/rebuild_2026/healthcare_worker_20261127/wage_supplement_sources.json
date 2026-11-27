@@ -1,0 +1,29 @@
+{
+  "date_jst": "2026-11-27",
+  "publisher": "厚生労働省",
+  "table": 1,
+  "title": "職種（小分類）別きまって支給する現金給与額、所定内給与額及び年間賞与その他特別給与額（産業計）",
+  "sources": [
+    {
+      "year": "2021",
+      "id": "000032182952",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032182952",
+      "status": "LISTING_CONFIRMED"
+    },
+    {
+      "year": "2022",
+      "id": "000040029181",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040029181",
+      "status": "LISTING_CONFIRMED"
+    },
+    {
+      "year": "2024",
+      "id": "000040247854",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040247854",
+      "status": "LISTING_CONFIRMED"
+    }
+  ],
+  "year2023": "ID unresolved",
+  "download": "Attempted 2024 download; DNS resolution failed in container. No new original acquired.",
+  "adoption": "PENDING_QA"
+}
