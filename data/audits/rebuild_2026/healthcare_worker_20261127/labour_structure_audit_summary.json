@@ -1,0 +1,19 @@
+{
+  "completed_at_jst": "2026-11-27T10:07:11.246902+09:00",
+  "manifest_sha256": "0ee520ff66fdbd48e3a65cfa4f5ecff68e78f7ca3a89f4ac658c8ff16b6bcf4c",
+  "manifest_count": 497,
+  "audited_count": 497,
+  "hash_pass": 497,
+  "structure_pass": 497,
+  "review_required": 0,
+  "total_sheets": 1899,
+  "total_nonempty_cells": 55365943,
+  "total_numeric_cells": 18948426,
+  "keyword_hit_groups": 10636,
+  "period_candidates": 1483,
+  "actual_period_verified": false,
+  "numerical_extraction_completed": false,
+  "github_updated": false,
+  "notion_updated": false,
+  "elapsed_seconds_this_run": 39.3
+}
