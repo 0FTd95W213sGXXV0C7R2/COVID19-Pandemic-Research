@@ -1,0 +1,59 @@
+{
+  "colab_completed_at_jst": "2026-11-27T14:08:44.438903+09:00",
+  "publisher": "厚生労働省",
+  "survey": "雇用動向調査",
+  "sheet": "A01301",
+  "industry_code": 83,
+  "unit": "千人",
+  "records": [
+    {
+      "year": 2020,
+      "source_filename": "kd-r2-a01301.xls",
+      "source_sha256": "b37c9b9c2044d8e4667265bf63aabbcb2a59133ad580ed2e76ec851e9909b8f9",
+      "inspection_sha256": "8825b5bfb0b3af2a5369dbcaf015379ba27a69bff0d0a7fc6e6a8dab95b59625",
+      "source_url_candidate": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032115890",
+      "cells": "E62:L62",
+      "values": [
+        333.2,
+        33.1,
+        56.6,
+        43.1,
+        87.5,
+        30.3,
+        51.6,
+        29.5
+      ],
+      "period_in_header": null,
+      "definition": "入職者数（就業経験有りで調査時在籍者で前職雇用者）"
+    },
+    {
+      "year": 2023,
+      "source_filename": "kd-r5-a01301.xls",
+      "source_sha256": "335dbd603974fe51c4e046cb956a208ebc6385d68a50c269b3eb54627e8cc2cf",
+      "inspection_sha256": "4a243f1b0b8b734640655a6196b6cae3f6941d2d97003d88e20284c634014646",
+      "source_url_candidate": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040193423",
+      "cells": "E63:L63",
+      "values": [
+        436.6,
+        34.5,
+        76,
+        53.8,
+        110.3,
+        41.9,
+        59.1,
+        59.3
+      ],
+      "period_in_header": "令和５年　年計",
+      "definition": "入職者数（就業経験有り（入職前１年以内）で調査時在籍者で前職雇用者）"
+    }
+  ],
+  "inspection_readback_hash_verified": true,
+  "colab_reported_cells": 313929,
+  "independent_original_workbook_check": false,
+  "formal_adoption": false,
+  "limitations": [
+    "2020 period not in inspected header",
+    "Definition wording differs",
+    "Prior years not independently revalidated in this run"
+  ]
+}
