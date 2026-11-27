@@ -1,0 +1,31 @@
+{
+  "recorded_date_jst": "2026-11-27",
+  "publisher": "厚生労働省",
+  "survey": "毎月勤労統計調査 全国調査",
+  "publication_jst": "2026-11-25T08:30:00+09:00",
+  "sources": [
+    {
+      "id": "000032189776",
+      "title": "実数・指数累積データ 実数",
+      "format": "CSV",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189776",
+      "status": "DISCOVERED_NOT_ACQUIRED"
+    },
+    {
+      "id": "000032189777",
+      "title": "実数・指数累積データ 指数・伸び率",
+      "format": "CSV",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189777",
+      "status": "DISCOVERED_NOT_ACQUIRED"
+    },
+    {
+      "id": "000032189744",
+      "title": "総実労働時間 指数及び増減率－一般労働者（５人以上）",
+      "format": "Excel",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189744",
+      "status": "DISCOVERED_NOT_ACQUIRED"
+    }
+  ],
+  "coverage_verified": false,
+  "decision": "Prioritize cumulative CSV; compare annual reports; preserve publication vintage and official growth rates."
+}
