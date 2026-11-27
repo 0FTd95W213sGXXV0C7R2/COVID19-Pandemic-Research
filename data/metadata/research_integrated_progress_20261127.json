@@ -1346,34 +1346,36 @@
       "area": "教育",
       "target": "オンライン授業率",
       "priority": "最優先",
-      "status": "UNVERIFIED",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status": "L3",
+      "status_scope": "2020年2時点設置者、2022年公表学校調査の22行暫定。後者観測期間未確認",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_remote_learning_mext_provisional.csv"
       ],
       "source": null,
-      "analysis_eligibility": "個別採否確認待ち",
-      "remaining": "時点・最優先",
+      "analysis_eligibility": "正式採用保留",
+      "remaining": "原典再照合・原本保存・比較可能性確認",
       "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "updated_jst": "2026/11/28 8:34:37"
     },
     {
       "id": "EDU06",
       "area": "教育",
       "target": "ICT端末通信",
       "priority": "高",
-      "status": "UNVERIFIED",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status": "L3",
+      "status_scope": "3行暫定、GitHub再読込済、原典再照合未完了",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_ict_school_questionnaire_2021_provisional.csv"
       ],
       "source": null,
-      "analysis_eligibility": "個別採否確認待ち",
-      "remaining": "年度地域",
+      "analysis_eligibility": "正式採用保留",
+      "remaining": "原典再照合・原本保存・比較可能性確認",
       "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "updated_jst": "2026/11/28 8:34:37"
     },
     {
       "id": "EDU07",
@@ -1431,17 +1433,18 @@
       "area": "教育",
       "target": "全国学力調査",
       "priority": "最優先",
-      "status": "UNVERIFIED",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status": "L3",
+      "status_scope": "8行暫定、GitHub再読込済、原典再照合未完了",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_achievement_2019_2021_provisional.csv"
       ],
       "source": null,
-      "analysis_eligibility": "個別採否確認待ち",
-      "remaining": "年度教科・最優先",
+      "analysis_eligibility": "正式採用保留",
+      "remaining": "原典再照合・原本保存・比較可能性確認",
       "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "updated_jst": "2026/11/28 8:34:37"
     },
     {
       "id": "EDU11",
