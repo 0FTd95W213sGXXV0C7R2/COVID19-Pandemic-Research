@@ -1,0 +1,17 @@
+{
+  "source": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040305975",
+  "publisher": "厚生労働省",
+  "sheet": "A01301",
+  "source_sha256": "8a635d8c80ee8f49851de28c2493f78d87c206a81455e6bb7da613f137eb325b",
+  "row": 63,
+  "columns": "5–100",
+  "raw_cells_count": 156978,
+  "extracted_cells": 96,
+  "age_groups": 12,
+  "unit": "千人",
+  "total": 403.6,
+  "age_sum": 403.7,
+  "residual_total": 0.9,
+  "adoption": "PENDING_ORIGINAL_QA",
+  "limitations": "Saved raw cell extraction checked, not independently checked against original Excel. No causal interpretation."
+}
