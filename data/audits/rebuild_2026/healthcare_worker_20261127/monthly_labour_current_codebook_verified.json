@@ -1,0 +1,35 @@
+{
+  "date_jst": "2026-11-27",
+  "source": {
+    "author": "厚生労働省",
+    "title": "実数・指数累積データにおける記号の見方",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000032189778",
+    "pages": 1,
+    "inspection": "PDF text directly retrieved"
+  },
+  "industry": {
+    "TL": "調査産業計",
+    "P": "医療，福祉",
+    "P83": "医療業",
+    "P85": "社会保険・社会福祉・介護事業"
+  },
+  "size": {
+    "0": "30人以上",
+    "4": "500人以上",
+    "5": "100～499人",
+    "7": "30～99人",
+    "9": "5～29人",
+    "T": "5人以上"
+  },
+  "employment": {
+    "0": "就業形態計",
+    "1": "一般労働者",
+    "2": "パートタイム労働者"
+  },
+  "period": {
+    "monthly": "01–12",
+    "CY": "年平均"
+  },
+  "status": "CODEBOOK_VERIFIED",
+  "limitations": "PDF does not specify measure units. No numerical QA executed. Unit verification and final adoption pending. Time of record not independently verified."
+}
