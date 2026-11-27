@@ -718,3 +718,10 @@ Existing consolidated QA report: `data/audits/rebuild_2026/healthcare_worker_202
 
 ## 2026/11/27 15:36:34 JST — 第2次改訂取得計画を正本に接続
 6領域＋共通背景に拡張。詳細は [第2次改訂計画](ACQUISITION_PLAN_REVISED_V2_20261127.md)。旧33系列の集計は過去時点。労働統計500原本の全セル処理、雇用315資料の候補抽出、年次56値の暫定構築を反映し、旧未処理記述は履歴として保持する。正式採用・原本独立監査は保留。経済・教育の新規原本取得は未実施。既存分析可能系列と残存QA、新規取得を並行。詳細計画更新コミット fdca4ed72710369c1ead59bcb0d687a4ee56cb93。新規取得・削除・mainマージなし。
+
+
+## 2026-11-27 JST｜統合台帳と一次資料の確認
+- [103項目台帳](../data/metadata/research_integrated_progress_20261127.json) 登録・再読込一致。暫定 L1=6,L2=3,L3=9,未確認85。部分到達であり採用率ではない。
+- e-Stat 第38表 https://www.e-stat.go.jp/dbview?sid=0003377502 の掲載確認。年度範囲・基準日未確定。
+- GDP https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe261_2/gdemenuja.html 2026-06-08版、2020年基準、1994Q1–2026Q1。11月版は今回未確認。名目・実質、原系列・季調別CSV掲載。
+- 文科省 https://www.mext.go.jp/content/20200513-mxt_kouhou02-000006590_2.pdf 2020-05-11 12時時点、別添2 p7 公立休業中31443、回答36028。単純比 87.2738%。回答内訳に4校差あり（31443+13+4568=36024）。理由未確認。学校数と児童生徒数は別。私立東京都・福岡県未回答。原本バイナリ保全・SHA未実施、採用保留。
