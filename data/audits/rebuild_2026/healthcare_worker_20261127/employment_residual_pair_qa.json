@@ -1,0 +1,19 @@
+{
+  "source": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189776",
+  "years": [
+    2017,
+    2024
+  ],
+  "industries": [
+    "P",
+    "P83",
+    "P85",
+    "TL"
+  ],
+  "pairs": 1152,
+  "cancelled": 1152,
+  "max_abs_sum": 0,
+  "nonzero_pairs": 1144,
+  "method": "Pivot monthly residual by year, month, industry, size; sum employment codes 1 and 2.",
+  "interpretation": "Cancellation supports but does not establish employment-type transfers; official definition pending."
+}
