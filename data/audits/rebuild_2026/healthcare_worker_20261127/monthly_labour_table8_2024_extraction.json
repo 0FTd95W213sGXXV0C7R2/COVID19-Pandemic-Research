@@ -1,0 +1,1198 @@
+{
+  "source": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040445561",
+  "source_sha256": "8c054deb085f65dbd4bdd7a69b9751cd7c8de459b35566051b0a2f4bfd1fea79",
+  "checked_against": "Colab raw cell CSV (not independent Excel read)",
+  "count": 132,
+  "rows": [
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2020,
+      "month": null,
+      "employment": "general",
+      "cell": "F10",
+      "value": 100
+    },
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2020,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J10",
+      "value": 100
+    },
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2021,
+      "month": null,
+      "employment": "general",
+      "cell": "F11",
+      "value": 100.8
+    },
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2021,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J11",
+      "value": 101.1
+    },
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2022,
+      "month": null,
+      "employment": "general",
+      "cell": "F12",
+      "value": 99.8
+    },
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2022,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J12",
+      "value": 100.6
+    },
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2023,
+      "month": null,
+      "employment": "general",
+      "cell": "F13",
+      "value": 100.1
+    },
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2023,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J13",
+      "value": 102.1
+    },
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2024,
+      "month": null,
+      "employment": "general",
+      "cell": "F14",
+      "value": 99.4
+    },
+    {
+      "block": 1,
+      "kind": "annual_index",
+      "year": 2024,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J14",
+      "value": 101.7
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 1,
+      "employment": "general",
+      "cell": "F15",
+      "value": 95.8
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 1,
+      "employment": "part_time",
+      "cell": "J15",
+      "value": 96.6
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 2,
+      "employment": "general",
+      "cell": "F16",
+      "value": 96.8
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 2,
+      "employment": "part_time",
+      "cell": "J16",
+      "value": 98.8
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 3,
+      "employment": "general",
+      "cell": "F17",
+      "value": 98.7
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 3,
+      "employment": "part_time",
+      "cell": "J17",
+      "value": 100.1
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 4,
+      "employment": "general",
+      "cell": "F18",
+      "value": 102.3
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 4,
+      "employment": "part_time",
+      "cell": "J18",
+      "value": 104.3
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 5,
+      "employment": "general",
+      "cell": "F19",
+      "value": 100.3
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 5,
+      "employment": "part_time",
+      "cell": "J19",
+      "value": 102.7
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 6,
+      "employment": "general",
+      "cell": "F20",
+      "value": 100.5
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 6,
+      "employment": "part_time",
+      "cell": "J20",
+      "value": 103.9
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 7,
+      "employment": "general",
+      "cell": "F21",
+      "value": 102.2
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 7,
+      "employment": "part_time",
+      "cell": "J21",
+      "value": 104.7
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 8,
+      "employment": "general",
+      "cell": "F22",
+      "value": 99.3
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 8,
+      "employment": "part_time",
+      "cell": "J22",
+      "value": 102.1
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 9,
+      "employment": "general",
+      "cell": "F23",
+      "value": 97.6
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 9,
+      "employment": "part_time",
+      "cell": "J23",
+      "value": 100.4
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 10,
+      "employment": "general",
+      "cell": "F24",
+      "value": 101.2
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 10,
+      "employment": "part_time",
+      "cell": "J24",
+      "value": 103.1
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 11,
+      "employment": "general",
+      "cell": "F25",
+      "value": 99.9
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 11,
+      "employment": "part_time",
+      "cell": "J25",
+      "value": 102.6
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 12,
+      "employment": "general",
+      "cell": "F26",
+      "value": 98.5
+    },
+    {
+      "block": 1,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 12,
+      "employment": "part_time",
+      "cell": "J26",
+      "value": 100.8
+    },
+    {
+      "block": 1,
+      "kind": "annual_yoy",
+      "year": 2021,
+      "month": null,
+      "employment": "general",
+      "cell": "F28",
+      "value": 0.8
+    },
+    {
+      "block": 1,
+      "kind": "annual_yoy",
+      "year": 2021,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J28",
+      "value": 1
+    },
+    {
+      "block": 1,
+      "kind": "annual_yoy",
+      "year": 2022,
+      "month": null,
+      "employment": "general",
+      "cell": "F29",
+      "value": -1
+    },
+    {
+      "block": 1,
+      "kind": "annual_yoy",
+      "year": 2022,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J29",
+      "value": -0.5
+    },
+    {
+      "block": 1,
+      "kind": "annual_yoy",
+      "year": 2023,
+      "month": null,
+      "employment": "general",
+      "cell": "F30",
+      "value": 0.3
+    },
+    {
+      "block": 1,
+      "kind": "annual_yoy",
+      "year": 2023,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J30",
+      "value": 1.5
+    },
+    {
+      "block": 1,
+      "kind": "annual_yoy",
+      "year": 2024,
+      "month": null,
+      "employment": "general",
+      "cell": "F31",
+      "value": -0.7
+    },
+    {
+      "block": 1,
+      "kind": "annual_yoy",
+      "year": 2024,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J31",
+      "value": -1.3
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 1,
+      "employment": "general",
+      "cell": "F32",
+      "value": -0.5
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 1,
+      "employment": "part_time",
+      "cell": "J32",
+      "value": -2.1
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 2,
+      "employment": "general",
+      "cell": "F33",
+      "value": 0.2
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 2,
+      "employment": "part_time",
+      "cell": "J33",
+      "value": -3.1
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 3,
+      "employment": "general",
+      "cell": "F34",
+      "value": -1.8
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 3,
+      "employment": "part_time",
+      "cell": "J34",
+      "value": -4.7
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 4,
+      "employment": "general",
+      "cell": "F35",
+      "value": 0.1
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 4,
+      "employment": "part_time",
+      "cell": "J35",
+      "value": 0
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 5,
+      "employment": "general",
+      "cell": "F36",
+      "value": 0.4
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 5,
+      "employment": "part_time",
+      "cell": "J36",
+      "value": 0.1
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 6,
+      "employment": "general",
+      "cell": "F37",
+      "value": -3.6
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 6,
+      "employment": "part_time",
+      "cell": "J37",
+      "value": -2.4
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 7,
+      "employment": "general",
+      "cell": "F38",
+      "value": 1.2
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 7,
+      "employment": "part_time",
+      "cell": "J38",
+      "value": 0.9
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 8,
+      "employment": "general",
+      "cell": "F39",
+      "value": -0.8
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 8,
+      "employment": "part_time",
+      "cell": "J39",
+      "value": -0.2
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 9,
+      "employment": "general",
+      "cell": "F40",
+      "value": -2.2
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 9,
+      "employment": "part_time",
+      "cell": "J40",
+      "value": -3.2
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 10,
+      "employment": "general",
+      "cell": "F41",
+      "value": 0.8
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 10,
+      "employment": "part_time",
+      "cell": "J41",
+      "value": 0.5
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 11,
+      "employment": "general",
+      "cell": "F42",
+      "value": -0.9
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 11,
+      "employment": "part_time",
+      "cell": "J42",
+      "value": -0.1
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 12,
+      "employment": "general",
+      "cell": "F43",
+      "value": -1.1
+    },
+    {
+      "block": 1,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 12,
+      "employment": "part_time",
+      "cell": "J43",
+      "value": -1
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2020,
+      "month": null,
+      "employment": "general",
+      "cell": "F50",
+      "value": 100
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2020,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J50",
+      "value": 100
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2021,
+      "month": null,
+      "employment": "general",
+      "cell": "F51",
+      "value": 100.8
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2021,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J51",
+      "value": 101.7
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2022,
+      "month": null,
+      "employment": "general",
+      "cell": "F52",
+      "value": 100
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2022,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J52",
+      "value": 99.7
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2023,
+      "month": null,
+      "employment": "general",
+      "cell": "F53",
+      "value": 99.9
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2023,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J53",
+      "value": 102.1
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2024,
+      "month": null,
+      "employment": "general",
+      "cell": "F54",
+      "value": 99.2
+    },
+    {
+      "block": 2,
+      "kind": "annual_index",
+      "year": 2024,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J54",
+      "value": 100.9
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 1,
+      "employment": "general",
+      "cell": "F55",
+      "value": 96.6
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 1,
+      "employment": "part_time",
+      "cell": "J55",
+      "value": 96.5
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 2,
+      "employment": "general",
+      "cell": "F56",
+      "value": 96
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 2,
+      "employment": "part_time",
+      "cell": "J56",
+      "value": 98
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 3,
+      "employment": "general",
+      "cell": "F57",
+      "value": 98.2
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 3,
+      "employment": "part_time",
+      "cell": "J57",
+      "value": 98.4
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 4,
+      "employment": "general",
+      "cell": "F58",
+      "value": 101.7
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 4,
+      "employment": "part_time",
+      "cell": "J58",
+      "value": 103.4
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 5,
+      "employment": "general",
+      "cell": "F59",
+      "value": 100.8
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 5,
+      "employment": "part_time",
+      "cell": "J59",
+      "value": 103.2
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 6,
+      "employment": "general",
+      "cell": "F60",
+      "value": 99.8
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 6,
+      "employment": "part_time",
+      "cell": "J60",
+      "value": 103.4
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 7,
+      "employment": "general",
+      "cell": "F61",
+      "value": 101.8
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 7,
+      "employment": "part_time",
+      "cell": "J61",
+      "value": 102.9
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 8,
+      "employment": "general",
+      "cell": "F62",
+      "value": 100.1
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 8,
+      "employment": "part_time",
+      "cell": "J62",
+      "value": 102.4
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 9,
+      "employment": "general",
+      "cell": "F63",
+      "value": 96.9
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 9,
+      "employment": "part_time",
+      "cell": "J63",
+      "value": 99.8
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 10,
+      "employment": "general",
+      "cell": "F64",
+      "value": 101.2
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 10,
+      "employment": "part_time",
+      "cell": "J64",
+      "value": 101.7
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 11,
+      "employment": "general",
+      "cell": "F65",
+      "value": 99.4
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 11,
+      "employment": "part_time",
+      "cell": "J65",
+      "value": 101
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 12,
+      "employment": "general",
+      "cell": "F66",
+      "value": 98.3
+    },
+    {
+      "block": 2,
+      "kind": "monthly_index",
+      "year": 2024,
+      "month": 12,
+      "employment": "part_time",
+      "cell": "J66",
+      "value": 99.9
+    },
+    {
+      "block": 2,
+      "kind": "annual_yoy",
+      "year": 2021,
+      "month": null,
+      "employment": "general",
+      "cell": "F68",
+      "value": 0.8
+    },
+    {
+      "block": 2,
+      "kind": "annual_yoy",
+      "year": 2021,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J68",
+      "value": 1.8
+    },
+    {
+      "block": 2,
+      "kind": "annual_yoy",
+      "year": 2022,
+      "month": null,
+      "employment": "general",
+      "cell": "F69",
+      "value": -0.8
+    },
+    {
+      "block": 2,
+      "kind": "annual_yoy",
+      "year": 2022,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J69",
+      "value": -2
+    },
+    {
+      "block": 2,
+      "kind": "annual_yoy",
+      "year": 2023,
+      "month": null,
+      "employment": "general",
+      "cell": "F70",
+      "value": -0.1
+    },
+    {
+      "block": 2,
+      "kind": "annual_yoy",
+      "year": 2023,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J70",
+      "value": 2.4
+    },
+    {
+      "block": 2,
+      "kind": "annual_yoy",
+      "year": 2024,
+      "month": null,
+      "employment": "general",
+      "cell": "F71",
+      "value": -0.7
+    },
+    {
+      "block": 2,
+      "kind": "annual_yoy",
+      "year": 2024,
+      "month": null,
+      "employment": "part_time",
+      "cell": "J71",
+      "value": -1.1
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 1,
+      "employment": "general",
+      "cell": "F72",
+      "value": -0.8
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 1,
+      "employment": "part_time",
+      "cell": "J72",
+      "value": -2.9
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 2,
+      "employment": "general",
+      "cell": "F73",
+      "value": 0.3
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 2,
+      "employment": "part_time",
+      "cell": "J73",
+      "value": -2.7
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 3,
+      "employment": "general",
+      "cell": "F74",
+      "value": -2.1
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 3,
+      "employment": "part_time",
+      "cell": "J74",
+      "value": -4.1
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 4,
+      "employment": "general",
+      "cell": "F75",
+      "value": -0.1
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 4,
+      "employment": "part_time",
+      "cell": "J75",
+      "value": 0.8
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 5,
+      "employment": "general",
+      "cell": "F76",
+      "value": 0.9
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 5,
+      "employment": "part_time",
+      "cell": "J76",
+      "value": 1.3
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 6,
+      "employment": "general",
+      "cell": "F77",
+      "value": -3.5
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 6,
+      "employment": "part_time",
+      "cell": "J77",
+      "value": -1
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 7,
+      "employment": "general",
+      "cell": "F78",
+      "value": 1.2
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 7,
+      "employment": "part_time",
+      "cell": "J78",
+      "value": 0.1
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 8,
+      "employment": "general",
+      "cell": "F79",
+      "value": -0.8
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 8,
+      "employment": "part_time",
+      "cell": "J79",
+      "value": -0.1
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 9,
+      "employment": "general",
+      "cell": "F80",
+      "value": -2.3
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 9,
+      "employment": "part_time",
+      "cell": "J80",
+      "value": -2.9
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 10,
+      "employment": "general",
+      "cell": "F81",
+      "value": 1.3
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 10,
+      "employment": "part_time",
+      "cell": "J81",
+      "value": -0.9
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 11,
+      "employment": "general",
+      "cell": "F82",
+      "value": -0.8
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 11,
+      "employment": "part_time",
+      "cell": "J82",
+      "value": -1
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 12,
+      "employment": "general",
+      "cell": "F83",
+      "value": -0.7
+    },
+    {
+      "block": 2,
+      "kind": "monthly_yoy",
+      "year": 2024,
+      "month": 12,
+      "employment": "part_time",
+      "cell": "J83",
+      "value": -0.3
+    }
+  ],
+  "adoption": "PENDING_QA",
+  "recorded_at_jst": "2026-11-27T10:11:25.123293+09:00"
+}
