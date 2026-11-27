@@ -1,0 +1,99 @@
+{
+  "status": "DEFINITION_PARTIAL_PENDING_UNIT_VERIFICATION",
+  "real": [
+    {
+      "name": "現金給与総額",
+      "unit_candidate": "JPY/person/month",
+      "unit_verified": false
+    },
+    {
+      "name": "きまって支給する給与",
+      "unit_candidate": "JPY/person/month",
+      "unit_verified": false
+    },
+    {
+      "name": "所定内給与",
+      "unit_candidate": "JPY/person/month",
+      "unit_verified": false
+    },
+    {
+      "name": "所定外給与",
+      "unit_candidate": "JPY/person/month",
+      "unit_verified": false
+    },
+    {
+      "name": "特別給与",
+      "unit_candidate": "JPY/person/month",
+      "unit_verified": false
+    },
+    {
+      "name": "総実労働時間",
+      "unit_candidate": "hours/person/month",
+      "unit_verified": false
+    },
+    {
+      "name": "所定内労働時間",
+      "unit_candidate": "hours/person/month",
+      "unit_verified": false
+    },
+    {
+      "name": "所定外労働時間",
+      "unit_candidate": "hours/person/month",
+      "unit_verified": false
+    },
+    {
+      "name": "出勤日数",
+      "unit_candidate": "days/person/month",
+      "unit_verified": false
+    },
+    {
+      "name": "前月末労働者数",
+      "unit_candidate": "persons",
+      "unit_verified": false
+    },
+    {
+      "name": "増加労働者数",
+      "unit_candidate": "persons",
+      "unit_verified": false
+    },
+    {
+      "name": "減少労働者数",
+      "unit_candidate": "persons",
+      "unit_verified": false
+    },
+    {
+      "name": "本月末労働者数",
+      "unit_candidate": "persons",
+      "unit_verified": false
+    },
+    {
+      "name": "パートタイム労働者数",
+      "unit_candidate": "persons",
+      "unit_verified": false
+    }
+  ],
+  "rules": [
+    "Entry and exit rates use previous month-end denominator and include intra-company establishment transfers.",
+    "Part-time share uses current month-end denominator.",
+    "Distinguish index, growth rate, day difference and percentage-point difference.",
+    "2018 regular worker definition change requires comparability review."
+  ],
+  "sources": [
+    {
+      "author": "厚生労働省",
+      "title": "毎月勤労統計調査全国調査で作成している指数等の解説（平成22年3月版）",
+      "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/sisuu/sisuu_h2203.html"
+    },
+    {
+      "author": "長崎労働局",
+      "title": "毎月勤労統計調査地方調査の説明",
+      "url": "https://jsite.mhlw.go.jp/nagasaki-roudoukyoku/content/contents/hon-1-siryo-21012508.pdf"
+    },
+    {
+      "author": "厚生労働省",
+      "title": "毎月勤労統計調査 令和2年2月分確報",
+      "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r02/0202r/dl/pdf2002r.pdf"
+    }
+  ],
+  "limitations": "Documentary definitions only; no numerical execution or source-specific unit verification this turn."
+}
