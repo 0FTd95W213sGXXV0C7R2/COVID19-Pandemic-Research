@@ -1,0 +1,18 @@
+{
+  "date_jst": "2026-11-27",
+  "publisher": "厚生労働省",
+  "sources": [
+    "https://www.e-stat.go.jp/stat-search/database?statdisp_id=0003426315",
+    "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032182952",
+    "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040029181",
+    "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040163741",
+    "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040247854"
+  ],
+  "rows": 69600,
+  "numeric": 68968,
+  "duplicate_pairs": 13920,
+  "pair_value_note_mismatches": 0,
+  "sha256": "61d78679fca60edc89a6ca151ab9814f3054d01060e853012b65f8a02dfc7608",
+  "status": "PENDING_QA",
+  "limitations": "Pair equality checked on prior extraction, not independent original reconciliation. Codes 01–13 and 33–45 retained via primary and alternate cell coordinates; semantic equivalence pending. 2017–2019 and employment flow not integrated."
+}
