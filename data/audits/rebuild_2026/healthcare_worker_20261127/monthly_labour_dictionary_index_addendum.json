@@ -1,0 +1,115 @@
+{
+  "date_jst": "2026-11-27",
+  "status": "DEFINITION_PENDING",
+  "columns": [
+    {
+      "name": "現金給与総額",
+      "index_unit_candidate": "index",
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "きまって支給する給与",
+      "index_unit_candidate": "index",
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "所定内給与",
+      "index_unit_candidate": "index",
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "所定外給与",
+      "index_unit_candidate": null,
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "特別給与",
+      "index_unit_candidate": null,
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "実質賃金指数（現金給与総額）",
+      "index_unit_candidate": "index",
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "実質賃金指数（きまって支給する給与）",
+      "index_unit_candidate": "index",
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "総実労働時間",
+      "index_unit_candidate": "index",
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "所定内労働時間",
+      "index_unit_candidate": "index",
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "所定外労働時間",
+      "index_unit_candidate": "index",
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "出勤日数",
+      "index_unit_candidate": null,
+      "growth_unit_candidate": "days",
+      "verified": false
+    },
+    {
+      "name": "常用雇用",
+      "index_unit_candidate": "index",
+      "growth_unit_candidate": "percent",
+      "verified": false
+    },
+    {
+      "name": "パートタイム労働者比率",
+      "index_unit_candidate": "percent",
+      "growth_unit_candidate": "percentage_points",
+      "verified": false
+    },
+    {
+      "name": "入職率",
+      "index_unit_candidate": "percent",
+      "growth_unit_candidate": "percentage_points",
+      "verified": false
+    },
+    {
+      "name": "離職率",
+      "index_unit_candidate": "percent",
+      "growth_unit_candidate": "percentage_points",
+      "verified": false
+    }
+  ],
+  "sources": [
+    {
+      "author": "厚生労働省",
+      "title": "指数・実数累積ファイルの活用方法",
+      "url": "https://www.mhlw.go.jp/content/10700000/001770935.pdf"
+    },
+    {
+      "author": "厚生労働省",
+      "title": "実数・指数累積データ 記号の見方",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189778",
+      "publication": "2022-04-05"
+    },
+    {
+      "author": "厚生労働省",
+      "title": "指数等 データベース",
+      "url": "https://www.e-stat.go.jp/dbview?sid=0003140394"
+    }
+  ],
+  "limitations": "Current codebook listing verified, PDF contents not inspected. Candidate units not finalized. Previous codebook ID refers to archived edition. No numerical validation performed this turn."
+}
