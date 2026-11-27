@@ -1,0 +1,11 @@
+{
+  "date_jst": "2026-11-27",
+  "rows": 818148,
+  "checkpoint_sources": 315,
+  "nonempty_sources": 232,
+  "zero_candidate_sources": 83,
+  "count_mismatches": 0,
+  "extra_sources": 0,
+  "sha256": "46dddf1985af32ebce2918d7520da5a06774fde1923519e52ecc944196cf3f2c",
+  "limitations": "Counts only, not individual part content equality. No deletion performed."
+}
