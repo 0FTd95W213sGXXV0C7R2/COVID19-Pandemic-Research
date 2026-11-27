@@ -714,3 +714,7 @@ Colab source-cell audit completed 08:05:26 JST: 1,730,865/1,730,865 rows passed,
 
 ### 2026-11-27 labour audit update
 Existing consolidated QA report: `data/audits/rebuild_2026/healthcare_worker_20261127/monthly_labour_consolidated_qa.md`. Consolidated JSON saved to Drive this turn. Current official codebook directly rechecked: https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000032189778 . Final adoption remains pending; historical XLS extraction and 54 wage/315 employment files not yet processed. xlrd absent in current runtime. Prior reported numerical QA not independently rerun this turn.
+
+
+## 2026/11/27 15:36:34 JST — 第2次改訂取得計画を正本に接続
+6領域＋共通背景に拡張。詳細は [第2次改訂計画](ACQUISITION_PLAN_REVISED_V2_20261127.md)。旧33系列の集計は過去時点。労働統計500原本の全セル処理、雇用315資料の候補抽出、年次56値の暫定構築を反映し、旧未処理記述は履歴として保持する。正式採用・原本独立監査は保留。経済・教育の新規原本取得は未実施。既存分析可能系列と残存QA、新規取得を並行。詳細計画更新コミット fdca4ed72710369c1ead59bcb0d687a4ee56cb93。新規取得・削除・mainマージなし。
