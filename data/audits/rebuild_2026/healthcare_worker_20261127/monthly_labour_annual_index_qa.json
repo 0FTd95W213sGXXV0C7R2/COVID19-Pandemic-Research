@@ -1,0 +1,105 @@
+{
+  "timestamp_jst": "2026-11-27T10:30:24.131908+09:00",
+  "sha256": "6b3c6cf3dc54df118b56e67766a3511dbad0cfdc9d3735559d4f6af84ae5e5cd",
+  "groups": 128,
+  "measures": [
+    {
+      "name": "現金給与総額",
+      "valid": 128,
+      "within_0_1": 128,
+      "max_abs": 0.05000000000001137
+    },
+    {
+      "name": "きまって支給する給与",
+      "valid": 128,
+      "within_0_1": 128,
+      "max_abs": 0.05000000000001137
+    },
+    {
+      "name": "所定内給与",
+      "valid": 128,
+      "within_0_1": 128,
+      "max_abs": 0.05000000000001137
+    },
+    {
+      "name": "総実労働時間",
+      "valid": 128,
+      "within_0_1": 128,
+      "max_abs": 0.05000000000001137
+    },
+    {
+      "name": "所定内労働時間",
+      "valid": 128,
+      "within_0_1": 128,
+      "max_abs": 0.05000000000001137
+    },
+    {
+      "name": "所定外労働時間",
+      "valid": 128,
+      "within_0_1": 128,
+      "max_abs": 0.05000000000001137
+    },
+    {
+      "name": "常用雇用",
+      "valid": 128,
+      "within_0_1": 128,
+      "max_abs": 0.05000000000001137
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2017,
+      "valid": 112,
+      "within_0_1": 112
+    },
+    {
+      "year": 2018,
+      "valid": 112,
+      "within_0_1": 112
+    },
+    {
+      "year": 2019,
+      "valid": 112,
+      "within_0_1": 112
+    },
+    {
+      "year": 2020,
+      "valid": 112,
+      "within_0_1": 112
+    },
+    {
+      "year": 2021,
+      "valid": 112,
+      "within_0_1": 112
+    },
+    {
+      "year": 2022,
+      "valid": 112,
+      "within_0_1": 112
+    },
+    {
+      "year": 2023,
+      "valid": 112,
+      "within_0_1": 112
+    },
+    {
+      "year": 2024,
+      "valid": 112,
+      "within_0_1": 112
+    }
+  ],
+  "method": "CP932 pandas read; strip industry codes; filter P/P83/P85/TL and index kind; compare CY to mean of 12 months by year, industry, size, employment; tolerance 0.1 plus 1e-9 float guard",
+  "sources": [
+    {
+      "author": "厚生労働省",
+      "title": "令和6年分結果確報 利用上の注意",
+      "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r06/24cr/dl/sankou24cr.pdf"
+    },
+    {
+      "author": "厚生労働省",
+      "title": "指数・伸び率累積データ",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189777"
+    }
+  ],
+  "limitations": "Within same cumulative source only; external annual report comparison not performed; real wage index and growth rates excluded; adoption pending."
+}
