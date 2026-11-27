@@ -1,0 +1,6 @@
+observation_date,publication_date,partial_school_count,partial_school_rate_pct,whole_school_count,whole_school_rate_pct,source_url,source_page,qa
+2022-02-09,2022-02-18,4895,13.8,717,2.0,https://www.mext.go.jp/content/20220218-mxt_kenshoku-000006590_1.pdf,1,corrected_two_counts
+2022-02-22,2022-03-04,3951,11.1,270,0.8,https://www.mext.go.jp/content/20220304-mxt_kouhou01-000004520_01.pdf,1,filled_two_missing
+2022-03-09,2022-03-18,3029,8.5,186,0.5,https://www.mext.go.jp/content/20220317-mxt_kouhou01-000004520_07.pdf,1,corrected_two_counts_filled_rate
+2022-04-11,2022-04-22,708,2.0,82,0.2,https://www.mext.go.jp/content/20220422-mxt_kouhou01-000004520_01.pdf,1,match
+2022-05-09,2022-05-20,585,1.7,27,0.1,https://www.mext.go.jp/content/20220520-mxt_kouhou01-000004520_01.pdf,1,match
