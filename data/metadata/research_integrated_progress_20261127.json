@@ -776,19 +776,24 @@
       "target": "実質名目GDP",
       "priority": "最優先",
       "status": "L3",
-      "status_scope": "年度系列のみ構造化・GitHub再読込済。四半期未取得。",
+      "status_scope": "2026-06-08固定版、年度・四半期構造化済。四半期6系列16770行の登録・構造監査済。独立原本照合未完。",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
         "data/audits/rebuild_2026/economy_education_20261127/gaku-jfy2612_long.csv",
         "data/audits/rebuild_2026/economy_education_20261127/gaku-mfy2612_long.csv",
-        "data/audits/rebuild_2026/economy_education_20261127/gdp_definition_QA.md"
+        "data/audits/rebuild_2026/economy_education_20261127/gdp_definition_QA.md",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-jg2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-jk2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-mg2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-mk2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/quarterly_integrated_QA.md"
       ],
-      "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/toukei_2026.html",
-      "analysis_eligibility": "正式採用保留",
-      "remaining": "四半期・最優先",
-      "next_action": "四半期系列取得、年度指標定義と版の確認",
-      "updated_jst": "2026/11/27 18:02:55"
+      "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe261_2/gdemenuja.html",
+      "analysis_eligibility": "固定版の記述・探索分析に条件付き使用可。正式L5保留。",
+      "remaining": "独立原本照合、最新版感度分析（任意）",
+      "next_action": "既存原本照合を行い、未取得領域を優先",
+      "updated_jst": "2026/11/27 19:43:55"
     },
     {
       "id": "ECO02",
@@ -796,36 +801,48 @@
       "target": "民間最終消費",
       "priority": "最優先",
       "status": "L3",
-      "status_scope": "年度系列のみ構造化・GitHub再読込済。四半期未取得。",
+      "status_scope": "2026-06-08固定版、年度・四半期構造化済。四半期6系列16770行の登録・構造監査済。独立原本照合未完。",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
         "data/audits/rebuild_2026/economy_education_20261127/gaku-jfy2612_long.csv",
         "data/audits/rebuild_2026/economy_education_20261127/gaku-mfy2612_long.csv",
-        "data/audits/rebuild_2026/economy_education_20261127/gdp_definition_QA.md"
+        "data/audits/rebuild_2026/economy_education_20261127/gdp_definition_QA.md",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-jg2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-jk2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-mg2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-mk2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/quarterly_integrated_QA.md"
       ],
-      "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/toukei_2026.html",
-      "analysis_eligibility": "正式採用保留",
-      "remaining": "四半期・最優先",
-      "next_action": "四半期系列取得、年度指標定義と版の確認",
-      "updated_jst": "2026/11/27 18:02:55"
+      "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe261_2/gdemenuja.html",
+      "analysis_eligibility": "固定版の記述・探索分析に条件付き使用可。正式L5保留。",
+      "remaining": "独立原本照合、最新版感度分析（任意）",
+      "next_action": "既存原本照合を行い、未取得領域を優先",
+      "updated_jst": "2026/11/27 19:43:55"
     },
     {
       "id": "ECO03",
       "area": "経済",
       "target": "設備投資",
       "priority": "高",
-      "status": "L1",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status": "L3",
+      "status_scope": "2026-06-08固定版、年度・四半期構造化済。四半期6系列16770行の登録・構造監査済。独立原本照合未完。",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-jfy2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-mfy2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-jg2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-jk2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-mg2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/gaku-mk2612_long.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/quarterly_integrated_QA.md"
       ],
-      "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/toukei_2026.html",
-      "analysis_eligibility": "個別採否確認待ち",
-      "remaining": "四半期",
-      "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "source": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe261_2/gdemenuja.html",
+      "analysis_eligibility": "固定版の記述・探索分析に条件付き使用可。正式L5保留。",
+      "remaining": "独立原本照合、最新版感度分析（任意）",
+      "next_action": "既存原本照合を行い、未取得領域を優先",
+      "updated_jst": "2026/11/27 19:43:55"
     },
     {
       "id": "ECO04",
