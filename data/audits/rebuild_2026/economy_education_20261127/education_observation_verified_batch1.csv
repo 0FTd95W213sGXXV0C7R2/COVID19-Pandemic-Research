@@ -1,0 +1,4 @@
+observation_date,publication_date,partial_school_count,partial_school_rate_pct,whole_school_count,whole_school_rate_pct,source_url,source_page,qa
+2022-06-13,2022-06-30,572,1.6,44,0.1,https://www.mext.go.jp/content/20220630-mxt_kouhou01-000004520_01.pdf,1,11_existing_values_match_across_batch_missing_rate_filled
+2022-07-13,2022-07-27,2545,7.2,99,0.3,https://www.mext.go.jp/content/20220727-mxt_kouhou01-000004520_01.pdf,1,match
+2023-03-01,2023-03-17,156,0.4,8,0.02,https://www.mext.go.jp/content/20230317-mxt_kouhou01-000004520_1.pdf,1,match
