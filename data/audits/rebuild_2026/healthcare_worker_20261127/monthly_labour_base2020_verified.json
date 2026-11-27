@@ -1,0 +1,32 @@
+{
+  "recorded_at_jst": "2026-11-27T10:28:00+09:00",
+  "timestamp_note": "session clock observed before analysis",
+  "hashes_verified": 2,
+  "industries": [
+    "P",
+    "P83",
+    "P85",
+    "TL"
+  ],
+  "groups": 16,
+  "measures": [
+    "現金給与総額",
+    "きまって支給する給与",
+    "所定内給与",
+    "総実労働時間",
+    "所定内労働時間",
+    "所定外労働時間",
+    "常用雇用"
+  ],
+  "annual_100": 112,
+  "monthly_nonmissing": 1344,
+  "mean_matches_within_0_05": 112,
+  "max_abs_difference": 0.041666666666671404,
+  "method": "pandas CP932 read, strip industry code, select index type and year 2020, group monthly mean and count by industry,size,employment, compare CY",
+  "sources": [
+    "https://www.mhlw.go.jp/toukei/list/dl/maikin-kaisetsu-20220405.pdf",
+    "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r07/25cr/dl/sankou25cr.pdf",
+    "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189777"
+  ],
+  "limitations": "No historical annual report comparison in this run, no independent verification of previous full QA, adoption pending."
+}
