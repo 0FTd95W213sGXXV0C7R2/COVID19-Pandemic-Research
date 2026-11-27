@@ -1,0 +1,32 @@
+{
+  "recorded_at_jst": "2026-11-27T10:26:02.978843+09:00",
+  "source_sha256": "f47ee7e36bc158354870350ba8d9543e47257c3bd2532d260d4469093da027d1",
+  "source_url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032189776",
+  "definition_url": "https://www.mhlw.go.jp/content/10700000/000535938.pdf",
+  "period": "2017-01/2024-12",
+  "rows": 3840,
+  "industry_counts": {
+    "P": 1728,
+    "P83": 192,
+    "P85": 192,
+    "TL": 1728
+  },
+  "checks": [
+    {
+      "formula": "現金給与総額−きまって支給する給与−特別給与",
+      "n": 3840,
+      "exact": 3840,
+      "excluded": 0,
+      "max_abs": 0
+    },
+    {
+      "formula": "きまって支給する給与−所定内給与−所定外給与",
+      "n": 3840,
+      "exact": 3840,
+      "excluded": 0,
+      "max_abs": 0
+    }
+  ],
+  "limitations": "Internal additive consistency only. No independent verification of historical comparability or prior numerical QA. Earlier QA execution claims are not independently evidenced in this run.",
+  "adoption": "PENDING_QA"
+}
