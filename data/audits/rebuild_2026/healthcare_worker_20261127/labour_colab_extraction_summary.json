@@ -1,0 +1,201 @@
+{
+  "evidence": "Colab summary read directly from Drive; not independent rerun",
+  "summary": {
+    "started_at_jst": "2026-11-27T11:07:23.623889+09:00",
+    "completed_at_jst": "2026-11-27T11:23:59.860144+09:00",
+    "manifest_sources": 500,
+    "expected_sources": 500,
+    "discovered_files": 500,
+    "extracted_sources": 500,
+    "verified_outputs": 500,
+    "missing_sources": [],
+    "total_extracted_cells": 62355716,
+    "numeric_typed_cells": 18968566,
+    "survey_counts": {
+      "毎月勤労統計調査": 3,
+      "employment_trends": 315,
+      "monthly_labour": 128,
+      "wage_structure": 54
+    },
+    "issues": 0,
+    "monthly_numerical_qa": {
+      "real_rows": 3840,
+      "payroll_total": {
+        "n": 3840,
+        "excluded": 0,
+        "within_tolerance": 3840,
+        "max_abs": 0,
+        "tolerance": 0
+      },
+      "regular_payroll": {
+        "n": 3840,
+        "excluded": 0,
+        "within_tolerance": 3840,
+        "max_abs": 0,
+        "tolerance": 0
+      },
+      "hours": {
+        "n": 3840,
+        "excluded": 0,
+        "within_tolerance": 3840,
+        "max_abs": 2.3092638912203256e-14,
+        "tolerance": 0.15
+      },
+      "employment_balance": {
+        "0": {
+          "n": 1536,
+          "excluded": 0,
+          "within_tolerance": 1536,
+          "max_abs": 0,
+          "tolerance": 0
+        },
+        "1": {
+          "n": 1152,
+          "excluded": 0,
+          "within_tolerance": 8,
+          "max_abs": 27879,
+          "tolerance": 0
+        },
+        "2": {
+          "n": 1152,
+          "excluded": 0,
+          "within_tolerance": 8,
+          "max_abs": 27879,
+          "tolerance": 0
+        }
+      },
+      "annual_index": {
+        "現金給与総額": {
+          "n": 128,
+          "excluded": 0,
+          "within_tolerance": 128,
+          "max_abs": 0.05000000000001137,
+          "tolerance": 0.1
+        },
+        "きまって支給する給与": {
+          "n": 128,
+          "excluded": 0,
+          "within_tolerance": 128,
+          "max_abs": 0.05000000000001137,
+          "tolerance": 0.1
+        },
+        "所定内給与": {
+          "n": 128,
+          "excluded": 0,
+          "within_tolerance": 128,
+          "max_abs": 0.05000000000001137,
+          "tolerance": 0.1
+        },
+        "総実労働時間": {
+          "n": 128,
+          "excluded": 0,
+          "within_tolerance": 128,
+          "max_abs": 0.05000000000001137,
+          "tolerance": 0.1
+        },
+        "所定内労働時間": {
+          "n": 128,
+          "excluded": 0,
+          "within_tolerance": 128,
+          "max_abs": 0.05000000000001137,
+          "tolerance": 0.1
+        },
+        "所定外労働時間": {
+          "n": 128,
+          "excluded": 0,
+          "within_tolerance": 128,
+          "max_abs": 0.05000000000001137,
+          "tolerance": 0.1
+        },
+        "常用雇用": {
+          "n": 128,
+          "excluded": 0,
+          "within_tolerance": 128,
+          "max_abs": 0.05000000000001137,
+          "tolerance": 0.1
+        }
+      },
+      "base2020": {
+        "現金給与総額": {
+          "n": 16,
+          "excluded": 0,
+          "within_tolerance": 16,
+          "max_abs": 0,
+          "tolerance": 0
+        },
+        "きまって支給する給与": {
+          "n": 16,
+          "excluded": 0,
+          "within_tolerance": 16,
+          "max_abs": 0,
+          "tolerance": 0
+        },
+        "所定内給与": {
+          "n": 16,
+          "excluded": 0,
+          "within_tolerance": 16,
+          "max_abs": 0,
+          "tolerance": 0
+        },
+        "総実労働時間": {
+          "n": 16,
+          "excluded": 0,
+          "within_tolerance": 16,
+          "max_abs": 0,
+          "tolerance": 0
+        },
+        "所定内労働時間": {
+          "n": 16,
+          "excluded": 0,
+          "within_tolerance": 16,
+          "max_abs": 0,
+          "tolerance": 0
+        },
+        "所定外労働時間": {
+          "n": 16,
+          "excluded": 0,
+          "within_tolerance": 16,
+          "max_abs": 0,
+          "tolerance": 0
+        },
+        "常用雇用": {
+          "n": 16,
+          "excluded": 0,
+          "within_tolerance": 16,
+          "max_abs": 0,
+          "tolerance": 0
+        }
+      },
+      "entry_rate": {
+        "n": 1536,
+        "excluded": 0,
+        "within_tolerance": 1536,
+        "max_abs": 0.004999160128992264,
+        "tolerance": 0.005
+      },
+      "exit_rate": {
+        "n": 1536,
+        "excluded": 0,
+        "within_tolerance": 1536,
+        "max_abs": 0.004997670261523757,
+        "tolerance": 0.005
+      },
+      "parttime_share": {
+        "n": 768,
+        "excluded": 768,
+        "within_tolerance": 768,
+        "max_abs": 0.004989122552572667,
+        "tolerance": 0.05
+      }
+    },
+    "all_manifest_sources_extracted": true,
+    "all_outputs_verified": true,
+    "independent_source_cell_comparison_completed": false,
+    "historical_yearbook_comparison_completed": false,
+    "semantic_normalization_completed": false,
+    "final_adoption_completed": false,
+    "github_registration_completed": false,
+    "notion_registration_completed": false
+  },
+  "limitations": "CSV numeric strings counted as text; output verification is not independent source-cell comparison. Employment-type residuals unresolved. No final adoption."
+}
