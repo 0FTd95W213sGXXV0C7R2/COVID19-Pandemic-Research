@@ -1,0 +1,4 @@
+# Batch 1 source re-extraction QA
+JST: 2026/11/27 22:24:29
+Actual local execution: cmp matched all seven Drive readback files against local originals; SHA256 matched preservation manifest. Python script reextract_school_batch1.py used pdftotext -layout, removed parenthetical previous survey deltas, parsed 18 counts and 12 rates per region (including separate denominator lines). Decimal comparison against existing CSV: all six files 1440 values each, 8640 total, zero differences, 1728 unique keys matched. Pages 2 except May 20 page 3. Source https://www.mext.go.jp/a_menu/coronavirus/mext_00007.html .
+This is a fresh text-based comparison; original extraction implementation is unknown so algorithmic independence is not established. Visual audit and standalone CSV generator remain pending. The validation script was executed locally but not yet registered on GitHub. No L5 adoption yet.
