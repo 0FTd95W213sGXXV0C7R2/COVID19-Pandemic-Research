@@ -1,0 +1,3 @@
+# November vintage acquisition attempt
+JST 2026/11/27 18:30:23
+Official listing verified: https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe263/gdemenuja.html ; e-Stat https://www.e-stat.go.jp/stat-search/files?layout=dataset&tclass1=000001014471&toukei=00100409&tstat=000001014470 . Eight CSV categories listed: real original/adjusted, nominal original/adjusted, deflator original/adjusted, real/nominal fiscal year. Direct curl to official listing failed DNS resolution (exit 6); web open cache miss, search indexed listing available. No November raw bytes acquired. Request user download via official listing; do not assume individual CSV URL. June vintage preserved, L3 unchanged.
