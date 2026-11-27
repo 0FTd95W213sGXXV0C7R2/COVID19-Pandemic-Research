@@ -1,0 +1,54 @@
+{
+  "timestamp_jst": "2026-11-27T10:44:56.465272+09:00",
+  "method": "Read CP932 source CSVs and gzip candidate as strings; independently select 2017–2024 months and stripped P/P83/P85/TL; compare expected coordinate sets, source cell strings, six stripped attributes, indicator header, SHA256 and numeric conversion.",
+  "sources": [
+    {
+      "id": "000032189776",
+      "n": 53760,
+      "numeric": 51456,
+      "blank": 2304
+    },
+    {
+      "id": "000032189777",
+      "n": 46080,
+      "numeric": 36096,
+      "blank": 9984
+    }
+  ],
+  "mismatches": {
+    "raw": 0,
+    "numeric": 0,
+    "attributes": 0,
+    "indicator": 0,
+    "sha256": 0,
+    "missing_coordinates": 0,
+    "extra_coordinates": 0,
+    "duplicate_coordinates": 0
+  },
+  "attribute_checks": 599040,
+  "official_codebook": {
+    "author": "厚生労働省",
+    "title": "実数・指数累積データにおける記号の見方",
+    "url": "https://www.e-stat.go.jp/stat-search/file-download?fileKind=2&statInfId=000031913619",
+    "industry": {
+      "TL": "調査産業計",
+      "P": "医療，福祉",
+      "P83": "医療業",
+      "P85": "社会保険・社会福祉・介護事業"
+    },
+    "size": {
+      "0": "30人以上",
+      "4": "500人以上",
+      "5": "100～499人",
+      "7": "30～99人",
+      "9": "5～29人",
+      "T": "5人以上"
+    },
+    "employment": {
+      "0": "就業形態計",
+      "1": "一般労働者",
+      "2": "パートタイム労働者"
+    }
+  },
+  "limitations": "Units, historical yearbook comparisons and source vintage not independently verified here. PENDING_QA."
+}
