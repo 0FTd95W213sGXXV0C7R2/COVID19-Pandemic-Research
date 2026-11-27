@@ -1,0 +1,20 @@
+{
+  "date_jst": "2026-11-27",
+  "author": "厚生労働省",
+  "sources": [
+    {
+      "id": "0003138107",
+      "title": "実数関連・暦年平均",
+      "url": "https://www.e-stat.go.jp/dbview?sid=0003138107"
+    },
+    {
+      "id": "0003140394",
+      "title": "指数関連・月次",
+      "url": "https://www.e-stat.go.jp/dbview?sid=0003140394"
+    }
+  ],
+  "observed": "Both HTML pages accessible; text search for 単位 returned no match on either page.",
+  "status": "DEFINITION_PENDING",
+  "next": "Inspect original yearbook header units and machine-readable metadata; preserve distinction between CSV columns and statistical measures.",
+  "limitations": "No unit confirmation, numerical analysis, or exact JST timestamp in this run."
+}
