@@ -1,0 +1,17 @@
+{
+  "recorded_at_jst": "2026-11-27T13:24:00+09:00",
+  "sha256": "46dddf1985af32ebce2918d7520da5a06774fde1923519e52ecc944196cf3f2c",
+  "bytes": 6159525,
+  "rows": 818148,
+  "annual_counts_match": true,
+  "labels": {
+    "医療,福祉": 639368,
+    "医療業": 90104,
+    "社会保険・社会福祉・介護事業": 73946,
+    "P医療,福祉": 7892,
+    "(前職)P医療,福祉": 3988,
+    "(前職)医療,福祉": 2850
+  },
+  "source": "https://www.e-stat.go.jp/stat-search/files?toukei=00450073",
+  "limitations": "Readback integrity and literal label counts only; no semantic validation or deletion."
+}
