@@ -1,0 +1,224 @@
+{
+  "executed_jst": "2026-11-28T20:38:57+09:00",
+  "baseline_sha256": "eda32d11903e395103b2cf9ed37927f190e6dfec39f7dba57869bed58d3f9bab",
+  "original_codex_baseline": true,
+  "baseline_rows": 89938,
+  "baseline_sources": 54,
+  "acquired_sources": 30,
+  "monthly_rows": 288,
+  "monthly_periods": 96,
+  "sex_total_difference_counts": {
+    "0": 68,
+    "-1": 8,
+    "1": 19,
+    "2": 1
+  },
+  "sex_totals_beyond_one": [
+    "2020-03"
+  ],
+  "reason_changed_keys": 69,
+  "reason_rebased_candidate_keys": 69,
+  "missing_reason_quarters": [
+    {
+      "period": "2017-Q1",
+      "general_release_url": "https://www.stat.go.jp/data/roudou/rireki/4hanki/dt/pdf/2017_1.pdf",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": ""
+    },
+    {
+      "period": "2017-Q2",
+      "general_release_url": "https://www.stat.go.jp/data/roudou/rireki/4hanki/dt/pdf/2017_2.pdf",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": ""
+    },
+    {
+      "period": "2017-Q3",
+      "general_release_url": "https://www.stat.go.jp/data/roudou/rireki/4hanki/dt/pdf/2017_3.pdf",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": ""
+    },
+    {
+      "period": "2017-Q4",
+      "general_release_url": "https://www.stat.go.jp/data/roudou/rireki/4hanki/dt/pdf/2017_4.pdf",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": ""
+    },
+    {
+      "period": "2018-Q1",
+      "general_release_url": "https://www.stat.go.jp/data/roudou/rireki/4hanki/dt/pdf/2018_1.pdf",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": ""
+    },
+    {
+      "period": "2018-Q2",
+      "general_release_url": "https://www.stat.go.jp/data/roudou/rireki/4hanki/dt/pdf/2018_2.pdf",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": ""
+    },
+    {
+      "period": "2018-Q3",
+      "general_release_url": "https://www.stat.go.jp/data/roudou/rireki/4hanki/dt/pdf/2018_3.pdf",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": ""
+    },
+    {
+      "period": "2018-Q4",
+      "general_release_url": "https://www.stat.go.jp/data/roudou/rireki/4hanki/dt/pdf/2018_4.pdf",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": ""
+    },
+    {
+      "period": "2023-Q2",
+      "general_release_url": "",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=2&toukei=00200531&tstat=000001226583&tclass1=000001226833&tclass2=000001226861&tclass3val=0&year=20230&month=12040600&result_back=1"
+    },
+    {
+      "period": "2023-Q3",
+      "general_release_url": "",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=2&toukei=00200531&tstat=000001226583&tclass1=000001226833&tclass2=000001226861&tclass3val=0&year=20230&month=23070900&result_back=1"
+    },
+    {
+      "period": "2023-Q4",
+      "general_release_url": "",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=2&toukei=00200531&tstat=000001226583&tclass1=000001226833&tclass2=000001226861&tclass3val=0&year=20230&month=24101200&result_back=1"
+    },
+    {
+      "period": "2024-Q1",
+      "general_release_url": "",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=2&toukei=00200531&tstat=000001226583&tclass1=000001226833&tclass2=000001226861&tclass3val=0&year=20240&month=11010300&result_back=1"
+    },
+    {
+      "period": "2024-Q2",
+      "general_release_url": "",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=2&toukei=00200531&tstat=000001226583&tclass1=000001226833&tclass2=000001226861&tclass3val=0&year=20240&month=12040600&result_back=1"
+    },
+    {
+      "period": "2024-Q3",
+      "general_release_url": "",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=2&toukei=00200531&tstat=000001226583&tclass1=000001226833&tclass2=000001226861&tclass3val=0&year=20240&month=23070900&result_back=1"
+    },
+    {
+      "period": "2024-Q4",
+      "general_release_url": "",
+      "reason_table_status": "取得した概要PDFに理由別表見出しなし",
+      "catalog_url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=2&toukei=00200531&tstat=000001226583&tclass1=000001226833&tclass2=000001226861&tclass3val=0&year=20240&month=24101200&result_back=1"
+    }
+  ],
+  "reason_release_evidence": {
+    "reason_2020_2sankou.pdf": {
+      "revised_years": [],
+      "release": "2020-08-11",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2020_2sankou.pdf"
+    },
+    "reason_2020_3sankou.pdf": {
+      "revised_years": [],
+      "release": "2020-11-10",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2020_3sankou.pdf"
+    },
+    "reason_2020_4sankou.pdf": {
+      "revised_years": [],
+      "release": "2021-02-16",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2020_4sankou.pdf"
+    },
+    "reason_2021_1sankou.pdf": {
+      "revised_years": [],
+      "release": "2021-05-14",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2021_1sankou.pdf"
+    },
+    "reason_2021_2sankou.pdf": {
+      "revised_years": [],
+      "release": "2021-08-10",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2021_2sankou.pdf"
+    },
+    "reason_2021_3sankou.pdf": {
+      "revised_years": [],
+      "release": "2021-11-09",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2021_3sankou.pdf"
+    },
+    "reason_2021_4sankou.pdf": {
+      "revised_years": [],
+      "release": "2022-02-15",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2021_4sankou.pdf"
+    },
+    "reason_2022_1sankou.pdf": {
+      "revised_years": [
+        2020,
+        2021
+      ],
+      "release": "2022-05-13",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2022_1sankou.pdf"
+    },
+    "reason_2022_2sankou.pdf": {
+      "revised_years": [
+        2019,
+        2020,
+        2021
+      ],
+      "release": "2022-08-09",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2022_2sankou.pdf"
+    },
+    "reason_2022_3sankou.pdf": {
+      "revised_years": [
+        2019,
+        2020,
+        2021
+      ],
+      "release": "2022-11-08",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2022_3sankou.pdf"
+    },
+    "reason_2022_4sankou.pdf": {
+      "revised_years": [
+        2019,
+        2020,
+        2021
+      ],
+      "release": "2023-02-14",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2022_4sankou.pdf"
+    },
+    "reason_2023_1sankou.pdf": {
+      "revised_years": [
+        2019,
+        2020,
+        2021
+      ],
+      "release": "2023-05-12",
+      "definition_change": "原表脚注の版間同等性は未確定",
+      "url": "https://www.stat.go.jp/data/roudou/sokuhou/4hanki/dt/pdf/2023_1sankou.pdf"
+    }
+  },
+  "prior_comparison": null,
+  "prior_candidates": {
+    "monthly_absence": "同一DBコードの既存数値明細は未確認",
+    "wages": "000032189777は既存監査と同じ資料ID。版・対象・行の一致は未確認"
+  },
+  "wage_definition": {
+    "industry": "TL",
+    "establishment_size": "T",
+    "employment_type": "0",
+    "index_base": 2020,
+    "index_base_value": 100,
+    "index_unit": "指数",
+    "growth_unit": "%",
+    "nominal": "現金給与総額",
+    "real": "実質賃金指数（現金給与総額）",
+    "deflator": "2020年基準CPI（持家の帰属家賃を除く総合）",
+    "research_id_mapping": "WC01・WC02の正式な研究内対応台帳は未確認"
+  }
+}

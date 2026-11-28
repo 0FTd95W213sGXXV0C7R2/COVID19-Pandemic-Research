@@ -1,8 +1,11 @@
-# Batch C-13 Colab単一セル
+# Batch C-13 統合Colab単一セル
 
-Google ColabのPythonセルに貼り付ける。公式資料を取得時点の公開版から再構築し、既存のDrive研究フォルダ内に日時付きで保存する。取得時点が異なるため原資料やZIPのハッシュが変わる場合がある。
+Google ColabのPythonセルに貼り付ける。旧版ZIPのDriveパスを `baseline_on_drive` に指定すると原本をそのまま保持する。未指定時は前回分を公式URLから再取得するため、原資料の版・行数・ハッシュが変わり得る。以前の休業者明細がある場合は `prior_on_drive` に公式座標（table_id、time_code、sex_code、employment_status、industry、age、region、measure、unit、raw）に対応づけたCSVを指定する。賃金の既存明細は、同一版のハッシュと原表座標を確認したうえで原表座標形式に変換したCSVを `prior_wage_on_drive` に指定する。
 
 ```python
+import csv
+import io
+from zipfile import ZipFile
 from datetime import datetime
 from hashlib import file_digest
 import json
@@ -14,7 +17,11 @@ import traceback
 from zoneinfo import ZoneInfo
 from google.colab import drive
 
-commit = '9e7e0ce0a8f40fd5c761d0638c4c86e2744fd08b'
+commit = '5e42315057f51c6df8d615f676067d2386c661b8'
+baseline_on_drive = ''
+prior_on_drive = ''
+prior_wage_on_drive = ''
+expected_baseline = 'eda32d11903e395103b2cf9ed37927f190e6dfec39f7dba57869bed58d3f9bab'
 url = 'https://github.com/0FTd95W213sGXXV0C7R2/COVID19-Pandemic-Research.git'
 mount = '/content/drive'
 stamp = datetime.now(ZoneInfo('Asia/Tokyo')).strftime('%Y%m%d_%H%M%S_%f')
@@ -58,10 +65,58 @@ try:
     if actual!=commit:
         raise RuntimeError('Code commit mismatch')
     output = root/'output'
-    run(sys.executable,str(repo/'scripts/acquire_employment_wage_c13.py'),str(output))
+    if baseline_on_drive:
+        baseline = root/'employment_wage_c13_original.zip'
+        copy_new(Path(baseline_on_drive),baseline)
+        if digest(baseline)!=expected_baseline:
+            raise RuntimeError('指定した旧版ZIPのSHA-256がCodex版と異なります')
+    else:
+        old_output = root/'previous_version_reacquired'
+        run(sys.executable,str(repo/'scripts/acquire_employment_wage_c13.py'),str(old_output))
+        baseline = old_output/'employment_wage_c13.zip'
+    log['baseline_sha256'] = digest(baseline)
+    log['original_codex_baseline'] = log['baseline_sha256']==expected_baseline
+    reference = json.loads((repo/'data/audits/rebuild_2026/employment_wage_c13/source_manifest.json').read_text())
+    with ZipFile(baseline) as z:
+        manifest = json.loads(z.read('source_manifest.json'))
+    known = {r['filename']:r.get('sha256') for r in reference}
+    log['baseline_source_changes'] = [{'file':r['filename'],'expected':known.get(r['filename']),
+        'observed':r.get('sha256')} for r in manifest if r.get('sha256')!=known.get(r['filename'])]
+    args = []
+    if prior_on_drive:
+        prior = root/'prior.csv'
+        copy_new(Path(prior_on_drive),prior)
+        args.extend(['--prior',str(prior)])
+    if prior_wage_on_drive:
+        prior_wage = root/'prior_wage.csv'
+        copy_new(Path(prior_wage_on_drive),prior_wage)
+        as_fields = ('source','sheet','cell','period','frequency','region_code','metric','unit','adjustment')
+        def indexed(rows):
+            result = {}
+            for row in rows:
+                if row['source']!='wage_index.csv':
+                    continue
+                key = tuple(row[k] for k in as_fields)
+                if key in result:
+                    raise ValueError('Duplicate wage coordinate')
+                result[key] = row['raw']
+            return result
+        with ZipFile(baseline) as z:
+            left = indexed(csv.DictReader(io.StringIO(z.read('observations.csv').decode())))
+            wage_hash = next(r['sha256'] for r in manifest if r['filename']=='wage_index.csv')
+        with prior_wage.open(encoding='utf-8-sig',newline='') as stream:
+            rows = list(csv.DictReader(stream))
+        if not rows or any(r.get('source_sha256')!=wage_hash for r in rows):
+            raise ValueError('Prior wage source SHA-256 differs')
+        right = indexed(rows)
+        common = left.keys() & right.keys()
+        log['prior_wage_comparison'] = {'matching':sum(left[k]==right[k] for k in common),
+            'different':sum(left[k]!=right[k] for k in common),
+            'c13_only':len(left.keys()-right.keys()),'prior_only':len(right.keys()-left.keys())}
+    run(sys.executable,str(repo/'scripts/extend_employment_wage_c13.py'),str(baseline),str(output),*args)
     sys.path.insert(0,str(repo/'scripts'))
     from acquire_employment_wage_c13 import verify
-    zipfile = output/'employment_wage_c13.zip'
+    zipfile = output/'employment_wage_c13_integrated.zip'
     log['verified_members'] = verify(zipfile)
     log['sha256'] = digest(zipfile)
     log['bytes'] = zipfile.stat().st_size
