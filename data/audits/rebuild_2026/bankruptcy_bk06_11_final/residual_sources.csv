@@ -1,0 +1,6 @@
+item,url,result
+BK08_TSR_labor,https://www.tsr-net.co.jp/data/detail/1198561_1527.html,既取得の累計本文と月別画像を確認。単月の数値原表は確認不能。調査開始前は補完しない
+BK08_TSR_price,https://www.tsr-net.co.jp/data/detail/1198289_1527.html,2022年暦年と2022・2023年12月を追加。2023年当初値と後年再掲値を分離
+BK10,https://www.chusho.meti.go.jp/pamflet/hakusyo/2025/PDF/chusho/09Hakusyo_fuzokutoukei_web.pdf,付属統計資料12表。HTTP 403
+BK10,https://www.chusho.meti.go.jp/pamflet/hakusyo/2026/PDF/chusho/08Hakusyo_fuzokutokeishiryo_web.pdf,付属統計資料12表。HTTP 403
+BK10,https://www.chusho.meti.go.jp/pamflet/hakusyo/2025/chusho/f12.html,旧バッチHTTP 403を継承。雇用保険関係の成立・消滅による年度別事業所率

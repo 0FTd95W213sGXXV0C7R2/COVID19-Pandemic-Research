@@ -1,0 +1,107 @@
+{
+  "executed_jst": "2026-11-28T19:30:14+09:00",
+  "baseline_rows": 2221,
+  "added_rows": 649,
+  "changed_baseline_rows": 0,
+  "total_rows": 2870,
+  "coverage": {
+    "BK06": {
+      "TDB": {
+        "months": 40,
+        "years": 2,
+        "rows": 210,
+        "numeric": 190,
+        "blanks": 20,
+        "variables": 10
+      }
+    },
+    "BK07": {
+      "TDB": {
+        "months": 93,
+        "years": 6,
+        "rows": 537,
+        "numeric": 537,
+        "blanks": 0,
+        "variables": 32
+      }
+    },
+    "BK08": {
+      "TDB": {
+        "months": 96,
+        "years": 8,
+        "rows": 1478,
+        "numeric": 1321,
+        "blanks": 157,
+        "variables": 48
+      },
+      "TSR": {
+        "months": 2,
+        "years": 4,
+        "rows": 10,
+        "numeric": 10,
+        "blanks": 0,
+        "variables": 4
+      }
+    },
+    "BK09": {
+      "TDB": {
+        "months": 96,
+        "years": 8,
+        "rows": 416,
+        "numeric": 397,
+        "blanks": 19,
+        "variables": 8
+      }
+    },
+    "BK10": {
+      "TDB": {
+        "months": 0,
+        "years": 8,
+        "rows": 11,
+        "numeric": 11,
+        "blanks": 0,
+        "variables": 2
+      }
+    },
+    "BK11": {
+      "TDB": {
+        "months": 96,
+        "years": 8,
+        "rows": 104,
+        "numeric": 104,
+        "blanks": 0,
+        "variables": 2
+      },
+      "TSR": {
+        "months": 96,
+        "years": 8,
+        "rows": 104,
+        "numeric": 104,
+        "blanks": 0,
+        "variables": 2
+      }
+    }
+  },
+  "pdf_row_check": {
+    "row_value_confirmed": 1485,
+    "unconfirmed": 334,
+    "blank_pending_column": 177
+  },
+  "ambiguous_tables": 0,
+  "original_hashes_verified": 260,
+  "supplementary_acquired": 1,
+  "annual_classification_checks": {
+    "match": 114,
+    "incomplete_or_schema_difference": 44,
+    "blank": 2
+  },
+  "category_totals_match": 349,
+  "category_tables": 349,
+  "duplicate_keys": 0,
+  "bk01_candidates": {
+    "monthly_same_indicator": 96,
+    "annual_same_provider_metric": 8,
+    "exact_duplicate_rows_verified": 0
+  },
+  "other_values": "原表掲載値のみ。要約区分は分類ラベルに明示。残差で算出した値は0件"
+}
