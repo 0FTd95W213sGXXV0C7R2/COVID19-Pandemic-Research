@@ -1,0 +1,121 @@
+{
+  "executed_jst": "2026-11-28T19:22:16+09:00",
+  "baseline_rows": 182,
+  "total_rows": 2221,
+  "acquisition": {
+    "acquired.csv": 1,
+    "acquired.html": 123,
+    "acquired.json": 1,
+    "acquired.pdf": 139,
+    "failed.html": 2,
+    "failed.pdf": 1
+  },
+  "coverage": {
+    "BK06": {
+      "TDB": {
+        "months": 40,
+        "years": 2,
+        "rows": 210,
+        "numeric": 190,
+        "blanks": 20,
+        "variables": 10
+      }
+    },
+    "BK07": {
+      "TDB": {
+        "months": 40,
+        "years": 2,
+        "rows": 252,
+        "numeric": 252,
+        "blanks": 0,
+        "variables": 12
+      }
+    },
+    "BK08": {
+      "TDB": {
+        "months": 81,
+        "years": 4,
+        "rows": 1298,
+        "numeric": 1141,
+        "blanks": 157,
+        "variables": 46
+      },
+      "TSR": {
+        "months": 0,
+        "years": 4,
+        "rows": 6,
+        "numeric": 6,
+        "blanks": 0,
+        "variables": 2
+      }
+    },
+    "BK09": {
+      "TDB": {
+        "months": 56,
+        "years": 3,
+        "rows": 236,
+        "numeric": 217,
+        "blanks": 19,
+        "variables": 8
+      }
+    },
+    "BK10": {
+      "TDB": {
+        "months": 0,
+        "years": 8,
+        "rows": 11,
+        "numeric": 11,
+        "blanks": 0,
+        "variables": 2
+      }
+    },
+    "BK11": {
+      "TDB": {
+        "months": 96,
+        "years": 8,
+        "rows": 104,
+        "numeric": 104,
+        "blanks": 0,
+        "variables": 2
+      },
+      "TSR": {
+        "months": 96,
+        "years": 8,
+        "rows": 104,
+        "numeric": 104,
+        "blanks": 0,
+        "variables": 2
+      }
+    }
+  },
+  "category_national_checks": 228,
+  "comparable_category_annual_checks": {
+    "match": 68,
+    "incomplete_or_schema_difference": 15
+  },
+  "parser_errors": [],
+  "bk11_monthly_pairs": 96,
+  "bk11_monthly_source": "政府統計ダッシュボードのTSR系列。既存Drive原本はHTML応答のため入手不能。",
+  "bk11_monthly_pearson": 0.9831289320584954,
+  "bk11_tsr_monthly_annual_matches": 8,
+  "bk11_annual_pairs": 8,
+  "bk11_annual_pearson": 0.9983013547364861,
+  "bk11_tdb_monthly_annual_matches": 8,
+  "unique_new_payloads_vs_baseline": 252,
+  "bk11_monthly_difference_range": [
+    -58,
+    66
+  ],
+  "bk11_monthly_ratio_range": [
+    0.9315230224321134,
+    1.0902777777777777
+  ],
+  "bk11_annual_difference_range": [
+    -36,
+    193
+  ],
+  "bk11_annual_ratio_range": [
+    0.9953899346907414,
+    1.0227138990231845
+  ]
+}

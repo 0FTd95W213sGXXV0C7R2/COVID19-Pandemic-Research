@@ -1,0 +1,9 @@
+item,source,frequency,covered_period,observations,unresolved
+BK06,TDB,year/month,2024/2024-12,10,2017–2023年次・他の95か月・TSR同分類
+BK07,TDB,year/month,2024/2024-12,12,2017–2023年次・他の95か月・TSR同分類
+BK08,TDB,year/month,2024/2024-12,44,2017–2023年次・他の95か月の主因別件数
+BK08,TSR,year,2023–2024,2,物価高倒産の対象期間内月次と他の年度の公表有無
+BK08,TSR,year,2024,1,人手不足関連倒産の対象期間内月次と他の年度の公表有無
+BK09,TDB,year/month,2024/2024-12,8,2017–2023年次・他の95か月・TSR同分類
+BK10,TDB,year,2024,1,過年度の休廃業・解散件数と開業率・廃業率の原表
+BK11,TDB,month/year,2017–2024,104,TSRの既存BK01系列との同一期間比較は未実施
