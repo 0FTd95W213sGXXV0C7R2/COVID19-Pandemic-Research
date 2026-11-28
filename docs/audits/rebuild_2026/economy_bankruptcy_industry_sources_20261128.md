@@ -1,0 +1,3 @@
+# BK03業種別倒産取得元監査
+記録日時 2026-11-28T17:53:30 JST
+TSR月次2017年1月 https://www.tsr-net.co.jp/news/status/detail/1196443_1610.html で10産業・全国605件を確認。2024年間 https://www.tsr-net.co.jp/news/status/detail/1200857_1610.html も10産業。月次一覧 https://www.tsr-net.co.jp/news/status/ は対象年月検索あり、全96報告URL未確定。中小企業庁 https://www.chusho.meti.go.jp/koukai/chousa/tousan/index.html はTSR由来Excel、直接閲覧403、2025年8月分類変更（一次産業分離）あり。一括ファイル・API未確認。目標10×96=960、全国BK01と月次合計照合、原本・URL・日時・hash保存、公開再配布保留。取得未実施。
