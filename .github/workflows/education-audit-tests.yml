@@ -2,6 +2,8 @@ name: Education audit tests
 on:
   push:
     branches: [audit/education-foundation-20261128]
+  pull_request:
+    branches: [audit/non-covid-access-quality-20261126]
   workflow_dispatch:
 permissions:
   contents: read
