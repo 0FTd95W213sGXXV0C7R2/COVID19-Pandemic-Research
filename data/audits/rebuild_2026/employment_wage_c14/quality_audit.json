@@ -1,0 +1,145 @@
+{
+  "executed_jst": "2026-11-28T20:52:49+09:00",
+  "baseline_sha256": "26caee061d3da1105aa06d2762a3a717eddde650f248a58758132dd3ee2f11b8",
+  "exact_c13_baseline": true,
+  "requested_cells": {
+    "C11": 52795,
+    "C12": 1206046,
+    "C13": 89938,
+    "total": 1348779
+  },
+  "observed": {
+    "C11_candidate": {
+      "rows": 92288,
+      "numeric": 91075,
+      "ooxml_match": 91075,
+      "excluded": 83082,
+      "candidate": 9206,
+      "symbol": 1213,
+      "symbol_unverified": 1213
+    },
+    "C13": {
+      "rows": 90226,
+      "numeric": 89938,
+      "preserved_previous": 89938,
+      "excluded": 89938,
+      "symbol": 288,
+      "prior_independent_readback": 288,
+      "candidate": 288
+    },
+    "WC01": {
+      "rows": 773906,
+      "numeric": 751425,
+      "csv_readback": 773906,
+      "excluded": 773906,
+      "blank": 22481
+    },
+    "WC02": {
+      "rows": 736320,
+      "numeric": 555255,
+      "csv_readback": 736320,
+      "excluded": 736320,
+      "blank": 181065
+    }
+  },
+  "exact_legacy_c11_c12_inventory": "未確認。旧バッチの明細・原資料対応台帳を確認できず",
+  "prior_wage_source_hashes": {
+    "000032189776": {
+      "old": "f47ee7e36bc158354870350ba8d9543e47257c3bd2532d260d4469093da027d1",
+      "new": "f47ee7e36bc158354870350ba8d9543e47257c3bd2532d260d4469093da027d1"
+    },
+    "000032189777": {
+      "old": "6b3c6cf3dc54df118b56e67766a3511dbad0cfdc9d3735559d4f6af84ae5e5cd",
+      "new": "6b3c6cf3dc54df118b56e67766a3511dbad0cfdc9d3735559d4f6af84ae5e5cd"
+    }
+  },
+  "coverage": [
+    {
+      "family": "C11_candidate",
+      "frequency": "month",
+      "count": 96,
+      "first": "2017-01",
+      "last": "2024-12"
+    },
+    {
+      "family": "C11_candidate",
+      "frequency": "quarter",
+      "count": 31,
+      "first": "2017-Q1",
+      "last": "2024-Q4"
+    },
+    {
+      "family": "C13",
+      "frequency": "fiscal_year",
+      "count": 8,
+      "first": "2017",
+      "last": "2024"
+    },
+    {
+      "family": "C13",
+      "frequency": "month",
+      "count": 96,
+      "first": "2017-01",
+      "last": "2024-12"
+    },
+    {
+      "family": "C13",
+      "frequency": "quarter",
+      "count": 32,
+      "first": "2017-Q1",
+      "last": "2024-Q4"
+    },
+    {
+      "family": "C13",
+      "frequency": "year",
+      "count": 8,
+      "first": "2017",
+      "last": "2024"
+    },
+    {
+      "family": "WC01",
+      "frequency": "month",
+      "count": 96,
+      "first": "2017-01",
+      "last": "2024-12"
+    },
+    {
+      "family": "WC01",
+      "frequency": "year",
+      "count": 8,
+      "first": "2017",
+      "last": "2024"
+    },
+    {
+      "family": "WC02",
+      "frequency": "month",
+      "count": 96,
+      "first": "2017-01",
+      "last": "2024-12"
+    },
+    {
+      "family": "WC02",
+      "frequency": "year",
+      "count": 8,
+      "first": "2017",
+      "last": "2024"
+    }
+  ],
+  "duplicates": {
+    "same_coordinate_equal": 416,
+    "cross_publication_equal": 411,
+    "cross_publication_conflict": 69
+  },
+  "issues": [],
+  "c13_followup_preserved": [
+    "69版間差",
+    "2020-03男女計差",
+    "未取得15四半期"
+  ],
+  "continuity": {
+    "labor": "2020年国勢調査への切替。原表見出し・版は保持、横断接続は保留",
+    "WC02": "C13収録版2020年平均=100。増減率と指数・名目と実質を分離",
+    "missing": "空欄・記号は補完しない。行の未収録はCSVの空欄とは別"
+  },
+  "analysis_status": "候補。定義・版・頻度の横断結合は保留"
+}

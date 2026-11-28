@@ -1,0 +1,3074 @@
+[
+  {
+    "source": "wage_code.html",
+    "dimension": "18",
+    "code": "3003",
+    "label": "指数(平成22年平均＝100)"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "18",
+    "code": "3005",
+    "label": "前年比"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "91",
+    "label": "年平均"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "92",
+    "label": "上半期"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "93",
+    "label": "下半期"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "94",
+    "label": "第１四半期"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "95",
+    "label": "第２四半期"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "96",
+    "label": "第３四半期"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "97",
+    "label": "第４四半期"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "101",
+    "label": "1月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "102",
+    "label": "2月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "103",
+    "label": "3月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "104",
+    "label": "4月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "105",
+    "label": "5月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "106",
+    "label": "6月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "107",
+    "label": "7月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "108",
+    "label": "8月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "109",
+    "label": "9月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "110",
+    "label": "10月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "111",
+    "label": "11月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "112",
+    "label": "12月"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "3",
+    "code": "120",
+    "label": "年度平均"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "4",
+    "code": "TL",
+    "label": "TL_調査産業計"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "4",
+    "code": "E",
+    "label": "E_製造業"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "5",
+    "code": "T",
+    "label": "5人以上"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "5",
+    "code": "0",
+    "label": "30人以上"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "6",
+    "code": "00",
+    "label": "就業形態計"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "1",
+    "code": "00000",
+    "label": "全国"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1952000000",
+    "label": "1952年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1953000000",
+    "label": "1953年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1954000000",
+    "label": "1954年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1955000000",
+    "label": "1955年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1956000000",
+    "label": "1956年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1957000000",
+    "label": "1957年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1958000000",
+    "label": "1958年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1959000000",
+    "label": "1959年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1960000000",
+    "label": "1960年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1961000000",
+    "label": "1961年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1962000000",
+    "label": "1962年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1963000000",
+    "label": "1963年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1964000000",
+    "label": "1964年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1965000000",
+    "label": "1965年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1966000000",
+    "label": "1966年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1967000000",
+    "label": "1967年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1968000000",
+    "label": "1968年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1969000000",
+    "label": "1969年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1970000000",
+    "label": "1970年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1971000000",
+    "label": "1971年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1972000000",
+    "label": "1972年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1973000000",
+    "label": "1973年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1974000000",
+    "label": "1974年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1975000000",
+    "label": "1975年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1976000000",
+    "label": "1976年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1977000000",
+    "label": "1977年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1978000000",
+    "label": "1978年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1979000000",
+    "label": "1979年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1980000000",
+    "label": "1980年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1981000000",
+    "label": "1981年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1982000000",
+    "label": "1982年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1983000000",
+    "label": "1983年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1984000000",
+    "label": "1984年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1985000000",
+    "label": "1985年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1986000000",
+    "label": "1986年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1987000000",
+    "label": "1987年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1988000000",
+    "label": "1988年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1989000000",
+    "label": "1989年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1990000000",
+    "label": "1990年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1991000000",
+    "label": "1991年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1992000000",
+    "label": "1992年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1993000000",
+    "label": "1993年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1994000000",
+    "label": "1994年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1995000000",
+    "label": "1995年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1996000000",
+    "label": "1996年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1997000000",
+    "label": "1997年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1998000000",
+    "label": "1998年"
+  },
+  {
+    "source": "wage_code.html",
+    "dimension": "2",
+    "code": "1999000000",
+    "label": "1999年"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "18",
+    "code": "01",
+    "label": "実数(人口)"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "3",
+    "code": "000",
+    "label": "全産業"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "3",
+    "code": "001",
+    "label": "農業，林業"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "3",
+    "code": "004",
+    "label": "非農林業"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "4",
+    "code": "0",
+    "label": "総数"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "4",
+    "code": "1",
+    "label": "男"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "4",
+    "code": "2",
+    "label": "女"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "00",
+    "label": "15歳以上人口"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "01",
+    "label": "労働力人口"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "02",
+    "label": "就業者"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "03",
+    "label": "従業者"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "04",
+    "label": "主に仕事"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "16",
+    "label": "通学・家事などのかたわらに仕事"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "05",
+    "label": "通学のかたわらに仕事"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "06",
+    "label": "家事などのかたわらに仕事"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "07",
+    "label": "休業者"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "08",
+    "label": "完全失業者"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "09",
+    "label": "非労働力人口"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "11",
+    "label": "通学"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "10",
+    "label": "家事"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "5",
+    "code": "12",
+    "label": "その他"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "00",
+    "label": "15歳以上"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "27",
+    "label": "15～64歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "01",
+    "label": "15～24歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "02",
+    "label": "15～19歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "03",
+    "label": "15～17歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "04",
+    "label": "18・19歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "05",
+    "label": "20～24歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "35",
+    "label": "20・21歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "36",
+    "label": "22～24歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "06",
+    "label": "25～34歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "07",
+    "label": "25～29歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "08",
+    "label": "30～34歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "09",
+    "label": "35～44歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "10",
+    "label": "35～39歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "11",
+    "label": "40～44歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "23",
+    "label": "40～54歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "12",
+    "label": "45～54歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "13",
+    "label": "45～49歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "14",
+    "label": "50～54歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "15",
+    "label": "55～64歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "16",
+    "label": "55～59歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "17",
+    "label": "60～64歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "18",
+    "label": "65歳以上"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "19",
+    "label": "65～69歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "20",
+    "label": "70歳以上"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "28",
+    "label": "70～74歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "29",
+    "label": "75歳以上"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "30",
+    "label": "75～79歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "31",
+    "label": "80～84歳"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "6",
+    "code": "32",
+    "label": "85歳以上"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "1",
+    "code": "00000",
+    "label": "全国"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968000101",
+    "label": "1968年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968000202",
+    "label": "1968年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968000303",
+    "label": "1968年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968000404",
+    "label": "1968年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968000505",
+    "label": "1968年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968000606",
+    "label": "1968年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968000707",
+    "label": "1968年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968000808",
+    "label": "1968年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968000909",
+    "label": "1968年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968001010",
+    "label": "1968年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968001111",
+    "label": "1968年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1968001212",
+    "label": "1968年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969000101",
+    "label": "1969年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969000202",
+    "label": "1969年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969000303",
+    "label": "1969年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969000404",
+    "label": "1969年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969000505",
+    "label": "1969年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969000606",
+    "label": "1969年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969000707",
+    "label": "1969年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969000808",
+    "label": "1969年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969000909",
+    "label": "1969年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969001010",
+    "label": "1969年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969001111",
+    "label": "1969年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1969001212",
+    "label": "1969年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970000101",
+    "label": "1970年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970000202",
+    "label": "1970年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970000303",
+    "label": "1970年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970000404",
+    "label": "1970年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970000505",
+    "label": "1970年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970000606",
+    "label": "1970年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970000707",
+    "label": "1970年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970000808",
+    "label": "1970年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970000909",
+    "label": "1970年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970001010",
+    "label": "1970年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970001111",
+    "label": "1970年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1970001212",
+    "label": "1970年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971000101",
+    "label": "1971年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971000202",
+    "label": "1971年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971000303",
+    "label": "1971年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971000404",
+    "label": "1971年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971000505",
+    "label": "1971年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971000606",
+    "label": "1971年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971000707",
+    "label": "1971年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971000808",
+    "label": "1971年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971000909",
+    "label": "1971年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971001010",
+    "label": "1971年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971001111",
+    "label": "1971年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1971001212",
+    "label": "1971年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972000101",
+    "label": "1972年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972000202",
+    "label": "1972年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972000303",
+    "label": "1972年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972000404",
+    "label": "1972年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972000505",
+    "label": "1972年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972000606",
+    "label": "1972年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972000707",
+    "label": "1972年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972000808",
+    "label": "1972年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972000909",
+    "label": "1972年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972001010",
+    "label": "1972年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972001111",
+    "label": "1972年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1972001212",
+    "label": "1972年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973000101",
+    "label": "1973年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973000202",
+    "label": "1973年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973000303",
+    "label": "1973年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973000404",
+    "label": "1973年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973000505",
+    "label": "1973年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973000606",
+    "label": "1973年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973000707",
+    "label": "1973年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973000808",
+    "label": "1973年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973000909",
+    "label": "1973年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973001010",
+    "label": "1973年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973001111",
+    "label": "1973年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1973001212",
+    "label": "1973年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974000101",
+    "label": "1974年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974000202",
+    "label": "1974年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974000303",
+    "label": "1974年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974000404",
+    "label": "1974年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974000505",
+    "label": "1974年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974000606",
+    "label": "1974年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974000707",
+    "label": "1974年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974000808",
+    "label": "1974年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974000909",
+    "label": "1974年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974001010",
+    "label": "1974年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974001111",
+    "label": "1974年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1974001212",
+    "label": "1974年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975000101",
+    "label": "1975年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975000202",
+    "label": "1975年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975000303",
+    "label": "1975年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975000404",
+    "label": "1975年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975000505",
+    "label": "1975年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975000606",
+    "label": "1975年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975000707",
+    "label": "1975年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975000808",
+    "label": "1975年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975000909",
+    "label": "1975年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975001010",
+    "label": "1975年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975001111",
+    "label": "1975年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1975001212",
+    "label": "1975年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976000101",
+    "label": "1976年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976000202",
+    "label": "1976年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976000303",
+    "label": "1976年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976000404",
+    "label": "1976年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976000505",
+    "label": "1976年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976000606",
+    "label": "1976年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976000707",
+    "label": "1976年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976000808",
+    "label": "1976年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976000909",
+    "label": "1976年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976001010",
+    "label": "1976年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976001111",
+    "label": "1976年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1976001212",
+    "label": "1976年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977000101",
+    "label": "1977年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977000202",
+    "label": "1977年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977000303",
+    "label": "1977年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977000404",
+    "label": "1977年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977000505",
+    "label": "1977年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977000606",
+    "label": "1977年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977000707",
+    "label": "1977年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977000808",
+    "label": "1977年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977000909",
+    "label": "1977年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977001010",
+    "label": "1977年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977001111",
+    "label": "1977年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1977001212",
+    "label": "1977年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978000101",
+    "label": "1978年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978000202",
+    "label": "1978年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978000303",
+    "label": "1978年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978000404",
+    "label": "1978年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978000505",
+    "label": "1978年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978000606",
+    "label": "1978年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978000707",
+    "label": "1978年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978000808",
+    "label": "1978年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978000909",
+    "label": "1978年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978001010",
+    "label": "1978年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978001111",
+    "label": "1978年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1978001212",
+    "label": "1978年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979000101",
+    "label": "1979年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979000202",
+    "label": "1979年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979000303",
+    "label": "1979年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979000404",
+    "label": "1979年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979000505",
+    "label": "1979年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979000606",
+    "label": "1979年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979000707",
+    "label": "1979年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979000808",
+    "label": "1979年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979000909",
+    "label": "1979年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979001010",
+    "label": "1979年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979001111",
+    "label": "1979年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1979001212",
+    "label": "1979年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980000101",
+    "label": "1980年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980000202",
+    "label": "1980年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980000303",
+    "label": "1980年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980000404",
+    "label": "1980年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980000505",
+    "label": "1980年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980000606",
+    "label": "1980年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980000707",
+    "label": "1980年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980000808",
+    "label": "1980年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980000909",
+    "label": "1980年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980001010",
+    "label": "1980年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980001111",
+    "label": "1980年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1980001212",
+    "label": "1980年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981000101",
+    "label": "1981年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981000202",
+    "label": "1981年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981000303",
+    "label": "1981年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981000404",
+    "label": "1981年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981000505",
+    "label": "1981年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981000606",
+    "label": "1981年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981000707",
+    "label": "1981年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981000808",
+    "label": "1981年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981000909",
+    "label": "1981年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981001010",
+    "label": "1981年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981001111",
+    "label": "1981年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1981001212",
+    "label": "1981年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982000101",
+    "label": "1982年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982000202",
+    "label": "1982年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982000303",
+    "label": "1982年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982000404",
+    "label": "1982年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982000505",
+    "label": "1982年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982000606",
+    "label": "1982年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982000707",
+    "label": "1982年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982000808",
+    "label": "1982年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982000909",
+    "label": "1982年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982001010",
+    "label": "1982年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982001111",
+    "label": "1982年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1982001212",
+    "label": "1982年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983000101",
+    "label": "1983年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983000202",
+    "label": "1983年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983000303",
+    "label": "1983年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983000404",
+    "label": "1983年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983000505",
+    "label": "1983年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983000606",
+    "label": "1983年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983000707",
+    "label": "1983年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983000808",
+    "label": "1983年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983000909",
+    "label": "1983年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983001010",
+    "label": "1983年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983001111",
+    "label": "1983年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1983001212",
+    "label": "1983年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984000101",
+    "label": "1984年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984000202",
+    "label": "1984年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984000303",
+    "label": "1984年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984000404",
+    "label": "1984年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984000505",
+    "label": "1984年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984000606",
+    "label": "1984年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984000707",
+    "label": "1984年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984000808",
+    "label": "1984年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984000909",
+    "label": "1984年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984001010",
+    "label": "1984年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984001111",
+    "label": "1984年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1984001212",
+    "label": "1984年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985000101",
+    "label": "1985年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985000202",
+    "label": "1985年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985000303",
+    "label": "1985年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985000404",
+    "label": "1985年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985000505",
+    "label": "1985年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985000606",
+    "label": "1985年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985000707",
+    "label": "1985年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985000808",
+    "label": "1985年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985000909",
+    "label": "1985年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985001010",
+    "label": "1985年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985001111",
+    "label": "1985年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1985001212",
+    "label": "1985年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986000101",
+    "label": "1986年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986000202",
+    "label": "1986年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986000303",
+    "label": "1986年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986000404",
+    "label": "1986年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986000505",
+    "label": "1986年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986000606",
+    "label": "1986年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986000707",
+    "label": "1986年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986000808",
+    "label": "1986年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986000909",
+    "label": "1986年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986001010",
+    "label": "1986年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986001111",
+    "label": "1986年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1986001212",
+    "label": "1986年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987000101",
+    "label": "1987年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987000202",
+    "label": "1987年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987000303",
+    "label": "1987年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987000404",
+    "label": "1987年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987000505",
+    "label": "1987年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987000606",
+    "label": "1987年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987000707",
+    "label": "1987年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987000808",
+    "label": "1987年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987000909",
+    "label": "1987年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987001010",
+    "label": "1987年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987001111",
+    "label": "1987年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1987001212",
+    "label": "1987年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988000101",
+    "label": "1988年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988000202",
+    "label": "1988年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988000303",
+    "label": "1988年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988000404",
+    "label": "1988年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988000505",
+    "label": "1988年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988000606",
+    "label": "1988年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988000707",
+    "label": "1988年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988000808",
+    "label": "1988年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988000909",
+    "label": "1988年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988001010",
+    "label": "1988年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988001111",
+    "label": "1988年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1988001212",
+    "label": "1988年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989000101",
+    "label": "1989年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989000202",
+    "label": "1989年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989000303",
+    "label": "1989年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989000404",
+    "label": "1989年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989000505",
+    "label": "1989年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989000606",
+    "label": "1989年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989000707",
+    "label": "1989年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989000808",
+    "label": "1989年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989000909",
+    "label": "1989年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989001010",
+    "label": "1989年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989001111",
+    "label": "1989年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1989001212",
+    "label": "1989年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990000101",
+    "label": "1990年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990000202",
+    "label": "1990年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990000303",
+    "label": "1990年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990000404",
+    "label": "1990年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990000505",
+    "label": "1990年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990000606",
+    "label": "1990年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990000707",
+    "label": "1990年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990000808",
+    "label": "1990年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990000909",
+    "label": "1990年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990001010",
+    "label": "1990年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990001111",
+    "label": "1990年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1990001212",
+    "label": "1990年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991000101",
+    "label": "1991年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991000202",
+    "label": "1991年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991000303",
+    "label": "1991年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991000404",
+    "label": "1991年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991000505",
+    "label": "1991年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991000606",
+    "label": "1991年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991000707",
+    "label": "1991年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991000808",
+    "label": "1991年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991000909",
+    "label": "1991年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991001010",
+    "label": "1991年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991001111",
+    "label": "1991年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1991001212",
+    "label": "1991年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992000101",
+    "label": "1992年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992000202",
+    "label": "1992年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992000303",
+    "label": "1992年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992000404",
+    "label": "1992年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992000505",
+    "label": "1992年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992000606",
+    "label": "1992年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992000707",
+    "label": "1992年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992000808",
+    "label": "1992年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992000909",
+    "label": "1992年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992001010",
+    "label": "1992年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992001111",
+    "label": "1992年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1992001212",
+    "label": "1992年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993000101",
+    "label": "1993年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993000202",
+    "label": "1993年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993000303",
+    "label": "1993年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993000404",
+    "label": "1993年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993000505",
+    "label": "1993年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993000606",
+    "label": "1993年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993000707",
+    "label": "1993年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993000808",
+    "label": "1993年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993000909",
+    "label": "1993年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993001010",
+    "label": "1993年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993001111",
+    "label": "1993年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1993001212",
+    "label": "1993年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994000101",
+    "label": "1994年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994000202",
+    "label": "1994年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994000303",
+    "label": "1994年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994000404",
+    "label": "1994年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994000505",
+    "label": "1994年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994000606",
+    "label": "1994年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994000707",
+    "label": "1994年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994000808",
+    "label": "1994年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994000909",
+    "label": "1994年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994001010",
+    "label": "1994年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994001111",
+    "label": "1994年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1994001212",
+    "label": "1994年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995000101",
+    "label": "1995年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995000202",
+    "label": "1995年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995000303",
+    "label": "1995年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995000404",
+    "label": "1995年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995000505",
+    "label": "1995年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995000606",
+    "label": "1995年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995000707",
+    "label": "1995年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995000808",
+    "label": "1995年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995000909",
+    "label": "1995年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995001010",
+    "label": "1995年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995001111",
+    "label": "1995年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1995001212",
+    "label": "1995年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996000101",
+    "label": "1996年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996000202",
+    "label": "1996年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996000303",
+    "label": "1996年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996000404",
+    "label": "1996年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996000505",
+    "label": "1996年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996000606",
+    "label": "1996年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996000707",
+    "label": "1996年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996000808",
+    "label": "1996年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996000909",
+    "label": "1996年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996001010",
+    "label": "1996年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996001111",
+    "label": "1996年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1996001212",
+    "label": "1996年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997000101",
+    "label": "1997年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997000202",
+    "label": "1997年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997000303",
+    "label": "1997年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997000404",
+    "label": "1997年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997000505",
+    "label": "1997年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997000606",
+    "label": "1997年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997000707",
+    "label": "1997年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997000808",
+    "label": "1997年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997000909",
+    "label": "1997年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997001010",
+    "label": "1997年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997001111",
+    "label": "1997年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1997001212",
+    "label": "1997年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998000101",
+    "label": "1998年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998000202",
+    "label": "1998年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998000303",
+    "label": "1998年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998000404",
+    "label": "1998年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998000505",
+    "label": "1998年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998000606",
+    "label": "1998年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998000707",
+    "label": "1998年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998000808",
+    "label": "1998年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998000909",
+    "label": "1998年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998001010",
+    "label": "1998年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998001111",
+    "label": "1998年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1998001212",
+    "label": "1998年12月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999000101",
+    "label": "1999年1月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999000202",
+    "label": "1999年2月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999000303",
+    "label": "1999年3月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999000404",
+    "label": "1999年4月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999000505",
+    "label": "1999年5月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999000606",
+    "label": "1999年6月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999000707",
+    "label": "1999年7月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999000808",
+    "label": "1999年8月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999000909",
+    "label": "1999年9月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999001010",
+    "label": "1999年10月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999001111",
+    "label": "1999年11月"
+  },
+  {
+    "source": "absence_metadata.html",
+    "dimension": "2",
+    "code": "1999001212",
+    "label": "1999年12月"
+  }
+]

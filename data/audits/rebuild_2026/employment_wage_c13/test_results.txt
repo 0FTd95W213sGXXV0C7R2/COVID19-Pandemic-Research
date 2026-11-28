@@ -1,0 +1,25 @@
+test_annual_manifest_integrity (test_education_batch2.Batch2Tests.test_annual_manifest_integrity) ... ok
+test_duplicate_and_national_mismatch (test_education_batch2.Batch2Tests.test_duplicate_and_national_mismatch) ... ok
+test_http_404 (test_education_batch2.Batch2Tests.test_http_404) ... ok
+test_http_429 (test_education_batch2.Batch2Tests.test_http_429) ... ok
+test_http_503 (test_education_batch2.Batch2Tests.test_http_503) ... ok
+test_incomplete_transfer (test_education_batch2.Batch2Tests.test_incomplete_transfer) ... ok
+test_rounding (test_education_batch2.Batch2Tests.test_rounding) ... ok
+test_shifted_columns (test_education_batch2.Batch2Tests.test_shifted_columns) ... ok
+test_timeout (test_education_batch2.Batch2Tests.test_timeout) ... ok
+test_xlsx_merged_cells_and_symbol (test_education_batch2.Batch2Tests.test_xlsx_merged_cells_and_symbol) ... ok
+test_formats (test_education_sources.SourcesTest.test_formats) ... ok
+test_local_http_cache_and_conflict (test_education_sources.SourcesTest.test_local_http_cache_and_conflict) ... 127.0.0.1 - - [28/Nov/2026 20:32:42] "GET / HTTP/1.1" 200 -
+ok
+test_neutral_csv_preserves_symbols (test_education_sources.SourcesTest.test_neutral_csv_preserves_symbols) ... ok
+test_region_keys (test_education_sources.SourcesTest.test_region_keys) ... ok
+test_job_id_is_taken_from_catalog_link (test_employment_wage_c13.C13Tests.test_job_id_is_taken_from_catalog_link) ... ok
+test_periods_are_distinct (test_employment_wage_c13.C13Tests.test_periods_are_distinct) ... ok
+test_reason_extraction_rejects_shifted_table (test_employment_wage_c13.C13Tests.test_reason_extraction_rejects_shifted_table) ... ok
+test_cpi_month_axis (test_household_cpi.HouseholdCpiTest.test_cpi_month_axis) ... ok
+test_month_range (test_household_cpi.HouseholdCpiTest.test_month_range) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.529s
+
+OK
