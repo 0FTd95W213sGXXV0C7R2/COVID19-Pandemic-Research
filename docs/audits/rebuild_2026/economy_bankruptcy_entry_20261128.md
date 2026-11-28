@@ -1,0 +1,4 @@
+# GDP Drive保全試行と倒産統計開始
+記録日時 2026-11-28T12:04:06 JST
+Google Drive economy/final への sna_preservation.zip 新規アップロードは forbidden。同一先再試行なし。Colabまたは手動保全待ち。
+衆議院経済産業委員会関連資料 p117 https://www.shugiin.go.jp/internet/itdb_rchome.nsf/html/rchome/Shiryo/doukou217keisan.pdf/%24File/doukou217keisan.pdf （東京商工リサーチ由来、独立調査ではない）暦年2017–2024件数 8405,8235,8383,7773,6030,6428,8690,10006。月次合計監査用。一次資料 https://www.tsr-net.co.jp/news/status/ 、中小企業庁 https://www.chusho.meti.go.jp/koukai/chousa/tousan/index.html （TSR由来、負債・資本金・業種・原因）、統計局FAQ https://www.stat.go.jp/library/faq/faq06/faq06b19.html （企業共済協会も候補、定義差注意）。TSR負債1000万円以上。月次96、負債額、業種、地域、コロナ関連、規模、休廃業別取得は未完。転載条件未確認。Codex/Colab追加なし。
