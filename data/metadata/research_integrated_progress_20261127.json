@@ -1365,17 +1365,18 @@
       "target": "ICT端末通信",
       "priority": "高",
       "status": "L3",
-      "status_scope": "3行暫定、GitHub再読込済、原典再照合未完了",
+      "status_scope": "全国2019–2024年3月端末系列6行暫定、GIGA政策固有の配備実績とは区別",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
-        "data/audits/rebuild_2026/economy_education_20261127/education_ict_school_questionnaire_2021_provisional.csv"
+        "data/audits/rebuild_2026/economy_education_20261127/education_ict_school_questionnaire_2021_provisional.csv",
+        "data/audits/rebuild_2026/economy_education_20261127/education_ict_devices_national_2019_2024.csv"
       ],
-      "source": null,
+      "source": "https://www.mext.go.jp/a_menu/shotou/zyouhou/1287351.htm",
       "analysis_eligibility": "正式採用保留",
-      "remaining": "原典再照合・原本保存・比較可能性確認",
+      "remaining": "2017–2018、都道府県、通信環境、教員指導力、原本保存・独立照合",
       "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026/11/28 8:34:37"
+      "updated_jst": "2026/11/28 9:31:28"
     },
     {
       "id": "EDU07",
@@ -1519,17 +1520,18 @@
       "area": "教育",
       "target": "地域学習環境",
       "priority": "高",
-      "status": "UNVERIFIED",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status": "L1",
+      "status_scope": "都道府県別公的統計の所在確認、数値未抽出",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "https://www.nier.go.jp/edsc/edp/data/zyouhou/"
       ],
-      "source": null,
-      "analysis_eligibility": "個別採否確認待ち",
-      "remaining": "要確認・高",
+      "source": "https://www.mext.go.jp/a_menu/shotou/zyouhou/1287351.htm",
+      "analysis_eligibility": "正式採用保留",
+      "remaining": "2017–2018、都道府県、通信環境、教員指導力、原本保存・独立照合",
       "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "updated_jst": "2026/11/28 9:31:28"
     },
     {
       "id": "EDU16",
@@ -1757,17 +1759,18 @@
       "area": "教育",
       "target": "GIGAスクール",
       "priority": "高",
-      "status": "UNVERIFIED",
-      "status_scope": "既存記録に基づく暫定・部分到達。独立原本検証なし",
+      "status": "L3",
+      "status_scope": "全国2019–2024年3月端末系列6行暫定、GIGA政策固有の配備実績とは区別",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
-        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md"
+        "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
+        "data/audits/rebuild_2026/economy_education_20261127/education_ict_devices_national_2019_2024.csv"
       ],
-      "source": null,
-      "analysis_eligibility": "個別採否確認待ち",
-      "remaining": "要確認・高",
+      "source": "https://www.mext.go.jp/a_menu/shotou/zyouhou/1287351.htm",
+      "analysis_eligibility": "正式採用保留",
+      "remaining": "2017–2018、都道府県、通信環境、教員指導力、原本保存・独立照合",
       "next_action": "個別原本・監査記録と対応付け、範囲と採否を確定",
-      "updated_jst": "2026-11-27T15:44+09:00"
+      "updated_jst": "2026/11/28 9:31:28"
     },
     {
       "id": "EDU30",
