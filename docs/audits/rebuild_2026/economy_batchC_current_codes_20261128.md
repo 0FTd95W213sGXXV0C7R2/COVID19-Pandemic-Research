@@ -1,0 +1,1 @@
+公式資料 https://www.mhlw.go.jp/content/10700000/001770935.pdf p4: employment 0 total,1 general,2 part-time; TL all surveyed industries, C–R major industries; Q1 Apr–Jun,Q2 Jul–Sep,Q3 Oct–Dec,Q4 Jan–Mar (fiscal quarters). Base year and archive code coverage remain unverified. No numerical extraction. Recorded 2026-11-28T19:53:44 JST
