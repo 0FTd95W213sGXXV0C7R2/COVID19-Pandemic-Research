@@ -170,12 +170,12 @@ def legacy_audit(rows):
         keys=Counter(tuple(r[k] for k in ('fiscal_year',*dimensions)) for r in records)
         for i,r in enumerate(records,2):
             y=int(r['fiscal_year'])
-            school=r.get('school_type',r.get('school_scope','highschool'))
+            school=r.get('school_type',r.get('school_scope', {'highschool_dropout_2017_2024':'highschool','highschool_nonattendance_2017_2024':'highschool','specialist_support_2019_2024_provisional':'elementary_junior_high'}.get(stem,'')))
             school={'total':'elementary_junior_high','all':'elementary_junior_high'}.get(school,school)
             candidate=national.get((y,school,r['metric']))
             old=r.get('value',r.get('count',''))
             state='pending'
-            if candidate and old and r.get('unit',candidate['unit'])==candidate['unit']:
+            if candidate and old and keys[tuple(r[k] for k in ('fiscal_year',*dimensions))]==1 and r.get('unit')==candidate['unit']:
                 state='match' if Decimal(old)==candidate['value'] else 'difference'
             audit.append(dict(file=stem,row=i,fiscal_year=y,school_type=school,metric=r['metric'],
                               old_value=old,source_value=candidate['value'] if candidate else '',
@@ -229,6 +229,8 @@ def main():
     a.output.mkdir(parents=True,exist_ok=True)
     check=drive_check(dict(json.loads(a.paths.read_text())),OLD/'source_manifest.json')
     dump(a.output/'drive_sha256.json',dict(verified_at_jst=now(),files=check))
+    if not check or not all(r['match'] for r in check):
+        raise ValueError('Preserved source hash verification failed; extraction stopped')
     rows=[r for y in (2017,2018) for r in panel(a.cache/f'absence_{y}.pdf',y)]
     region_names={int(r['prefecture_code']):r['prefecture'] for r in rows if r['school_type']==SCHOOLS[0]}
     for year in MODERN_PAGES:
