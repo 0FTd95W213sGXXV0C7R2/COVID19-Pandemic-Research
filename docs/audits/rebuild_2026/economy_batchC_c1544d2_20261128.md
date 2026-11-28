@@ -1,0 +1,3 @@
+# C15.4.4d-2
+記録日時 2026-11-28T21:45:30 JST
+Actual local execution c1544d2.py on C13 archive observations.csv. Jobs table1 vs tables2–8 part-time inclusive general: 1344 monthly pairs, all equal, seven indicators each192, original and SA separately. Reason 2850 rows,510 period/metric/unit/adjustment keys,480 repeated,69 conflicting,411 repeated equal,30 singleton. Annual wage 32 rows,32 distinct period/metric keys, no independent annual comparison. No deletion, no formal adoption. Tables9–11 not semantically resolved. ZIP SHA256 d6d261a64d2f19be48ee98cc5239f169b0a46a16a4b9e790e17ab396c1797d38 local only. Source https://drive.google.com/file/d/12FStOOQcvFG8Le32HRzCl451UBBmhg_F/view .
