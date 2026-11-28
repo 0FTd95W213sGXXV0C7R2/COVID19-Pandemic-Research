@@ -1,0 +1,7 @@
+observation_date,fiscal_year,population,students,devices,published_devices_per_student,calculated_devices_per_student,source_url,comparison_source_url,status
+2019-03-01,2018,national_public,11673644,1781027,0.2,0.15256821,https://www.mext.go.jp/content/20241031-mxt_jogai02-000037398_01.pdf,https://www.mext.go.jp/content/20251031-mxt_shuukyo01-000044325_01-1.pdf,provisional_web
+2020-03-01,2019,national_public,11587653,1911890,0.2,0.16499372,https://www.mext.go.jp/content/20241031-mxt_jogai02-000037398_01.pdf,https://www.mext.go.jp/content/20251031-mxt_shuukyo01-000044325_01-1.pdf,provisional_web
+2021-03-01,2020,national_public,11452154,7648983,0.7,0.66790780,https://www.mext.go.jp/content/20241031-mxt_jogai02-000037398_01.pdf,https://www.mext.go.jp/content/20251031-mxt_shuukyo01-000044325_01-1.pdf,provisional_web
+2022-03-01,2021,national_public,11319053,11378549,1.0,1.00525627,https://www.mext.go.jp/content/20241031-mxt_jogai02-000037398_01.pdf,https://www.mext.go.jp/content/20251031-mxt_shuukyo01-000044325_01-1.pdf,provisional_web
+2023-03-01,2022,national_public,11183595,11763122,1.1,1.05181938,https://www.mext.go.jp/content/20241031-mxt_jogai02-000037398_01.pdf,https://www.mext.go.jp/content/20251031-mxt_shuukyo01-000044325_01-1.pdf,provisional_web
+2024-03-01,2023,national_public,11033041,11847856,1.1,1.07385226,https://www.mext.go.jp/content/20241031-mxt_jogai02-000037398_01.pdf,https://www.mext.go.jp/content/20251031-mxt_shuukyo01-000044325_01-1.pdf,provisional_web
