@@ -82,6 +82,17 @@ def verify_cell(independent, coordinate, value):
     return coordinate in independent and float(independent[coordinate])==float(value)
 
 
+def reference_year(raw):
+    text = normalized(raw)
+    western = re.fullmatch(r'((?:19|20)\d{2})(?:年(度)?)?',text)
+    if western:
+        return int(western[1]),bool(western[2])
+    era = re.fullmatch(r'(平成|令和)\s*(元|\d{1,2})\s*年(度)?',text)
+    if era:
+        return {'平成':1988,'令和':2018}[era[1]]+(1 if era[2]=='元' else int(era[2])),bool(era[3])
+    return None
+
+
 def labor_rows(path):
     book = load_workbook(path,read_only=True,data_only=True)
     try:
@@ -98,13 +109,12 @@ def labor_rows(path):
                     if len(row)<3:
                         continue
                     first = normalized(row[0])
-                    update = re.fullmatch(r'((?:19|20)\d{2})(?:年(度)?)?',first)
+                    update = reference_year(first)
                     if update:
-                        year = int(update[1])
-                        fiscal = bool(update[2])
+                        year,fiscal = update
                     elif first and ('年' in first or not re.fullmatch(r'\d{1,2}',first)):
                         year = None
-                    token = normalized(row[1])
+                    token = re.sub(r'\s+','',normalized(row[1]))
                     stamp = period(year,token,fiscal) if year in YEARS else None
                     if stamp is None or (not token and not update):
                         continue
