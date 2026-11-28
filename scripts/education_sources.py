@@ -1,6 +1,7 @@
 """Acquire official sources into a local, resumable cache."""
 import argparse
 import hashlib
+from http.client import IncompleteRead
 import json
 import os
 import tempfile
@@ -58,6 +59,9 @@ def acquire(cache, sources=SOURCES):
                 with urlopen(url,timeout=35) as response:
                     mime=response.headers.get_content_type()
                     data=response.read()
+                    length=response.headers.get('Content-Length')
+                    if length is not None and len(data)!=int(length):
+                        raise IncompleteRead(data,int(length)-len(data))
                     entry.update(http_status=response.status,final_url=response.url,content_type=mime)
                 if not valid(name,data,mime):
                     raise ValueError('invalid source format')
@@ -72,7 +76,7 @@ def acquire(cache, sources=SOURCES):
                 meta.write_text(json.dumps(completed,ensure_ascii=False)+'\n')
                 entry = completed
                 break
-            except (OSError,ValueError) as exc:
+            except (OSError,ValueError,IncompleteRead) as exc:
                 errors.append(str(exc))
                 if path.exists():
                     break

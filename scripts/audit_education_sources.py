@@ -69,14 +69,14 @@ def absence(path,year):
             for code,(name,vals) in sorted(primary.items()) for i,(metric,v) in enumerate(zip(metrics,vals))]
 
 
-def xlsx_first_sheet_values(path):
+def xlsx_first_sheet_values(path, sheet_number=1):
     ns = {'s':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
     with ZipFile(path) as book:
         strings = []
         if 'xl/sharedStrings.xml' in book.namelist():
             root = ElementTree.fromstring(book.read('xl/sharedStrings.xml'))
             strings = [''.join(t.text or '' for t in si.findall('.//s:t',ns)) for si in root]
-        root = ElementTree.fromstring(book.read('xl/worksheets/sheet1.xml'))
+        root = ElementTree.fromstring(book.read(f'xl/worksheets/sheet{sheet_number}.xml'))
     result = {}
     for cell in root.findall('.//s:sheetData/s:row/s:c',ns):
         kind = cell.get('t','n')

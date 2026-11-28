@@ -1365,7 +1365,7 @@
       "target": "ICT端末通信",
       "priority": "高",
       "status": "L3",
-      "status_scope": "3原表の第1シート3,696セルをOOXMLと照合。全国全校種・年次の完成は未確認",
+      "status_scope": "既取得3原表の6シート5,616セルを照合。全年度・校種および凡例は未完",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
@@ -1373,13 +1373,14 @@
         "data/audits/rebuild_2026/economy_education_20261127/education_ict_devices_national_2019_2024.csv",
         "data/audits/rebuild_2026/economy_education_20261127/education_ict_legacy_baseline_provisional.csv",
         "data/audits/rebuild_2026/economy_education_20261127/education_ict_prefecture_2024_provisional.csv",
-        "data/audits/rebuild_2026/education_foundation_20261128/qa.json"
+        "data/audits/rebuild_2026/education_foundation_20261128/qa.json",
+        "data/audits/rebuild_2026/education_batch2_20261128/qa.json"
       ],
       "source": "https://www.mext.go.jp/a_menu/shotou/zyouhou/1287351.htm",
       "analysis_eligibility": "今回の部分監査。正式採用は既存の個別判定に従う",
       "remaining": "2018–2023地域別、原本保存、独立照合、分母",
-      "next_action": "教育バッチのremaining_and_pending.csvを参照",
-      "updated_jst": "2026-11-28T09:59:48+09:00"
+      "next_action": "第2バッチのremaining.csvを参照",
+      "updated_jst": "2026-11-28T10:13:17+09:00"
     },
     {
       "id": "EDU07",
@@ -1524,20 +1525,21 @@
       "target": "地域学習環境",
       "priority": "高",
       "status": "L3",
-      "status_scope": "3原表の第1シート3,696セルをOOXMLと照合。全国全校種・年次の完成は未確認",
+      "status_scope": "既取得3原表の6シート5,616セルを照合。全年度・校種および凡例は未完",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
         "https://www.nier.go.jp/edsc/edp/data/zyouhou/",
         "data/audits/rebuild_2026/economy_education_20261127/education_ict_legacy_baseline_provisional.csv",
         "data/audits/rebuild_2026/economy_education_20261127/education_ict_prefecture_2024_provisional.csv",
-        "data/audits/rebuild_2026/education_foundation_20261128/qa.json"
+        "data/audits/rebuild_2026/education_foundation_20261128/qa.json",
+        "data/audits/rebuild_2026/education_batch2_20261128/qa.json"
       ],
       "source": "https://www.mext.go.jp/a_menu/shotou/zyouhou/1287351.htm",
       "analysis_eligibility": "今回の部分監査。正式採用は既存の個別判定に従う",
       "remaining": "2018–2023地域別、原本保存、独立照合、分母",
-      "next_action": "教育バッチのremaining_and_pending.csvを参照",
-      "updated_jst": "2026-11-28T09:59:48+09:00"
+      "next_action": "第2バッチのremaining.csvを参照",
+      "updated_jst": "2026-11-28T10:13:17+09:00"
     },
     {
       "id": "EDU16",
@@ -1579,17 +1581,18 @@
       "target": "不登校",
       "priority": "高",
       "status": "L3",
-      "status_scope": "2017・2018年度の全国・47県の912値はPDF二経路一致。対象項目全体としては部分到達",
+      "status_scope": "2017～2024年度小中学校各区分47都道府県＋全国を抽出。高校2017・2018年は指定表のみ。版差・訂正・定義に留保",
       "existing_evidence": [
         "docs/ACQUISITION_PLAN_REVISED_V2_20261127.md",
         "docs/GITHUB_CANONICAL_PROGRESS_20261125.md",
-        "data/audits/rebuild_2026/education_foundation_20261128/qa.json"
+        "data/audits/rebuild_2026/education_foundation_20261128/qa.json",
+        "data/audits/rebuild_2026/education_batch2_20261128/qa.json"
       ],
       "source": null,
       "analysis_eligibility": "今回の部分監査。正式採用は既存の個別判定に従う",
       "remaining": "年度",
-      "next_action": "教育バッチのremaining_and_pending.csvを参照",
-      "updated_jst": "2026-11-28T09:59:48+09:00"
+      "next_action": "第2バッチのremaining.csvを参照",
+      "updated_jst": "2026-11-28T10:13:17+09:00"
     },
     {
       "id": "EDU19",

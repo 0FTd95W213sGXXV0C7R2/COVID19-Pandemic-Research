@@ -729,3 +729,7 @@ Existing consolidated QA report: `data/audits/rebuild_2026/healthcare_worker_202
 ### 教育分野の取得・品質監査 第1バッチ（2026年11月28日 JST）
 
 文科省・e-Stat原本7点を取得。2017・2018年度の小中学校長期欠席表912値をPDF二経路で、ICT第1シート3原表の3,696セルをOOXMLと照合した。EDU06・EDU15・EDU18は部分到達L3。旧暫定データの採否は維持した。[監査・再現手順](../data/audits/rebuild_2026/education_foundation_20261128/README.md)
+
+### 教育第2バッチ（2026年11月28日 JST）
+
+第1バッチDrive原本7件のSHA-256が一致。2019～2024年度報告・訂正等14件を取得し、小中学校の8年度地域パネル、2017・2018年度高校の指定表、ICT既存3原表の全シートを構造化。2019年度の版差と定義未確定項目を保留し、統合台帳のL3部分到達を更新した。[第2バッチ監査](../data/audits/rebuild_2026/education_batch2_20261128/README.md)

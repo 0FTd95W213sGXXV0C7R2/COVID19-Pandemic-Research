@@ -1,0 +1,47 @@
+{
+  "verified_at_jst": "2026-11-28T10:11:28+09:00",
+  "files": [
+    {
+      "filename": "absence_2017.pdf",
+      "expected": "57d5b70aeb9d07e6717df6e6b9a0c0f8b5b92b6a65e94882d315503a1c69b532",
+      "observed": "57d5b70aeb9d07e6717df6e6b9a0c0f8b5b92b6a65e94882d315503a1c69b532",
+      "match": true
+    },
+    {
+      "filename": "absence_2018.pdf",
+      "expected": "4533101c7928d50efc84579db5cdfbaefe459d769584fedaa2a7e7ddf8c906d7",
+      "observed": "4533101c7928d50efc84579db5cdfbaefe459d769584fedaa2a7e7ddf8c906d7",
+      "match": true
+    },
+    {
+      "filename": "errata_2017.pdf",
+      "expected": "8cd2af7fcfda23ddd141552260f7f361c06ff92e55a3226027534a84e72b1ea3",
+      "observed": "8cd2af7fcfda23ddd141552260f7f361c06ff92e55a3226027534a84e72b1ea3",
+      "match": true
+    },
+    {
+      "filename": "errata_2018.pdf",
+      "expected": "4afc2767ef37e8d052a3c5ad1e84474be5b56bf9fb170fa9967be9a574078eac",
+      "observed": "4afc2767ef37e8d052a3c5ad1e84474be5b56bf9fb170fa9967be9a574078eac",
+      "match": true
+    },
+    {
+      "filename": "ict_000032252977.xlsx",
+      "expected": "5990c7b81addff26bc562d2cb765644c8493f2c6c45071768fe7d4e2e1ab061f",
+      "observed": "5990c7b81addff26bc562d2cb765644c8493f2c6c45071768fe7d4e2e1ab061f",
+      "match": true
+    },
+    {
+      "filename": "ict_000032252979.xlsx",
+      "expected": "4b5fca9b023a9c708fb899138b05d6cc7e9aec598dfc74b1b59be114440224a7",
+      "observed": "4b5fca9b023a9c708fb899138b05d6cc7e9aec598dfc74b1b59be114440224a7",
+      "match": true
+    },
+    {
+      "filename": "ict_000040221895.xlsx",
+      "expected": "0076f7b1d8992d24a42f90daf08e1ce5ffa039170281e90039db5171f89dc45b",
+      "observed": "0076f7b1d8992d24a42f90daf08e1ce5ffa039170281e90039db5171f89dc45b",
+      "match": true
+    }
+  ]
+}
