@@ -1,0 +1,2 @@
+BK05 一括抽出予備監査 JST 2026-11-28T18:47:57
+BK03原資料ZIPをDriveから再取得しSHA照合。2020-02〜2024-12の59記事から52一意候補、2024-02〜08の7欠損。2024-10本文47件だが累計2156→2406の差250、改訂・誤記未確定、補完なし。2020〜23にも累積と当初月報の差あり。2024年12月184、年2794 https://www.tsr-net.co.jp/news/status/detail/1200856_1610.html 。広義破たん年2941、12月196、累計11369 https://www.tsr-net.co.jp/data/detail/1200825_1527.html 。原資料 https://drive.google.com/file/d/1-DcF3nEAeA5giYeDsZt77W7wjU_ZuO44/view 。候補のみ、正式採用なし、成果物Drive未保存。
