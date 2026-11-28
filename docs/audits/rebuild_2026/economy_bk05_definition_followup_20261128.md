@@ -1,0 +1,3 @@
+BK05 追加定義・累積監査
+記録日時 JST 2026-11-28T18:49:17
+TSR https://www.tsr-net.co.jp/data/detail/1191384_1527.html 判明日集計、当事者・弁護士等の取材で関連性認定。https://www.tsr-net.co.jp/data/detail/1198263_1527.html 2022年2282、2023年3201（1000万円以上経営破たん）、2023末8044=7846+198、小規模385、全8429。https://www.tsr-net.co.jp/data/detail/1198337_1527.html 2024-01末8659。https://www.tsr-net.co.jp/data/detail/1200825_1527.html 2024末11369、年2941、差分2940で1件不一致。原因未確定。画像 https://www.tsr-net.co.jp/data/detail/__icsFiles/artimage/2025/01/07/ca0802/0106_corona_tukibetu.jpg 取得失敗、収録期間未確認。2024-10公式 https://www.tsr-net.co.jp/news/status/detail/1199048_1610.html に47件記載を再確認、累計差250とは不一致。月次追加採用0、欠損7維持。次は画像取得・判明系列と倒産系列の分離。
