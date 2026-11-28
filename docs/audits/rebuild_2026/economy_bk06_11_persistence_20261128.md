@@ -1,0 +1,2 @@
+BK06–11 Drive独立監査 JST 2026-11-28T19:40:31
+Drive実ファイル https://drive.google.com/file/d/1BHclt1tWvmKzmPnjcnFDIzrUy7PqRuKw/view を取得し独立SHA b34e2c18c240052cbc256ef418efc6c9f0eb4f6cf7cf59d27fb0213dab22a7fc、193299345 bytes、CRC正常。2870行、196空欄、2674数値、重複0負値0。既存BK01 ZIPも独立SHA/CRC確認、月次96/96一致、年次8/8は既存月次合計と一致。年次は派生集計として別管理。Colab内部276ハッシュ確認報告、原本差2件(tsr_drive.html,estat_tsr_metadata.json)、失敗0。Codex版全値直接比較未実施、独立セル監査未完。追加候補2570（年次TSR8除外）、総16032暫定。取得工程終了、正式採用・PRマージ保留。
