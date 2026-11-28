@@ -1,0 +1,26 @@
+{
+  "recorded_jst": "2026/11/28 10:41:22",
+  "sources": [
+    {
+      "year": 2019,
+      "filename": "r1jidoubou004-07 .xlsx",
+      "bytes": 22394,
+      "sha256": "f97d9a87128393953b53b1adcd0de4944af2c708206a639826d052fa58074d0b",
+      "drive_id": "1gmgME3-usSvQwDjmkb_GORdrmzxHCgce",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000032011621",
+      "numeric": 660,
+      "text": 275
+    },
+    {
+      "year": 2022,
+      "filename": "r4-4-7.xlsx",
+      "bytes": 20015,
+      "sha256": "e06c2ea94a32c0e8bfdd11a19723469a540ce92656053756b6f52aba7842494c",
+      "drive_id": "1J71YIpfyd9lF6UISiK-Yu7RTzJb_4jGi",
+      "url": "https://www.e-stat.go.jp/stat-search/files?stat_infid=000040108364",
+      "numeric": 660,
+      "text": 274
+    }
+  ],
+  "status": "user supplied; Drive upload succeeded; independent readback and errata reconciliation pending"
+}
