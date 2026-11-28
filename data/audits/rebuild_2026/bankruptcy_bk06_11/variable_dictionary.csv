@@ -1,0 +1,9 @@
+item,provider,category_definition,unit,frequency,source_locator
+BK06,TDB,従業員規模5区分,件,year/month,倒産動向データ編 PDF p.15–16 全国列
+BK07,TDB,個人事業主と資本金5区分,件,year/month,倒産動向データ編 PDF p.15–16 全国列
+BK08,TDB,倒産主因22区分,件,year/month,倒産動向データ編 PDF p.15–16 全国列
+BK08,TSR,物価高倒産,件,year,年間倒産記事 年間の特徴
+BK08,TSR,人手不足関連倒産,件,year,人手不足関連倒産記事 見出し
+BK09,TDB,会社更生法・破産・特別清算・民事再生法,件,year/month,倒産動向データ編 PDF p.15–16 全国列
+BK10,TDB,休廃業・解散,件,year,休廃業・解散調査 訂正版 PDF p.1
+BK11,TDB,負債1000万円以上の法的整理,件,month/year,倒産動向データ編 PDF p.18 月別推移

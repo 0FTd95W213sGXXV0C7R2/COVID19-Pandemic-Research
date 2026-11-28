@@ -1,0 +1,31 @@
+{
+  "verified_jst": "2026-11-28T19:07:32+09:00",
+  "files": {
+    "acquired": 8,
+    "failed": 4
+  },
+  "observations": {
+    "BK11": 104,
+    "BK06": 10,
+    "BK07": 12,
+    "BK08": 47,
+    "BK09": 8,
+    "BK10": 1
+  },
+  "series": {
+    "BK06": 10,
+    "BK07": 12,
+    "BK08": 46,
+    "BK09": 8,
+    "BK10": 1,
+    "BK11": 2
+  },
+  "extracted_blank": 0,
+  "duplicates": 0,
+  "negative": 0,
+  "monthly_annual_matches": 8,
+  "category_national_matches": 8,
+  "tdb_scope": "負債1000万円以上の法的整理",
+  "cross_provider": "TSRとTDBの差は測定母集団が異なるので一致判定対象外",
+  "package_sha256": "8b9dbca1aa99c5d592384d0f07e982a2ad8ec5c803e9b66b03a0841f64a51cc2"
+}
