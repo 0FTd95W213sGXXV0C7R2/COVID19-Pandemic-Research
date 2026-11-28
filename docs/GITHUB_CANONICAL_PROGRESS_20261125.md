@@ -725,3 +725,7 @@ Existing consolidated QA report: `data/audits/rebuild_2026/healthcare_worker_202
 - e-Stat 第38表 https://www.e-stat.go.jp/dbview?sid=0003377502 の掲載確認。年度範囲・基準日未確定。
 - GDP https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/files/2026/qe261_2/gdemenuja.html 2026-06-08版、2020年基準、1994Q1–2026Q1。11月版は今回未確認。名目・実質、原系列・季調別CSV掲載。
 - 文科省 https://www.mext.go.jp/content/20200513-mxt_kouhou02-000006590_2.pdf 2020-05-11 12時時点、別添2 p7 公立休業中31443、回答36028。単純比 87.2738%。回答内訳に4校差あり（31443+13+4568=36024）。理由未確認。学校数と児童生徒数は別。私立東京都・福岡県未回答。原本バイナリ保全・SHA未実施、採用保留。
+
+### 教育分野の取得・品質監査 第1バッチ（2026年11月28日 JST）
+
+文科省・e-Stat原本7点を取得。2017・2018年度の小中学校長期欠席表912値をPDF二経路で、ICT第1シート3原表の3,696セルをOOXMLと照合した。EDU06・EDU15・EDU18は部分到達L3。旧暫定データの採否は維持した。[監査・再現手順](../data/audits/rebuild_2026/education_foundation_20261128/README.md)

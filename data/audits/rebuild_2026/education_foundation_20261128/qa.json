@@ -1,0 +1,24 @@
+{
+  "started_jst": "2026-11-28T09:59:20+09:00",
+  "finished_jst": "2026-11-28T09:59:21+09:00",
+  "absence_rows": 912,
+  "absence_coordinate_agreement": 912,
+  "legacy_national_comparison": {
+    "2017": {
+      "previous": 217040,
+      "source": 217040,
+      "match": true
+    },
+    "2018": {
+      "previous": 240039,
+      "source": 240039,
+      "match": true
+    }
+  },
+  "ict_rows": 3696,
+  "ict_states": {
+    "numeric": 3411,
+    "source_symbol": 285
+  },
+  "ict_check": "openpyxl vs OOXML sheet1.xml and shared strings; second sheets not audited."
+}

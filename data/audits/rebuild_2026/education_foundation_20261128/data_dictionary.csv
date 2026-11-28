@@ -1,0 +1,10 @@
+series,field,definition_or_rule
+absence,fiscal_year,調査対象年度
+absence,prefecture_code,原表の1～47を2桁化・00は全国
+absence,nonattendance,長期欠席理由の不登校。90日以上はその内数
+absence,long_absence,病気・経済的理由・不登校・その他の合計
+absence,enrollment,原表の在籍児童生徒数。率を出す際の候補分母
+absence,other_with_nonattendance_factors,その他の内数。2017年度のみ取得。2018年度に補完しない
+ict,metric・unit,各シートの原見出しおよび単位ラベル。二次的に意味を変更しない
+ict,source_symbol,原表記を保持。非該当・秘匿・欠測の意味は凡例の確定まで保留
+ict,raw_value,観測されたワークブック値。割合を都道府県間で足さない
