@@ -1,0 +1,3 @@
+# D-3.8.1c 白書Excel取得経路監査
+記録日時 2026-11-28T23:44:59 JST
+Notion前工程参照済み。公式HTML https://www.chusho.meti.go.jp/pamflet/hakusyo/2022/chusho/b2_1_2.html 直接アクセス403。検索インデックスで図25,26,28,30,31,33,34の7図に個別Excel公開表記確認、27,29,32は未確認。全文公開ページ https://www.chusho.meti.go.jp/pamflet/hakusyo/2022/PDF/chusho.html （令和4年7月25日更新表記）に第2部第1章Excel及び全体一括Excelの公開表記。索引 https://www.chusho.meti.go.jp/pamflet/hakusyo/2022/PDF/chusho/09Hakusyo_zuhyosakuin_web.pdf 。章単位優先。直接URL、ファイル実体、内部シート、SHA、訂正反映、再配布権未確認。原資料取得0、正式採用なし。次は公式公開ページをユーザーのブラウザで開き第2部第1章Excelを取得、添付後構造監査。
