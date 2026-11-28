@@ -1,0 +1,3 @@
+BK05-02 広義経営破たん月次全数転記
+記録日時 JST 2026-11-28T18:51:14
+ユーザー添付公式画像を目視転記59/59、2020–24年合計885,1809,2394,3340,2941、累計11369。2023末再計算8428、旧公表8429との差1、原因未確定。単一目視者、独立二重転記なし。BK05-01の52候補・7欠損は別系列で未解決。画像66240 bytes SHA256 f3b427e9d0cb3ce130aeaa81d113fb1cbe45869fa8db6a3249cdf92a20c97e75。成果物ZIP SHA256 1cbedf01ad9d5a2ca91f50df5b20c995d42f7ccb1c8a199fd9e59cd612b87152、Drive未保存、正式採用・公開再配布未承認。出典 TSR 2025-01-06 https://www.tsr-net.co.jp/data/detail/1200825_1527.html 画像 https://www.tsr-net.co.jp/data/detail/__icsFiles/artimage/2025/01/07/ca0802/0106_corona_tukibetu.jpg
