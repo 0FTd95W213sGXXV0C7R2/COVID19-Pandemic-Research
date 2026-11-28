@@ -1,0 +1,3 @@
+BK03 v7 本文候補抽出監査
+記録日時(JST): 2026-11-28T18:24:29
+Drive v6 ZIP SHA256独立一致。96記事、産業別h3見出し95件、未検出1件。960候補枠: 一意884、欠損75、競合1。全国合計一致47/96 (v6 23)。画像167/167個別SHA256と形式検証PASS。正式検証0/960、採用・公開再配布未承認。候補ZIP SHA256 f8570a75631ec2a307e42f21474aa050f51baa3c739ef98bd9d344a9c9a29f9b。原資料 https://drive.google.com/file/d/1-DcF3nEAeA5giYeDsZt77W7wjU_ZuO44/view ; https://www.tsr-net.co.jp/news/status/ 。次工程: 未検出見出しと76候補不足・競合の精査、画像との個別照合。候補ZIPはChatGPT環境のみ、Drive未保存。
