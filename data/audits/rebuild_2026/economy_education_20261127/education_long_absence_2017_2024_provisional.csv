@@ -1,0 +1,9 @@
+fiscal_year,school_scope,metric,count,definition,infection_avoidance_category,source_url,status
+2017,elementary_junior_high,long_absence,217040,absence_30days,not_separate,https://www.mext.go.jp/content/20260116-mxt_jidou02-100002753_2_2.pdf,provisional_web
+2018,elementary_junior_high,long_absence,240039,absence_30days,not_separate,https://www.mext.go.jp/content/20260116-mxt_jidou02-100002753_2_2.pdf,provisional_web
+2019,elementary_junior_high,long_absence,252825,absence_30days,not_separate,https://www.mext.go.jp/content/20260116-mxt_jidou02-100002753_2_2.pdf,provisional_web
+2020,elementary_junior_high,long_absence,287747,absence_plus_suspension_etc_30days,present,https://www.mext.go.jp/content/20260116-mxt_jidou02-100002753_2_2.pdf,provisional_web
+2021,elementary_junior_high,long_absence,413750,absence_plus_suspension_etc_30days,present,https://www.mext.go.jp/content/20260116-mxt_jidou02-100002753_2_2.pdf,provisional_web
+2022,elementary_junior_high,long_absence,460648,absence_plus_suspension_etc_30days,present,https://www.mext.go.jp/content/20260116-mxt_jidou02-100002753_2_2.pdf,provisional_web
+2023,elementary_junior_high,long_absence,493440,absence_30days,not_separate,https://www.mext.go.jp/content/20260116-mxt_jidou02-100002753_2_2.pdf,provisional_web
+2024,elementary_junior_high,long_absence,506970,absence_30days,not_separate,https://www.mext.go.jp/content/20260116-mxt_jidou02-100002753_2_2.pdf,provisional_web
