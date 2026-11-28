@@ -221,20 +221,39 @@ def drive_check(paths, manifest):
     return result
 
 
+def verify_annual(directory, manifest):
+    records=json.loads(manifest.read_text())
+    names=[r['filename'] for r in records]
+    if len(names)!=14 or len(set(names))!=14 or any(r['status']!='acquired' for r in records):
+        raise ValueError('Incomplete or duplicate annual manifest')
+    if any(Path(n).name!=n for n in names):
+        raise ValueError('Invalid manifest filename')
+    if any(sum(n.startswith(f'index_{y}_') for n in names)!=1 for y in MODERN_PAGES):
+        raise ValueError('Annual report coverage mismatch')
+    paths={n:directory/n for n in names if (directory/n).is_file()}
+    check=drive_check(paths,manifest)
+    return check
+
+
 def main():
     parser=argparse.ArgumentParser()
     for key in ('cache','paths','output','annual'):
         parser.add_argument(key,type=Path)
+    parser.add_argument('--annual-manifest',type=Path,default=Path('data/audits/rebuild_2026/education_batch2_20261128/additional_manifest.json'))
     a=parser.parse_args()
     a.output.mkdir(parents=True,exist_ok=True)
     check=drive_check(dict(json.loads(a.paths.read_text())),OLD/'source_manifest.json')
     dump(a.output/'drive_sha256.json',dict(verified_at_jst=now(),files=check))
     if not check or not all(r['match'] for r in check):
         raise ValueError('Preserved source hash verification failed; extraction stopped')
+    annual_check=verify_annual(a.annual,a.annual_manifest)
+    dump(a.output/'annual_sha256.json',dict(verified_at_jst=now(),files=annual_check))
+    if not all(r['match'] for r in annual_check):
+        raise ValueError('Annual source hash verification failed; extraction stopped')
     rows=[r for y in (2017,2018) for r in panel(a.cache/f'absence_{y}.pdf',y)]
     region_names={int(r['prefecture_code']):r['prefecture'] for r in rows if r['school_type']==SCHOOLS[0]}
     for year in MODERN_PAGES:
-        path,=a.annual.glob(f'index_{year}_*.pdf')
+        path,=(a.annual/r['filename'] for r in annual_check if r['filename'].startswith(f'index_{year}_'))
         rows.extend(panel(path,year,region_names))
     for year in (2017,2018):
         rows.extend(continuation(a.cache/f'absence_{year}.pdf',year))
