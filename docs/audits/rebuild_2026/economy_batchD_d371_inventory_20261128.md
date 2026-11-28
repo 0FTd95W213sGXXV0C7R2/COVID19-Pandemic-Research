@@ -1,0 +1,3 @@
+# D-3.7.1 preliminary content inventory
+記録日時 2026-11-28T23:02:07 JST
+実際に初回ZIP https://drive.google.com/file/d/1hntc6_ByKUk-eLwF-eEG3IsIMtRl7WmG/view とA https://drive.google.com/file/d/1f51HY5mCDsfuQqst8aqOxSjuywMvZNLI/view を読み込み、成功48件のSHA256を再計算。重複ハッシュ0。PDF32 HTML14 DOCX1 XLSX1。PyMuPDF全1160ページ中1159ページ非空テキスト。SP02-06 24ページ中1非抽出。HTML title/h1/h2確認、DOCX/XLSX本文未監査。PDF表紙確認：SP02-02 2023-02-27、SP02-05 2023-03-30、SP02-06 2023-09-22、SP04-01 2023-06、SP04-02 2025-07、SP03-A02 2021-07、SP07-E02 EYストラテジー・アンド・コンサルティング株式会社 2023-07-31、SP07-E03 凸版印刷株式会社・株式会社JTB・株式会社ぐるなび 2023-06-30、SP0106-A03 2022-03-03、A04 2022-07-25。ATT-0016は記載例で実績ではない。ATT-0010/11とSP07-T01/02は速報版差を保持。全表・グラフ・著者・再配布条件未確定。B/C未読。正式採用なし。

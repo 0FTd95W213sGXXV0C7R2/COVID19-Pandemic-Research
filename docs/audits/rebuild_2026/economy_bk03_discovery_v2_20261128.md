@@ -1,0 +1,3 @@
+# BK03 discovery v2監査
+記録日時 2026-11-28T17:57:20 JST
+Colab 2026-11-28T17:56:52.199252+09:00 REQUIRES_REVIEW。GET試験3/3 HTTP200、全て98356 B、2017年1月一致0、対象URL新規0/96。検索条件未反映、動的検索は仮説。添付 geppo201701_3.jpg 産業別、_4.jpg 月次推移を発見、内容未確認。ZIP 88811 B SHA256 7127f24622138c43745ba5ada060c0e21c080529dc910f0b5b3ef6446d97d463、Colab再マウント確認。次は画像内容と検索JS全参照確認。出典 https://www.tsr-net.co.jp/news/status/detail/1196443_1610.html 。正式採用・再配布未承認。

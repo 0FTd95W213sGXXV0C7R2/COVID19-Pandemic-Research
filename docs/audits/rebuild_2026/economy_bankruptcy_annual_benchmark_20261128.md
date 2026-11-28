@@ -1,0 +1,3 @@
+# 倒産統計長期系列取得先・年間基準値
+記録日時 2026-11-28T12:05:30 JST
+TSR一次資料 https://www.tsr-net.co.jp/news/status/transition/ 暦年2017–2024 件数 8405,8235,8383,7773,6030,6428,8690,10006 負債百万円 3167637,1485469,1423238,1220046,1150703,2331443,2402645,2343538. 年間検証値16件。政府統計ダッシュボード https://dashboard.e-stat.go.jp/timeSeriesResult?indicatorCode=0701060100000010010 企業倒産件数 月285 年74 年度24、月次本体・期間・原典未検証。財務省 https://www.mof.go.jp/pri/publication/zaikin_geppo/hyou/g849/849_e.pdf 2021年1月～2022年11月月別表候補。中小企業庁ページ403。原本保存・月次取得・再配布条件未完。Codex/Colab追加なし。

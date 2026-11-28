@@ -1,0 +1,15 @@
+{
+  "verified_at_jst": "2026-11-28T10:11:44+09:00",
+  "drive_matches": 7,
+  "panel_rows": 11730,
+  "ict_rows": 5616,
+  "legacy_states": {
+    "match": 77,
+    "pending": 274,
+    "difference": 4
+  },
+  "ict_states": {
+    "numeric": 5202,
+    "source_symbol": 414
+  }
+}

@@ -1,0 +1,3 @@
+# D-3 acquisition audit
+記録日時 2026-11-28T22:13:45 JST
+User Colab log 2026-11-28T22:11:46.175547+09:00: 40/43 successful, 24/27 seeds,16/16 attachments, 681 discovered links. HTML10 PDF28 DOCX1 XLSX1. Independently materialized Drive ZIP https://drive.google.com/file/d/1hntc6_ByKUk-eLwF-eEG3IsIMtRl7WmG/view ; 91510052 bytes SHA256 a736a8e78b6539844747c3504c890af5cbaf2b3f1c7612f4d4bc172172ec48be CRC PASS 46/46 internal hashes. Audit https://drive.google.com/file/d/11dQd63_UiJXBy7A6sLi5OzwjK8Iiu5qq/view . Actual errors.json confirms HTTP403 for SP01-01,SP03-01,SP06-01. P0 coverage 2/4. Next official alternative sources/manual public browser retrieval; no bypass. No formal adoption or content completeness verified.

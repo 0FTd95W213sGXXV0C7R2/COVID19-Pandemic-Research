@@ -1,0 +1,3 @@
+# SNA永続保存合格・優先データ復旧完了
+記録日時 2026-11-28T17:51:53 JST
+Colab 2026-11-28T17:51:00.598442+09:00 PASS。ZIP 480959 B SHA256 83d59f86563f446267ec459e691c4b290f1542566f2f65fa29a5a1983f6f7702、内部13/13、原本4、11328セル、48系列1536観測値、32四半期、欠測重複0、既存増減率監査672件不適合0（再計算ではない）。Drive一覧でZIPと監査JSON存在・容量確認、独立Driveハッシュ未実施。ZIP https://drive.google.com/file/d/1GB4LFald7F4ED9XS_SEW1Flf6Ny2AhWA/view 監査 https://drive.google.com/file/d/12Qc9X1oSU_CPipxA0HwLaEoZ3buDI-Cc/view SHA256 20c852ad0e8d0a9b3b5d687a812ee3b5da1a3d6d180ebf2372ef3ce483439944。既取得優先データ12384/12384永続保存（家計CPI1440、倒産9408、SNA1536）、補助24別。正式採用未決、中間全セル復旧未完。次は業種別倒産取得。出典 https://www.esri.cao.go.jp/jp/sna/data/data_list/kakuhou/files/2024/2024_kaku_top.html

@@ -1,0 +1,3 @@
+# BK-dashboard-1.0 実行監査
+記録日時 2026-11-28T12:07:14 JST
+ユーザー提供ログ 2026-11-28T12:06:37.456711+09:00 PASS。BK01 96/96、欠測重複拒否0、年間照合8/8、API HTTP200 3件。Drive economy/bankruptcy/dashboard_20261128_120633_716462。原本SHA256 d442e37719e6b4f30ac0423e3d9416ed9e16054ba014140696b6164ac552b331、CSV 10eb47cabaa21521f7f7487ca7d33559cb6603746b99449710cb70ff0d29c25b、メタ 69cd961c9e65cd297d42eb6ce7e0bcc08fc8fe952317dfeb5bd4af58997c5730、関連メタ 0805a3d218baf65a2f1f9bc985a88457b72644a3f26227dd1896a210a0d273bf。指標0701060100000010010件、0701060200000010010百万円、全国月次200301以降、県月次200507以降。前年比全国0701060100000030010、0701060200000030010。原数値、負債1000万円以上、TSR権利帰属明記。公開再配布保留。次回全国負債・前年比・県別件数負債取得、計9408対象観測。Drive独立確認なし、正式採用false。出典 https://dashboard.e-stat.go.jp/static/api https://www.tsr-net.co.jp/news/status/transition/

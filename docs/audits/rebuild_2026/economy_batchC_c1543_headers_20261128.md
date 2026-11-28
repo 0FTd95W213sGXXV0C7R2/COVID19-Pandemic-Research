@@ -1,0 +1,3 @@
+# C15.4.3 header evidence
+記録日時: 2026-11-28T21:33:15 JST
+Actual openpyxl readback from C14.13 Drive ZIP https://drive.google.com/file/d/1Eszv0hml419ALhWOoXjyT9u0oAk-Rz0V/view and recovered CSV: 10070 rows across 11 workbooks, 10070/10070 exact string value matches, 10070 nonempty column headers (rows 1–9), 8418 with merged-header evidence. Example 000031831358 季節調整値 T779 2017-01 3; T6 完全失業率（％）, T8 男女計. Evidence CSV SHA256 4eabeab195f06b9d8172831ca3aba028f7badf5147b2d1f0518630ffd6bfa87d. Header evidence extraction only; canonical mapping pending for all rows; no dedup or adoption. CSV local only. openpyxl header/footer warning, no cell mismatch.

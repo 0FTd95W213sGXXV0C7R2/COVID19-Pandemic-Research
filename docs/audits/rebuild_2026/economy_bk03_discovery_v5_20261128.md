@@ -1,0 +1,3 @@
+BK03 discovery v5監査
+記録日時（JST）: 2026-11-28T18:04:54
+ユーザー提供Colabログ: 2026-11-28 18:04:30 JST。v4検索4/4不成立、status.jsから公式JSON発見。v5 HTTP200 1回、4897759 bytes、SHA256 55e282c2f65824367bd491705252453c8d37b7c37918fce8eda2ddfb377c69f4。96/96月URL候補、欠落・重複・曖昧0、既知URL一致、CSV再読込・Drive永続性PASS。個別記事未検証、数値0、正式採用・再配布未承認。ZIP bk03_discovery_v5_20261128_180401_697184.zip 677293 bytes SHA256 064acaae53cc90e6ff9d700edd3c2f2d327d78840f92e7bf39c20753878bb62c。出典 https://www.tsr-net.co.jp/news/status/json/search.json?data=data および https://www.tsr-net.co.jp/news/common/js/status.js 。次工程は記事タイトルと全国件数照合、産業別表の所在確認。独立ハッシュ検証未実施。

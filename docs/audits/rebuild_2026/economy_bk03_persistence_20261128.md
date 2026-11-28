@@ -1,0 +1,3 @@
+BK03 v9.1–9.4 永続保存・条件付き研究内採用判定
+記録日時(JST): 2026-11-28T18:44:58
+Colab 2026-11-28 18:43:55 JST PASS_WITH_DOCUMENTED_LIMITATIONS。Drive実ファイル2件を一覧確認・再取得し独立SHA256照合成功。ZIP 20200 bytes SHA256 881a920d19a96e901e04f4e43b36705a1ff76357172060be99ac14de9b50e25b、内部7/7 hash/size・CRC合格。監査JSON 1985 bytes SHA256 942a1ec081c00e545e3dc7152cd35eff96f5d7d4f2a73ad67bb35261b195e007。960観測、96月、10分類、年間8/8、欠損重複負数0（Colab）。月次照合は前工程継承。研究内条件付き採用候補と判定、分類範囲不変性未確認のため感度分析・解釈制約、公開再配布不可（許諾未確認）、正式承認・PR mergeなし。ZIP https://drive.google.com/file/d/1pr6jmxjda6sHrWfJQBUhkfDSYDRSwlZF/view ; JSON https://drive.google.com/file/d/1E3xcw-XylHOGju5h9tV0LCzqUA3H2N54/view ; TSR https://www.tsr-net.co.jp/news/status/ 。次工程BK05。

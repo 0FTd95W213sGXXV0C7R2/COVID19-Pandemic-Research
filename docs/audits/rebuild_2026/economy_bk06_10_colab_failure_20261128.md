@@ -1,0 +1,3 @@
+BK06–10 Colab取得失敗記録
+記録日時 JST 2026-11-28T19:02:44
+実行2026-11-28 19:02:08 JST。公式2ページHTTP403、取得0、採用0。失敗監査ZIP Drive再マウント検証済み（ユーザー実行ログによる）、1664 bytes SHA256 e884dcee5a8b2b571a79d74ea8628f32e06de84ac942b85fb3d7c0fd91ad41d0。パス COVID19_Research/economy/bankruptcy/bk06_10_20261128_190208_152819.zip。公式URL https://www.chusho.meti.go.jp/pamflet/hakusyo/2025/chusho/b1_1_8.html および https://www.chusho.meti.go.jp/koukai/chousa/tousan/index.html 。ブラウザ手動取得を提案。独立Drive監査・既存Notion本文再確認未実施。

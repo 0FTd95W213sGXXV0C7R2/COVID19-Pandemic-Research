@@ -1,0 +1,3 @@
+# D-3.5 地域報告書選別
+記録日時 2026-11-28T22:19:34 JST
+Notion D-3.3参照。Drive原本 https://drive.google.com/file/d/1hntc6_ByKUk-eLwF-eEG3IsIMtRl7WmG/view の audit/discovered_links.json と source_manifest.json をローカルで再集計。都道府県名＋番号＋括弧のリンク49件、47都道府県、静岡・鹿児島各2件。東京1件取得済、48件未取得。公表表示サイズ合計621544 KB。分割版ラベル506件は重複候補として保留（内容同一性未確認）。農林水産省公式一覧 https://www.maff.go.jp/j/shokusan/gaisyoku/hoseigoto.html 今回直接アクセス失敗、保存済みリンクを使用。追加取得未実施、全650件分類未完了、代替資料保存未完了。次は48件とD-3.3代替資料をColabで取得。

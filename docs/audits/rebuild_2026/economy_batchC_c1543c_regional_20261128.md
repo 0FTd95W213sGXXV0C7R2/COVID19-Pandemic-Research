@@ -1,0 +1,3 @@
+# C15.4.3c regional header mapping
+記録日時: 2026-11-28T21:36:03 JST
+Executed local c1543c.py on 10070 rows, opened archived workbook 000001082698, checked sex anchors, units and selected metric headers per sheet. Updated 6192 rows. Current blocks D:O,P:AA,AB:AM; previous D:M,N:W,X:AG. Previous excludes regular/nonregular. Candidate counts metric 10070, sex 9744, age 9552, unit 10070. Remaining unknown sex326 age518. Age 15+ based on table population scope; mapping provisional, no semantic dedup. CSV SHA256 68e40890e12ff86cc879f46767c4358f522aa4eb4a520a4fdcb4f48b1ebc708d. Local only. Source https://drive.google.com/file/d/1Eszv0hml419ALhWOoXjyT9u0oAk-Rz0V/view ; https://www.e-stat.go.jp/stat-search/files?stat_infid=000001082698 .

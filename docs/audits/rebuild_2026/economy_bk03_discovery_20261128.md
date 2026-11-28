@@ -1,0 +1,3 @@
+# BK03検索仕様調査結果
+記録日時 2026-11-28T17:55:37 JST
+Colab 2026-11-28 17:55:09 JST、一覧・JS8・試験HTML HTTP200、6フォーム、age/month/free_word、count12/20、sort asc/desc。age値形式・期間区分送信未確定。試験HTML tableなし、本文に産業数値・前年値混在。添付資料探索を優先。ZIP 60257 B SHA256 7116c858a438fb4958a927cc1b5afece1540f5bc42c64b91868ae883326b106a、Drive一覧存在容量確認、独立ハッシュ未実施 https://drive.google.com/file/d/1f_hdApCcVRQOUw4NXUk8gWL_WjQfRJ89/view 。全96URL・960値未確定。出典 https://www.tsr-net.co.jp/news/status/ および https://www.tsr-net.co.jp/news/status/detail/1196443_1610.html

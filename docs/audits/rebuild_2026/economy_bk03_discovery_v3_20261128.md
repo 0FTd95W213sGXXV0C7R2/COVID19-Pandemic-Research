@@ -1,0 +1,3 @@
+# BK03 discovery v3監査
+記録日時 2026-11-28T17:59:48 JST
+実行完了 2026-11-28T17:59:09.193540+09:00。DISCOVERY_COMPLETE、HTTP7/7、JPEG5/5、JS10/10（8再利用、2新規）、エラー0、再マウント確認。ZIP bk03_discovery_v3_20261128_175833_915218.zip 606040 bytes SHA256 52f1955c948c55c051035d935e738a8c81d7d2fc69b7bee0f670a95afd63056f。公式 https://www.tsr-net.co.jp/news/common/js/status.js の検索先は /news/status/index.html、フォームserialize、period_division。common.js 年値西暦4桁。検索成功は未検証。画像3 521x281 SHA256 4aba8c392c4b75d9175b5204e25926f6f35a2672ce5c65947371b0e8ab1ce5ed、画像4 567x288 SHA256 28267e93e2294d248b6032202f03e31f6ed6f7e58264cc60be5f27f1e23013c5。画像内容未確認、抽出0、正式採用・再配布未承認。出典 https://www.tsr-net.co.jp/news/status/detail/1196443_1610.html 。次はindex.html検索試験と画像確認。

@@ -1,0 +1,3 @@
+BK06–09 画像リンク棚卸し・行政統計調査
+記録日時 JST 2026-11-28T19:00:25
+96 HTMLからartimageを含むimg src 489出現（重複込み）、altに従業員・資本金・原因別・形態別の明示0。画像内容未確認、対象画像不存在とは断定不可。CSV SHA256 e1492f156801af2ea9a617cdef5f049c86b9d5d42734daa728c96472eecffbf1。中小企業庁 https://www.chusho.meti.go.jp/koukai/chousa/tousan/index.html はTSR由来の資本金・原因別等統計表、2017–24アーカイブ未確認。2025年版中小企業白書第1-1-61図 https://www.chusho.meti.go.jp/pamflet/hakusyo/2025/PDF/chusho/03Hakusyo_part1_chap1_web.pdf は2022–24従業員6区分月次グラフ、数値表未取得。正式採用0。Notion既存本文直接再確認未実施。

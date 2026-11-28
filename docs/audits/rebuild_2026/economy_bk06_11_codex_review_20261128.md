@@ -1,0 +1,2 @@
+BK06–11 Codex受入文書監査 JST 2026-11-28T19:10:21
+PR #4 commit 540ed9e14826209cd52630ec2d053bac4bd177dc の報告書、quality_audit.json、source_manifest.json、availability.csvを直接確認。182行、8成功4失敗、分類合計8/8、年次8/8は報告間一致。原本・CSV・ZIP未取得につき独立数値監査なし。ZIP期待SHA 8b9dbca1aa99c5d592384d0f07e982a2ad8ec5c803e9b66b03a0841f64a51cc2。TDBとTSR定義別、期間欠損あり、資料公表日・改定日不明。正式採用・マージ保留。次はCodex成果物ZIP受領とDrive保存、過年度TDB年報・月報補完。https://github.com/0FTd95W213sGXXV0C7R2/COVID19-Pandemic-Research/pull/4
