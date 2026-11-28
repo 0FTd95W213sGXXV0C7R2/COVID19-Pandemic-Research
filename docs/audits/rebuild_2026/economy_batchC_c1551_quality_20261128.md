@@ -1,0 +1,3 @@
+# C15.5.1 quality ledgers
+記録日時: 2026-11-28T21:49:19 JST
+Executed c1551.py locally. LFS 10070: C7658 D2412; C13 89938: B11296 C76914 D1728; absence B288; wage B576. D flags old vintage 2412, equal wage overlap384, job detail overlap1344, no deletion. B conditional only, A zero. C14 full inventory not classified; archives overlap, counts not additive. ZIP CRC passed, internal hash manifest generated, SHA256 9ef2cd8fcf3e9cc68e23e8f35d9b565f3f283572d2cb98f1537428d214c65417. Local only, no Drive upload. Sources https://app.notion.com/p/426ffd9b973581fdb813d75839469a54 ; https://drive.google.com/file/d/12FStOOQcvFG8Le32HRzCl451UBBmhg_F/view ; https://drive.google.com/file/d/1Eszv0hml419ALhWOoXjyT9u0oAk-Rz0V/view .
