@@ -1,0 +1,67 @@
+[
+  {
+    "source": "wage_method.pdf",
+    "page": 2,
+    "evidence": "○   実質賃金（指数）は、名目賃金指数を消費者物価指数（持家の帰属家賃を除く総合）で除して算出している。"
+  },
+  {
+    "source": "wage_method.pdf",
+    "page": 2,
+    "evidence": "※基準年の指数が100となるように基準数値を設定している       ＝                         × 100"
+  },
+  {
+    "source": "wage_method.pdf",
+    "page": 2,
+    "evidence": "消費者物価指数（持家の帰属家賃を除く総合）"
+  },
+  {
+    "source": "wage_method.pdf",
+    "page": 2,
+    "evidence": "（注）毎月勤労統計調査における実質賃金の算定においては、消費者物価指数（持家の帰属家賃を除く総合）を使用している。"
+  },
+  {
+    "source": "wage_method.pdf",
+    "page": 2,
+    "evidence": "る実質賃金の算定には「持家の帰属家賃を除く総合」の指数を用いている。"
+  },
+  {
+    "source": "wage_symbols.pdf",
+    "page": 1,
+    "evidence": "01        １月   TL    調査産業計                                     Ｔ   常用労働者数 事業所規模    ５人以上   0      就業形態計"
+  },
+  {
+    "source": "wage_guide.pdf",
+    "page": 3,
+    "evidence": "「年」を2015～2025、「月」をCY（暦年）、産業分類をTL（調査産業計）、"
+  },
+  {
+    "source": "wage_guide.pdf",
+    "page": 3,
+    "evidence": "実数       複数年        CY              TL            T            0          （時系列）"
+  },
+  {
+    "source": "wage_guide.pdf",
+    "page": 3,
+    "evidence": "実数    2015～25            CY              TL               T             0           340,000"
+  },
+  {
+    "source": "wage_guide.pdf",
+    "page": 3,
+    "evidence": "① 年列と数値列を選ぶ              ②［挿入］→折れ線          ③ タイトル・単位・出典を付ける"
+  },
+  {
+    "source": "wage_guide.pdf",
+    "page": 4,
+    "evidence": "TL     調査産業計           H     運輸業，郵便業       N"
+  },
+  {
+    "source": "wage_guide.pdf",
+    "page": 4,
+    "evidence": "7        30～99人                                                       産業分類コード 情報・運輸・商業・金融・サービス等"
+  },
+  {
+    "source": "wage_guide.pdf",
+    "page": 4,
+    "evidence": "産業分類コード                   建設業・製造業                                            ド                     ド                   ド"
+  }
+]

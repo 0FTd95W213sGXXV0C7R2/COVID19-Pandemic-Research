@@ -1,0 +1,465 @@
+{
+  "executed_jst": "2026-11-28T20:31:26+09:00",
+  "acquisition": {
+    "acquired": 54
+  },
+  "source_overlap_mentions": {
+    "pref_quarter.xlsx": 0,
+    "pref_annual.xlsx": 0,
+    "jobs_01.xlsx": 0,
+    "jobs_02.xlsx": 0,
+    "jobs_03.xlsx": 0,
+    "jobs_04.xlsx": 0,
+    "jobs_05.xlsx": 0,
+    "jobs_06.xlsx": 0,
+    "jobs_07.xlsx": 0,
+    "jobs_08.xlsx": 0,
+    "jobs_09.xlsx": 0,
+    "jobs_10.xlsx": 0,
+    "jobs_11.xlsx": 0,
+    "wage_symbols.pdf": 1,
+    "wage_index.csv": 7
+  },
+  "reason_unique_period_metric": 510,
+  "reason_revision_candidates": 69,
+  "rows": 89938,
+  "kinds": {
+    "numeric": 89650,
+    "symbol_or_text": 288
+  },
+  "coordinate_duplicates": 0,
+  "extraction_issues": [],
+  "coverage": [
+    {
+      "source": "flows_2017.pdf",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2,
+      "periods": 1
+    },
+    {
+      "source": "flows_2018.pdf",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2,
+      "periods": 1
+    },
+    {
+      "source": "flows_2019.pdf",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2,
+      "periods": 1
+    },
+    {
+      "source": "flows_2020.pdf",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2,
+      "periods": 1
+    },
+    {
+      "source": "flows_2021.pdf",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2,
+      "periods": 1
+    },
+    {
+      "source": "flows_2022.pdf",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2,
+      "periods": 1
+    },
+    {
+      "source": "flows_2023.pdf",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2,
+      "periods": 1
+    },
+    {
+      "source": "flows_2024.pdf",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2,
+      "periods": 1
+    },
+    {
+      "source": "jobs_01.xlsx",
+      "frequency": "fiscal_year",
+      "adjustment": "original",
+      "rows": 72,
+      "periods": 8
+    },
+    {
+      "source": "jobs_01.xlsx",
+      "frequency": "fiscal_year",
+      "adjustment": "seasonally_adjusted",
+      "rows": 72,
+      "periods": 8
+    },
+    {
+      "source": "jobs_01.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 864,
+      "periods": 96
+    },
+    {
+      "source": "jobs_01.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 864,
+      "periods": 96
+    },
+    {
+      "source": "jobs_01.xlsx",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 288,
+      "periods": 32
+    },
+    {
+      "source": "jobs_01.xlsx",
+      "frequency": "quarter",
+      "adjustment": "seasonally_adjusted",
+      "rows": 288,
+      "periods": 32
+    },
+    {
+      "source": "jobs_01.xlsx",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 72,
+      "periods": 8
+    },
+    {
+      "source": "jobs_01.xlsx",
+      "frequency": "year",
+      "adjustment": "seasonally_adjusted",
+      "rows": 72,
+      "periods": 8
+    },
+    {
+      "source": "jobs_02.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_02.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_03.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_03.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_04.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_04.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_05.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_05.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_06.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_06.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_07.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_07.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_08.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_08.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 288,
+      "periods": 96
+    },
+    {
+      "source": "jobs_09.xlsx",
+      "frequency": "fiscal_year",
+      "adjustment": "original",
+      "rows": 488,
+      "periods": 8
+    },
+    {
+      "source": "jobs_09.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 5856,
+      "periods": 96
+    },
+    {
+      "source": "jobs_09.xlsx",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 488,
+      "periods": 8
+    },
+    {
+      "source": "jobs_10.xlsx",
+      "frequency": "fiscal_year",
+      "adjustment": "original",
+      "rows": 72,
+      "periods": 8
+    },
+    {
+      "source": "jobs_10.xlsx",
+      "frequency": "fiscal_year",
+      "adjustment": "seasonally_adjusted",
+      "rows": 72,
+      "periods": 8
+    },
+    {
+      "source": "jobs_10.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 864,
+      "periods": 96
+    },
+    {
+      "source": "jobs_10.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 864,
+      "periods": 96
+    },
+    {
+      "source": "jobs_10.xlsx",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 72,
+      "periods": 8
+    },
+    {
+      "source": "jobs_10.xlsx",
+      "frequency": "year",
+      "adjustment": "seasonally_adjusted",
+      "rows": 72,
+      "periods": 8
+    },
+    {
+      "source": "jobs_11.xlsx",
+      "frequency": "fiscal_year",
+      "adjustment": "original",
+      "rows": 2304,
+      "periods": 8
+    },
+    {
+      "source": "jobs_11.xlsx",
+      "frequency": "month",
+      "adjustment": "original",
+      "rows": 27648,
+      "periods": 96
+    },
+    {
+      "source": "jobs_11.xlsx",
+      "frequency": "month",
+      "adjustment": "seasonally_adjusted",
+      "rows": 27648,
+      "periods": 96
+    },
+    {
+      "source": "jobs_11.xlsx",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2304,
+      "periods": 8
+    },
+    {
+      "source": "pref_annual.xlsx",
+      "frequency": "year",
+      "adjustment": "original",
+      "rows": 2256,
+      "periods": 8
+    },
+    {
+      "source": "pref_quarter.xlsx",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 9024,
+      "periods": 32
+    },
+    {
+      "source": "reason_2020_2sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 180,
+      "periods": 6
+    },
+    {
+      "source": "reason_2020_4sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 240,
+      "periods": 8
+    },
+    {
+      "source": "reason_2021_1sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 270,
+      "periods": 9
+    },
+    {
+      "source": "reason_2021_2sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 270,
+      "periods": 9
+    },
+    {
+      "source": "reason_2021_3sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 270,
+      "periods": 9
+    },
+    {
+      "source": "reason_2021_4sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 270,
+      "periods": 9
+    },
+    {
+      "source": "reason_2022_1sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 270,
+      "periods": 9
+    },
+    {
+      "source": "reason_2022_2sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 270,
+      "periods": 9
+    },
+    {
+      "source": "reason_2022_3sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 270,
+      "periods": 9
+    },
+    {
+      "source": "reason_2022_4sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 270,
+      "periods": 9
+    },
+    {
+      "source": "reason_2023_1sankou.pdf",
+      "frequency": "quarter",
+      "adjustment": "original",
+      "rows": 270,
+      "periods": 9
+    },
+    {
+      "source": "wage_index.csv",
+      "frequency": "month",
+      "adjustment": "unconfirmed",
+      "rows": 384,
+      "periods": 96
+    },
+    {
+      "source": "wage_index.csv",
+      "frequency": "year",
+      "adjustment": "unconfirmed",
+      "rows": 32,
+      "periods": 8
+    }
+  ],
+  "sources_without_observations": [
+    "absence_metadata.html",
+    "flows_2017.html",
+    "flows_2018.html",
+    "flows_2019.html",
+    "flows_2020.html",
+    "flows_2021.html",
+    "flows_2022.html",
+    "flows_2023.html",
+    "flows_2024.html",
+    "flows_index.html",
+    "jobs_index.html",
+    "labor_archive.html",
+    "pref_annual_listing.html",
+    "pref_quarter_listing.html",
+    "reason_2020_3sankou.pdf",
+    "wage_000032189741.html",
+    "wage_000032189777.html",
+    "wage_code.html",
+    "wage_guide.pdf",
+    "wage_method.pdf",
+    "wage_symbols.pdf"
+  ],
+  "independent_extraction": "未実施",
+  "prior_row_overlap": "未照合。医療従事者系列は別母集団・版を含む"
+}
