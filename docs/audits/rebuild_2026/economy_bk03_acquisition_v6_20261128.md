@@ -1,0 +1,3 @@
+BK03 v6取得監査
+記録日時(JST): 2026-11-28T18:21:13
+ユーザー提供Colabログ 2026-11-28 18:20:37 JST。96/96記事・年月・BK01全国件数一致、96/96画像存在、167画像、263/263 HTTP200、HTML表0、本文候補合計一致23/96、欠落・エラー0。正式数値検証0/960、採用・再配布未承認。ZIP bk03_acquisition_v6_20261128_180632_888060_final.zip 15052955 bytes SHA256 84f195a09f213eb63e03491ed20eb43d65cb3442076388628a60c56182881c7e。Colab再マウント検証PASS、独立ハッシュ未検証。出典 https://www.tsr-net.co.jp/news/status/ ; https://dashboard.e-stat.go.jp/timeSeriesResult?indicatorCode=0701060100000010010 。次工程: 保存済み本文・画像の構造診断、数値抽出と個別照合。
