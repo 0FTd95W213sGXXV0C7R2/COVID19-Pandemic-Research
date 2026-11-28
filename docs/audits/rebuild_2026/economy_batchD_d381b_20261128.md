@@ -1,0 +1,3 @@
+# D-3.8.1b 補完監査
+記録日時 2026-11-28T23:37:32 JST
+中小企業庁 2022年版中小企業白書 第2部第1章第2節 https://www.chusho.meti.go.jp/pamflet/hakusyo/2022/chusho/b2_1_2.html 図2-1-25,26の週別申請・給付Excelリンク掲載を確認（URL実体・ファイル未取得）、27地域業種給付比率、28売上減少対象月Excel、29資本金別分布、30–34家賃・雇調候補。PDF https://www.chusho.meti.go.jp/pamflet/hakusyo/2022/PDF/chusho/04Hakusyo_part2_chap1_web.pdf 。経産省 https://www.meti.go.jp/covid-19/jizokuka-info.html 検索結果では441万申請424万給付約5.5兆、直接取得403。会計検査院 https://report.jbaudit.go.jp/org/r02/2020-r02-0659-0.htm 図4画像未精査、2020年5月143万余、2021年1月10万超。白書も2021年3月末424万と記載するため会計検査院423万との差を単なる日付差と断定不可。地域上位東京17.2大阪8.6神奈川6.5、業種建設19.3卸小売12.7宿泊飲食12.6%。比率分母の厳密定義未確認。SP0106 B候補、SP0101 C（週次Excel未取得、月次変換不能の場合あり）。追加資料保存未実施、正式採用なし。次は白書Excel実体取得・定義照合。
