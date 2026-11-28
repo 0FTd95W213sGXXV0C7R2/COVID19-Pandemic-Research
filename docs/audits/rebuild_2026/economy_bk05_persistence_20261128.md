@@ -1,0 +1,3 @@
+BK05 永続保存最終監査
+記録日時 JST 2026-11-28T18:57:42
+Colab 2026-11-28 18:55:50 JST PASS_WITH_DOCUMENTED_LIMITATIONS。Drive実ファイル2件再取得し独立SHA256一致、ZIP CRC正常、内部8/8 hash/size一致。ZIP 101095 bytes SHA b9aa6fa320a70ba674dd449d00662eea15df53c8706d163a9f9425c4397a08aa https://drive.google.com/file/d/1LZwWVZcLiNh1jY-iHyl9ed9b64lNfVXb/view ; JSON 1685 bytes SHA 557bb87ad2803518d8215961f67efd4b92f5d1097948c835dbfbf72cd79c4d6a https://drive.google.com/file/d/1e8jUkWOcPWfQalil0kL-EDQZIKGUoczD/view 。BK05-02 59主分析候補、03 59派生記述用、01 52候補隔離（7欠損・10月不整合）。独立第二者転記なし、公開再配布許諾未確認、正式採用なし。取得工程終了、次BK06。出典 https://www.tsr-net.co.jp/data/detail/1200825_1527.html
