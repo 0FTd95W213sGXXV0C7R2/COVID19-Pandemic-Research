@@ -1,0 +1,3 @@
+# Batch C-11 priority LFS mapping
+2026-11-28T20:06:23 JST
+Source archive https://drive.google.com/file/d/1GjyvkuKva9Apc4loKgSnKisnFLnfwUF7/view ; prior C-8 Notion 426ffd9b-9735-819b-849c-e0e750e2a906. Actual container mapping from original headers and existing cell CSV: LC01 3456, LC04 1152, LC12 1728, LC13 1728, total 8064 numeric /84 series. Original and seasonally adjusted separate; seasonal indices excluded. All selected cells compared to original Excel values, unique series/month keys. CSV SHA256 6f85284170cb66e6ba67703d4787195c12228b363477adf67c921b9d0c8450a6. Remaining seven workbooks not mapped; semantic overlap not deduplicated; Drive persistence and formal adoption pending.
