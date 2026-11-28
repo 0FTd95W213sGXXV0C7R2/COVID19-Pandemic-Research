@@ -1,0 +1,4 @@
+# 家計・CPI定義監査
+記録日時 2026-11-28T11:50:45 JST
+総務省統計局「家計調査の変動調整値とは？」阿向泰二郎 https://www.stat.go.jp/info/today/140.html 、2024年概要 https://www.stat.go.jp/data/kakei/2024np/pdf/gaiyou.pdf 、長期時系列 https://www.stat.go.jp/data/kakei/longtime/ 。2018/19前年比は公式変動調整値優先、原数値と別管理。追加取得対象は変動調整率と調整額。用語解説 https://www.stat.go.jp/data/kakei/kaisetsu.html 実質率は対応CPI、消費支出は帰属家賃除く総合。記号7056と空欄1973の個別理由未確定、ゼロ補完禁止。
+総務省統計局「2020年収支項目分類改定に伴う家計調査データベース（e-Stat）の変更内容について」2020-02-07 https://www.stat.go.jp/data/kakei/pdf/change2020.pdf 、改定内容 https://www.stat.go.jp/data/kakei/change20.html 、分類一覧 https://www.stat.go.jp/data/kakei/9.html 。公式DBは旧品目を合算・接続する場合あり。旧新全品目原本は別保持。例：314+304→304、43X+430→430。名称一致673候補は未承認。2025改定後の長期表も定義確認必要。優先変数は消費支出、食料、外食、交通通信、教育、保健医療、教養娯楽、光熱水道、CPI総合・食料・エネルギー・帰属家賃除く総合。系列ID・単位・欠測注記は未検証。正式採用保留。Codex追加なし。資料は公式ウェブ閲覧のみ、原本保存未実施。
