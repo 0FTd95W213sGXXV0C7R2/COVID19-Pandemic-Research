@@ -1,3 +1,5 @@
+import hashlib
+import json
 from http.client import IncompleteRead
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -7,7 +9,7 @@ from urllib.error import HTTPError
 
 import openpyxl
 
-from education_batch2 import check_totals, region_table, rounding_matches
+from education_batch2 import check_totals, region_table, rounding_matches, verify_annual
 from education_sources import acquire
 from audit_education_sources import xlsx_first_sheet_values
 
@@ -66,3 +68,26 @@ class Batch2Tests(TestCase):
             self.assertEqual(values['A1'],'***')
             self.assertIsNone(values.get('B1'))
             self.assertEqual(values['A2'],0)
+
+    def test_annual_manifest_integrity(self):
+        with TemporaryDirectory() as directory:
+            root=Path(directory)
+            names=[f'index_{y}_fixture.pdf' for y in range(2019,2025)]
+            names += [f'errata_{i}.pdf' for i in range(7)]+['overview_2024.pdf']
+            records=[]
+            for name in names:
+                data=name.encode()
+                (root/name).write_bytes(data)
+                records.append(dict(filename=name,status='acquired',sha256=hashlib.sha256(data).hexdigest()))
+            manifest=root/'manifest.json'
+            manifest.write_text(json.dumps(records))
+            self.assertTrue(all(r['match'] for r in verify_annual(root,manifest)))
+            (root/names[0]).write_bytes(b'changed')
+            (root/names[1]).unlink()
+            self.assertEqual(sum(not r['match'] for r in verify_annual(root,manifest)),2)
+            manifest.write_text(json.dumps(records[:-1]))
+            with self.assertRaisesRegex(ValueError,'Incomplete'):
+                verify_annual(root,manifest)
+            manifest.write_text(json.dumps(records[:-1]+[records[0]]))
+            with self.assertRaisesRegex(ValueError,'duplicate'):
+                verify_annual(root,manifest)
